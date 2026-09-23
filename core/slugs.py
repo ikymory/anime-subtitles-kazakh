@@ -44,6 +44,9 @@ KNOWN_BASE_SLUGS = {
     "fate/stay night": "fsn",
     "fate/zero": "fate-zero",
     "great teacher onizuka": "gto",
+    "jojo's bizarre adventure": "jojo",
+    "jojo no kimyou na bouken": "jojo",
+    "jojo": "jojo",
 
     # Full understandable slugs
     "boku no hero academia": "my-hero-academia",
@@ -152,6 +155,23 @@ def _extract_season_suffix(title: str) -> Tuple[str, str]:
     if re.search(r":re\b", t, re.I):
         cleaned = re.sub(r":re\b", "", t, flags=re.I).strip(" :-")
         return cleaned, "-re"
+
+    # JoJo Bizarre Adventure seasons & parts
+    if re.search(r"stardust\s*crusaders.*egypt", t, re.I):
+        cleaned = re.sub(r":?\s*stardust\s*crusaders.*egypt-?hen.*", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s3"
+    if re.search(r"stardust\s*crusaders", t, re.I):
+        cleaned = re.sub(r":?\s*stardust\s*crusaders.*", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s2"
+    if re.search(r"diamond\s*wa\s*kudakenai|diamond\s*is\s*unbreakable", t, re.I):
+        cleaned = re.sub(r":?\s*(diamond\s*wa\s*kudakenai|diamond\s*is\s*unbreakable).*", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s4"
+    if re.search(r"ougon\s*no\s*kaze|golden\s*wind|vento\s*aureo", t, re.I):
+        cleaned = re.sub(r":?\s*(ougon\s*no\s*kaze|golden\s*wind|vento\s*aureo).*", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s5"
+    if re.search(r"stone\s*ocean", t, re.I):
+        cleaned = re.sub(r":?\s*stone\s*ocean.*", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s6"
 
     return t, ""
 
