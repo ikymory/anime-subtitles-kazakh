@@ -1,5 +1,6 @@
 """FastAPI REST API server for Anime Subtitles Kazakh."""
 import json
+import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from fastapi import FastAPI, HTTPException, Query, Response
@@ -7,6 +8,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR))
+from core.slugs import get_anime_slug
 DATA_DIR = BASE_DIR / "data"
 SUBTITLES_DIR = BASE_DIR / "subtitles"
 ANIME_FILE = DATA_DIR / "anime_top300.json"
@@ -145,17 +148,25 @@ def get_subtitles(
     format: str = Query("srt", pattern="^(srt|ass|vtt|json)$", description="Format: srt, ass, vtt, json")
 ):
     anime_dir = SUBTITLES_DIR / str(anime_id)
-    file_path = anime_dir / f"ep_{ep:02d}.kk.{format}"
+    catalog = _load_anime_catalog()
+    anime = next((a for a in catalog if a["id"] == anime_id), None)
+    slug = get_anime_slug(anime) if anime else str(anime_id)
 
-    if not file_path.exists() and format != "json":
-        # Fallback check if srt exists
-        srt_file = anime_dir / f"ep_{ep:02d}.kk.srt"
-        if not srt_file.exists():
-            raise HTTPException(status_code=404, detail=f"Kazakh subtitles for anime {anime_id} episode {ep} not found")
-        file_path = srt_file
+    candidates = [
+        anime_dir / f"{slug}-{ep}-ep.{format}",
+        anime_dir / f"ep_{ep:02d}.kk.{format}",
+        anime_dir / f"{slug}-{ep}-ep.srt",
+        anime_dir / f"ep_{ep:02d}.kk.srt"
+    ]
 
-    if not file_path.exists():
-        raise HTTPException(status_code=404, detail="Subtitle file not found")
+    file_path = None
+    for cand in candidates:
+        if cand.exists():
+            file_path = cand
+            break
+
+    if not file_path:
+        raise HTTPException(status_code=404, detail=f"Kazakh subtitles for anime {anime_id} episode {ep} not found")
 
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()

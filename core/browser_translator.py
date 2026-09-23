@@ -1,7 +1,10 @@
-"""Headless browser neural translation engine for anime subtitles.
+"""High-speed headless browser neural translation engine for anime subtitles.
 
-Zero-cost, zero-ban, high-throughput translation with full context support.
-Uses Playwright with DOM-based indexed batching ([1] line, [2] line) for 100% line alignment.
+Features:
+- Ultra-high throughput: persistent browser instance, 65-line batching with index markers.
+- SQLite WAL mode for fast concurrent caching.
+- Zero-cost, zero-ban, 100% line alignment guarantee.
+- Cleans furigana and speaker tags while preserving sound effect cues.
 """
 import os
 import re
@@ -42,10 +45,14 @@ def preprocess_text(line: str) -> str:
 class BrowserTranslator:
     def __init__(self):
         self._init_db()
+        self._playwright = None
+        self._browser = None
 
     def _init_db(self):
         CACHE_DB.parent.mkdir(parents=True, exist_ok=True)
         with sqlite3.connect(CACHE_DB) as conn:
+            conn.execute("PRAGMA journal_mode=WAL;")
+            conn.execute("PRAGMA synchronous=NORMAL;")
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS cache (
                     source_lang TEXT,
@@ -54,6 +61,33 @@ class BrowserTranslator:
                     translated_text TEXT
                 )
             """)
+
+    def _ensure_browser(self):
+        if not self._browser:
+            self._playwright = sync_playwright().start()
+            self._browser = self._playwright.chromium.launch(headless=True)
+        return self._browser
+
+    def close(self):
+        if self._browser:
+            try:
+                self._browser.close()
+            except Exception:
+                pass
+            self._browser = None
+        if self._playwright:
+            try:
+                self._playwright.stop()
+            except Exception:
+                pass
+            self._playwright = None
+
+    def __enter__(self):
+        self._ensure_browser()
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.close()
 
     def _get_cached(self, text: str, source_lang: str, target_lang: str) -> Optional[str]:
         if not text:
@@ -91,8 +125,8 @@ class BrowserTranslator:
 
         results_map = {}
         try:
-            page.goto(url, timeout=20000)
-            page.wait_for_selector("span[jsname=\"W297wb\"]", timeout=12000)
+            page.goto(url, timeout=25000)
+            page.wait_for_selector("span[jsname=\"W297wb\"]", timeout=15000)
             time.sleep(1.0)
             res_elements = page.locator("span[jsname=\"W297wb\"]").all_inner_texts()
             full_out = "".join(res_elements)
@@ -154,23 +188,23 @@ class BrowserTranslator:
         if not missing_texts:
             return [r if r is not None else "" for r in results]
 
-        print(f"  -> Translating {len(missing_texts)} lines via headless natural browser engine...", flush=True)
+        print(f"  -> Translating {len(missing_texts)} lines via high-speed browser engine...", flush=True)
 
-        # 2. Run Playwright in indexed batches of 35 lines
-        batch_size = 35
+        # 2. Run in high-capacity batches of 65 lines using persistent browser
+        batch_size = 65
         translated_all: List[str] = []
 
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
+        browser = self._ensure_browser()
+        page = browser.new_page()
 
+        try:
             for c in range(0, len(missing_texts), batch_size):
                 chunk = missing_texts[c:c + batch_size]
                 chunk_res = self._translate_batch(page, chunk, source_lang=source_lang, target_lang=target_lang)
                 translated_all.extend(chunk_res)
                 print(f"     [{min(c + batch_size, len(missing_texts))}/{len(missing_texts)}] lines translated...", flush=True)
-
-            browser.close()
+        finally:
+            page.close()
 
         # 3. Store clean lines into SQLite cache and assign to results
         for orig, trans, idx in zip(missing_texts, translated_all, missing_indices):
@@ -184,22 +218,22 @@ class BrowserTranslator:
         return [r if r is not None else "" for r in results]
 
 if __name__ == "__main__":
-    bt = BrowserTranslator()
-    sample = [
-        "（アルミン）その日 人類は思い出した",
-        "奴(やつ)らに支配されていた恐怖を",
-        "鳥籠の中に とらわれていた屈辱を",
-        "総員 戦闘用意！",
-        "目標は１体だ 必ず仕留めろ！",
-        "あっ また飲んでる",
-        "お前らも一緒にどうだ？",
-        "酒臭っ"
-    ]
-    t0 = time.time()
-    out = bt.translate_lines(sample, source_lang="ja", target_lang="kk")
-    print(f"\nTranslated {len(sample)} lines in {time.time() - t0:.2f}s:")
-    for o, res in zip(sample, out):
-        print(f"  {o} -> {res}")
-    assert len(out) == len(sample)
-    assert not JP_CHAR_REGEX.search("".join(out))
-    print("\nBrowserTranslator self-check PASSED (100% clean, 0% leaks).")
+    with BrowserTranslator() as bt:
+        sample = [
+            "（アルミン）その日 人類は思い出した",
+            "奴(やつ)らに支配されていた恐怖を",
+            "鳥籠の中に とらわれていた屈辱を",
+            "総員 戦闘用意！",
+            "目標は１体だ 必ず仕留めろ！",
+            "あっ また飲んでる",
+            "お前らも一緒にどうだ？",
+            "酒臭っ"
+        ]
+        t0 = time.time()
+        out = bt.translate_lines(sample, source_lang="ja", target_lang="kk")
+        print(f"\nTranslated {len(sample)} lines in {time.time() - t0:.2f}s:")
+        for o, res in zip(sample, out):
+            print(f"  {o} -> {res}")
+        assert len(out) == len(sample)
+        assert not JP_CHAR_REGEX.search("".join(out))
+        print("\nBrowserTranslator high-speed self-check PASSED.")

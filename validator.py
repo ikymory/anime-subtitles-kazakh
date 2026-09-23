@@ -64,7 +64,8 @@ def audit_all_subtitles() -> List[Dict[str, Any]]:
     if not SUBTITLES_DIR.exists():
         return results
 
-    for srt_path in sorted(SUBTITLES_DIR.glob("*/*.kk.srt")):
+    all_srt_paths = sorted(set(list(SUBTITLES_DIR.glob("*/*-ep.srt")) + list(SUBTITLES_DIR.glob("*/*.kk.srt"))))
+    for srt_path in all_srt_paths:
         res = audit_subtitle_file(srt_path)
         res["path"] = str(srt_path)
         results.append(res)

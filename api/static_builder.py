@@ -1,10 +1,14 @@
 """Static JSON API and GitHub Pages website builder."""
 import json
+import re
 import shutil
+import sys
 from pathlib import Path
 from typing import Any, Dict, List
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE_DIR))
+from core.slugs import get_anime_slug
 DATA_DIR = BASE_DIR / "data"
 SUBTITLES_DIR = BASE_DIR / "subtitles"
 DIST_DIR = BASE_DIR / "dist"
@@ -33,35 +37,47 @@ def build_static_api():
     if STATUS_FILE.exists():
         with open(STATUS_FILE, "r", encoding="utf-8") as f:
             status = json.load(f)
-
     # 1. Per-anime detail pages
     catalog_summary = []
     for a in catalog:
         a_id = str(a["id"])
+        slug = get_anime_slug(a)
         stat = status.get(a_id, {})
         anime_sub_dir = SUBTITLES_DIR / a_id
 
         episodes_data = []
         if anime_sub_dir.exists():
-            for srt in sorted(anime_sub_dir.glob("*.kk.srt")):
-                ep_num_str = srt.name.replace("ep_", "").replace(".kk.srt", "")
-                try:
-                    ep_num = int(ep_num_str)
-                except ValueError:
-                    ep_num = 1
+            found_eps = set()
+            for srt in sorted(list(anime_sub_dir.glob("*-ep.srt")) + list(anime_sub_dir.glob("*.kk.srt"))):
+                # Extract ep number
+                m = re.search(r"(\d+)-ep\.srt$", srt.name) or re.search(r"ep_(\d+)\.kk\.srt$", srt.name)
+                if not m:
+                    continue
+                ep_num = int(m.group(1))
+                if ep_num in found_eps:
+                    continue
+                found_eps.add(ep_num)
+
+                user_name = f"{slug}-{ep_num}-ep.srt"
+                user_srt = anime_sub_dir / user_name
+                srt_file = user_name if user_srt.exists() else f"ep_{ep_num:02d}.kk.srt"
+                vtt_file = f"{slug}-{ep_num}-ep.vtt" if (anime_sub_dir / f"{slug}-{ep_num}-ep.vtt").exists() else f"ep_{ep_num:02d}.kk.vtt"
+                ass_file = f"{slug}-{ep_num}-ep.ass" if (anime_sub_dir / f"{slug}-{ep_num}-ep.ass").exists() else (f"ep_{ep_num:02d}.kk.ass" if (anime_sub_dir / f"ep_{ep_num:02d}.kk.ass").exists() else None)
 
                 episodes_data.append({
                     "episode": ep_num,
                     "language": "kk",
+                    "filename": user_name,
                     "files": {
-                        "srt": f"{CDN_BASE_URL}/{a_id}/ep_{ep_num:02d}.kk.srt",
-                        "vtt": f"{CDN_BASE_URL}/{a_id}/ep_{ep_num:02d}.kk.vtt",
-                        "ass": f"{CDN_BASE_URL}/{a_id}/ep_{ep_num:02d}.kk.ass" if (anime_sub_dir / f"ep_{ep_num:02d}.kk.ass").exists() else None
+                        "srt": f"{CDN_BASE_URL}/{a_id}/{srt_file}",
+                        "vtt": f"{CDN_BASE_URL}/{a_id}/{vtt_file}",
+                        "ass": f"{CDN_BASE_URL}/{a_id}/{ass_file}" if ass_file else None
                     }
                 })
 
         detail = {
             "id": a["id"],
+            "slug": slug,
             "title": a.get("title"),
             "format": a.get("format"),
             "episodes": a.get("episodes"),
