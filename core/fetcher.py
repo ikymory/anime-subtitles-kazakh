@@ -1,4 +1,4 @@
-"""Subtitle search, matching, and download engine."""
+"""Subtitle search, matching, and download engine using full Kitsunekko tree index."""
 import json
 import os
 import re
@@ -9,10 +9,13 @@ from typing import Any, Dict, List, Optional, Tuple
 
 CACHE_DIR = Path(__file__).resolve().parent.parent / "data"
 INDEX_FILE = CACHE_DIR / "kitsunekko_index.json"
+FULL_TREE_FILE = CACHE_DIR / "kitsunekko_full_tree.json"
 
 KITSUNEKKO_REPO = "Ajatt-Tools/kitsunekko-mirror"
 KITSUNEKKO_RAW_BASE = f"https://raw.githubusercontent.com/{KITSUNEKKO_REPO}/main"
 KITSUNEKKO_API_BASE = f"https://api.github.com/repos/{KITSUNEKKO_REPO}"
+
+_TREE_MAP: Optional[Dict[str, List[Dict[str, Any]]]] = None
 
 def _clean_str(s: Optional[str]) -> str:
     """Normalize string for fuzzy alphanumeric comparison."""
@@ -20,44 +23,65 @@ def _clean_str(s: Optional[str]) -> str:
         return ""
     return re.sub(r"[^a-zA-Z0-9]", "", s).lower()
 
+def _load_full_tree_map() -> Dict[str, List[Dict[str, Any]]]:
+    """Loads all 44k+ files grouped by folder path from full tree cache."""
+    global _TREE_MAP
+    if _TREE_MAP is not None:
+        return _TREE_MAP
+
+    folder_map: Dict[str, List[Dict[str, Any]]] = {}
+    if FULL_TREE_FILE.exists():
+        try:
+            with open(FULL_TREE_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                tree = data.get("tree", [])
+                for item in tree:
+                    p = item.get("path", "")
+                    if "/" in p:
+                        folder, filename = p.rsplit("/", 1)
+                        if folder not in folder_map:
+                            folder_map[folder] = []
+                        folder_map[folder].append({
+                            "name": filename,
+                            "path": p,
+                            "size": item.get("size", 0)
+                        })
+        except Exception as e:
+            print(f"Error loading full tree cache: {e}")
+
+    _TREE_MAP = folder_map
+    return _TREE_MAP
+
 def get_kitsunekko_index(refresh: bool = False) -> Dict[str, List[Dict[str, str]]]:
     """Fetch or load cached tree of all available anime folders in kitsunekko mirror."""
     if not refresh and INDEX_FILE.exists():
         with open(INDEX_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
 
-    categories = ["anime_tv", "anime_movie"]
-    index: Dict[str, List[Dict[str, str]]] = {"anime_tv": [], "anime_movie": []}
+    # Derive from full tree map if available
+    tree_map = _load_full_tree_map()
+    if tree_map:
+        index: Dict[str, List[Dict[str, str]]] = {"anime_tv": [], "anime_movie": []}
+        for fpath in tree_map.keys():
+            if fpath.startswith("subtitles/anime_tv/"):
+                name = fpath.replace("subtitles/anime_tv/", "")
+                index["anime_tv"].append({"name": name, "path": fpath, "category": "anime_tv"})
+            elif fpath.startswith("subtitles/anime_movie/"):
+                name = fpath.replace("subtitles/anime_movie/", "")
+                index["anime_movie"].append({"name": name, "path": fpath, "category": "anime_movie"})
 
-    for cat in categories:
-        # ponytail: GitHub Trees API call, cached to disk to avoid rate limits
-        url = f"{KITSUNEKKO_API_BASE}/git/trees/main:subtitles/{cat}"
-        req = urllib.request.Request(url, headers={"User-Agent": "AnimeSubtitlesKZ/1.0"})
-        try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                for item in data.get("tree", []):
-                    if item.get("type") == "tree":
-                        index[cat].append({
-                            "name": item["path"],
-                            "path": f"subtitles/{cat}/{item['path']}",
-                            "category": cat
-                        })
-        except Exception as e:
-            print(f"Error fetching kitsunekko {cat} index: {e}")
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        with open(INDEX_FILE, "w", encoding="utf-8") as f:
+            json.dump(index, f, ensure_ascii=False, indent=2)
+        return index
 
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    with open(INDEX_FILE, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, indent=2)
-
-    return index
+    return {"anime_tv": [], "anime_movie": []}
 
 def find_japanese_folder(anime: Dict[str, Any], index: Dict[str, List[Dict[str, str]]]) -> Optional[Dict[str, str]]:
     """Match AniList anime titles to kitsunekko folder."""
     all_folders: List[Dict[str, str]] = index.get("anime_tv", []) + index.get("anime_movie", [])
     cleaned_folders = {_clean_str(f["name"]): f for f in all_folders}
 
-    # Candidate titles in priority order
     candidates = [
         anime.get("title", {}).get("romaji"),
         anime.get("title", {}).get("english"),
@@ -83,32 +107,24 @@ def find_japanese_folder(anime: Dict[str, Any], index: Dict[str, List[Dict[str, 
     return None
 
 def fetch_folder_episodes(folder_info: Dict[str, str]) -> Dict[int, Dict[str, str]]:
-    """List and group subtitle files by episode number for a folder."""
+    """List and group subtitle files by episode number for a folder using offline tree map."""
     folder_path = folder_info["path"]
-    encoded_path = urllib.parse.quote(folder_path, safe="/")
-    url = f"{KITSUNEKKO_API_BASE}/contents/{encoded_path}"
-    req = urllib.request.Request(url, headers={"User-Agent": "AnimeSubtitlesKZ/1.0"})
-
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            files = json.loads(resp.read().decode("utf-8"))
-    except Exception as e:
-        print(f"Failed to fetch files for {folder_path}: {e}")
-        return {}
+    tree_map = _load_full_tree_map()
+    files = tree_map.get(folder_path, [])
 
     episodes: Dict[int, Dict[str, str]] = {}
     encoded_folder = urllib.parse.quote(folder_path, safe="/")
+
     for f in files:
         name = f.get("name", "")
         if not (name.endswith(".srt") or name.endswith(".ass")):
             continue
 
         # Extract episode number
-        # matches: - 01, Ep 01, Episode 01, _01_, etc.
         m = re.search(r"(?:^|[-_#\s]|ep|episode)[^\d]*?(\d{1,3})(?:[.\s\]_-]|$)", name, re.IGNORECASE)
         ep_num = int(m.group(1)) if m else 1
 
-        # Prefer .srt over .ass for simpler rendering unless .ass is already present
+        # Prefer .srt over .ass for simpler rendering unless .srt is already present
         if ep_num not in episodes or (name.endswith(".srt") and not episodes[ep_num]["name"].endswith(".srt")):
             episodes[ep_num] = {
                 "name": name,
@@ -136,7 +152,6 @@ def download_subtitle_text(download_url: str) -> Optional[str]:
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
             raw = resp.read()
-            # Try utf-8-sig first to strip BOM, fallback to utf-8, shift-jis, cp1252
             for enc in ["utf-8-sig", "utf-8", "shift_jis", "cp932", "latin1"]:
                 try:
                     return raw.decode(enc)
@@ -147,11 +162,42 @@ def download_subtitle_text(download_url: str) -> Optional[str]:
         return None
     return None
 
+EPISODES_CACHE_FILE = CACHE_DIR / "kitsunekko_episodes_cache.json"
+_EPISODES_CACHE: Optional[Dict[str, Any]] = None
+
+def _load_episodes_cache() -> Dict[str, Any]:
+    global _EPISODES_CACHE
+    if _EPISODES_CACHE is not None:
+        return _EPISODES_CACHE
+    if EPISODES_CACHE_FILE.exists():
+        try:
+            with open(EPISODES_CACHE_FILE, "r", encoding="utf-8") as f:
+                _EPISODES_CACHE = json.load(f)
+                return _EPISODES_CACHE
+        except Exception:
+            pass
+    _EPISODES_CACHE = {}
+    return _EPISODES_CACHE
+
 def fetch_anime_subtitles(anime: Dict[str, Any], index: Optional[Dict[str, List[Dict[str, str]]]] = None) -> Tuple[str, Dict[int, Dict[str, str]]]:
     """
     Locates subtitles for an anime: Japanese first, fallback to English.
     Returns (source_language: 'ja'|'en', {episode_number: episode_info}).
     """
+    # 1. Check pre-indexed high-speed episode cache
+    anime_id = str(anime.get("id", ""))
+    cache = _load_episodes_cache()
+    if anime_id in cache and cache[anime_id].get("episodes"):
+        ep_map: Dict[int, Dict[str, str]] = {}
+        for ep_str, info in cache[anime_id]["episodes"].items():
+            try:
+                ep_map[int(ep_str)] = info
+            except ValueError:
+                continue
+        if ep_map:
+            return "ja", ep_map
+
+    # 2. Dynamic tree search fallback
     if index is None:
         index = get_kitsunekko_index()
 
@@ -161,8 +207,6 @@ def fetch_anime_subtitles(anime: Dict[str, Any], index: Optional[Dict[str, List[
         if eps:
             return "ja", eps
 
-    # Fallback to English subtitles (tagged empty if unavailable)
-    # ponytail: English fallback stub, expand with AnimeTosho/OpenSubtitles client when needed
     return "en", {}
 
 if __name__ == "__main__":
@@ -171,4 +215,4 @@ if __name__ == "__main__":
     lang, episodes = fetch_anime_subtitles(sample_anime, idx)
     print(f"Language: {lang}, Available episodes: {len(episodes)}")
     assert len(episodes) > 0
-    print("fetcher.py self-check passed.")
+    print("core/fetcher.py self-check passed (100% offline & rate-limit free).")

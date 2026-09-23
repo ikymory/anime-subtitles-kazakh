@@ -23,7 +23,7 @@ if sys.stdout and hasattr(sys.stdout, "reconfigure"):
         pass
 
 CACHE_DB = Path(__file__).resolve().parent.parent / "data" / "translations_cache.sqlite"
-JP_CHAR_REGEX = re.compile(r"[\u3040-\u30ff\u4e00-\u9faf]")
+JP_CHAR_REGEX = re.compile(r"[\u3041-\u3096\u30a1-\u30fa\u4e00-\u9faf]")
 
 def preprocess_text(line: str) -> str:
     """Clean furigana ruby tags, ASS overrides, speaker tags, and sound effects."""
@@ -39,6 +39,8 @@ def preprocess_text(line: str) -> str:
     spk_dialogue = re.match(r"^[（\(][^）\)]+[）\)]\s*(\S.*)$", cleaned)
     if spk_dialogue:
         cleaned = spk_dialogue.group(1)
+    # Strip trailing Japanese punctuation artifacts like ｡・
+    cleaned = re.sub(r"[・｡]+$", "", cleaned)
     # Clean whitespace
     return " ".join(cleaned.split())
 
@@ -209,6 +211,7 @@ class BrowserTranslator:
         # 3. Store clean lines into SQLite cache and assign to results
         for orig, trans, idx in zip(missing_texts, translated_all, missing_indices):
             clean_trans = trans.strip()
+            clean_trans = re.sub(r"[・｡]+$", "", clean_trans).strip()
             if clean_trans and clean_trans != orig and not JP_CHAR_REGEX.search(clean_trans):
                 self._set_cached(orig, clean_trans, source_lang, target_lang)
                 results[idx] = clean_trans

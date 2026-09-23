@@ -6,6 +6,7 @@ venv/
 .venv/
 .DS_Store
 temp/
-*.sqlite
+*.sqlite*
 *.db
-
+scratch/
+data/kitsunekko_full_tree.json

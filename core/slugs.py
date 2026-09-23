@@ -87,7 +87,9 @@ KNOWN_BASE_SLUGS = {
     "your lie in april": "shigatsu",
     "clannad": "clannad",
     "toradora": "toradora",
-    "samurai champloo": "samurai-champloo"
+    "samurai champloo": "samurai-champloo",
+    "k-on!": "k-on",
+    "k-on": "k-on"
 }
 
 def _extract_season_suffix(title: str) -> Tuple[str, str]:

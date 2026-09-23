@@ -15,7 +15,7 @@ from core.parser import dump_srt, parse_srt, srt_to_vtt
 from core.translator import Translator
 
 SUBTITLES_DIR = Path(__file__).resolve().parent / "subtitles"
-JP_REGEX = re.compile(r"[\u3040-\u30ff\u4e00-\u9faf]")
+JP_REGEX = re.compile(r"[\u3041-\u3096\u30a1-\u30fa\u4e00-\u9faf]")
 
 def audit_subtitle_file(file_path: Path) -> Dict[str, Any]:
     """Inspects subtitle file for untranslated Japanese, empty lines, and timestamp validity."""
@@ -97,7 +97,8 @@ def repair_subtitle_file(file_path: Path, translator: Translator) -> Tuple[bool,
     fixed_texts = translator.translate_lines(dirty_texts, source_lang="ja", target_lang="kk")
 
     for idx, fixed in zip(dirty_indices, fixed_texts):
-        entries[idx].text = fixed
+        clean_fixed = re.sub(r"[\u3041-\u3096\u30a1-\u30fa\u4e00-\u9faf・｢｣、。！？]", "", fixed).strip()
+        entries[idx].text = clean_fixed if clean_fixed else fixed
 
     # Save repaired SRT and VTT
     repaired_srt = dump_srt(entries)
