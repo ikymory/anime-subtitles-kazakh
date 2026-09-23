@@ -113,22 +113,32 @@ def list_anime(
         "data": items
     }
 
-@app.get("/api/v1/anime/{anime_id}")
-def get_anime_detail(anime_id: int):
+def _find_anime(id_or_slug: str) -> Optional[Dict[str, Any]]:
     catalog = _load_anime_catalog()
-    anime = next((a for a in catalog if a["id"] == anime_id), None)
+    for a in catalog:
+        if str(a["id"]) == str(id_or_slug) or get_anime_slug(a) == str(id_or_slug).lower():
+            return a
+    return None
+
+@app.get("/api/v1/anime/{id_or_slug}")
+def get_anime_detail(id_or_slug: str):
+    anime = _find_anime(id_or_slug)
     if not anime:
         raise HTTPException(status_code=404, detail="Anime not found")
 
-    status = _load_status().get(str(anime_id), {})
-    anime_dir = SUBTITLES_DIR / str(anime_id)
+    anime_id = str(anime["id"])
+    slug = get_anime_slug(anime)
+    status = _load_status().get(anime_id, {})
+
+    anime_dir = SUBTITLES_DIR / slug if (SUBTITLES_DIR / slug).exists() else SUBTITLES_DIR / anime_id
     available_files = []
     if anime_dir.exists():
-        for f in anime_dir.glob("*.kk.*"):
+        for f in anime_dir.glob("*.srt"):
             available_files.append(f.name)
 
     return {
         "id": anime["id"],
+        "slug": slug,
         "title": anime.get("title"),
         "format": anime.get("format"),
         "episodes": anime.get("episodes"),
@@ -141,16 +151,20 @@ def get_anime_detail(anime_id: int):
         "available_files": available_files
     }
 
-@app.get("/api/v1/anime/{anime_id}/episodes/{ep}/subtitles")
+@app.get("/api/v1/anime/{id_or_slug}/episodes/{ep}/subtitles")
 def get_subtitles(
-    anime_id: int,
+    id_or_slug: str,
     ep: int,
     format: str = Query("srt", pattern="^(srt|ass|vtt|json)$", description="Format: srt, ass, vtt, json")
 ):
-    anime_dir = SUBTITLES_DIR / str(anime_id)
-    catalog = _load_anime_catalog()
-    anime = next((a for a in catalog if a["id"] == anime_id), None)
-    slug = get_anime_slug(anime) if anime else str(anime_id)
+    anime = _find_anime(id_or_slug)
+    if not anime:
+        raise HTTPException(status_code=404, detail=f"Anime '{id_or_slug}' not found")
+
+    anime_id = str(anime["id"])
+    slug = get_anime_slug(anime)
+
+    anime_dir = SUBTITLES_DIR / slug if (SUBTITLES_DIR / slug).exists() else SUBTITLES_DIR / anime_id
 
     candidates = [
         anime_dir / f"{slug}-{ep}ep.{format}",
@@ -168,7 +182,7 @@ def get_subtitles(
             break
 
     if not file_path:
-        raise HTTPException(status_code=404, detail=f"Kazakh subtitles for anime {anime_id} episode {ep} not found")
+        raise HTTPException(status_code=404, detail=f"Kazakh subtitles for anime '{slug}' episode {ep} not found")
 
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()

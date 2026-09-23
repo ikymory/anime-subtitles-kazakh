@@ -42,7 +42,7 @@ def process_anime_episode(
 ) -> bool:
     anime_id = str(anime["id"])
     slug = get_anime_slug(anime)
-    target_dir = SUBTITLES_DIR / anime_id
+    target_dir = SUBTITLES_DIR / slug
     target_dir.mkdir(parents=True, exist_ok=True)
 
     # User formats: my-hero-academia-1ep.srt and my-hero-academia-1-ep.srt

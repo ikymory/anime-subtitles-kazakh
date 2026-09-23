@@ -43,7 +43,7 @@ def build_static_api():
         a_id = str(a["id"])
         slug = get_anime_slug(a)
         stat = status.get(a_id, {})
-        anime_sub_dir = SUBTITLES_DIR / a_id
+        anime_sub_dir = SUBTITLES_DIR / slug if (SUBTITLES_DIR / slug).exists() else SUBTITLES_DIR / a_id
 
         episodes_data = []
         if anime_sub_dir.exists():
@@ -68,9 +68,9 @@ def build_static_api():
                     "language": "kk",
                     "filename": chosen_srt,
                     "files": {
-                        "srt": f"{CDN_BASE_URL}/{a_id}/{chosen_srt}",
-                        "vtt": f"{CDN_BASE_URL}/{a_id}/{vtt_file}",
-                        "ass": f"{CDN_BASE_URL}/{a_id}/{ass_file}" if ass_file else None
+                        "srt": f"{CDN_BASE_URL}/{slug}/{chosen_srt}",
+                        "vtt": f"{CDN_BASE_URL}/{slug}/{vtt_file}",
+                        "ass": f"{CDN_BASE_URL}/{slug}/{ass_file}" if ass_file else None
                     }
                 })
 
@@ -89,11 +89,15 @@ def build_static_api():
             "subtitles": episodes_data
         }
 
+        # Write both slug.json (e.g. aot.json) and id.json (e.g. 16498.json)
+        with open(anime_api_dir / f"{slug}.json", "w", encoding="utf-8") as f:
+            json.dump(detail, f, ensure_ascii=False, indent=2)
         with open(anime_api_dir / f"{a_id}.json", "w", encoding="utf-8") as f:
             json.dump(detail, f, ensure_ascii=False, indent=2)
 
         catalog_summary.append({
             "id": a["id"],
+            "slug": slug,
             "title": a.get("title"),
             "format": a.get("format"),
             "episodes": a.get("episodes"),
@@ -101,7 +105,7 @@ def build_static_api():
             "genres": a.get("genres", []),
             "coverImage": a.get("coverImage", {}).get("large"),
             "translated_episodes_count": len(episodes_data),
-            "api_url": f"https://{GITHUB_USER}.github.io/{REPO_NAME}/api/v1/anime/{a_id}.json"
+            "api_url": f"https://{GITHUB_USER}.github.io/{REPO_NAME}/api/v1/anime/{slug}.json"
         })
 
     # 2. Main catalog JSON
