@@ -42,8 +42,7 @@ def fetch_top_anime(limit: int = 300, use_cache: bool = True) -> List[Dict[str, 
     if use_cache and CACHE_FILE.exists():
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-            if len(data) >= limit:
-                return data[:limit]
+            return data[:limit] if limit > 0 else data
 
     results: List[Dict[str, Any]] = []
     page = 1

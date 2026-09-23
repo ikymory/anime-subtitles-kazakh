@@ -52,7 +52,7 @@ def process_single_task(task_tuple: Tuple[Dict[str, Any], int, Dict[str, str], s
     if not raw_sub:
         return {"slug": slug, "ep": ep_num, "status": "error_download", "score": 0, "leaks": 0}
 
-    is_ass = ep_info.get("format") == "ass" or ep_info["name"].endswith(".ass")
+    is_ass = ep_info.get("format") == "ass" or ep_info.get("name", ep_info.get("filename", "")).endswith(".ass") or raw_sub.strip().startswith("[Script Info]")
     if is_ass:
         header_lines, entries = parse_ass(raw_sub)
     else:

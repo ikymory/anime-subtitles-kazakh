@@ -148,7 +148,11 @@ def fetch_folder_episodes(folder_info: Dict[str, str]) -> Dict[int, Dict[str, st
 
 def download_subtitle_text(download_url: str) -> Optional[str]:
     """Download raw subtitle text from URL, handling UTF-8 and BOM."""
-    req = urllib.request.Request(download_url, headers={"User-Agent": "AnimeSubtitlesKZ/1.0"})
+    parts = urllib.parse.urlsplit(download_url)
+    quoted_path = urllib.parse.quote(urllib.parse.unquote(parts.path))
+    safe_url = urllib.parse.urlunsplit((parts.scheme, parts.netloc, quoted_path, parts.query, parts.fragment))
+
+    req = urllib.request.Request(safe_url, headers={"User-Agent": "AnimeSubtitlesKZ/1.0"})
     try:
         with urllib.request.urlopen(req, timeout=20) as resp:
             raw = resp.read()

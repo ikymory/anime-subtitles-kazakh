@@ -47,6 +47,12 @@ KNOWN_BASE_SLUGS = {
     "jojo's bizarre adventure": "jojo",
     "jojo no kimyou na bouken": "jojo",
     "jojo": "jojo",
+    "kishibe rohan wa ugokanai": "jojo-rohan",
+    "thus spoke kishibe rohan": "jojo-rohan",
+    "rohan kishibe": "jojo-rohan",
+    "jojo no kimyou na bouken: adventure": "jojo-ova",
+    "jojo's bizarre adventure (1993)": "jojo-ova",
+    "jojo 1993": "jojo-ova",
 
     # Full understandable slugs
     "boku no hero academia": "my-hero-academia",
@@ -172,6 +178,9 @@ def _extract_season_suffix(title: str) -> Tuple[str, str]:
     if re.search(r"stone\s*ocean", t, re.I):
         cleaned = re.sub(r":?\s*stone\s*ocean.*", "", t, flags=re.I).strip(" :-")
         return cleaned, "-s6"
+    if re.search(r":?\s*(?:adventure|\(1993\))\b", t, re.I):
+        cleaned = re.sub(r":?\s*(?:adventure|\(1993\))\b.*", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-ova"
 
     return t, ""
 
