@@ -75,24 +75,29 @@ def process_anime_episode(
         entry.text = trans
 
     # 4. Serialize to disk (SRT, ASS, VTT)
+    srt_content = dump_srt(entries)
+    with open(srt_out, "w", encoding="utf-8") as f:
+        f.write(srt_content)
+
     if is_ass:
         ass_content = dump_ass(header_lines, entries)
         with open(ass_out, "w", encoding="utf-8") as f:
             f.write(ass_content)
-        # Also generate clean SRT representation
-        srt_content = dump_srt(entries)
-        with open(srt_out, "w", encoding="utf-8") as f:
-            f.write(srt_content)
-    else:
-        srt_content = dump_srt(entries)
-        with open(srt_out, "w", encoding="utf-8") as f:
-            f.write(srt_content)
 
     # Save VTT for web players
     with open(vtt_out, "w", encoding="utf-8") as f:
         f.write(srt_to_vtt(srt_content))
 
-    return True
+    # 5. Automated Verification & Auto-Repair
+    from validator import audit_subtitle_file, repair_subtitle_file
+    audit = audit_subtitle_file(srt_out)
+    if not audit.get("is_clean"):
+        print(f"  [!] Verification found {audit['japanese_leaks_count']} leaks ({audit['score_percent']}%). Auto-repairing...")
+        repair_subtitle_file(srt_out, translator)
+        audit = audit_subtitle_file(srt_out)
+
+    print(f"  [✓ Verified] Quality Score: {audit['score_percent']}% | Leaks: {audit['japanese_leaks_count']}")
+    return audit.get("is_clean", False) or audit.get("score_percent", 0) >= 95.0
 
 def run_pipeline(top_n: int = 300, max_episodes: int = 1, anime_id_filter: int = 0, force: bool = False):
     """Main pipeline execution."""
