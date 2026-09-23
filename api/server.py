@@ -153,8 +153,10 @@ def get_subtitles(
     slug = get_anime_slug(anime) if anime else str(anime_id)
 
     candidates = [
+        anime_dir / f"{slug}-{ep}ep.{format}",
         anime_dir / f"{slug}-{ep}-ep.{format}",
         anime_dir / f"ep_{ep:02d}.kk.{format}",
+        anime_dir / f"{slug}-{ep}ep.srt",
         anime_dir / f"{slug}-{ep}-ep.srt",
         anime_dir / f"ep_{ep:02d}.kk.srt"
     ]

@@ -19,16 +19,27 @@
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1535-kUgkcrfOrkUM.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg",
   "translated_episodes": [
-    1
+    1,
+    2
   ],
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dn-1-ep.srt",
+      "filename": "dn-1ep.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/1535/dn-1-ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/1535/dn-1-ep.vtt",
+        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/1535/dn-1ep.srt",
+        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/1535/dn-1ep.vtt",
+        "ass": null
+      }
+    },
+    {
+      "episode": 2,
+      "language": "kk",
+      "filename": "dn-2ep.srt",
+      "files": {
+        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/1535/dn-2ep.srt",
+        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/1535/dn-2ep.vtt",
         "ass": null
       }
     }

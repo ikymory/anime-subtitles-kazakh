@@ -48,9 +48,8 @@ def build_static_api():
         episodes_data = []
         if anime_sub_dir.exists():
             found_eps = set()
-            for srt in sorted(list(anime_sub_dir.glob("*-ep.srt")) + list(anime_sub_dir.glob("*.kk.srt"))):
-                # Extract ep number
-                m = re.search(r"(\d+)-ep\.srt$", srt.name) or re.search(r"ep_(\d+)\.kk\.srt$", srt.name)
+            for srt in sorted(set(list(anime_sub_dir.glob("*ep.srt")) + list(anime_sub_dir.glob("*.kk.srt")))):
+                m = re.search(r"(\d+)-?ep\.srt$", srt.name) or re.search(r"ep_(\d+)\.kk\.srt$", srt.name)
                 if not m:
                     continue
                 ep_num = int(m.group(1))
@@ -58,18 +57,18 @@ def build_static_api():
                     continue
                 found_eps.add(ep_num)
 
-                user_name = f"{slug}-{ep_num}-ep.srt"
-                user_srt = anime_sub_dir / user_name
-                srt_file = user_name if user_srt.exists() else f"ep_{ep_num:02d}.kk.srt"
-                vtt_file = f"{slug}-{ep_num}-ep.vtt" if (anime_sub_dir / f"{slug}-{ep_num}-ep.vtt").exists() else f"ep_{ep_num:02d}.kk.vtt"
-                ass_file = f"{slug}-{ep_num}-ep.ass" if (anime_sub_dir / f"{slug}-{ep_num}-ep.ass").exists() else (f"ep_{ep_num:02d}.kk.ass" if (anime_sub_dir / f"ep_{ep_num:02d}.kk.ass").exists() else None)
+                primary_name = f"{slug}-{ep_num}ep.srt"
+                dashed_name = f"{slug}-{ep_num}-ep.srt"
+                chosen_srt = primary_name if (anime_sub_dir / primary_name).exists() else (dashed_name if (anime_sub_dir / dashed_name).exists() else f"ep_{ep_num:02d}.kk.srt")
+                vtt_file = chosen_srt.replace(".srt", ".vtt")
+                ass_file = chosen_srt.replace(".srt", ".ass") if (anime_sub_dir / chosen_srt.replace(".srt", ".ass")).exists() else None
 
                 episodes_data.append({
                     "episode": ep_num,
                     "language": "kk",
-                    "filename": user_name,
+                    "filename": chosen_srt,
                     "files": {
-                        "srt": f"{CDN_BASE_URL}/{a_id}/{srt_file}",
+                        "srt": f"{CDN_BASE_URL}/{a_id}/{chosen_srt}",
                         "vtt": f"{CDN_BASE_URL}/{a_id}/{vtt_file}",
                         "ass": f"{CDN_BASE_URL}/{a_id}/{ass_file}" if ass_file else None
                     }

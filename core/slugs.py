@@ -1,59 +1,68 @@
-"""Anime title slug and abbreviation resolver.
+"""Anime title slug, abbreviation, and season resolver.
 
-Produces clean, recognizable short slugs like:
-- Jujutsu Kaisen -> jjk (jjk-1-ep.srt, jjk-2-ep.srt)
-- Attack on Titan / Shingeki no Kyojin -> aot (aot-1-ep.srt)
-- Death Note -> dn (dn-1-ep.srt)
-- Kimetsu no Yaiba / Demon Slayer -> kny (kny-1-ep.srt)
-- One Punch Man -> opm (opm-1-ep.srt)
-- Boku no Hero Academia -> mha (mha-1-ep.srt)
+Produces clear, understandable slugs and filenames:
+- Jujutsu Kaisen -> jjk (jjk-1ep.srt, jjk-2ep.srt)
+- Jujutsu Kaisen 2nd Season -> jjk-s2 (jjk-s2-1ep.srt)
+- Attack on Titan / Shingeki no Kyojin -> aot (aot-1ep.srt)
+- Shingeki no Kyojin Season 2 -> aot-s2 (aot-s2-1ep.srt)
+- Shingeki no Kyojin Season 3 -> aot-s3 (aot-s3-1ep.srt)
+- Shingeki no Kyojin Season 3 Part 2 -> aot-s3-p2 (aot-s3-p2-1ep.srt)
+- Shingeki no Kyojin: The Final Season -> aot-final (aot-final-1ep.srt)
+- Death Note -> dn (dn-1ep.srt)
+- Kimetsu no Yaiba -> kny (kny-1ep.srt)
+- Kimetsu no Yaiba: Yuukaku-hen -> kny-s2 (kny-s2-1ep.srt)
+- One Punch Man -> opm (opm-1ep.srt)
+- One Punch Man 2 -> opm-s2 (opm-s2-1ep.srt)
+- Boku no Hero Academia -> my-hero-academia (my-hero-academia-1ep.srt)
+- Boku no Hero Academia 2 -> my-hero-academia-s2 (my-hero-academia-s2-1ep.srt)
+- Hunter x Hunter -> hxh (hxh-1ep.srt)
+- Tokyo Ghoul -> tokyo-ghoul (tokyo-ghoul-1ep.srt)
+- Tokyo Ghoul √A -> tokyo-ghoul-s2 (tokyo-ghoul-s2-1ep.srt)
 """
 import re
-from typing import Any, Dict, Optional, Union
+from typing import Any, Dict, List, Optional, Tuple, Union
 
-# Curated high-popularity abbreviations
-KNOWN_SLUGS = {
-    # Shonen / Action hits
+# Curated base abbreviations
+KNOWN_BASE_SLUGS = {
+    # High-popularity short acronyms
     "jujutsu kaisen": "jjk",
     "shingeki no kyojin": "aot",
     "attack on titan": "aot",
     "death note": "dn",
     "kimetsu no yaiba": "kny",
     "demon slayer": "kny",
-    "demon slayer: kimetsu no yaiba": "kny",
     "one punch man": "opm",
-    "boku no hero academia": "mha",
-    "my hero academia": "mha",
     "hunter x hunter": "hxh",
-    "hunter x hunter (2011)": "hxh",
     "fullmetal alchemist: brotherhood": "fmab",
     "fullmetal alchemist": "fma",
     "sword art online": "sao",
-    "tokyo ghoul": "tokyo-ghoul",
+    "neon genesis evangelion": "eva",
     "chainsaw man": "csm",
     "spy x family": "sxf",
-    "vinland saga": "vinland-saga",
-    "haikyuu!!": "haikyuu",
-    "black clover": "black-clover",
-    "code geass": "code-geass",
-    "code geass: hangyaku no lelouch": "code-geass",
-    "neon genesis evangelion": "eva",
-    "mob psycho 100": "mob-psycho-100",
-    "steins;gate": "steins-gate",
-    "re:zero kara hajimeru isekai seikatsu": "rezero",
-    "re:zero": "rezero",
     "no game no life": "ngnl",
     "tengen toppa gurren lagann": "ttgl",
+    "fate/stay night": "fsn",
+    "fate/zero": "fate-zero",
+    "great teacher onizuka": "gto",
+
+    # Full understandable slugs
+    "boku no hero academia": "my-hero-academia",
+    "my hero academia": "my-hero-academia",
+    "tokyo ghoul": "tokyo-ghoul",
+    "vinland saga": "vinland-saga",
+    "haikyuu!!": "haikyuu",
+    "haikyuu": "haikyuu",
+    "black clover": "black-clover",
+    "code geass": "code-geass",
+    "mob psycho 100": "mob-psycho-100",
+    "steins;gate": "steins-gate",
+    "re:zero": "rezero",
     "naruto": "naruto",
-    "naruto: shippuuden": "naruto-shippuuden",
     "bleach": "bleach",
-    "bleach: sennen kessen-hen": "bleach-tybw",
     "gintama": "gintama",
     "cowboy bebop": "cowboy-bebop",
     "cyberpunk: edgerunners": "edgerunners",
     "dr. stone": "dr-stone",
-    "fate/stay night": "fsn",
-    "fate/zero": "fate-zero",
     "kaguya-sama wa kokurasetai": "kaguya",
     "made in abyss": "made-in-abyss",
     "mushoku tensei": "mushoku-tensei",
@@ -62,7 +71,6 @@ KNOWN_SLUGS = {
     "solo leveling": "solo-leveling",
     "violet evergarden": "violet-evergarden",
     "sousou no frieren": "frieren",
-    "frieren: beyond journey's end": "frieren",
     "frieren": "frieren",
     "oshi no ko": "oshi-no-ko",
     "bocchi the rock!": "bocchi",
@@ -72,84 +80,170 @@ KNOWN_SLUGS = {
     "hell's paradise": "hells-paradise",
     "jigokuraku": "jigokuraku",
     "parasyte": "parasyte",
-    "kiseijuu: sei no kakuritsu": "parasyte",
     "death parade": "death-parade",
     "noragami": "noragami",
     "assassination classroom": "ansatsu-kyoushitsu",
-    "ansatsu kyoushitsu": "ansatsu-kyoushitsu",
     "erased": "erased",
-    "boku dake ga inai machi": "erased",
     "your lie in april": "shigatsu",
-    "shigatsu wa kimi no uso": "shigatsu",
     "clannad": "clannad",
-    "toradora!": "toradora",
     "toradora": "toradora",
-    "great teacher onizuka": "gto",
-    "gto": "gto",
     "samurai champloo": "samurai-champloo"
 }
 
+def _extract_season_suffix(title: str) -> Tuple[str, str]:
+    """Extract season or part suffix from title, returning (cleaned_base_title, season_suffix)."""
+    t = title.strip()
+
+    # Final Season Part 2 / 3
+    if re.search(r"the final season part\s*(\d+)", t, re.I):
+        m = re.search(r"the final season part\s*(\d+)", t, re.I)
+        cleaned = re.sub(r"the final season part\s*\d+", "", t, flags=re.I).strip(" :-")
+        return cleaned, f"-final-p{m.group(1)}"
+
+    # Final Season
+    if re.search(r"(the final season|final season)", t, re.I):
+        cleaned = re.sub(r"(the final season|final season)", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-final"
+
+    # Season X Part Y
+    m_sp = re.search(r"season\s*(\d+)\s*part\s*(\d+)", t, re.I)
+    if m_sp:
+        cleaned = re.sub(r"season\s*\d+\s*part\s*\d+", "", t, flags=re.I).strip(" :-")
+        return cleaned, f"-s{m_sp.group(1)}-p{m_sp.group(2)}"
+
+    # Season X or Xnd/Xth/Xrd Season
+    m_s = re.search(r"(?:season\s*(\d+)|(\d+)(?:st|nd|rd|th)\s*season)", t, re.I)
+    if m_s:
+        s_num = m_s.group(1) or m_s.group(2)
+        cleaned = re.sub(r"(?:season\s*\d+|\d+(?:st|nd|rd|th)\s*season)", "", t, flags=re.I).strip(" :-")
+        return cleaned, f"-s{s_num}"
+
+    # Roman numerals II, III, IV at end of title
+    m_rom = re.search(r"\b(II|III|IV)\b\s*$", t)
+    if m_rom:
+        rom_map = {"II": "-s2", "III": "-s3", "IV": "-s4"}
+        cleaned = re.sub(r"\b(II|III|IV)\b\s*$", "", t).strip(" :-")
+        return cleaned, rom_map[m_rom.group(1)]
+
+    # Standalone number at end of title like "Boku no Hero Academia 2" or "One Punch Man 2"
+    m_num = re.search(r"\s+(\d+)\s*$", t)
+    if m_num and int(m_num.group(1)) in range(2, 10):
+        cleaned = re.sub(r"\s+\d+\s*$", "", t).strip(" :-")
+        return cleaned, f"-s{m_num.group(1)}"
+
+    # Specific arc seasons
+    if re.search(r"mugen\s*ressha", t, re.I):
+        cleaned = re.sub(r":?\s*mugen\s*ressha-?hen", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-mugen-train"
+    if re.search(r"yuukaku", t, re.I):
+        cleaned = re.sub(r":?\s*yuukaku-?hen", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s2"
+    if re.search(r"katanakaji", t, re.I):
+        cleaned = re.sub(r":?\s*katanakaji\s*no\s*sato-?hen", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s3"
+    if re.search(r"hashira\s*geiko", t, re.I):
+        cleaned = re.sub(r":?\s*hashira\s*geiko-?hen", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s4"
+    if re.search(r"(?:√A|root\s*a)\b", t, re.I):
+        cleaned = re.sub(r":?\s*(?:√A|root\s*a)\b", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-s2"
+    if re.search(r":re\b", t, re.I):
+        cleaned = re.sub(r":re\b", "", t, flags=re.I).strip(" :-")
+        return cleaned, "-re"
+
+    return t, ""
+
 def get_anime_slug(anime_data_or_title: Union[Dict[str, Any], str]) -> str:
-    """Generate a clean, recognizable short slug like 'jjk', 'aot', 'dn'."""
-    titles = []
+    """Generate clean slug with proper season tag (e.g. jjk, aot, my-hero-academia-s2)."""
+    raw_titles = []
     if isinstance(anime_data_or_title, dict):
         t_dict = anime_data_or_title.get("title", {})
         if isinstance(t_dict, dict):
-            if t_dict.get("romaji"):
-                titles.append(t_dict["romaji"])
             if t_dict.get("english"):
-                titles.append(t_dict["english"])
+                raw_titles.append(t_dict["english"])
+            if t_dict.get("romaji"):
+                raw_titles.append(t_dict["romaji"])
         elif isinstance(t_dict, str):
-            titles.append(t_dict)
+            raw_titles.append(t_dict)
     elif isinstance(anime_data_or_title, str):
-        titles.append(anime_data_or_title)
+        raw_titles.append(anime_data_or_title)
 
-    for raw in titles:
-        norm = re.sub(r"[^\w\s]", "", raw.lower()).strip()
-        # Direct match in known slugs
-        if norm in KNOWN_SLUGS:
-            return KNOWN_SLUGS[norm]
-        for known, slug in KNOWN_SLUGS.items():
+    if not raw_titles:
+        return "anime"
+
+    # Find season suffix from any title candidate
+    season_suffix = ""
+    cleaned_candidates = []
+    for raw in raw_titles:
+        c_title, s_suffix = _extract_season_suffix(raw)
+        cleaned_candidates.append(c_title)
+        if s_suffix and not season_suffix:
+            season_suffix = s_suffix
+
+    # Resolve base slug
+    base_slug = None
+    for cand in cleaned_candidates + raw_titles:
+        norm = re.sub(r"[^\w\s]", "", cand.lower()).strip()
+        # Direct match in known base slugs
+        for known, slug in KNOWN_BASE_SLUGS.items():
             known_norm = re.sub(r"[^\w\s]", "", known.lower()).strip()
-            if known_norm == norm or norm.startswith(known_norm):
-                return slug
+            if known_norm == norm or norm == known_norm or norm.startswith(known_norm):
+                base_slug = slug
+                break
+        if base_slug:
+            break
 
-    # Algorithmic fallback
-    primary = titles[0] if titles else "anime"
-    words = re.findall(r"[a-zA-Z0-9]+", primary.lower())
-    
-    # Filter stopwords for initials
-    stopwords = {"no", "wa", "to", "ni", "de", "ga", "the", "a", "an", "of", "and", "in", "on"}
-    sig_words = [w for w in words if w not in stopwords]
+    if not base_slug:
+        # Fallback kebab slug
+        words = re.findall(r"[a-zA-Z0-9]+", cleaned_candidates[0].lower())
+        stopwords = {"no", "wa", "to", "ni", "de", "ga", "the", "a", "an", "of", "and", "in", "on"}
+        sig_words = [w for w in words if w not in stopwords]
+        base_slug = "-".join(sig_words[:3]) if sig_words else "anime"
 
-    # If 3 or more significant words, form clean acronym e.g. Boku no Hero Academia -> bnha
-    if len(sig_words) >= 3 and len(sig_words) <= 6:
-        return "".join(w[0] for w in sig_words)
-
-    # Otherwise return kebab slug up to 3 words
-    clean_kebab = "-".join(words[:3])
-    return clean_kebab if clean_kebab else "anime"
+    return f"{base_slug}{season_suffix}"
 
 def get_subtitle_filename(slug: str, ep: int, ext: str = "srt") -> str:
-    """Format subtitle filename according to user specification: e.g. jjk-1-ep.srt"""
-    return f"{slug}-{ep}-ep.{ext}"
+    """Returns primary user filename (e.g. my-hero-academia-1ep.srt)."""
+    return f"{slug}-{ep}ep.{ext}"
+
+def get_subtitle_filenames(slug: str, ep: int, ext: str = "srt") -> List[str]:
+    """Returns primary user filename (e.g. my-hero-academia-1ep.srt) and aliases."""
+    return [
+        f"{slug}-{ep}ep.{ext}",
+        f"{slug}-{ep}-ep.{ext}"
+    ]
 
 if __name__ == "__main__":
-    test_cases = [
-        {"title": {"romaji": "Jujutsu Kaisen", "english": "Jujutsu Kaisen"}},
+    tests = [
+        {"title": {"romaji": "Jujutsu Kaisen", "english": "JUJUTSU KAISEN"}},
+        {"title": {"romaji": "Jujutsu Kaisen 2nd Season", "english": "JUJUTSU KAISEN Season 2"}},
         {"title": {"romaji": "Shingeki no Kyojin", "english": "Attack on Titan"}},
+        {"title": {"romaji": "Shingeki no Kyojin Season 2", "english": "Attack on Titan Season 2"}},
+        {"title": {"romaji": "Shingeki no Kyojin Season 3", "english": "Attack on Titan Season 3"}},
+        {"title": {"romaji": "Shingeki no Kyojin Season 3 Part 2", "english": "Attack on Titan Season 3 Part 2"}},
+        {"title": {"romaji": "Shingeki no Kyojin: The Final Season", "english": "Attack on Titan Final Season"}},
+        {"title": {"romaji": "Shingeki no Kyojin: The Final Season Part 2", "english": "Attack on Titan Final Season Part 2"}},
         {"title": {"romaji": "DEATH NOTE", "english": "Death Note"}},
         {"title": {"romaji": "Kimetsu no Yaiba", "english": "Demon Slayer: Kimetsu no Yaiba"}},
+        {"title": {"romaji": "Kimetsu no Yaiba: Yuukaku-hen", "english": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc"}},
         {"title": {"romaji": "One Punch Man", "english": "One-Punch Man"}},
+        {"title": {"romaji": "One Punch Man 2", "english": "One-Punch Man Season 2"}},
         {"title": {"romaji": "Boku no Hero Academia", "english": "My Hero Academia"}},
+        {"title": {"romaji": "Boku no Hero Academia 2", "english": "My Hero Academia Season 2"}},
+        {"title": {"romaji": "Boku no Hero Academia 3", "english": "My Hero Academia Season 3"}},
         {"title": {"romaji": "Hunter x Hunter (2011)", "english": "Hunter x Hunter"}},
-        {"title": {"romaji": "Fullmetal Alchemist: Brotherhood"}},
-        {"title": {"romaji": "Toradora!"}}
+        {"title": {"romaji": "Tokyo Ghoul", "english": "Tokyo Ghoul"}},
+        {"title": {"romaji": "Tokyo Ghoul √A", "english": "Tokyo Ghoul Root A"}},
     ]
-    for c in test_cases:
-        slug = get_anime_slug(c)
-        fname = get_subtitle_filename(slug, 1, "srt")
-        print(f"{c['title']['romaji']} -> slug: '{slug}' -> file: '{fname}'")
-    assert get_subtitle_filename(get_anime_slug({"title": {"romaji": "Jujutsu Kaisen"}}), 1) == "jjk-1-ep.srt"
-    assert get_subtitle_filename(get_anime_slug({"title": {"romaji": "Jujutsu Kaisen"}}), 2) == "jjk-2-ep.srt"
-    print("core/slugs.py self-check PASSED.")
+    for t in tests:
+        s = get_anime_slug(t)
+        fnames = get_subtitle_filenames(s, 1, "srt")
+        eng = t["title"].get("english") or t["title"]["romaji"]
+        print(f"{eng} -> '{s}' -> Primary: {fnames[0]}")
+
+    assert get_anime_slug({"title": {"romaji": "Boku no Hero Academia"}}) == "my-hero-academia"
+    assert get_anime_slug({"title": {"romaji": "Boku no Hero Academia 2"}}) == "my-hero-academia-s2"
+    assert get_anime_slug({"title": {"romaji": "Shingeki no Kyojin Season 2"}}) == "aot-s2"
+    assert get_anime_slug({"title": {"romaji": "Jujutsu Kaisen 2nd Season"}}) == "jjk-s2"
+    assert get_anime_slug({"title": {"romaji": "One Punch Man 2"}}) == "opm-s2"
+    print("\ncore/slugs.py season verification PASSED.")

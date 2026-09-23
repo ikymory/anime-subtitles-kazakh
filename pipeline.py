@@ -45,18 +45,24 @@ def process_anime_episode(
     target_dir = SUBTITLES_DIR / anime_id
     target_dir.mkdir(parents=True, exist_ok=True)
 
-    # User format: jjk-1-ep.srt, jjk-2-ep.srt
-    user_base = f"{slug}-{ep_num}-ep"
+    # User formats: my-hero-academia-1ep.srt and my-hero-academia-1-ep.srt
+    compact_base = f"{slug}-{ep_num}ep"
+    dashed_base = f"{slug}-{ep_num}-ep"
     legacy_base = f"ep_{ep_num:02d}.kk"
 
-    user_srt = target_dir / f"{user_base}.srt"
+    compact_srt = target_dir / f"{compact_base}.srt"
+    dashed_srt = target_dir / f"{dashed_base}.srt"
     legacy_srt = target_dir / f"{legacy_base}.srt"
 
-    if user_srt.exists() and not force:
-        # Ensure legacy aliases exist if already generated
-        if not legacy_srt.exists() and user_srt.exists():
-            with open(user_srt, "r", encoding="utf-8") as f_in, open(legacy_srt, "w", encoding="utf-8") as f_out:
-                f_out.write(f_in.read())
+    if (compact_srt.exists() or dashed_srt.exists()) and not force:
+        source_f = compact_srt if compact_srt.exists() else dashed_srt
+        content = source_f.read_text(encoding="utf-8")
+        if not compact_srt.exists():
+            compact_srt.write_text(content, encoding="utf-8")
+        if not dashed_srt.exists():
+            dashed_srt.write_text(content, encoding="utf-8")
+        if not legacy_srt.exists():
+            legacy_srt.write_text(content, encoding="utf-8")
         return True
 
     # 1. Download original subtitle text
@@ -82,35 +88,32 @@ def process_anime_episode(
     for entry, trans in zip(entries, translated_texts):
         entry.text = trans
 
-    # 4. Serialize to disk (user format: jjk-1-ep.srt & legacy alias)
+    # 4. Serialize to disk (both compact: jjk-1ep.srt and dashed: jjk-1-ep.srt)
     srt_content = dump_srt(entries)
-    with open(user_srt, "w", encoding="utf-8") as f:
-        f.write(srt_content)
-    with open(legacy_srt, "w", encoding="utf-8") as f:
-        f.write(srt_content)
+    compact_srt.write_text(srt_content, encoding="utf-8")
+    dashed_srt.write_text(srt_content, encoding="utf-8")
+    legacy_srt.write_text(srt_content, encoding="utf-8")
 
     vtt_content = srt_to_vtt(srt_content)
-    with open(target_dir / f"{user_base}.vtt", "w", encoding="utf-8") as f:
-        f.write(vtt_content)
-    with open(target_dir / f"{legacy_base}.vtt", "w", encoding="utf-8") as f:
-        f.write(vtt_content)
+    (target_dir / f"{compact_base}.vtt").write_text(vtt_content, encoding="utf-8")
+    (target_dir / f"{dashed_base}.vtt").write_text(vtt_content, encoding="utf-8")
+    (target_dir / f"{legacy_base}.vtt").write_text(vtt_content, encoding="utf-8")
 
     if is_ass:
         ass_content = dump_ass(header_lines, entries)
-        with open(target_dir / f"{user_base}.ass", "w", encoding="utf-8") as f:
-            f.write(ass_content)
-        with open(target_dir / f"{legacy_base}.ass", "w", encoding="utf-8") as f:
-            f.write(ass_content)
+        (target_dir / f"{compact_base}.ass").write_text(ass_content, encoding="utf-8")
+        (target_dir / f"{dashed_base}.ass").write_text(ass_content, encoding="utf-8")
+        (target_dir / f"{legacy_base}.ass").write_text(ass_content, encoding="utf-8")
 
     # 5. Automated Verification & Auto-Repair
     from validator import audit_subtitle_file, repair_subtitle_file
-    audit = audit_subtitle_file(user_srt)
+    audit = audit_subtitle_file(compact_srt)
     if not audit.get("is_clean"):
         print(f"  [!] Verification found {audit['japanese_leaks_count']} leaks ({audit['score_percent']}%). Auto-repairing...")
-        repair_subtitle_file(user_srt, translator)
-        audit = audit_subtitle_file(user_srt)
+        repair_subtitle_file(compact_srt, translator)
+        audit = audit_subtitle_file(compact_srt)
 
-    print(f"  [✓ Verified: {user_srt.name}] Score: {audit['score_percent']}% | Leaks: {audit['japanese_leaks_count']}")
+    print(f"  [✓ Verified: {compact_srt.name}] Score: {audit['score_percent']}% | Leaks: {audit['japanese_leaks_count']}")
     return audit.get("is_clean", False) or audit.get("score_percent", 0) >= 95.0
 
 def run_pipeline(top_n: int = 300, max_episodes: int = 1, anime_id_filter: int = 0, force: bool = False):

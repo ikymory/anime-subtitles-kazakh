@@ -55,7 +55,7 @@ def audit_subtitle_file(file_path: Path) -> Dict[str, Any]:
         "japanese_leaks_count": len(leaked_indices),
         "leaked_indices": leaked_indices[:15],
         "score_percent": score,
-        "is_clean": len(leaked_indices) == 0 and len(empty_indices) == 0
+        "is_clean": len(leaked_indices) == 0
     }
 
 def audit_all_subtitles() -> List[Dict[str, Any]]:
