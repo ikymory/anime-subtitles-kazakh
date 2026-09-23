@@ -92,6 +92,24 @@ def parse_ass(content: str) -> Tuple[List[str], List[SubtitleEntry]]:
                 text = parts[-1]
                 start = parts[1].strip()
                 end = parts[2].strip()
+
+                # Filter out vector drawings ({\p1...}) and empty override-only lines
+                clean_txt = re.sub(r"\{[^\}]*\}", "", text).strip()
+                if re.search(r"\{\\p[1-9]", text) or not clean_txt:
+                    header_lines.append(line)
+                    continue
+
+                style = parts[3].strip()
+                # Filter duplicate Chinese tracks in bilingual fansubs
+                if re.search(r"[-_](?:CH|CHS|CHT|CN)$|\b(?:CHS|CHT|Chinese)\b", style, re.IGNORECASE):
+                    header_lines.append(line)
+                    continue
+
+                # Filter syllable-by-syllable karaoke animation splits in OP/ED
+                if re.search(r"^(?:OP|ED)[-_]|karaoke|fx", style, re.IGNORECASE) and len(clean_txt) <= 4:
+                    header_lines.append(line)
+                    continue
+
                 entries.append(SubtitleEntry(index=idx, start=start, end=end, text=text, raw_style=raw_prefix))
                 idx += 1
             else:
