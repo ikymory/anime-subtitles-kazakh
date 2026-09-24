@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 ScriptType: v4.00+
 Collisions: Normal
 ScaledBorderAndShadow: Yes
@@ -11,6 +15,7 @@ Style: Default,Yu Gothic,46,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,1,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:01:31.09,0:01:34.03,Default,,0000,0000,0000,,{\pos(772,503)\4c&HFF000000\fscx50\fscy50}　
 Dialogue: 0,0:01:36.06,0:01:38.57,Default,,0000,0000,0000,,{\pos(392,437)\fscx50}　
 Dialogue: 0,0:01:38.57,0:01:41.07,Default,,0000,0000,0000,,{\pos(432,497)\fscx50}　
@@ -1080,3 +1085,4 @@ Dialogue: 0,0:21:50.54,0:21:54.55,Default,,0000,0000,0000,,(Мұғалім) Си
 Dialogue: 0,0:21:54.55,0:22:14.57,Default,,0000,0000,0000,,(Мұғалім) Символизацияланған жау нысанаға ілініп, оған жақындайды. ➡
 Dialogue: 0,0:22:14.57,0:22:36.12,Default,,0000,0000,0000,,(Мұғалім) Символизацияланған жау нысанаға ілініп, оған жақындайды. ➡
 Dialogue: 0,0:22:36.12,0:22:39.09,Default,,0000,0000,0000,,(Мұғалім) Символизацияланған жау нысанаға ілініп, оған жақындайды. ➡
+Dialogue: 0,0:22:40.59,0:22:46.59,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

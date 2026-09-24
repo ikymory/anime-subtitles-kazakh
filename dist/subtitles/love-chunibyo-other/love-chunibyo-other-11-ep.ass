@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
@@ -34,6 +38,7 @@ Style: ZWZJ,方正准圆_GBK,30,&H0046423A,&H000000FF,&H00FFFEF1,&H00000000,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Comment: 0,0:01:11.32,0:01:12.88,JPDB,,0,0,0,,OP
 Dialogue: 0,0:00:-01.-50,0:00:03.50,ZZ信息,,0,0,0,,Бұл субтитр білім беру және алмасу үшін пайдалануға арналған, коммерциялық пайдалануға тыйым салынған құдай субтитрлерінің тіркесімі болып табылады.
 Dialogue: 0,0:00:03.50,0:00:08.50,ZZ信息,,0,0,0,,：& ：& ： ： ： ：
@@ -425,3 +430,4 @@ Dialogue: 0,0:21:45.32,0:21:48.72,JPDB,,0,0,0,,Иә, дұрыс, бұл байл
 Dialogue: 0,0:21:51.36,0:21:52.48,JPDB,,0,0,0,,Сіз де бүгін періште іздеп жүрсіз бе?
 Dialogue: 0,0:21:53.14,0:21:55.14,JPDB,,0,0,0,,Иә, білесіз бе, батыр.
 Dialogue: 0,0:22:00.74,0:22:01.26,JPDB,,0,0,0,,Қош бол
+Dialogue: 0,0:23:32.96,0:23:38.96,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

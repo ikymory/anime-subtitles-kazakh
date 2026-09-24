@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 Title: [Erai-raws] ja.cc
 ScriptType: v4.00+
 WrapStyle: 0
@@ -15,6 +19,7 @@ Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:11.01,0:00:16.01,Default,,0,0,0,,♪~
 Dialogue: 0,0:01:34.13,0:01:39.14,Default,,0,0,0,,~♪
 Dialogue: 0,0:01:41.26,0:01:43.72,Default,,0,0,0,,Ах! (Солдат) Тіпті Базилиске де шабуыл жасалды.
@@ -416,3 +421,4 @@ Dialogue: 0,0:24:38.47,0:24:41.48,Default,,0,0,0,,Хахахахахаха
 Dialogue: 0,0:24:45.48,0:24:46.65,Default,,0,0,0,,Ах...
 Dialogue: 0,0:25:14.51,0:25:19.51,Default,,0,0,0,,♪~
 Dialogue: 0,0:26:39.51,0:26:44.51,Default,,0,0,0,,~♪
+Dialogue: 0,0:26:46.01,0:26:52.01,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 Title: Erai-raws Kakegurui S01E06 sdh-jpn
 ScriptType: v4.00+
 WrapStyle: 0
@@ -15,6 +19,7 @@ Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 
 
 Dialogue: 0,0:00:05.46,0:00:07.54,Default,,0,0,0,,Сонымен~ (С студенті) О, жоқ!
@@ -473,3 +478,4 @@ Dialogue: 0,0:24:13.16,0:24:15.03,Default,,0,0,0,,Адамдарды мазақ 
 Dialogue: 0,0:24:15.16,0:24:16.53,Default,,0,0,0,,Мен сені бір күні өлтіремін.
 Dialogue: 0,0:24:16.66,0:24:17.53,Default,,0,0,0,,Төраға!
 Dialogue: 0,0:24:19.49,0:24:20.66,Default,,0,0,0,,Оларды Он екі Жын Айлары қатарына қосу соңы дегенді білдірмейді.
+Dialogue: 0,0:24:22.16,0:24:28.16,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

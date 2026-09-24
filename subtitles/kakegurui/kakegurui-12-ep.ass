@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 Title: Erai-raws Kakegurui S01E12 sdh-jpn
 ScriptType: v4.00+
 WrapStyle: 0
@@ -15,6 +19,7 @@ Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 
 
 Dialogue: 0,0:00:03.96,0:00:04.83,Default,,0,0,0,,Әрине
@@ -460,3 +465,4 @@ Dialogue: 0,0:22:28.13,0:22:29.22,Default,,0,0,0,,Құмар ойыншы
 Dialogue: 0,0:22:36.43,0:22:37.60,Default,,0,0,0,,Бұл Какегуруи
 Dialogue: 0,0:22:39.02,0:22:45.03,Default,,0,0,0,,Ал Уротаки мырза қару-жарақсыз, тек жалаңаш қолдары бар
 Dialogue: 0,0:24:01.94,0:24:07.94,Default,,0,0,0,,~♪
+Dialogue: 0,0:24:09.44,0:24:15.44,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

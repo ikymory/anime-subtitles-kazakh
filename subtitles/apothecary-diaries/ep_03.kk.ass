@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 Title: [Nekomoe kissaten] Kusuriya no Hitorigoto [03][Web].JPSC
 ScriptType: v4.00+
 WrapStyle: 2
@@ -26,6 +30,7 @@ Style: ED-CH,HYXuanSong 35S,58,&H00FFFFFF,&H000000FF,&H3C4C4C4C,&H9B4C4C4C,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,Staff
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,Dialogue
 Dialogue: 1,0:01:34.08,0:01:34.99,Dial-CH,,0,0,0,,怎么会
@@ -678,3 +683,4 @@ Dialogue: 0,0:22:01.38,0:22:05.34,ED-JP,,0,0,0,,Менің ойымша, сіз 
 Dialogue: 0,0:22:06.22,0:22:18.02,ED-JP,,0,0,0,,Желдің қатты болғаны сонша, құлағымды жауып алдым
 Dialogue: 0,0:22:18.65,0:22:26.15,ED-JP,,0,0,0,,Ондай адамнан оқуымды бітіруім керек
 Dialogue: 0,0:22:26.15,0:22:33.99,ED-JP,,0,0,0,,Махаббат сөздерінен сүрінсем де
+Dialogue: 0,0:22:51.47,0:22:57.47,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

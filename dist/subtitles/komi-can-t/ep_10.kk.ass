@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 Title: [Erai-raws] 10.ja
 ScriptType: v4.00+
 WrapStyle: 0
@@ -15,6 +19,7 @@ Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:12.72,0:00:14.68,Default,,0,0,0,,Ахх тестістер
 Dialogue: 0,0:00:14.76,0:00:17.01,Default,,0,0,0,,Бүгін күн ашық
 Dialogue: 0,0:00:17.10,0:00:18.43,Default,,0,0,0,,Коммунизм дегеніміз не?
@@ -463,3 +468,4 @@ Dialogue: 0,0:22:06.90,0:22:10.53,Default,,0,0,0,,Эй, эй, эй! Эй эй э
 Dialogue: 0,0:23:24.82,0:23:28.15,Default,,0,0,0,,~♪
 Dialogue: 0,0:23:38.08,0:23:38.95,Default,,0,0,0,,Я...
 Dialogue: 0,0:23:56.97,0:23:59.14,Default,,0,0,0,,Шыны күріш…
+Dialogue: 0,0:24:00.64,0:24:06.64,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

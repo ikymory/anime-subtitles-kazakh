@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 Title: [Erai-raws] 01.ja
 ScriptType: v4.00+
 WrapStyle: 0
@@ -15,6 +19,7 @@ Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,
 
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:12.51,0:00:15.89,Default,,0,0,0,,(Балабақшаның ән салған дауысы)
 Dialogue: 0,0:00:37.78,0:00:39.70,Default,,0,0,0,,Бұл менің мектебім, солай ма?
 Dialogue: 0,0:01:09.15,0:01:10.15,Default,,0,0,0,,(Коми тыныс алу дыбысы)
@@ -312,3 +317,4 @@ Dialogue: 0,0:23:51.68,0:23:52.97,Default,,0,0,0,,Әрекет!
 Dialogue: 0,0:23:57.26,0:23:58.93,Default,,0,0,0,,Коми-сан Ескерту!
 Dialogue: 0,0:23:57.26,0:23:58.93,Default,,0,0,0,,О, жоқ, Коми-сан!
 Dialogue: 0,0:23:59.02,0:23:59.85,Default,,0,0,0,,Иә, иә! (Таныс: сыбырлап) Дұрыс!
+Dialogue: 0,0:24:01.35,0:24:07.35,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

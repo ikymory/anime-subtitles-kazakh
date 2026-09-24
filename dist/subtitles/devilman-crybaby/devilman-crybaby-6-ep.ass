@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 ScriptType: v4.00+
 Title: [Erai-raws]
 WrapStyle: 0
@@ -15,6 +19,7 @@ Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 
 
 Dialogue: 0,0:00:11.05,0:00:16.05,Default,,0,0,0,,♪~
@@ -409,3 +414,4 @@ Dialogue: 0,0:22:28.76,0:22:30.59,Default,,0,0,0,,Мен сені құтқара
 Dialogue: 0,0:22:40.98,0:22:42.56,Default,,0,0,0,,♪~
 Dialogue: 0,0:23:40.96,0:23:45.96,Default,,0,0,0,,~♪
 Dialogue: 0,0:23:47.13,0:23:49.34,Default,,0,0,0,,Жапон субтитрлері Taro Goto
+Dialogue: 0,0:23:50.84,0:23:56.84,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

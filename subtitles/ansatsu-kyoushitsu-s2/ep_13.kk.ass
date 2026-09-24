@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 ; Made by Kamigami for education purpose only
 ; Visit us at www.kamigami.org
 ; 本字幕由诸神字幕组出品，仅供学习交流，禁止用于商业用途
@@ -24,6 +28,7 @@ Style: TEXT-JP-UP,A-OTF Maru Folk Pro B,62,&H00FFFFFF,&H000000FF,&H00000000,&H00
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 ; --- ;
 Comment: 0,0:02:06.52,0:02:06.56,OP1-JP,,0,0,0,,------OP JP------
 Dialogue: 0,0:02:15.94,0:02:17.45,OP1-JP,,0,0,0,,{\p1\bord0\alpha66\move(-800,1080,350,1080,0,207)\t(208,209,\clip(823,933,1165,1080))\fscy80)}m 0 0 l 2 141 l 1440 140 l 1500 0 l 0 0
@@ -445,3 +450,4 @@ Dialogue: 1,0:02:29.67,0:02:30.71,STAFF,,0,0,0,,Уақыт...Waji Yuki Бұрм�
 Dialogue: 2,0:02:29.67,0:02:30.71,STAFF,,0,0,0,,Үш
 Dialogue: 2,0:02:29.67,0:02:30.71,STAFF,,0,0,0,,Үш
 Dialogue: 1,0:02:31.29,0:02:32.34,STAFF,,0,0,0,,Күйшей...Юки Юки
+Dialogue: 0,0:23:12.45,0:23:18.45,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory

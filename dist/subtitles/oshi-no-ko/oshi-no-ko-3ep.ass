@@ -1,4 +1,8 @@
 [Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
 ; ----- Font subset begin -----
 ; Font subset: Z9P718E7 - A-OTF Folk Pro B
 ; Font subset: HTET21AR - 梦源黑体 SC W25
@@ -49,6 +53,7 @@ Style: Mephisto - CN,JZTEJFGV,40,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Comment: 0,0:00:00.00,0:00:00.00,Staff,,0,0,0,,Staff
 Comment: 2,0:01:30.99,0:01:33.99,Default - CN,,0,0,0,,Main
 Comment: 1,0:01:30.99,0:01:33.99,Default - CN,,0,0,0,,JP
@@ -1595,3 +1600,4 @@ Dialogue: 0,0:25:07.94,0:25:10.12,Mephisto - JP,,0,0,0,fx,Әр адамның е
 Dialogue: 0,0:25:08.51,0:25:10.15,Mephisto - JP,,0,0,0,fx,На
 Dialogue: 0,0:25:08.70,0:25:10.17,Mephisto - JP,,0,0,0,fx,Мен бірге тұратын отбасыммен келдім.
 Dialogue: 0,0:25:09.06,0:25:10.19,Mephisto - JP,,0,0,0,fx,Жарайды, жарайды, Азумабито әулетінің мүшелері.
+Dialogue: 0,0:25:11.69,0:25:17.69,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\\NБарлық құқықтары қорғалған • github.com/ikymory
