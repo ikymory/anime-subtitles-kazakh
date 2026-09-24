@@ -186,7 +186,7 @@ This repository strictly complies with international copyright law and United St
 2. **Transformative Fair Use (17 U.S.C. § 107)**:
    - Provided as a non-commercial educational and accessibility service for the Deaf and Hard of Hearing (DHH) community in Central Asia, where official Kazakh closed captioning tracks are unavailable.
 3. **DMCA Section 512(c) Safe Harbor Notice & Takedown**:
-   - Rights holders or authorized representatives may request removal of any specific subtitle translation by emailing our **Designated DMCA Agent**: `ikymory.dmca@proton.me`. Complete notices are processed within **24 to 48 hours**.
+   - Rights holders or authorized representatives may request removal of any specific subtitle translation by emailing our **Designated DMCA Agent**: `ikymory@gmail.com`. Complete notices are processed within **24 to 48 hours**.
    - Read our full legal policy: [**DMCA.md**](DMCA.md).
 
 ## ❓ Frequently Asked Questions (FAQ)

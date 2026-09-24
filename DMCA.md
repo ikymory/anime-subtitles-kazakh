@@ -48,7 +48,7 @@ If you are a copyright owner or an agent authorized to act on behalf of an owner
 
 To expedite resolution without the need for unnecessary administrative disputes, rights holders are encouraged to contact the maintainer directly:
 
-- **Designated DMCA Email**: `ikymory.dmca@proton.me`
+- **Designated DMCA Email**: `ikymory@gmail.com`
 - **Alternative Contact**: [File a GitHub Issue with the label `DMCA-Request`](https://github.com/ikymory/anime-subtitles-kazakh/issues/new?title=%5BDMCA%5D+Takedown+Request&labels=dmca-takedown)
 - **Response Commitment**: We take intellectual property rights seriously. All legitimate, complete notices are reviewed and acted upon within **24 to 48 hours**, including immediate removal of the requested subtitle files from the public repository and CDN caches.
 
