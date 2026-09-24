@@ -215,6 +215,10 @@
           <span id="navDmcaTxt" class="font-medium text-[11px]">DMCA</span>
         </button>
 
+        <a href="https://x.com/ikymory" target="_blank" class="text-slate-400 hover:text-slate-200 p-2 rounded-xl hover:bg-[#121620] transition border border-transparent hover:border-[#1a202c]" title="x.com (@ikymory)">
+          <i class="fa-brands fa-x-twitter text-sm"></i>
+        </a>
+
         <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="text-slate-400 hover:text-slate-200 p-2 rounded-xl hover:bg-[#121620] transition border border-transparent hover:border-[#1a202c]" title="GitHub">
           <i class="fab fa-github text-sm"></i>
         </a>
@@ -484,162 +488,219 @@
           </div>
         </div>
 
-        <!-- SECTION 3: PRODUCTION & LICENSE INFO -->
-        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
-          <div class="flex items-center space-x-2 text-slate-200">
-            <i class="fas fa-certificate text-xs text-emerald-400"></i>
-            <h4 id="sidebarLicTitle" class="text-xs font-bold text-slate-200">Продакшн және Лицензия</h4>
-          </div>
-          <p id="sidebarLicDesc" class="text-[11px] text-slate-400 leading-relaxed">
-            Субтитрлерді кез келген онлайн кинотеатр немесе плеерде тегін қолдануға болады.
-          </p>
-          <div class="p-2.5 rounded-xl bg-[#121620] border border-[#1a202c] space-y-1.5 text-[11px]">
-            <div class="flex justify-between items-center">
-              <span id="sidebarAuthorLbl" class="text-slate-500">Автор:</span>
-              <span class="font-mono font-medium text-slate-200">ikymory</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span id="sidebarReqLbl" class="text-slate-500">Талап:</span>
-              <span id="sidebarReqVal" class="text-emerald-400 font-medium">@ikymory су белгісі сақталуы тиіс</span>
-            </div>
-          </div>
-          <div class="p-2.5 rounded-xl bg-emerald-950/20 border border-emerald-900/40 space-y-1 text-[11px]">
-            <div class="flex items-center space-x-1.5 text-emerald-400 font-medium">
-              <i class="fas fa-check-shield text-xs"></i>
-              <span id="sidebarSafeTitle">100% Заңды және Қауіпсіз</span>
-            </div>
-            <p id="sidebarSafeDesc" class="text-slate-400 text-[10px] leading-relaxed">
-              Видео, аудио немесе стриминг сақталмайды. Тек қана мәтіндік субтитр аудармалары (SRT, VTT, ASS).
-            </p>
-          </div>
-          <div class="flex items-center justify-between pt-1">
-            <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh#license" target="_blank" 
-              class="inline-flex items-center space-x-1 text-xs text-slate-400 hover:text-white transition font-medium">
-              <span>Лицензия &rarr;</span>
-            </a>
-            <button onclick="openDmcaModal()" class="text-xs text-slate-400 hover:text-emerald-400 transition font-medium flex items-center space-x-1">
-              <i class="fas fa-shield-alt text-[10px]"></i>
-              <span id="sidebarDmcaBtn">DMCA & Legal</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- SECTION 4: FAQ (Clean Expandable Details) -->
-        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
-          <h4 id="faqHeaderTitle" class="text-xs font-bold text-slate-200">Жиі қойылатын сұрақтар</h4>
-          
-          <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
-            <summary id="faqQ1" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
-              Қазақша анимені қайдан көруге болады?
-              <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
-            </summary>
-            <div id="faqA1" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
-              Қазақ тіліндегі субтитрлердің ең үлкен қоры — Anime Subtitles Kazakh by ikymory. 347 аниме мен 3,462 бөлім SRT, VTT, ASS форматтарында тегін қолжетімді.
-            </div>
-          </details>
-
-          <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
-            <summary id="faqQ2" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
-              Бұл субтитрлерді үлкен сайттарда немесе қосымшаларда қолдануға бола ма?
-              <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
-            </summary>
-            <div id="faqA2" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
-              Иә, толықтай рұқсат етілген. Басты талап: субтитрдегі @ikymory авторлық белгісі сақталуы тиіс.
-            </div>
-          </details>
-
-          <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
-            <summary id="faqQ3" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
-              Сайттағы API және CDN қалай жұмыс істейді?
-              <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
-            </summary>
-            <div id="faqA3" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
-              Деректер api/v1/anime.json арқылы статикалық REST API түрінде jsDelivr CDN арқылы таратылады.
-            </div>
-          </details>
-        </div>
-
       </div>
 
     </div>
 
   </main>
-
-  <!-- Interactive Episode Modal -->
-  <div id="animeModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
-    <div class="bg-[#0f121a] border border-[#1a202c] w-full max-w-3xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-150">
-      
-      <!-- Modal Header with Backdrop -->
-      <div class="relative h-44 sm:h-52 bg-slate-900 overflow-hidden shrink-0">
-        <img id="modalBanner" src="" alt="" class="w-full h-full object-cover opacity-35 filter blur-xs">
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0f121a] via-[#0f121a]/60 to-transparent"></div>
+  <!-- Full Screen Anime Detail View -->
+  <div id="animeModal" class="fixed inset-0 z-50 bg-[#090a0f] overflow-y-auto hidden flex-col selection:bg-slate-700 selection:text-white animate-in fade-in duration-200">
+    
+    <!-- Top Sticky Bar -->
+    <header class="sticky top-0 z-40 bg-[#090a0f]/95 backdrop-blur-md border-b border-[#141822] transition-all">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
         
-        <button onclick="closeModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/60 text-slate-300 hover:text-white flex items-center justify-center transition border border-white/10 z-10">
-          <i class="fas fa-times text-xs"></i>
-        </button>
-
-        <div class="absolute bottom-4 left-4 right-4 flex items-end space-x-4 z-10">
-          <img id="modalCover" src="" alt="" class="w-20 h-28 object-cover rounded-xl border border-white/10 shadow-2xl shrink-0 hidden sm:block">
-          <div class="min-w-0 flex-1 space-y-1">
-            <div class="flex items-center space-x-2">
-              <span id="modalFormatBadge" class="px-2 py-0.5 rounded bg-black/60 border border-white/10 text-[10px] font-mono font-medium text-slate-300">TV</span>
-              <span id="modalStatusBadge" class="px-2 py-0.5 rounded bg-emerald-950/70 border border-emerald-800/70 text-[10px] font-mono text-emerald-400 flex items-center space-x-1">
-                <span class="w-1 h-1 rounded-full bg-emerald-400 mr-1"></span>
-                <span id="modalStatusText">Қазақша субтитр</span>
-              </span>
-            </div>
-            <h2 id="modalTitle" class="text-base sm:text-xl font-bold text-white tracking-tight truncate"></h2>
-            <p id="modalSubTitle" class="text-xs text-slate-400 font-mono truncate"></p>
-          </div>
+        <!-- Left: Back Button & Title breadcrumb -->
+        <div class="flex items-center space-x-3 min-w-0">
+          <button onclick="closeModal()" class="flex items-center space-x-2 px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] hover:border-slate-500/50 text-slate-200 hover:text-white text-xs font-semibold transition active:scale-95 shadow-sm">
+            <i class="fas fa-arrow-left text-xs text-slate-400"></i>
+            <span id="modalBackBtnTxt">Артқа</span>
+          </button>
+          <span class="text-slate-600 hidden sm:inline">&bull;</span>
+          <span id="modalTopNavTitle" class="text-xs font-semibold text-slate-400 truncate hidden sm:inline max-w-md"></span>
         </div>
+
+        <!-- Right: Actions (GitHub Source + Close button) -->
+        <div class="flex items-center space-x-2">
+          <a href="https://x.com/ikymory" target="_blank" class="px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-slate-300 hover:text-white text-xs font-medium transition flex items-center space-x-1.5" title="x.com (@ikymory)">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span class="hidden sm:inline">ikymory</span>
+          </a>
+          <a id="modalGithubLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-slate-300 hover:text-white text-xs font-medium transition flex items-center space-x-1.5">
+            <i class="fab fa-github"></i>
+            <span id="modalGithubTxt">GitHub</span>
+          </a>
+          <button onclick="closeModal()" class="w-8 h-8 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-slate-400 hover:text-white flex items-center justify-center text-xs transition active:scale-95" title="Жабу (Esc)">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Full-Screen Hero Showcase (Cinematic Banner Backdrop) -->
+    <div class="relative bg-[#0d1017] border-b border-[#171b26] min-h-[360px] sm:min-h-[440px] flex flex-col justify-end">
+      <!-- Backdrop image with gradient fade -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <img id="modalBanner" src="" alt="Banner" class="w-full h-full object-cover object-center opacity-30 filter blur-xs">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#090a0f] via-[#090a0f]/80 to-transparent"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-[#090a0f] via-[#090a0f]/60 to-transparent"></div>
       </div>
 
-      <!-- Modal Body -->
-      <div class="p-5 overflow-y-auto space-y-5 flex-1">
+      <!-- Hero Content Container -->
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full flex flex-col sm:flex-row items-start sm:items-end gap-6">
         
-        <!-- Synopsis -->
-        <div class="space-y-1.5">
-          <h4 id="modalSynopsisTitle" class="text-xs font-semibold text-slate-400">Сипаттама</h4>
-          <p id="modalDescription" class="text-xs text-slate-300 leading-relaxed pr-2"></p>
+        <!-- Large Poster Cover -->
+        <div class="relative shrink-0 hidden sm:block">
+          <img id="modalCover" src="" alt="Cover" class="w-40 lg:w-48 poster-aspect object-cover rounded-2xl border border-white/10 shadow-2xl bg-[#121620]">
+          <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10 pointer-events-none"></div>
         </div>
 
-        <!-- Episodes List -->
-        <div class="space-y-2">
-          <div class="flex items-center justify-between">
-            <h4 id="modalSubEpTitle" class="text-xs font-semibold text-slate-400">Субтитрлер мен бөлімдер</h4>
-            <span id="modalEpTotal" class="text-[10px] font-mono text-slate-500"></span>
+        <!-- Title & Metadata -->
+        <div class="flex-1 space-y-3 min-w-0">
+          
+          <!-- Badges Pill Row -->
+          <div class="flex flex-wrap items-center gap-2 text-[11px] font-medium">
+            <span id="modalFormatBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-slate-200 font-semibold uppercase">TV</span>
+            <span id="modalYearBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-slate-300 font-mono">2024</span>
+            <span id="modalScoreBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-amber-300 flex items-center space-x-1">
+              <i class="far fa-star text-[10px] mr-1"></i><span id="modalScoreVal">95</span>
+            </span>
+            <span id="modalStatusBadge" class="bg-emerald-950/70 border border-emerald-800/70 text-emerald-400 px-2.5 py-0.5 rounded-lg text-[10px] font-mono flex items-center space-x-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1 animate-pulse"></span>
+              <span id="modalStatusText">Қазақша субтитр</span>
+            </span>
+            <span class="bg-blue-950/60 border border-blue-800/60 text-blue-300 px-2.5 py-0.5 rounded-lg text-[10px] font-mono">
+              SRT • VTT • ASS
+            </span>
           </div>
 
-          <div id="modalEpisodesList" class="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-64 overflow-y-auto pr-1">
-            <!-- Rendered via JS -->
-          </div>
-        </div>
+          <!-- Titles -->
+          <h1 id="modalTitle" class="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight leading-tight"></h1>
+          <p id="modalSubTitle" class="text-xs sm:text-sm text-slate-400 font-mono"></p>
 
-        <!-- Modal License / Author Note -->
-        <div class="p-3 rounded-xl bg-[#121620] border border-[#181e2b] flex items-center justify-between text-xs">
-          <div class="flex items-center space-x-2">
-            <i class="fas fa-shield-alt text-slate-500"></i>
-            <span id="modalAuthorNote" class="text-slate-400">Қазақ тіліне аударған:</span>
-            <span class="font-semibold text-slate-200">ikymory</span>
-          </div>
-          <span id="modalWatermarkNote" class="text-[10px] text-slate-500">Су белгісі (@ikymory) сақталуы тиіс</span>
+          <!-- Genres -->
+          <div id="modalGenresWrap" class="flex flex-wrap gap-1.5 pt-1"></div>
+
         </div>
 
       </div>
-
-      <!-- Modal Footer -->
-      <div class="p-4 border-t border-[#181e2b] bg-[#0c0e14] flex items-center justify-between">
-        <a id="modalGithubLink" href="#" target="_blank" class="text-xs text-slate-400 hover:text-white transition flex items-center space-x-1.5">
-          <i class="fab fa-github"></i>
-          <span id="modalGithubTxt">GitHub</span>
-        </a>
-        <button onclick="closeModal()" class="px-4 py-1.5 rounded-xl bg-[#161c28] hover:bg-[#1c2434] text-slate-200 border border-[#1f2838] text-xs font-semibold transition">
-          Жабу
-        </button>
-      </div>
-
     </div>
+
+    <!-- Main Content Area: Split Columns -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full flex-1">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- Left: Synopsis & Episode Download Grid (col-span-8 or 9) -->
+        <div class="lg:col-span-8 xl:col-span-9 space-y-6">
+          
+          <!-- Synopsis Box -->
+          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 shadow-xl space-y-2">
+            <h3 id="modalSynopsisTitle" class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-2">
+              <i class="fas fa-align-left text-slate-500"></i>
+              <span>Сипаттама</span>
+            </h3>
+            <p id="modalDescription" class="text-xs sm:text-sm text-slate-300 leading-relaxed pr-2"></p>
+          </div>
+
+          <!-- Episodes Section -->
+          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 shadow-xl space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#181e2b] pb-4">
+              <div>
+                <h3 id="modalSubEpTitle" class="text-sm font-bold text-white tracking-tight flex items-center space-x-2">
+                  <i class="fas fa-closed-captioning text-emerald-400"></i>
+                  <span>Субтитрлер мен бөлімдер</span>
+                </h3>
+                <p id="modalEpSubtitleText" class="text-xs text-slate-500 mt-0.5">Кез келген бөлімнің субтитрін қалаған форматта (.srt, .vtt, .ass) жүктеп алыңыз</p>
+              </div>
+              <span id="modalEpTotal" class="text-xs font-mono px-3 py-1 rounded-xl bg-[#121620] border border-[#1a202c] text-slate-300 self-start sm:self-auto"></span>
+            </div>
+
+            <!-- Episode Cards Grid (Spacious, full-width responsive grid) -->
+            <div id="modalEpisodesList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Anime Info & Details Sidebar (col-span-4 or 3) -->
+        <div class="lg:col-span-4 xl:col-span-3 space-y-5">
+          
+          <!-- Info Card -->
+          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 shadow-xl space-y-4">
+            <h4 id="modalInfoBoxTitle" class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-2">
+              <i class="fas fa-info-circle text-slate-500"></i>
+              <span>Ақпарат</span>
+            </h4>
+
+            <div class="space-y-3 text-xs divide-y divide-[#161c28]">
+              <div class="flex justify-between items-center pt-2 first:pt-0">
+                <span class="text-slate-500">Формат</span>
+                <span id="infoFormatVal" class="font-mono text-slate-200">TV</span>
+              </div>
+              <div class="flex justify-between items-center pt-2">
+                <span class="text-slate-500">Бөлім саны</span>
+                <span id="infoEpsVal" class="font-mono text-slate-200">28</span>
+              </div>
+              <div class="flex justify-between items-center pt-2">
+                <span class="text-slate-500">Шыққан жылы</span>
+                <span id="infoYearVal" class="font-mono text-slate-200">2024</span>
+              </div>
+              <div class="flex justify-between items-center pt-2">
+                <span class="text-slate-500">Рейтинг</span>
+                <span id="infoScoreVal" class="font-mono text-amber-400">95 / 100</span>
+              </div>
+              <div class="flex justify-between items-center pt-2">
+                <span class="text-slate-500">Аудармашы</span>
+                <a href="https://x.com/ikymory" target="_blank" class="font-mono text-emerald-400 hover:underline">ikymory</a>
+              </div>
+              <div class="flex justify-between items-center pt-2">
+                <span class="text-slate-500">Лицензия</span>
+                <span class="font-mono text-slate-300">CC BY 4.0</span>
+              </div>
+            </div>
+
+            <!-- CDN Endpoint info -->
+            <div class="pt-2 border-t border-[#181e2b]">
+              <div class="p-3 rounded-xl bg-[#121620] border border-[#181e2b] space-y-1.5 text-[11px]">
+                <div class="text-slate-400 font-semibold flex items-center space-x-1.5">
+                  <i class="fas fa-network-wired text-emerald-400 text-xs"></i>
+                  <span>jsDelivr Global CDN</span>
+                </div>
+                <p class="text-slate-500 text-[10px] leading-tight">
+                  Субтитрлерді тікелей кез келген ойнатқышқа (VLC, MPV, Web) қосуға болады.
+                </p>
+              </div>
+            </div>
+
+            <!-- X.com author badge -->
+            <a href="https://x.com/ikymory" target="_blank" class="block p-3 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#1a202c] hover:border-slate-500 transition group text-xs">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                  <i class="fa-brands fa-x-twitter text-slate-300 group-hover:text-white"></i>
+                  <span class="font-semibold text-slate-200 group-hover:text-white">@ikymory</span>
+                </div>
+                <span class="text-[10px] text-slate-500 group-hover:text-slate-300">x.com &rarr;</span>
+              </div>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Bottom Full-Screen Modal Footer -->
+    <footer class="border-t border-[#141822] bg-[#07080c] py-5 text-xs text-slate-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+        <div>
+          <span class="font-extrabold text-slate-300">ikymory</span> &bull; Anime Subtitles Kazakh
+        </div>
+        <div class="flex items-center space-x-3 text-xs">
+          <a href="https://x.com/ikymory" target="_blank" class="text-slate-400 hover:text-white transition flex items-center space-x-1">
+            <i class="fa-brands fa-x-twitter"></i>
+            <span>@ikymory</span>
+          </a>
+          <span>&bull;</span>
+          <button onclick="closeModal()" class="text-slate-300 hover:text-white font-medium">Артқа қайту</button>
+        </div>
+      </div>
+    </footer>
+
   </div>
+
 
   
   <!-- DMCA & Anti-Piracy Policy Interactive Modal -->
@@ -726,24 +787,40 @@
       <span id="toastMsg">Сілтеме көшірілді</span>
     </div>
   </div>
-
   <!-- Footer -->
   <footer class="mt-auto border-t border-[#141822] bg-[#08090d] py-6 text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
       <div class="flex items-center space-x-2">
         <span class="font-extrabold text-slate-300">ikymory</span>
         <span>&bull;</span>
         <span id="footerLicense">Лицензия</span>: Creative Commons Attribution 4.0 International (CC BY 4.0)
       </div>
-      <div class="flex items-center space-x-3 text-[11px] text-slate-500">
-        <button onclick="openDmcaModal()" class="text-slate-400 hover:text-white transition underline underline-offset-4 decoration-slate-700">DMCA & Legal Statement</button>
-        <span>&bull;</span>
-        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/DMCA.md" target="_blank" class="text-slate-400 hover:text-white transition">Policy (DMCA.md)</a>
-        <span>&bull;</span>
-        <span id="footerSub">347 Франшиза (3,462 Бөлім) &bull; ikymory (@ikymory)</span>
+      <div class="flex flex-wrap items-center justify-center sm:justify-end gap-x-3 gap-y-1.5 text-xs text-slate-400">
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="hover:text-white transition flex items-center space-x-1.5">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <span class="text-slate-600">&bull;</span>
+        <a href="https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json" target="_blank" class="hover:text-white transition flex items-center space-x-1.5">
+          <i class="fas fa-code"></i>
+          <span>API</span>
+        </a>
+        <span class="text-slate-600">&bull;</span>
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="hover:text-white transition flex items-center space-x-1.5">
+          <i class="fas fa-balance-scale"></i>
+          <span>License</span>
+        </a>
+        <span class="text-slate-600">&bull;</span>
+        <a href="https://x.com/ikymory" target="_blank" class="text-slate-300 hover:text-white transition flex items-center space-x-1.5 font-medium">
+          <i class="fa-brands fa-x-twitter"></i>
+          <span>x.com (@ikymory)</span>
+        </a>
+        <span class="text-slate-600">&bull;</span>
+        <button onclick="openDmcaModal()" class="text-slate-400 hover:text-emerald-400 transition underline underline-offset-4 decoration-slate-700">DMCA</button>
       </div>
     </div>
   </footer>
+
 
   <script>
     let animeData = [];
@@ -857,24 +934,9 @@
         lbl_next: "Келесі",
         sidebar_airing: "Top Airing",
         sidebar_movies: "Top Movies",
-        sidebar_lic_title: "Продакшн және Лицензия",
-        sidebar_lic_desc: "Субтитрлерді кез келген онлайн кинотеатр немесе плеерде тегін қолдануға болады.",
-        sidebar_author: "Автор:",
-        sidebar_req: "Талап:",
-        sidebar_req_val: "@ikymory су белгісі сақталуы тиіс",
-        sidebar_lic_link: "Лицензия шарттары →",
-        faq_title: "Жиі қойылатын сұрақтар",
-        faq_q1: "Қазақша анимені қайдан көруге болады?",
-        faq_a1: "Қазақ тіліндегі субтитрлердің ең үлкен қоры — Anime Subtitles Kazakh by ikymory. 347 аниме мен 3,462 бөлім SRT, VTT, ASS форматтарында тегін қолжетімді.",
-        faq_q2: "Бұл субтитрлерді үлкен сайттарда немесе қосымшаларда қолдануға бола ма?",
-        faq_a2: "Иә, толықтай рұқсат етілген. Басты талап: субтитрдегі @ikymory авторлық белгісі сақталуы тиіс.",
-        faq_q3: "Сайттағы API және CDN қалай жұмыс істейді?",
-        faq_a3: "Деректер api/v1/anime.json арқылы статикалық REST API түрінде jsDelivr CDN арқылы таратылады.",
         modal_synopsis: "Сипаттама",
         modal_sub_ep: "Субтитрлер мен бөлімдер",
         modal_github: "GitHub",
-        modal_author_note: "Қазақ тіліне аударған:",
-        modal_watermark_note: "Су белгісі (@ikymory) сақталуы тиіс",
         status_full: "Қазақша субтитр",
         ep_label: "бөлім",
         copied_toast: "Сілтеме көшірілді",
@@ -885,8 +947,6 @@
         details_btn: "Толығырақ",
         watch_btn: "Субтитрлерді алу",
         hero_legal_badge: "Тек мәтіндік субтитрлер • Видео сақталмайды",
-        sidebar_safe_title: "100% Заңды және Қауіпсіз",
-        sidebar_safe_desc: "Видео, аудио немесе стриминг сақталмайды. Тек қана мәтіндік субтитр аудармалары (SRT, VTT, ASS).",
         dmca_nav: "DMCA",
         dmca_heading: "DMCA Саясаты және Анти-пираттық мәлімдеме",
         dmca_subheading: "17 U.S.C. § 512(c) & § 107 Safe Harbor сәйкестігі",
@@ -932,24 +992,9 @@
         lbl_next: "Next",
         sidebar_airing: "Top Airing",
         sidebar_movies: "Top Movies",
-        sidebar_lic_title: "Production & License",
-        sidebar_lic_desc: "Free to embed and use on any commercial streaming platform or media player.",
-        sidebar_author: "Author:",
-        sidebar_req: "Requirement:",
-        sidebar_req_val: "@ikymory watermark required",
-        sidebar_lic_link: "License terms →",
-        faq_title: "Frequently Asked Questions",
-        faq_q1: "Where can I watch anime with Kazakh subtitles?",
-        faq_a1: "The official archive is Anime Subtitles Kazakh by ikymory. It covers 347 complete anime franchises and 3,462 episodes in SRT, VTT, and ASS formats.",
-        faq_q2: "Can I use these subtitles on my streaming platform or website?",
-        faq_a2: "Yes, fully authorized for free use. The only requirement is keeping the @ikymory author watermark intact.",
-        faq_q3: "How do the API and CDN work?",
-        faq_a3: "All data is accessible via static REST API at api/v1/anime.json and served globally over jsDelivr CDN.",
         modal_synopsis: "Synopsis",
         modal_sub_ep: "Subtitles & Episodes",
         modal_github: "GitHub",
-        modal_author_note: "Translated to Kazakh by:",
-        modal_watermark_note: "@ikymory watermarks required",
         status_full: "Kazakh Sub",
         ep_label: "Ep",
         copied_toast: "Copied to clipboard",
@@ -960,8 +1005,6 @@
         details_btn: "Details",
         watch_btn: "Download Subtitles",
         hero_legal_badge: "Plain Text Subtitles Only • Zero Video Hosting",
-        sidebar_safe_title: "100% Legal & Safe",
-        sidebar_safe_desc: "No video, audio, or media streams hosted. Plain text subtitles only (.srt, .vtt, .ass).",
         dmca_nav: "DMCA",
         dmca_heading: "DMCA Policy & Anti-Piracy Statement",
         dmca_subheading: "Compliance under 17 U.S.C. § 512(c) & § 107 Safe Harbor",
@@ -1007,24 +1050,9 @@
         lbl_next: "次へ",
         sidebar_airing: "Top Airing",
         sidebar_movies: "Top Movies",
-        sidebar_lic_title: "本番利用とライセンス",
-        sidebar_lic_desc: "配信プラットフォームや動画プレイヤーへ無償で組み込み可能です。",
-        sidebar_author: "作成者:",
-        sidebar_req: "条件:",
-        sidebar_req_val: "@ikymory ウォーターマーク必須",
-        sidebar_lic_link: "ライセンス条項 →",
-        faq_title: "よくある質問 (FAQ)",
-        faq_q1: "カザフ語字幕のアニメはどこで視聴できますか？",
-        faq_a1: "ikymoryによるAnime Subtitles Kazakhが公式アーカイブです。全347作品、3,462話の字幕（SRT、VTT、ASS）が完全公開されています。",
-        faq_q2: "自社の配信サイトやアプリに組み込んで利用できますか？",
-        faq_a2: "商用・個人を問わず完全無償で利用可能です。唯一の条件として字幕内の@ikymory著作者クレジットを維持してください。",
-        faq_q3: "APIやCDNの仕様はどうなっていますか？",
-        faq_a3: "api/v1/anime.jsonから高速な静的REST APIおよびjsDelivr CDN経由でグローバルに配信されています。",
         modal_synopsis: "あらすじ",
         modal_sub_ep: "字幕ファイル & エピソード",
         modal_github: "GitHub",
-        modal_author_note: "カザフ語翻訳:",
-        modal_watermark_note: "@ikymory ウォーターマークの維持が必須です",
         status_full: "カザフ語字幕",
         ep_label: "話",
         copied_toast: "クリップボードにコピーしました",
@@ -1035,8 +1063,6 @@
         details_btn: "詳細情報",
         watch_btn: "字幕ダウンロード",
         hero_legal_badge: "テキスト字幕のみ • 動画配信なし",
-        sidebar_safe_title: "100% 適法・安全",
-        sidebar_safe_desc: "動画・音声等のマルチメディアは一切ホストしません。プレーンテキスト字幕（SRT/VTT/ASS）のみを公開しています。",
         dmca_nav: "DMCA",
         dmca_heading: "DMCAポリシーおよび非海賊版・適法声明",
         dmca_subheading: "米国法 17 U.S.C. § 512(c) および § 107 準拠",
@@ -1099,85 +1125,67 @@
       });
 
       const t = i18n[lang];
-      document.getElementById('navSearchInput').placeholder = t.search_ph;
-      document.getElementById('lblSearch').textContent = t.lbl_search;
-      document.getElementById('searchInput').placeholder = t.search_ph;
-      document.getElementById('lblGenres').textContent = t.lbl_genres;
-      document.getElementById('lblYear').textContent = t.lbl_year;
-      document.getElementById('lblSort').textContent = t.lbl_sort;
-      document.getElementById('lblFormat').textContent = t.lbl_format;
+      const setText = (id, text) => {
+        const el = document.getElementById(id);
+        if (el && text !== undefined) el.textContent = text;
+      };
+      const setHtml = (id, content) => {
+        const el = document.getElementById(id);
+        if (el && content !== undefined) el.innerHTML = content;
+      };
 
-      document.getElementById('tab-newest').textContent = t.tab_newest;
-      document.getElementById('tab-popular').textContent = t.tab_popular;
-      document.getElementById('tab-toprated').textContent = t.tab_toprated;
-      document.getElementById('tab-movies').textContent = t.tab_movies;
+      // Navbar & Search
+      const navSearch = document.getElementById('navSearchInput');
+      if (navSearch) navSearch.placeholder = t.search_ph;
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) searchInput.placeholder = t.search_ph;
 
-      document.getElementById('lblShowing').textContent = t.lbl_showing;
-      document.getElementById('lblPrev').textContent = t.lbl_prev;
-      document.getElementById('lblNext').textContent = t.lbl_next;
+      setText('lblSearch', t.lbl_search);
+      setText('lblGenres', t.lbl_genres);
+      setText('lblYear', t.lbl_year);
+      setText('lblSort', t.lbl_sort);
+      setText('lblFormat', t.lbl_format);
 
-      document.getElementById('sidebarAiringTitle').textContent = t.sidebar_airing;
-      document.getElementById('sidebarMoviesTitle').textContent = t.sidebar_movies;
-      document.getElementById('sidebarLicTitle').textContent = t.sidebar_lic_title;
-      document.getElementById('sidebarLicDesc').textContent = t.sidebar_lic_desc;
-      document.getElementById('sidebarAuthorLbl').textContent = t.sidebar_author;
-      document.getElementById('sidebarReqLbl').textContent = t.sidebar_req;
-      document.getElementById('sidebarReqVal').textContent = t.sidebar_req_val;
-      document.getElementById('sidebarLicLink').innerHTML = t.sidebar_lic_link;
+      // Tabs
+      setText('tab-newest', t.tab_newest);
+      setText('tab-popular', t.tab_popular);
+      setText('tab-toprated', t.tab_toprated);
+      setText('tab-movies', t.tab_movies);
 
-      document.getElementById('faqHeaderTitle').textContent = t.faq_title;
-      document.getElementById('faqQ1').textContent = t.faq_q1;
-      document.getElementById('faqA1').textContent = t.faq_a1;
-      document.getElementById('faqQ2').textContent = t.faq_q2;
-      document.getElementById('faqA2').textContent = t.faq_a2;
-      document.getElementById('faqQ3').textContent = t.faq_q3;
-      document.getElementById('faqA3').textContent = t.faq_a3;
+      // Pager
+      setText('lblShowing', t.lbl_showing);
+      setText('lblPrev', t.lbl_prev);
+      setText('lblNext', t.lbl_next);
 
-      document.getElementById('heroDetailsTxt').textContent = t.details_btn;
-      document.getElementById('heroWatchTxt').textContent = t.watch_btn;
+      // Sidebar
+      setText('sidebarAiringTitle', t.sidebar_airing);
+      setText('sidebarMoviesTitle', t.sidebar_movies);
 
-      document.getElementById('modalSynopsisTitle').textContent = t.modal_synopsis;
-      document.getElementById('modalSubEpTitle').textContent = t.modal_sub_ep;
-      document.getElementById('modalGithubTxt').textContent = t.modal_github;
-      document.getElementById('modalAuthorNote').textContent = t.modal_author_note;
-      document.getElementById('modalWatermarkNote').textContent = t.modal_watermark_note;
-      document.getElementById('modalStatusText').textContent = t.status_full;
+      // Hero Banner
+      setText('heroDetailsTxt', t.details_btn);
+      setText('heroWatchTxt', t.watch_btn);
+      setText('heroLegalBadgeTxt', t.hero_legal_badge);
 
-      document.getElementById('footerLicense').textContent = t.footer_license;
-      document.getElementById('footerSub').innerHTML = t.footer_sub;
+      // Fullscreen Detail Modal
+      setText('modalBackBtnTxt', lang === 'ja' ? '戻る' : (lang === 'en' ? 'Back' : 'Артқа'));
+      setText('modalSynopsisTitle', t.modal_synopsis);
+      setText('modalSubEpTitle', t.modal_sub_ep);
+      setText('modalEpSubtitleText', lang === 'ja' ? '各話の字幕をSRT、VTT、ASS形式でダウンロード可能' : (lang === 'en' ? 'Download subtitles for any episode in .srt, .vtt, or .ass formats' : 'Кез келген бөлімнің субтитрін қалаған форматта (.srt, .vtt, .ass) жүктеп алыңыз'));
+      setText('modalInfoBoxTitle', lang === 'ja' ? '作品情報' : (lang === 'en' ? 'Information' : 'Ақпарат'));
+      setText('modalStatusText', t.status_full);
+      setText('modalGithubTxt', t.modal_github);
 
-      const navDmca = document.getElementById('navDmcaTxt');
-      if (navDmca && t.dmca_nav) navDmca.textContent = t.dmca_nav;
-
-      const heroLegal = document.getElementById('heroLegalBadgeTxt');
-      if (heroLegal && t.hero_legal_badge) heroLegal.textContent = t.hero_legal_badge;
-
-      const safeTitle = document.getElementById('sidebarSafeTitle');
-      if (safeTitle && t.sidebar_safe_title) safeTitle.textContent = t.sidebar_safe_title;
-
-      const safeDesc = document.getElementById('sidebarSafeDesc');
-      if (safeDesc && t.sidebar_safe_desc) safeDesc.textContent = t.sidebar_safe_desc;
-
-      const dmcaHeading = document.getElementById('dmcaModalHeading');
-      if (dmcaHeading && t.dmca_heading) dmcaHeading.textContent = t.dmca_heading;
-
-      const dmcaSub = document.getElementById('dmcaModalSubHeading');
-      if (dmcaSub && t.dmca_subheading) dmcaSub.textContent = t.dmca_subheading;
-
-      const p1T = document.getElementById('dmcaP1Title');
-      if (p1T && t.dmca_p1_title) p1T.textContent = t.dmca_p1_title;
-      const p1D = document.getElementById('dmcaP1Desc');
-      if (p1D && t.dmca_p1_desc) p1D.textContent = t.dmca_p1_desc;
-
-      const p2T = document.getElementById('dmcaP2Title');
-      if (p2T && t.dmca_p2_title) p2T.textContent = t.dmca_p2_title;
-      const p2D = document.getElementById('dmcaP2Desc');
-      if (p2D && t.dmca_p2_desc) p2D.textContent = t.dmca_p2_desc;
-
-      const p3T = document.getElementById('dmcaP3Title');
-      if (p3T && t.dmca_p3_title) p3T.textContent = t.dmca_p3_title;
-      const p3D = document.getElementById('dmcaP3Desc');
-      if (p3D && t.dmca_p3_desc) p3D.textContent = t.dmca_p3_desc;
+      // Footer & Legal
+      setText('footerLicense', t.footer_license);
+      setText('navDmcaTxt', t.dmca_nav);
+      setText('dmcaModalHeading', t.dmca_heading);
+      setText('dmcaModalSubHeading', t.dmca_subheading);
+      setText('dmcaP1Title', t.dmca_p1_title);
+      setText('dmcaP1Desc', t.dmca_p1_desc);
+      setText('dmcaP2Title', t.dmca_p2_title);
+      setText('dmcaP2Desc', t.dmca_p2_desc);
+      setText('dmcaP3Title', t.dmca_p3_title);
+      setText('dmcaP3Desc', t.dmca_p3_desc);
 
       renderDropdownMenus();
       updateHeroDisplay(true);
@@ -1189,9 +1197,6 @@
       }
     }
 
-    // -------------------------------------------------------------
-    // CUSTOM STYLIZED DROPDOWN CONTROLLER
-    // -------------------------------------------------------------
     function renderDropdownMenus() {
       const t = i18n[currentLang];
       ['genre', 'year', 'sort', 'format'].forEach(key => {
@@ -1746,7 +1751,9 @@
     function openModal(slug) {
       const modal = document.getElementById('animeModal');
       modal.classList.remove('hidden');
+      modal.classList.add('flex');
       document.body.style.overflow = 'hidden';
+      modal.scrollTop = 0;
 
       const summary = animeData.find(a => a.slug === slug);
       const titleText = getAnimeTitle(summary) || slug;
@@ -1754,37 +1761,76 @@
       const coverUrl = (summary && summary.coverImage) || fallbackCover;
       const bannerUrl = (summary && summary.bannerImage) || coverUrl;
       const t = i18n[currentLang];
+      const format = (summary && summary.format) || 'TV';
+      const year = (summary && summary.seasonYear) || 2024;
+      const score = getAnimeScore(summary);
+      const epCount = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
 
+      // Populate hero elements
       document.getElementById('modalTitle').textContent = titleText;
+      const navTitle = document.getElementById('modalTopNavTitle');
+      if (navTitle) navTitle.textContent = titleText;
+
       document.getElementById('modalSubTitle').innerHTML = subTitleText;
       document.getElementById('modalCover').src = coverUrl;
       document.getElementById('modalBanner').src = bannerUrl;
-      document.getElementById('modalFormatBadge').textContent = (summary && summary.format) || 'TV';
+      document.getElementById('modalFormatBadge').textContent = format;
+      document.getElementById('modalYearBadge').textContent = year;
+      document.getElementById('modalScoreVal').textContent = score;
       document.getElementById('modalGithubLink').href = `https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${slug}`;
+
+      // Populate info sidebar
+      const fVal = document.getElementById('infoFormatVal');
+      if (fVal) fVal.textContent = format;
+      const eVal = document.getElementById('infoEpsVal');
+      if (eVal) eVal.textContent = epCount;
+      const yVal = document.getElementById('infoYearVal');
+      if (yVal) yVal.textContent = year;
+      const sVal = document.getElementById('infoScoreVal');
+      if (sVal) sVal.textContent = `${score} / 100`;
+
+      // Render genres
+      const genresWrap = document.getElementById('modalGenresWrap');
+      if (genresWrap && summary && summary.genres) {
+        genresWrap.innerHTML = summary.genres.map(g => `
+          <span class="px-2.5 py-0.5 rounded-lg bg-[#141824] border border-[#202738] text-[11px] font-medium text-slate-300">
+            ${g}
+          </span>
+        `).join('');
+      }
 
       // Check detail JSON
       let detail = summary;
-      try {
-        const res = await fetch(`api/v1/anime/${slug}.json`);
-        if (res.ok) {
-          detail = await res.json();
-          if (detail.bannerImage) document.getElementById('modalBanner').src = detail.bannerImage;
-        }
-      } catch (e) {
-        console.warn('Could not fetch detail json for', slug);
-      }
+      fetch(`api/v1/anime/${slug}.json`)
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          if (data) {
+            if (data.bannerImage) document.getElementById('modalBanner').src = data.bannerImage;
+            if (data.description) {
+              const d = data.description.replace(/<[^>]+>/g, '').trim();
+              document.getElementById('modalDescription').textContent = d;
+            }
+            renderModalEpisodes(slug, data);
+          }
+        })
+        .catch(() => {});
 
-      let desc = (detail && detail.description) || (summary && summary.description) || '';
+      let desc = (summary && summary.description) || '';
       desc = desc.replace(/<[^>]+>/g, '').trim();
       document.getElementById('modalDescription').textContent = desc || 'Қазақша субтитрлер SRT, VTT, ASS форматтарында қолжетімді.';
 
-      renderModalEpisodes(slug, detail || summary);
+      renderModalEpisodes(slug, summary);
     }
 
     function renderModalEpisodes(slug, summary) {
       const container = document.getElementById('modalEpisodesList');
       const count = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
       const t = i18n[currentLang];
+      const epTotal = document.getElementById('modalEpTotal');
+      if (epTotal) {
+        epTotal.textContent = `${count} ${t.anime_count_suffix || 'бөлім'}`;
+      }
+
       let html = '';
       for (let ep = 1; ep <= count; ep++) {
         const srtUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.srt`;
@@ -1792,21 +1838,21 @@
         const assUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.ass`;
 
         html += `
-          <div class="flex items-center justify-between p-2 rounded-xl bg-[#121620] border border-[#181e2b] hover:border-slate-600/50 transition">
-            <div class="flex items-center space-x-2 min-w-0">
-              <span class="w-5 h-5 rounded bg-[#181e2a] text-slate-300 text-[10px] font-mono font-medium flex items-center justify-center shrink-0">
+          <div class="flex items-center justify-between p-3 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-600/50 transition shadow-sm">
+            <div class="flex items-center space-x-2.5 min-w-0">
+              <span class="w-6 h-6 rounded-lg bg-[#181e2a] text-slate-300 text-xs font-mono font-semibold flex items-center justify-center shrink-0">
                 ${ep}
               </span>
               <div class="min-w-0">
-                <h5 class="text-xs font-medium text-slate-200 truncate">${currentLang === 'ja' ? `第${ep}話` : (currentLang === 'en' ? `Episode ${ep}` : `${ep}-бөлім`)}</h5>
+                <h5 class="text-xs font-semibold text-slate-200 truncate">${currentLang === 'ja' ? `第${ep}話` : (currentLang === 'en' ? `Episode ${ep}` : `${ep}-бөлім`)}</h5>
               </div>
             </div>
             <div class="flex items-center space-x-1 shrink-0">
-              <a href="${srtUrl}" download class="px-2 py-0.5 rounded bg-[#181e2b] hover:bg-slate-700 text-slate-300 text-[10px] font-mono font-medium transition">SRT</a>
-              <a href="${vttUrl}" download class="px-2 py-0.5 rounded bg-[#181e2b] hover:bg-slate-700 text-slate-300 text-[10px] font-mono font-medium transition">VTT</a>
-              <a href="${assUrl}" download class="px-2 py-0.5 rounded bg-[#181e2b] hover:bg-slate-700 text-slate-300 text-[10px] font-mono font-medium transition">ASS</a>
-              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1 rounded bg-[#141822] hover:bg-slate-700 text-slate-400 hover:text-white text-[10px] transition">
-                <i class="fas fa-link"></i>
+              <a href="${srtUrl}" download class="px-2 py-1 rounded-md bg-[#181e2b] hover:bg-slate-700 text-slate-300 hover:text-white text-[10px] font-mono font-medium transition" title="Download SRT">SRT</a>
+              <a href="${vttUrl}" download class="px-2 py-1 rounded-md bg-[#181e2b] hover:bg-slate-700 text-slate-300 hover:text-white text-[10px] font-mono font-medium transition" title="Download VTT">VTT</a>
+              <a href="${assUrl}" download class="px-2 py-1 rounded-md bg-[#181e2b] hover:bg-slate-700 text-slate-300 hover:text-white text-[10px] font-mono font-medium transition" title="Download ASS">ASS</a>
+              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1 rounded-md bg-[#141822] hover:bg-slate-700 text-slate-400 hover:text-white text-xs transition" title="Copy CDN Link">
+                <i class="fas fa-link text-[10px]"></i>
               </button>
             </div>
           </div>
@@ -1816,13 +1862,20 @@
     }
 
     function closeModal() {
-      document.getElementById('animeModal').classList.add('hidden');
+      const modal = document.getElementById('animeModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
       document.body.style.overflow = '';
     }
 
-    document.getElementById('animeModal').addEventListener('click', (e) => {
-      if (e.target.id === 'animeModal') closeModal();
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModal();
+        closeDmcaModal();
+      }
     });
+
+    // Fullscreen view uses explicit Back / Close buttons or Escape key
 
     function copyToClipboard(text, msg) {
       navigator.clipboard.writeText(text).then(() => {
