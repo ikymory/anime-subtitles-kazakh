@@ -127,23 +127,24 @@
     .poster-aspect {
       aspect-ratio: 2 / 2.92;
     }
-    /* Miruro-style cinematic banner backdrop fade matching reference photo - tight, smooth, high-end */
+    /* Miruro-style cinematic banner backdrop fade matching reference photo */
     .miruro-hero-backdrop {
       background: 
-        linear-gradient(90deg, rgba(9, 10, 15, 0.85) 0%, rgba(9, 10, 15, 0.45) 22%, rgba(9, 10, 15, 0.08) 38%, transparent 50%),
-        linear-gradient(0deg, #090a0f 0%, rgba(9, 10, 15, 0.92) 14%, rgba(9, 10, 15, 0.6) 28%, rgba(9, 10, 15, 0.18) 42%, transparent 52%),
-        linear-gradient(180deg, rgba(9, 10, 15, 0.35) 0%, transparent 14%);
+        linear-gradient(90deg, rgba(7, 9, 14, 0.94) 0%, rgba(7, 9, 14, 0.8) 25%, rgba(7, 9, 14, 0.4) 52%, rgba(7, 9, 14, 0.08) 72%, transparent 100%),
+        linear-gradient(0deg, #090a0f 0%, rgba(9, 10, 15, 0.94) 15%, rgba(9, 10, 15, 0.65) 35%, rgba(9, 10, 15, 0.25) 60%, transparent 100%),
+        linear-gradient(180deg, rgba(9, 10, 15, 0.6) 0%, rgba(9, 10, 15, 0.15) 18%, transparent 32%);
     }
-    /* Hero Title: Modern geometric font, high-end crisp solid accent, deep shadow for perfect legibility */
+    /* Hero Title: Modern geometric font, horizontal left-to-right accent-to-white gradient matching reference photo */
     .hero-title-text {
       font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
       letter-spacing: -0.025em;
-      line-height: 1.12;
+      line-height: 1.15;
       display: inline-block;
       max-width: 100%;
-      color: var(--hero-accent, #60a5fa);
-      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.85);
-      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.8));
+      background: linear-gradient(90deg, var(--hero-accent, #38bdf8) 0%, var(--hero-accent-mid, #caeff6) 55%, #ffffff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.75)) drop-shadow(0 4px 16px rgba(0, 0, 0, 0.5));
     }
     .hero-subtitle-text {
       font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
@@ -1440,13 +1441,16 @@
 
     function createHighEndTheme(rawH, s, l) {
       const h = harmonizeToLuxuryHue(rawH);
-      // Luxury pastel tone: refined saturation (58-72%), luminous lightness (79-84%), silky pearl mid-tone
-      const sRefined = Math.min(Math.max(s, 58), 72);
-      const lRefined = Math.min(Math.max(l, 79), 84);
-      const midS = Math.round(sRefined * 0.30);
-      const color = `hsl(${h}, ${sRefined}%, ${lRefined}%)`;
-      const gradient = `linear-gradient(180deg, #ffffff 0%, hsl(${h}, ${midS}%, 95%) 38%, ${color} 100%)`;
-      return { color, gradient, h, s: sRefined, l: lRefined };
+      // High-end vibrant jewel tone on the left, transitioning horizontally to ice tint and radiant pure white on the right
+      const sVibrant = Math.min(Math.max(s, 72), 88);
+      const lVibrant = Math.min(Math.max(l, 58), 65);
+      const midS = Math.round(sVibrant * 0.42);
+      const midL = 88;
+      const color = `hsl(${h}, ${sVibrant}%, ${lVibrant}%)`;
+      const midColor = `hsl(${h}, ${midS}%, ${midL}%)`;
+      // Horizontal linear gradient matching the attached photo: vivid accent on left -> smooth ice tint -> radiant white on right
+      const gradient = `linear-gradient(90deg, ${color} 0%, ${midColor} 55%, #ffffff 100%)`;
+      return { color, midColor, gradient, h, s: sVibrant, l: lVibrant };
     }
 
     function resolveAnimeTheme(anime) {
@@ -1529,13 +1533,14 @@
 
       const renderContent = () => {
         titleEl.textContent = title;
-        // High-end crisp solid accent matching Miruro reference + deep shadow for perfect contrast
+        // Horizontal left-to-right gradient: vibrant dynamic accent on left -> smooth ice tint -> pure white on right
         titleEl.style.setProperty('--hero-accent', theme.color);
-        titleEl.style.color = theme.color;
-        titleEl.style.webkitTextFillColor = theme.color;
-        titleEl.style.backgroundImage = 'none';
-        titleEl.style.textShadow = '0 2px 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.85)';
-        titleEl.style.filter = 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.8))';
+        titleEl.style.setProperty('--hero-accent-mid', theme.midColor || '#ffffff');
+        titleEl.style.backgroundImage = theme.gradient;
+        titleEl.style.webkitBackgroundClip = 'text';
+        titleEl.style.webkitTextFillColor = 'transparent';
+        titleEl.style.textShadow = 'none';
+        titleEl.style.filter = 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.75)) drop-shadow(0 4px 16px rgba(0, 0, 0, 0.5))';
 
         const subTitleEl = document.getElementById('heroSubTitle');
         if (subTitleEl) {
@@ -2097,11 +2102,12 @@
       modalTitleEl.textContent = titleText;
       modalTitleEl.style.fontFamily = "'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif";
       modalTitleEl.style.setProperty('--hero-accent', theme.color);
-      modalTitleEl.style.color = theme.color;
-      modalTitleEl.style.webkitTextFillColor = theme.color;
-      modalTitleEl.style.backgroundImage = 'none';
-      modalTitleEl.style.textShadow = '0 2px 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.85)';
-      modalTitleEl.style.filter = 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.8))';
+      modalTitleEl.style.setProperty('--hero-accent-mid', theme.midColor || '#ffffff');
+      modalTitleEl.style.backgroundImage = theme.gradient;
+      modalTitleEl.style.webkitBackgroundClip = 'text';
+      modalTitleEl.style.webkitTextFillColor = 'transparent';
+      modalTitleEl.style.textShadow = 'none';
+      modalTitleEl.style.filter = 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.75)) drop-shadow(0 4px 16px rgba(0, 0, 0, 0.5))';
       const navTitle = document.getElementById('modalTopNavTitle');
       if (navTitle) navTitle.textContent = titleText;
 
