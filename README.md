@@ -1,12 +1,19 @@
-# Anime Subtitles Kazakh (Қазақша Аниме Субтитрлері)
-
 <div align="center">
 
+# 🎬 Anime Subtitles Kazakh (Қазақша Аниме Субтитрлері)
+
+### 🌐 Choose Language / Тілді таңдаңыз / 言語を選択:
+
 <p align="center">
-  <a href="Kazakh.md"><img src="https://img.shields.io/badge/Тіл-Қазақша-00afca?style=for-the-badge&logo=target&logoColor=white" alt="Kazakh"></a>
-  <a href="English.md"><img src="https://img.shields.io/badge/Language-English-1e293b?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English"></a>
-  <a href="Japanese.md"><img src="https://img.shields.io/badge/言語-日本語-e11d48?style=for-the-badge&logo=crunchyroll&logoColor=white" alt="Japanese"></a>
+  <a href="Kazakh.md"><img src="https://img.shields.io/badge/🇰🇿_ҚАЗАҚША-ОҚУ-00afca?style=for-the-badge&logoColor=white" height="38" alt="Kazakh"></a>
+  <a href="English.md"><img src="https://img.shields.io/badge/🇬🇧_ENGLISH-READ-1e293b?style=for-the-badge&logoColor=white" height="38" alt="English"></a>
+  <a href="Japanese.md"><img src="https://img.shields.io/badge/🇯🇵_日本語-読む-e11d48?style=for-the-badge&logoColor=white" height="38" alt="Japanese"></a>
 </p>
+
+| 🇰🇿 [**Қазақша нұсқасы (Kazakh.md)**](Kazakh.md) | 🇬🇧 [**English Version (English.md)**](English.md) | 🇯🇵 [**日本語版ドキュメント (Japanese.md)**](Japanese.md) |
+| :---: | :---: | :---: |
+
+---
 
 [![Catalog Size](https://img.shields.io/badge/Anime%20Catalog-347%20Complete%20Titles-e11d48.svg?style=flat-square&logo=crunchyroll)](https://ikymory.github.io/anime-subtitles-kazakh/)
 [![Episodes](https://img.shields.io/badge/Episodes-3%2C462%20Total-3b82f6.svg?style=flat-square)](https://ikymory.github.io/anime-subtitles-kazakh/)
@@ -20,11 +27,6 @@
 
 **The ultimate open-access repository of high-fidelity Kazakh (`kk`) subtitles for 347+ anime franchises, films, and OVAs.**<br>
 Every release includes universal `.srt`, web-native `.vtt`, and typography-tuned `.ass` files served via high-speed global CDN and static REST API.
-
----
-
-### 🌐 Read Documentation in Your Language:
-[🇰🇿 **Қазақ тіліндегі толық нұсқаулық (Kazakh.md)**](Kazakh.md) &nbsp;|&nbsp; [🇬🇧 **Complete English Guide (English.md)**](English.md) &nbsp;|&nbsp; [🇯🇵 **日本語公式ドキュメント (Japanese.md)**](Japanese.md)
 
 </div>
 
@@ -139,7 +141,9 @@ anime-subtitles-kazakh/
 ├── English.md                             # English Documentation
 ├── Kazakh.md                              # Қазақша толық құжаттама
 ├── Japanese.md                            # 日本語公式ドキュメント
-└── README.md
+├── README.kk.md                           # Қазақ тіліндегі басты README
+├── README.ja.md                           # 日本語メインREADME
+└── README.md                              # Main Global README
 ```
 
 ---
