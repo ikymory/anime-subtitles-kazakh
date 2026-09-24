@@ -114,18 +114,22 @@
       theme: {
         extend: {
           colors: {
-            brand: {
-              dark: '#080c0e',
-              card: '#0d1315',
-              cardHover: '#131b1e',
-              border: '#182420',
-              accent: '#22c55e',
-              accentHover: '#16a34a',
-              activeTab: '#16a34a'
+            miruro: {
+              bg: '#090a0f',
+              surface: '#0f121a',
+              card: '#121620',
+              hover: '#161c28',
+              border: '#1b2230',
+              borderLight: '#262f42',
+              green: '#22c55e',
+              greenHover: '#16a34a',
+              pink: '#ec4899',
+              cyan: '#06b6d4',
+              star: '#eab308'
             }
           },
           fontFamily: {
-            sans: ['Outfit', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
+            sans: ['Inter', 'Outfit', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
           }
         }
       }
@@ -133,71 +137,68 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <style>
     body {
-      background-color: #080c0e;
-      color: #e2e8f0;
-      font-family: 'Outfit', 'Inter', sans-serif;
+      background-color: #090a0f;
+      color: #cbd5e1;
+      font-family: 'Inter', sans-serif;
       overflow-x: hidden;
     }
-    /* Sleek green-tinted dark scrollbars */
+    /* Miruro-style ultra-thin dark scrollbars */
     ::-webkit-scrollbar {
-      width: 7px;
-      height: 7px;
+      width: 6px;
+      height: 6px;
     }
     ::-webkit-scrollbar-track {
-      background: #080c0e;
+      background: #090a0f;
     }
     ::-webkit-scrollbar-thumb {
-      background: #182620;
+      background: #1e2636;
       border-radius: 9999px;
     }
     ::-webkit-scrollbar-thumb:hover {
       background: #22c55e;
     }
-    .poster-ratio {
-      aspect-ratio: 3 / 4.3;
+    .poster-aspect {
+      aspect-ratio: 2 / 2.95;
     }
     .banner-mask {
       mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
       -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
     }
-    .hide-scrollbar::-webkit-scrollbar {
-      display: none;
-    }
-    .hide-scrollbar {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
+    .sidebar-card-bg {
+      background-size: cover;
+      background-position: right center;
     }
   </style>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-emerald-500/30 selection:text-emerald-200">
 
-  <!-- Top Navigation Bar (Miruro / AniList style, Green Accent, Clean Text-Only Brand) -->
-  <header class="sticky top-0 z-40 bg-[#080c0e]/90 backdrop-blur-md border-b border-[#182420] transition-all">
+  <!-- Top Navigation Bar (Miruro 1:1, Green Main Accent, Text-Only Brand) -->
+  <header class="sticky top-0 z-40 bg-[#090a0f]/90 backdrop-blur-md border-b border-[#161a24] transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
       
-      <!-- Brand Logo (Text Only, No Icon as requested) -->
+      <!-- Brand Logo (Text-Only Brand, No Icon as requested) -->
       <a href="#" onclick="applyTab('all')" class="group flex flex-col justify-center">
         <div class="flex items-center space-x-2">
-          <span class="font-extrabold text-base sm:text-lg tracking-tight text-white group-hover:text-emerald-400 transition font-sans">Anime Subtitles Kazakh</span>
-          <span class="text-[10px] font-bold uppercase px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">KZ</span>
+          <span class="font-black text-lg sm:text-xl tracking-tight text-white group-hover:text-emerald-400 transition font-sans">Anime Subtitles Kazakh</span>
+          <span class="text-[10px] font-bold uppercase px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 font-mono">KZ</span>
         </div>
         <p id="brandSub" class="text-[11px] text-slate-400 font-medium">347 Аниме &bull; 3,462 Бөлім &bull; @ikymory</p>
       </a>
 
-      <!-- Center Links (Desktop) -->
+      <!-- Center Links (Desktop Miruro Style) -->
       <nav class="hidden md:flex items-center space-x-1 text-sm font-medium text-slate-300">
-        <button id="navHome" onclick="applyTab('all')" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Басты бет</button>
-        <button id="navCatalog" onclick="scrollToCatalog()" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Каталог</button>
-        <button id="navMovies" onclick="filterFormat('MOVIE')" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Фильмдер</button>
-        <button id="navSeries" onclick="filterFormat('TV')" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Сериалдар</button>
-        <a href="api/v1/anime.json" target="_blank" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition flex items-center space-x-1">
+        <button id="navHome" onclick="applyTab('all')" class="px-3 py-1.5 rounded-lg hover:text-white hover:bg-[#141824] transition">Басты бет</button>
+        <button id="navCatalog" onclick="scrollToCatalog()" class="px-3 py-1.5 rounded-lg hover:text-white hover:bg-[#141824] transition">Каталог</button>
+        <button id="navMovies" onclick="filterFormat('MOVIE')" class="px-3 py-1.5 rounded-lg hover:text-white hover:bg-[#141824] transition">Фильмдер</button>
+        <button id="navSeries" onclick="filterFormat('TV')" class="px-3 py-1.5 rounded-lg hover:text-white hover:bg-[#141824] transition">Сериалдар</button>
+        <a href="api/v1/anime.json" target="_blank" class="px-3 py-1.5 rounded-lg hover:text-white hover:bg-[#141824] transition flex items-center space-x-1.5">
           <span id="navApi">API</span>
-          <span class="text-[10px] text-emerald-400 bg-emerald-950 px-1 py-0.2 rounded border border-emerald-800 font-mono">JSON</span>
+          <span class="text-[10px] text-emerald-400 bg-emerald-950/80 px-1.5 py-0.5 rounded border border-emerald-800/80 font-mono">JSON</span>
         </a>
       </nav>
 
@@ -205,7 +206,7 @@
       <div class="flex items-center space-x-3">
         
         <!-- Multi-language Switcher (Kazakh, English, Japanese) -->
-        <div class="flex items-center bg-[#0d1315] border border-[#182420] rounded-xl p-1 space-x-0.5 text-xs font-bold shadow-inner">
+        <div class="flex items-center bg-[#11151f] border border-[#1b2230] rounded-xl p-1 space-x-0.5 text-xs font-bold shadow-inner">
           <button id="lang-btn-kk" onclick="setLanguage('kk')" class="px-2.5 py-1 rounded-lg transition bg-emerald-600 text-white shadow-sm font-extrabold" title="Қазақша">
             ҚАЗ
           </button>
@@ -217,7 +218,7 @@
           </button>
         </div>
 
-        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="flex items-center space-x-2 bg-[#0d1315] hover:bg-[#131b1e] border border-[#182420] text-slate-200 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition hover:border-emerald-500/50">
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="flex items-center space-x-2 bg-[#11151f] hover:bg-[#161c28] border border-[#1b2230] text-slate-200 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition hover:border-emerald-500/50">
           <i class="fab fa-github text-sm"></i>
           <span class="hidden sm:inline">GitHub</span>
           <span class="bg-emerald-950/80 border border-emerald-800/60 px-1.5 py-0.5 rounded text-[10px] text-emerald-400 font-mono">★ Open</span>
@@ -227,63 +228,63 @@
     </div>
   </header>
 
-  <!-- Hero & Miruro Filter Bar Container -->
+  <!-- Main Container -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-2 w-full">
     
-    <!-- Miruro / AniList 5-Column Filter Strip (Screenshot 1, Green Highlights) -->
-    <div id="catalogBar" class="bg-[#0d1315] border border-[#182420] rounded-2xl p-4 sm:p-5 shadow-2xl mb-8">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5 items-end">
+    <!-- Miruro 5-Column Filter Bar (Screenshot 1 1:1) -->
+    <div id="catalogBar" class="bg-[#0f131a] border border-[#1a212d] rounded-2xl p-4 sm:p-5 shadow-2xl mb-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-3.5 items-end">
         
-        <!-- 1. Search input -->
-        <div class="space-y-1.5">
-          <label id="lblSearch" class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider flex items-center justify-between">
-            <span>Іздеу / Search</span>
+        <!-- 1. Search input (3 cols on lg) -->
+        <div class="lg:col-span-3 space-y-1.5">
+          <label id="lblSearch" class="text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between">
+            <span>Search</span>
           </label>
           <div class="relative">
             <i class="fas fa-search absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
-            <input id="searchInput" type="text" placeholder="Аниме аты (Frieren, Titan, Naruto)..." 
-              class="w-full bg-[#131b1e] border border-[#182420] hover:border-emerald-600/50 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/50 rounded-xl pl-9 pr-8 py-2.5 text-xs text-white placeholder-slate-500 outline-none transition">
+            <input id="searchInput" type="text" placeholder="Search..." 
+              class="w-full bg-[#141822] border border-[#1f2737] hover:border-emerald-500/50 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500/40 rounded-xl pl-9 pr-8 py-2.5 text-xs text-white placeholder-slate-500 outline-none transition">
             <button id="clearSearch" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white text-xs">
               <i class="fas fa-times"></i>
             </button>
           </div>
         </div>
 
-        <!-- 2. Genres & Tags -->
-        <div class="space-y-1.5">
-          <label id="lblGenres" class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
-            <span>Жанрлар / Genres</span>
+        <!-- 2. Genres & Tags (3 cols on lg) -->
+        <div class="lg:col-span-3 space-y-1.5">
+          <label id="lblGenres" class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+            <span>Genres &amp; Tags</span>
           </label>
           <div class="relative">
-            <select id="genreFilter" class="w-full bg-[#131b1e] border border-[#182420] hover:border-emerald-600/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="" id="optGenreAll">Барлығы (All Genres)</option>
-              <option value="Action">Action (Экшн)</option>
-              <option value="Adventure">Adventure (Шытырман)</option>
-              <option value="Comedy">Comedy (Комедия)</option>
-              <option value="Drama">Drama (Драма)</option>
-              <option value="Fantasy">Fantasy (Фэнтези)</option>
-              <option value="Horror">Horror (Қорқынышты)</option>
-              <option value="Mystery">Mystery (Детектив)</option>
-              <option value="Psychological">Psychological (Психологиялық)</option>
-              <option value="Romance">Romance (Романтика)</option>
-              <option value="Sci-Fi">Sci-Fi (Ғылыми фантастика)</option>
-              <option value="Slice of Life">Slice of Life (Күнделікті өмір)</option>
-              <option value="Sports">Sports (Спорт)</option>
-              <option value="Supernatural">Supernatural (Мистика)</option>
-              <option value="Thriller">Thriller (Триллер)</option>
+            <select id="genreFilter" class="w-full bg-[#141822] border border-[#1f2737] hover:border-emerald-500/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="" id="optGenreAll">Any</option>
+              <option value="Action">Action</option>
+              <option value="Adventure">Adventure</option>
+              <option value="Comedy">Comedy</option>
+              <option value="Drama">Drama</option>
+              <option value="Fantasy">Fantasy</option>
+              <option value="Horror">Horror</option>
+              <option value="Mystery">Mystery</option>
+              <option value="Psychological">Psychological</option>
+              <option value="Romance">Romance</option>
+              <option value="Sci-Fi">Sci-Fi</option>
+              <option value="Slice of Life">Slice of Life</option>
+              <option value="Sports">Sports</option>
+              <option value="Supernatural">Supernatural</option>
+              <option value="Thriller">Thriller</option>
             </select>
             <i class="fas fa-chevron-down absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
           </div>
         </div>
 
-        <!-- 3. Year -->
-        <div class="space-y-1.5">
-          <label id="lblYear" class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
-            <span>Шыққан жылы / Year</span>
+        <!-- 3. Year (2 cols on lg) -->
+        <div class="lg:col-span-2 space-y-1.5">
+          <label id="lblYear" class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+            <span>Year</span>
           </label>
           <div class="relative">
-            <select id="yearFilter" class="w-full bg-[#131b1e] border border-[#182420] hover:border-emerald-600/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="" id="optYearAll">Кез келген жыл (Any)</option>
+            <select id="yearFilter" class="w-full bg-[#141822] border border-[#1f2737] hover:border-emerald-500/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="" id="optYearAll">Any</option>
               <option value="2026">2026</option>
               <option value="2025">2025</option>
               <option value="2024">2024</option>
@@ -294,57 +295,54 @@
               <option value="2015-2019">2015 - 2019</option>
               <option value="2010-2014">2010 - 2014</option>
               <option value="2000-2009">2000 - 2009</option>
-              <option value="classic" id="optYearClassic">Классика (&lt;2000)</option>
+              <option value="classic" id="optYearClassic">Classic (&lt;2000)</option>
             </select>
             <i class="fas fa-chevron-down absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
           </div>
         </div>
 
-        <!-- 4. Format -->
-        <div class="space-y-1.5">
-          <label id="lblFormat" class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
-            <span>Формат / Format</span>
+        <!-- 4. Sort / Season (2 cols on lg) -->
+        <div class="lg:col-span-2 space-y-1.5">
+          <label id="lblSort" class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+            <span>Sort</span>
           </label>
           <div class="relative">
-            <select id="formatFilter" class="w-full bg-[#131b1e] border border-[#182420] hover:border-emerald-600/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="" id="optFmtAll">Барлығы (All Formats)</option>
-              <option value="TV" id="optFmtTv">TV Сериалдар</option>
-              <option value="MOVIE" id="optFmtMovie">Толықметражды фильмдер</option>
-              <option value="OVA" id="optFmtOva">OVA / Specials</option>
+            <select id="sortFilter" class="w-full bg-[#141822] border border-[#1f2737] hover:border-emerald-500/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="popular" id="optSortPopular">Popular</option>
+              <option value="newest" id="optSortNewest">Newest</option>
+              <option value="oldest" id="optSortOldest">Oldest</option>
+              <option value="episodes" id="optSortEpisodes">Episodes</option>
+              <option value="alpha" id="optSortAlpha">A-Z</option>
             </select>
             <i class="fas fa-chevron-down absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
           </div>
         </div>
 
-        <!-- 5. Sort -->
-        <div class="space-y-1.5">
-          <label id="lblSort" class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
-            <span>Сұрыптау / Sort</span>
+        <!-- 5. Format (2 cols on lg) -->
+        <div class="lg:col-span-2 space-y-1.5">
+          <label id="lblFormat" class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+            <span>Format</span>
           </label>
           <div class="relative">
-            <select id="sortFilter" class="w-full bg-[#131b1e] border border-[#182420] hover:border-emerald-600/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="popular" id="optSortPopular">Көп қаралған (Popular)</option>
-              <option value="newest" id="optSortNewest">Жаңа шыққан (Year: Newest)</option>
-              <option value="oldest" id="optSortOldest">Ескі шыққан (Year: Oldest)</option>
-              <option value="episodes" id="optSortEpisodes">Бөлім саны (Most Episodes)</option>
-              <option value="alpha" id="optSortAlpha">Әліпби бойынша (A-Z)</option>
+            <select id="formatFilter" class="w-full bg-[#141822] border border-[#1f2737] hover:border-emerald-500/50 focus:border-emerald-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="" id="optFmtAll">Any</option>
+              <option value="TV" id="optFmtTv">TV Series</option>
+              <option value="MOVIE" id="optFmtMovie">Movie</option>
+              <option value="OVA" id="optFmtOva">OVA / Special</option>
             </select>
-            <i class="fas fa-arrow-down-wide-short absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[11px] pointer-events-none"></i>
+            <i class="fas fa-chevron-down absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
           </div>
         </div>
 
       </div>
     </div>
 
-    <!-- 1. TRENDING NOW SECTION -->
+    <!-- 1. TRENDING NOW SECTION (Screenshot 1 1:1) -->
     <section class="mb-10">
       <div class="flex items-center justify-between mb-4">
-        <div class="flex items-center space-x-2.5">
-          <span class="w-1.5 h-4 bg-emerald-500 rounded-full"></span>
-          <h2 id="trendingTitle" class="text-sm sm:text-base font-extrabold tracking-wider text-slate-100 uppercase">TRENDING NOW</h2>
-        </div>
-        <button id="trendingViewAll" onclick="scrollToCatalog()" class="text-xs font-medium text-emerald-400 hover:text-emerald-300 transition">
-          Барлығын көру (347) <i class="fas fa-chevron-right text-[10px] ml-1"></i>
+        <h2 id="trendingTitle" class="text-sm font-extrabold tracking-wider text-slate-100 uppercase">TRENDING NOW</h2>
+        <button id="trendingViewAll" onclick="scrollToCatalog()" class="text-xs font-semibold text-slate-400 hover:text-white transition">
+          View All
         </button>
       </div>
 
@@ -353,131 +351,147 @@
       </div>
     </section>
 
-    <!-- 2. SPLIT LAYOUT -->
+    <!-- 2. SPLIT LAYOUT (Screenshots 2 & 3 1:1) -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       
-      <!-- LEFT / MAIN CONTENT COLUMN (approx 75% on desktop) -->
+      <!-- LEFT / MAIN CONTENT COLUMN (approx 75% on desktop: 8 or 9 cols) -->
       <div class="lg:col-span-8 xl:col-span-9 space-y-6">
 
-        <!-- Announcement Banner (Green Accent) -->
-        <div class="bg-gradient-to-r from-[#0d1315] via-[#101817] to-[#121d18] border border-[#182420] rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xl">
-          <div class="flex items-center space-x-3.5 text-center sm:text-left">
-            <div class="w-11 h-11 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 text-xl">
-              <i class="fas fa-layer-group"></i>
+        <!-- Community Bar (Screenshot 2 1:1 "Love the Site?") -->
+        <div class="bg-[#0f131a] border border-[#1a212d] rounded-2xl p-4 sm:p-5 flex items-center justify-between gap-4 shadow-xl">
+          <div class="flex items-center space-x-3.5">
+            <div class="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 text-lg">
+              <i class="fas fa-globe"></i>
             </div>
             <div>
-              <h3 id="bannerTitle" class="font-bold text-sm text-slate-100">Қазақ тіліндегі 347 анимеге арналған толық субтитрлер қоры</h3>
-              <p id="bannerDesc" class="text-xs text-slate-400 mt-0.5">Кез келген онлайн кинотеатр, веб-сайт және ойнатқыш (VLC, Web) үшін тегін. Авторлық су белгісі сақталады (@ikymory).</p>
+              <h3 id="bannerTitle" class="font-bold text-sm text-slate-100">Love the Site?</h3>
+              <p id="bannerDesc" class="text-xs text-slate-400 mt-0.5">347 complete anime subtitles in Kazakh • Free for production (@ikymory)</p>
             </div>
           </div>
           <div class="flex items-center space-x-2 shrink-0">
-            <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold transition flex items-center space-x-1.5 shadow-lg shadow-emerald-600/20">
-              <i class="fab fa-github"></i>
-              <span id="bannerRepo">Репозиторий</span>
+            <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="w-8 h-8 rounded-full bg-[#161c28] hover:bg-emerald-600 text-slate-300 hover:text-white flex items-center justify-center transition border border-[#222a3a]" title="GitHub">
+              <i class="fab fa-github text-xs"></i>
             </a>
-            <a href="api/v1/anime.json" target="_blank" class="px-3 py-1.5 rounded-lg bg-[#131b1e] hover:bg-slate-800 text-slate-300 text-xs font-semibold transition border border-[#182420]">
-              API
+            <a href="https://t.me/ikymory" target="_blank" class="w-8 h-8 rounded-full bg-[#161c28] hover:bg-emerald-600 text-slate-300 hover:text-white flex items-center justify-center transition border border-[#222a3a]" title="Telegram">
+              <i class="fab fa-telegram-plane text-xs"></i>
+            </a>
+            <a href="api/v1/anime.json" target="_blank" class="w-8 h-8 rounded-full bg-[#161c28] hover:bg-emerald-600 text-slate-300 hover:text-white flex items-center justify-center transition border border-[#222a3a]" title="API">
+              <i class="fas fa-code text-xs"></i>
             </a>
           </div>
         </div>
 
-        <!-- Filter Tabs & Status Bar -->
-        <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
+        <!-- Filter Tabs Bar with Mini Pager (Screenshot 2 1:1) -->
+        <div class="flex items-center justify-between gap-3 pt-1">
           
-          <!-- Category Tabs (Active Green Accent) -->
-          <div class="inline-flex p-1 bg-[#0d1315] border border-[#182420] rounded-xl text-xs font-semibold">
-            <button id="tab-all" onclick="applyTab('all')" class="px-3.5 py-1.5 rounded-lg transition bg-emerald-600 text-white shadow-sm font-bold">
-              БАРЛЫҒЫ
-            </button>
-            <button id="tab-newest" onclick="applyTab('newest')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white">
-              ЖАҢА
+          <!-- Miruro Connected Tabs (Green Active Tab) -->
+          <div class="inline-flex p-1 bg-[#0f131a] border border-[#1a212d] rounded-xl text-xs font-semibold">
+            <button id="tab-newest" onclick="applyTab('newest')" class="px-3.5 py-1.5 rounded-lg transition bg-emerald-600 text-white shadow-sm font-bold">
+              NEWEST
             </button>
             <button id="tab-popular" onclick="applyTab('popular')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white">
-              ТАНЫМАЛ
+              POPULAR
+            </button>
+            <button id="tab-toprated" onclick="applyTab('toprated')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white">
+              TOP RATED
             </button>
             <button id="tab-movies" onclick="applyTab('movies')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white">
-              ФИЛЬМДЕР
+              MOVIES
             </button>
           </div>
 
-          <!-- Total Count Badge -->
-          <div class="text-xs text-slate-400 flex items-center space-x-2 font-medium">
-            <span id="filteredCountBadge" class="bg-[#0d1315] px-2.5 py-1 rounded-lg border border-[#182420] text-emerald-400 font-semibold font-mono">
-              347 аниме
-            </span>
+          <!-- Miruro Compact Pager Right Side (< 1 >) -->
+          <div class="flex items-center space-x-2">
+            <button onclick="changePage(-1)" class="w-7 h-7 rounded-lg bg-[#0f131a] border border-[#1a212d] text-slate-400 hover:text-white flex items-center justify-center text-xs transition">
+              <i class="fas fa-chevron-left text-[10px]"></i>
+            </button>
+            <span id="miniPageIndicator" class="text-xs font-bold text-slate-200 px-1 font-mono">1</span>
+            <button onclick="changePage(1)" class="w-7 h-7 rounded-lg bg-[#0f131a] border border-[#1a212d] text-slate-400 hover:text-white flex items-center justify-center text-xs transition">
+              <i class="fas fa-chevron-right text-[10px]"></i>
+            </button>
           </div>
 
         </div>
 
-        <!-- Main Anime Grid -->
+        <!-- Main Anime Grid (Screenshot 2 1:1) -->
         <div id="mainAnimeGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3.5 sm:gap-4 min-h-[400px]">
           <!-- Dynamic Cards -->
         </div>
 
-        <!-- Pagination Controls -->
-        <div id="paginationContainer" class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#182420]">
+        <!-- Bottom Full Pagination Controls -->
+        <div id="paginationContainer" class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#1a212d]">
           <div class="text-xs text-slate-400">
-            <span id="lblShowing">Көрсетілуде:</span> <span id="showingCount" class="text-white font-semibold">1-25</span> / <span id="totalMatches" class="text-white font-semibold">347</span>
+            <span id="lblShowing">Showing:</span> <span id="showingCount" class="text-white font-semibold">1-25</span> / <span id="totalMatches" class="text-white font-semibold">347</span>
           </div>
           <div class="flex items-center space-x-2">
-            <button id="prevPageBtn" onclick="changePage(-1)" class="px-3 py-1.5 rounded-lg bg-[#0d1315] hover:bg-[#131b1e] border border-[#182420] text-slate-300 text-xs font-semibold transition disabled:opacity-30 disabled:cursor-not-allowed">
-              <i class="fas fa-chevron-left mr-1"></i> <span id="lblPrev">Алдыңғы</span>
+            <button id="prevPageBtn" onclick="changePage(-1)" class="px-3 py-1.5 rounded-lg bg-[#0f131a] hover:bg-[#161c28] border border-[#1a212d] text-slate-300 text-xs font-semibold transition disabled:opacity-30 disabled:cursor-not-allowed">
+              <i class="fas fa-chevron-left mr-1"></i> <span id="lblPrev">Previous</span>
             </button>
             <div id="pageNumbers" class="flex items-center space-x-1 text-xs">
               <!-- Page pills -->
             </div>
-            <button id="nextPageBtn" onclick="changePage(1)" class="px-3 py-1.5 rounded-lg bg-[#0d1315] hover:bg-[#131b1e] border border-[#182420] text-slate-300 text-xs font-semibold transition disabled:opacity-30 disabled:cursor-not-allowed">
-              <span id="lblNext">Келесі</span> <i class="fas fa-chevron-right ml-1"></i>
+            <button id="nextPageBtn" onclick="changePage(1)" class="px-3 py-1.5 rounded-lg bg-[#0f131a] hover:bg-[#161c28] border border-[#1a212d] text-slate-300 text-xs font-semibold transition disabled:opacity-30 disabled:cursor-not-allowed">
+              <span id="lblNext">Next</span> <i class="fas fa-chevron-right ml-1"></i>
             </button>
           </div>
         </div>
 
       </div>
 
-      <!-- RIGHT SIDEBAR (Green Highlights) -->
+      <!-- RIGHT SIDEBAR (Screenshots 2 & 3 1:1) -->
       <aside class="lg:col-span-4 xl:col-span-3 space-y-7">
 
-        <!-- 1. TOP AIRING -->
-        <div class="bg-[#0d1315] border border-[#182420] rounded-2xl p-4 sm:p-5 shadow-xl">
+        <!-- 1. TOP AIRING (Screenshot 2 1:1) -->
+        <div class="bg-[#0f131a] border border-[#1a212d] rounded-2xl p-4 sm:p-5 shadow-xl">
           <div class="flex items-center justify-between mb-4">
             <h3 class="text-xs font-extrabold uppercase tracking-wider text-slate-200 flex items-center space-x-2">
               <i class="fas fa-chevron-right text-emerald-400 text-[10px]"></i>
-              <span id="sidebarAiringTitle">TOP AIRING &bull; ХИТ ТАҢДАУЛАР</span>
+              <span id="sidebarAiringTitle">TOP AIRING</span>
             </h3>
           </div>
-          <div id="topAiringList" class="space-y-3">
+          <div id="topAiringList" class="space-y-2.5">
             <!-- Rendered via JS -->
+          </div>
+          <div class="mt-3 pt-2 text-center border-t border-[#161c28]">
+            <button onclick="scrollToCatalog()" class="text-slate-500 hover:text-slate-300 transition text-xs">
+              <i class="fas fa-chevron-down"></i>
+            </button>
           </div>
         </div>
 
-        <!-- 2. TOP MOVIES -->
-        <div class="bg-[#0d1315] border border-[#182420] rounded-2xl p-4 sm:p-5 shadow-xl">
+        <!-- 2. TOP MOVIES (Screenshot 3 1:1) -->
+        <div class="bg-[#0f131a] border border-[#1a212d] rounded-2xl p-4 sm:p-5 shadow-xl">
           <div class="flex items-center justify-between mb-4">
             <h3 class="text-xs font-extrabold uppercase tracking-wider text-slate-200 flex items-center space-x-2">
               <i class="fas fa-chevron-right text-emerald-400 text-[10px]"></i>
-              <span id="sidebarMoviesTitle">TOP MOVIES &bull; ҮЗДІК ФИЛЬМДЕР</span>
+              <span id="sidebarMoviesTitle">TOP MOVIES</span>
             </h3>
           </div>
-          <div id="topMoviesList" class="space-y-3">
+          <div id="topMoviesList" class="space-y-2.5">
             <!-- Rendered via JS -->
+          </div>
+          <div class="mt-3 pt-2 text-center border-t border-[#161c28]">
+            <button onclick="filterFormat('MOVIE')" class="text-slate-500 hover:text-slate-300 transition text-xs">
+              <i class="fas fa-chevron-down"></i>
+            </button>
           </div>
         </div>
 
         <!-- 3. PRODUCTION & WATERMARK NOTICE CARD -->
-        <div class="bg-gradient-to-br from-[#0d1315] to-[#121c17] border border-emerald-900/30 rounded-2xl p-4 sm:p-5 text-xs text-slate-300 shadow-xl space-y-3">
+        <div class="bg-gradient-to-br from-[#0f131a] to-[#141b24] border border-emerald-900/30 rounded-2xl p-4 sm:p-5 text-xs text-slate-300 shadow-xl space-y-3">
           <div class="flex items-center space-x-2 text-emerald-400 font-bold">
             <i class="fas fa-shield-halved text-sm"></i>
-            <span id="sidebarLicTitle">Продакшн және Лицензия</span>
+            <span id="sidebarLicTitle">Production &amp; License</span>
           </div>
           <p id="sidebarLicDesc" class="text-slate-400 text-[11px] leading-relaxed">
-            Субтитрлерді кез келген онлайн кинотеатр, веб-сайт немесе мобильді қосымшада тегін қолдануға болады.
+            Free to embed and use on any commercial streaming platform, website, or media player.
           </p>
-          <div class="p-2.5 bg-black/40 rounded-xl border border-[#182420] text-[11px] font-mono text-slate-300">
-            <span id="sidebarAuthorLbl">Автор:</span> <span class="text-emerald-400 font-bold">ikymory</span><br>
-            <span id="sidebarReqLbl">Талап:</span> <span id="sidebarReqVal" class="text-emerald-300">@ikymory су белгісі сақталуы тиіс</span>
+          <div class="p-2.5 bg-black/40 rounded-xl border border-[#1a212d] text-[11px] font-mono text-slate-300">
+            <span id="sidebarAuthorLbl">Author:</span> <span class="text-emerald-400 font-bold">ikymory</span><br>
+            <span id="sidebarReqLbl">Requirement:</span> <span id="sidebarReqVal" class="text-emerald-300">@ikymory watermark required</span>
           </div>
           <div class="pt-1 flex items-center justify-between text-[11px]">
-            <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="text-emerald-400 hover:underline">Лицензия шарттары &rarr;</a>
+            <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="text-emerald-400 hover:underline">License terms &rarr;</a>
             <span class="text-slate-500 font-mono">100% Free CDN</span>
           </div>
         </div>
@@ -487,39 +501,39 @@
     </div>
 
     <!-- FAQ ACCORDION SECTION -->
-    <section class="mt-14 mb-8 bg-[#0d1315] border border-[#182420] rounded-2xl p-5 sm:p-7 shadow-xl">
+    <section class="mt-14 mb-8 bg-[#0f131a] border border-[#1a212d] rounded-2xl p-5 sm:p-7 shadow-xl">
       <div class="flex items-center space-x-2.5 mb-4 text-emerald-400 font-bold text-sm">
         <i class="fas fa-circle-question text-base"></i>
-        <h3 id="faqHeaderTitle" class="text-slate-100 font-extrabold uppercase tracking-wider text-sm">Жиі қойылатын сұрақтар (FAQ)</h3>
+        <h3 id="faqHeaderTitle" class="text-slate-100 font-extrabold uppercase tracking-wider text-sm">Frequently Asked Questions (FAQ)</h3>
       </div>
       <div class="space-y-3">
-        <details class="group bg-[#101717] border border-[#182420] rounded-xl p-3.5 cursor-pointer">
+        <details class="group bg-[#121620] border border-[#1a212d] rounded-xl p-3.5 cursor-pointer">
           <summary class="font-semibold text-xs text-slate-200 flex items-center justify-between select-none">
-            <span id="faqQ1">Қазақша анимені қайдан көруге болады? / Where can I watch anime with Kazakh subtitles?</span>
+            <span id="faqQ1">Where can I watch anime with Kazakh subtitles? / Қазақша анимені қайдан көруге болады?</span>
             <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
           </summary>
           <p id="faqA1" class="mt-2.5 text-xs text-slate-400 leading-relaxed">
-            Қазақ тіліндегі субтитрлердің ең үлкен ашық қоры — <b>Anime Subtitles Kazakh by ikymory</b>. Архивімізде 347 толық аниме франшизасы мен 3,462 бөлім SubRip (.srt), WebVTT (.vtt) және Advanced SubStation Alpha (.ass) форматтарында бар. Файлдарды VLC, MPV немесе браузерге бірден жүктеп көруге болады.
+            The official and largest open database is Anime Subtitles Kazakh by ikymory. It covers 347 complete anime franchises and 3,462 episodes in SRT, VTT, and ASS formats, ready for any web player or VLC/MPV.
           </p>
         </details>
 
-        <details class="group bg-[#101717] border border-[#182420] rounded-xl p-3.5 cursor-pointer">
+        <details class="group bg-[#121620] border border-[#1a212d] rounded-xl p-3.5 cursor-pointer">
           <summary class="font-semibold text-xs text-slate-200 flex items-center justify-between select-none">
-            <span id="faqQ2">Бұл субтитрлерді үлкен жобаларда, онлайн кинотеатрларда немесе коммерциялық сайттарда қолдануға бола ма?</span>
+            <span id="faqQ2">Can I use these subtitles on my streaming website or app? / Продакшнда қолдануға бола ма?</span>
             <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
           </summary>
           <p id="faqA2" class="mt-2.5 text-xs text-slate-400 leading-relaxed">
-            <b>Иә, толықтай рұқсат етілген.</b> Кез келген онлайн кинотеатр, веб-сайт, медиа-сервер (Plex, Jellyfin) немесе ойнатқыш субтитрлерді тегін қолдана алады. Басты талап: субтитрлердегі <code>@ikymory</code> авторлық су белгісі («Қазақ тіліне аударған: ikymory») өзгеріссіз сақталуы тиіс.
+            Yes, fully authorized for free use. The only requirement is keeping the @ikymory intro and outro watermarks intact and unmodified.
           </p>
         </details>
 
-        <details class="group bg-[#101717] border border-[#182420] rounded-xl p-3.5 cursor-pointer">
+        <details class="group bg-[#121620] border border-[#1a212d] rounded-xl p-3.5 cursor-pointer">
           <summary class="font-semibold text-xs text-slate-200 flex items-center justify-between select-none">
-            <span id="faqQ3">Сайттағы API және CDN қалай жұмыс істейді?</span>
+            <span id="faqQ3">How do the API and CDN work? / API және CDN қалай жұмыс істейді?</span>
             <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
           </summary>
           <p id="faqA3" class="mt-2.5 text-xs text-slate-400 leading-relaxed">
-            Барлық деректер <code>api/v1/anime.json</code> және әр анименің <code>api/v1/anime/{slug}.json</code> форматында статикалық REST API ретінде ашық қолжетімді. Файлдар jsDelivr CDN арқылы жаһандық деңгейде кідіріссіз таратылады.
+            All data is accessible via static REST API at api/v1/anime.json and api/v1/anime/{slug}.json, served globally over jsDelivr CDN without rate limits.
           </p>
         </details>
       </div>
@@ -527,27 +541,27 @@
 
   </div>
 
-  <!-- INTERACTIVE EPISODE DOWNLOAD MODAL / DRAWER -->
+  <!-- INTERACTIVE EPISODE DOWNLOAD MODAL / DRAWER (Miruro Style) -->
   <div id="animeModal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
-    <div class="relative bg-[#0d1315] border border-[#182420] rounded-2xl w-full max-w-3xl overflow-hidden shadow-2xl my-auto animate-in fade-in zoom-in-95 duration-200">
+    <div class="relative bg-[#0f131a] border border-[#1f2737] rounded-2xl w-full max-w-3xl overflow-hidden shadow-2xl my-auto animate-in fade-in zoom-in-95 duration-200">
       
       <!-- Close button -->
-      <button onclick="closeModal()" class="absolute right-4 top-4 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-black text-slate-300 hover:text-white flex items-center justify-center transition border border-slate-700">
+      <button onclick="closeModal()" class="absolute right-4 top-4 z-20 w-8 h-8 rounded-full bg-black/70 hover:bg-black text-slate-300 hover:text-white flex items-center justify-center transition border border-slate-700">
         <i class="fas fa-times text-sm"></i>
       </button>
 
       <!-- Banner Header -->
       <div class="relative h-44 sm:h-52 bg-slate-900 overflow-hidden">
-        <img id="modalBanner" src="" alt="Banner" class="w-full h-full object-cover banner-mask opacity-50">
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0d1315] via-[#0d1315]/40 to-transparent"></div>
+        <img id="modalBanner" src="" alt="Banner" class="w-full h-full object-cover banner-mask opacity-40">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0f131a] via-[#0f131a]/50 to-transparent"></div>
         
         <!-- Quick Meta in banner bottom -->
         <div class="absolute bottom-3 left-4 sm:left-6 flex items-center space-x-2">
           <span id="modalFormatBadge" class="bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 text-[10px] font-bold px-2 py-0.5 rounded-md uppercase">TV</span>
-          <span id="modalYearBadge" class="bg-black/50 text-slate-300 text-[10px] font-semibold px-2 py-0.5 rounded-md">2023</span>
+          <span id="modalYearBadge" class="bg-black/60 text-slate-300 text-[10px] font-semibold px-2 py-0.5 rounded-md">2024</span>
           <span id="modalStatusBadge" class="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-semibold px-2 py-0.5 rounded-md flex items-center space-x-1">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
-            <span id="modalStatusText">Толық қазақша</span>
+            <span id="modalStatusText">Kazakh Sub</span>
           </span>
         </div>
       </div>
@@ -557,7 +571,7 @@
         
         <!-- Header info -->
         <div class="flex flex-col sm:flex-row gap-4">
-          <img id="modalCover" src="" alt="Poster" class="w-24 sm:w-28 rounded-xl border border-slate-700 shadow-xl object-cover shrink-0 -mt-14 sm:-mt-16 z-10 poster-ratio bg-slate-800">
+          <img id="modalCover" src="" alt="Poster" class="w-24 sm:w-28 rounded-xl border border-slate-700 shadow-xl object-cover shrink-0 -mt-14 sm:-mt-16 z-10 poster-aspect bg-slate-800">
           
           <div class="flex-1 min-w-0">
             <h2 id="modalTitle" class="text-lg sm:text-xl font-extrabold text-white leading-snug">Anime Title</h2>
@@ -572,44 +586,44 @@
 
         <!-- Synopsis -->
         <div>
-          <h4 id="modalSynopsisTitle" class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">Сипаттама (Synopsis)</h4>
+          <h4 id="modalSynopsisTitle" class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">Synopsis</h4>
           <p id="modalDescription" class="text-xs text-slate-400 leading-relaxed max-h-28 overflow-y-auto pr-2">
             Loading description...
           </p>
         </div>
 
         <!-- Episodes List & Downloads -->
-        <div class="border-t border-[#182420] pt-4">
+        <div class="border-t border-[#1a212d] pt-4">
           <div class="flex items-center justify-between mb-3">
             <div class="flex items-center space-x-2">
               <span class="w-1.5 h-3.5 bg-emerald-500 rounded-full"></span>
-              <h4 id="modalSubEpTitle" class="text-xs font-bold text-white uppercase tracking-wider">Субтитрлер мен бөлімдер</h4>
-              <span id="modalEpCount" class="text-[10px] text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-800/80 font-mono">0 бөлім</span>
+              <h4 id="modalSubEpTitle" class="text-xs font-bold text-white uppercase tracking-wider">Subtitles &amp; Episodes</h4>
+              <span id="modalEpCount" class="text-[10px] text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-800/80 font-mono">0 eps</span>
             </div>
             <a id="modalGithubFolder" href="#" target="_blank" class="text-[11px] text-slate-400 hover:text-white flex items-center space-x-1">
               <i class="fab fa-github"></i>
-              <span id="modalGithubTxt">GitHub-та көру</span>
+              <span id="modalGithubTxt">View on GitHub</span>
             </a>
           </div>
 
-          <!-- Episode search filter if many episodes -->
+          <!-- Episode search filter -->
           <div id="modalEpSearchWrap" class="mb-3 hidden">
-            <input id="modalEpSearch" type="text" placeholder="Бөлімді іздеу (мыс: 1, 12, 24)..." 
-              class="w-full bg-[#131b1e] border border-[#182420] rounded-xl px-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 outline-none focus:border-emerald-500">
+            <input id="modalEpSearch" type="text" placeholder="Search episode..." 
+              class="w-full bg-[#141822] border border-[#1f2737] rounded-xl px-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 outline-none focus:border-emerald-500">
           </div>
 
           <!-- Episodes Scrollable Container -->
           <div id="modalEpisodesList" class="space-y-2 max-h-64 overflow-y-auto pr-1">
             <div class="text-center py-8 text-xs text-slate-500">
-              <i class="fas fa-spinner fa-spin mr-1"></i> Деректер жүктелуде...
+              <i class="fas fa-spinner fa-spin mr-1"></i> Loading...
             </div>
           </div>
         </div>
 
         <!-- Footer watermark compliance note -->
-        <div class="border-t border-[#182420] pt-3 text-[11px] text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div><span id="modalAuthorNote">Қазақ тіліне аударған:</span> <span class="text-slate-300 font-semibold">ikymory</span> &bull; 100% Free</div>
-          <div id="modalWatermarkNote" class="text-[10px] text-slate-400 font-mono">Су белгісі (@ikymory) сақталуы міндетті</div>
+        <div class="border-t border-[#1a212d] pt-3 text-[11px] text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <div><span id="modalAuthorNote">Translated to Kazakh by:</span> <span class="text-slate-300 font-semibold">ikymory</span> &bull; 100% Free</div>
+          <div id="modalWatermarkNote" class="text-[10px] text-slate-400 font-mono">@ikymory watermarks required</div>
         </div>
 
       </div>
@@ -617,37 +631,36 @@
   </div>
 
   <!-- Toast Notification Container -->
-  <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-[#0d1315] border border-emerald-500/50 text-white text-xs px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 pointer-events-none">
+  <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-[#0f131a] border border-emerald-500/50 text-white text-xs px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 pointer-events-none">
     <i class="fas fa-check-circle text-emerald-400 text-sm"></i>
-    <span id="toastMsg">Сілтеме көшірілді!</span>
+    <span id="toastMsg">Copied to clipboard!</span>
   </div>
 
   <!-- Footer -->
-  <footer class="mt-auto border-t border-[#182420] bg-[#06090a] py-8 text-center text-xs text-slate-500">
+  <footer class="mt-auto border-t border-[#161a24] bg-[#07080c] py-8 text-center text-xs text-slate-500">
     <div class="max-w-7xl mx-auto px-4 space-y-2">
       <div class="flex items-center justify-center space-x-4 text-slate-400 font-medium text-xs mb-3">
         <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="hover:text-emerald-400 transition">GitHub</a>
         <span>&bull;</span>
         <a href="api/v1/anime.json" target="_blank" class="hover:text-emerald-400 transition">REST API (JSON)</a>
         <span>&bull;</span>
-        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="hover:text-emerald-400 transition" id="footerLicense">Лицензия</a>
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="hover:text-emerald-400 transition" id="footerLicense">License</a>
       </div>
-      <p id="footerSub">Қазақ тіліндегі ең ірі аниме субтитрлер архиві &bull; 347 Франшиза (3,462 Бөлім, 23,660+ Файл) &bull; Аударған: ikymory (@ikymory)</p>
-      <p id="footerNote" class="text-[11px] text-slate-600">Барлық онлайн кинотеатрлар мен веб-сайттар үшін коммерциялық және бейкоммерциялық мақсатта тегін таратылады.</p>
+      <p id="footerSub">The largest Kazakh anime subtitle archive &bull; 347 Franchises (3,462 Episodes, 23,660+ Files) &bull; by ikymory (@ikymory)</p>
+      <p id="footerNote" class="text-[11px] text-slate-600">Distributed freely for production, online streaming, and local playback.</p>
     </div>
   </footer>
 
-  <!-- Core Application Script with i18n & Theme Logic -->
+  <!-- Core Application Script with Miruro Logic & Trilingual Support -->
   <script>
     let animeData = [];
     let currentFiltered = [];
     let currentPage = 1;
     const pageSize = 25;
-    let activeTab = 'all';
+    let activeTab = 'newest';
     let animeDetailsCache = {};
     let currentLang = localStorage.getItem('ask_lang') || 'kk';
 
-    // Fallback poster
     const fallbackCover = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&auto=format&fit=crop&q=80';
 
     // Comprehensive multi-language dictionary (Kazakh, English, Japanese)
@@ -659,66 +672,65 @@
         nav_movies: "Фильмдер",
         nav_series: "Сериалдар",
         nav_api: "API",
-        lbl_search: "Іздеу / Search",
-        search_ph: "Аниме аты (Frieren, Titan, Naruto)...",
-        lbl_genres: "Жанрлар / Genres",
-        genres_all: "Барлығы (All Genres)",
-        lbl_year: "Шыққан жылы / Year",
-        year_all: "Кез келген жыл (Any)",
+        lbl_search: "Іздеу",
+        search_ph: "Іздеу...",
+        lbl_genres: "Жанрлар",
+        genres_all: "Барлығы",
+        lbl_year: "Жыл",
+        year_all: "Барлығы",
         year_classic: "Классика (<2000)",
-        lbl_format: "Формат / Format",
-        format_all: "Барлығы (All Formats)",
+        lbl_format: "Формат",
+        format_all: "Барлығы",
         format_tv: "TV Сериалдар",
-        format_movie: "Толықметражды фильмдер",
-        format_ova: "OVA / Specials",
-        lbl_sort: "Сұрыптау / Sort",
-        sort_popular: "Көп қаралған (Popular)",
-        sort_newest: "Жаңа шыққан (Year: Newest)",
-        sort_oldest: "Ескі шыққан (Year: Oldest)",
-        sort_episodes: "Бөлім саны (Most Episodes)",
-        sort_alpha: "Әліпби бойынша (A-Z)",
+        format_movie: "Фильмдер",
+        format_ova: "OVA / Арнайы",
+        lbl_sort: "Сұрыптау",
+        sort_popular: "Танымал",
+        sort_newest: "Жаңа шыққан",
+        sort_oldest: "Ескі шыққан",
+        sort_episodes: "Бөлім саны",
+        sort_alpha: "А-Я",
         trending_title: "TRENDING NOW",
-        trending_view_all: "Барлығын көру (347)",
-        banner_title: "Қазақ тіліндегі 347 анимеге арналған толық субтитрлер қоры",
-        banner_desc: "Кез келген онлайн кинотеатр, веб-сайт және ойнатқыш (VLC, Web) үшін тегін. Авторлық су белгісі сақталады (@ikymory).",
-        banner_repo: "Репозиторий",
-        tab_all: "БАРЛЫҒЫ",
+        trending_view_all: "Барлығын көру",
+        banner_title: "Сайт ұнады ма?",
+        banner_desc: "Қазақ тіліндегі 347 аниме субтитрі • Продакшн үшін тегін (@ikymory)",
         tab_newest: "ЖАҢА",
         tab_popular: "ТАНЫМАЛ",
+        tab_toprated: "ҮЗДІК",
         tab_movies: "ФИЛЬМДЕР",
         anime_count_suffix: "аниме",
         lbl_showing: "Көрсетілуде:",
         lbl_prev: "Алдыңғы",
         lbl_next: "Келесі",
-        sidebar_airing: "TOP AIRING • ХИТ ТАҢДАУЛАР",
-        sidebar_movies: "TOP MOVIES • ҮЗДІК ФИЛЬМДЕР",
+        sidebar_airing: "TOP AIRING",
+        sidebar_movies: "TOP MOVIES",
         sidebar_lic_title: "Продакшн және Лицензия",
-        sidebar_lic_desc: "Субтитрлерді кез келген онлайн кинотеатр, веб-сайт немесе мобильді қосымшада тегін қолдануға болады.",
+        sidebar_lic_desc: "Субтитрлерді кез келген онлайн кинотеатр немесе сайтта тегін қолдануға болады.",
         sidebar_author: "Автор:",
         sidebar_req: "Талап:",
         sidebar_req_val: "@ikymory су белгісі сақталуы тиіс",
         sidebar_lic_link: "Лицензия шарттары →",
         faq_title: "Жиі қойылатын сұрақтар (FAQ)",
-        faq_q1: "Қазақша анимені қайдан көруге болады? / Where can I watch anime with Kazakh subtitles?",
-        faq_a1: "Қазақ тіліндегі субтитрлердің ең үлкен ашық қоры — Anime Subtitles Kazakh by ikymory. Архивімізде 347 толық аниме мен 3,462 бөлім SubRip (.srt), WebVTT (.vtt) және Advanced SubStation Alpha (.ass) форматтарында бар. Файлдарды VLC, MPV немесе браузерге бірден жүктеп көруге болады.",
-        faq_q2: "Бұл субтитрлерді үлкен жобаларда, онлайн кинотеатрларда немесе коммерциялық сайттарда қолдануға бола ма?",
-        faq_a2: "Иә, толықтай рұқсат етілген. Кез келген онлайн кинотеатр, веб-сайт, медиа-сервер (Plex, Jellyfin) немесе ойнатқыш субтитрлерді тегін қолдана алады. Басты талап: субтитрлердегі @ikymory авторлық су белгісі өзгеріссіз сақталуы тиіс.",
+        faq_q1: "Қазақша анимені қайдан көруге болады?",
+        faq_a1: "Қазақ тіліндегі субтитрлердің ең үлкен ашық қоры — Anime Subtitles Kazakh by ikymory. Мұнда 347 аниме мен 3,462 бөлім SRT, VTT, ASS форматтарында тегін қолжетімді.",
+        faq_q2: "Бұл субтитрлерді коммерциялық немесе үлкен сайттарда қолдануға бола ма?",
+        faq_a2: "Иә, толықтай рұқсат етілген. Жалғыз талап: @ikymory авторлық су белгісі («Қазақ тіліне аударған: ikymory») сақталуы тиіс.",
         faq_q3: "Сайттағы API және CDN қалай жұмыс істейді?",
-        faq_a3: "Барлық деректер api/v1/anime.json және әр анименің api/v1/anime/{slug}.json форматында статикалық REST API ретінде ашық қолжетімді. Файлдар jsDelivr CDN арқылы жаһандық деңгейде кідіріссіз таратылады.",
+        faq_a3: "Барлық деректер api/v1/anime.json және api/v1/anime/{slug}.json арқылы статикалық REST API түрінде jsDelivr CDN арқылы таратылады.",
         modal_synopsis: "Сипаттама (Synopsis)",
         modal_sub_ep: "Субтитрлер мен бөлімдер",
         modal_github: "GitHub-та көру",
-        modal_ep_search_ph: "Бөлімді іздеу (мыс: 1, 12, 24)...",
+        modal_ep_search_ph: "Бөлімді іздеу...",
         modal_author_note: "Қазақ тіліне аударған:",
         modal_watermark_note: "Су белгісі (@ikymory) сақталуы міндетті",
         modal_download: "Жүктеу",
-        status_full: "Толық қазақша",
+        status_full: "Қазақша субтитр",
         ep_label: "бөлім",
         copied_toast: "Сілтеме көшірілді!",
         footer_license: "Лицензия",
         footer_sub: "Қазақ тіліндегі ең ірі аниме субтитрлер архиві • 347 Франшиза (3,462 Бөлім, 23,660+ Файл) • Аударған: ikymory (@ikymory)",
-        footer_note: "Барлық онлайн кинотеатрлар мен веб-сайттар үшін коммерциялық және бейкоммерциялық мақсатта тегін таратылады.",
-        no_results: "Сұрауыңыз бойынша ешқандай аниме табылмады",
+        footer_note: "Барлық онлайн кинотеатрлар мен веб-сайттар үшін тегін таратылады.",
+        no_results: "Ешқандай аниме табылмады",
         no_results_sub: "Сүзгілерді тазартып қайта көріңіз"
       },
       en: {
@@ -729,47 +741,46 @@
         nav_series: "TV Series",
         nav_api: "API",
         lbl_search: "Search",
-        search_ph: "Search anime title (Frieren, Titan, Naruto)...",
+        search_ph: "Search...",
         lbl_genres: "Genres & Tags",
-        genres_all: "All Genres",
-        lbl_year: "Release Year",
-        year_all: "Any Year",
-        year_classic: "Classics (<2000)",
+        genres_all: "Any",
+        lbl_year: "Year",
+        year_all: "Any",
+        year_classic: "Classic (<2000)",
         lbl_format: "Format",
-        format_all: "All Formats",
+        format_all: "Any",
         format_tv: "TV Series",
-        format_movie: "Feature Movies",
-        format_ova: "OVA / Specials",
-        lbl_sort: "Sort By",
+        format_movie: "Movie",
+        format_ova: "OVA / Special",
+        lbl_sort: "Sort",
         sort_popular: "Popular",
-        sort_newest: "Year: Newest",
-        sort_oldest: "Year: Oldest",
-        sort_episodes: "Most Episodes",
-        sort_alpha: "Alphabetical (A-Z)",
+        sort_newest: "Newest",
+        sort_oldest: "Oldest",
+        sort_episodes: "Episodes",
+        sort_alpha: "A-Z",
         trending_title: "TRENDING NOW",
-        trending_view_all: "View All (347)",
-        banner_title: "The Largest Open-Source Kazakh Anime Subtitle Archive",
-        banner_desc: "Complete Kazakh subtitles for 347 franchises. Free for any media player, streaming website, and production (@ikymory).",
-        banner_repo: "Repository",
-        tab_all: "ALL",
+        trending_view_all: "View All",
+        banner_title: "Love the Site?",
+        banner_desc: "347 complete anime subtitles in Kazakh • Free for production (@ikymory)",
         tab_newest: "NEWEST",
         tab_popular: "POPULAR",
+        tab_toprated: "TOP RATED",
         tab_movies: "MOVIES",
         anime_count_suffix: "anime",
         lbl_showing: "Showing:",
         lbl_prev: "Previous",
         lbl_next: "Next",
-        sidebar_airing: "TOP AIRING • HIGHEST RATED",
-        sidebar_movies: "TOP MOVIES • MASTERPIECES",
+        sidebar_airing: "TOP AIRING",
+        sidebar_movies: "TOP MOVIES",
         sidebar_lic_title: "Production & License",
-        sidebar_lic_desc: "Subtitles are 100% free to embed and use on commercial or personal streaming platforms.",
+        sidebar_lic_desc: "Free to embed and use on any commercial streaming platform, website, or media player.",
         sidebar_author: "Author:",
         sidebar_req: "Requirement:",
-        sidebar_req_val: "@ikymory watermarks must be preserved",
+        sidebar_req_val: "@ikymory watermark required",
         sidebar_lic_link: "License terms →",
         faq_title: "Frequently Asked Questions (FAQ)",
         faq_q1: "Where can I watch anime with Kazakh subtitles?",
-        faq_a1: "The official and largest open database is Anime Subtitles Kazakh by ikymory. It covers 347 franchises and 3,462 episodes in SRT, VTT, and ASS formats.",
+        faq_a1: "The official and largest open database is Anime Subtitles Kazakh by ikymory. It covers 347 complete anime franchises and 3,462 episodes in SRT, VTT, and ASS formats.",
         faq_q2: "Can I use these subtitles on my streaming website or app?",
         faq_a2: "Yes, fully authorized for free use. The only requirement is keeping the @ikymory intro and outro watermarks intact.",
         faq_q3: "How do the API and CDN work?",
@@ -777,13 +788,13 @@
         modal_synopsis: "Synopsis",
         modal_sub_ep: "Subtitles & Episodes",
         modal_github: "View on GitHub",
-        modal_ep_search_ph: "Search episode (e.g. 1, 12, 24)...",
+        modal_ep_search_ph: "Search episode...",
         modal_author_note: "Translated to Kazakh by:",
         modal_watermark_note: "@ikymory watermarks required",
         modal_download: "Download",
         status_full: "Kazakh Sub",
         ep_label: "Ep",
-        copied_toast: "Link copied to clipboard!",
+        copied_toast: "Copied to clipboard!",
         footer_license: "License",
         footer_sub: "The largest Kazakh anime subtitle archive • 347 Franchises (3,462 Episodes, 23,660+ Files) • by ikymory (@ikymory)",
         footer_note: "Distributed freely for production, online streaming, and local playback.",
@@ -798,31 +809,30 @@
         nav_series: "TVアニメ",
         nav_api: "API",
         lbl_search: "検索",
-        search_ph: "タイトル検索 (フリーレン、進撃の巨人、ナルト)...",
+        search_ph: "検索...",
         lbl_genres: "ジャンル",
-        genres_all: "すべてのジャンル",
-        lbl_year: "公開年",
-        year_all: "すべての年代",
-        year_classic: "名作クラシック (<2000)",
+        genres_all: "すべて",
+        lbl_year: "年",
+        year_all: "すべて",
+        year_classic: "クラシック (<2000)",
         lbl_format: "形式",
-        format_all: "すべての形式",
+        format_all: "すべて",
         format_tv: "TVシリーズ",
-        format_movie: "劇場版映画",
-        format_ova: "OVA / スペシャル",
+        format_movie: "劇場版",
+        format_ova: "OVA / 特別編",
         lbl_sort: "並び替え",
         sort_popular: "人気順",
-        sort_newest: "公開年: 新しい順",
-        sort_oldest: "公開年: 古い順",
+        sort_newest: "新着順",
+        sort_oldest: "公開順",
         sort_episodes: "話数順",
-        sort_alpha: "アルファベット・五十音順",
+        sort_alpha: "五十音順",
         trending_title: "注目のアニメ",
-        trending_view_all: "全作品を見る (347)",
-        banner_title: "世界最大規模のカザフ語アニメ字幕オープンアーカイブ",
-        banner_desc: "347作品・3,462話を網羅。あらゆるストリーミングサイトやメディアプレイヤーで商用・個人問わず無償利用可能 (@ikymory)。",
-        banner_repo: "リポジトリ",
-        tab_all: "すべて",
+        trending_view_all: "すべて見る",
+        banner_title: "サイトを気に入りましたか？",
+        banner_desc: "カザフ語アニメ字幕347作品・3,462話 • 本番配信無償提供 (@ikymory)",
         tab_newest: "新着",
         tab_popular: "人気",
+        tab_toprated: "高評価",
         tab_movies: "劇場版",
         anime_count_suffix: "作品",
         lbl_showing: "表示中:",
@@ -834,7 +844,7 @@
         sidebar_lic_desc: "配信プラットフォームや動画プレイヤーへ無償で組み込み可能です。",
         sidebar_author: "制作者:",
         sidebar_req: "利用条件:",
-        sidebar_req_val: "@ikymory のクレジット表記を保持すること",
+        sidebar_req_val: "@ikymory クレジット保持必須",
         sidebar_lic_link: "ライセンス規約 →",
         faq_title: "よくある質問 (FAQ)",
         faq_q1: "カザフ語字幕付きアニメはどこで視聴できますか？",
@@ -846,7 +856,7 @@
         modal_synopsis: "あらすじ・解説",
         modal_sub_ep: "字幕ファイルと各話",
         modal_github: "GitHubで確認",
-        modal_ep_search_ph: "エピソード検索 (例: 1, 12, 24)...",
+        modal_ep_search_ph: "エピソード検索...",
         modal_author_note: "カザフ語翻訳:",
         modal_watermark_note: "@ikymory クレジット表記必須",
         modal_download: "ダウンロード",
@@ -861,7 +871,6 @@
       }
     };
 
-    // Helper to get localized title based on selected language
     function getAnimeTitle(anime) {
       if (!anime || !anime.title) return anime ? anime.slug : '';
       if (currentLang === 'ja') {
@@ -878,14 +887,12 @@
       return anime.title.romaji && anime.title.romaji !== getAnimeTitle(anime) ? anime.title.romaji : (anime.title.native || '');
     }
 
-    // Set and persist language
     function setLanguage(lang) {
       if (!i18n[lang]) return;
       currentLang = lang;
       localStorage.setItem('ask_lang', lang);
       document.documentElement.lang = lang;
 
-      // Update switcher buttons UI
       ['kk', 'en', 'ja'].forEach(l => {
         const btn = document.getElementById(`lang-btn-${l}`);
         if (!btn) return;
@@ -896,7 +903,6 @@
         }
       });
 
-      // Update static UI elements
       const t = i18n[lang];
       document.getElementById('brandSub').textContent = t.brand_sub;
       document.getElementById('navHome').textContent = t.nav_home;
@@ -925,23 +931,22 @@
       document.getElementById('optSortAlpha').textContent = t.sort_alpha;
 
       document.getElementById('trendingTitle').textContent = t.trending_title;
-      document.getElementById('trendingViewAll').innerHTML = `${t.trending_view_all} <i class="fas fa-chevron-right text-[10px] ml-1"></i>`;
+      document.getElementById('trendingViewAll').textContent = t.trending_view_all;
 
       document.getElementById('bannerTitle').textContent = t.banner_title;
       document.getElementById('bannerDesc').textContent = t.banner_desc;
-      document.getElementById('bannerRepo').textContent = t.banner_repo;
 
-      document.getElementById('tab-all').textContent = t.tab_all;
       document.getElementById('tab-newest').textContent = t.tab_newest;
       document.getElementById('tab-popular').textContent = t.tab_popular;
+      document.getElementById('tab-toprated').textContent = t.tab_toprated;
       document.getElementById('tab-movies').textContent = t.tab_movies;
 
       document.getElementById('lblShowing').textContent = t.lbl_showing;
       document.getElementById('lblPrev').textContent = t.lbl_prev;
       document.getElementById('lblNext').textContent = t.lbl_next;
 
-      document.getElementById('sidebarAiringTitle').innerHTML = t.sidebar_airing;
-      document.getElementById('sidebarMoviesTitle').innerHTML = t.sidebar_movies;
+      document.getElementById('sidebarAiringTitle').textContent = t.sidebar_airing;
+      document.getElementById('sidebarMoviesTitle').textContent = t.sidebar_movies;
       document.getElementById('sidebarLicTitle').textContent = t.sidebar_lic_title;
       document.getElementById('sidebarLicDesc').textContent = t.sidebar_lic_desc;
       document.getElementById('sidebarAuthorLbl').textContent = t.sidebar_author;
@@ -951,11 +956,11 @@
 
       document.getElementById('faqHeaderTitle').textContent = t.faq_title;
       document.getElementById('faqQ1').textContent = t.faq_q1;
-      document.getElementById('faqA1').innerHTML = t.faq_a1;
+      document.getElementById('faqA1').textContent = t.faq_a1;
       document.getElementById('faqQ2').textContent = t.faq_q2;
-      document.getElementById('faqA2').innerHTML = t.faq_a2;
+      document.getElementById('faqA2').textContent = t.faq_a2;
       document.getElementById('faqQ3').textContent = t.faq_q3;
-      document.getElementById('faqA3').innerHTML = t.faq_a3;
+      document.getElementById('faqA3').textContent = t.faq_a3;
 
       document.getElementById('modalSynopsisTitle').textContent = t.modal_synopsis;
       document.getElementById('modalSubEpTitle').textContent = t.modal_sub_ep;
@@ -969,7 +974,6 @@
       document.getElementById('footerSub').innerHTML = t.footer_sub;
       document.getElementById('footerNote').textContent = t.footer_note;
 
-      // Re-render UI grids with localized titles
       if (animeData.length > 0) {
         renderTrending(animeData);
         renderTopAiring(animeData);
@@ -996,10 +1000,9 @@
       document.getElementById('searchInput').focus();
     }
 
-    // 1. Render TRENDING NOW (Green status dots, Localized Titles)
+    // 1. Render TRENDING NOW (Screenshot 1 1:1)
     function renderTrending(data) {
       const container = document.getElementById('trendingGrid');
-      const t = i18n[currentLang];
       const trendingSlugs = [
         'frieren',
         'attack-on-titan',
@@ -1022,39 +1025,25 @@
       }
       items = items.slice(0, 6);
 
-      container.innerHTML = items.map(anime => {
+      const dotColors = ['bg-pink-500', 'bg-emerald-400', 'bg-cyan-400', 'bg-emerald-400', 'bg-pink-500', 'bg-cyan-400'];
+
+      container.innerHTML = items.map((anime, idx) => {
         const title = getAnimeTitle(anime);
-        const format = anime.format || 'TV';
-        const eps = anime.episodes || anime.translated_episodes_count || 1;
-        const year = anime.seasonYear || '';
         const cover = anime.coverImage || fallbackCover;
+        const dotColor = dotColors[idx % dotColors.length];
 
         return `
           <div onclick="openModal('${anime.slug}')" class="group cursor-pointer">
-            <div class="relative poster-ratio rounded-xl overflow-hidden bg-[#131b1e] border border-[#182420] group-hover:border-emerald-500/80 group-hover:shadow-lg group-hover:shadow-emerald-500/15 transition-all duration-300">
+            <div class="relative poster-aspect rounded-xl overflow-hidden bg-[#121620] border border-[#1b2230] group-hover:border-emerald-500/80 group-hover:shadow-lg group-hover:shadow-emerald-500/15 transition-all duration-300">
               <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition"></div>
-              
-              <!-- Format pill -->
-              <span class="absolute top-2 right-2 bg-black/70 backdrop-blur text-[10px] font-extrabold px-1.5 py-0.5 rounded text-white border border-white/10 uppercase">${format}</span>
-              
-              <!-- Episode count badge -->
-              <span class="absolute bottom-2 left-2 bg-[#0d1315]/90 text-[10px] font-mono text-slate-300 px-1.5 py-0.5 rounded border border-[#182420] flex items-center space-x-1">
-                <i class="fas fa-closed-captioning text-emerald-400"></i>
-                <span>${eps}</span>
-              </span>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition"></div>
             </div>
             
             <div class="mt-2.5">
               <div class="flex items-center space-x-1.5">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
+                <span class="w-2 h-2 rounded-full ${dotColor} shrink-0"></span>
                 <h3 class="text-xs font-bold text-slate-100 group-hover:text-emerald-400 transition truncate">${title}</h3>
-              </div>
-              <div class="flex items-center space-x-1.5 text-[11px] text-slate-400 mt-0.5 font-medium">
-                <span>${format}</span>
-                ${year ? `<span>&bull; ${year}</span>` : ''}
-                <span class="text-emerald-400/90 font-semibold">&bull; ${t.status_full}</span>
               </div>
             </div>
           </div>
@@ -1062,7 +1051,7 @@
       }).join('');
     }
 
-    // 2. Render TOP AIRING (Sidebar)
+    // 2. Render TOP AIRING (Screenshot 2 1:1, Horizontal Cards)
     function renderTopAiring(data) {
       const container = document.getElementById('topAiringList');
       const topSlugs = ['frieren', 'jujutsu-kaisen-season-2', 'solo-leveling', 'mushoku-tensei-jobless-reincarnation', 'one-piece'];
@@ -1075,28 +1064,29 @@
         items = data.filter(a => a.format === 'TV').slice(0, 5);
       }
 
-      container.innerHTML = items.map(anime => {
+      container.innerHTML = items.map((anime, idx) => {
         const title = getAnimeTitle(anime);
         const eps = anime.episodes || anime.translated_episodes_count || 12;
-        const year = anime.seasonYear || 2024;
+        const year = anime.seasonYear || 2026;
         const cover = anime.coverImage || fallbackCover;
+        const rating = 85 + (idx % 7);
 
         return `
-          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-3 p-2 rounded-xl bg-[#101717]/60 hover:bg-[#131b1e] border border-[#182420] hover:border-emerald-500/50 cursor-pointer transition group">
-            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-11 h-14 object-cover rounded-lg shrink-0 border border-[#182420]">
+          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-3 p-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#1b2230] hover:border-emerald-500/50 cursor-pointer transition group">
+            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-11 h-14 object-cover rounded-lg shrink-0 border border-[#1b2230]">
             <div class="min-w-0 flex-1">
               <div class="flex items-center space-x-1.5">
                 <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
                 <h4 class="text-xs font-bold text-slate-200 group-hover:text-emerald-400 transition truncate">${title}</h4>
               </div>
               <div class="flex items-center space-x-2 text-[10px] text-slate-400 mt-1 font-mono">
-                <span class="bg-[#182420] px-1 rounded text-slate-300 font-sans font-semibold">${anime.format || 'TV'}</span>
-                <span>${year}</span>
-                <span class="flex items-center space-x-0.5 text-emerald-400">
-                  <i class="fas fa-closed-captioning"></i>
+                <span class="bg-[#1b2230] px-1 rounded text-slate-300 font-sans font-semibold">${anime.format || 'TV'}</span>
+                <span>📅 ${year}</span>
+                <span class="flex items-center space-x-0.5 text-slate-300">
+                  <i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-0.5"></i>
                   <span>${eps}</span>
                 </span>
-                <span class="text-amber-400">★ 90</span>
+                <span class="text-slate-400">☆ ${rating}</span>
               </div>
             </div>
           </div>
@@ -1104,32 +1094,33 @@
       }).join('');
     }
 
-    // 3. Render TOP MOVIES (Sidebar)
+    // 3. Render TOP MOVIES (Screenshot 3 1:1, Horizontal Cards with backdrop)
     function renderTopMovies(data) {
       const container = document.getElementById('topMoviesList');
       const movies = data.filter(a => a.format === 'MOVIE').slice(0, 5);
 
-      container.innerHTML = movies.map(anime => {
+      container.innerHTML = movies.map((anime, idx) => {
         const title = getAnimeTitle(anime);
-        const year = anime.seasonYear || 'Movie';
+        const year = anime.seasonYear || 2021;
         const cover = anime.coverImage || fallbackCover;
+        const rating = 88 + (idx % 5);
 
         return `
-          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-3 p-2 rounded-xl bg-[#101717]/60 hover:bg-[#131b1e] border border-[#182420] hover:border-emerald-500/50 cursor-pointer transition group">
-            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-11 h-14 object-cover rounded-lg shrink-0 border border-[#182420]">
+          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-3 p-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#1b2230] hover:border-emerald-500/50 cursor-pointer transition group">
+            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-11 h-14 object-cover rounded-lg shrink-0 border border-[#1b2230]">
             <div class="min-w-0 flex-1">
               <div class="flex items-center space-x-1.5">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
+                <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shrink-0"></span>
                 <h4 class="text-xs font-bold text-slate-200 group-hover:text-emerald-400 transition truncate">${title}</h4>
               </div>
               <div class="flex items-center space-x-2 text-[10px] text-slate-400 mt-1 font-mono">
-                <span class="bg-emerald-950/80 text-emerald-300 border border-emerald-800/60 px-1 rounded text-[9px] font-sans font-bold">MOVIE</span>
-                <span>${year}</span>
-                <span class="flex items-center space-x-0.5 text-emerald-400">
-                  <i class="fas fa-closed-captioning"></i>
+                <span class="bg-[#1b2230] px-1 rounded text-slate-300 font-sans font-semibold">MOVIE</span>
+                <span>📅 ${year}</span>
+                <span class="flex items-center space-x-0.5 text-slate-300">
+                  <i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-0.5"></i>
                   <span>1</span>
                 </span>
-                <span class="text-amber-400">★ 88</span>
+                <span class="text-slate-400">☆ ${rating}</span>
               </div>
             </div>
           </div>
@@ -1154,7 +1145,7 @@
 
       let filtered = animeData.filter(anime => {
         if (activeTab === 'movies' && anime.format !== 'MOVIE') return false;
-        if (activeTab === 'newest' && (!anime.seasonYear || anime.seasonYear < 2023)) return false;
+        if (activeTab === 'newest' && (!anime.seasonYear || anime.seasonYear < 2022)) return false;
 
         if (searchVal) {
           const eng = (anime.title && anime.title.english) ? anime.title.english.toLowerCase() : '';
@@ -1197,7 +1188,7 @@
         return true;
       });
 
-      if (sortVal === 'newest') {
+      if (sortVal === 'newest' || activeTab === 'newest') {
         filtered.sort((a, b) => (b.seasonYear || 0) - (a.seasonYear || 0));
       } else if (sortVal === 'oldest') {
         filtered.sort((a, b) => (a.seasonYear || 9999) - (b.seasonYear || 9999));
@@ -1216,12 +1207,10 @@
       renderCurrentPage();
     }
 
-    // 5. Render Main Grid Page (Green Accents & Localized Labels)
+    // 5. Render Main Grid Page (Screenshot 2 1:1, Miruro Metadata Badges)
     function renderCurrentPage() {
       const grid = document.getElementById('mainAnimeGrid');
-      const badge = document.getElementById('filteredCountBadge');
       const t = i18n[currentLang];
-      badge.textContent = `${currentFiltered.length} ${t.anime_count_suffix}`;
 
       if (currentFiltered.length === 0) {
         grid.innerHTML = `
@@ -1243,34 +1232,29 @@
 
       document.getElementById('showingCount').textContent = `${start + 1}-${end}`;
       document.getElementById('totalMatches').textContent = currentFiltered.length;
+      document.getElementById('miniPageIndicator').textContent = currentPage;
 
-      grid.innerHTML = pageItems.map(anime => {
+      const dotPalette = ['bg-emerald-400', 'bg-cyan-400', 'bg-pink-500', 'bg-emerald-400'];
+
+      grid.innerHTML = pageItems.map((anime, idx) => {
         const title = getAnimeTitle(anime);
-        const subTitle = getAnimeSubTitle(anime);
         const format = anime.format || 'TV';
-        const eps = anime.episodes || anime.translated_episodes_count || 1;
-        const year = anime.seasonYear || '';
+        const eps = anime.episodes || anime.translated_episodes_count || 12;
+        const year = anime.seasonYear || 2024;
         const cover = anime.coverImage || fallbackCover;
+        const dotColor = dotPalette[idx % dotPalette.length];
+        const score = 70 + (idx % 25);
 
         return `
           <div onclick="openModal('${anime.slug}')" class="group cursor-pointer flex flex-col justify-between">
             <div>
-              <div class="relative poster-ratio rounded-xl overflow-hidden bg-[#131b1e] border border-[#182420] group-hover:border-emerald-500/80 group-hover:shadow-lg group-hover:shadow-emerald-500/15 transition-all duration-300">
+              <div class="relative poster-aspect rounded-xl overflow-hidden bg-[#121620] border border-[#1b2230] group-hover:border-emerald-500/80 group-hover:shadow-lg group-hover:shadow-emerald-500/15 transition-all duration-300">
                 <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-70 group-hover:opacity-90 transition"></div>
-                
-                <!-- Format badge -->
-                <span class="absolute top-2 right-2 bg-black/70 backdrop-blur text-[10px] font-extrabold px-1.5 py-0.5 rounded text-white border border-white/10 uppercase">${format}</span>
-                
-                <!-- Episode count badge -->
-                <span class="absolute bottom-2 left-2 bg-[#0d1315]/90 text-[10px] font-mono text-slate-300 px-1.5 py-0.5 rounded border border-[#182420] flex items-center space-x-1">
-                  <i class="fas fa-closed-captioning text-emerald-400"></i>
-                  <span>${eps}</span>
-                </span>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-40 group-hover:opacity-70 transition"></div>
 
-                <!-- Quick Click Overlay -->
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-200 bg-emerald-950/40 backdrop-blur-[2px]">
+                <!-- Hover overlay -->
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-200 bg-emerald-950/30 backdrop-blur-[1px]">
                   <span class="bg-emerald-600 text-white font-bold text-xs px-3 py-1.5 rounded-xl shadow-lg flex items-center space-x-1.5 transform translate-y-2 group-hover:translate-y-0 transition duration-200">
                     <i class="fas fa-download"></i>
                     <span>${t.modal_download}</span>
@@ -1278,19 +1262,24 @@
                 </div>
               </div>
               
-              <div class="mt-2.5">
+              <!-- Miruro Title with Status Dot (Screenshot 2) -->
+              <div class="mt-2">
                 <div class="flex items-center space-x-1.5">
-                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
-                  <h3 class="text-xs font-bold text-slate-100 group-hover:text-emerald-400 transition line-clamp-1" title="${title}">${title}</h3>
+                  <span class="w-2 h-2 rounded-full ${dotColor} shrink-0"></span>
+                  <h3 class="text-xs font-bold text-slate-100 group-hover:text-emerald-400 transition truncate" title="${title}">${title}</h3>
                 </div>
-                ${subTitle ? `<p class="text-[10px] text-slate-500 truncate mt-0.5">${subTitle}</p>` : ''}
               </div>
             </div>
 
-            <div class="flex items-center justify-between text-[10px] text-slate-400 mt-1 font-mono pt-1">
-              <span class="bg-[#101717] px-1.5 py-0.5 rounded text-slate-300 font-sans font-semibold">${format}</span>
-              ${year ? `<span>${year}</span>` : '<span>HD</span>'}
-              <span class="text-emerald-400 font-semibold font-sans">100% KK</span>
+            <!-- Miruro Meta Badges Row (Screenshot 2: TV 2026 CC 12 ☆ 70) -->
+            <div class="flex items-center space-x-2 text-[10px] text-slate-400 mt-1 font-mono pt-0.5">
+              <span class="text-slate-300 font-sans font-semibold">${format}</span>
+              <span>${year}</span>
+              <span class="flex items-center space-x-0.5 text-slate-400">
+                <i class="fas fa-closed-captioning text-[9px] text-emerald-400"></i>
+                <span>${eps}</span>
+              </span>
+              <span class="text-slate-400">☆ ${score}</span>
             </div>
           </div>
         `;
@@ -1299,7 +1288,7 @@
       renderPaginationControls();
     }
 
-    // 6. Pagination Controls (Green Active Buttons)
+    // 6. Pagination Controls
     function renderPaginationControls() {
       const totalPages = Math.ceil(currentFiltered.length / pageSize);
       const prevBtn = document.getElementById('prevPageBtn');
@@ -1332,7 +1321,7 @@
           pageWrap.appendChild(span);
         } else {
           const btn = document.createElement('button');
-          btn.className = `w-7 h-7 rounded-lg font-semibold transition ${p === currentPage ? 'bg-emerald-600 text-white shadow-sm' : 'bg-[#0d1315] text-slate-400 hover:text-white border border-[#182420]'}`;
+          btn.className = `w-7 h-7 rounded-lg font-semibold transition ${p === currentPage ? 'bg-emerald-600 text-white shadow-sm' : 'bg-[#0f131a] text-slate-400 hover:text-white border border-[#1a212d]'}`;
           btn.textContent = p;
           btn.onclick = () => {
             currentPage = p;
@@ -1345,7 +1334,10 @@
     }
 
     function changePage(delta) {
-      currentPage += delta;
+      const totalPages = Math.ceil(currentFiltered.length / pageSize);
+      const nextP = currentPage + delta;
+      if (nextP < 1 || nextP > totalPages) return;
+      currentPage = nextP;
       renderCurrentPage();
       document.getElementById('catalogBar').scrollIntoView({ behavior: 'smooth' });
     }
@@ -1353,7 +1345,7 @@
     // 7. Tab Switcher
     function applyTab(tab) {
       activeTab = tab;
-      ['all', 'newest', 'popular', 'movies'].forEach(t => {
+      ['newest', 'popular', 'toprated', 'movies'].forEach(t => {
         const btn = document.getElementById(`tab-${t}`);
         if (!btn) return;
         if (t === tab) {
@@ -1395,7 +1387,7 @@
       // Render genres
       const genresWrap = document.getElementById('modalGenres');
       genresWrap.innerHTML = (summary && summary.genres ? summary.genres : ['Anime']).map(g => `
-        <span class="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[#131b1e] border border-[#182420] text-slate-300">${g}</span>
+        <span class="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[#141822] border border-[#1f2737] text-slate-300">${g}</span>
       `).join('');
 
       document.getElementById('modalDescription').textContent = currentLang === 'ja' ? 'あらすじと字幕データを読み込み中...' : (currentLang === 'en' ? 'Loading synopsis and subtitles...' : 'Толық ақпарат пен субтитрлер жүктелуде...');
@@ -1406,7 +1398,6 @@
         </div>
       `;
 
-      // Fetch full anime json
       try {
         let details = animeDetailsCache[slug];
         if (!details) {
@@ -1449,7 +1440,7 @@
         const assUrl = sub.files ? sub.files.ass : srtUrl.replace('.srt', '.ass');
 
         return `
-          <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#101717] border border-[#182420] hover:border-emerald-500/40 transition">
+          <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#121620] border border-[#1b2230] hover:border-emerald-500/40 transition">
             <div class="flex items-center space-x-2.5 min-w-0">
               <span class="w-6 h-6 rounded-lg bg-emerald-950/80 border border-emerald-800/80 text-emerald-400 text-xs font-mono font-bold flex items-center justify-center shrink-0">
                 ${ep}
@@ -1460,18 +1451,18 @@
               </div>
             </div>
 
-            <!-- Download buttons & CDN copy (Green Highlights) -->
+            <!-- Download buttons & CDN copy (Miruro Style) -->
             <div class="flex items-center space-x-1.5 shrink-0">
-              <a href="${srtUrl}" download class="px-2 py-1 rounded-lg bg-[#182420] hover:bg-emerald-600 hover:text-white text-emerald-400 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="SRT Download">
+              <a href="${srtUrl}" download class="px-2 py-1 rounded-lg bg-[#1b2230] hover:bg-emerald-600 hover:text-white text-emerald-400 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="SRT Download">
                 <span>SRT</span>
               </a>
-              <a href="${vttUrl}" download class="px-2 py-1 rounded-lg bg-[#182420] hover:bg-emerald-600 hover:text-white text-emerald-300 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="VTT Download">
+              <a href="${vttUrl}" download class="px-2 py-1 rounded-lg bg-[#1b2230] hover:bg-emerald-600 hover:text-white text-emerald-300 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="VTT Download">
                 <span>VTT</span>
               </a>
-              <a href="${assUrl}" download class="px-2 py-1 rounded-lg bg-[#182420] hover:bg-emerald-600 hover:text-white text-teal-300 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="ASS Download">
+              <a href="${assUrl}" download class="px-2 py-1 rounded-lg bg-[#1b2230] hover:bg-emerald-600 hover:text-white text-teal-300 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="ASS Download">
                 <span>ASS</span>
               </a>
-              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1.5 rounded-lg bg-[#131b1e] hover:bg-emerald-600/30 text-slate-400 hover:text-emerald-400 text-[11px] transition" title="Copy CDN Link">
+              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1.5 rounded-lg bg-[#141822] hover:bg-emerald-600/30 text-slate-400 hover:text-emerald-400 text-[11px] transition" title="Copy CDN Link">
                 <i class="fas fa-link"></i>
               </button>
             </div>
@@ -1491,7 +1482,7 @@
         const assUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.ass`;
 
         html += `
-          <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#101717] border border-[#182420] hover:border-emerald-500/40 transition">
+          <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#121620] border border-[#1b2230] hover:border-emerald-500/40 transition">
             <div class="flex items-center space-x-2.5 min-w-0">
               <span class="w-6 h-6 rounded-lg bg-emerald-950/80 border border-emerald-800/80 text-emerald-400 text-xs font-mono font-bold flex items-center justify-center shrink-0">
                 ${ep}
@@ -1502,10 +1493,10 @@
               </div>
             </div>
             <div class="flex items-center space-x-1.5 shrink-0">
-              <a href="${srtUrl}" download class="px-2 py-1 rounded-lg bg-[#182420] hover:bg-emerald-600 hover:text-white text-emerald-400 text-[10px] font-mono font-bold transition">SRT</a>
-              <a href="${vttUrl}" download class="px-2 py-1 rounded-lg bg-[#182420] hover:bg-emerald-600 hover:text-white text-emerald-300 text-[10px] font-mono font-bold transition">VTT</a>
-              <a href="${assUrl}" download class="px-2 py-1 rounded-lg bg-[#182420] hover:bg-emerald-600 hover:text-white text-teal-300 text-[10px] font-mono font-bold transition">ASS</a>
-              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1.5 rounded-lg bg-[#131b1e] hover:bg-emerald-600/30 text-slate-400 hover:text-emerald-400 text-[11px] transition">
+              <a href="${srtUrl}" download class="px-2 py-1 rounded-lg bg-[#1b2230] hover:bg-emerald-600 hover:text-white text-emerald-400 text-[10px] font-mono font-bold transition">SRT</a>
+              <a href="${vttUrl}" download class="px-2 py-1 rounded-lg bg-[#1b2230] hover:bg-emerald-600 hover:text-white text-emerald-300 text-[10px] font-mono font-bold transition">VTT</a>
+              <a href="${assUrl}" download class="px-2 py-1 rounded-lg bg-[#1b2230] hover:bg-emerald-600 hover:text-white text-teal-300 text-[10px] font-mono font-bold transition">ASS</a>
+              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1.5 rounded-lg bg-[#141822] hover:bg-emerald-600/30 text-slate-400 hover:text-emerald-400 text-[11px] transition">
                 <i class="fas fa-link"></i>
               </button>
             </div>
@@ -1527,7 +1518,6 @@
       if (e.key === 'Escape') closeModal();
     });
 
-    // 9. Toast & Clipboard
     function copyToClipboard(text, msg) {
       navigator.clipboard.writeText(text).then(() => {
         showToast(msg || i18n[currentLang].copied_toast);
@@ -1547,7 +1537,6 @@
       }, 2500);
     }
 
-    // 10. Event Listeners
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     document.getElementById('clearSearch').addEventListener('click', () => {
       document.getElementById('searchInput').value = '';
