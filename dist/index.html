@@ -127,12 +127,12 @@
     .poster-aspect {
       aspect-ratio: 2 / 2.92;
     }
-    /* Miruro-style cinematic banner backdrop fade: lighter shadow, 50% more visible anime artwork */
+    /* Miruro-style cinematic banner backdrop fade: 25% richer shadow depth for contrast and artwork visibility */
     .miruro-hero-backdrop {
       background: 
-        linear-gradient(90deg, rgba(7, 9, 14, 0.82) 0%, rgba(7, 9, 14, 0.55) 28%, rgba(7, 9, 14, 0.15) 50%, transparent 70%),
-        linear-gradient(0deg, rgba(9, 10, 15, 0.9) 0%, rgba(9, 10, 15, 0.45) 18%, rgba(9, 10, 15, 0.08) 38%, transparent 60%),
-        linear-gradient(180deg, rgba(9, 10, 15, 0.35) 0%, transparent 18%);
+        linear-gradient(90deg, rgba(7, 9, 14, 0.95) 0%, rgba(7, 9, 14, 0.72) 34%, rgba(7, 9, 14, 0.25) 58%, transparent 78%),
+        linear-gradient(0deg, rgba(9, 10, 15, 0.96) 0%, rgba(9, 10, 15, 0.62) 24%, rgba(9, 10, 15, 0.14) 44%, transparent 68%),
+        linear-gradient(180deg, rgba(9, 10, 15, 0.45) 0%, transparent 22%);
     }
     /* Hero Title: Modern geometric font, horizontal left-to-right accent-to-white gradient matching reference photo */
     .hero-title-text {
@@ -302,7 +302,7 @@
 
         <!-- Anime Title & Subtitle: Commanding, High-End Cinematic Typography -->
         <div class="space-y-1.5 pt-0.5">
-          <h1 id="heroTitle" class="hero-title-text text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] transition-opacity duration-200">
+          <h1 id="heroTitle" class="hero-title-text text-lg sm:text-[27px] md:text-4xl lg:text-[45px] font-black tracking-tight leading-[1.15] transition-opacity duration-200">
             Фрирен: Соңғы сапар
           </h1>
           <div id="heroSubTitle" class="hero-subtitle-text text-xs sm:text-sm lg:text-base font-semibold tracking-wide text-slate-300/85 flex flex-wrap items-center gap-1.5 transition-opacity duration-200">
@@ -327,13 +327,13 @@
             Эльф сиқыршысы Фрирен Жын әміршісін жеңгеннен кейін адамзат жүрегін түсіну үшін жаңа саяхатқа шығады.
           </p>
 
-          <!-- Right: Action Buttons (DETAILS & WATCH NOW - Pill Shaped) -->
+          <!-- Right: Action Buttons (DETAILS & WATCH NOW - Elegant Rounded Square) -->
           <div class="shrink-0 flex items-center space-x-3 self-start md:self-end">
-            <button id="heroDetailsBtn" onclick="openHeroModal()" class="px-5 py-2.5 rounded-full bg-black/70 hover:bg-black/90 backdrop-blur-md border border-white/15 text-white text-xs font-bold uppercase tracking-wider transition flex items-center space-x-2 shadow-md active:scale-95 cursor-pointer">
+            <button id="heroDetailsBtn" onclick="openHeroModal()" class="px-5 py-2.5 rounded-xl bg-black/75 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white text-xs font-bold uppercase tracking-wider transition flex items-center space-x-2 shadow-md active:scale-95 cursor-pointer">
               <i class="fas fa-info-circle text-xs text-slate-300"></i>
               <span id="heroDetailsTxt">Толығырақ</span>
             </button>
-            <button id="heroWatchBtn" onclick="openHeroModal()" class="px-6 py-2.5 rounded-full bg-white hover:bg-slate-100 text-slate-950 text-xs font-black uppercase tracking-wider transition flex items-center space-x-2 shadow-xl shadow-white/10 active:scale-95 cursor-pointer">
+            <button id="heroWatchBtn" onclick="openHeroModal()" class="px-6 py-2.5 rounded-xl bg-white hover:bg-slate-100 text-slate-950 text-xs font-black uppercase tracking-wider transition flex items-center space-x-2 shadow-xl shadow-white/10 active:scale-95 cursor-pointer">
               <i class="fas fa-play text-[11px] text-slate-950"></i>
               <span id="heroWatchTxt">Субтитрлерді алу</span>
             </button>
