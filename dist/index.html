@@ -586,13 +586,17 @@
       </div>
     </header>
 
-    <!-- Full-Screen Hero Showcase (Cinematic Banner Backdrop) -->
-    <div class="relative bg-[#0d1017] border-b border-[#171b26] min-h-[360px] sm:min-h-[440px] flex flex-col justify-end">
-      <!-- Backdrop image with gradient fade -->
+    <!-- Full-Screen Hero Showcase (Cinematic Banner Backdrop with High-End Visibility) -->
+    <div id="modalHeroShowcase" class="relative bg-[#090a0f] border-b border-[#181e2b] min-h-[380px] sm:min-h-[460px] md:min-h-[500px] flex flex-col justify-end">
+      <!-- Backdrop image with high-end cinematic gradient fade -->
       <div class="absolute inset-0 overflow-hidden pointer-events-none">
-        <img id="modalBanner" src="" alt="Banner" class="w-full h-full object-cover object-center opacity-30 filter blur-xs">
-        <div class="absolute inset-0 bg-gradient-to-t from-[#090a0f] via-[#090a0f]/80 to-transparent"></div>
-        <div class="absolute inset-0 bg-gradient-to-r from-[#090a0f] via-[#090a0f]/60 to-transparent"></div>
+        <img id="modalBanner" src="" alt="Banner" class="w-full h-full object-cover object-top sm:object-center opacity-85 transition-opacity duration-300">
+        <!-- Horizontal left-shadow to ensure title & poster contrast -->
+        <div class="absolute inset-0 bg-gradient-to-r from-[#090a0f] via-[#090a0f]/80 sm:via-[#090a0f]/60 to-transparent"></div>
+        <!-- Bottom-up fade into content area -->
+        <div class="absolute inset-0 bg-gradient-to-t from-[#090a0f] via-[#090a0f]/50 to-transparent"></div>
+        <!-- Top subtle header vignette -->
+        <div class="absolute inset-0 bg-gradient-to-b from-[#090a0f]/80 via-transparent to-transparent"></div>
       </div>
 
       <!-- Hero Content Container -->
@@ -2448,7 +2452,15 @@
 
       document.getElementById('modalSubTitle').innerHTML = subTitleText;
       document.getElementById('modalCover').src = coverUrl;
-      document.getElementById('modalBanner').src = bannerUrl;
+      const modalBannerEl = document.getElementById('modalBanner');
+      if (modalBannerEl) {
+        modalBannerEl.classList.remove('opacity-40');
+        modalBannerEl.onerror = () => {
+          modalBannerEl.src = coverUrl;
+          modalBannerEl.classList.add('opacity-40');
+        };
+        modalBannerEl.src = bannerUrl;
+      }
       document.getElementById('modalFormatBadge').textContent = format;
       document.getElementById('modalYearBadge').textContent = year;
       document.getElementById('modalScoreVal').textContent = score;
