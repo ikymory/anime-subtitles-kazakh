@@ -134,17 +134,20 @@
         linear-gradient(0deg, #090a0f 0%, rgba(9, 10, 15, 0.92) 14%, rgba(9, 10, 15, 0.6) 28%, rgba(9, 10, 15, 0.18) 42%, transparent 52%),
         linear-gradient(180deg, rgba(9, 10, 15, 0.35) 0%, transparent 14%);
     }
-    /* Hero Title: Modern geometric font, silky smooth frosted-to-pastel gradient, tight subtle shadow, NO neon glow */
+    /* Hero Title: Modern geometric font, high-end crisp solid accent, deep shadow for perfect legibility */
     .hero-title-text {
       font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-      letter-spacing: -0.02em;
-      line-height: 1.18;
+      letter-spacing: -0.025em;
+      line-height: 1.12;
       display: inline-block;
       max-width: 100%;
-      background: linear-gradient(180deg, #ffffff 0%, #eef5fc 42%, var(--hero-accent, #93c5fd) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
+      color: var(--hero-accent, #60a5fa);
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.85);
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.8));
+    }
+    .hero-subtitle-text {
+      font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.85);
     }
     .hide-scrollbar::-webkit-scrollbar {
       display: none;
@@ -296,10 +299,15 @@
           </span>
         </div>
 
-        <!-- Anime Title: Compact, Geometric Font, Dual-Tone Top-to-Bottom Gradient with Crisp Shadow -->
-        <h1 id="heroTitle" class="hero-title-text text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight leading-tight transition-opacity duration-200">
-          Сапар соңындағы Фрирен
-        </h1>
+        <!-- Anime Title & Subtitle: Commanding, High-End Cinematic Typography -->
+        <div class="space-y-1 pt-0.5">
+          <h1 id="heroTitle" class="hero-title-text text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight transition-opacity duration-200">
+            Фрирен: Соңғы сапар
+          </h1>
+          <div id="heroSubTitle" class="hero-subtitle-text text-xs sm:text-sm font-semibold tracking-wide text-slate-300/85 flex flex-wrap items-center gap-1.5 transition-opacity duration-200">
+            Frieren: Beyond Journey’s End • 葬送のフリーレン
+          </div>
+        </div>
 
         <!-- Genre Tags & Studio Pills Row (Two distinct rounded pills) -->
         <div class="flex flex-wrap items-center gap-2.5 pt-0.5">
@@ -1516,17 +1524,37 @@
       const contentWrap = document.getElementById('heroContentWrap');
       const titleEl = document.getElementById('heroTitle');
 
-      document.getElementById('heroCounter').textContent = `${currentHeroIndex + 1} / ${featuredHeroMeta.length}`;
+      const heroCounterEl = document.getElementById('heroCounter');
+      if (heroCounterEl) heroCounterEl.textContent = `${currentHeroIndex + 1} / ${featuredHeroMeta.length}`;
 
       const renderContent = () => {
         titleEl.textContent = title;
-        // High-end smooth gradient: white at top, subtle frosted tint middle, dynamic soft pastel accent at bottom + tight refined drop-shadow
+        // High-end crisp solid accent matching Miruro reference + deep shadow for perfect contrast
         titleEl.style.setProperty('--hero-accent', theme.color);
-        titleEl.style.backgroundImage = theme.gradient;
-        titleEl.style.webkitBackgroundClip = 'text';
-        titleEl.style.webkitTextFillColor = 'transparent';
-        titleEl.style.textShadow = 'none';
-        titleEl.style.filter = 'drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35))';
+        titleEl.style.color = theme.color;
+        titleEl.style.webkitTextFillColor = theme.color;
+        titleEl.style.backgroundImage = 'none';
+        titleEl.style.textShadow = '0 2px 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.85)';
+        titleEl.style.filter = 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.8))';
+
+        const subTitleEl = document.getElementById('heroSubTitle');
+        if (subTitleEl) {
+          const eng = (anime.title && anime.title.english) || '';
+          const ro = (anime.title && anime.title.romaji) || '';
+          const nat = (anime.title && anime.title.native) || '';
+          let subText = '';
+          if (currentLang === 'kk') {
+            const secondary = (eng && eng !== title) ? eng : (ro !== title ? ro : '');
+            const extra = (nat && nat !== title && nat !== secondary) ? ` • ${nat}` : '';
+            subText = secondary ? `${secondary}${extra}` : (nat || '');
+          } else if (currentLang === 'en') {
+            subText = (ro && ro !== title) ? `${ro} • ${nat}` : (nat || '');
+          } else {
+            subText = eng || ro || '';
+          }
+          subTitleEl.textContent = subText;
+          subTitleEl.style.display = subText ? 'flex' : 'none';
+        }
 
         const epBadge = document.getElementById('heroEpBadge');
         if (epBadge) {
@@ -2069,11 +2097,11 @@
       modalTitleEl.textContent = titleText;
       modalTitleEl.style.fontFamily = "'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif";
       modalTitleEl.style.setProperty('--hero-accent', theme.color);
-      modalTitleEl.style.backgroundImage = theme.gradient;
-      modalTitleEl.style.webkitBackgroundClip = 'text';
-      modalTitleEl.style.webkitTextFillColor = 'transparent';
-      modalTitleEl.style.textShadow = 'none';
-      modalTitleEl.style.filter = 'drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35))';
+      modalTitleEl.style.color = theme.color;
+      modalTitleEl.style.webkitTextFillColor = theme.color;
+      modalTitleEl.style.backgroundImage = 'none';
+      modalTitleEl.style.textShadow = '0 2px 14px rgba(0, 0, 0, 0.95), 0 0 28px rgba(0, 0, 0, 0.85)';
+      modalTitleEl.style.filter = 'drop-shadow(0 2px 8px rgba(0, 0, 0, 0.8))';
       const navTitle = document.getElementById('modalTopNavTitle');
       if (navTitle) navTitle.textContent = titleText;
 
