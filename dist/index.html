@@ -491,11 +491,13 @@
           <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center space-x-2 text-white font-black text-sm uppercase tracking-wider">
-                  <i class="fas fa-check text-emerald-400 text-xs"></i>
+                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
+                  <div class="w-7 h-7 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xs shadow-sm">
+                    <i class="fas fa-check-double"></i>
+                  </div>
                   <span id="bottomFinishedTitle">JUST FINISHED</span>
                 </div>
-                <span class="text-[11px] font-mono text-slate-400 bg-[#141924] px-2 py-0.5 rounded-md border border-white/5">2024–2025</span>
+                <span class="text-[11px] font-mono text-slate-300 bg-[#141924] px-2.5 py-0.5 rounded-lg border border-white/10 flex items-center space-x-1.5"><i class="fas fa-calendar-alt text-[10px] text-emerald-400"></i><span>2024–2026</span></span>
               </div>
               <div id="justFinishedList" class="space-y-3">
                 <!-- Rendered via JS -->
@@ -511,11 +513,13 @@
           <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center space-x-2 text-white font-black text-sm uppercase tracking-wider">
-                  <i class="fas fa-trophy text-amber-400 text-xs"></i>
+                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
+                  <div class="w-7 h-7 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 text-xs shadow-sm">
+                    <i class="fas fa-trophy"></i>
+                  </div>
                   <span id="bottomRatedTitle">TOP RATED</span>
                 </div>
-                <span class="text-[11px] font-mono text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded-md border border-amber-500/20"><i class="fas fa-trophy text-[10px] mr-1 text-amber-400"></i>All Time Peak</span>
+                <span class="text-[11px] font-mono text-amber-300 bg-amber-500/10 px-2.5 py-0.5 rounded-lg border border-amber-500/20 flex items-center space-x-1.5"><i class="fas fa-crown text-[10px] text-amber-400"></i><span>All Time Peak</span></span>
               </div>
               <div id="bottomTopRatedList" class="space-y-3">
                 <!-- Rendered via JS -->
@@ -536,11 +540,13 @@
         <!-- SECTION: TOP MOVIES (Expandable) -->
         <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 space-y-4 shadow-xl">
           <div class="flex items-center justify-between text-slate-200">
-            <div class="flex items-center space-x-2">
-              <i class="fas fa-film text-cyan-400 text-xs"></i>
+            <div class="flex items-center space-x-2.5">
+              <div class="w-7 h-7 rounded-xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-xs shadow-sm">
+                <i class="fas fa-film"></i>
+              </div>
               <h3 id="sidebarMoviesTitle" class="text-sm font-black tracking-wider text-slate-100 uppercase">TOP MOVIES</h3>
             </div>
-            <i class="fas fa-film text-xs text-slate-500"></i>
+            <span class="text-[10px] font-mono font-semibold uppercase px-2 py-0.5 rounded-md bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Films</span>
           </div>
           <div id="topMoviesList" class="space-y-3">
             <!-- Rendered via JS -->
@@ -627,11 +633,13 @@
             <span id="modalScoreBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-amber-300 flex items-center space-x-1">
               <i class="far fa-star text-[10px] mr-1"></i><span id="modalScoreVal">95</span>
             </span>
-            <span id="modalStatusBadge" class="bg-emerald-950/70 border border-emerald-800/70 text-emerald-400 px-2.5 py-0.5 rounded-lg text-[10px] font-mono font-medium">
+            <span id="modalStatusBadge" class="bg-emerald-950/70 border border-emerald-500/30 text-emerald-400 px-2.5 py-0.5 rounded-lg text-[10px] font-mono font-semibold flex items-center space-x-1.5 shadow-sm">
+              <i class="fas fa-closed-captioning text-[11px] text-emerald-400"></i>
               <span id="modalStatusText">Қазақша субтитр</span>
             </span>
-            <span class="bg-blue-950/60 border border-blue-800/60 text-blue-300 px-2.5 py-0.5 rounded-lg text-[10px] font-mono">
-              SRT • VTT • ASS
+            <span class="bg-blue-950/60 border border-blue-800/60 text-blue-300 px-2.5 py-0.5 rounded-lg text-[10px] font-mono flex items-center space-x-1">
+              <i class="fas fa-file-alt text-[10px] text-blue-400"></i>
+              <span>SRT • VTT • ASS</span>
             </span>
           </div>
 
@@ -2037,7 +2045,7 @@
       if (key === 'topRated') renderTopRated(animeData);
     }
 
-    function createMiruroCardHtml(anime, rank) {
+    function createMiruroCardHtml(anime, rank, type) {
       const title = getAnimeTitle(anime);
       const subTitle = (anime.title && (anime.title.romaji || anime.title.english)) || '';
       const year = anime.seasonYear || 2024;
@@ -2047,13 +2055,17 @@
       const eps = anime.episodes || anime.translated_episodes_count || (anime.format === 'MOVIE' ? 1 : 12);
       const format = anime.format || (eps === 1 ? 'MOVIE' : 'TV');
 
-      let rankBadgeHtml = '';
-      if (typeof rank === 'number') {
+      let iconBadgeHtml = '';
+      if (type === 'movie') {
+        iconBadgeHtml = `<span class="w-6 h-6 rounded-lg bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center shrink-0 shadow-sm" title="Movie"><i class="fas fa-film text-[10px] text-cyan-400"></i></span>`;
+      } else if (type === 'finished') {
+        iconBadgeHtml = `<span class="w-6 h-6 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center shrink-0 shadow-sm" title="Latest Release"><i class="fas fa-play text-[9px] text-emerald-400"></i></span>`;
+      } else if (type === 'rated' || typeof rank === 'number') {
         let rankColor = 'bg-white/10 text-slate-400 border-white/10';
         if (rank === 1) rankColor = 'bg-amber-500/20 text-amber-300 border-amber-500/40 shadow-sm shadow-amber-500/20';
         else if (rank === 2) rankColor = 'bg-slate-300/20 text-slate-200 border-slate-300/40';
         else if (rank === 3) rankColor = 'bg-amber-700/25 text-amber-400 border-amber-700/40';
-        rankBadgeHtml = `<span class="shrink-0 text-[10px] sm:text-xs font-mono font-bold px-1.5 py-0.5 rounded-md border ${rankColor}">#${rank}</span>`;
+        iconBadgeHtml = `<span class="shrink-0 text-[10px] sm:text-xs font-mono font-bold px-2 py-0.5 rounded-lg border ${rankColor}">#${rank}</span>`;
       }
 
       return `
@@ -2076,7 +2088,7 @@
           <!-- Foreground info -->
           <div class="relative z-10 min-w-0 flex-1 space-y-1">
             <div class="flex items-center space-x-2">
-              ${rankBadgeHtml}
+              ${iconBadgeHtml}
               <h4 class="text-sm sm:text-[15px] font-bold text-slate-100 group-hover:text-white transition truncate" title="${title}">${title}</h4>
             </div>
             ${subTitle ? `<div class="text-[11px] text-slate-400 truncate font-medium group-hover:text-slate-300 transition">${subTitle}</div>` : ''}
@@ -2110,19 +2122,25 @@
       const remainingMovies = data.filter(a => a.format === 'MOVIE' && !movies.includes(a));
       movies = movies.concat(remainingMovies).slice(0, limit);
 
-      container.innerHTML = movies.map(anime => createMiruroCardHtml(anime)).join('');
+      container.innerHTML = movies.map(anime => createMiruroCardHtml(anime, null, 'movie')).join('');
     }
 
     function renderJustFinished(data) {
       const container = document.getElementById('justFinishedList');
       if (!container) return;
       const limit = expandState.justFinished ? 12 : 5;
-      const finishedSlugs = ['frieren', 'solo-leveling', 'dan-da-dan', 'aot-final', 'jjk-s2', 'apothecary-diaries', 'bocchi-the-rock', 'cyberpunk-edgerunners', 'oshi-no-ko', 'vinland-saga-s2', 'mob-psycho-s2', 'violet-evergarden'];
-      let finished = finishedSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
-      const remainingTV = data.filter(a => a.format === 'TV' && !finished.includes(a));
-      finished = finished.concat(remainingTV).slice(0, limit);
+      
+      const latestSeries = data.slice()
+        .filter(a => a.format === 'TV' || a.format === 'ONA' || (a.episodes && a.episodes > 1))
+        .sort((a, b) => {
+          const yA = a.seasonYear || 0;
+          const yB = b.seasonYear || 0;
+          if (yB !== yA) return yB - yA;
+          return (b.id || 0) - (a.id || 0);
+        })
+        .slice(0, limit);
 
-      container.innerHTML = finished.map(anime => createMiruroCardHtml(anime)).join('');
+      container.innerHTML = latestSeries.map(anime => createMiruroCardHtml(anime, null, 'finished')).join('');
     }
 
     function renderTopRated(data) {
@@ -2139,7 +2157,7 @@
         })
         .slice(0, limit);
 
-      container.innerHTML = sorted.map((anime, idx) => createMiruroCardHtml(anime, idx + 1)).join('');
+      container.innerHTML = sorted.map((anime, idx) => createMiruroCardHtml(anime, idx + 1, 'rated')).join('');
     }
 
     // -------------------------------------------------------------
