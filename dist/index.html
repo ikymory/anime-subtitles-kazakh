@@ -486,8 +486,8 @@
           <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
-                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-sm shadow-emerald-400/50"></span>
+                <div class="flex items-center space-x-2 text-white font-black text-sm uppercase tracking-wider">
+                  <i class="fas fa-check text-emerald-400 text-xs"></i>
                   <span id="bottomFinishedTitle">JUST FINISHED</span>
                 </div>
                 <span class="text-[11px] font-mono text-slate-400 bg-[#141924] px-2 py-0.5 rounded-md border border-white/5">2024–2025</span>
@@ -506,8 +506,8 @@
           <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
-                  <span class="w-2.5 h-2.5 rounded-full bg-amber-400 shadow-sm shadow-amber-400/50"></span>
+                <div class="flex items-center space-x-2 text-white font-black text-sm uppercase tracking-wider">
+                  <i class="fas fa-trophy text-amber-400 text-xs"></i>
                   <span id="bottomRatedTitle">TOP RATED</span>
                 </div>
                 <span class="text-[11px] font-mono text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded-md border border-amber-500/20"><i class="fas fa-trophy text-[10px] mr-1 text-amber-400"></i>All Time Peak</span>
@@ -531,8 +531,8 @@
         <!-- SECTION: TOP MOVIES (Expandable) -->
         <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 space-y-4 shadow-xl">
           <div class="flex items-center justify-between text-slate-200">
-            <div class="flex items-center space-x-2.5">
-              <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-sm shadow-cyan-400/50"></span>
+            <div class="flex items-center space-x-2">
+              <i class="fas fa-film text-cyan-400 text-xs"></i>
               <h3 id="sidebarMoviesTitle" class="text-sm font-black tracking-wider text-slate-100 uppercase">TOP MOVIES</h3>
             </div>
             <i class="fas fa-film text-xs text-slate-500"></i>
@@ -618,8 +618,7 @@
             <span id="modalScoreBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-amber-300 flex items-center space-x-1">
               <i class="far fa-star text-[10px] mr-1"></i><span id="modalScoreVal">95</span>
             </span>
-            <span id="modalStatusBadge" class="bg-emerald-950/70 border border-emerald-800/70 text-emerald-400 px-2.5 py-0.5 rounded-lg text-[10px] font-mono flex items-center space-x-1">
-              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1 animate-pulse"></span>
+            <span id="modalStatusBadge" class="bg-emerald-950/70 border border-emerald-800/70 text-emerald-400 px-2.5 py-0.5 rounded-lg text-[10px] font-mono font-medium">
               <span id="modalStatusText">Қазақша субтитр</span>
             </span>
             <span class="bg-blue-950/60 border border-blue-800/60 text-blue-300 px-2.5 py-0.5 rounded-lg text-[10px] font-mono">
@@ -2255,15 +2254,12 @@
       document.getElementById('totalMatches').textContent = currentFiltered.length;
       document.getElementById('miniPageIndicator').textContent = currentPage;
 
-      const dotPalette = ['bg-emerald-400', 'bg-cyan-400', 'bg-pink-500', 'bg-emerald-400'];
-
       grid.innerHTML = pageItems.map((anime, idx) => {
         const title = getAnimeTitle(anime);
         const format = anime.format || 'TV';
         const eps = anime.episodes || anime.translated_episodes_count || 12;
         const year = anime.seasonYear || 2024;
         const cover = anime.coverImage || fallbackCover;
-        const dotColor = dotPalette[idx % dotPalette.length];
         const score = getAnimeScore(anime);
 
         return `
@@ -2283,12 +2279,9 @@
                 </div>
               </div>
               
-              <!-- Line 1: Colored Status Dot + Localized Kazakh Title -->
+              <!-- Line 1: Title -->
               <div class="mt-2">
-                <div class="flex items-center space-x-1.5">
-                  <span class="w-1.5 h-1.5 rounded-full ${dotColor} shrink-0"></span>
-                  <h3 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate" title="${title}">${title}</h3>
-                </div>
+                <h3 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate" title="${title}">${title}</h3>
               </div>
             </div>
 
