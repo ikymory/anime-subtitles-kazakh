@@ -127,23 +127,24 @@
     .poster-aspect {
       aspect-ratio: 2 / 2.92;
     }
-    /* Miruro-style cinematic banner backdrop fade matching reference photo */
+    /* Miruro-style cinematic banner backdrop fade matching reference photo - tight, smooth, high-end */
     .miruro-hero-backdrop {
       background: 
-        linear-gradient(90deg, #090a0f 0%, rgba(9, 10, 15, 0.95) 26%, rgba(9, 10, 15, 0.72) 48%, rgba(9, 10, 15, 0.15) 75%, transparent 100%),
-        linear-gradient(180deg, rgba(9, 10, 15, 0.75) 0%, transparent 22%, transparent 45%, rgba(9, 10, 15, 0.85) 78%, #090a0f 100%);
+        linear-gradient(90deg, rgba(9, 10, 15, 0.85) 0%, rgba(9, 10, 15, 0.45) 22%, rgba(9, 10, 15, 0.08) 38%, transparent 50%),
+        linear-gradient(0deg, #090a0f 0%, rgba(9, 10, 15, 0.92) 14%, rgba(9, 10, 15, 0.6) 28%, rgba(9, 10, 15, 0.18) 42%, transparent 52%),
+        linear-gradient(180deg, rgba(9, 10, 15, 0.35) 0%, transparent 14%);
     }
-    /* Hero Title: Modern geometric font, top-to-bottom white-to-accent gradient, crisp shadow, NO neon glow */
+    /* Hero Title: Modern geometric font, silky smooth frosted-to-pastel gradient, tight subtle shadow, NO neon glow */
     .hero-title-text {
       font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
       letter-spacing: -0.02em;
       line-height: 1.18;
       display: inline-block;
       max-width: 100%;
-      background: linear-gradient(180deg, #ffffff 15%, var(--hero-accent, #70a4e8) 100%);
+      background: linear-gradient(180deg, #ffffff 0%, #eef5fc 42%, var(--hero-accent, #93c5fd) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.8));
+      filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35));
     }
     .hide-scrollbar::-webkit-scrollbar {
       display: none;
@@ -243,7 +244,7 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-4 pb-12 w-full space-y-6">
 
     <!-- 1. CINEMATIC HERO SHOWCASE BANNER (Matching Attached Reference Image & AniList Dynamic Colors) -->
-    <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#171b26] shadow-2xl min-h-[380px] sm:min-h-[440px] md:min-h-[460px] flex flex-col justify-end p-5 sm:p-8 transition-all select-none">
+    <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#1a202d] shadow-xl shadow-black/40 min-h-[380px] sm:min-h-[440px] md:min-h-[460px] flex flex-col justify-end p-5 sm:p-8 transition-all select-none">
       
       <!-- Dual Crossfade Banner Images (Zero flicker, butter smooth transitions) -->
       <div class="absolute inset-0 overflow-hidden pointer-events-none">
@@ -1384,19 +1385,24 @@
       'Thriller': '#ef4444'       // Tense Red
     };
 
-    function tuneColorForDarkTheme(colorStr) {
-      if (!colorStr) return '#60a5fa';
-      if (colorStr.startsWith('#')) {
-        let hex = colorStr.replace('#', '');
+    function parseColorToHsl(colorStr) {
+      if (!colorStr) return { h: 212, s: 70, l: 80 };
+      const str = colorStr.trim();
+      if (str.startsWith('hsl')) {
+        const m = str.match(/hsl\(\s*([\d.]+)\s*,\s*([\d.]+)%\s*,\s*([\d.]+)%\s*\)/i);
+        if (m) return { h: parseFloat(m[1]), s: parseFloat(m[2]), l: parseFloat(m[3]) };
+      }
+      if (str.startsWith('#')) {
+        let hex = str.slice(1);
         if (hex.length === 3) hex = hex.split('').map(c => c + c).join('');
         if (hex.length === 6) {
-          const r = parseInt(hex.substring(0, 2), 16) / 255;
-          const g = parseInt(hex.substring(2, 4), 16) / 255;
-          const b = parseInt(hex.substring(4, 6), 16) / 255;
+          const num = parseInt(hex, 16);
+          const r = ((num >> 16) & 255) / 255;
+          const g = ((num >> 8) & 255) / 255;
+          const b = (num & 255) / 255;
           const max = Math.max(r, g, b), min = Math.min(r, g, b);
-          let h, s, l = (max + min) / 2;
-          if (max === min) { h = s = 0; }
-          else {
+          let h = 0, s = 0, l = (max + min) / 2;
+          if (max !== min) {
             const d = max - min;
             s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
             switch (max) {
@@ -1406,21 +1412,47 @@
             }
             h /= 6;
           }
-          if (l < 0.60) l = 0.68;
-          if (l > 0.85) l = 0.80;
-          if (s < 0.55) s = 0.78;
-          return `hsl(${Math.round(h * 360)}, ${Math.round(s * 100)}%, ${Math.round(l * 100)}%)`;
+          return { h: Math.round(h * 360), s: Math.round(s * 100), l: Math.round(l * 100) };
         }
       }
-      return colorStr;
+      return { h: 212, s: 70, l: 80 };
     }
 
-    function resolveAnimeColor(anime) {
-      if (!anime) return '#60a5fa';
-      if (anime.color) return tuneColorForDarkTheme(anime.color);
+    function harmonizeToLuxuryHue(rawHue) {
+      // Map arbitrary API/raw hues into curated luxury streaming palette tones
+      if (rawHue >= 340 || rawHue < 25) return 348;  // Luxury Rose Quartz / Coral Silk
+      if (rawHue >= 25 && rawHue < 65) return 42;    // Champagne Gold / Warm Pearl
+      if (rawHue >= 65 && rawHue < 135) return 156;  // Luxury Emerald Mint (replaces sickly yellow-green)
+      if (rawHue >= 135 && rawHue < 175) return 162; // Seafoam / Aquamarine Silk
+      if (rawHue >= 175 && rawHue < 200) return 192; // Diamond Cyan
+      if (rawHue >= 200 && rawHue < 245) return 212; // Signature Miruro Sky Blue (Reference match)
+      if (rawHue >= 245 && rawHue < 295) return 268; // Celestial Lavender / Amethyst
+      return 338;                                    // Frosted Sakura
+    }
+
+    function createHighEndTheme(rawH, s, l) {
+      const h = harmonizeToLuxuryHue(rawH);
+      // Luxury pastel tone: refined saturation (58-72%), luminous lightness (79-84%), silky pearl mid-tone
+      const sRefined = Math.min(Math.max(s, 58), 72);
+      const lRefined = Math.min(Math.max(l, 79), 84);
+      const midS = Math.round(sRefined * 0.30);
+      const color = `hsl(${h}, ${sRefined}%, ${lRefined}%)`;
+      const gradient = `linear-gradient(180deg, #ffffff 0%, hsl(${h}, ${midS}%, 95%) 38%, ${color} 100%)`;
+      return { color, gradient, h, s: sRefined, l: lRefined };
+    }
+
+    function resolveAnimeTheme(anime) {
+      if (!anime) return createHighEndTheme(212, 70, 80);
+      if (anime.color) {
+        const { h, s, l } = parseColorToHsl(anime.color);
+        return createHighEndTheme(h, s, l);
+      }
       if (anime.genres && Array.isArray(anime.genres)) {
         for (const g of anime.genres) {
-          if (GENRE_ACCENT_COLORS[g]) return GENRE_ACCENT_COLORS[g];
+          if (GENRE_ACCENT_COLORS[g]) {
+            const { h, s, l } = parseColorToHsl(GENRE_ACCENT_COLORS[g]);
+            return createHighEndTheme(h, s, l);
+          }
         }
       }
       const titleStr = (anime.title && (anime.title.english || anime.title.romaji || anime.title.kazakh)) || anime.slug || 'anime';
@@ -1428,7 +1460,11 @@
       for (let i = 0; i < titleStr.length; i++) {
         hash = (hash * 31 + titleStr.charCodeAt(i)) & 0xffffffff;
       }
-      return `hsl(${Math.abs(hash) % 360}, 78%, 68%)`;
+      return createHighEndTheme(Math.abs(hash) % 360, 68, 80);
+    }
+
+    function resolveAnimeColor(anime) {
+      return resolveAnimeTheme(anime).color;
     }
 
     // -------------------------------------------------------------
@@ -1473,7 +1509,7 @@
 
       const desc = anime.description || (anime.title && (anime.title.kazakh || anime.title.english)) || 'Қазақша субтитрлер қолжетімді.';
       const banner = anime.bannerImage;
-      const animeColor = resolveAnimeColor(anime);
+      const theme = resolveAnimeTheme(anime);
 
       const imgBack = document.getElementById('heroBannerBack');
       const imgFront = document.getElementById('heroBannerFront');
@@ -1484,13 +1520,13 @@
 
       const renderContent = () => {
         titleEl.textContent = title;
-        // Dual-tone vertical gradient: white at top, dynamic accent at bottom + crisp dark drop-shadow (NO glow)
-        titleEl.style.setProperty('--hero-accent', animeColor);
-        titleEl.style.backgroundImage = `linear-gradient(180deg, #ffffff 15%, ${animeColor} 100%)`;
+        // High-end smooth gradient: white at top, subtle frosted tint middle, dynamic soft pastel accent at bottom + tight refined drop-shadow
+        titleEl.style.setProperty('--hero-accent', theme.color);
+        titleEl.style.backgroundImage = theme.gradient;
         titleEl.style.webkitBackgroundClip = 'text';
         titleEl.style.webkitTextFillColor = 'transparent';
         titleEl.style.textShadow = 'none';
-        titleEl.style.filter = 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.8))';
+        titleEl.style.filter = 'drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35))';
 
         const epBadge = document.getElementById('heroEpBadge');
         if (epBadge) {
@@ -2028,15 +2064,16 @@
       const epCount = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
 
       // Populate hero elements
-      const animeColor = resolveAnimeColor(summary);
+      const theme = resolveAnimeTheme(summary);
       const modalTitleEl = document.getElementById('modalTitle');
       modalTitleEl.textContent = titleText;
       modalTitleEl.style.fontFamily = "'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif";
-      modalTitleEl.style.backgroundImage = `linear-gradient(180deg, #ffffff 15%, ${animeColor} 100%)`;
+      modalTitleEl.style.setProperty('--hero-accent', theme.color);
+      modalTitleEl.style.backgroundImage = theme.gradient;
       modalTitleEl.style.webkitBackgroundClip = 'text';
       modalTitleEl.style.webkitTextFillColor = 'transparent';
       modalTitleEl.style.textShadow = 'none';
-      modalTitleEl.style.filter = 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95))';
+      modalTitleEl.style.filter = 'drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55)) drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35))';
       const navTitle = document.getElementById('modalTopNavTitle');
       if (navTitle) navTitle.textContent = titleText;
 
