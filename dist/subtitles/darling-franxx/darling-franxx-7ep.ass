@@ -23,11 +23,11 @@ Video Zoom Percent: 0.500000
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: text_sc,更纱黑体 SC,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2.5,0,2,10,10,50,1
-Style: text_sc_up,更纱黑体 SC,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2.5,0,8,10,10,50,1
-Style: text_jpn,更纱黑体 J,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,2,10,10,5,1
-Style: comment,腾祥嘉丽中圆GB18030,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,2.5,0,7,10,10,20,1
-Style: text_jpn_up,更纱黑体 J,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,8,10,10,5,1
+Style: text_sc,Arial,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2.5,0,2,10,10,50,1
+Style: text_sc_up,Arial,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2.5,0,8,10,10,50,1
+Style: text_jpn,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,2,10,10,5,1
+Style: comment,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,2.5,0,7,10,10,20,1
+Style: text_jpn_up,Arial,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,8,10,10,5,1
 Style: OP_jpn,Source Han Sans JP Medium,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,0,0,8,10,10,20,1
 Style: ED_jpn,Source Han Sans JP Medium,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1,0,8,10,10,10,1
 
@@ -36,7 +36,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Comment: 0,0:00:00.00,0:00:00.00,text_sc,,0,0,0,,Title
 Comment: 0,0:00:00.00,0:00:00.00,OP_jpn,,0,0,0,,KISS OF DEATH (Produced by HYDE)
-Comment: 0,0:00:00.00,0:00:00.00,ED_jpn,,0,0,0,,真夏のセツナ
+Comment: 0,0:00:00.00,0:00:00.00,ED_jpn,,0,0,0,,...
 Comment: 0,0:00:00.00,0:00:00.00,text_sc,,0,0,0,,iQiYi
 Comment: 0,0:00:00.00,0:00:00.00,text_jpn,,0,0,0,,http://anicobin.ldblog.jp/archives/53033014.html
 Dialogue: 1,0:00:23.78,0:00:25.06,text_jpn_up,,0,0,0,,

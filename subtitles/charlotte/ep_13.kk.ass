@@ -12,9 +12,9 @@ ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 PlayResX: 1280
 PlayResY: 720
-Original Script: 诸神字幕组
-Original Translation: 诸神字幕组
-Original Timing: Echorish & 雪糕
+Original Script:
+Original Translation:
+Original Timing: Echorish &
 
 [Aegisub Project Garbage]
 Last Style Storage: Charlotte
@@ -29,8 +29,8 @@ Video Position: 34030
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: STAFF,方正准圆_GBK,40,&H00FCFCFC,&H00CEF9FC,&H002A312F,&H00686766,-1,0,0,0,90,100,0,0,1,2.5,0,8,10,10,10,1
-Style: OP_JP,华文细黑,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1.5,0,1,2.5,0,2,10,10,14,1
+Style: STAFF,Arial,40,&H00FCFCFC,&H00CEF9FC,&H002A312F,&H00686766,-1,0,0,0,90,100,0,0,1,2.5,0,8,10,10,10,1
+Style: OP_JP,Arial,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1.5,0,1,2.5,0,2,10,10,14,1
 Style: OP_LINE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
 Style: JPO,G-OTF Shin maru Go Pro R,56,&H00FFFFFF,&H00FFFFFF,&H002A312F,&H00686766,0,0,0,0,100,100,1.5,0,1,3.4,0,2,10,10,14,128
 Style: JPO_UP,G-OTF Shin maru Go Pro R,54,&H00FFFFFF,&H00FFFFFF,&H002A312F,&H00686766,0,0,0,0,100,100,1.5,0,1,3.4,0,8,10,10,10,128
@@ -40,47 +40,47 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Comment: 0,0:01:55.54,0:01:58.18,STAFF,,0,0,0,,--- DECLARATION ---
 Comment: 0,0:02:08.81,0:02:08.81,OP_JP,,0,0,0,,--- OP_JP ---
-Comment: 1,0:00:21.83,0:00:21.83,OP_JP,,0,0,0,,-----首句尾帧对帧用意------
+Comment: 1,0:00:21.83,0:00:21.83,OP_JP,,0,0,0,,-----------
 Comment: 0,0:22:49.72,0:22:49.72,JPO,,0,0,0,,---　JP　---
-Comment: 0,0:02:00.89,0:02:01.97,JPO,,0,0,0,,OK　いい旅を
-Comment: 0,0:02:01.97,0:02:02.93,JPO,,0,0,0,,OK　いい旅を
+Comment: 0,0:02:00.89,0:02:01.97,JPO,,0,0,0,,OK
+Comment: 0,0:02:01.97,0:02:02.93,JPO,,0,0,0,,OK
 Comment: 0,0:04:02.38,0:04:03.05,JPO,,0,0,0,,What？
-Comment: 0,0:22:43.30,0:22:53.31,PS,,0,0,0,,===补充台词===还有一部分待补充 从10:30开始
+Comment: 0,0:22:43.30,0:22:53.31,PS,,0,0,0,,====== 10:30
 Comment: 0,0:04:49.93,0:04:54.77,CN_UP,,0,0,0,,{\fs30}Earlier this morning, the UN announced that the democratic revolution army,
-Comment: 0,0:04:49.93,0:04:54.77,CN_UP,,0,0,0,,{\fs36}今晨 联合国宣称广泛分布于联合国各处的民主革命军组织
+Comment: 0,0:04:49.93,0:04:54.77,CN_UP,,0,0,0,,{\fs36}
 Comment: 0,0:04:54.89,0:04:59.32,CN_UP,,0,0,0,,{\fs30}an organization based in various parts of Asia, had been subjugated.
-Comment: 0,0:04:54.89,0:04:59.32,CN_UP,,0,0,0,,{\fs36}民主革命军 已被成功压制
+Comment: 0,0:04:54.89,0:04:59.32,CN_UP,,0,0,0,,{\fs36}
 Comment: 0,0:04:59.44,0:05:02.74,CN_UP,,0,0,0,,{\fs30}The Un Chairman Brain Jackson reported that, a young man
-Comment: 0,0:04:59.44,0:05:02.74,CN_UP,,0,0,0,,{\fs36}联合国主席布莱恩·杰克森报告称 一位年轻男性
-Comment: 0,0:05:02.74,0:05:07.32,CN_UP,,0,0,0,,{\fs36}被认为是事件的元凶 成员已全部无伤逮捕
-Comment: 0,0:05:07.66,0:05:11.41,CN_UP,,0,0,0,,{\fs36}今后 我们将继续搜索革命军的残存部队
-Comment: 0,0:00:00.00,0:00:00.00,OP_CN,,0,0,0,,====补充BGM ED====君の文字
-Comment: 0,0:19:56.96,0:20:02.63,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}穏やかに　暮らしたい
-Comment: 0,0:20:02.97,0:20:08.68,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}君となら　出来るはず
-Comment: 0,0:20:08.93,0:20:11.85,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}いや　出来ないかな
-Comment: 0,0:20:11.98,0:20:17.57,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}でも君と　過ごせたら
-Comment: 0,0:20:17.86,0:20:25.07,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}それだけでいいと思う
-Comment: 0,0:20:30.20,0:20:40.05,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}ピントがズレたような
-Comment: 0,0:20:40.71,0:20:49.22,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}二人だった　今もおんなじか
-Comment: 0,0:20:53.39,0:21:03.11,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}悪い奴を　黙らせに行こう
-Comment: 0,0:21:03.74,0:21:12.54,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}そんなことを　繰り返していた
-Comment: 0,0:21:13.62,0:21:19.21,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}無茶なことばかり　あったけど
-Comment: 0,0:21:19.59,0:21:25.43,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}そんなに悪い　思い出じゃない
-Comment: 0,0:21:27.47,0:21:33.31,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}穏やかに暮らしたい
-Comment: 0,0:21:33.35,0:21:39.27,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}君となら出来るはず
-Comment: 0,0:21:39.44,0:21:42.32,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}いや　出来ないかな
-Comment: 0,0:21:42.40,0:21:48.20,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}だが僕の告白は
-Comment: 0,0:21:48.41,0:21:55.54,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}実ること祈ってるよ
-Comment: 0,0:21:57.67,0:22:03.42,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}穏やかな　風が吹く
-Comment: 0,0:22:03.67,0:22:09.51,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}あの果てに　帰れたら
-Comment: 0,0:22:09.59,0:22:15.35,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}そう思うけ　どもう誰か
-Comment: 0,0:22:15.64,0:22:21.56,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}待ってたか　待ってるか
-Comment: 0,0:22:21.65,0:22:24.48,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}忘れてしまう
-Comment: 0,0:22:24.57,0:22:30.57,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}また巡る　ごめんを言う
-Comment: 0,0:22:30.70,0:22:36.50,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}けど君を　思い出せない
-Comment: 0,0:22:36.62,0:22:42.59,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}ただひとつ　わかるのは
-Comment: 0,0:22:42.67,0:22:48.72,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}この文字は　君のものだ
-Comment: 0,0:22:48.72,0:23:39.02,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}ラララララ…
+Comment: 0,0:04:59.44,0:05:02.74,CN_UP,,0,0,0,,{\fs36}·
+Comment: 0,0:05:02.74,0:05:07.32,CN_UP,,0,0,0,,{\fs36}
+Comment: 0,0:05:07.66,0:05:11.41,CN_UP,,0,0,0,,{\fs36}
+Comment: 0,0:00:00.00,0:00:00.00,OP_CN,,0,0,0,,====BGM ED====
+Comment: 0,0:19:56.96,0:20:02.63,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:20:02.97,0:20:08.68,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:20:08.93,0:20:11.85,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:20:11.98,0:20:17.57,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:20:17.86,0:20:25.07,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:20:30.20,0:20:40.05,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:20:40.71,0:20:49.22,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:20:53.39,0:21:03.11,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:03.74,0:21:12.54,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:13.62,0:21:19.21,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:19.59,0:21:25.43,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:27.47,0:21:33.31,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:33.35,0:21:39.27,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:39.44,0:21:42.32,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:42.40,0:21:48.20,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:48.41,0:21:55.54,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:21:57.67,0:22:03.42,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:03.67,0:22:09.51,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:09.59,0:22:15.35,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:15.64,0:22:21.56,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:21.65,0:22:24.48,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:24.57,0:22:30.57,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:30.70,0:22:36.50,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:36.62,0:22:42.59,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:42.67,0:22:48.72,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}
+Comment: 0,0:22:48.72,0:23:39.02,ED_JP,,0,0,0,,{\\an7\blur2\fad(100,200)\pos(60,20)}…
 
 Dialogue: 0,0:00:22.04,0:00:22.75,OP_LINE,,0,0,0,,{\an6\fsp0\3c&H9D5E5D&\bord1.5\blur2\pos(510,690)\fscx0\fscy0\t(\fscx100\fscy100)}———
 Dialogue: 0,0:00:22.12,0:00:22.79,OP_JP,,0,0,0,,{\an2\3c&H9D5E5D&\bord1\b0\blur2\pos(788,716)\fscx0\fscy0\t(\fscx100\fscy400)\c&HF2E3E2&}|

@@ -11,9 +11,9 @@ WrapStyle: 0
 PlayResX: 1280
 PlayResY: 720
 ScaledBorderAndShadow: yes
-Original Script: 诸神字幕组
-Original Translation: 诸神字幕组
-Original Timing: 亢奋的蛇
+Original Script:
+Original Translation:
+Original Timing:
 Collisions: Normal
 Video Aspect Ratio: 0
 Video Zoom: 6
@@ -23,33 +23,33 @@ Last Style Storage: Kyojin-JP-v2
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: OP-CN,方正细倩_GBK,40,&H00FFFFFF,&H000000FF,&H00000000,&H00474747,-1,0,0,0,100,100,0,0,1,0,2,8,10,10,10,1
-Style: OP-JP,方正细倩_GBK,38,&H00FFFFFF,&H000000FF,&H00000000,&H00474747,-1,0,0,0,100,100,0,0,1,0,2,2,10,10,10,1
-Style: JP,EPSON 太明朝体Ｂ,36,&H14FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,20,1
-Style: CN,华文中宋,40,&H14FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,2,0,2,10,10,10,1
+Style: OP-CN,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H00474747,-1,0,0,0,100,100,0,0,1,0,2,8,10,10,10,1
+Style: OP-JP,Arial,38,&H00FFFFFF,&H000000FF,&H00000000,&H00474747,-1,0,0,0,100,100,0,0,1,0,2,2,10,10,10,1
+Style: JP,Arial,36,&H14FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,20,1
+Style: CN,Arial,40,&H14FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,2,0,2,10,10,10,1
 Style: ED-JP,Arphic PRoman-Mincho Ultra JIS,30,&H00E8E8E8,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1.7,0,1,10,10,15,1
-Style: ED-CN,华康俪金黑W8,33,&H00E8E8E8,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,10,10,10,1
-Style: Staff,微软雅黑,44,&HFFFFFFFF,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,15,1
+Style: ED-CN,Arial,33,&H00E8E8E8,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,10,10,10,1
+Style: Staff,Arial,44,&HFFFFFFFF,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,8,10,10,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\\an8\\fs18\\c&H00FFFF&}Қазақ тіліне аударған: ikymory\\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,-----OP-----
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,-----ED-----
-Comment: 0,0:21:49.20,0:21:54.46,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}如果我不是我
-Comment: 0,0:21:54.46,0:21:59.42,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}你还能够说是你吗
-Comment: 0,0:21:59.42,0:22:04.72,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}崩坏的砂器散落一地
-Comment: 0,0:22:04.84,0:22:10.06,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}破碎的心能否重新拾起
-Comment: 0,0:22:10.06,0:22:19.19,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}何人的呼唤 幻化为耳鸣
-Comment: 0,0:22:19.19,0:22:24.16,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}时间似乎静止
-Comment: 0,0:22:24.28,0:22:27.20,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}啊 觉醒吧
-Comment: 0,0:21:49.20,0:21:54.46,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}例えばオレがオレじゃないとして
-Comment: 0,0:21:54.46,0:21:59.42,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}お前はお前だと言い切れるのか
-Comment: 0,0:21:59.42,0:22:04.72,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}砂の器を壊してこぼれた
-Comment: 0,0:22:04.84,0:22:10.06,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}心を拾って集められるか
-Comment: 0,0:22:10.06,0:22:19.19,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}誰かの呼ぶ声が 耳鳴りに変わった
-Comment: 0,0:22:19.19,0:22:24.16,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}時が止まったみたいだ
-Comment: 0,0:22:24.28,0:22:27.20,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}さぁ 目を覚ませ
+Comment: 0,0:21:49.20,0:21:54.46,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:21:54.46,0:21:59.42,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:21:59.42,0:22:04.72,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:04.84,0:22:10.06,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:10.06,0:22:19.19,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:19.19,0:22:24.16,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:24.28,0:22:27.20,ED-CN,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:21:49.20,0:21:54.46,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:21:54.46,0:21:59.42,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:21:59.42,0:22:04.72,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:04.84,0:22:10.06,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:10.06,0:22:19.19,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:19.19,0:22:24.16,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}
+Comment: 0,0:22:24.28,0:22:27.20,ED-JP,,0000,0000,0000,,{\fad(300,300)\blur2}
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,-----STAFF-----
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,-----TEXT-----
 
