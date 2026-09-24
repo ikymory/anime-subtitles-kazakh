@@ -30,6 +30,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
+  <!-- Highlight.js for Real IDE Syntax Highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
   <style>
     body {
       background-color: #08090d;
@@ -51,9 +55,24 @@
     ::-webkit-scrollbar-thumb:hover {
       background: #252d3d;
     }
-    pre code {
-      font-family: 'JetBrains Mono', monospace;
+    pre code, pre code.hljs {
+      font-family: 'JetBrains Mono', monospace !important;
+      font-size: 0.8125rem !important; /* 13px */
+      line-height: 1.65 !important;
+      background: transparent !important;
+      padding: 0 !important;
     }
+    .hljs {
+      background: transparent !important;
+      color: #abb2bf !important;
+    }
+    .hljs-keyword { color: #c678dd !important; }
+    .hljs-string { color: #98c379 !important; }
+    .hljs-number, .hljs-attr { color: #d19a66 !important; }
+    .hljs-title, .hljs-symbol, .hljs-function { color: #61aeee !important; }
+    .hljs-built_in, .hljs-type { color: #e6c07b !important; }
+    .hljs-comment { color: #5c6370 !important; font-style: italic !important; }
+    .hljs-tag, .hljs-name { color: #e06c75 !important; }
   </style>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-white/20 selection:text-white">
@@ -171,10 +190,24 @@
           Барлық 500 аниме франшизасының толық тізімін қайтарады: slug, қазақша, ағылшынша, жапонша атаулары, бөлім сандары, жанрлары, мұқаба суреттері (AniList HD).
         </p>
         
-        <!-- Code snippet preview -->
-        <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
-          <div class="text-slate-500 pb-2">// Response JSON (Sample)</div>
-<pre><code>{
+        <!-- Code snippet preview (Colored JSON) -->
+        <div class="rounded-xl bg-[#050609] border border-white/[0.08] overflow-hidden shadow-2xl">
+          <div class="flex items-center justify-between px-4 py-2 border-b border-white/[0.06] bg-[#090b10] text-[11px] font-mono">
+            <div class="flex items-center space-x-2">
+              <span class="flex space-x-1.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-white/10"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-white/10"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-white/10"></span>
+              </span>
+              <span class="text-slate-400 pl-1.5">anime.json</span>
+            </div>
+            <button onclick="copySnippet('snippet-json')" class="text-slate-400 hover:text-white transition flex items-center space-x-1 cursor-pointer">
+              <i class="far fa-copy text-[10px]"></i>
+              <span>Көшіру</span>
+            </button>
+          </div>
+          <div class="p-4 overflow-x-auto text-xs font-mono">
+<pre id="snippet-json"><code class="language-json">{
   "version": "1.0.0",
   "total": 500,
   "language": "kk",
@@ -193,12 +226,17 @@
       "episodes": 28,
       "translated_episodes_count": 28,
       "averageScore": 95,
-      "genres": ["Adventure", "Drama", "Fantasy"],
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
       "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-n2bLJD2uhTrU.jpg",
       "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-s2yZ9tl8g4Yn.jpg"
     }
   ]
 }</code></pre>
+          </div>
         </div>
       </div>
 
@@ -256,7 +294,7 @@
             <i class="fas fa-video text-slate-300 text-xs"></i>
             <span>1. Стандартты HTML5 &lt;video&gt; және WebVTT (.vtt) қолдану</span>
           </h3>
-          <button onclick="copySnippet('snippet-html5')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
+          <button onclick="copySnippet('snippet-html5')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1 cursor-pointer">
             <i class="far fa-copy text-[10px]"></i>
             <span>Код көшіру</span>
           </button>
@@ -264,8 +302,13 @@
         <p id="tabHtml5Desc" class="text-xs text-slate-400">
           Кез келген видео ойнатқышқа <code>&lt;track&gt;</code> тегі арқылы қазақ тіліндегі WebVTT субтитрін қосыңыз:
         </p>
-        <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
-<pre id="snippet-html5"><code>&lt;video controls crossorigin="anonymous" width="100%" poster="poster.jpg"&gt;
+        <div class="rounded-xl bg-[#050609] border border-white/[0.08] overflow-hidden shadow-2xl">
+          <div class="flex items-center justify-between px-4 py-2 border-b border-white/[0.06] bg-[#090b10] text-[11px] font-mono text-slate-400">
+            <span>player.html</span>
+            <span class="text-[10px] text-slate-500 uppercase">HTML</span>
+          </div>
+          <div class="p-4 overflow-x-auto text-xs font-mono">
+<pre id="snippet-html5"><code class="language-xml">&lt;video controls crossorigin="anonymous" width="100%" poster="poster.jpg"&gt;
   &lt;source src="https://your-legal-stream.com/frieren-ep1.mp4" type="video/mp4"&gt;
   
   &lt;!-- Қазақша субтитр (CDN арқылы автоматты түрде қосылады) --&gt;
@@ -276,6 +319,7 @@
     src="https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.vtt" 
     default&gt;
 &lt;/video&gt;</code></pre>
+          </div>
         </div>
       </div>
 
@@ -286,13 +330,18 @@
             <i class="fas fa-code text-slate-300 text-xs"></i>
             <span>2. JavaScript / TypeScript арқылы динамикалық іздеу және жүктеу</span>
           </h3>
-          <button onclick="copySnippet('snippet-js')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
+          <button onclick="copySnippet('snippet-js')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1 cursor-pointer">
             <i class="far fa-copy text-[10px]"></i>
             <span>Код көшіру</span>
           </button>
         </div>
-        <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
-<pre id="snippet-js"><code>// 1. Барлық каталогты жүктеу
+        <div class="rounded-xl bg-[#050609] border border-white/[0.08] overflow-hidden shadow-2xl">
+          <div class="flex items-center justify-between px-4 py-2 border-b border-white/[0.06] bg-[#090b10] text-[11px] font-mono text-slate-400">
+            <span>subtitles.js</span>
+            <span class="text-[10px] text-slate-500 uppercase">JavaScript</span>
+          </div>
+          <div class="p-4 overflow-x-auto text-xs font-mono">
+<pre id="snippet-js"><code class="language-javascript">// 1. Барлық каталогты жүктеу
 async function fetchKazakhAnimeCatalog() {
   const res = await fetch('https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json');
   const { data } = await res.json();
@@ -310,6 +359,7 @@ fetchKazakhAnimeCatalog().then(animes => {
   console.log('Табылған аниме:', frieren.title.kazakh);
   console.log('1-бөлім субтитрі:', getSubtitleUrl('frieren', 1, 'vtt'));
 });</code></pre>
+          </div>
         </div>
       </div>
     </section>
@@ -330,15 +380,21 @@ fetchKazakhAnimeCatalog().then(animes => {
         
         <!-- MPV & VLC Desktop -->
         <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3">
-          <h3 class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
-            <i class="fas fa-desktop text-slate-300 text-xs"></i>
-            <span>MPV және VLC Media Player (Компьютер)</span>
-          </h3>
+          <div class="flex items-center justify-between">
+            <h3 class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
+              <i class="fas fa-desktop text-slate-300 text-xs"></i>
+              <span>MPV және VLC Media Player (Компьютер)</span>
+            </h3>
+            <button onclick="copySnippet('snippet-mpv')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1 cursor-pointer">
+              <i class="far fa-copy text-[10px]"></i>
+              <span>Көшіру</span>
+            </button>
+          </div>
           <p id="playerDescMpv" class="text-xs text-slate-400 leading-relaxed">
             MPV ойнатқышында субтитр сілтемесін тікелей терминал арқылы іске қосуға болады:
           </p>
-          <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-3 text-xs font-mono text-slate-300 overflow-x-auto">
-            <code>mpv video.mp4 --sub-file="https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.ass"</code>
+          <div class="rounded-xl bg-[#050609] border border-white/[0.08] p-3 text-xs font-mono overflow-x-auto">
+            <pre id="snippet-mpv"><code class="language-bash">mpv video.mp4 --sub-file="https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.ass"</code></pre>
           </div>
           <p id="playerDescVlc" class="text-[11px] text-slate-500">
             VLC: Видеоны ашып, <em>Субтитры &rarr; Добавить файл субтитров...</em> басып, жүктелген .srt немесе .ass файлын таңдаңыз.
@@ -347,15 +403,26 @@ fetchKazakhAnimeCatalog().then(animes => {
 
         <!-- Android ExoPlayer -->
         <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3">
-          <h3 class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
-            <i class="fas fa-mobile-screen text-slate-300 text-xs"></i>
-            <span>Android (Media3 / ExoPlayer)</span>
-          </h3>
+          <div class="flex items-center justify-between">
+            <h3 class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
+              <i class="fas fa-mobile-screen text-slate-300 text-xs"></i>
+              <span>Android (Media3 / ExoPlayer)</span>
+            </h3>
+            <button onclick="copySnippet('snippet-android')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1 cursor-pointer">
+              <i class="far fa-copy text-[10px]"></i>
+              <span>Көшіру</span>
+            </button>
+          </div>
           <p id="playerDescAndroid" class="text-xs text-slate-400 leading-relaxed">
             Android қосымшаларында MediaItem құру кезінде SubtitleConfiguration қосу:
           </p>
-          <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-3 text-xs font-mono text-slate-300 overflow-x-auto">
-<pre><code>val subtitleConfig = MediaItem.SubtitleConfiguration.Builder(
+          <div class="rounded-xl bg-[#050609] border border-white/[0.08] overflow-hidden">
+            <div class="flex items-center justify-between px-4 py-2 border-b border-white/[0.06] bg-[#090b10] text-[11px] font-mono text-slate-400">
+              <span>PlayerActivity.kt</span>
+              <span class="text-[10px] text-slate-500 uppercase">Kotlin</span>
+            </div>
+            <div class="p-3 text-xs font-mono overflow-x-auto">
+<pre id="snippet-android"><code class="language-kotlin">val subtitleConfig = MediaItem.SubtitleConfiguration.Builder(
     Uri.parse("https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.vtt")
 )
 .setMimeType(MimeTypes.TEXT_VTT)
@@ -363,6 +430,7 @@ fetchKazakhAnimeCatalog().then(animes => {
 .setLabel("Қазақша")
 .setSelectionFlags(C.SELECTION_FLAG_DEFAULT)
 .build()</code></pre>
+            </div>
           </div>
         </div>
 
@@ -385,26 +453,35 @@ fetchKazakhAnimeCatalog().then(animes => {
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           
           <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-2">
-            <div class="text-xs font-semibold text-white font-mono">01 / КЛОНДАУ</div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold text-white font-mono">01 / КЛОНДАУ</span>
+              <button onclick="copySnippet('snippet-clone')" class="text-slate-400 hover:text-white transition cursor-pointer" title="Көшіру"><i class="far fa-copy text-xs"></i></button>
+            </div>
             <p id="step1Desc" class="text-xs text-slate-400">Толық 41,377 субтитр файлдарын және API JSON файлдарын компьютеріңізге көшіріп алыңыз:</p>
-            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono text-slate-300 overflow-x-auto">
-              <code>git clone https://github.com/ikymory/anime-subtitles-kazakh.git</code>
+            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono overflow-x-auto">
+              <pre id="snippet-clone"><code class="language-bash">git clone https://github.com/ikymory/anime-subtitles-kazakh.git</code></pre>
             </div>
           </div>
 
           <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-2">
-            <div class="text-xs font-semibold text-white font-mono">02 / ЖЕРГІЛІКТІ СЕРВЕР</div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold text-white font-mono">02 / ЖЕРГІЛІКТІ СЕРВЕР</span>
+              <button onclick="copySnippet('snippet-serve')" class="text-slate-400 hover:text-white transition cursor-pointer" title="Көшіру"><i class="far fa-copy text-xs"></i></button>
+            </div>
             <p id="step2Desc" class="text-xs text-slate-400">Python арқылы 1 жолмен жеке жергілікті API серверіңізді көтеріңіз:</p>
-            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono text-slate-300 overflow-x-auto">
-              <code>python -m http.server 8000 --directory dist</code>
+            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono overflow-x-auto">
+              <pre id="snippet-serve"><code class="language-bash">python -m http.server 8000 --directory dist</code></pre>
             </div>
           </div>
 
           <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-2">
-            <div class="text-xs font-semibold text-white font-mono">03 / ЛОКАЛДЫ ҚОСЫЛУ</div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold text-white font-mono">03 / ЛОКАЛДЫ ҚОСЫЛУ</span>
+              <button onclick="copySnippet('snippet-localurl')" class="text-slate-400 hover:text-white transition cursor-pointer" title="Көшіру"><i class="far fa-copy text-xs"></i></button>
+            </div>
             <p id="step3Desc" class="text-xs text-slate-400">Енді локалды IP арқылы кез келген қосымшаңызға қоса аласыз:</p>
-            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono text-slate-300 overflow-x-auto">
-              <code>http://localhost:8000/api/v1/anime.json</code>
+            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono overflow-x-auto">
+              <pre id="snippet-localurl"><code class="language-bash">http://localhost:8000/api/v1/anime.json</code></pre>
             </div>
           </div>
 
@@ -419,7 +496,7 @@ fetchKazakhAnimeCatalog().then(animes => {
           <i class="fab fa-python text-slate-300 text-sm"></i>
           <span>Python арқылы Лингвистикалық сараптама және Деректерді жүктеу</span>
         </h2>
-        <button onclick="copySnippet('snippet-python')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
+        <button onclick="copySnippet('snippet-python')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1 cursor-pointer">
           <i class="far fa-copy text-[10px]"></i>
           <span>Код көшіру</span>
         </button>
@@ -427,8 +504,13 @@ fetchKazakhAnimeCatalog().then(animes => {
       <p id="nlpSectionDesc" class="text-xs text-slate-400">
         Ғалымдар, зерттеушілер және дата-инженерлер қазақ тіліндегі бейнеаударма корпусын зерттеу үшін мына скриптті тікелей қолдана алады:
       </p>
-      <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
-<pre id="snippet-python"><code>import urllib.request
+      <div class="rounded-xl bg-[#050609] border border-white/[0.08] overflow-hidden shadow-2xl">
+        <div class="flex items-center justify-between px-4 py-2 border-b border-white/[0.06] bg-[#090b10] text-[11px] font-mono text-slate-400">
+          <span>dataset_pipeline.py</span>
+          <span class="text-[10px] text-slate-500 uppercase">Python</span>
+        </div>
+        <div class="p-4 overflow-x-auto text-xs font-mono">
+<pre id="snippet-python"><code class="language-python">import urllib.request
 import json
 
 # 1. Каталогты жүктеу
@@ -447,6 +529,7 @@ print(f"Фэнтези анимелер саны: {len(fantasy_animes)}")
 sample = fantasy_animes[0]
 sub_url = f"https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/{sample['slug']}/{sample['slug']}-1ep.srt"
 print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)</code></pre>
+        </div>
       </div>
     </section>
 
@@ -604,7 +687,8 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
     function copySnippet(id) {
       const el = document.getElementById(id);
       if (el) {
-        navigator.clipboard.writeText(el.innerText).then(() => {
+        const text = el.innerText || el.textContent;
+        navigator.clipboard.writeText(text.trim()).then(() => {
           showToast(apiI18n[currentLang].copied);
         });
       }
@@ -619,6 +703,11 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
         toast.classList.remove('translate-y-0', 'opacity-100');
         toast.classList.add('translate-y-16', 'opacity-0');
       }, 2000);
+    }
+
+    // Trigger syntax highlighting
+    if (window.hljs) {
+      hljs.highlightAll();
     }
 
     // Init language
