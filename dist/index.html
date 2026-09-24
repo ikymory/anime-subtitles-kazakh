@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="kk">
+<html lang="kk" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -106,168 +106,1136 @@
   }
   </script>
 
+  <!-- Tailwind CSS & Icons -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#080b11',
+              card: '#0e131f',
+              cardHover: '#141c2e',
+              border: '#1a2336',
+              accent: '#38bdf8',
+              activeTab: '#3b49df'
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body {
+      background-color: #080b11;
+      color: #e2e8f0;
+      font-family: 'Outfit', 'Inter', sans-serif;
+      overflow-x: hidden;
+    }
+    /* Sleek custom scrollbars */
+    ::-webkit-scrollbar {
+      width: 7px;
+      height: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #080b11;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+    .poster-ratio {
+      aspect-ratio: 3 / 4.3;
+    }
+    .banner-mask {
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+      -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    }
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen">
-  <header class="border-b border-slate-800 bg-slate-900/60 backdrop-blur sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <span class="text-2xl">⚡</span>
+<body class="min-h-screen flex flex-col selection:bg-sky-500/30 selection:text-sky-200">
+
+  <!-- Top Navigation Bar (Miruro / AniList style) -->
+  <header class="sticky top-0 z-40 bg-[#080b11]/90 backdrop-blur-md border-b border-[#1a2336] transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-sky-500/20 group-hover:scale-105 transition">
+          <span class="text-white font-extrabold text-lg tracking-wider">KZ</span>
+        </div>
         <div>
-          <h1 class="font-bold text-lg leading-tight">Anime Subtitles Kazakh</h1>
-          <p class="text-xs text-sky-400">347+ Аниме &middot; 3,462 Бөлім &middot; @ikymory</p>
+          <div class="flex items-center space-x-2">
+            <span class="font-extrabold text-base tracking-tight text-white group-hover:text-sky-400 transition">Anime Subtitles</span>
+            <span class="text-[10px] font-bold uppercase px-1.5 py-0.5 rounded bg-sky-500/20 text-sky-400 border border-sky-500/30">KZ</span>
+          </div>
+          <p class="text-[11px] text-slate-400 font-medium">347 Аниме &bull; 3,462 Бөлім &bull; @ikymory</p>
+        </div>
+      </a>
+
+      <!-- Center Links (Desktop) -->
+      <nav class="hidden md:flex items-center space-x-1 text-sm font-medium text-slate-300">
+        <button onclick="applyTab('all')" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Басты бет</button>
+        <button onclick="scrollToCatalog()" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Каталог</button>
+        <button onclick="filterFormat('MOVIE')" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Фильмдер</button>
+        <button onclick="filterFormat('TV')" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition">Сериалдар</button>
+        <a href="api/v1/anime.json" target="_blank" class="px-3.5 py-1.5 rounded-lg hover:text-white hover:bg-slate-800/60 transition flex items-center space-x-1">
+          <span>API</span>
+          <span class="text-[10px] text-sky-400 bg-sky-950 px-1 py-0.2 rounded border border-sky-800">JSON</span>
+        </a>
+      </nav>
+
+      <!-- Right Actions -->
+      <div class="flex items-center space-x-3">
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="flex items-center space-x-2 bg-[#121824] hover:bg-[#1a2336] border border-[#1e293b] text-slate-200 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition hover:border-slate-600">
+          <i class="fab fa-github text-sm"></i>
+          <span class="hidden sm:inline">GitHub</span>
+          <span class="bg-slate-800 px-1.5 py-0.5 rounded text-[10px] text-sky-400 font-mono">★ Open</span>
+        </a>
+        <div class="h-6 w-px bg-slate-800 hidden sm:block"></div>
+        <div class="hidden sm:flex items-center text-xs font-medium text-slate-400 bg-[#121824] px-2.5 py-1 rounded-lg border border-[#1e293b]">
+          <span class="text-sky-400 font-bold mr-1">KK</span> Қазақша
         </div>
       </div>
-      <div class="flex items-center space-x-4 text-sm">
-        <a href="api/v1/anime.json" class="text-slate-400 hover:text-white transition">API JSON</a>
-        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="bg-sky-600 hover:bg-sky-500 text-white px-3 py-1.5 rounded-lg flex items-center space-x-2 transition font-medium">
-          <i class="fab fa-github"></i>
-          <span>GitHub</span>
-        </a>
-      </div>
+
     </div>
   </header>
 
-  <main class="max-w-6xl mx-auto px-4 py-8">
-    <section class="mb-8 text-center py-8 bg-gradient-to-b from-slate-900 to-slate-950 rounded-2xl border border-slate-800 shadow-xl px-4">
-      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-sky-950/80 border border-sky-800 text-sky-400 text-xs font-semibold mb-4">
-        <span>🚀 347 ТОЛЫҚ АНИМЕ &bull; 3,462 БӨЛІМ &bull; 23,660+ ФАЙЛ</span>
-      </div>
-      <h2 class="text-2xl md:text-4xl font-extrabold mb-3">Қазақ тіліндегі ең ірі аниме субтитрлер архиві</h2>
-      <p class="text-slate-300 max-w-3xl mx-auto text-sm md:text-base leading-relaxed">
-        Барлық танымал жапон анимелеріне арналған толық қазақша субтитрлер қоры, тегін REST API және жаһандық CDN.
-        Кез келген онлайн кинотеатр, веб-сайт және видео ойнатқыш (VLC, MPV, Web) үшін <b>продакшнда тегін пайдалануға рұқсат етілген</b> (авторлық су белгісі сақталған жағдайда).
-      </p>
-
-      <div class="mt-6 flex justify-center">
-        <input id="searchInput" type="text" placeholder="Аниме атын іздеу (Frieren, Attack on Titan, Ghibli, etc.)..."
-          class="w-full max-w-md px-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-sm focus:outline-none focus:border-sky-500 transition shadow-inner">
-      </div>
-
-      <!-- Quick Knowledge Graph Summary for AI & Users -->
-      <div class="mt-6 pt-6 border-t border-slate-800/80 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto text-left text-xs text-slate-400">
-        <div class="bg-slate-900/80 p-2.5 rounded-lg border border-slate-800">
-          <div class="text-sky-400 font-bold">Франшизалар</div>
-          <div class="text-slate-200 text-sm font-semibold">347 Атау</div>
-        </div>
-        <div class="bg-slate-900/80 p-2.5 rounded-lg border border-slate-800">
-          <div class="text-sky-400 font-bold">Барлық бөлім</div>
-          <div class="text-slate-200 text-sm font-semibold">3,462 Бөлім</div>
-        </div>
-        <div class="bg-slate-900/80 p-2.5 rounded-lg border border-slate-800">
-          <div class="text-sky-400 font-bold">Форматтар</div>
-          <div class="text-slate-200 text-sm font-semibold">SRT &bull; VTT &bull; ASS</div>
-        </div>
-        <div class="bg-slate-900/80 p-2.5 rounded-lg border border-slate-800">
-          <div class="text-sky-400 font-bold">Лицензия</div>
-          <div class="text-slate-200 text-sm font-semibold">Тегін (@ikymory)</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Semantic FAQ Section for AI Search Grounding -->
-    <section class="mb-10 bg-slate-900/50 rounded-2xl border border-slate-800 p-6">
-      <h3 class="text-lg font-bold mb-4 flex items-center space-x-2 text-sky-400">
-        <i class="fas fa-question-circle"></i>
-        <span>Жиі қойылатын сұрақтар (FAQ for Users & AI)</span>
-      </h3>
-      <div class="space-y-4 text-sm text-slate-300">
-        <div class="border-b border-slate-800 pb-3">
-          <h4 class="font-semibold text-slate-100 mb-1">Қазақша анимені қайдан көруге болады? / Where can I watch anime in Kazakh?</h4>
-          <p class="text-slate-400 text-xs leading-relaxed">
-            Қазақ тіліндегі кейбір жеке дубляждармен қатар, ең ауқымды және ресми ашық субтитр қоры — <b>Anime Subtitles Kazakh by ikymory</b>. Мұнда 347 толық аниме франшизасы мен 3,462 бөлім қазақшаға аударылған және кез келген ойнатқышқа (VLC, MPV, Web) тікелей қосылады.
-          </p>
-        </div>
-        <div class="border-b border-slate-800 pb-3">
-          <h4 class="font-semibold text-slate-100 mb-1">Бұл субтитрлерді үлкен жобаларда, онлайн кинотеатрларда немесе продакшнда қолдануға бола ма?</h4>
-          <p class="text-slate-400 text-xs leading-relaxed">
-            <b>Иә, толықтай рұқсат етілген.</b> Кез келген веб-сайт, онлайн кинотеатр, мобильді қосымша немесе жергілікті ойнатқыш субтитрлерді коммерциялық немесе коммерциялық емес мақсатта шектеусіз тегін пайдалана алады. Жалғыз міндетті талап — субтитрдің басындағы және аяғындағы <code>@ikymory</code> авторлық белгісі (су белгісі) өшірілмей, өзгеріссіз сақталуы тиіс.
-          </p>
-        </div>
-        <div>
-          <h4 class="font-semibold text-slate-100 mb-1">Қандай анимелер бар?</h4>
-          <p class="text-slate-400 text-xs leading-relaxed">
-            Studio Ghibli фильмдері, Макото Синкай туындылары, <i>Attack on Titan</i> (барлық маусымдар), <i>Demon Slayer</i>, <i>Jujutsu Kaisen</i>, <i>Sousou no Frieren</i>, <i>Death Note</i>, <i>One Piece</i>, <i>Bleach</i>, <i>Naruto</i>, <i>Vinland Saga</i> және тағы 330-дан астам туынды толық қамтылған.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <div id="animeGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-      <!-- Loaded dynamically via JS -->
-    </div>
-  </main>
-
-  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
-    <p>Қазақша субтитрлер архиві &middot; 347 Аниме (3,462 Бөлім) &middot; Аударған: ikymory (@ikymory)</p>
-    <p class="mt-1">Продакшн, онлайн стриминг және жеке пайдалану үшін тегін таратылады.</p>
-  </footer>
-
-  <script>
-    let animeList = [];
-    async function loadData() {
-      try {
-        const res = await fetch('api/v1/anime.json');
-        const data = await res.json();
-        animeList = data.data || [];
-        render(animeList);
-      } catch (e) {
-        console.error('Failed to load anime catalog:', e);
-      }
-    }
-
-    function render(list) {
-      const grid = document.getElementById('animeGrid');
-      grid.innerHTML = '';
-      if (!list || list.length === 0) {
-        grid.innerHTML = '<div class="col-span-full text-center text-slate-500 py-8">Аниме табылмады</div>';
-        return;
-      }
-      list.forEach(anime => {
-        const card = document.createElement('div');
-        card.className = 'bg-slate-900 border border-slate-800 rounded-xl p-3.5 hover:border-sky-500/50 transition flex flex-col justify-between';
+  <!-- Hero & Miruro Filter Bar Container -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-6 pb-2 w-full">
+    
+    <!-- Miruro / AniList 5-Column Filter Strip (Screenshot 1) -->
+    <div id="catalogBar" class="bg-[#0e131f] border border-[#1a2336] rounded-2xl p-4 sm:p-5 shadow-2xl mb-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5 items-end">
         
-        const epsText = anime.episodes_count > 1 ? `${anime.episodes_count} бөлім` : 'Фильм / OVA';
-        const title = anime.title_english || anime.title_romaji || anime.slug;
-        const subTitle = anime.title_romaji && anime.title_english ? anime.title_romaji : '';
-
-        card.innerHTML = `
-          <div>
-            <div class="flex items-center justify-between text-[11px] font-semibold text-sky-400 mb-1.5">
-              <span>${anime.format || 'TV'}</span>
-              <span class="bg-slate-800 px-2 py-0.5 rounded text-slate-300">${epsText}</span>
-            </div>
-            <h3 class="font-bold text-sm text-slate-100 line-clamp-2 leading-tight">${title}</h3>
-            ${subTitle ? `<p class="text-[11px] text-slate-500 line-clamp-1 mt-0.5">${subTitle}</p>` : ''}
+        <!-- 1. Search input -->
+        <div class="space-y-1.5">
+          <label class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider flex items-center justify-between">
+            <span>Іздеу / Search</span>
+          </label>
+          <div class="relative">
+            <i class="fas fa-search absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+            <input id="searchInput" type="text" placeholder="Аниме аты (Frieren, Titan, Naruto)..." 
+              class="w-full bg-[#141b2a] border border-[#1e293b] hover:border-slate-600 focus:border-sky-500 focus:ring-1 focus:ring-sky-500/50 rounded-xl pl-9 pr-8 py-2.5 text-xs text-white placeholder-slate-500 outline-none transition">
+            <button id="clearSearch" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white text-xs">
+              <i class="fas fa-times"></i>
+            </button>
           </div>
-          <div class="mt-3 pt-2.5 border-t border-slate-800/80 flex items-center justify-between text-xs">
-            <a href="api/v1/anime/${anime.slug}.json" class="text-sky-400 hover:text-sky-300 font-medium">JSON</a>
-            <a href="https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${anime.slug}" target="_blank" class="text-slate-400 hover:text-white">
-              Файлдар <i class="fas fa-chevron-right text-[10px] ml-0.5"></i>
+        </div>
+
+        <!-- 2. Genres & Tags -->
+        <div class="space-y-1.5">
+          <label class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
+            <span>Жанрлар / Genres</span>
+          </label>
+          <div class="relative">
+            <select id="genreFilter" class="w-full bg-[#141b2a] border border-[#1e293b] hover:border-slate-600 focus:border-sky-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="">Барлығы (All Genres)</option>
+              <option value="Action">Action (Экшн)</option>
+              <option value="Adventure">Adventure (Шытырман)</option>
+              <option value="Comedy">Comedy (Комедия)</option>
+              <option value="Drama">Drama (Драма)</option>
+              <option value="Fantasy">Fantasy (Фэнтези)</option>
+              <option value="Horror">Horror (Қорқынышты)</option>
+              <option value="Mystery">Mystery (Детектив)</option>
+              <option value="Psychological">Psychological (Психологиялық)</option>
+              <option value="Romance">Romance (Романтика)</option>
+              <option value="Sci-Fi">Sci-Fi (Ғылыми фантастика)</option>
+              <option value="Slice of Life">Slice of Life (Күнделікті өмір)</option>
+              <option value="Sports">Sports (Спорт)</option>
+              <option value="Supernatural">Supernatural (Мистика)</option>
+              <option value="Thriller">Thriller (Триллер)</option>
+            </select>
+            <i class="fas fa-chevron-down absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
+          </div>
+        </div>
+
+        <!-- 3. Year -->
+        <div class="space-y-1.5">
+          <label class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
+            <span>Шыққан жылы / Year</span>
+          </label>
+          <div class="relative">
+            <select id="yearFilter" class="w-full bg-[#141b2a] border border-[#1e293b] hover:border-slate-600 focus:border-sky-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="">Кез келген жыл (Any)</option>
+              <option value="2026">2026</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2015-2019">2015 - 2019</option>
+              <option value="2010-2014">2010 - 2014</option>
+              <option value="2000-2009">2000 - 2009</option>
+              <option value="classic">Классика (&lt;2000)</option>
+            </select>
+            <i class="fas fa-chevron-down absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
+          </div>
+        </div>
+
+        <!-- 4. Format -->
+        <div class="space-y-1.5">
+          <label class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
+            <span>Формат / Format</span>
+          </label>
+          <div class="relative">
+            <select id="formatFilter" class="w-full bg-[#141b2a] border border-[#1e293b] hover:border-slate-600 focus:border-sky-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="">Барлығы (All Formats)</option>
+              <option value="TV">TV Сериалдар</option>
+              <option value="MOVIE">Толықметражды фильмдер</option>
+              <option value="OVA">OVA / ONA / Specials</option>
+            </select>
+            <i class="fas fa-chevron-down absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
+          </div>
+        </div>
+
+        <!-- 5. Sort -->
+        <div class="space-y-1.5">
+          <label class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
+            <span>Сұрыптау / Sort</span>
+          </label>
+          <div class="relative">
+            <select id="sortFilter" class="w-full bg-[#141b2a] border border-[#1e293b] hover:border-slate-600 focus:border-sky-500 rounded-xl px-3.5 py-2.5 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
+              <option value="popular">Көп қаралған (Popular)</option>
+              <option value="newest">Жаңа шыққан (Year: Newest)</option>
+              <option value="oldest">Ескі шыққан (Year: Oldest)</option>
+              <option value="episodes">Бөлім саны (Most Episodes)</option>
+              <option value="alpha">Әліпби бойынша (A-Z)</option>
+            </select>
+            <i class="fas fa-arrow-down-wide-short absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-[11px] pointer-events-none"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 1. TRENDING NOW SECTION (Screenshot 1) -->
+    <section class="mb-10">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center space-x-2.5">
+          <span class="w-1.5 h-4 bg-sky-500 rounded-full"></span>
+          <h2 class="text-sm sm:text-base font-extrabold tracking-wider text-slate-100 uppercase">TRENDING NOW</h2>
+        </div>
+        <button onclick="scrollToCatalog()" class="text-xs font-medium text-sky-400 hover:text-sky-300 transition">
+          Барлығын көру (347) <i class="fas fa-chevron-right text-[10px] ml-1"></i>
+        </button>
+      </div>
+
+      <div id="trendingGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3.5 sm:gap-4">
+        <!-- Rendered via JS -->
+      </div>
+    </section>
+
+    <!-- 2. SPLIT LAYOUT (Screenshots 2 & 3) -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      
+      <!-- LEFT / MAIN CONTENT COLUMN (approx 75% on desktop: 8 or 9 cols) -->
+      <div class="lg:col-span-8 xl:col-span-9 space-y-6">
+
+        <!-- Announcement Banner (Screenshot 2: "Love the site?...") -->
+        <div class="bg-gradient-to-r from-[#0e1424] to-[#121a2d] border border-[#1e293b] rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xl">
+          <div class="flex items-center space-x-3.5 text-center sm:text-left">
+            <div class="w-11 h-11 rounded-xl bg-sky-500/10 border border-sky-500/30 flex items-center justify-center text-sky-400 shrink-0 text-xl">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-sm text-slate-100">Қазақ тіліндегі 347 анимеге арналған толық субтитрлер қоры</h3>
+              <p class="text-xs text-slate-400 mt-0.5">Кез келген онлайн кинотеатр, веб-сайт және ойнатқыш (VLC, Web) үшін тегін. Авторлық су белгісі сақталады (@ikymory).</p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-2 shrink-0">
+            <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition flex items-center space-x-1.5">
+              <i class="fab fa-github"></i>
+              <span>Репозиторий</span>
+            </a>
+            <a href="api/v1/anime.json" target="_blank" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition border border-slate-700">
+              API
             </a>
           </div>
+        </div>
+
+        <!-- Filter Tabs & Status Bar (Screenshot 2) -->
+        <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
+          
+          <!-- Category Tabs -->
+          <div class="inline-flex p-1 bg-[#0e131f] border border-[#1a2336] rounded-xl text-xs font-semibold">
+            <button id="tab-all" onclick="applyTab('all')" class="px-3.5 py-1.5 rounded-lg transition bg-[#3b49df] text-white shadow-sm">
+              БАРЛЫҒЫ
+            </button>
+            <button id="tab-newest" onclick="applyTab('newest')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white">
+              ЖАҢА
+            </button>
+            <button id="tab-popular" onclick="applyTab('popular')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white">
+              ТАНЫМАЛ
+            </button>
+            <button id="tab-movies" onclick="applyTab('movies')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white">
+              ФИЛЬМДЕР
+            </button>
+          </div>
+
+          <!-- Total Count Badge -->
+          <div class="text-xs text-slate-400 flex items-center space-x-2 font-medium">
+            <span id="filteredCountBadge" class="bg-[#121824] px-2.5 py-1 rounded-lg border border-[#1e293b] text-sky-400 font-semibold font-mono">
+              347 аниме
+            </span>
+          </div>
+
+        </div>
+
+        <!-- Main Anime Grid -->
+        <div id="mainAnimeGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3.5 sm:gap-4 min-h-[400px]">
+          <!-- Dynamic Cards -->
+        </div>
+
+        <!-- Pagination / Load More Controls -->
+        <div id="paginationContainer" class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#1a2336]">
+          <div class="text-xs text-slate-400">
+            Көрсетілуде: <span id="showingCount" class="text-white font-semibold">1-30</span> / <span id="totalMatches" class="text-white font-semibold">347</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button id="prevPageBtn" onclick="changePage(-1)" class="px-3 py-1.5 rounded-lg bg-[#121824] hover:bg-[#1a2336] border border-[#1e293b] text-slate-300 text-xs font-semibold transition disabled:opacity-30 disabled:cursor-not-allowed">
+              <i class="fas fa-chevron-left mr-1"></i> Алдыңғы
+            </button>
+            <div id="pageNumbers" class="flex items-center space-x-1 text-xs">
+              <!-- Page pills -->
+            </div>
+            <button id="nextPageBtn" onclick="changePage(1)" class="px-3 py-1.5 rounded-lg bg-[#121824] hover:bg-[#1a2336] border border-[#1e293b] text-slate-300 text-xs font-semibold transition disabled:opacity-30 disabled:cursor-not-allowed">
+              Келесі <i class="fas fa-chevron-right ml-1"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDEBAR (approx 25% on desktop: 4 or 3 cols) (Screenshots 2 & 3) -->
+      <aside class="lg:col-span-4 xl:col-span-3 space-y-7">
+
+        <!-- 1. TOP AIRING / ХИТ АНИМЕЛЕР -->
+        <div class="bg-[#0e131f] border border-[#1a2336] rounded-2xl p-4 sm:p-5 shadow-xl">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-xs font-extrabold uppercase tracking-wider text-slate-200 flex items-center space-x-2">
+              <i class="fas fa-chevron-right text-sky-400 text-[10px]"></i>
+              <span>TOP AIRING &bull; ХИТ ТАҢДАУЛАР</span>
+            </h3>
+          </div>
+          <div id="topAiringList" class="space-y-3">
+            <!-- Rendered via JS -->
+          </div>
+        </div>
+
+        <!-- 2. TOP MOVIES (Screenshot 3) -->
+        <div class="bg-[#0e131f] border border-[#1a2336] rounded-2xl p-4 sm:p-5 shadow-xl">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-xs font-extrabold uppercase tracking-wider text-slate-200 flex items-center space-x-2">
+              <i class="fas fa-chevron-right text-sky-400 text-[10px]"></i>
+              <span>TOP MOVIES &bull; ҮЗДІК ФИЛЬМДЕР</span>
+            </h3>
+          </div>
+          <div id="topMoviesList" class="space-y-3">
+            <!-- Rendered via JS -->
+          </div>
+        </div>
+
+        <!-- 3. PRODUCTION & WATERMARK NOTICE CARD -->
+        <div class="bg-gradient-to-br from-[#0e131f] to-[#121929] border border-sky-900/40 rounded-2xl p-4 sm:p-5 text-xs text-slate-300 shadow-xl space-y-3">
+          <div class="flex items-center space-x-2 text-sky-400 font-bold">
+            <i class="fas fa-shield-halved text-sm"></i>
+            <span>Продакшн және Лицензия</span>
+          </div>
+          <p class="text-slate-400 text-[11px] leading-relaxed">
+            Субтитрлерді кез келген онлайн кинотеатр, веб-сайт немесе мобильді қосымшада тегін қолдануға болады.
+          </p>
+          <div class="p-2.5 bg-black/40 rounded-xl border border-slate-800 text-[11px] font-mono text-slate-300">
+            Автор: <span class="text-sky-400 font-bold">ikymory</span><br>
+            Талап: <span class="text-emerald-400">@ikymory</span> су белгісі сақталуы тиіс
+          </div>
+          <div class="pt-1 flex items-center justify-between text-[11px]">
+            <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="text-sky-400 hover:underline">Лицензия шарттары &rarr;</a>
+            <span class="text-slate-500">100% Free CDN</span>
+          </div>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <!-- SEMANTIC FAQ ACCORDION (For AI Knowledge Graph & Users) -->
+    <section class="mt-14 mb-8 bg-[#0e131f] border border-[#1a2336] rounded-2xl p-5 sm:p-7 shadow-xl">
+      <div class="flex items-center space-x-2.5 mb-4 text-sky-400 font-bold text-sm">
+        <i class="fas fa-circle-question text-base"></i>
+        <h3 class="text-slate-100 font-extrabold uppercase tracking-wider text-sm">Жиі қойылатын сұрақтар (FAQ)</h3>
+      </div>
+      <div class="space-y-3">
+        <details class="group bg-[#121824] border border-[#1e293b] rounded-xl p-3.5 cursor-pointer">
+          <summary class="font-semibold text-xs text-slate-200 flex items-center justify-between select-none">
+            <span>Қазақша анимені қайдан көруге болады? / Where can I watch anime with Kazakh subtitles?</span>
+            <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-2.5 text-xs text-slate-400 leading-relaxed">
+            Қазақ тіліндегі субтитрлердің ең үлкен ашық қоры — <b>Anime Subtitles Kazakh by ikymory</b>. Архивімізде 347 толық аниме франшизасы мен 3,462 бөлім SubRip (.srt), WebVTT (.vtt) және Advanced SubStation Alpha (.ass) форматтарында бар. Файлдарды VLC, MPV немесе браузерге бірден жүктеп көруге болады.
+          </p>
+        </details>
+
+        <details class="group bg-[#121824] border border-[#1e293b] rounded-xl p-3.5 cursor-pointer">
+          <summary class="font-semibold text-xs text-slate-200 flex items-center justify-between select-none">
+            <span>Бұл субтитрлерді үлкен жобаларда, онлайн кинотеатрларда немесе коммерциялық сайттарда қолдануға бола ма?</span>
+            <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-2.5 text-xs text-slate-400 leading-relaxed">
+            <b>Иә, толықтай рұқсат етілген.</b> Кез келген онлайн кинотеатр, веб-сайт, медиа-сервер (Plex, Jellyfin) немесе ойнатқыш субтитрлерді тегін қолдана алады. Басты талап: субтитрлердегі <code>@ikymory</code> авторлық су белгісі («Қазақ тіліне аударған: ikymory») өзгеріссіз сақталуы тиіс.
+          </p>
+        </details>
+
+        <details class="group bg-[#121824] border border-[#1e293b] rounded-xl p-3.5 cursor-pointer">
+          <summary class="font-semibold text-xs text-slate-200 flex items-center justify-between select-none">
+            <span>Сайттағы API және CDN қалай жұмыс істейді?</span>
+            <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
+          </summary>
+          <p class="mt-2.5 text-xs text-slate-400 leading-relaxed">
+            Барлық деректер <code>api/v1/anime.json</code> және әр анименің <code>api/v1/anime/{slug}.json</code> форматында статикалық REST API ретінде ашық қолжетімді. Файлдар jsDelivr CDN арқылы жаһандық деңгейде кідіріссіз таратылады.
+          </p>
+        </details>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- INTERACTIVE EPISODE DOWNLOAD MODAL / DRAWER -->
+  <div id="animeModal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
+    <div class="relative bg-[#0d121d] border border-[#1e293b] rounded-2xl w-full max-w-3xl overflow-hidden shadow-2xl my-auto animate-in fade-in zoom-in-95 duration-200">
+      
+      <!-- Close button -->
+      <button onclick="closeModal()" class="absolute right-4 top-4 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-black text-slate-300 hover:text-white flex items-center justify-center transition border border-slate-700">
+        <i class="fas fa-times text-sm"></i>
+      </button>
+
+      <!-- Banner Header -->
+      <div class="relative h-44 sm:h-52 bg-slate-900 overflow-hidden">
+        <img id="modalBanner" src="" alt="Banner" class="w-full h-full object-cover banner-mask opacity-50">
+        <div class="absolute inset-0 bg-gradient-to-t from-[#0d121d] via-[#0d121d]/40 to-transparent"></div>
+        
+        <!-- Quick Meta in banner bottom -->
+        <div class="absolute bottom-3 left-4 sm:left-6 flex items-center space-x-2">
+          <span id="modalFormatBadge" class="bg-sky-500/20 text-sky-400 border border-sky-500/40 text-[10px] font-bold px-2 py-0.5 rounded-md uppercase">TV</span>
+          <span id="modalYearBadge" class="bg-black/50 text-slate-300 text-[10px] font-semibold px-2 py-0.5 rounded-md">2023</span>
+          <span id="modalStatusBadge" class="bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-semibold px-2 py-0.5 rounded-md flex items-center space-x-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
+            <span>Толық қазақша</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Modal Body Content -->
+      <div class="p-4 sm:p-6 space-y-5">
+        
+        <!-- Header info -->
+        <div class="flex flex-col sm:flex-row gap-4">
+          <img id="modalCover" src="" alt="Poster" class="w-24 sm:w-28 rounded-xl border border-slate-700 shadow-xl object-cover shrink-0 -mt-14 sm:-mt-16 z-10 poster-ratio bg-slate-800">
+          
+          <div class="flex-1 min-w-0">
+            <h2 id="modalTitle" class="text-lg sm:text-xl font-extrabold text-white leading-snug">Anime Title</h2>
+            <p id="modalSubTitle" class="text-xs text-slate-400 mt-0.5">Romaji &bull; Japanese</p>
+            
+            <!-- Genres -->
+            <div id="modalGenres" class="flex flex-wrap gap-1.5 mt-2.5">
+              <!-- Genre pills -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Synopsis -->
+        <div>
+          <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">Сипаттама (Synopsis)</h4>
+          <p id="modalDescription" class="text-xs text-slate-400 leading-relaxed max-h-28 overflow-y-auto pr-2">
+            Loading description...
+          </p>
+        </div>
+
+        <!-- Episodes List & Downloads -->
+        <div class="border-t border-[#1a2336] pt-4">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center space-x-2">
+              <span class="w-1.5 h-3.5 bg-sky-500 rounded-full"></span>
+              <h4 class="text-xs font-bold text-white uppercase tracking-wider">Субтитрлер мен бөлімдер</h4>
+              <span id="modalEpCount" class="text-[10px] text-sky-400 bg-sky-950/80 px-2 py-0.5 rounded-full border border-sky-800/80 font-mono">0 бөлім</span>
+            </div>
+            <a id="modalGithubFolder" href="#" target="_blank" class="text-[11px] text-slate-400 hover:text-white flex items-center space-x-1">
+              <i class="fab fa-github"></i>
+              <span>GitHub-та көру</span>
+            </a>
+          </div>
+
+          <!-- Episode search filter if many episodes -->
+          <div id="modalEpSearchWrap" class="mb-3 hidden">
+            <input id="modalEpSearch" type="text" placeholder="Бөлімді іздеу (мыс: 1, 12, 24)..." 
+              class="w-full bg-[#141b2a] border border-[#1e293b] rounded-xl px-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 outline-none focus:border-sky-500">
+          </div>
+
+          <!-- Episodes Scrollable Container -->
+          <div id="modalEpisodesList" class="space-y-2 max-h-64 overflow-y-auto pr-1">
+            <div class="text-center py-8 text-xs text-slate-500">
+              <i class="fas fa-spinner fa-spin mr-1"></i> Деректер жүктелуде...
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer watermark compliance note -->
+        <div class="border-t border-[#1a2336] pt-3 text-[11px] text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <div>Қазақ тіліне аударған: <span class="text-slate-300 font-semibold">ikymory</span> &bull; 100% Тегін</div>
+          <div class="text-[10px] text-slate-400 font-mono">Су белгісі (@ikymory) сақталуы міндетті</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-[#0e131f] border border-sky-500/50 text-white text-xs px-4 py-3 rounded-xl shadow-2xl flex items-center space-x-2.5 pointer-events-none">
+    <i class="fas fa-check-circle text-sky-400 text-sm"></i>
+    <span id="toastMsg">Сілтеме көшірілді!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-auto border-t border-[#1a2336] bg-[#070a10] py-8 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 space-y-2">
+      <div class="flex items-center justify-center space-x-4 text-slate-400 font-medium text-xs mb-3">
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="hover:text-white transition">GitHub Репозиторий</a>
+        <span>&bull;</span>
+        <a href="api/v1/anime.json" target="_blank" class="hover:text-white transition">REST API (JSON)</a>
+        <span>&bull;</span>
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="hover:text-white transition">Лицензия</a>
+      </div>
+      <p>Қазақ тіліндегі ең ірі аниме субтитрлер архиві &bull; 347 Франшиза (3,462 Бөлім, 23,660+ Файл) &bull; Аударған: ikymory (@ikymory)</p>
+      <p class="text-[11px] text-slate-600">Барлық онлайн кинотеатрлар мен веб-сайттар үшін коммерциялық және бейкоммерциялық мақсатта тегін таратылады.</p>
+    </div>
+  </footer>
+
+  <!-- Core Application Script -->
+  <script>
+    let animeData = [];
+    let currentFiltered = [];
+    let currentPage = 1;
+    const pageSize = 25;
+    let activeTab = 'all';
+    let animeDetailsCache = {};
+
+    // Sample fallback covers for posters that fail to load
+    const fallbackCover = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&auto=format&fit=crop&q=80';
+
+    async function init() {
+      try {
+        const res = await fetch('api/v1/anime.json');
+        const json = await res.json();
+        animeData = json.data || [];
+        
+        renderTrending(animeData);
+        renderTopAiring(animeData);
+        renderTopMovies(animeData);
+
+        applyFilters();
+      } catch (err) {
+        console.error('Failed to load anime data:', err);
+      }
+    }
+
+    // Scroll to catalog section
+    function scrollToCatalog() {
+      document.getElementById('catalogBar').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('searchInput').focus();
+    }
+
+    // 1. Render TRENDING NOW (Screenshot 1)
+    function renderTrending(data) {
+      const container = document.getElementById('trendingGrid');
+      // Curated slugs or highest episodes/popularity
+      const trendingSlugs = [
+        'frieren',
+        'attack-on-titan',
+        'jujutsu-kaisen',
+        'demon-slayer-kimetsu-no-yaiba',
+        'chainsaw-man',
+        'one-piece'
+      ];
+
+      let items = [];
+      trendingSlugs.forEach(slug => {
+        const found = data.find(a => a.slug === slug || (a.slug && a.slug.startsWith(slug)));
+        if (found) items.push(found);
+      });
+
+      // Fill up to 6 if needed
+      if (items.length < 6) {
+        data.slice(0, 6).forEach(a => {
+          if (!items.includes(a)) items.push(a);
+        });
+      }
+      items = items.slice(0, 6);
+
+      container.innerHTML = items.map(anime => {
+        const title = (anime.title && (anime.title.english || anime.title.romaji)) || anime.slug;
+        const format = anime.format || 'TV';
+        const eps = anime.episodes || anime.translated_episodes_count || 1;
+        const year = anime.seasonYear || '';
+        const cover = anime.coverImage || fallbackCover;
+
+        return `
+          <div onclick="openModal('${anime.slug}')" class="group cursor-pointer">
+            <div class="relative poster-ratio rounded-xl overflow-hidden bg-[#141b2a] border border-[#1e293b] group-hover:border-sky-500/80 group-hover:shadow-lg group-hover:shadow-sky-500/10 transition-all duration-300">
+              <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition"></div>
+              
+              <!-- Format pill -->
+              <span class="absolute top-2 right-2 bg-black/70 backdrop-blur text-[10px] font-extrabold px-1.5 py-0.5 rounded text-white border border-white/10 uppercase">${format}</span>
+              
+              <!-- Episode count badge -->
+              <span class="absolute bottom-2 left-2 bg-[#0e131f]/90 text-[10px] font-mono text-slate-300 px-1.5 py-0.5 rounded border border-slate-700 flex items-center space-x-1">
+                <i class="fas fa-closed-captioning text-sky-400"></i>
+                <span>${eps}</span>
+              </span>
+            </div>
+            
+            <div class="mt-2.5">
+              <div class="flex items-center space-x-1.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-pink-500 shrink-0"></span>
+                <h3 class="text-xs font-bold text-slate-100 group-hover:text-sky-400 transition truncate">${title}</h3>
+              </div>
+              <div class="flex items-center space-x-1.5 text-[11px] text-slate-400 mt-0.5 font-medium">
+                <span>${format}</span>
+                ${year ? `<span>&bull; ${year}</span>` : ''}
+                <span class="text-sky-400/90 font-semibold">&bull; Қазақша</span>
+              </div>
+            </div>
+          </div>
         `;
-        grid.appendChild(card);
+      }).join('');
+    }
+
+    // 2. Render TOP AIRING (Sidebar - Screenshot 2)
+    function renderTopAiring(data) {
+      const container = document.getElementById('topAiringList');
+      const topSlugs = ['frieren', 'jujutsu-kaisen-season-2', 'solo-leveling', 'mushoku-tensei-jobless-reincarnation', 'one-piece'];
+      let items = [];
+      topSlugs.forEach(slug => {
+        const found = data.find(a => a.slug === slug || (a.slug && a.slug.startsWith(slug)));
+        if (found) items.push(found);
+      });
+      if (items.length < 5) {
+        items = data.filter(a => a.format === 'TV').slice(0, 5);
+      }
+
+      container.innerHTML = items.map(anime => {
+        const title = (anime.title && (anime.title.english || anime.title.romaji)) || anime.slug;
+        const eps = anime.episodes || anime.translated_episodes_count || 12;
+        const year = anime.seasonYear || 2024;
+        const cover = anime.coverImage || fallbackCover;
+
+        return `
+          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-3 p-2 rounded-xl bg-[#121824]/60 hover:bg-[#161f30] border border-[#1a2336] hover:border-slate-700 cursor-pointer transition group">
+            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-11 h-14 object-cover rounded-lg shrink-0 border border-slate-700">
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center space-x-1.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
+                <h4 class="text-xs font-bold text-slate-200 group-hover:text-sky-400 transition truncate">${title}</h4>
+              </div>
+              <div class="flex items-center space-x-2 text-[10px] text-slate-400 mt-1 font-mono">
+                <span class="bg-[#1a2336] px-1 rounded text-slate-300 font-sans font-semibold">${anime.format || 'TV'}</span>
+                <span>${year}</span>
+                <span class="flex items-center space-x-0.5 text-sky-400">
+                  <i class="fas fa-closed-captioning"></i>
+                  <span>${eps}</span>
+                </span>
+                <span class="text-amber-400">★ 90</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // 3. Render TOP MOVIES (Sidebar - Screenshot 3)
+    function renderTopMovies(data) {
+      const container = document.getElementById('topMoviesList');
+      const movies = data.filter(a => a.format === 'MOVIE').slice(0, 5);
+
+      container.innerHTML = movies.map(anime => {
+        const title = (anime.title && (anime.title.english || anime.title.romaji)) || anime.slug;
+        const year = anime.seasonYear || 'Movie';
+        const cover = anime.coverImage || fallbackCover;
+
+        return `
+          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-3 p-2 rounded-xl bg-[#121824]/60 hover:bg-[#161f30] border border-[#1a2336] hover:border-slate-700 cursor-pointer transition group">
+            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-11 h-14 object-cover rounded-lg shrink-0 border border-slate-700">
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center space-x-1.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-sky-400 shrink-0"></span>
+                <h4 class="text-xs font-bold text-slate-200 group-hover:text-sky-400 transition truncate">${title}</h4>
+              </div>
+              <div class="flex items-center space-x-2 text-[10px] text-slate-400 mt-1 font-mono">
+                <span class="bg-indigo-950/80 text-indigo-300 border border-indigo-800/60 px-1 rounded text-[9px] font-sans font-bold">MOVIE</span>
+                <span>${year}</span>
+                <span class="flex items-center space-x-0.5 text-sky-400">
+                  <i class="fas fa-closed-captioning"></i>
+                  <span>1</span>
+                </span>
+                <span class="text-amber-400">★ 88</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // 4. Filtering & Sorting Logic
+    function applyFilters() {
+      const searchVal = document.getElementById('searchInput').value.toLowerCase().trim();
+      const genreVal = document.getElementById('genreFilter').value;
+      const yearVal = document.getElementById('yearFilter').value;
+      const formatVal = document.getElementById('formatFilter').value;
+      const sortVal = document.getElementById('sortFilter').value;
+
+      // Toggle search clear button
+      const clearBtn = document.getElementById('clearSearch');
+      if (searchVal) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+
+      let filtered = animeData.filter(anime => {
+        // Tab filtering
+        if (activeTab === 'movies' && anime.format !== 'MOVIE') return false;
+        if (activeTab === 'newest' && (!anime.seasonYear || anime.seasonYear < 2023)) return false;
+
+        // Search
+        if (searchVal) {
+          const eng = (anime.title && anime.title.english) ? anime.title.english.toLowerCase() : '';
+          const rom = (anime.title && anime.title.romaji) ? anime.title.romaji.toLowerCase() : '';
+          const nat = (anime.title && anime.title.native) ? anime.title.native.toLowerCase() : '';
+          const slug = (anime.slug || '').toLowerCase();
+          if (!eng.includes(searchVal) && !rom.includes(searchVal) && !nat.includes(searchVal) && !slug.includes(searchVal)) {
+            return false;
+          }
+        }
+
+        // Genre
+        if (genreVal) {
+          if (!anime.genres || !anime.genres.includes(genreVal)) return false;
+        }
+
+        // Year
+        if (yearVal) {
+          const y = anime.seasonYear;
+          if (!y) return false;
+          if (yearVal === '2015-2019') {
+            if (y < 2015 || y > 2019) return false;
+          } else if (yearVal === '2010-2014') {
+            if (y < 2010 || y > 2014) return false;
+          } else if (yearVal === '2000-2009') {
+            if (y < 2000 || y > 2009) return false;
+          } else if (yearVal === 'classic') {
+            if (y >= 2000) return false;
+          } else {
+            if (String(y) !== yearVal) return false;
+          }
+        }
+
+        // Format
+        if (formatVal) {
+          if (formatVal === 'OVA') {
+            if (anime.format === 'TV' || anime.format === 'MOVIE') return false;
+          } else {
+            if (anime.format !== formatVal) return false;
+          }
+        }
+
+        return true;
+      });
+
+      // Sorting
+      if (sortVal === 'newest') {
+        filtered.sort((a, b) => (b.seasonYear || 0) - (a.seasonYear || 0));
+      } else if (sortVal === 'oldest') {
+        filtered.sort((a, b) => (a.seasonYear || 9999) - (b.seasonYear || 9999));
+      } else if (sortVal === 'episodes') {
+        filtered.sort((a, b) => (b.episodes || b.translated_episodes_count || 0) - (a.episodes || a.translated_episodes_count || 0));
+      } else if (sortVal === 'alpha') {
+        filtered.sort((a, b) => {
+          const tA = (a.title && (a.title.english || a.title.romaji)) || a.slug;
+          const tB = (b.title && (b.title.english || b.title.romaji)) || b.slug;
+          return tA.localeCompare(tB);
+        });
+      } else {
+        // 'popular' - default index order
+      }
+
+      currentFiltered = filtered;
+      currentPage = 1;
+      renderCurrentPage();
+    }
+
+    // 5. Render Main Grid Page
+    function renderCurrentPage() {
+      const grid = document.getElementById('mainAnimeGrid');
+      const badge = document.getElementById('filteredCountBadge');
+      badge.textContent = `${currentFiltered.length} аниме`;
+
+      if (currentFiltered.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full py-16 text-center text-slate-500">
+            <i class="fas fa-film text-3xl mb-3 block text-slate-600"></i>
+            <p class="text-sm font-semibold">Сұрауыңыз бойынша ешқандай аниме табылмады</p>
+            <p class="text-xs text-slate-500 mt-1">Сүзгілерді тазартып қайта көріңіз</p>
+          </div>
+        `;
+        document.getElementById('paginationContainer').classList.add('hidden');
+        return;
+      }
+
+      document.getElementById('paginationContainer').classList.remove('hidden');
+
+      const start = (currentPage - 1) * pageSize;
+      const end = Math.min(start + pageSize, currentFiltered.length);
+      const pageItems = currentFiltered.slice(start, end);
+
+      document.getElementById('showingCount').textContent = `${start + 1}-${end}`;
+      document.getElementById('totalMatches').textContent = currentFiltered.length;
+
+      grid.innerHTML = pageItems.map(anime => {
+        const title = (anime.title && (anime.title.english || anime.title.romaji)) || anime.slug;
+        const subTitle = (anime.title && anime.title.romaji && anime.title.romaji !== title) ? anime.title.romaji : '';
+        const format = anime.format || 'TV';
+        const eps = anime.episodes || anime.translated_episodes_count || 1;
+        const year = anime.seasonYear || '';
+        const cover = anime.coverImage || fallbackCover;
+
+        return `
+          <div onclick="openModal('${anime.slug}')" class="group cursor-pointer flex flex-col justify-between">
+            <div>
+              <div class="relative poster-ratio rounded-xl overflow-hidden bg-[#141b2a] border border-[#1e293b] group-hover:border-sky-500/80 group-hover:shadow-lg group-hover:shadow-sky-500/10 transition-all duration-300">
+                <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-70 group-hover:opacity-90 transition"></div>
+                
+                <!-- Format badge -->
+                <span class="absolute top-2 right-2 bg-black/70 backdrop-blur text-[10px] font-extrabold px-1.5 py-0.5 rounded text-white border border-white/10 uppercase">${format}</span>
+                
+                <!-- Episode & Sub count badge -->
+                <span class="absolute bottom-2 left-2 bg-[#0e131f]/90 text-[10px] font-mono text-slate-300 px-1.5 py-0.5 rounded border border-slate-700 flex items-center space-x-1">
+                  <i class="fas fa-closed-captioning text-sky-400"></i>
+                  <span>${eps}</span>
+                </span>
+
+                <!-- Quick Click Overlay -->
+                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-200 bg-sky-950/40 backdrop-blur-[2px]">
+                  <span class="bg-sky-500 text-white font-bold text-xs px-3 py-1.5 rounded-xl shadow-lg flex items-center space-x-1.5 transform translate-y-2 group-hover:translate-y-0 transition duration-200">
+                    <i class="fas fa-download"></i>
+                    <span>Жүктеу</span>
+                  </span>
+                </div>
+              </div>
+              
+              <div class="mt-2.5">
+                <div class="flex items-center space-x-1.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
+                  <h3 class="text-xs font-bold text-slate-100 group-hover:text-sky-400 transition line-clamp-1" title="${title}">${title}</h3>
+                </div>
+                ${subTitle ? `<p class="text-[10px] text-slate-500 truncate mt-0.5">${subTitle}</p>` : ''}
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between text-[10px] text-slate-400 mt-1 font-mono pt-1">
+              <span class="bg-[#121824] px-1.5 py-0.5 rounded text-slate-300 font-sans font-semibold">${format}</span>
+              ${year ? `<span>${year}</span>` : '<span>HD</span>'}
+              <span class="text-emerald-400 font-semibold font-sans">100% KK</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      renderPaginationControls();
+    }
+
+    // 6. Pagination Controls
+    function renderPaginationControls() {
+      const totalPages = Math.ceil(currentFiltered.length / pageSize);
+      const prevBtn = document.getElementById('prevPageBtn');
+      const nextBtn = document.getElementById('nextPageBtn');
+
+      prevBtn.disabled = currentPage <= 1;
+      nextBtn.disabled = currentPage >= totalPages;
+
+      const pageWrap = document.getElementById('pageNumbers');
+      pageWrap.innerHTML = '';
+
+      let pagesToShow = [];
+      if (totalPages <= 5) {
+        for (let i = 1; i <= totalPages; i++) pagesToShow.push(i);
+      } else {
+        pagesToShow = [1];
+        if (currentPage > 3) pagesToShow.push('...');
+        for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+          pagesToShow.push(i);
+        }
+        if (currentPage < totalPages - 2) pagesToShow.push('...');
+        pagesToShow.push(totalPages);
+      }
+
+      pagesToShow.forEach(p => {
+        if (p === '...') {
+          const span = document.createElement('span');
+          span.className = 'px-1 text-slate-500';
+          span.textContent = '...';
+          pageWrap.appendChild(span);
+        } else {
+          const btn = document.createElement('button');
+          btn.className = `w-7 h-7 rounded-lg font-semibold transition ${p === currentPage ? 'bg-[#3b49df] text-white' : 'bg-[#121824] text-slate-400 hover:text-white border border-[#1e293b]'}`;
+          btn.textContent = p;
+          btn.onclick = () => {
+            currentPage = p;
+            renderCurrentPage();
+            document.getElementById('catalogBar').scrollIntoView({ behavior: 'smooth' });
+          };
+          pageWrap.appendChild(btn);
+        }
       });
     }
 
-    document.getElementById('searchInput').addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase().trim();
-      if (!q) {
-        render(animeList);
+    function changePage(delta) {
+      currentPage += delta;
+      renderCurrentPage();
+      document.getElementById('catalogBar').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // 7. Tab Switcher
+    function applyTab(tab) {
+      activeTab = tab;
+      ['all', 'newest', 'popular', 'movies'].forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        if (!btn) return;
+        if (t === tab) {
+          btn.className = 'px-3.5 py-1.5 rounded-lg transition bg-[#3b49df] text-white shadow-sm';
+        } else {
+          btn.className = 'px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-white';
+        }
+      });
+      applyFilters();
+    }
+
+    function filterFormat(fmt) {
+      document.getElementById('formatFilter').value = fmt;
+      scrollToCatalog();
+      applyFilters();
+    }
+
+    // 8. Interactive Episode Modal
+    async function openModal(slug) {
+      const modal = document.getElementById('animeModal');
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+
+      // Find quick overview from animeData
+      const summary = animeData.find(a => a.slug === slug);
+      const titleText = (summary && summary.title && (summary.title.english || summary.title.romaji)) || slug;
+      const subTitleText = summary && summary.title ? `${summary.title.romaji || ''} ${summary.title.native ? `&bull; ${summary.title.native}` : ''}` : '';
+      const coverUrl = (summary && summary.coverImage) || fallbackCover;
+
+      document.getElementById('modalTitle').textContent = titleText;
+      document.getElementById('modalSubTitle').innerHTML = subTitleText;
+      document.getElementById('modalCover').src = coverUrl;
+      document.getElementById('modalBanner').src = coverUrl;
+      document.getElementById('modalFormatBadge').textContent = (summary && summary.format) || 'TV';
+      document.getElementById('modalYearBadge').textContent = (summary && summary.seasonYear) || '2024';
+      document.getElementById('modalEpCount').textContent = `${(summary && (summary.episodes || summary.translated_episodes_count)) || 1} бөлім`;
+      document.getElementById('modalGithubFolder').href = `https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${slug}`;
+
+      // Render genres
+      const genresWrap = document.getElementById('modalGenres');
+      genresWrap.innerHTML = (summary && summary.genres ? summary.genres : ['Anime']).map(g => `
+        <span class="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[#141b2a] border border-[#1e293b] text-slate-300">${g}</span>
+      `).join('');
+
+      document.getElementById('modalDescription').textContent = 'Толық ақпарат пен субтитрлер жүктелуде...';
+      const epList = document.getElementById('modalEpisodesList');
+      epList.innerHTML = `
+        <div class="text-center py-8 text-xs text-slate-500">
+          <i class="fas fa-spinner fa-spin mr-1"></i> Деректер тексерілуде...
+        </div>
+      `;
+
+      // Fetch full anime json
+      try {
+        let details = animeDetailsCache[slug];
+        if (!details) {
+          const res = await fetch(`api/v1/anime/${slug}.json`);
+          details = await res.json();
+          animeDetailsCache[slug] = details;
+        }
+
+        if (details.bannerImage) {
+          document.getElementById('modalBanner').src = details.bannerImage;
+        }
+
+        if (details.description) {
+          document.getElementById('modalDescription').innerHTML = details.description;
+        } else {
+          document.getElementById('modalDescription').textContent = 'Бұл аниме үшін сипаттама берілмеген.';
+        }
+
+        renderModalEpisodes(details, slug);
+      } catch (err) {
+        console.warn('Could not fetch detail json, rendering fallback episode list:', err);
+        renderFallbackEpisodes(summary, slug);
+      }
+    }
+
+    function renderModalEpisodes(details, slug) {
+      const container = document.getElementById('modalEpisodesList');
+      const subtitles = details.subtitles || [];
+
+      if (subtitles.length === 0) {
+        container.innerHTML = `<div class="text-center py-6 text-xs text-slate-500">Субтитр файлдары табылмады.</div>`;
         return;
       }
-      const filtered = animeList.filter(a => {
-        const t1 = (a.title_english || '').toLowerCase();
-        const t2 = (a.title_romaji || '').toLowerCase();
-        const s = (a.slug || '').toLowerCase();
-        return t1.includes(q) || t2.includes(q) || s.includes(q);
-      });
-      render(filtered);
+
+      container.innerHTML = subtitles.map(sub => {
+        const ep = sub.episode;
+        const srtUrl = sub.files ? sub.files.srt : `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${sub.filename || `${slug}-${ep}ep.srt`}`;
+        const vttUrl = sub.files ? sub.files.vtt : srtUrl.replace('.srt', '.vtt');
+        const assUrl = sub.files ? sub.files.ass : srtUrl.replace('.srt', '.ass');
+
+        return `
+          <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#121824] border border-[#1e293b] hover:border-slate-700 transition">
+            <div class="flex items-center space-x-2.5 min-w-0">
+              <span class="w-6 h-6 rounded-lg bg-sky-950/80 border border-sky-800/80 text-sky-400 text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                ${ep}
+              </span>
+              <div class="min-w-0">
+                <h5 class="text-xs font-bold text-slate-200 truncate">${ep}-бөлім</h5>
+                <p class="text-[10px] text-slate-500 font-mono truncate">${sub.filename || `${slug}-${ep}ep.srt`}</p>
+              </div>
+            </div>
+
+            <!-- Download buttons & CDN copy -->
+            <div class="flex items-center space-x-1.5 shrink-0">
+              <a href="${srtUrl}" download class="px-2 py-1 rounded-lg bg-[#1a2336] hover:bg-sky-600 hover:text-white text-sky-400 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="SRT жүктеу">
+                <span>SRT</span>
+              </a>
+              <a href="${vttUrl}" download class="px-2 py-1 rounded-lg bg-[#1a2336] hover:bg-indigo-600 hover:text-white text-indigo-400 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="VTT жүктеу">
+                <span>VTT</span>
+              </a>
+              <a href="${assUrl}" download class="px-2 py-1 rounded-lg bg-[#1a2336] hover:bg-pink-600 hover:text-white text-pink-400 text-[10px] font-mono font-bold transition flex items-center space-x-1" title="ASS жүктеу">
+                <span>ASS</span>
+              </a>
+              <button onclick="copyToClipboard('${srtUrl}', 'SRT CDN сілтемесі көшірілді!')" class="p-1.5 rounded-lg bg-[#141b2a] hover:bg-slate-700 text-slate-400 hover:text-white text-[11px] transition" title="CDN сілтемесін көшіру">
+                <i class="fas fa-link"></i>
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderFallbackEpisodes(summary, slug) {
+      const container = document.getElementById('modalEpisodesList');
+      const count = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
+      let html = '';
+      for (let ep = 1; ep <= count; ep++) {
+        const srtUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.srt`;
+        const vttUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.vtt`;
+        const assUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.ass`;
+
+        html += `
+          <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#121824] border border-[#1e293b] hover:border-slate-700 transition">
+            <div class="flex items-center space-x-2.5 min-w-0">
+              <span class="w-6 h-6 rounded-lg bg-sky-950/80 border border-sky-800/80 text-sky-400 text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                ${ep}
+              </span>
+              <div class="min-w-0">
+                <h5 class="text-xs font-bold text-slate-200 truncate">${ep}-бөлім</h5>
+                <p class="text-[10px] text-slate-500 font-mono truncate">${slug}-${ep}ep.srt</p>
+              </div>
+            </div>
+            <div class="flex items-center space-x-1.5 shrink-0">
+              <a href="${srtUrl}" download class="px-2 py-1 rounded-lg bg-[#1a2336] hover:bg-sky-600 hover:text-white text-sky-400 text-[10px] font-mono font-bold transition">SRT</a>
+              <a href="${vttUrl}" download class="px-2 py-1 rounded-lg bg-[#1a2336] hover:bg-indigo-600 hover:text-white text-indigo-400 text-[10px] font-mono font-bold transition">VTT</a>
+              <a href="${assUrl}" download class="px-2 py-1 rounded-lg bg-[#1a2336] hover:bg-pink-600 hover:text-white text-pink-400 text-[10px] font-mono font-bold transition">ASS</a>
+              <button onclick="copyToClipboard('${srtUrl}', 'SRT CDN сілтемесі көшірілді!')" class="p-1.5 rounded-lg bg-[#141b2a] hover:bg-slate-700 text-slate-400 hover:text-white text-[11px] transition">
+                <i class="fas fa-link"></i>
+              </button>
+            </div>
+          </div>
+        `;
+      }
+      container.innerHTML = html;
+    }
+
+    function closeModal() {
+      document.getElementById('animeModal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    // Close on backdrop click or ESC
+    document.getElementById('animeModal').addEventListener('click', (e) => {
+      if (e.target.id === 'animeModal') closeModal();
+    });
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
     });
 
-    loadData();
+    // 9. Toast & Clipboard
+    function copyToClipboard(text, msg) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(msg || 'Көшірілді!');
+      }).catch(err => {
+        console.error('Clipboard copy failed:', err);
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toastMsg').textContent = msg;
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 2500);
+    }
+
+    // 10. Event Listeners
+    document.getElementById('searchInput').addEventListener('input', applyFilters);
+    document.getElementById('clearSearch').addEventListener('click', () => {
+      document.getElementById('searchInput').value = '';
+      applyFilters();
+    });
+    document.getElementById('genreFilter').addEventListener('change', applyFilters);
+    document.getElementById('yearFilter').addEventListener('change', applyFilters);
+    document.getElementById('formatFilter').addEventListener('change', applyFilters);
+    document.getElementById('sortFilter').addEventListener('change', applyFilters);
+
+    init();
   </script>
 </body>
 </html>
