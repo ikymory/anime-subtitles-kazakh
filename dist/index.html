@@ -20,7 +20,7 @@
   <!-- Fonts & FontAwesome -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- JSON-LD SEO Schema -->
@@ -133,6 +133,18 @@
         linear-gradient(90deg, #090a0f 0%, rgba(9, 10, 15, 0.95) 26%, rgba(9, 10, 15, 0.72) 48%, rgba(9, 10, 15, 0.15) 75%, transparent 100%),
         linear-gradient(180deg, rgba(9, 10, 15, 0.75) 0%, transparent 22%, transparent 45%, rgba(9, 10, 15, 0.85) 78%, #090a0f 100%);
     }
+    /* Hero Title: Modern geometric font, top-to-bottom white-to-accent gradient, crisp shadow, NO neon glow */
+    .hero-title-text {
+      font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      letter-spacing: -0.02em;
+      line-height: 1.18;
+      display: inline-block;
+      max-width: 100%;
+      background: linear-gradient(180deg, #ffffff 15%, var(--hero-accent, #70a4e8) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.8));
+    }
     .hide-scrollbar::-webkit-scrollbar {
       display: none;
     }
@@ -235,11 +247,9 @@
       
       <!-- Dual Crossfade Banner Images (Zero flicker, butter smooth transitions) -->
       <div class="absolute inset-0 overflow-hidden pointer-events-none">
-        <img id="heroBannerImgA" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center transition-all duration-700 ease-in-out transform scale-100 opacity-100">
-        <img id="heroBannerImgB" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center transition-all duration-700 ease-in-out transform scale-105 opacity-0">
+        <img id="heroBannerBack" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center opacity-100">
+        <img id="heroBannerFront" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center transition-opacity duration-700 ease-in-out opacity-100">
         <div class="absolute inset-0 miruro-hero-backdrop z-10"></div>
-        <!-- Dynamic Ambient Colored Glow Layer (Reflecting Anime's Accent Color) -->
-        <div id="heroAmbientGlow" class="absolute inset-0 pointer-events-none transition-all duration-700 z-10 opacity-70"></div>
       </div>
 
       <!-- Top Badges Row: Clock/Episode Info + Legal Safeguard -->
@@ -266,7 +276,7 @@
       </div>
 
       <!-- Bottom Hero Content with Smooth Micro-Animation -->
-      <div id="heroContentWrap" class="relative z-20 max-w-4xl space-y-3 transition-all duration-300 transform opacity-100 translate-y-0">
+      <div id="heroContentWrap" class="relative z-20 max-w-4xl space-y-3 transition-opacity duration-200 opacity-100">
         
         <!-- Metadata pills row (TV, CC 12, Star Score, Duration, Kazakh Sub badge) -->
         <div class="flex flex-wrap items-center gap-2 text-xs font-medium">
@@ -285,8 +295,8 @@
           </span>
         </div>
 
-        <!-- Big Bold Title with Dynamic Palette Color -->
-        <h1 id="heroTitle" class="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight transition-colors duration-300 drop-shadow-md">
+        <!-- Anime Title: Compact, Geometric Font, Dual-Tone Top-to-Bottom Gradient with Crisp Shadow -->
+        <h1 id="heroTitle" class="hero-title-text text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight leading-tight transition-opacity duration-200">
           Сапар соңындағы Фрирен
         </h1>
 
@@ -1422,8 +1432,25 @@
     }
 
     // -------------------------------------------------------------
-    // HERO SHOWCASE CONTROLLER (Featuring All High-Res Banners with Smooth Crossfade)
+    // HERO SHOWCASE CONTROLLER (Ultra-Smooth Cinematic Crossfade, Zero Glow, Dual-Tone Title)
     // -------------------------------------------------------------
+    let isHeroTransitioning = false;
+
+    function preloadHeroImages(centerIdx) {
+      if (!featuredHeroMeta || !featuredHeroMeta.length) return;
+      const total = featuredHeroMeta.length;
+      const nextItem = featuredHeroMeta[(centerIdx + 1) % total];
+      const prevItem = featuredHeroMeta[(centerIdx - 1 + total) % total];
+      if (nextItem && nextItem.bannerImage) {
+        const i1 = new Image();
+        i1.src = nextItem.bannerImage;
+      }
+      if (prevItem && prevItem.bannerImage) {
+        const i2 = new Image();
+        i2.src = prevItem.bannerImage;
+      }
+    }
+
     function updateHeroDisplay(immediate = false) {
       if (!featuredHeroMeta || featuredHeroMeta.length === 0) return;
       const anime = featuredHeroMeta[currentHeroIndex];
@@ -1448,27 +1475,22 @@
       const banner = anime.bannerImage;
       const animeColor = resolveAnimeColor(anime);
 
-      const imgA = document.getElementById('heroBannerImgA');
-      const imgB = document.getElementById('heroBannerImgB');
-      const activeImg = currentImgLayer === 'A' ? imgA : imgB;
-      const nextImg = currentImgLayer === 'A' ? imgB : imgA;
+      const imgBack = document.getElementById('heroBannerBack');
+      const imgFront = document.getElementById('heroBannerFront');
       const contentWrap = document.getElementById('heroContentWrap');
-      const ambientGlow = document.getElementById('heroAmbientGlow');
       const titleEl = document.getElementById('heroTitle');
 
       document.getElementById('heroCounter').textContent = `${currentHeroIndex + 1} / ${featuredHeroMeta.length}`;
 
       const renderContent = () => {
         titleEl.textContent = title;
-        titleEl.style.color = animeColor;
-        titleEl.style.textShadow = `0 4px 24px rgba(0,0,0,0.85), 0 0 35px ${animeColor}`;
-
-        if (ambientGlow) {
-          const glowColor = animeColor.startsWith('#')
-            ? animeColor + '30'
-            : animeColor.replace('hsl', 'hsla').replace(')', ', 0.22)');
-          ambientGlow.style.background = `radial-gradient(ellipse at 16% 76%, ${glowColor} 0%, transparent 62%)`;
-        }
+        // Dual-tone vertical gradient: white at top, dynamic accent at bottom + crisp dark drop-shadow (NO glow)
+        titleEl.style.setProperty('--hero-accent', animeColor);
+        titleEl.style.backgroundImage = `linear-gradient(180deg, #ffffff 15%, ${animeColor} 100%)`;
+        titleEl.style.webkitBackgroundClip = 'text';
+        titleEl.style.webkitTextFillColor = 'transparent';
+        titleEl.style.textShadow = 'none';
+        titleEl.style.filter = 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.8))';
 
         const epBadge = document.getElementById('heroEpBadge');
         if (epBadge) {
@@ -1512,39 +1534,44 @@
       };
 
       if (immediate) {
-        activeImg.src = banner;
-        activeImg.style.opacity = '1';
-        activeImg.style.transform = 'scale(1)';
-        nextImg.style.opacity = '0';
+        if (imgFront) {
+          imgFront.src = banner;
+          imgFront.style.opacity = '1';
+        }
+        if (imgBack) {
+          imgBack.src = banner;
+        }
         renderContent();
+        preloadHeroImages(currentHeroIndex);
         return;
       }
 
-      // Smooth Crossfade & Micro-Animation
-      const tempImg = new Image();
-      tempImg.onload = () => {
-        nextImg.src = banner;
+      // Smooth, dual-buffer dissolve crossfade (foolproof, zero flicker)
+      if (imgBack && imgFront) {
+        if (imgFront.src && imgFront.src !== banner) {
+          imgBack.src = imgFront.src;
+        }
+        imgFront.style.transition = 'none';
+        imgFront.style.opacity = '0';
+        imgFront.src = banner;
 
-        contentWrap.style.transition = 'opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1)';
-        contentWrap.style.opacity = '0';
-        contentWrap.style.transform = 'translateY(6px)';
+        // Force reflow
+        void imgFront.offsetWidth;
 
-        nextImg.style.transition = 'opacity 700ms cubic-bezier(0.4, 0, 0.2, 1), transform 1200ms cubic-bezier(0.16, 1, 0.3, 1)';
-        activeImg.style.transition = 'opacity 700ms cubic-bezier(0.4, 0, 0.2, 1), transform 1200ms cubic-bezier(0.16, 1, 0.3, 1)';
+        imgFront.style.transition = 'opacity 600ms cubic-bezier(0.25, 1, 0.5, 1)';
+        imgFront.style.opacity = '1';
+      }
 
-        nextImg.style.opacity = '1';
-        nextImg.style.transform = 'scale(1)';
-        activeImg.style.opacity = '0';
-        activeImg.style.transform = 'scale(1.04)';
+      // Soft text crossfade: gently dip opacity to 0.35, swap content, restore to 1
+      contentWrap.style.transition = 'opacity 180ms ease-out';
+      contentWrap.style.opacity = '0.35';
 
-        setTimeout(() => {
-          renderContent();
-          contentWrap.style.opacity = '1';
-          contentWrap.style.transform = 'translateY(0)';
-          currentImgLayer = currentImgLayer === 'A' ? 'B' : 'A';
-        }, 260);
-      };
-      tempImg.src = banner;
+      setTimeout(() => {
+        renderContent();
+        contentWrap.style.transition = 'opacity 240ms ease-in';
+        contentWrap.style.opacity = '1';
+        preloadHeroImages(currentHeroIndex);
+      }, 190);
     }
 
     function resetHeroTimer() {
@@ -2004,8 +2031,12 @@
       const animeColor = resolveAnimeColor(summary);
       const modalTitleEl = document.getElementById('modalTitle');
       modalTitleEl.textContent = titleText;
-      modalTitleEl.style.color = animeColor;
-      modalTitleEl.style.textShadow = `0 4px 24px rgba(0,0,0,0.85), 0 0 35px ${animeColor}`;
+      modalTitleEl.style.fontFamily = "'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif";
+      modalTitleEl.style.backgroundImage = `linear-gradient(180deg, #ffffff 15%, ${animeColor} 100%)`;
+      modalTitleEl.style.webkitBackgroundClip = 'text';
+      modalTitleEl.style.webkitTextFillColor = 'transparent';
+      modalTitleEl.style.textShadow = 'none';
+      modalTitleEl.style.filter = 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.95))';
       const navTitle = document.getElementById('modalTopNavTitle');
       if (navTitle) navTitle.textContent = titleText;
 
@@ -2181,10 +2212,14 @@
         // Preload first hero image immediately
         if (featuredHeroMeta.length > 0) {
           const firstHero = featuredHeroMeta[0];
-          const imgA = document.getElementById('heroBannerImgA');
-          if (imgA && firstHero) {
-            imgA.src = firstHero.bannerImage;
-            imgA.style.opacity = '1';
+          const imgFront = document.getElementById('heroBannerFront');
+          const imgBack = document.getElementById('heroBannerBack');
+          if (imgFront && firstHero) {
+            imgFront.src = firstHero.bannerImage;
+            imgFront.style.opacity = '1';
+          }
+          if (imgBack && firstHero) {
+            imgBack.src = firstHero.bannerImage;
           }
         }
 
