@@ -108,7 +108,7 @@ def main():
     if args.slug:
         target_slugs.add(args.slug.strip())
 
-    animes = fetch_top_anime(args.top)
+    animes = fetch_top_anime(0 if (target_slugs or args.top <= 0) else args.top)
     if args.anime_id > 0:
         animes = [a for a in animes if a["id"] == args.anime_id]
 
@@ -141,7 +141,7 @@ def main():
         print("All episodes already translated and verified!")
         return
 
-    print(f"Launching {args.workers} concurrent Playwright worker processes...")
+    print(f"Launching {args.workers} concurrent worker processes...", flush=True)
     t0 = time.time()
     completed = 0
     with mp.Pool(processes=args.workers) as pool:
@@ -151,7 +151,7 @@ def main():
             print(f"[{completed}/{len(tasks)}] [{status_tag}] {res['slug']} Ep {res['ep']} | Score: {res['score']}% | Leaks: {res['leaks']}", flush=True)
 
     elapsed = time.time() - t0
-    print(f"\nBatch complete: {completed} episodes processed in {elapsed:.1f}s ({elapsed/max(1,completed):.1f}s/ep average)!")
+    print(f"\nBatch complete: {completed} episodes processed in {elapsed:.1f}s ({elapsed/max(1,completed):.1f}s/ep average)!", flush=True)
 
 if __name__ == "__main__":
     mp.freeze_support()

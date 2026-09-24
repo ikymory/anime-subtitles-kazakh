@@ -98,7 +98,68 @@ KNOWN_BASE_SLUGS = {
     "toradora": "toradora",
     "samurai champloo": "samurai-champloo",
     "k-on!": "k-on",
-    "k-on": "k-on"
+    "k-on": "k-on",
+    "konosuba: god's blessing on this wonderful world!": "konosuba",
+    "konosuba": "konosuba",
+    "kono subarashii sekai ni shukufuku wo!": "konosuba",
+    "kono subarashii sekai ni shukufuku wo": "konosuba",
+    "nanatsu no taizai": "seven-deadly-sins",
+    "the seven deadly sins": "seven-deadly-sins",
+    "seven deadly sins": "seven-deadly-sins",
+    "darling in the franxx": "darling-franxx",
+    "ao no exorcist": "blue-exorcist",
+    "blue exorcist": "blue-exorcist",
+    "tate no yuusha no nariagari": "rising-shield-hero",
+    "the rising of the shield hero": "rising-shield-hero",
+    "kakegurui": "kakegurui",
+    "charlotte": "charlotte",
+    "mirai nikki": "future-diary",
+    "future diary": "future-diary",
+    "sono bisque doll wa koi wo suru": "my-dress-up",
+    "my dress-up darling": "my-dress-up",
+    "kill la kill": "kill-la-kill",
+    "shokugeki no souma": "food-wars",
+    "food wars!": "food-wars",
+    "food wars": "food-wars",
+    "dungeon ni deai wo motomeru no wa machigatteiru darou ka": "is-it-wrong",
+    "is it wrong to try to pick up girls in a dungeon?": "is-it-wrong",
+    "danmachi": "is-it-wrong",
+    "hataraku maou-sama!": "devil-is-part",
+    "the devil is a part-timer!": "devil-is-part",
+    "hataraku maou-sama": "devil-is-part",
+    "ano hi mita hana no namae wo bokutachi wa mada shiranai": "anohana-flower-we",
+    "anohana: the flower we saw that day": "anohana-flower-we",
+    "anohana": "anohana-flower-we",
+    "soul eater": "soul-eater",
+    "dandadan": "dan-da-dan",
+    "dan da dan": "dan-da-dan",
+    "another": "another",
+    "yahari ore no seishun love comedy wa machigatteiru": "my-teen-romantic",
+    "my teen romantic comedy snafu": "my-teen-romantic",
+    "oregairu": "my-teen-romantic",
+    "chuunibyou demo koi ga shitai!": "love-chunibyo-other",
+    "love, chunibyo & other delusions!": "love-chunibyo-other",
+    "chuunibyou": "love-chunibyo-other",
+    "devilman crybaby": "devilman-crybaby",
+    "hyouka": "hyouka",
+    "bakemonogatari": "bakemonogatari",
+    "kobayashi-san chi no maid dragon": "miss-kobayashi-s",
+    "miss kobayashi's dragon maid": "miss-kobayashi-s",
+    "owari no seraph": "seraph-end-vampire",
+    "seraph of the end: vampire reign": "seraph-end-vampire",
+    "seraph of the end": "seraph-end-vampire",
+    "wotaku ni koi wa muzukashii": "wotakoi-love-is",
+    "wotakoi: love is hard for otaku": "wotakoi-love-is",
+    "wotakoi": "wotakoi-love-is",
+    "mahou shoujo madoka★magica": "puella-magi-madoka",
+    "puella magi madoka magica": "puella-magi-madoka",
+    "madoka magica": "puella-magi-madoka",
+    "kusuriya no hitorigoto": "apothecary-diaries",
+    "the apothecary diaries": "apothecary-diaries",
+    "yakusoku no neverland": "promised-neverland",
+    "the promised neverland": "promised-neverland",
+    "komi-san wa, comyushou desu.": "komi-can-t",
+    "komi can't communicate": "komi-can-t"
 }
 
 def _extract_season_suffix(title: str) -> Tuple[str, str]:
@@ -215,10 +276,13 @@ def get_anime_slug(anime_data_or_title: Union[Dict[str, Any], str]) -> str:
     base_slug = None
     for cand in cleaned_candidates + raw_titles:
         norm = re.sub(r"[^\w\s]", "", cand.lower()).strip()
-        # Direct match in known base slugs
-        for known, slug in KNOWN_BASE_SLUGS.items():
+        # Direct match in known base slugs (longest first, word boundary enforced)
+        for known, slug in sorted(KNOWN_BASE_SLUGS.items(), key=lambda x: len(x[0]), reverse=True):
             known_norm = re.sub(r"[^\w\s]", "", known.lower()).strip()
-            if known_norm == norm or norm == known_norm or norm.startswith(known_norm):
+            if known_norm == norm:
+                base_slug = slug
+                break
+            if re.search(r"(^|\s)" + re.escape(known_norm) + r"($|\s)", norm):
                 base_slug = slug
                 break
         if base_slug:

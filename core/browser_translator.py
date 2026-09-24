@@ -26,22 +26,25 @@ CACHE_DB = Path(__file__).resolve().parent.parent / "data" / "translations_cache
 JP_CHAR_REGEX = re.compile(r"[\u3041-\u3096\u30a1-\u30fa\u4e00-\u9faf]")
 
 def preprocess_text(line: str) -> str:
-    """Clean furigana ruby tags, ASS overrides, speaker tags, and sound effects."""
+    """Clean furigana ruby tags, ASS/HTML/WebVTT overrides, speaker tags, and sound effects."""
     if not line:
         return ""
+    # Strip HTML / WebVTT tags like <c.MS Gothic>, <b>, <i>, <ruby>, etc.
+    cleaned = re.sub(r"<[^>]+>", "", line)
     # Strip ASS overrides like {\pos(1,2)} or {\an8}
-    cleaned = re.sub(r"\{[^\}]*\}", "", line)
+    cleaned = re.sub(r"\{[^\}]*\}", "", cleaned)
     # Replace ASS newlines with space
     cleaned = cleaned.replace("\\N", " ").replace("\\n", " ")
-    # Strip ruby furigana attached to kanji like 奴(やつ) -> 奴 or 漢字（かんじ） -> 漢字
+    # Strip ruby furigana attached to kanji like 奴(やつ) -> 奴 or 漢字（かんじ） -> 漢字 or 蒼(あお) -> 蒼
     cleaned = re.sub(r"([\u4e00-\u9faf])[\(（][ぁ-んァ-ン]+[\)）]", r"\1", cleaned)
+    # Strip standalone parentheses furigana if any like (あお) right after kanji
+    cleaned = re.sub(r"[\(（][ぁ-んァ-ン]+[\)）]", "", cleaned)
     # Strip speaker tag only if dialogue follows: e.g. "（エレン）何してるの" -> "何してるの"
     spk_dialogue = re.match(r"^[（\(][^）\)]+[）\)]\s*(\S.*)$", cleaned)
     if spk_dialogue:
         cleaned = spk_dialogue.group(1)
     # Strip trailing Japanese punctuation artifacts like ｡・
     cleaned = re.sub(r"[・｡]+$", "", cleaned)
-    # Clean whitespace
     return " ".join(cleaned.split())
 
 class BrowserTranslator:
@@ -52,7 +55,7 @@ class BrowserTranslator:
 
     def _init_db(self):
         CACHE_DB.parent.mkdir(parents=True, exist_ok=True)
-        with sqlite3.connect(CACHE_DB) as conn:
+        with sqlite3.connect(CACHE_DB, timeout=30.0) as conn:
             conn.execute("PRAGMA journal_mode=WAL;")
             conn.execute("PRAGMA synchronous=NORMAL;")
             conn.execute("""
@@ -94,26 +97,32 @@ class BrowserTranslator:
     def _get_cached(self, text: str, source_lang: str, target_lang: str) -> Optional[str]:
         if not text:
             return ""
-        with sqlite3.connect(CACHE_DB) as conn:
-            cur = conn.execute(
-                "SELECT translated_text FROM cache WHERE source_lang=? AND target_lang=? AND source_text=?",
-                (source_lang.lower(), target_lang.lower(), text)
-            )
-            row = cur.fetchone()
-            if row and row[0] is not None:
-                cached_val = row[0].strip()
-                if cached_val != text.strip() and not JP_CHAR_REGEX.search(cached_val):
-                    return cached_val
-            return None
+        try:
+            with sqlite3.connect(CACHE_DB, timeout=30.0) as conn:
+                cur = conn.execute(
+                    "SELECT translated_text FROM cache WHERE source_lang=? AND target_lang=? AND source_text=?",
+                    (source_lang.lower(), target_lang.lower(), text)
+                )
+                row = cur.fetchone()
+                if row and row[0] is not None:
+                    cached_val = row[0].strip()
+                    if cached_val != text.strip() and not JP_CHAR_REGEX.search(cached_val):
+                        return cached_val
+        except Exception:
+            pass
+        return None
 
     def _set_cached(self, text: str, translated: str, source_lang: str, target_lang: str):
         if not translated or translated.strip() == text.strip() or JP_CHAR_REGEX.search(translated):
             return
-        with sqlite3.connect(CACHE_DB) as conn:
-            conn.execute(
-                "INSERT OR REPLACE INTO cache VALUES (?, ?, ?, ?)",
-                (source_lang.lower(), target_lang.lower(), text, translated)
-            )
+        try:
+            with sqlite3.connect(CACHE_DB, timeout=30.0) as conn:
+                conn.execute(
+                    "INSERT OR REPLACE INTO cache VALUES (?, ?, ?, ?)",
+                    (source_lang.lower(), target_lang.lower(), text, translated)
+                )
+        except Exception:
+            pass
 
     def _translate_batch(self, page, texts: List[str], source_lang: str = "ja", target_lang: str = "kk") -> List[str]:
         if not texts:
@@ -192,8 +201,8 @@ class BrowserTranslator:
 
         print(f"  -> Translating {len(missing_texts)} lines via high-speed browser engine...", flush=True)
 
-        # 2. Run in high-capacity batches of 65 lines using persistent browser
-        batch_size = 65
+        # 2. Run in high-capacity batches of 40 lines using persistent browser
+        batch_size = 40
         translated_all: List[str] = []
 
         browser = self._ensure_browser()
