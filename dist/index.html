@@ -210,6 +210,11 @@
           </button>
         </div>
 
+        <button onclick="openDmcaModal()" class="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#161c28] border border-[#1a202c] hover:border-slate-500/50 text-slate-300 hover:text-white transition text-xs" title="DMCA & Legal Notice">
+          <i class="fas fa-shield-alt text-[10px] text-emerald-400"></i>
+          <span id="navDmcaTxt" class="font-medium text-[11px]">DMCA</span>
+        </button>
+
         <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="text-slate-400 hover:text-slate-200 p-2 rounded-xl hover:bg-[#121620] transition border border-transparent hover:border-[#1a202c]" title="GitHub">
           <i class="fab fa-github text-sm"></i>
         </a>
@@ -232,10 +237,14 @@
       </div>
 
       <!-- Top Badges -->
-      <div class="absolute top-4 left-4 sm:left-6 flex items-center space-x-2 z-20">
+      <div class="absolute top-4 left-4 sm:left-6 flex flex-wrap items-center gap-2 z-20">
         <span id="heroEpBadge" class="bg-black/60 backdrop-blur border border-white/10 text-slate-200 text-[11px] font-medium px-2.5 py-1 rounded-md flex items-center space-x-1.5 shadow-sm">
           <i class="far fa-clock text-slate-400"></i>
           <span>Ep 28 • Complete</span>
+        </span>
+        <span id="heroLegalBadge" class="bg-black/60 backdrop-blur border border-emerald-500/30 text-emerald-400 text-[10px] font-medium px-2 py-1 rounded-md flex items-center space-x-1 shadow-sm">
+          <i class="fas fa-shield-alt text-[9px]"></i>
+          <span id="heroLegalBadgeTxt">Тек мәтіндік субтитрлер • Видео сақталмайды</span>
         </span>
       </div>
 
@@ -288,8 +297,8 @@
             <span id="heroDetailsTxt">Толығырақ</span>
           </button>
           <button id="heroWatchBtn" onclick="openHeroModal()" class="px-5 py-2 rounded-xl bg-slate-200 hover:bg-white text-slate-900 text-xs font-bold transition flex items-center space-x-1.5 shadow-lg shadow-white/5 active:scale-95">
-            <i class="fas fa-play text-xs"></i>
-            <span id="heroWatchTxt">Субтитрлер</span>
+            <i class="fas fa-closed-captioning text-xs text-slate-900"></i>
+            <span id="heroWatchTxt">Субтитрлерді алу</span>
           </button>
         </div>
 
@@ -494,10 +503,25 @@
               <span id="sidebarReqVal" class="text-emerald-400 font-medium">@ikymory су белгісі сақталуы тиіс</span>
             </div>
           </div>
-          <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh#license" target="_blank" 
-            class="inline-flex items-center space-x-1 text-xs text-slate-400 hover:text-white transition font-medium">
-            <span>Лицензия шарттары &rarr;</span>
-          </a>
+          <div class="p-2.5 rounded-xl bg-emerald-950/20 border border-emerald-900/40 space-y-1 text-[11px]">
+            <div class="flex items-center space-x-1.5 text-emerald-400 font-medium">
+              <i class="fas fa-check-shield text-xs"></i>
+              <span id="sidebarSafeTitle">100% Заңды және Қауіпсіз</span>
+            </div>
+            <p id="sidebarSafeDesc" class="text-slate-400 text-[10px] leading-relaxed">
+              Видео, аудио немесе стриминг сақталмайды. Тек қана мәтіндік субтитр аудармалары (SRT, VTT, ASS).
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-1">
+            <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh#license" target="_blank" 
+              class="inline-flex items-center space-x-1 text-xs text-slate-400 hover:text-white transition font-medium">
+              <span>Лицензия &rarr;</span>
+            </a>
+            <button onclick="openDmcaModal()" class="text-xs text-slate-400 hover:text-emerald-400 transition font-medium flex items-center space-x-1">
+              <i class="fas fa-shield-alt text-[10px]"></i>
+              <span id="sidebarDmcaBtn">DMCA & Legal</span>
+            </button>
+          </div>
         </div>
 
         <!-- SECTION 4: FAQ (Clean Expandable Details) -->
@@ -617,6 +641,84 @@
     </div>
   </div>
 
+  
+  <!-- DMCA & Anti-Piracy Policy Interactive Modal -->
+  <div id="dmcaModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="bg-[#0f121a] border border-[#1a202c] w-full max-w-2xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-150">
+      
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-[#181e2b] flex items-center justify-between bg-[#121620]">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-8 h-8 rounded-xl bg-emerald-950/60 border border-emerald-800/60 flex items-center justify-center text-emerald-400 text-sm">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div>
+            <h3 id="dmcaModalHeading" class="text-sm font-bold text-white tracking-tight">DMCA Саясаты және Анти-пираттық мәлімдеме</h3>
+            <p id="dmcaModalSubHeading" class="text-[10px] text-slate-400 font-mono">17 U.S.C. § 512(c) & § 107 Safe Harbor сәйкестігі</p>
+          </div>
+        </div>
+        <button onclick="closeDmcaModal()" class="w-7 h-7 rounded-lg bg-[#181e2b] hover:bg-[#202738] text-slate-400 hover:text-white flex items-center justify-center text-xs transition">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-6 overflow-y-auto space-y-4 text-xs text-slate-300 leading-relaxed">
+        
+        <div class="p-3.5 rounded-xl bg-[#141824] border border-[#1f283a] space-y-2">
+          <div class="flex items-center space-x-2 text-emerald-400 font-semibold text-xs">
+            <i class="fas fa-check-circle"></i>
+            <span id="dmcaP1Title">1. Видео/Аудио файлдар мүлдем сақталмайды (Zero Multimedia Guarantee)</span>
+          </div>
+          <p id="dmcaP1Desc" class="text-[11px] text-slate-300">
+            Бұл портал мен репозиторий тек ашық мәтіндік субтитр аудармаларын (.srt, .vtt, .ass) және метадеректерді қамтиды. Серверде ешқандай видео (.mp4, .mkv), аудио (.mp3, .flac) немесе стрим (.m3u8, .mpd) файлдары сақталмайды немесе тасымалданбайды.
+          </p>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-[#141824] border border-[#1f283a] space-y-2">
+          <div class="flex items-center space-x-2 text-cyan-400 font-semibold text-xs">
+            <i class="fas fa-universal-access"></i>
+            <span id="dmcaP2Title">2. Инклюзивтілік және Әділ пайдалану (Fair Use & Accessibility)</span>
+          </div>
+          <p id="dmcaP2Desc" class="text-[11px] text-slate-300">
+            Бұл жоба 17 U.S.C. § 107 (Fair Use) халықаралық құқығына сай келеді. Субтитрлер Қазақстан Республикасындағы есту қабілеті шектеулі жандарға (DHH) қолжетімділік жасау және қазақ тілінің лингвистикалық қорын молайту мақсатында коммерциялық емес сипатта жасалған.
+          </p>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-[#141824] border border-[#1f283a] space-y-2">
+          <div class="flex items-center space-x-2 text-amber-400 font-semibold text-xs">
+            <i class="fas fa-balance-scale"></i>
+            <span id="dmcaP3Title">3. DMCA Safe Harbor және Шағым беру тәртібі (Notice & Takedown)</span>
+          </div>
+          <p id="dmcaP3Desc" class="text-[11px] text-slate-300">
+            Егер авторлық құқық иегері нақты мәтіндік субтитр құқығымды бұзады деп есептесе, 17 U.S.C. § 512(c) талаптарына сәйкес біз 24-48 сағат ішінде шағымды қарап, материалды алып тастауға кепілдік береміз.
+          </p>
+          <div class="mt-2 pt-2 border-t border-[#1e2536] flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-[11px]">
+            <span class="text-slate-400">Ресми DMCA байланыс поштасы:</span>
+            <a href="mailto:ikymory.dmca@proton.me" class="font-mono text-emerald-400 hover:underline">ikymory.dmca@proton.me</a>
+          </div>
+        </div>
+
+        <div class="p-3 rounded-xl bg-[#0c0e14] border border-[#161a24] text-[11px] text-slate-400">
+          <span class="font-medium text-slate-300">Сауда белгілері мен атаулар:</span> Барлық аниме атаулары мен суреттер олардың түпнұсқалық авторларына және студияларына (Toei, MAPPA, Ufotable, Bones, Ghibli т.б.) тиесілі. Олар тек сәйкестендіру мақсатында (nominative fair use) қолданылады.
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-[#181e2b] bg-[#0c0e14] flex items-center justify-between">
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/DMCA.md" target="_blank" class="text-xs text-slate-400 hover:text-white transition flex items-center space-x-1.5">
+          <i class="fas fa-file-contract"></i>
+          <span>Толық DMCA.md құжаты &rarr;</span>
+        </a>
+        <button onclick="closeDmcaModal()" class="px-4 py-1.5 rounded-xl bg-[#161c28] hover:bg-[#1c2434] text-slate-200 border border-[#1f2838] text-xs font-semibold transition">
+          Түсінікті
+        </button>
+      </div>
+
+    </div>
+  </div>
+
   <!-- Toast Notification -->
   <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-16 opacity-0 transition-all duration-300 pointer-events-none">
     <div class="bg-[#161c28] border border-[#232b3e] text-slate-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center space-x-2">
@@ -633,8 +735,12 @@
         <span>&bull;</span>
         <span id="footerLicense">Лицензия</span>: Creative Commons Attribution 4.0 International (CC BY 4.0)
       </div>
-      <div id="footerSub" class="text-[11px] text-slate-600">
-        Қазақша аниме субтитрлер архиві &bull; 347 Франшиза (3,462 Бөлім) &bull; ikymory (@ikymory)
+      <div class="flex items-center space-x-3 text-[11px] text-slate-500">
+        <button onclick="openDmcaModal()" class="text-slate-400 hover:text-white transition underline underline-offset-4 decoration-slate-700">DMCA & Legal Statement</button>
+        <span>&bull;</span>
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/DMCA.md" target="_blank" class="text-slate-400 hover:text-white transition">Policy (DMCA.md)</a>
+        <span>&bull;</span>
+        <span id="footerSub">347 Франшиза (3,462 Бөлім) &bull; ikymory (@ikymory)</span>
       </div>
     </div>
   </footer>
@@ -777,7 +883,19 @@
         no_results: "Ешқандай аниме табылмады",
         no_results_sub: "Сүзгілерді тазартып қайта көріңіз",
         details_btn: "Толығырақ",
-        watch_btn: "Субтитрлер"
+        watch_btn: "Субтитрлерді алу",
+        hero_legal_badge: "Тек мәтіндік субтитрлер • Видео сақталмайды",
+        sidebar_safe_title: "100% Заңды және Қауіпсіз",
+        sidebar_safe_desc: "Видео, аудио немесе стриминг сақталмайды. Тек қана мәтіндік субтитр аудармалары (SRT, VTT, ASS).",
+        dmca_nav: "DMCA",
+        dmca_heading: "DMCA Саясаты және Анти-пираттық мәлімдеме",
+        dmca_subheading: "17 U.S.C. § 512(c) & § 107 Safe Harbor сәйкестігі",
+        dmca_p1_title: "1. Видео/Аудио файлдар мүлдем сақталмайды (Zero Multimedia Guarantee)",
+        dmca_p1_desc: "Бұл портал мен репозиторий тек ашық мәтіндік субтитр аудармаларын (.srt, .vtt, .ass) және метадеректерді қамтиды. Серверде ешқандай видео (.mp4, .mkv), аудио (.mp3, .flac) немесе стрим (.m3u8, .mpd) файлдары сақталмайды немесе тасымалданбайды.",
+        dmca_p2_title: "2. Инклюзивтілік және Әділ пайдалану (Fair Use & Accessibility)",
+        dmca_p2_desc: "Бұл жоба 17 U.S.C. § 107 (Fair Use) халықаралық құқығына сай келеді. Субтитрлер Қазақстан Республикасындағы есту қабілеті шектеулі жандарға (DHH) қолжетімділік жасау және қазақ тілінің лингвистикалық қорын молайту мақсатында коммерциялық емес сипатта жасалған.",
+        dmca_p3_title: "3. DMCA Safe Harbor және Шағым беру тәртібі (Notice & Takedown)",
+        dmca_p3_desc: "Егер авторлық құқық иегері нақты мәтіндік субтитр құқығымды бұзады деп есептесе, 17 U.S.C. § 512(c) талаптарына сәйкес біз 24-48 сағат ішінде шағымды қарап, материалды алып тастауға кепілдік береміз." 
       },
       en: {
         nav_home: "Home",
@@ -840,7 +958,19 @@
         no_results: "No anime found matching your query",
         no_results_sub: "Try resetting filters or search keywords",
         details_btn: "Details",
-        watch_btn: "Subtitles"
+        watch_btn: "Download Subtitles",
+        hero_legal_badge: "Plain Text Subtitles Only • Zero Video Hosting",
+        sidebar_safe_title: "100% Legal & Safe",
+        sidebar_safe_desc: "No video, audio, or media streams hosted. Plain text subtitles only (.srt, .vtt, .ass).",
+        dmca_nav: "DMCA",
+        dmca_heading: "DMCA Policy & Anti-Piracy Statement",
+        dmca_subheading: "Compliance under 17 U.S.C. § 512(c) & § 107 Safe Harbor",
+        dmca_p1_title: "1. Zero Multimedia / Non-Hosting Guarantee",
+        dmca_p1_desc: "This repository and portal strictly host plain text subtitle translation files (.srt, .vtt, .ass) and catalog metadata. Zero video (.mp4, .mkv), audio (.mp3, .flac), or streaming playlists (.m3u8, .mpd) are stored or distributed.",
+        dmca_p2_title: "2. Accessibility & Transformative Fair Use (17 U.S.C. § 107)",
+        dmca_p2_desc: "Maintained for non-commercial educational benefit and accessibility for the Deaf and Hard of Hearing (DHH) community in Kazakhstan, where native Kazakh closed captions are unavailable on licensed physical or digital media.",
+        dmca_p3_title: "3. DMCA Safe Harbor & Expedited Notice Processing",
+        dmca_p3_desc: "We strictly comply with 17 U.S.C. § 512(c) Safe Harbor. Authorized copyright holders may submit removal notices to our Designated Agent for 24-48 hour resolution." 
       },
       ja: {
         nav_home: "ホーム",
@@ -903,7 +1033,19 @@
         no_results: "該当するアニメが見つかりませんでした",
         no_results_sub: "検索条件やフィルターを変更してお試しください",
         details_btn: "詳細情報",
-        watch_btn: "字幕を見る"
+        watch_btn: "字幕ダウンロード",
+        hero_legal_badge: "テキスト字幕のみ • 動画配信なし",
+        sidebar_safe_title: "100% 適法・安全",
+        sidebar_safe_desc: "動画・音声等のマルチメディアは一切ホストしません。プレーンテキスト字幕（SRT/VTT/ASS）のみを公開しています。",
+        dmca_nav: "DMCA",
+        dmca_heading: "DMCAポリシーおよび非海賊版・適法声明",
+        dmca_subheading: "米国法 17 U.S.C. § 512(c) および § 107 準拠",
+        dmca_p1_title: "1. マルチメディア非ホスティング保証（Zero Media Hosting）",
+        dmca_p1_desc: "本リポジトリおよびサイトはテキスト形式の字幕ファイル（.srt, .vtt, .ass）とメタデータのみを提供します。動画ファイル（mp4, mkv）、音声、ストリーミングデータ（m3u8等）は一切保管・配信していません。",
+        dmca_p2_title: "2. 聴覚障害者アクセシビリティおよびフェアユース（17 U.S.C. § 107）",
+        dmca_p2_desc: "本アーカイブは、カザフスタンにおける聴覚障害者（DHH）へのアクセシビリティ提供およびカザフ語言語研究を目的とした非営利教育活動です。",
+        dmca_p3_title: "3. DMCAセーフハーバーおよび迅速な削除申請対応",
+        dmca_p3_desc: "著作権者からの適正な通知受領後、24〜48時間以内に該当字幕ファイルの削除対応を実施いたします。" 
       }
     };
 
@@ -1003,6 +1145,39 @@
 
       document.getElementById('footerLicense').textContent = t.footer_license;
       document.getElementById('footerSub').innerHTML = t.footer_sub;
+
+      const navDmca = document.getElementById('navDmcaTxt');
+      if (navDmca && t.dmca_nav) navDmca.textContent = t.dmca_nav;
+
+      const heroLegal = document.getElementById('heroLegalBadgeTxt');
+      if (heroLegal && t.hero_legal_badge) heroLegal.textContent = t.hero_legal_badge;
+
+      const safeTitle = document.getElementById('sidebarSafeTitle');
+      if (safeTitle && t.sidebar_safe_title) safeTitle.textContent = t.sidebar_safe_title;
+
+      const safeDesc = document.getElementById('sidebarSafeDesc');
+      if (safeDesc && t.sidebar_safe_desc) safeDesc.textContent = t.sidebar_safe_desc;
+
+      const dmcaHeading = document.getElementById('dmcaModalHeading');
+      if (dmcaHeading && t.dmca_heading) dmcaHeading.textContent = t.dmca_heading;
+
+      const dmcaSub = document.getElementById('dmcaModalSubHeading');
+      if (dmcaSub && t.dmca_subheading) dmcaSub.textContent = t.dmca_subheading;
+
+      const p1T = document.getElementById('dmcaP1Title');
+      if (p1T && t.dmca_p1_title) p1T.textContent = t.dmca_p1_title;
+      const p1D = document.getElementById('dmcaP1Desc');
+      if (p1D && t.dmca_p1_desc) p1D.textContent = t.dmca_p1_desc;
+
+      const p2T = document.getElementById('dmcaP2Title');
+      if (p2T && t.dmca_p2_title) p2T.textContent = t.dmca_p2_title;
+      const p2D = document.getElementById('dmcaP2Desc');
+      if (p2D && t.dmca_p2_desc) p2D.textContent = t.dmca_p2_desc;
+
+      const p3T = document.getElementById('dmcaP3Title');
+      if (p3T && t.dmca_p3_title) p3T.textContent = t.dmca_p3_title;
+      const p3D = document.getElementById('dmcaP3Desc');
+      if (p3D && t.dmca_p3_desc) p3D.textContent = t.dmca_p3_desc;
 
       renderDropdownMenus();
       updateHeroDisplay(true);
@@ -1427,10 +1602,11 @@
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-30 group-hover:opacity-60 transition"></div>
 
-                <!-- Hover Play Icon -->
+                <!-- Hover Subtitle CC Badge -->
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-200">
-                  <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center text-white text-xs pl-0.5 shadow-xl">
-                    <i class="fas fa-play"></i>
+                  <div class="px-3 py-1.5 rounded-lg bg-black/75 backdrop-blur-md border border-white/25 flex items-center space-x-1.5 text-white text-[11px] font-semibold shadow-xl">
+                    <i class="fas fa-closed-captioning text-emerald-400 text-xs"></i>
+                    <span class="tracking-wide">SUBTITLES</span>
                   </div>
                 </div>
               </div>
@@ -1545,7 +1721,29 @@
     // -------------------------------------------------------------
     // INTERACTIVE EPISODE MODAL
     // -------------------------------------------------------------
-    async function openModal(slug) {
+    async 
+    function openDmcaModal() {
+      const modal = document.getElementById('dmcaModal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeDmcaModal() {
+      const modal = document.getElementById('dmcaModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      const modal = document.getElementById('dmcaModal');
+      if (modal && e.target === modal) closeDmcaModal();
+    });
+
+    function openModal(slug) {
       const modal = document.getElementById('animeModal');
       modal.classList.remove('hidden');
       document.body.style.overflow = 'hidden';
