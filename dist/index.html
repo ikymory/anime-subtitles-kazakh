@@ -343,25 +343,9 @@
       </div>
     </div>
 
-    <!-- 2. HORIZONTAL GENRE STRIP -->
-    <div class="flex items-center space-x-2 overflow-x-auto pb-1 pt-1 hide-scrollbar">
-      <button onclick="filterGenre('')" class="shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">
-        Барлығы
-      </button>
-      <button onclick="filterGenre('Action')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Action</button>
-      <button onclick="filterGenre('Adventure')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Adventure</button>
-      <button onclick="filterGenre('Comedy')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Comedy</button>
-      <button onclick="filterGenre('Drama')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Drama</button>
-      <button onclick="filterGenre('Fantasy')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Fantasy</button>
-      <button onclick="filterGenre('Horror')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Horror</button>
-      <button onclick="filterGenre('Mystery')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Mystery</button>
-      <button onclick="filterGenre('Psychological')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Psychological</button>
-      <button onclick="filterGenre('Romance')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Romance</button>
-      <button onclick="filterGenre('Sci-Fi')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Sci-Fi</button>
-      <button onclick="filterGenre('Slice of Life')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Slice of Life</button>
-      <button onclick="filterGenre('Sports')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Sports</button>
-      <button onclick="filterGenre('Supernatural')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Supernatural</button>
-      <button onclick="filterGenre('Thriller')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Thriller</button>
+    <!-- 2. HORIZONTAL GENRE STRIP (Multilingual: KK, EN, JA) -->
+    <div id="horizontalGenreStrip" class="flex items-center space-x-2 overflow-x-auto pb-1 pt-1 hide-scrollbar">
+      <!-- Rendered dynamically via JS based on currentLang -->
     </div>
 
     <!-- 3. INLINE FILTER STRIP (Custom Stylized Dropdowns That All Work) -->
@@ -576,7 +560,7 @@
         
         <!-- Left: Back Button & Title breadcrumb -->
         <div class="flex items-center space-x-3 min-w-0">
-          <button onclick="closeModal()" class="flex items-center space-x-2 px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] hover:border-slate-500/50 text-slate-200 hover:text-white text-xs font-semibold transition active:scale-95 shadow-sm">
+          <button id="modalBackBtn" onclick="closeModal()" class="flex items-center space-x-2 px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] hover:border-slate-500/50 text-slate-200 hover:text-white text-xs font-semibold transition active:scale-95 shadow-sm">
             <i class="fas fa-arrow-left text-xs text-slate-400"></i>
             <span id="modalBackBtnTxt">Артқа</span>
           </button>
@@ -934,28 +918,292 @@
     // Hero carousel list (will be populated dynamically with ALL anime with high-quality AniList banners)
     let featuredHeroMeta = [];
     let currentHeroIndex = 0;
+    let currentModalSlug = null;
     const fallbackCover = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&auto=format&fit=crop&q=80';
+
+    // Multilingual Genre Master Map (KK, EN, JA)
+    const GENRE_MAP = {
+      'Action': { kk: 'Экшн', en: 'Action', ja: 'アクション' },
+      'Adventure': { kk: 'Шытырман', en: 'Adventure', ja: '冒険' },
+      'Comedy': { kk: 'Комедия', en: 'Comedy', ja: 'コメディ' },
+      'Drama': { kk: 'Драма', en: 'Drama', ja: 'ドラマ' },
+      'Fantasy': { kk: 'Фэнтези', en: 'Fantasy', ja: 'ファンタジー' },
+      'Horror': { kk: 'Қорқынышты', en: 'Horror', ja: 'ホラー' },
+      'Mystery': { kk: 'Детектив', en: 'Mystery', ja: 'ミステリー' },
+      'Psychological': { kk: 'Психологиялық', en: 'Psychological', ja: '心理' },
+      'Romance': { kk: 'Романтика', en: 'Romance', ja: '恋愛' },
+      'Sci-Fi': { kk: 'Ғылыми фантастика', en: 'Sci-Fi', ja: 'SF' },
+      'Slice of Life': { kk: 'Күнделікті өмір', en: 'Slice of Life', ja: '日常' },
+      'Sports': { kk: 'Спорт', en: 'Sports', ja: 'スポーツ' },
+      'Supernatural': { kk: 'Тылсым күш', en: 'Supernatural', ja: '超自然' },
+      'Thriller': { kk: 'Триллер', en: 'Thriller', ja: 'サスペンス' },
+      'Mecha': { kk: 'Меха', en: 'Mecha', ja: 'メカ' },
+      'Ecchi': { kk: 'Этти', en: 'Ecchi', ja: 'エッチ' },
+      'Music': { kk: 'Музыка', en: 'Music', ja: '音楽' },
+      'Mahou Shoujo': { kk: 'Сиқыршы қыздар', en: 'Magical Girl', ja: '魔法少女' },
+      'Historical': { kk: 'Тарихи', en: 'Historical', ja: '歴史' },
+      'Anime': { kk: 'Аниме', en: 'Anime', ja: 'アニメ' }
+    };
+
+    function getLocalizedGenre(genre, lang = currentLang) {
+      if (!genre) return '';
+      const mapped = GENRE_MAP[genre];
+      if (mapped && mapped[lang]) return mapped[lang];
+      if (mapped && mapped.en) return mapped.en;
+      return genre;
+    }
+
+    // Curated Multilingual Anime Descriptions (KK, EN, JA)
+    const LOCALIZED_DESCRIPTIONS = {
+      'frieren': {
+        kk: 'Эльф сиқыршысы Фрирен Жын әміршісін жеңгеннен кейін адамзат жүрегін түсіну және достарының соңғы аманатын орындау үшін жаңа саяхатқа шығады.',
+        en: 'The adventure is over, but life goes on for elf mage Frieren as she embarks on a journey to understand humanity and honor her fallen companions.',
+        ja: '魔王を討伐した勇者一行のその後を描くファンタジー。長命なエルフのフリーレンが、人の心を知るための新たな旅に出る。'
+      },
+      'aot': {
+        kk: 'Адамзат алып титандардан қорғану үшін биік қабырғалар ішінде өмір сүреді. Эрен Йегер бостандыққа қол жеткізу үшін қатерлі күреске түседі.',
+        en: 'Centuries ago, mankind was slaughtered by monstrous titans. Now Eren Jaeger vows to wipe them out and reclaim freedom.',
+        ja: '巨人がすべてを支配する世界。エレン・イェーガーは母を奪った巨人を駆逐し、自由を掴むため調査兵団へと入団する。'
+      },
+      'aot-final': {
+        kk: 'Титандар шабуылының ақтық кезеңі: Эрен Йегер бүкіл әлемге қарсы алапат Дүмпуді (Rumbling) бастап, достары оны тоқтатуға мәжбүр болады.',
+        en: 'The apocalyptic climax of Attack on Titan: Eren Jaeger unleashes the Rumbling upon the world, forcing former comrades to stop him.',
+        ja: '進撃の巨人完結編。世界を滅ぼす地鳴らしを発動したエレンと、かつての仲間たちによる最後の決戦。'
+      },
+      'jjk-s2': {
+        kk: 'Сатору Годжо мен Сугуру Гетоның өткен өміріндегі құпиялар ашылып, қазіргі Сибуя көшелерінде қарғыс атқан алапат шайқас бұрқ ете қалады.',
+        en: 'The tragic past of Satoru Gojo and Suguru Geto unravels, leading directly into the catastrophic Halloween clash within Shibuya.',
+        ja: '五条悟と夏油傑の高専時代の過去、そしてハロウィンの渋谷で呪術師と呪詛師による未曾有の呪い合いが勃発する。'
+      },
+      'csm': {
+        kk: 'Дэнджи мен Резе арасындағы тылсым таныстық қауіпті құпиялар мен жарылысқа толы алапат шайқасқа ұласады.',
+        en: 'Denji falls for the enigmatic Reze, unaware that their blooming romance is caught in a lethal web of international devil assassins.',
+        ja: 'デンジと謎の少女レゼの切ない出会い。恋と爆弾が交錯する、チェンソーマン劇場版レゼ篇。'
+      },
+      'solo-leveling': {
+        kk: 'Ең әлсіз Е-дәрежелі аңшы Сон Джин-у құпия жүйенің арқасында шексіз күшке ие болып, жалғыз өзі деңгейін көтеруді бастайды.',
+        en: 'The world\'s weakest E-rank hunter Sung Jinwoo discovers a mysterious quest log that unlocks limitless power and solo leveling.',
+        ja: '人類最弱兵器と呼ばれたE級ハンター水篠旬が、自分だけに視えるデイリークエストを通じて絶対の最強へと覚醒する。'
+      },
+      'kny-mugen-train': {
+        kk: 'Танджиро мен Жалын Хаширасы Кёджуро Ренгоку Шекарасыз Пойызда жасырынған ажал құштыратын жынмен шайқасады.',
+        en: 'Tanjiro, Nezuko, and Flame Hashira Kyojuro Rengoku board the Infinity Train to confront a lethal dream-weaving demon.',
+        ja: '無限列車を舞台に、炎柱・煉獄杏寿郎と共に炭治郎たちが下弦の壱・魘夢と上弦の参・猗窩座に立ち向かう。'
+      },
+      'bleach-thousand-year-blood-war': {
+        kk: 'Мың жылдық қасіретті соғыс: Квинсилердің көне патшасы Яхвач Оянған Рухтар Әлеміне жойқын шабуыл жасайды.',
+        en: 'The Thousand-Year Blood War erupts as the ancient Quincy king Yhwach leads an overwhelming assault against the Soul Society.',
+        ja: '千年に及ぶ死神と滅却師の宿業の戦い。ユーハバッハ率いる見えざる帝国が瀞霊廷を蹂躙する。'
+      },
+      'hxh': {
+        kk: 'Гон Фрикс әкесін табу және әлемнің ең қауіпті құпияларын тану үшін Аңшы емтиханынан өтуге аттанады.',
+        en: 'Gon Freecss embarks on a dangerous journey to become a licensed Hunter in hopes of locating his elusive father.',
+        ja: '偉大なハンターである父ジンの背中を追い、故郷を旅立った少年ゴン・フリークスの果てしない冒険。'
+      },
+      'jojo-steel-ball-run': {
+        kk: 'Америка құрлығын кесіп өтетін 6000 шақырымдық ат жарысы және киелі мәйіт бөлшектері үшін тартысты күрес.',
+        en: 'A grueling 6,000 km cross-continent horse race across 1890 America spirals into a high-stakes clash for sacred relics.',
+        ja: '1890年の北米大陸を横断する超過酷な乗馬レース『SBR』。聖なる遺体を巡る壮絶なスタンドバトル。'
+      },
+      'steins-gate': {
+        kk: 'Өзін есінен алжасқан ғалым атайтын Окабе Ринтаро байқаусызда өткенге хабарлама жіберетін құрылғы ойлап тауып, тағдыр сызығын өзгертеді.',
+        en: 'Mad scientist Rintaro Okabe invents a microwave that sends text messages back in time, triggering catastrophic butterfly effects.',
+        ja: '過去へメールを送れるタイムマシンを偶然開発した岡部倫太郎が、仲間を救うため過酷な世界線を彷徨う。'
+      },
+      'vinland-saga': {
+        kk: 'Әкесінің кегін қуған жас Торфинн викингиялық қанды соғыстарды көріп, соғыссыз бейбіт ел — Винландты іздейді.',
+        en: 'Consumed by vengeance against his father\'s killer, young Thorfinn journeys through brutal Viking wars searching for true peace.',
+        ja: '最強の戦士だった父を失ったトルフィン。復讐に囚われた少年が、争いのない安住の地ヴィンランドを求める。'
+      },
+      'your-name': {
+        kk: 'Токиолық жігіт Таки мен ауылдық қыз Мицуха түсінде денелерін ауыстырып, уақыт пен кеңістікті кесіп өтетін тағдырлы байланыс табады.',
+        en: 'High schoolers Taki and Mitsuha mysteriously swap bodies across time and distance, racing to avert a looming cosmic tragedy.',
+        ja: '東京に暮らす男子高校生・瀧と、山深い町で暮らす女子高校生・三葉。夢の中で入れ替わる二人の奇跡の物語。'
+      },
+      'spirited-away': {
+        kk: 'Он жасар Тихиро ата-анасын құтқару үшін рухтар мен құдайлар әлеміндегі моншада еңбек етуге мәжбүр болады.',
+        en: 'Ten-year-old Chihiro wanders into an enchanted bathhouse for spirits, struggling to rescue her cursed parents.',
+        ja: '八百万の神々が通う湯屋へと迷い込んだ少女千尋が、名前を奪われながらも愛と勇気で運命を切り拓く。'
+      },
+      'silent-voice': {
+        kk: 'Бала кезінде саңырау сыныптасын мазақтаған Шоя мектепті бітірерде өз кінәсін өтеп, Шокодан кешірім сұрауға бекінеді.',
+        en: 'Haunted by his childhood bullying of a deaf classmate, Shoya Ishida seeks out Shoko Nishimiya to ask for redemption.',
+        ja: '退屈を嫌っていた少年・石田将也と、聴覚障害を持つ転校生・西宮硝子。不器用な少年少女の心の再生を描く名作。'
+      },
+      'a-silent-voice': {
+        kk: 'Бала кезінде саңырау сыныптасын мазақтаған Шоя мектепті бітірерде өз кінәсін өтеп, Шокодан кешірім сұрауға бекінеді.',
+        en: 'Haunted by his childhood bullying of a deaf classmate, Shoya Ishida seeks out Shoko Nishimiya to ask for redemption.',
+        ja: '退屈を嫌っていた少年・石田将也と、聴覚障害を持つ転校生・西宮硝子。不器用な少年少女の心の再生を描く名作。'
+      },
+      'suzume': {
+        kk: 'Жапонияның түкпір-түкпіріндегі апат тудыратын тылсым есіктерді жабу үшін саяхатқа шыққан Сузуме мен Сотаның хикаясы.',
+        en: 'Seventeen-year-old Suzume teams up with a mysterious young traveler to close enchanted doors preventing calamity across Japan.',
+        ja: '日本各地の廃墟に現れる災いの扉を閉めるため、女子高生すずめが「閉じ師」の草太と共に旅立つロードムービー。'
+      },
+      'violet-evergarden': {
+        kk: 'Соғыс құралы ретінде тәрбиеленген Вайолет Эвергарден хат жазушы болып, өзіне айтылған «Мен сені сүйемін» сөзінің мәнін іздейді.',
+        en: 'Former child soldier Violet Evergarden becomes an Auto Memory Doll, writing emotional letters to learn the meaning of love.',
+        ja: '感情を持たない元少女兵ヴァイオレットが、手紙の代筆業を通じて愛の言葉の意味を知る感動作。'
+      },
+      'dan-da-dan': {
+        kk: 'Рухтарға сенетін Момо мен өзге ғаламшарлықтарға сенетін Окарун тылсым күштерге тап болып, еріксіз серіктес болады.',
+        en: 'A ghost-believing girl and an alien-obsessed nerd clash with bizarre curses and extraterrestrial horrors in high-octane occult chaos.',
+        ja: '幽霊を信じる女子高生モモと宇宙人を信じるオカルン。未知の脅威と怪異が交錯するオカルティック青春怪奇バトル。'
+      },
+      'blue-lock-tv': {
+        kk: 'Әлем кубогын жеңу үшін Жапония ең үздік жалғыз сұрмергенді табу мақсатында 300 жас шабуылшыны «Блю Лок» түрмесіне жинайды.',
+        en: 'Japan gathers 300 elite high school strikers into the ruthless Blue Lock facility to forge the ultimate self-absorbed goalscorer.',
+        ja: '日本サッカー界の悲願であるW杯優勝のため、300名の高校生FWを集めた究極のサバイバルプロジェクト。'
+      },
+      'dr-stone-tv': {
+        kk: 'Бүкіл адамзат тасқа айналғаннан кейін 3700 жыл өткен соң, кемеңгер ғалым Сэнку ғылымның күшімен өркениетті қайта құруға кіріседі.',
+        en: 'Awakening 3,700 years after a mysterious flash petrifies humanity, teenage prodigy Senku uses science to rebuild civilization.',
+        ja: '全人類が石化してから数千年。超人的な頭脳を持つ科学少年・千空が、ゼロから文明を復興させる。'
+      },
+      'delicious-in-dungeon-tv': {
+        kk: 'Қауіпті зынданда аждаһа жұтып қойған қарындасын құтқару үшін Лайос тобы жергілікті құбыжықтардан дәмді тағамдар әзірлейді.',
+        en: 'Racing to rescue his sister from a red dragon, knight Laios and his party survive deep inside the dungeon by cooking monsters.',
+        ja: 'ダンジョンの深層でレッドドラゴンに食べられた妹ファリンを救うため、魔物を食べて自給自足しながら進む。'
+      },
+      'cyberpunk-edgerunners': {
+        kk: 'Найт-Ситидің қатал көшелерінде аман қалу үшін Дэвид Мартинес өз денесін заманауи кибернетикалық қаруға айналдырып, заңнан тыс мердігер болады.',
+        en: 'Street kid David Martinez modifies his body with experimental cyberware to survive the chrome-soaked violence of Night City.',
+        ja: 'すべてを失った少年デイビッドが、伝説を求めてサイバーパンクの傭兵「エッジランナー」として疾走する。'
+      },
+      'bocchi-the-rock': {
+        kk: 'Адамдармен сөйлесуден қорқатын Хитори Гото гитарада керемет ойнайды және кездейсоқ рок тобының мүшесі атанады.',
+        en: 'Extreme social introvert Hitori Gotou channels her loneliness into virtuoso guitar play, landing an invite to join an indie band.',
+        ja: '極度の人見知りな少女・後藤ひとりが、下北沢の結束バンドの一員としてステージに立つ青春音楽譚。'
+      },
+      'bocchi-the-rock-tv': {
+        kk: 'Адамдармен сөйлесуден қорқатын Хитори Гото гитарада керемет ойнайды және кездейсоқ рок тобының мүшесі атанады.',
+        en: 'Extreme social introvert Hitori Gotou channels her loneliness into virtuoso guitar play, landing an invite to join an indie band.',
+        ja: '極度の人見知りな少女・後藤ひとりが、下北沢の結束バンドの一員としてステージに立つ青春音楽譚。'
+      },
+      'mob-psycho-100': {
+        kk: 'Шексіз тылсым күшке ие қарапайым мектеп оқушысы Моб өзінің 100%-дық эмоционалдық жарылысын тежеуге тырысады.',
+        en: 'Eighth-grader Shigeo "Mob" Kageyama possesses godlike psychic powers, striving for a normal life while containing his emotional countdown.',
+        ja: '超能力を持ちながらも普通の生活を望む中学生モブ。感情が100%に達した時、規格外の力が爆発する。'
+      },
+      'odd-taxi': {
+        kk: 'Токиолық қарапайым морж-таксист Одокава жоғалған қыз туралы іс пен қалалық қылмыс топтарының қақтығысына араласып кетеді.',
+        en: 'Cynical walrus cab driver Odokawa finds his mundane nightly passengers entwined in a sinister missing-girl mystery.',
+        ja: '変わり者のタクシー運転手・小戸川と、彼が乗せる乗客たちの会話が、練馬区女子高生失踪事件へと交錯する。'
+      },
+      'serial-experiments-lain': {
+        kk: 'Жасөспірім Лэйн сыныптасының өлімінен кейін "Wired" ғаламдық желісіне еніп, шындық пен цифрлық болмыстың шекарасын жоғалтады.',
+        en: 'After a deceased classmate emails her, quiet schoolgirl Lain dives deep into the Wired, dissolving the boundary of reality.',
+        ja: '死んだはずの同級生からのメール。少女レインが仮想空間「ワイヤード」の深淵に触れ、存在の境界線が揺らぐ。'
+      },
+      'ping-pong-the-animation': {
+        kk: 'Үстел теннисін шексіз сүйетін Пеко мен оны жай ермек санайтын Смайлдың спорттық және рухани өсу жолындағы тағдырлы шайқастары.',
+        en: 'Lifelong friends Peko and Smile navigate the grueling pressure, ambition, and philosophy of high school table tennis.',
+        ja: '卓球に青春を懸けるペコとスマイル。才能と努力、友情が激しく交錯する松本大洋原作の傑作アニメ。'
+      },
+      'gintama': {
+        kk: 'Аманто өзге ғаламшарлықтары жаулап алған Эдо қаласында көне самурай Гинтоки кез келген тапсырысты орындайтын «Йорозуя» агенттігін басқарады.',
+        en: 'In an alternate Edo colonized by alien Amanto, eccentric silver-haired samurai Gintoki Sakata runs an odd-jobs agency.',
+        ja: '天人の支配により刀を奪われた侍の町・江戸。銀髪天然パーマの坂田銀時と仲間たちの痛快アクション＆コメディ。'
+      },
+      'fate-zero-tv': {
+        kk: 'Киелі Грааль кубогы үшін жеті сиқыршы аңыздан шыққан көне қаһармандарды шақырып, өлімге толы Қасиетті Соғысқа кіріседі.',
+        en: 'Seven mages summon legendary heroic spirits to wage a vicious, miracle-granting secret war for the Holy Grail.',
+        ja: 'あらゆる奇跡を叶える聖杯を巡り、七人の魔術師と英霊が冬木市で命を削り合う第四次聖杯戦争。'
+      },
+      'apothecary-diaries': {
+        kk: 'Қызыл шамдар көшесінің дәріханашы қызы Маомао император сарайына түсіп, улар мен дәрілер жайлы білімімен сарай құпияларын шешеді.',
+        en: 'Apothecary girl Maomao uses her deep knowledge of poisons and medicine to crack inner court palace intrigues.',
+        ja: '花街育ちの薬師・猫猫が、帝の宮殿で巻き起こる事件の謎を毒の知識で解き明かす後宮ミステリー。'
+      },
+      'cowboy-bebop': {
+        kk: '2071 жылы Күн жүйесінің кеңістігінде «Бибоп» кемесімен жүйткіген Спайк Шпигель мен басқа аңшылар бағалы қашқындарды аулайды.',
+        en: 'In 2071, easygoing bounty hunter Spike Spiegel and his misfit crew scour the solar system aboard the Bebop.',
+        ja: '賞金首を追って宇宙を翔けるスパイクと仲間たち。ジャズの調べに乗せて描かれるハードボイルドSFの金字塔。'
+      },
+      'made-in-abyss': {
+        kk: 'Жердің тереңіне бойлаған алып үңгір Тұңғиық (Abyss) құпиясын ашу үшін Рико мен робот-бала Рег қауіпті сапарға аттанады.',
+        en: 'Orphan girl Riko and robot boy Reg descend into the lethal, unfathomable depths of the mysterious chasm known as the Abyss.',
+        ja: '深淵の底に眠る秘密を求め、少女リコと記憶喪失のロボット・レグが二度と帰れぬアビスへの大冒険に挑む。'
+      },
+      'first-slam-dunk': {
+        kk: 'Сёхоку мектебінің ойын жүргізушісі Рёта Мияги мен оның командасы ұлттық чемпионатта аты аңызға айналған Санно командасына қарсы ойнайды.',
+        en: 'Point guard Ryota Miyagi and the Shohoku High basketball team clash with reigning champions Sannoh Kogyo at the Inter-High.',
+        ja: '湘北高校バスケ部の司令塔・宮城リョータの過去と、インターハイ王者・山王工業との激闘を描く劇場版アニメーション。'
+      },
+      'howl-s-moving': {
+        kk: 'Мыстанның қарғысымен кемпірге айналған Софи сиқыршы Хаулдың жүріп тұратын сиқырлы қамалына келіп, өз тағдыры үшін күреседі.',
+        en: 'Cursed into an elderly woman by a vengeful witch, Sophie finds shelter in the whimsical walking castle of the wizard Howl.',
+        ja: '魔女の呪いで老婆に変えられた少女ソフィーが、魔法使いハウルの動く城で暮らしながら真の愛を見つけていく。'
+      },
+      'grave-fireflies': {
+        kk: 'Екінші дүниежүзілік соғыстың қасіреті: Сейта мен оның кішкентай қарындасы Сецуконың өмір сүру үшін күресі жайлы жүрек тебірентерлік хикая.',
+        en: 'The devastating tragedy of orphaned siblings Seita and Setsuko struggling to survive in war-torn Japan during World War II.',
+        ja: '第二次世界大戦末期の日本。親を失った兄妹の清太と節子が、過酷な時代を懸命に生き抜こうとする感動作。'
+      },
+      'akira': {
+        kk: 'Үшінші дүниежүзілік соғыстан кейінгі Нео-Токио: байкер Канеда мен шексіз телекинетикалық күшке ие болған досы Тэцуоның арасындағы шайқас.',
+        en: 'In post-apocalyptic Neo-Tokyo, biker Kaneda fights to save his friend Tetsuo, whose awakening psychic powers threaten total destruction.',
+        ja: '第三次世界大戦から復興したネオ東京。強大な超能力に覚醒した鉄雄と、金田たち暴走族の運命が交錯するサイバーパンクの金字塔。'
+      },
+      'eva': {
+        kk: 'Жұмбақ «Періштелер» шабуылынан адамзатты қорғау үшін 14 жасар Синдзи Икари алып биомеханикалық Ева-01 роботын басқаруға мәжбүр болады.',
+        en: 'Fourteen-year-old Shinji Ikari is drafted to pilot the giant biomechanical Evangelion Unit-01 against cataclysmic Angels.',
+        ja: '使徒と呼ばれる謎の生命体に対抗すべく、汎用ヒト型決戦兵器エヴァンゲリオンに乗り込む少年少女たちの苦悩と成長。'
+      }
+    };
+
+    function getAnimeDescription(anime, lang = currentLang) {
+      if (!anime) return '';
+      const slug = anime.slug;
+
+      if (slug && LOCALIZED_DESCRIPTIONS[slug] && LOCALIZED_DESCRIPTIONS[slug][lang]) {
+        return LOCALIZED_DESCRIPTIONS[slug][lang];
+      }
+
+      let rawDesc = anime.description || '';
+      rawDesc = rawDesc.replace(/<[^>]+>/g, '').replace(/\(Source:.*?\)/gi, '').trim();
+
+      const title = getAnimeTitle(anime);
+      const eps = anime.episodes || anime.translated_episodes_count || (anime.format === 'MOVIE' ? 1 : 12);
+      const year = anime.seasonYear || 2024;
+      const localizedGenres = (anime.genres || []).map(g => getLocalizedGenre(g, lang)).filter(Boolean);
+      const genreString = localizedGenres.join(', ');
+
+      if (lang === 'kk') {
+        if (rawDesc) {
+          return `${title} (${year}) — қазақша толық мәтіндік субтитрлер. Бөлім саны: ${eps}, жанрлары: ${genreString || 'Аниме'}.\n\n${rawDesc}`;
+        }
+        return `${title} (${year}) — қазақша субтитрлері бар каталог. Барлық ${eps} бөліміне толық мәтіндік субтитрлер қолжетімді. Жанрлары: ${genreString || 'Аниме'}.`;
+      }
+
+      if (lang === 'ja') {
+        if (rawDesc) {
+          return `『${title}』(${year}) のカザフ語字幕アーカイブ。全${eps}話収録。ジャンル: ${localizedGenres.join('、') || 'アニメ'}。\n\n${rawDesc}`;
+        }
+        return `『${title}』(${year})。全${eps}話のカザフ語テキスト字幕(.srt / .vtt / .ass)を完全提供。ジャンル: ${localizedGenres.join('、') || 'アニメ'}。`;
+      }
+
+      return rawDesc || `${title} (${year}) — complete Kazakh subtitle archive. ${eps} episodes available with multi-format subtitles.`;
+    }
 
     // Dropdown options configuration
     const dropdownOptions = {
       genre: [
         { value: '', labelKey: 'genres_all', defaultLabel: 'Барлығы' },
-        { value: 'Action', label: 'Action' },
-        { value: 'Adventure', label: 'Adventure' },
-        { value: 'Comedy', label: 'Comedy' },
-        { value: 'Drama', label: 'Drama' },
-        { value: 'Ecchi', label: 'Ecchi' },
-        { value: 'Fantasy', label: 'Fantasy' },
-        { value: 'Horror', label: 'Horror' },
-        { value: 'Mecha', label: 'Mecha' },
-        { value: 'Mystery', label: 'Mystery' },
-        { value: 'Psychological', label: 'Psychological' },
-        { value: 'Romance', label: 'Romance' },
-        { value: 'Sci-Fi', label: 'Sci-Fi' },
-        { value: 'Slice of Life', label: 'Slice of Life' },
-        { value: 'Sports', label: 'Sports' },
-        { value: 'Supernatural', label: 'Supernatural' },
-        { value: 'Thriller', label: 'Thriller' }
+        { value: 'Action' },
+        { value: 'Adventure' },
+        { value: 'Comedy' },
+        { value: 'Drama' },
+        { value: 'Fantasy' },
+        { value: 'Horror' },
+        { value: 'Mystery' },
+        { value: 'Psychological' },
+        { value: 'Romance' },
+        { value: 'Sci-Fi' },
+        { value: 'Slice of Life' },
+        { value: 'Sports' },
+        { value: 'Supernatural' },
+        { value: 'Thriller' }
       ],
       year: [
         { value: '', labelKey: 'year_all', defaultLabel: 'Барлығы' },
@@ -1060,7 +1308,7 @@
         lbl_search: "Search",
         search_ph: "Search anime title...",
         lbl_genres: "Genres",
-        genres_all: "Any",
+        genres_all: "All",
         lbl_year: "Year",
         year_all: "Any",
         year_classic: "Classic (<2000)",
@@ -1292,8 +1540,13 @@
       setText('dmcaP3Title', t.dmca_p3_title);
       setText('dmcaP3Desc', t.dmca_p3_desc);
 
+      renderGenreStrip();
       renderDropdownMenus();
       updateHeroDisplay(true);
+
+      if (currentModalSlug) {
+        openModal(currentModalSlug, true);
+      }
 
       if (animeData.length > 0) {
         renderSidebarMovies(animeData);
@@ -1301,6 +1554,26 @@
         renderTopRated(animeData);
         renderCurrentPage();
       }
+    }
+
+    function renderGenreStrip() {
+      const strip = document.getElementById('horizontalGenreStrip');
+      if (!strip) return;
+      const opts = dropdownOptions.genre;
+      strip.innerHTML = opts.map(opt => {
+        const isSelected = (filterState.genre || '') === opt.value;
+        const label = opt.value ? getLocalizedGenre(opt.value, currentLang) : (i18n[currentLang].genres_all || 'Барлығы');
+        return `
+          <button onclick="filterGenre('${opt.value}')" 
+            class="px-4 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all duration-200 cursor-pointer ${
+              isSelected 
+                ? 'bg-white text-slate-950 shadow-md shadow-white/10 scale-105' 
+                : 'bg-[#121622] hover:bg-[#1b2234] text-slate-300 hover:text-white border border-[#1e2638]'
+            }">
+            ${label}
+          </button>
+        `;
+      }).join('');
     }
 
     function renderDropdownMenus() {
@@ -1313,9 +1586,12 @@
 
         menu.innerHTML = opts.map(opt => {
           const isSelected = opt.value === currentVal;
-          const label = opt.labelKey && t[opt.labelKey] ? t[opt.labelKey] : (opt.label || opt.defaultLabel);
+          let label = opt.labelKey && t[opt.labelKey] ? t[opt.labelKey] : (opt.label || opt.defaultLabel);
+          if (key === 'genre' && opt.value) {
+            label = getLocalizedGenre(opt.value, currentLang);
+          }
           return `
-            <div onclick="selectDropdownOption('${key}', '${opt.value}', '${label.replace(/'/g, "\'")}')" 
+            <div onclick="selectDropdownOption('${key}', '${opt.value}', '${label.replace(/'/g, "\\'")}')" 
               class="px-3 py-2 text-xs cursor-pointer flex items-center justify-between transition ${isSelected ? 'bg-[#181f2c] text-white font-medium' : 'text-slate-300 hover:text-white hover:bg-[#141824]'}">
               <span class="truncate">${label}</span>
               ${isSelected ? '<i class="fas fa-check text-slate-400 text-[10px] ml-2 shrink-0"></i>' : ''}
@@ -1325,7 +1601,10 @@
 
         // Update button label
         const selectedOpt = opts.find(o => o.value === currentVal) || opts[0];
-        const selLabel = selectedOpt.labelKey && t[selectedOpt.labelKey] ? t[selectedOpt.labelKey] : (selectedOpt.label || selectedOpt.defaultLabel);
+        let selLabel = selectedOpt.labelKey && t[selectedOpt.labelKey] ? t[selectedOpt.labelKey] : (selectedOpt.label || selectedOpt.defaultLabel);
+        if (key === 'genre' && selectedOpt.value) {
+          selLabel = getLocalizedGenre(selectedOpt.value, currentLang);
+        }
         const labelEl = document.getElementById(`${key}SelectedLabel`);
         if (labelEl) labelEl.textContent = selLabel;
       });
@@ -1359,6 +1638,9 @@
       if (labelEl) labelEl.textContent = label;
       closeAllDropdowns();
       renderDropdownMenus();
+      if (key === 'genre') {
+        renderGenreStrip();
+      }
 
       // If sort or format changed, sync tab states
       if (key === 'sort') {
@@ -1535,7 +1817,9 @@
       const title = getAnimeTitle(anime);
       const eps = anime.episodes || anime.translated_episodes_count || 12;
       const score = getAnimeScore(anime);
-      const genres = (anime.genres && Array.isArray(anime.genres)) ? anime.genres.slice(0, 3).join(' · ') : 'Anime';
+      const genres = (anime.genres && Array.isArray(anime.genres)) 
+        ? anime.genres.slice(0, 3).map(g => getLocalizedGenre(g, currentLang)).join(' · ') 
+        : (currentLang === 'ja' ? 'アニメ' : (currentLang === 'en' ? 'Anime' : 'Аниме'));
       const studio = anime.studio || 'Animation Studio';
       const duration = anime.duration || 24;
 
@@ -1547,7 +1831,7 @@
       }
       const durMeta = `${duration} mins`;
 
-      const desc = anime.description || (anime.title && (anime.title.kazakh || anime.title.english)) || 'Қазақша субтитрлер қолжетімді.';
+      const desc = getAnimeDescription(anime, currentLang);
       const banner = anime.bannerImage;
       const theme = resolveAnimeTheme(anime);
 
@@ -1702,6 +1986,7 @@
 
     function filterGenre(genre) {
       filterState.genre = genre;
+      renderGenreStrip();
       renderDropdownMenus();
       scrollToCatalog();
       applyFilters();
@@ -2096,6 +2381,7 @@
         filterState.year = '';
         filterState.format = '';
         filterState.sort = 'popular';
+        renderGenreStrip();
       }
 
       renderDropdownMenus();
@@ -2126,12 +2412,13 @@
       if (modal && e.target === modal) closeDmcaModal();
     });
 
-    function openModal(slug) {
+    function openModal(slug, keepScroll = false) {
+      currentModalSlug = slug;
       const modal = document.getElementById('animeModal');
       modal.classList.remove('hidden');
       modal.classList.add('flex');
       document.body.style.overflow = 'hidden';
-      modal.scrollTop = 0;
+      if (!keepScroll) modal.scrollTop = 0;
 
       const summary = animeData.find(a => a.slug === slug);
       const titleText = getAnimeTitle(summary) || slug;
@@ -2182,30 +2469,25 @@
       if (genresWrap && summary && summary.genres) {
         genresWrap.innerHTML = summary.genres.map(g => `
           <span class="px-2.5 py-0.5 rounded-lg bg-[#141824] border border-[#202738] text-[11px] font-medium text-slate-300">
-            ${g}
+            ${getLocalizedGenre(g, currentLang)}
           </span>
         `).join('');
       }
 
       // Check detail JSON
-      let detail = summary;
       fetch(`api/v1/anime/${slug}.json`)
         .then(res => res.ok ? res.json() : null)
         .then(data => {
-          if (data) {
+          if (data && currentModalSlug === slug) {
             if (data.bannerImage) document.getElementById('modalBanner').src = data.bannerImage;
-            if (data.description) {
-              const d = data.description.replace(/<[^>]+>/g, '').trim();
-              document.getElementById('modalDescription').textContent = d;
-            }
-            renderModalEpisodes(slug, data);
+            const fullAnime = { ...summary, ...data };
+            document.getElementById('modalDescription').textContent = getAnimeDescription(fullAnime, currentLang);
+            renderModalEpisodes(slug, fullAnime);
           }
         })
         .catch(() => {});
 
-      let desc = (summary && summary.description) || '';
-      desc = desc.replace(/<[^>]+>/g, '').trim();
-      document.getElementById('modalDescription').textContent = desc || 'Қазақша субтитрлер SRT, VTT, ASS форматтарында қолжетімді.';
+      document.getElementById('modalDescription').textContent = getAnimeDescription(summary, currentLang);
 
       renderModalEpisodes(slug, summary);
     }
@@ -2250,6 +2532,7 @@
     }
 
     function closeModal() {
+      currentModalSlug = null;
       const modal = document.getElementById('animeModal');
       modal.classList.add('hidden');
       modal.classList.remove('flex');
