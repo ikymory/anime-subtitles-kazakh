@@ -461,31 +461,59 @@
           </div>
         </div>
 
-      </div>
+        <!-- 5. JUST FINISHED & TOP MOVIES DUAL SHOWCASE (Miruro Style) -->
+        <div class="pt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <!-- COLUMN 1: JUST FINISHED -->
+          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4.5 shadow-xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center space-x-2 text-white font-bold text-xs uppercase tracking-wider mb-3">
+                <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
+                <span id="bottomFinishedTitle">JUST FINISHED</span>
+              </div>
+              <div id="justFinishedList" class="space-y-2.5">
+                <!-- Rendered via JS -->
+              </div>
+            </div>
+            <button onclick="toggleExpand('justFinished')" class="w-full mt-3 py-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-500 hover:text-slate-300 flex items-center justify-center transition group" title="Көбірек көрсету">
+              <i id="chevron-justFinished" class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
+            </button>
+          </div>
 
+          <!-- COLUMN 2: TOP MOVIES -->
+          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4.5 shadow-xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center space-x-2 text-white font-bold text-xs uppercase tracking-wider mb-3">
+                <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
+                <span id="bottomMoviesTitle">TOP MOVIES</span>
+              </div>
+              <div id="bottomTopMoviesList" class="space-y-2.5">
+                <!-- Rendered via JS -->
+              </div>
+            </div>
+            <button onclick="toggleExpand('topMovies')" class="w-full mt-3 py-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-500 hover:text-slate-300 flex items-center justify-center transition group" title="Көбірек көрсету">
+              <i id="chevron-topMovies" class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
       <!-- RIGHT SIDEBAR (approx 25% on desktop: 4 or 3 cols) -->
       <div class="lg:col-span-4 xl:col-span-3 space-y-6">
         
-        <!-- SECTION 1: TOP AIRING -->
+        <!-- SECTION: TOP MOVIES (Expandable) -->
         <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
           <div class="flex items-center space-x-2 text-slate-200">
             <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
-            <h3 id="sidebarAiringTitle" class="text-xs font-bold tracking-wider text-slate-200">Top Airing</h3>
-          </div>
-          <div id="topAiringList" class="space-y-2">
-            <!-- Rendered via JS -->
-          </div>
-        </div>
-
-        <!-- SECTION 2: TOP MOVIES -->
-        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
-          <div class="flex items-center space-x-2 text-slate-200">
-            <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
-            <h3 id="sidebarMoviesTitle" class="text-xs font-bold tracking-wider text-slate-200">Top Movies</h3>
+            <h3 id="sidebarMoviesTitle" class="text-xs font-bold tracking-wider text-slate-200">TOP MOVIES</h3>
           </div>
           <div id="topMoviesList" class="space-y-2">
             <!-- Rendered via JS -->
           </div>
+          <button onclick="toggleExpand('sidebarMovies')" class="w-full mt-2 py-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-500 hover:text-slate-300 flex items-center justify-center transition group" title="Толығырақ көру">
+            <i id="chevron-sidebarMovies" class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
+          </button>
         </div>
 
       </div>
@@ -1100,12 +1128,11 @@
 
     function getAnimeScore(anime) {
       if (!anime) return 80;
+      if (anime.averageScore) return anime.averageScore;
       const popularHigh = ['frieren', 'hxh', 'aot', 'aot-final', 'jjk-s2', 'your-name', 'spirited-away', 'bleach', 'vinland-saga', 'csm', 'dn', 'solo-leveling'];
-      if (popularHigh.includes(anime.slug)) {
-        return 90 + (Math.abs(anime.slug.split('').reduce((a,c) => a + c.charCodeAt(0), 0)) % 6);
-      }
+      if (popularHigh.includes(anime.slug)) return 92;
       const hash = Math.abs(anime.slug.split('').reduce((a,c) => (a << 5) - a + c.charCodeAt(0), 0));
-      return 75 + (hash % 18);
+      return 78 + (hash % 12);
     }
 
     function setLanguage(lang) {
@@ -1191,8 +1218,9 @@
       updateHeroDisplay(true);
 
       if (animeData.length > 0) {
-        renderTopAiring(animeData);
-        renderTopMovies(animeData);
+        renderSidebarMovies(animeData);
+        renderJustFinished(animeData);
+        renderBottomTopMovies(animeData);
         renderCurrentPage();
       }
     }
@@ -1398,77 +1426,116 @@
     }
 
     // -------------------------------------------------------------
-    // SIDEBAR RENDERING (Top Airing & Top Movies)
+    // EXPANDABLE LISTS & MIRURO-STYLE CARD RENDERERS
     // -------------------------------------------------------------
-    function renderTopAiring(data) {
-      const container = document.getElementById('topAiringList');
-      const topSlugs = ['frieren', 'jjk-s2', 'solo-leveling', 'aot-final', 'that-time-i'];
-      let items = topSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
-      if (items.length < 5) items = data.filter(a => a.format === 'TV').slice(0, 5);
+    const expandState = {
+      sidebarMovies: false,
+      justFinished: false,
+      topMovies: false
+    };
 
-      container.innerHTML = items.map((anime, idx) => {
-        const title = getAnimeTitle(anime);
-        const eps = anime.episodes || anime.translated_episodes_count || 12;
-        const year = anime.seasonYear || 2024;
-        const cover = anime.coverImage || fallbackCover;
-        const rating = getAnimeScore(anime);
-
-        return `
-          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-2.5 p-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-600/50 cursor-pointer transition group">
-            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-10 h-13 object-cover rounded-md shrink-0 border border-[#181e2b]">
-            <div class="min-w-0 flex-1">
-              <div class="flex items-center space-x-1.5">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
-                <h4 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate">${title}</h4>
-              </div>
-              <div class="flex items-center space-x-2 text-[10px] text-slate-500 mt-1 font-mono">
-                <span class="text-slate-400 font-sans font-medium">${anime.format || 'TV'}</span>
-                <span>${year}</span>
-                <span class="flex items-center space-x-0.5 text-slate-400">
-                  <i class="fas fa-closed-captioning text-[9px] mr-0.5 text-emerald-400"></i>
-                  <span>${eps}</span>
-                </span>
-                <span class="text-slate-500">☆ ${rating}</span>
-              </div>
-            </div>
-          </div>
-        `;
-      }).join('');
+    function toggleExpand(key) {
+      expandState[key] = !expandState[key];
+      const chevron = document.getElementById(`chevron-${key}`);
+      if (chevron) {
+        if (expandState[key]) {
+          chevron.classList.add('rotate-180');
+        } else {
+          chevron.classList.remove('rotate-180');
+        }
+      }
+      if (key === 'sidebarMovies') renderSidebarMovies(animeData);
+      if (key === 'justFinished') renderJustFinished(animeData);
+      if (key === 'topMovies') renderBottomTopMovies(animeData);
     }
 
-    function renderTopMovies(data) {
-      const container = document.getElementById('topMoviesList');
-      const movieSlugs = ['csm', 'howl-s-moving', 'grave-fireflies', '5-centimeters-per', 'akira'];
-      let movies = movieSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
-      if (movies.length < 5) movies = data.filter(a => a.format === 'MOVIE').slice(0, 5);
+    function createMiruroCardHtml(anime) {
+      const title = getAnimeTitle(anime);
+      const year = anime.seasonYear || 2024;
+      const cover = anime.coverImage || fallbackCover;
+      const banner = anime.bannerImage || '';
+      const score = anime.averageScore || getAnimeScore(anime);
+      const eps = anime.episodes || anime.translated_episodes_count || (anime.format === 'MOVIE' ? 1 : 12);
+      const format = anime.format || (eps === 1 ? 'MOVIE' : 'TV');
 
-      container.innerHTML = movies.map((anime, idx) => {
-        const title = getAnimeTitle(anime);
-        const year = anime.seasonYear || 2021;
-        const cover = anime.coverImage || fallbackCover;
-        const rating = getAnimeScore(anime);
+      return `
+        <div onclick="openModal('${anime.slug}')" class="relative overflow-hidden flex items-center space-x-3 p-2.5 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-500/50 cursor-pointer transition group shadow-sm">
+          
+          <!-- Faded banner artwork watermark on the right half -->
+          ${banner ? `
+            <div class="absolute right-0 top-0 bottom-0 w-3/5 overflow-hidden pointer-events-none opacity-15 group-hover:opacity-25 transition-opacity duration-300">
+              <img src="${banner}" alt="" class="w-full h-full object-cover object-center filter grayscale contrast-125">
+              <div class="absolute inset-0 bg-gradient-to-r from-[#121620] via-[#121620]/60 to-transparent"></div>
+            </div>
+          ` : ''}
 
-        return `
-          <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-2.5 p-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-600/50 cursor-pointer transition group">
-            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" class="w-10 h-13 object-cover rounded-md shrink-0 border border-[#181e2b]">
-            <div class="min-w-0 flex-1">
-              <div class="flex items-center space-x-1.5">
-                <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shrink-0"></span>
-                <h4 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate">${title}</h4>
-              </div>
-              <div class="flex items-center space-x-2 text-[10px] text-slate-500 mt-1 font-mono">
-                <span class="text-slate-400 font-sans font-medium">MOVIE</span>
+          <!-- Left: Poster cover thumbnail -->
+          <div class="relative z-10 shrink-0">
+            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
+              class="w-11 h-15 object-cover rounded-lg border border-white/5 shadow-md group-hover:scale-105 transition-transform duration-200">
+          </div>
+
+          <!-- Foreground text -->
+          <div class="relative z-10 min-w-0 flex-1">
+            <div class="flex items-center space-x-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shrink-0"></span>
+              <h4 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate" title="${title}">${title}</h4>
+            </div>
+            <div class="flex items-center space-x-2 text-[10px] text-slate-400 mt-1.5 font-mono">
+              <span class="text-slate-300 font-sans font-medium px-1.5 py-0.5 rounded bg-black/40 border border-white/5 uppercase text-[9px]">${format}</span>
+              <span class="flex items-center space-x-1">
+                <i class="far fa-calendar-alt text-[9px] text-slate-500"></i>
                 <span>${year}</span>
-                <span class="flex items-center space-x-0.5 text-slate-400">
-                  <i class="fas fa-closed-captioning text-[9px] mr-0.5 text-emerald-400"></i>
-                  <span>1</span>
-                </span>
-                <span class="text-slate-500">☆ ${rating}</span>
-              </div>
+              </span>
+              <span class="flex items-center space-x-1">
+                <i class="fas fa-closed-captioning text-[9px] text-emerald-400"></i>
+                <span>${eps}</span>
+              </span>
+              <span class="flex items-center space-x-1 text-slate-300">
+                <i class="far fa-star text-[9px] text-amber-400"></i>
+                <span>${score}</span>
+              </span>
             </div>
           </div>
-        `;
-      }).join('');
+
+        </div>
+      `;
+    }
+
+    function renderSidebarMovies(data) {
+      const container = document.getElementById('topMoviesList');
+      if (!container) return;
+      const limit = expandState.sidebarMovies ? 12 : 5;
+      const movieSlugs = ['csm', 'first-slam-dunk', 'silent-voice', 'a-silent-voice', 'your-name', 'spirited-away', 'howl-s-moving', 'kny-mugen-train', 'grave-fireflies', 'akira', 'eva', '5-centimeters-per', 'suzume'];
+      let movies = movieSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
+      const remainingMovies = data.filter(a => a.format === 'MOVIE' && !movies.includes(a));
+      movies = movies.concat(remainingMovies).slice(0, limit);
+
+      container.innerHTML = movies.map(createMiruroCardHtml).join('');
+    }
+
+    function renderJustFinished(data) {
+      const container = document.getElementById('justFinishedList');
+      if (!container) return;
+      const limit = expandState.justFinished ? 12 : 5;
+      const finishedSlugs = ['frieren', 'solo-leveling', 'dan-da-dan', 'aot-final', 'jjk-s2', 'apothecary-diaries', 'bocchi-the-rock', 'cyberpunk-edgerunners', 'oshi-no-ko', 'vinland-saga-s2', 'mob-psycho-s2', 'violet-evergarden'];
+      let finished = finishedSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
+      const remainingTV = data.filter(a => a.format === 'TV' && !finished.includes(a));
+      finished = finished.concat(remainingTV).slice(0, limit);
+
+      container.innerHTML = finished.map(createMiruroCardHtml).join('');
+    }
+
+    function renderBottomTopMovies(data) {
+      const container = document.getElementById('bottomTopMoviesList');
+      if (!container) return;
+      const limit = expandState.topMovies ? 12 : 5;
+      const movieSlugs = ['csm', 'first-slam-dunk', 'silent-voice', 'a-silent-voice', 'your-name', 'spirited-away', 'howl-s-moving', 'kny-mugen-train', 'grave-fireflies', 'akira', 'eva', '5-centimeters-per', 'suzume'];
+      let movies = movieSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
+      const remainingMovies = data.filter(a => a.format === 'MOVIE' && !movies.includes(a));
+      movies = movies.concat(remainingMovies).slice(0, limit);
+
+      container.innerHTML = movies.map(createMiruroCardHtml).join('');
     }
 
     // -------------------------------------------------------------
@@ -1530,28 +1597,37 @@
         return true;
       });
 
-      // 5. Sorting
+      // 5. High-Precision Sorting (Newest, Popular, Top Rated, Movies)
       if (filterState.sort === 'newest') {
-        filtered.sort((a, b) => (b.seasonYear || 0) - (a.seasonYear || 0));
+        filtered.sort((a, b) => {
+          const yA = a.seasonYear || 0;
+          const yB = b.seasonYear || 0;
+          if (yB !== yA) return yB - yA;
+          return (b.id || 0) - (a.id || 0);
+        });
+      } else if (filterState.sort === 'toprated') {
+        filtered.sort((a, b) => {
+          const sA = a.averageScore || getAnimeScore(a);
+          const sB = b.averageScore || getAnimeScore(b);
+          if (sB !== sA) return sB - sA;
+          return (b.popularity || 0) - (a.popularity || 0);
+        });
+      } else if (filterState.sort === 'popular') {
+        filtered.sort((a, b) => {
+          const popA = a.popularity || 50000;
+          const popB = b.popularity || 50000;
+          if (popB !== popA) return popB - popA;
+          return (b.averageScore || getAnimeScore(b)) - (a.averageScore || getAnimeScore(a));
+        });
       } else if (filterState.sort === 'oldest') {
         filtered.sort((a, b) => (a.seasonYear || 9999) - (b.seasonYear || 9999));
       } else if (filterState.sort === 'episodes') {
         filtered.sort((a, b) => (b.episodes || b.translated_episodes_count || 0) - (a.episodes || a.translated_episodes_count || 0));
-      } else if (filterState.sort === 'toprated') {
-        filtered.sort((a, b) => getAnimeScore(b) - getAnimeScore(a));
       } else if (filterState.sort === 'alpha') {
-        filtered.sort((a, b) => {
-          const tA = getAnimeTitle(a);
-          const tB = getAnimeTitle(b);
-          return tA.localeCompare(tB);
-        });
+        filtered.sort((a, b) => getAnimeTitle(a).localeCompare(getAnimeTitle(b)));
       } else {
-        // popular (default)
-        filtered.sort((a, b) => {
-          const popA = getAnimeScore(a) * 10 + (a.episodes || 12);
-          const popB = getAnimeScore(b) * 10 + (b.episodes || 12);
-          return popB - popA;
-        });
+        // default: popular
+        filtered.sort((a, b) => (b.popularity || 50000) - (a.popularity || 50000));
       }
 
       currentFiltered = filtered;
@@ -1712,6 +1788,7 @@
         filterState.format = '';
       } else if (tab === 'movies') {
         filterState.format = 'MOVIE';
+        filterState.sort = 'popular';
       } else if (tab === 'all') {
         filterState.genre = '';
         filterState.year = '';
@@ -1726,7 +1803,6 @@
     // -------------------------------------------------------------
     // INTERACTIVE EPISODE MODAL
     // -------------------------------------------------------------
-    async 
     function openDmcaModal() {
       const modal = document.getElementById('dmcaModal');
       if (modal) {
