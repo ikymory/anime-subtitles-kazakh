@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anime Subtitles Kazakh • Miruro UI | 347 Series & 3,462 Episodes</title>
+  <title>ikymory • Қазақша аниме субтитрлер каталогы | 347 Аниме & 3,462 Бөлім</title>
   
-  <meta name="description" content="The premier open-source database and streaming-ready CDN for Kazakh anime subtitles. 347 series, 3,462 episodes. SubRip (.srt), WebVTT (.vtt), and Advanced SubStation Alpha (.ass). Free production license.">
+  <meta name="description" content="ikymory — қазақ тіліндегі аниме субтитрлерінің ең үлкен ашық қоры. 347 толық аниме франшизасы, 3,462 бөлім. SubRip (.srt), WebVTT (.vtt), және Advanced SubStation Alpha (.ass). Барлық платформаларға еркін лицензия.">
   <meta name="keywords" content="Anime Kazakh subtitles, anime kazakh sub, qazaqsha anime, қазақша субтитрлер аниме, anime-subtitles-kazakh, ikymory">
   <meta name="author" content="ikymory">
   <meta name="robots" content="index, follow">
 
   <!-- OpenGraph -->
-  <meta property="og:title" content="Anime Subtitles Kazakh • 347 Series & 3,462 Episodes">
-  <meta property="og:description" content="Official open-source repository of verified Kazakh subtitles for anime. CDN endpoints, API v1, production-ready.">
+  <meta property="og:title" content="ikymory • Қазақша аниме субтитрлер қоры | 347 Аниме">
+  <meta property="og:description" content="Ресми қазақша субтитрлер каталогы. 347 толық аниме, 3,462 бөлім. CDN және REST API қолжетімді.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ikymory.github.io/anime-subtitles-kazakh/">
   <meta property="og:image" content="https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg">
@@ -168,25 +168,25 @@
 </head>
 <body class="min-h-screen flex flex-col selection:bg-slate-700 selection:text-white">
 
-  <!-- Top Navbar (Miruro 1:1) -->
+  <!-- Top Navbar -->
   <header class="sticky top-0 z-40 bg-[#090a0f]/90 backdrop-blur-md border-b border-[#141822] transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
       
-      <!-- Left: Hamburger + Sleek Miruro Wordmark -->
+      <!-- Left: Hamburger + Sleek ikymory Wordmark -->
       <div class="flex items-center space-x-3">
         <button onclick="scrollToCatalog()" class="text-slate-400 hover:text-slate-200 transition p-1.5 rounded-lg hover:bg-[#121620]">
           <i class="fas fa-bars text-sm"></i>
         </button>
-        <a href="#" onclick="applyTab('all')" class="flex items-center space-x-1.5 group select-none">
-          <span class="font-black text-lg tracking-tight text-slate-100 group-hover:text-white transition">MIRURO<span class="text-xs font-bold text-slate-400 font-mono ml-0.5">.kz</span></span>
+        <a href="#" onclick="applyTab('all')" class="flex items-center space-x-2 group select-none">
+          <span class="font-extrabold text-lg tracking-tight text-white group-hover:text-slate-300 transition">ikymory</span>
         </a>
       </div>
 
-      <!-- Center: Miruro Pill Search Bar -->
+      <!-- Center: Pill Search Bar with Live Kazakh & English Search -->
       <div class="flex-1 max-w-md hidden md:block">
         <div class="relative flex items-center">
           <i class="fas fa-search absolute left-3.5 text-slate-500 text-xs"></i>
-          <input id="navSearchInput" type="text" placeholder="Search anime..." 
+          <input id="navSearchInput" type="text" placeholder="Аниме іздеу..." 
             class="w-full bg-[#11141c] hover:bg-[#141824] border border-[#1a202c] focus:border-slate-500 rounded-xl pl-9 pr-14 py-2 text-xs text-slate-200 placeholder-slate-500 outline-none transition">
           <div class="absolute right-3 flex items-center space-x-1 text-[10px] text-slate-500 font-mono">
             <span class="bg-[#181d28] px-1 py-0.5 rounded border border-[#222838]">Ctrl K</span>
@@ -221,7 +221,7 @@
   <!-- Main View Container -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-4 pb-12 w-full space-y-6">
 
-    <!-- 1. CINEMATIC HERO SHOWCASE BANNER (High Quality Verified AniList Banners Only) -->
+    <!-- 1. CINEMATIC HERO SHOWCASE BANNER (Featuring All High-Quality AniList Banners with Smooth Crossfade) -->
     <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#171b26] shadow-2xl min-h-[380px] sm:min-h-[440px] flex flex-col justify-end p-5 sm:p-8 transition-all select-none">
       
       <!-- Dual Crossfade Banner Images (Zero flicker, butter smooth transitions) -->
@@ -239,12 +239,12 @@
         </span>
       </div>
 
-      <!-- Top-Right Carousel Navigation (< 1 / 10 >) -->
+      <!-- Top-Right Carousel Navigation (< 1 / N >) -->
       <div class="absolute top-4 right-4 sm:right-6 flex items-center space-x-2 z-20">
         <button onclick="prevHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition active:scale-90" title="Previous">
           <i class="fas fa-chevron-left text-[10px]"></i>
         </button>
-        <span id="heroCounter" class="text-xs font-mono text-slate-300 bg-black/60 backdrop-blur border border-white/10 px-2 py-0.5 rounded-md">1 / 10</span>
+        <span id="heroCounter" class="text-xs font-mono text-slate-300 bg-black/60 backdrop-blur border border-white/10 px-2 py-0.5 rounded-md">1 / 240</span>
         <button onclick="nextHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition active:scale-90" title="Next">
           <i class="fas fa-chevron-right text-[10px]"></i>
         </button>
@@ -266,9 +266,9 @@
           <span class="bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 px-2 py-0.5 rounded text-[10px] font-mono">Kazakh Subtitles</span>
         </div>
 
-        <!-- Big Bold Title (Miruro Cerulean Blue / Off-White Accent) -->
+        <!-- Big Bold Title (Localized to Kazakh by default!) -->
         <h1 id="heroTitle" class="text-2xl sm:text-4xl md:text-5xl font-black text-[#5ba4e5] tracking-tight leading-tight drop-shadow-md">
-          Frieren: Beyond Journey’s End
+          Сапар соңындағы Фрирен
         </h1>
 
         <!-- Genre Tags -->
@@ -278,18 +278,18 @@
 
         <!-- Synopsis Description -->
         <p id="heroDesc" class="text-xs text-slate-400 line-clamp-2 sm:line-clamp-3 leading-relaxed max-w-xl pr-2">
-          Elf mage Frieren begins a new adventure to understand the hearts of humanity decades after her party defeated the Demon King.
+          Эльф сиқыршысы Фрирен Жын әміршісін жеңгеннен кейін адамзат жүрегін түсіну үшін жаңа саяхатқа шығады.
         </p>
 
         <!-- Action Buttons (Details / Subtitles) -->
         <div class="pt-2 flex items-center space-x-3">
           <button id="heroDetailsBtn" onclick="openHeroModal()" class="px-4 py-2 rounded-xl bg-[#141824] hover:bg-[#1a2030] text-slate-200 border border-[#222a3c] text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm active:scale-95">
             <i class="fas fa-info-circle text-xs text-slate-400"></i>
-            <span id="heroDetailsTxt">Details</span>
+            <span id="heroDetailsTxt">Толығырақ</span>
           </button>
           <button id="heroWatchBtn" onclick="openHeroModal()" class="px-5 py-2 rounded-xl bg-slate-200 hover:bg-white text-slate-900 text-xs font-bold transition flex items-center space-x-1.5 shadow-lg shadow-white/5 active:scale-95">
             <i class="fas fa-play text-xs"></i>
-            <span id="heroWatchTxt">Subtitles</span>
+            <span id="heroWatchTxt">Субтитрлер</span>
           </button>
         </div>
 
@@ -299,7 +299,7 @@
     <!-- 2. HORIZONTAL GENRE STRIP -->
     <div class="flex items-center space-x-2 overflow-x-auto pb-1 pt-1 hide-scrollbar">
       <button onclick="filterGenre('')" class="shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">
-        All
+        Барлығы
       </button>
       <button onclick="filterGenre('Action')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Action</button>
       <button onclick="filterGenre('Adventure')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Adventure</button>
@@ -317,16 +317,16 @@
       <button onclick="filterGenre('Thriller')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Thriller</button>
     </div>
 
-    <!-- 3. INLINE FILTER STRIP (Custom Stylized Miruro Dropdowns That All Work) -->
+    <!-- 3. INLINE FILTER STRIP (Custom Stylized Dropdowns That All Work) -->
     <div id="catalogBar" class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 shadow-xl">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-3 items-end">
         
         <!-- Search input -->
         <div class="lg:col-span-4 space-y-1.5">
-          <label id="lblSearch" class="text-[11px] font-semibold text-slate-400">Search</label>
+          <label id="lblSearch" class="text-[11px] font-semibold text-slate-400">Іздеу</label>
           <div class="relative">
             <i class="fas fa-search absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
-            <input id="searchInput" type="text" placeholder="Search anime title..." 
+            <input id="searchInput" type="text" placeholder="Аниме атауын іздеу..." 
               class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] focus:border-slate-400 rounded-xl pl-9 pr-8 py-2 text-xs text-slate-200 placeholder-slate-500 outline-none transition">
             <button id="clearSearch" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white text-xs">
               <i class="fas fa-times"></i>
@@ -336,11 +336,11 @@
 
         <!-- Genres custom dropdown -->
         <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-genre-wrap">
-          <label id="lblGenres" class="text-[11px] font-semibold text-slate-400">Genres</label>
+          <label id="lblGenres" class="text-[11px] font-semibold text-slate-400">Жанрлар</label>
           <div class="relative">
             <button type="button" id="btnDropdownGenre" onclick="toggleDropdown('genre')" 
               class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
-              <span id="genreSelectedLabel" class="truncate font-medium text-slate-200">Any</span>
+              <span id="genreSelectedLabel" class="truncate font-medium text-slate-200">Барлығы</span>
               <i id="genreChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
             </button>
             <div id="genreMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
@@ -349,11 +349,11 @@
 
         <!-- Year custom dropdown -->
         <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-year-wrap">
-          <label id="lblYear" class="text-[11px] font-semibold text-slate-400">Year</label>
+          <label id="lblYear" class="text-[11px] font-semibold text-slate-400">Жыл</label>
           <div class="relative">
             <button type="button" id="btnDropdownYear" onclick="toggleDropdown('year')" 
               class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
-              <span id="yearSelectedLabel" class="truncate font-medium text-slate-200">Any</span>
+              <span id="yearSelectedLabel" class="truncate font-medium text-slate-200">Барлығы</span>
               <i id="yearChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
             </button>
             <div id="yearMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
@@ -362,11 +362,11 @@
 
         <!-- Sort custom dropdown -->
         <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-sort-wrap">
-          <label id="lblSort" class="text-[11px] font-semibold text-slate-400">Sort</label>
+          <label id="lblSort" class="text-[11px] font-semibold text-slate-400">Сұрыптау</label>
           <div class="relative">
             <button type="button" id="btnDropdownSort" onclick="toggleDropdown('sort')" 
               class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
-              <span id="sortSelectedLabel" class="truncate font-medium text-slate-200">Popular</span>
+              <span id="sortSelectedLabel" class="truncate font-medium text-slate-200">Танымал</span>
               <i id="sortChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
             </button>
             <div id="sortMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
@@ -375,11 +375,11 @@
 
         <!-- Format custom dropdown -->
         <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-format-wrap">
-          <label id="lblFormat" class="text-[11px] font-semibold text-slate-400">Format</label>
+          <label id="lblFormat" class="text-[11px] font-semibold text-slate-400">Формат</label>
           <div class="relative">
             <button type="button" id="btnDropdownFormat" onclick="toggleDropdown('format')" 
               class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
-              <span id="formatSelectedLabel" class="truncate font-medium text-slate-200">Any</span>
+              <span id="formatSelectedLabel" class="truncate font-medium text-slate-200">Барлығы</span>
               <i id="formatChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
             </button>
             <div id="formatMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
@@ -389,7 +389,7 @@
       </div>
     </div>
 
-    <!-- 4. SPLIT LAYOUT (Miruro 1:1) -->
+    <!-- 4. SPLIT LAYOUT (All 347 Anime Available!) -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-7">
       
       <!-- LEFT / MAIN CONTENT (approx 75% on desktop: 8 or 9 cols) -->
@@ -401,16 +401,16 @@
           <!-- Connected Tabs (Title Case, Clean Dark Neutrals) -->
           <div class="inline-flex p-1 bg-[#0f121a] border border-[#181e2b] rounded-xl text-xs font-medium">
             <button id="tab-newest" onclick="applyTab('newest')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200">
-              Newest
+              Жаңа
             </button>
             <button id="tab-popular" onclick="applyTab('popular')" class="px-3.5 py-1.5 rounded-lg transition bg-[#1e2534] text-slate-100 font-semibold shadow-sm">
-              Popular
+              Танымал
             </button>
             <button id="tab-toprated" onclick="applyTab('toprated')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200">
-              Top Rated
+              Үздік
             </button>
             <button id="tab-movies" onclick="applyTab('movies')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200">
-              Movies
+              Фильмдер
             </button>
           </div>
 
@@ -427,7 +427,7 @@
 
         </div>
 
-        <!-- Main Anime Grid (Miruro 1:1) -->
+        <!-- Main Anime Grid (All 347 Available with Subtitles & Localized Names) -->
         <div id="mainAnimeGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3.5 sm:gap-4 min-h-[400px]">
           <!-- Rendered via JS -->
         </div>
@@ -435,15 +435,15 @@
         <!-- Bottom Full Pagination -->
         <div id="paginationContainer" class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div class="text-xs text-slate-400">
-            <span id="lblShowing">Showing:</span> <span id="showingCount" class="font-mono font-semibold text-slate-200">0</span> / <span id="totalMatches" class="font-mono font-semibold text-slate-200">0</span>
+            <span id="lblShowing">Көрсетілуде:</span> <span id="showingCount" class="font-mono font-semibold text-slate-200">0</span> / <span id="totalMatches" class="font-mono font-semibold text-slate-200">0</span>
           </div>
           <div class="flex items-center space-x-1.5">
             <button id="prevPageBtn" onclick="changePage(-1)" class="px-3 py-1.5 rounded-xl bg-[#121620] hover:bg-[#181e2b] border border-[#1a202c] text-xs font-medium text-slate-300 hover:text-white transition disabled:opacity-30 disabled:cursor-not-allowed">
-              <span id="lblPrev">Previous</span>
+              <span id="lblPrev">Алдыңғы</span>
             </button>
             <div id="pageNumbers" class="flex items-center space-x-1"></div>
             <button id="nextPageBtn" onclick="changePage(1)" class="px-3 py-1.5 rounded-xl bg-[#121620] hover:bg-[#181e2b] border border-[#1a202c] text-xs font-medium text-slate-300 hover:text-white transition disabled:opacity-30 disabled:cursor-not-allowed">
-              <span id="lblNext">Next</span>
+              <span id="lblNext">Келесі</span>
             </button>
           </div>
         </div>
@@ -479,58 +479,58 @@
         <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
           <div class="flex items-center space-x-2 text-slate-200">
             <i class="fas fa-certificate text-xs text-emerald-400"></i>
-            <h4 id="sidebarLicTitle" class="text-xs font-bold text-slate-200">Production & License</h4>
+            <h4 id="sidebarLicTitle" class="text-xs font-bold text-slate-200">Продакшн және Лицензия</h4>
           </div>
           <p id="sidebarLicDesc" class="text-[11px] text-slate-400 leading-relaxed">
-            Free to embed and use on any commercial streaming platform or media player.
+            Субтитрлерді кез келген онлайн кинотеатр немесе плеерде тегін қолдануға болады.
           </p>
           <div class="p-2.5 rounded-xl bg-[#121620] border border-[#1a202c] space-y-1.5 text-[11px]">
             <div class="flex justify-between items-center">
-              <span id="sidebarAuthorLbl" class="text-slate-500">Author:</span>
+              <span id="sidebarAuthorLbl" class="text-slate-500">Автор:</span>
               <span class="font-mono font-medium text-slate-200">ikymory</span>
             </div>
             <div class="flex justify-between items-center">
-              <span id="sidebarReqLbl" class="text-slate-500">Requirement:</span>
-              <span id="sidebarReqVal" class="text-emerald-400 font-medium">Watermarks intact</span>
+              <span id="sidebarReqLbl" class="text-slate-500">Талап:</span>
+              <span id="sidebarReqVal" class="text-emerald-400 font-medium">@ikymory су белгісі сақталуы тиіс</span>
             </div>
           </div>
           <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh#license" target="_blank" 
             class="inline-flex items-center space-x-1 text-xs text-slate-400 hover:text-white transition font-medium">
-            <span>License terms &rarr;</span>
+            <span>Лицензия шарттары &rarr;</span>
           </a>
         </div>
 
         <!-- SECTION 4: FAQ (Clean Expandable Details) -->
         <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
-          <h4 id="faqHeaderTitle" class="text-xs font-bold text-slate-200">Frequently Asked Questions</h4>
+          <h4 id="faqHeaderTitle" class="text-xs font-bold text-slate-200">Жиі қойылатын сұрақтар</h4>
           
           <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
             <summary id="faqQ1" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
-              Where to watch anime with Kazakh subtitles?
+              Қазақша анимені қайдан көруге болады?
               <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
             </summary>
             <div id="faqA1" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
-              The official archive is Anime Subtitles Kazakh by ikymory. It covers 347 complete anime franchises and 3,462 episodes in SRT, VTT, and ASS formats.
+              Қазақ тіліндегі субтитрлердің ең үлкен қоры — Anime Subtitles Kazakh by ikymory. 347 аниме мен 3,462 бөлім SRT, VTT, ASS форматтарында тегін қолжетімді.
             </div>
           </details>
 
           <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
             <summary id="faqQ2" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
-              Can I use these subtitles on my streaming platform?
+              Бұл субтитрлерді үлкен сайттарда немесе қосымшаларда қолдануға бола ма?
               <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
             </summary>
             <div id="faqA2" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
-              Yes, fully authorized for free use. The only requirement is keeping the @ikymory author watermark intact.
+              Иә, толықтай рұқсат етілген. Басты талап: субтитрдегі @ikymory авторлық белгісі сақталуы тиіс.
             </div>
           </details>
 
           <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
             <summary id="faqQ3" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
-              How do the API and CDN work?
+              Сайттағы API және CDN қалай жұмыс істейді?
               <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
             </summary>
             <div id="faqA3" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
-              All data is accessible via static REST API at api/v1/anime.json and served globally over jsDelivr CDN.
+              Деректер api/v1/anime.json арқылы статикалық REST API түрінде jsDelivr CDN арқылы таратылады.
             </div>
           </details>
         </div>
@@ -561,7 +561,7 @@
               <span id="modalFormatBadge" class="px-2 py-0.5 rounded bg-black/60 border border-white/10 text-[10px] font-mono font-medium text-slate-300">TV</span>
               <span id="modalStatusBadge" class="px-2 py-0.5 rounded bg-emerald-950/70 border border-emerald-800/70 text-[10px] font-mono text-emerald-400 flex items-center space-x-1">
                 <span class="w-1 h-1 rounded-full bg-emerald-400 mr-1"></span>
-                <span id="modalStatusText">Kazakh Sub</span>
+                <span id="modalStatusText">Қазақша субтитр</span>
               </span>
             </div>
             <h2 id="modalTitle" class="text-base sm:text-xl font-bold text-white tracking-tight truncate"></h2>
@@ -575,14 +575,14 @@
         
         <!-- Synopsis -->
         <div class="space-y-1.5">
-          <h4 id="modalSynopsisTitle" class="text-xs font-semibold text-slate-400">Synopsis</h4>
+          <h4 id="modalSynopsisTitle" class="text-xs font-semibold text-slate-400">Сипаттама</h4>
           <p id="modalDescription" class="text-xs text-slate-300 leading-relaxed pr-2"></p>
         </div>
 
         <!-- Episodes List -->
         <div class="space-y-2">
           <div class="flex items-center justify-between">
-            <h4 id="modalSubEpTitle" class="text-xs font-semibold text-slate-400">Subtitles & Episodes</h4>
+            <h4 id="modalSubEpTitle" class="text-xs font-semibold text-slate-400">Субтитрлер мен бөлімдер</h4>
             <span id="modalEpTotal" class="text-[10px] font-mono text-slate-500"></span>
           </div>
 
@@ -595,10 +595,10 @@
         <div class="p-3 rounded-xl bg-[#121620] border border-[#181e2b] flex items-center justify-between text-xs">
           <div class="flex items-center space-x-2">
             <i class="fas fa-shield-alt text-slate-500"></i>
-            <span id="modalAuthorNote" class="text-slate-400">Translated to Kazakh by:</span>
+            <span id="modalAuthorNote" class="text-slate-400">Қазақ тіліне аударған:</span>
             <span class="font-semibold text-slate-200">ikymory</span>
           </div>
-          <span id="modalWatermarkNote" class="text-[10px] text-slate-500">Watermarks must remain intact</span>
+          <span id="modalWatermarkNote" class="text-[10px] text-slate-500">Су белгісі (@ikymory) сақталуы тиіс</span>
         </div>
 
       </div>
@@ -610,7 +610,7 @@
           <span id="modalGithubTxt">GitHub</span>
         </a>
         <button onclick="closeModal()" class="px-4 py-1.5 rounded-xl bg-[#161c28] hover:bg-[#1c2434] text-slate-200 border border-[#1f2838] text-xs font-semibold transition">
-          Close
+          Жабу
         </button>
       </div>
 
@@ -621,7 +621,7 @@
   <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-16 opacity-0 transition-all duration-300 pointer-events-none">
     <div class="bg-[#161c28] border border-[#232b3e] text-slate-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center space-x-2">
       <i class="fas fa-check-circle text-emerald-400 text-xs"></i>
-      <span id="toastMsg">Copied to clipboard</span>
+      <span id="toastMsg">Сілтеме көшірілді</span>
     </div>
   </div>
 
@@ -629,12 +629,12 @@
   <footer class="mt-auto border-t border-[#141822] bg-[#08090d] py-6 text-xs text-slate-500">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
       <div class="flex items-center space-x-2">
-        <span class="font-black text-slate-300">MIRURO<span class="text-[10px] text-slate-500 font-mono ml-0.5">.kz</span></span>
+        <span class="font-extrabold text-slate-300">ikymory</span>
         <span>&bull;</span>
-        <span id="footerLicense">License</span>: Creative Commons Attribution 4.0 International (CC BY 4.0)
+        <span id="footerLicense">Лицензия</span>: Creative Commons Attribution 4.0 International (CC BY 4.0)
       </div>
       <div id="footerSub" class="text-[11px] text-slate-600">
-        Kazakh anime subtitle archive &bull; 347 Franchises (3,462 Episodes) &bull; ikymory (@ikymory)
+        Қазақша аниме субтитрлер архиві &bull; 347 Франшиза (3,462 Бөлім) &bull; ikymory (@ikymory)
       </div>
     </div>
   </footer>
@@ -644,7 +644,7 @@
     let currentFiltered = [];
     let currentPage = 1;
     const pageSize = 25;
-    let activeTab = 'popular';
+    let activeTab = 'all';
     let currentLang = localStorage.getItem('ask_lang') || 'kk';
     let heroTimer = null;
     let currentImgLayer = 'A';
@@ -658,117 +658,15 @@
       format: ''
     };
 
-    // Curated high-res featured anime for Hero Showcase (Only high-quality verified AniList banners)
-    const featuredHeroMeta = [
-      {
-        slug: 'frieren',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg',
-        titleEn: "Frieren: Beyond Journey’s End",
-        titleJa: "葬送のフリーレン",
-        genres: "Adventure • Drama • Fantasy",
-        eps: 28,
-        score: 95,
-        desc: "Elf mage Frieren begins a new journey to understand humanity decades after defeating the Demon King with her former comrades."
-      },
-      {
-        slug: 'aot',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg',
-        titleEn: "Attack on Titan",
-        titleJa: "進撃の巨人",
-        genres: "Action • Mystery • Drama",
-        eps: 25,
-        score: 94,
-        desc: "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide behind colossal concentric walls."
-      },
-      {
-        slug: 'jjk-s2',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/145064-esDtAY2He7sk.jpg',
-        titleEn: "JUJUTSU KAISEN Season 2",
-        titleJa: "呪術廻戦 懐玉・玉折／渋谷事変",
-        genres: "Action • Fantasy • Supernatural",
-        eps: 23,
-        score: 93,
-        desc: "The past comes back to haunt Gojo Satoru and Geto Suguru during their high school years leading up to the devastating Shibuya Incident."
-      },
-      {
-        slug: 'kny-mugen-train',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/129874-3ipZzS50i9Ta.jpg',
-        titleEn: "Demon Slayer: Kimetsu no Yaiba Mugen Train",
-        titleJa: "鬼滅の刃 無限列車編",
-        genres: "Action • Fantasy • Historical",
-        eps: 7,
-        score: 92,
-        desc: "Tanjiro, Nezuko, Zenitsu, and Inosuke board the mysterious Infinity Train alongside Flame Hashira Kyojuro Rengoku to investigate demonic disappearances."
-      },
-      {
-        slug: 'csm',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/171627-7esVHhgw69rn.jpg',
-        titleEn: "Chainsaw Man – The Movie: Reze Arc",
-        titleJa: "チェンソーマン 劇場版 レゼ篇",
-        genres: "Action • Supernatural • Thriller",
-        eps: 1,
-        score: 91,
-        desc: "Denji encounters the enigmatic Reze on a rainy afternoon, unaware that her innocent appearance hides explosive and lethal secrets."
-      },
-      {
-        slug: 'solo-leveling',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/151807-37yfQA3ym8PA.jpg',
-        titleEn: "Solo Leveling",
-        titleJa: "俺だけレベルアップな件",
-        genres: "Action • Adventure • Fantasy",
-        eps: 12,
-        score: 90,
-        desc: "When weakest hunter Sung Jinwoo is brutally slain in a deadly double dungeon, a mysterious quest window offers him the unprecedented ability to level up."
-      },
-      {
-        slug: 'bleach',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/116674-l2YlIyJzvGSV.jpg',
-        titleEn: "BLEACH: Thousand-Year Blood War",
-        titleJa: "BLEACH 千年血戦篇",
-        genres: "Action • Adventure • Supernatural",
-        eps: 13,
-        score: 92,
-        desc: "The peace is suddenly broken when warning sirens blare through Soul Society, and the Quincy King Yhwach declares all-out war."
-      },
-      {
-        slug: 'vinland-saga',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg',
-        titleEn: "Vinland Saga",
-        titleJa: "ヴィンランド・サガ",
-        genres: "Action • Adventure • Drama",
-        eps: 24,
-        score: 91,
-        desc: "Young Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland."
-      },
-      {
-        slug: 'hxh',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg',
-        titleEn: "Hunter x Hunter (2011)",
-        titleJa: "HUNTER×HUNTER",
-        genres: "Action • Adventure • Fantasy",
-        eps: 148,
-        score: 95,
-        desc: "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness, to find his father who abandoned him as a baby."
-      },
-      {
-        slug: 'your-name',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg',
-        titleEn: "Your Name.",
-        titleJa: "君の名は。",
-        genres: "Romance • Drama • Supernatural",
-        eps: 1,
-        score: 93,
-        desc: "Mitsuha Miyamizu, a high school girl living in rural Itomori, yearns for a life in Tokyo, while Taki Tachibana lives a busy life in Tokyo."
-      }
-    ];
-
+    // Hero carousel list (will be populated dynamically with ALL anime with high-quality AniList banners)
+    let featuredHeroMeta = [];
     let currentHeroIndex = 0;
     const fallbackCover = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&auto=format&fit=crop&q=80';
 
     // Dropdown options configuration
     const dropdownOptions = {
       genre: [
-        { value: '', labelKey: 'genres_all', defaultLabel: 'Any' },
+        { value: '', labelKey: 'genres_all', defaultLabel: 'Барлығы' },
         { value: 'Action', label: 'Action' },
         { value: 'Adventure', label: 'Adventure' },
         { value: 'Comedy', label: 'Comedy' },
@@ -787,7 +685,7 @@
         { value: 'Thriller', label: 'Thriller' }
       ],
       year: [
-        { value: '', labelKey: 'year_all', defaultLabel: 'Any' },
+        { value: '', labelKey: 'year_all', defaultLabel: 'Барлығы' },
         { value: '2026', label: '2026' },
         { value: '2025', label: '2025' },
         { value: '2024', label: '2024' },
@@ -798,21 +696,21 @@
         { value: '2015-2019', label: '2015 - 2019' },
         { value: '2010-2014', label: '2010 - 2014' },
         { value: '2000-2009', label: '2000 - 2009' },
-        { value: 'classic', labelKey: 'year_classic', defaultLabel: 'Classic (<2000)' }
+        { value: 'classic', labelKey: 'year_classic', defaultLabel: 'Классика (<2000)' }
       ],
       sort: [
-        { value: 'popular', labelKey: 'sort_popular', defaultLabel: 'Popular' },
-        { value: 'toprated', labelKey: 'sort_toprated', defaultLabel: 'Top Rated' },
-        { value: 'newest', labelKey: 'sort_newest', defaultLabel: 'Newest' },
-        { value: 'oldest', labelKey: 'sort_oldest', defaultLabel: 'Oldest' },
-        { value: 'episodes', labelKey: 'sort_episodes', defaultLabel: 'Episodes' },
-        { value: 'alpha', labelKey: 'sort_alpha', defaultLabel: 'A-Z' }
+        { value: 'popular', labelKey: 'sort_popular', defaultLabel: 'Танымал' },
+        { value: 'toprated', labelKey: 'sort_toprated', defaultLabel: 'Үздік' },
+        { value: 'newest', labelKey: 'sort_newest', defaultLabel: 'Жаңа шыққан' },
+        { value: 'oldest', labelKey: 'sort_oldest', defaultLabel: 'Ескі шыққан' },
+        { value: 'episodes', labelKey: 'sort_episodes', defaultLabel: 'Бөлім саны' },
+        { value: 'alpha', labelKey: 'sort_alpha', defaultLabel: 'А-Я' }
       ],
       format: [
-        { value: '', labelKey: 'format_all', defaultLabel: 'Any' },
-        { value: 'TV', labelKey: 'format_tv', defaultLabel: 'TV Series' },
-        { value: 'MOVIE', labelKey: 'format_movie', defaultLabel: 'Movie' },
-        { value: 'OVA', labelKey: 'format_ova', defaultLabel: 'OVA / Special' }
+        { value: '', labelKey: 'format_all', defaultLabel: 'Барлығы' },
+        { value: 'TV', labelKey: 'format_tv', defaultLabel: 'TV Сериалдар' },
+        { value: 'MOVIE', labelKey: 'format_movie', defaultLabel: 'Фильмдер' },
+        { value: 'OVA', labelKey: 'format_ova', defaultLabel: 'OVA / Арнайы' }
       ]
     };
 
@@ -1009,8 +907,12 @@
       }
     };
 
+    // Kazakh title priority when currentLang === 'kk'
     function getAnimeTitle(anime) {
       if (!anime || !anime.title) return '';
+      if (currentLang === 'kk') {
+        return anime.title.kazakh || anime.title.kk || anime.title.english || anime.title.romaji || '';
+      }
       if (currentLang === 'ja') {
         return anime.title.native || anime.title.romaji || anime.title.english || '';
       }
@@ -1019,6 +921,9 @@
 
     function getAnimeSubTitle(anime) {
       if (!anime || !anime.title) return '';
+      if (currentLang === 'kk') {
+        return anime.title.english || anime.title.romaji || '';
+      }
       if (currentLang === 'ja') {
         return anime.title.romaji || anime.title.english || '';
       }
@@ -1132,7 +1037,7 @@
           `;
         }).join('');
 
-        // Also update button label
+        // Update button label
         const selectedOpt = opts.find(o => o.value === currentVal) || opts[0];
         const selLabel = selectedOpt.labelKey && t[selectedOpt.labelKey] ? t[selectedOpt.labelKey] : (selectedOpt.label || selectedOpt.defaultLabel);
         const labelEl = document.getElementById(`${key}SelectedLabel`);
@@ -1208,13 +1113,20 @@
     });
 
     // -------------------------------------------------------------
-    // HERO SHOWCASE CONTROLLER (Ultra-Smooth Animation & Preloading)
+    // HERO SHOWCASE CONTROLLER (Featuring All Available High-Res Banners with Smooth Crossfade)
     // -------------------------------------------------------------
     function updateHeroDisplay(immediate = false) {
+      if (!featuredHeroMeta || featuredHeroMeta.length === 0) return;
       const anime = featuredHeroMeta[currentHeroIndex];
       if (!anime) return;
 
-      const title = currentLang === 'ja' ? anime.titleJa : anime.titleEn;
+      const title = getAnimeTitle(anime);
+      const eps = anime.episodes || anime.translated_episodes_count || 12;
+      const score = getAnimeScore(anime);
+      const genres = (anime.genres && Array.isArray(anime.genres)) ? anime.genres.slice(0, 3).join(' • ') : 'Anime';
+      const desc = anime.description || (anime.title && (anime.title.kazakh || anime.title.english)) || 'Қазақша субтитрлер қолжетімді.';
+      const banner = anime.bannerImage;
+
       const imgA = document.getElementById('heroBannerImgA');
       const imgB = document.getElementById('heroBannerImgB');
       const activeImg = currentImgLayer === 'A' ? imgA : imgB;
@@ -1223,31 +1135,34 @@
 
       document.getElementById('heroCounter').textContent = `${currentHeroIndex + 1} / ${featuredHeroMeta.length}`;
 
+      const renderContent = () => {
+        document.getElementById('heroTitle').textContent = title;
+        document.getElementById('heroEpBadge').innerHTML = `<i class="far fa-clock text-slate-400 mr-1.5"></i> Ep ${eps} • Complete`;
+        document.getElementById('heroEps').innerHTML = `<i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> ${eps}`;
+        document.getElementById('heroScore').innerHTML = `<i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> ${score}`;
+        document.getElementById('heroFormat').textContent = anime.format || 'TV';
+        document.getElementById('heroGenres').textContent = genres;
+        document.getElementById('heroDesc').textContent = desc;
+      };
+
       if (immediate) {
-        activeImg.src = anime.banner;
+        activeImg.src = banner;
         activeImg.style.opacity = '1';
         activeImg.style.transform = 'scale(1)';
         nextImg.style.opacity = '0';
-        document.getElementById('heroTitle').textContent = title;
-        document.getElementById('heroEpBadge').innerHTML = `<i class="far fa-clock text-slate-400 mr-1.5"></i> Ep ${anime.eps} • Complete`;
-        document.getElementById('heroEps').innerHTML = `<i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> ${anime.eps}`;
-        document.getElementById('heroScore').innerHTML = `<i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> ${anime.score || 92}`;
-        document.getElementById('heroGenres').textContent = anime.genres;
-        document.getElementById('heroDesc').textContent = anime.desc;
+        renderContent();
         return;
       }
 
       // Smooth Crossfade & Micro-Animation
       const tempImg = new Image();
       tempImg.onload = () => {
-        nextImg.src = anime.banner;
+        nextImg.src = banner;
 
-        // Content fade & slight slide down
         contentWrap.style.transition = 'opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1)';
         contentWrap.style.opacity = '0';
         contentWrap.style.transform = 'translateY(6px)';
 
-        // Image crossfade & zoom
         nextImg.style.transition = 'opacity 700ms cubic-bezier(0.4, 0, 0.2, 1), transform 1200ms cubic-bezier(0.16, 1, 0.3, 1)';
         activeImg.style.transition = 'opacity 700ms cubic-bezier(0.4, 0, 0.2, 1), transform 1200ms cubic-bezier(0.16, 1, 0.3, 1)';
 
@@ -1257,19 +1172,13 @@
         activeImg.style.transform = 'scale(1.04)';
 
         setTimeout(() => {
-          document.getElementById('heroTitle').textContent = title;
-          document.getElementById('heroEpBadge').innerHTML = `<i class="far fa-clock text-slate-400 mr-1.5"></i> Ep ${anime.eps} • Complete`;
-          document.getElementById('heroEps').innerHTML = `<i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> ${anime.eps}`;
-          document.getElementById('heroScore').innerHTML = `<i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> ${anime.score || 92}`;
-          document.getElementById('heroGenres').textContent = anime.genres;
-          document.getElementById('heroDesc').textContent = anime.desc;
-
+          renderContent();
           contentWrap.style.opacity = '1';
           contentWrap.style.transform = 'translateY(0)';
           currentImgLayer = currentImgLayer === 'A' ? 'B' : 'A';
         }, 260);
       };
-      tempImg.src = anime.banner;
+      tempImg.src = banner;
     }
 
     function resetHeroTimer() {
@@ -1278,12 +1187,14 @@
     }
 
     function prevHero() {
+      if (!featuredHeroMeta.length) return;
       currentHeroIndex = (currentHeroIndex - 1 + featuredHeroMeta.length) % featuredHeroMeta.length;
       updateHeroDisplay();
       resetHeroTimer();
     }
 
     function nextHero() {
+      if (!featuredHeroMeta.length) return;
       currentHeroIndex = (currentHeroIndex + 1) % featuredHeroMeta.length;
       updateHeroDisplay();
       resetHeroTimer();
@@ -1381,7 +1292,7 @@
     }
 
     // -------------------------------------------------------------
-    // FILTERING & SORTING LOGIC
+    // FILTERING & SORTING LOGIC (All 347 Anime Always Searchable & Available)
     // -------------------------------------------------------------
     function applyFilters() {
       const searchVal = (document.getElementById('searchInput').value || document.getElementById('navSearchInput').value || '').toLowerCase().trim();
@@ -1424,13 +1335,14 @@
           }
         }
 
-        // 4. Search keyword filter
+        // 4. Search keyword filter (Supports Kazakh, English, Romaji, Native, Slug)
         if (searchVal) {
+          const kz = (anime.title && (anime.title.kazakh || anime.title.kk)) ? (anime.title.kazakh || anime.title.kk).toLowerCase() : '';
           const eng = (anime.title && anime.title.english) ? anime.title.english.toLowerCase() : '';
           const rom = (anime.title && anime.title.romaji) ? anime.title.romaji.toLowerCase() : '';
           const nat = (anime.title && anime.title.native) ? anime.title.native.toLowerCase() : '';
           const slug = (anime.slug || '').toLowerCase();
-          if (!eng.includes(searchVal) && !rom.includes(searchVal) && !nat.includes(searchVal) && !slug.includes(searchVal)) {
+          if (!kz.includes(searchVal) && !eng.includes(searchVal) && !rom.includes(searchVal) && !nat.includes(searchVal) && !slug.includes(searchVal)) {
             return false;
           }
         }
@@ -1468,7 +1380,7 @@
     }
 
     // -------------------------------------------------------------
-    // MAIN GRID & PAGINATION RENDERING
+    // MAIN GRID & PAGINATION RENDERING (All 347 Anime Rendered Cleanly)
     // -------------------------------------------------------------
     function renderCurrentPage() {
       const grid = document.getElementById('mainAnimeGrid');
@@ -1523,7 +1435,7 @@
                 </div>
               </div>
               
-              <!-- Line 1: Colored Status Dot + Clean Title -->
+              <!-- Line 1: Colored Status Dot + Localized Kazakh Title -->
               <div class="mt-2">
                 <div class="flex items-center space-x-1.5">
                   <span class="w-1.5 h-1.5 rounded-full ${dotColor} shrink-0"></span>
@@ -1666,7 +1578,7 @@
 
       let desc = (detail && detail.description) || (summary && summary.description) || '';
       desc = desc.replace(/<[^>]+>/g, '').trim();
-      document.getElementById('modalDescription').textContent = desc || 'Kazakh subtitles available in SRT, VTT, and ASS.';
+      document.getElementById('modalDescription').textContent = desc || 'Қазақша субтитрлер SRT, VTT, ASS форматтарында қолжетімді.';
 
       renderModalEpisodes(slug, detail || summary);
     }
@@ -1748,7 +1660,7 @@
     });
 
     // -------------------------------------------------------------
-    // INITIALIZATION
+    // INITIALIZATION (Loads all 347 anime & all high-res banners)
     // -------------------------------------------------------------
     async function init() {
       try {
@@ -1756,12 +1668,35 @@
         const json = await res.json();
         animeData = json.data || [];
 
+        // Dynamically collect ALL anime with high-quality AniList banners
+        const withBanners = animeData.filter(a => a.bannerImage && a.bannerImage.startsWith('https://s4.anilist.co'));
+
+        // Rank top hits first in carousel, followed by all remaining banner anime
+        const topSlugsOrder = [
+          'frieren', 'aot', 'jjk-s2', 'kny-mugen-train', 'csm', 'solo-leveling', 
+          'bleach', 'vinland-saga', 'hxh', 'your-name', 'aot-final', 'kny-s2', 
+          'oshi-no-ko', 'violet-evergarden', 'spirited-away', 'suzume', 'opm', 'steins-gate'
+        ];
+
+        withBanners.sort((a, b) => {
+          const idxA = topSlugsOrder.indexOf(a.slug);
+          const idxB = topSlugsOrder.indexOf(b.slug);
+          if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+          if (idxA !== -1) return -1;
+          if (idxB !== -1) return 1;
+          return getAnimeScore(b) - getAnimeScore(a);
+        });
+
+        featuredHeroMeta = withBanners;
+
         // Preload first hero image immediately
-        const firstHero = featuredHeroMeta[0];
-        const imgA = document.getElementById('heroBannerImgA');
-        if (imgA && firstHero) {
-          imgA.src = firstHero.banner;
-          imgA.style.opacity = '1';
+        if (featuredHeroMeta.length > 0) {
+          const firstHero = featuredHeroMeta[0];
+          const imgA = document.getElementById('heroBannerImgA');
+          if (imgA && firstHero) {
+            imgA.src = firstHero.bannerImage;
+            imgA.style.opacity = '1';
+          }
         }
 
         setLanguage(currentLang);
