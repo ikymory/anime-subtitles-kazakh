@@ -14,13 +14,10 @@
       darkMode: 'class',
       theme: {
         extend: {
-          colors: {
-            brand: {
-              50: '#eef6ff',
-              400: '#60a5fa',
-              500: '#3b82f6',
-              600: '#2563eb'
-            }
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+            display: ['Outfit', 'sans-serif']
           }
         }
       }
@@ -31,81 +28,73 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
     body {
-      background-color: #090a0f;
+      background-color: #08090d;
       color: #94a3b8;
       font-family: 'Inter', sans-serif;
       overflow-x: hidden;
     }
     ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
+      width: 5px;
+      height: 5px;
     }
     ::-webkit-scrollbar-track {
-      background: #090a0f;
+      background: #08090d;
     }
     ::-webkit-scrollbar-thumb {
-      background: #1b212d;
+      background: #181d28;
       border-radius: 9999px;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: #283244;
+      background: #252d3d;
     }
     pre code {
       font-family: 'JetBrains Mono', monospace;
     }
-    .hero-title-gradient {
-      font-family: 'Outfit', sans-serif;
-      letter-spacing: -0.03em;
-      background: linear-gradient(180deg, #ffffff 0%, #dbeafe 60%, #60a5fa 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.9));
-    }
   </style>
 </head>
-<body class="min-h-screen flex flex-col selection:bg-slate-700 selection:text-white">
+<body class="min-h-screen flex flex-col selection:bg-white/20 selection:text-white">
 
   <!-- Top Sticky Header -->
-  <header class="sticky top-0 z-40 bg-[#090a0f]/95 backdrop-blur-md border-b border-[#141822] transition-all">
-    <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 h-14 flex items-center justify-between gap-4">
+  <header class="sticky top-0 z-40 bg-[#08090d]/95 backdrop-blur-md border-b border-[#141824] transition-all">
+    <div class="w-full max-w-[1500px] mx-auto px-4 sm:px-8 lg:px-12 h-14 flex items-center justify-between gap-4">
       
       <!-- Left: Logo & Back to Catalog -->
       <div class="flex items-center space-x-3">
         <a href="index.html" class="flex items-center space-x-2 group select-none">
-          <span class="font-extrabold text-lg tracking-tight text-white group-hover:text-slate-300 transition">ikymory</span>
-          <span class="text-[10px] font-mono font-bold bg-[#141a24] text-cyan-400 border border-cyan-500/30 px-2 py-0.5 rounded-md">API DOCS</span>
+          <span class="font-extrabold text-base sm:text-lg tracking-tight text-white group-hover:text-slate-300 transition">ikymory</span>
+          <span class="text-[10px] font-mono font-medium bg-white/5 text-slate-300 border border-white/10 px-2 py-0.5 rounded-md">API</span>
         </a>
-        <span class="text-slate-600 hidden sm:inline">&bull;</span>
+        <span class="text-slate-700 hidden sm:inline">&bull;</span>
         <a href="index.html" class="hidden sm:flex items-center space-x-1.5 text-xs text-slate-400 hover:text-white transition">
           <i class="fas fa-arrow-left text-[10px]"></i>
           <span id="navBackTxt">Каталогқа оралу</span>
         </a>
       </div>
 
-      <!-- Right: Language Switcher, DMCA, X, GitHub -->
+      <!-- Right: Language Switcher, X, GitHub -->
       <div class="flex items-center space-x-2.5">
         <!-- Language Switcher -->
-        <div class="flex items-center bg-[#11141c] border border-[#1a202c] rounded-xl p-0.5 text-xs font-semibold">
-          <button id="lang-btn-kk" onclick="setLanguage('kk')" class="px-2 py-1 rounded-lg transition bg-[#1e2432] text-slate-200 text-[11px]" title="Қазақша">
+        <div class="flex items-center bg-[#10131a] border border-[#181d28] rounded-xl p-0.5 text-xs font-semibold">
+          <button id="lang-btn-kk" onclick="setLanguage('kk')" class="px-2 py-1 rounded-lg transition bg-white/10 text-white text-[11px]" title="Қазақша">
             ҚАЗ
           </button>
-          <button id="lang-btn-en" onclick="setLanguage('en')" class="px-2 py-1 rounded-lg transition text-slate-400 hover:text-slate-200 text-[11px]" title="English">
+          <button id="lang-btn-en" onclick="setLanguage('en')" class="px-2 py-1 rounded-lg transition text-slate-400 hover:text-white text-[11px]" title="English">
             ENG
           </button>
-          <button id="lang-btn-ja" onclick="setLanguage('ja')" class="px-2 py-1 rounded-lg transition text-slate-400 hover:text-slate-200 text-[11px]" title="日本語">
+          <button id="lang-btn-ja" onclick="setLanguage('ja')" class="px-2 py-1 rounded-lg transition text-slate-400 hover:text-white text-[11px]" title="日本語">
             日本語
           </button>
         </div>
 
-        <a href="https://x.com/ikymory" target="_blank" class="text-slate-400 hover:text-slate-200 p-2 rounded-xl hover:bg-[#121620] transition border border-transparent hover:border-[#1a202c]" title="x.com (@ikymory)">
+        <a href="https://x.com/ikymory" target="_blank" class="text-slate-400 hover:text-white p-2 rounded-xl hover:bg-[#10131a] transition border border-transparent hover:border-[#181d28]" title="x.com (@ikymory)">
           <i class="fa-brands fa-x-twitter text-sm"></i>
         </a>
 
-        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="text-slate-400 hover:text-slate-200 p-2 rounded-xl hover:bg-[#121620] transition border border-transparent hover:border-[#1a202c]" title="GitHub">
+        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="text-slate-400 hover:text-white p-2 rounded-xl hover:bg-[#10131a] transition border border-transparent hover:border-[#181d28]" title="GitHub">
           <i class="fab fa-github text-sm"></i>
         </a>
       </div>
@@ -114,48 +103,40 @@
   </header>
 
   <!-- Main Container -->
-  <main class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 py-8 flex-1 space-y-10">
+  <main class="w-full max-w-[1500px] mx-auto px-4 sm:px-8 lg:px-12 py-8 sm:py-10 flex-1 space-y-10">
 
     <!-- Hero Header -->
-    <div class="space-y-3">
-      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-950/50 border border-cyan-800/50 text-cyan-400 text-xs font-mono font-medium">
-        <i class="fas fa-terminal text-[11px]"></i>
-        <span>v1.0.0 Global Static REST API & Subtitle CDN</span>
+    <div class="space-y-3 max-w-3xl">
+      <div class="inline-flex items-center space-x-2 px-2.5 py-1 rounded-md bg-white/[0.04] border border-white/10 text-slate-300 text-xs font-mono">
+        <i class="fas fa-terminal text-[10px] text-slate-400"></i>
+        <span>v1.0.0 Global REST API & Subtitle CDN</span>
       </div>
-      <h1 class="hero-title-gradient text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight" id="heroApiTitle">
+      <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight" id="heroApiTitle">
         API және Әзірлеуші Құжаттамасы
       </h1>
-      <p class="text-sm sm:text-base text-slate-400 max-w-3xl leading-relaxed" id="heroApiDesc">
+      <p class="text-xs sm:text-sm text-slate-400 leading-relaxed" id="heroApiDesc">
         Қазақ тіліндегі 500 аниме франшизасы, 4,597 бөлімі және 41,377 (.srt, .vtt, .ass) субтитр файлдарының толық ашық деректер базасы. Кез келген веб-сайтқа, мобильді қосымшаға немесе ойнатқышқа оңай интеграциялаңыз.
       </p>
     </div>
 
-    <!-- 1. EDUCATIONAL MISSION & ANTI-PIRACY STATEMENT (MANDATORY POLICY) -->
-    <section class="rounded-2xl bg-[#0f121a] border border-[#1b2230] p-6 sm:p-8 shadow-2xl relative overflow-hidden space-y-4">
-      <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none"></div>
-      
-      <div class="flex items-center space-x-3 text-emerald-400 font-bold text-sm sm:text-base">
-        <i class="fas fa-shield-halved text-lg"></i>
-        <h2 id="policyTitle" class="uppercase tracking-wider">Оқу-ағарту мақсаты және Қарақшылыққа қарсы манифест (Anti-Piracy & Educational Statement)</h2>
+    <!-- 1. MANDATORY POLICY: EDUCATIONAL & ANTI-PIRACY STATEMENT -->
+    <section class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 sm:p-6 space-y-4">
+      <div class="flex items-center space-x-2 text-white font-semibold text-xs tracking-wider uppercase">
+        <i class="fas fa-shield-alt text-xs text-white"></i>
+        <h2 id="policyTitle">Оқу-ағарту мақсаты және Қарақшылыққа қарсы мәлімдеме</h2>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs sm:text-sm leading-relaxed text-slate-300">
-        <div class="space-y-2 p-4 rounded-xl bg-[#141824] border border-[#1e2536]">
-          <h3 id="policyEduHeading" class="font-bold text-slate-100 flex items-center space-x-2">
-            <i class="fas fa-graduation-cap text-cyan-400"></i>
-            <span>1. Тек білім беру және лингвистикалық инклюзия мақсатында</span>
-          </h3>
-          <p id="policyEduText" class="text-slate-400 text-xs sm:text-[13px] leading-relaxed">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs leading-relaxed">
+        <div class="space-y-1.5 p-4 rounded-xl bg-black/40 border border-white/5">
+          <h3 id="policyEduHeading" class="font-semibold text-white">1. Тек білім беру және лингвистикалық инклюзия мақсатында</h3>
+          <p id="policyEduText" class="text-slate-400">
             Бұл жоба 100% коммерциялық емес ашық бастапқы деректер жиынтығы болып табылады. Оның басты миссиясы — қазақ тілінің цифрлық әлемдегі үлесін арттыру, жасанды интеллект (NLP/LLM) модельдерін қазақша бейімдеуге көмектесу және Қазақстан Республикасындағы есту қабілеті шектеулі жандарға (DHH) субтитр арқылы тең қолжетімділік жасау (17 U.S.C. § 107 Fair Use талаптарына сай).
           </p>
         </div>
 
-        <div class="space-y-2 p-4 rounded-xl bg-[#141824] border border-[#1e2536]">
-          <h3 id="policyPiracyHeading" class="font-bold text-rose-400 flex items-center space-x-2">
-            <i class="fas fa-ban text-rose-400"></i>
-            <span>2. Қарақшылық қатаң айыпталады (Zero Media Hosting)</span>
-          </h3>
-          <p id="policyPiracyText" class="text-slate-400 text-xs sm:text-[13px] leading-relaxed">
+        <div class="space-y-1.5 p-4 rounded-xl bg-black/40 border border-white/5">
+          <h3 id="policyPiracyHeading" class="font-semibold text-white">2. Қарақшылық қатаң айыпталады (Zero Media Hosting)</h3>
+          <p id="policyPiracyText" class="text-slate-400">
             Қарақшылық (piracy) туындыгерлер мен анимация студияларының еңбегіне үлкен нұқсан келтіреді. Біз бейнематериалдарды рұқсатсыз таратуды қатаң айыптаймыз. Бұл серверлерде <strong>ешқандай видео (mp4, mkv) немесе аудио файлдары САҚТАЛМАЙДЫ және ТАРАТЫЛМАЙДЫ</strong>. Тек мәтіндік субтитрлер ғана қолжетімді. Сүйікті анимеңізді заңды ресми лицензиялы платформалардан (Crunchyroll, Netflix, Muse Asia, Ani-One) көріп, студияларды қолдауға шақырамыз!
           </p>
         </div>
@@ -163,41 +144,40 @@
     </section>
 
     <!-- 2. BASE API ENDPOINTS & SCHEMAS -->
-    <section class="space-y-6">
-      <div class="border-b border-[#181e2b] pb-3">
-        <h2 id="endpointsSectionTitle" class="text-xl sm:text-2xl font-black text-white tracking-tight flex items-center space-x-2.5">
-          <i class="fas fa-network-wired text-cyan-400 text-lg"></i>
+    <section class="space-y-5">
+      <div class="border-b border-white/10 pb-3">
+        <h2 id="endpointsSectionTitle" class="text-lg sm:text-xl font-bold text-white tracking-tight flex items-center space-x-2">
+          <i class="fas fa-cube text-white text-xs"></i>
           <span>Негізгі API Нүктелері (Endpoints)</span>
         </h2>
-        <p id="endpointsSectionDesc" class="text-xs sm:text-sm text-slate-400 mt-1">
+        <p id="endpointsSectionDesc" class="text-xs text-slate-400 mt-1">
           Тіркелусіз, API кілтсіз (no auth required), шектеусіз және CORS толық қосылған ғаламдық CDN арқылы жұмыс істейді.
         </p>
       </div>
 
       <!-- Endpoint 1: Catalog -->
-      <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 sm:p-6 space-y-4 shadow-xl">
+      <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3.5">
         <div class="flex flex-wrap items-center justify-between gap-3">
-          <div class="flex items-center space-x-3">
-            <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono font-bold text-xs">GET</span>
-            <code class="text-xs sm:text-sm text-slate-200 font-mono font-semibold">https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json</code>
+          <div class="flex items-center space-x-2.5">
+            <span class="px-2 py-0.5 rounded text-[11px] font-mono font-semibold bg-white/10 text-white border border-white/15">GET</span>
+            <code class="text-xs sm:text-sm text-slate-200 font-mono font-medium">https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json</code>
           </div>
-          <button onclick="copyCode('https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json')" class="px-3 py-1.5 rounded-lg bg-[#141924] hover:bg-[#1a2233] border border-[#20293d] text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1.5 cursor-pointer">
-            <i class="far fa-copy text-xs"></i>
+          <button onclick="copyCode('https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1.5 cursor-pointer">
+            <i class="far fa-copy text-[10px]"></i>
             <span>Көшіру</span>
           </button>
         </div>
-        <p id="ep1Desc" class="text-xs sm:text-sm text-slate-400">
+        <p id="ep1Desc" class="text-xs text-slate-400">
           Барлық 500 аниме франшизасының толық тізімін қайтарады: slug, қазақша, ағылшынша, жапонша атаулары, бөлім сандары, жанрлары, мұқаба суреттері (AniList HD).
         </p>
         
         <!-- Code snippet preview -->
-        <div class="relative rounded-xl bg-[#090a0f] border border-[#181e2b] p-4 overflow-x-auto text-xs font-mono text-slate-300">
+        <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
           <div class="text-slate-500 pb-2">// Response JSON (Sample)</div>
 <pre><code>{
   "version": "1.0.0",
   "total": 500,
-  "license": "CC BY 4.0",
-  "author": "ikymory (@ikymory)",
+  "language": "kk",
   "data": [
     {
       "id": 154587,
@@ -223,60 +203,60 @@
       </div>
 
       <!-- Endpoint 2: Individual Anime -->
-      <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 sm:p-6 space-y-4 shadow-xl">
+      <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3.5">
         <div class="flex flex-wrap items-center justify-between gap-3">
-          <div class="flex items-center space-x-3">
-            <span class="px-2.5 py-1 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono font-bold text-xs">GET</span>
-            <code class="text-xs sm:text-sm text-slate-200 font-mono font-semibold">https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/{slug}.json</code>
+          <div class="flex items-center space-x-2.5">
+            <span class="px-2 py-0.5 rounded text-[11px] font-mono font-semibold bg-white/10 text-white border border-white/15">GET</span>
+            <code class="text-xs sm:text-sm text-slate-200 font-mono font-medium">https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/{slug}.json</code>
           </div>
-          <button onclick="copyCode('https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/{slug}.json')" class="px-3 py-1.5 rounded-lg bg-[#141924] hover:bg-[#1a2233] border border-[#20293d] text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1.5 cursor-pointer">
-            <i class="far fa-copy text-xs"></i>
+          <button onclick="copyCode('https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/{slug}.json')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1.5 cursor-pointer">
+            <i class="far fa-copy text-[10px]"></i>
             <span>Көшіру</span>
           </button>
         </div>
-        <p id="ep2Desc" class="text-xs sm:text-sm text-slate-400">
+        <p id="ep2Desc" class="text-xs text-slate-400">
           Нақты бір анименің (мысалы <code>frieren</code>, <code>solo-leveling</code>, <code>jojo-steel-ball-run</code>) толық сипаттамасын, студиясын, рейтингін және барлық бөлімдер тізімін қайтарады.
         </p>
       </div>
 
       <!-- Endpoint 3: Direct CDN Subtitles -->
-      <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 sm:p-6 space-y-4 shadow-xl">
+      <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3.5">
         <div class="flex flex-wrap items-center justify-between gap-3">
-          <div class="flex items-center space-x-3">
-            <span class="px-2.5 py-1 rounded-lg bg-blue-500/10 border border-blue-500/30 text-blue-400 font-mono font-bold text-xs">CDN</span>
-            <code class="text-xs sm:text-sm text-slate-200 font-mono font-semibold">https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/{slug}/{slug}-{ep}ep.{srt|vtt|ass}</code>
+          <div class="flex items-center space-x-2.5">
+            <span class="px-2 py-0.5 rounded text-[11px] font-mono font-semibold bg-white/10 text-white border border-white/15">CDN</span>
+            <code class="text-xs sm:text-sm text-slate-200 font-mono font-medium">https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/{slug}/{slug}-{ep}ep.{srt|vtt|ass}</code>
           </div>
-          <button onclick="copyCode('https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.vtt')" class="px-3 py-1.5 rounded-lg bg-[#141924] hover:bg-[#1a2233] border border-[#20293d] text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1.5 cursor-pointer">
-            <i class="far fa-copy text-xs"></i>
+          <button onclick="copyCode('https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.vtt')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1.5 cursor-pointer">
+            <i class="far fa-copy text-[10px]"></i>
             <span>Үлгі көшіру</span>
           </button>
         </div>
-        <p id="ep3Desc" class="text-xs sm:text-sm text-slate-400">
+        <p id="ep3Desc" class="text-xs text-slate-400">
           Кез келген бөлімнің қазақша субтитріне jsDelivr Global Edge CDN арқылы тікелей сілтеме. Браузерде және ойнатқыштарда жылдам жүктелуге кепілдік берілген.
         </p>
       </div>
     </section>
 
     <!-- 3. HOW TO CONNECT TO WEBSITES & WEB APPS -->
-    <section class="space-y-6">
-      <div class="border-b border-[#181e2b] pb-3">
-        <h2 id="webSectionTitle" class="text-xl sm:text-2xl font-black text-white tracking-tight flex items-center space-x-2.5">
-          <i class="fas fa-globe text-emerald-400 text-lg"></i>
+    <section class="space-y-5">
+      <div class="border-b border-white/10 pb-3">
+        <h2 id="webSectionTitle" class="text-lg sm:text-xl font-bold text-white tracking-tight flex items-center space-x-2">
+          <i class="fas fa-globe text-white text-xs"></i>
           <span>Веб-сайттар мен Платформаларға қосу (Web Integration)</span>
         </h2>
-        <p id="webSectionDesc" class="text-xs sm:text-sm text-slate-400 mt-1">
+        <p id="webSectionDesc" class="text-xs text-slate-400 mt-1">
           HTML5 видео ойнатқыштарына, React, Vue, Next.js немесе кез келген веб-фронтендке қазақша субтитр қосудың ең тиімді жолдары.
         </p>
       </div>
 
       <!-- Tab 1: Native HTML5 Video Track -->
-      <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 sm:p-6 space-y-3 shadow-xl">
+      <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3">
         <div class="flex items-center justify-between">
-          <h3 id="tabHtml5Title" class="text-sm font-bold text-slate-200 flex items-center space-x-2">
-            <i class="fab fa-html5 text-orange-400 text-base"></i>
+          <h3 id="tabHtml5Title" class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
+            <i class="fas fa-video text-slate-300 text-xs"></i>
             <span>1. Стандартты HTML5 &lt;video&gt; және WebVTT (.vtt) қолдану</span>
           </h3>
-          <button onclick="copySnippet('snippet-html5')" class="px-2.5 py-1 rounded-lg bg-[#141924] hover:bg-[#1a2233] text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
+          <button onclick="copySnippet('snippet-html5')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
             <i class="far fa-copy text-[10px]"></i>
             <span>Код көшіру</span>
           </button>
@@ -284,7 +264,7 @@
         <p id="tabHtml5Desc" class="text-xs text-slate-400">
           Кез келген видео ойнатқышқа <code>&lt;track&gt;</code> тегі арқылы қазақ тіліндегі WebVTT субтитрін қосыңыз:
         </p>
-        <div class="relative rounded-xl bg-[#090a0f] border border-[#181e2b] p-4 overflow-x-auto text-xs font-mono text-emerald-300">
+        <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
 <pre id="snippet-html5"><code>&lt;video controls crossorigin="anonymous" width="100%" poster="poster.jpg"&gt;
   &lt;source src="https://your-legal-stream.com/frieren-ep1.mp4" type="video/mp4"&gt;
   
@@ -300,18 +280,18 @@
       </div>
 
       <!-- Tab 2: JavaScript / TypeScript Fetch Integration -->
-      <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 sm:p-6 space-y-3 shadow-xl">
+      <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3">
         <div class="flex items-center justify-between">
-          <h3 id="tabJsTitle" class="text-sm font-bold text-slate-200 flex items-center space-x-2">
-            <i class="fab fa-js text-amber-400 text-base"></i>
+          <h3 id="tabJsTitle" class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
+            <i class="fas fa-code text-slate-300 text-xs"></i>
             <span>2. JavaScript / TypeScript арқылы динамикалық іздеу және жүктеу</span>
           </h3>
-          <button onclick="copySnippet('snippet-js')" class="px-2.5 py-1 rounded-lg bg-[#141924] hover:bg-[#1a2233] text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
+          <button onclick="copySnippet('snippet-js')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
             <i class="far fa-copy text-[10px]"></i>
             <span>Код көшіру</span>
           </button>
         </div>
-        <div class="relative rounded-xl bg-[#090a0f] border border-[#181e2b] p-4 overflow-x-auto text-xs font-mono text-cyan-300">
+        <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
 <pre id="snippet-js"><code>// 1. Барлық каталогты жүктеу
 async function fetchKazakhAnimeCatalog() {
   const res = await fetch('https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json');
@@ -335,46 +315,46 @@ fetchKazakhAnimeCatalog().then(animes => {
     </section>
 
     <!-- 4. HOW TO CONNECT TO APPS & DESKTOP PLAYERS -->
-    <section class="space-y-6">
-      <div class="border-b border-[#181e2b] pb-3">
-        <h2 id="appsSectionTitle" class="text-xl sm:text-2xl font-black text-white tracking-tight flex items-center space-x-2.5">
-          <i class="fas fa-play text-amber-400 text-lg"></i>
+    <section class="space-y-5">
+      <div class="border-b border-white/10 pb-3">
+        <h2 id="appsSectionTitle" class="text-lg sm:text-xl font-bold text-white tracking-tight flex items-center space-x-2">
+          <i class="fas fa-play text-white text-xs"></i>
           <span>Ойнатқыштар мен Мобильді Қосымшаларға қосу (Apps & Players)</span>
         </h2>
-        <p id="appsSectionDesc" class="text-xs sm:text-sm text-slate-400 mt-1">
+        <p id="appsSectionDesc" class="text-xs text-slate-400 mt-1">
           VLC, MPV, PotPlayer компьютерде, немесе Android (ExoPlayer) және iOS (AVPlayer) мобильді қосымшаларында қолдану.
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         
         <!-- MPV & VLC Desktop -->
-        <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 space-y-3 shadow-xl">
-          <h3 class="text-sm font-bold text-slate-200 flex items-center space-x-2">
-            <i class="fas fa-desktop text-purple-400"></i>
+        <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3">
+          <h3 class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
+            <i class="fas fa-desktop text-slate-300 text-xs"></i>
             <span>MPV және VLC Media Player (Компьютер)</span>
           </h3>
           <p id="playerDescMpv" class="text-xs text-slate-400 leading-relaxed">
-            MPV ойнатқышында субтитр сілтемесін тікелей терминал арқылы іске қосуға болады (ASS стилдері, шрифттері толық қолданылады):
+            MPV ойнатқышында субтитр сілтемесін тікелей терминал арқылы іске қосуға болады:
           </p>
-          <div class="rounded-xl bg-[#090a0f] border border-[#181e2b] p-3 text-xs font-mono text-purple-300">
+          <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-3 text-xs font-mono text-slate-300 overflow-x-auto">
             <code>mpv video.mp4 --sub-file="https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.ass"</code>
           </div>
           <p id="playerDescVlc" class="text-[11px] text-slate-500">
-            VLC ойнатқышында: Видеоны ашып, <em>Субтитры &rarr; Добавить файл субтитров...</em> батырмасын басып, жүктелген .srt немесе .ass файлын таңдаңыз.
+            VLC: Видеоны ашып, <em>Субтитры &rarr; Добавить файл субтитров...</em> басып, жүктелген .srt немесе .ass файлын таңдаңыз.
           </p>
         </div>
 
         <!-- Android ExoPlayer -->
-        <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 space-y-3 shadow-xl">
-          <h3 class="text-sm font-bold text-slate-200 flex items-center space-x-2">
-            <i class="fab fa-android text-emerald-400"></i>
+        <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3">
+          <h3 class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
+            <i class="fas fa-mobile-screen text-slate-300 text-xs"></i>
             <span>Android (Media3 / ExoPlayer)</span>
           </h3>
           <p id="playerDescAndroid" class="text-xs text-slate-400 leading-relaxed">
-            Android қосымшаларында MediaItem құру кезінде Kazakh SubtitleConfiguration қосу:
+            Android қосымшаларында MediaItem құру кезінде SubtitleConfiguration қосу:
           </p>
-          <div class="rounded-xl bg-[#090a0f] border border-[#181e2b] p-3 text-xs font-mono text-emerald-300 overflow-x-auto">
+          <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-3 text-xs font-mono text-slate-300 overflow-x-auto">
 <pre><code>val subtitleConfig = MediaItem.SubtitleConfiguration.Builder(
     Uri.parse("https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/frieren/frieren-1ep.vtt")
 )
@@ -390,40 +370,40 @@ fetchKazakhAnimeCatalog().then(animes => {
     </section>
 
     <!-- 5. HOW TO RUN & USE LOCALLY (OFFLINE USAGE & SELF-HOSTING) -->
-    <section class="space-y-6">
-      <div class="border-b border-[#181e2b] pb-3">
-        <h2 id="localSectionTitle" class="text-xl sm:text-2xl font-black text-white tracking-tight flex items-center space-x-2.5">
-          <i class="fas fa-server text-indigo-400 text-lg"></i>
+    <section class="space-y-5">
+      <div class="border-b border-white/10 pb-3">
+        <h2 id="localSectionTitle" class="text-lg sm:text-xl font-bold text-white tracking-tight flex items-center space-x-2">
+          <i class="fas fa-server text-white text-xs"></i>
           <span>Жергілікті қолдану және Офлайн Сервер (Local & Offline Usage)</span>
         </h2>
-        <p id="localSectionDesc" class="text-xs sm:text-sm text-slate-400 mt-1">
+        <p id="localSectionDesc" class="text-xs text-slate-400 mt-1">
           Интернетсіз жұмыс істеу, репозиторийді клондау және жергілікті компьютерде жеке API серверді іске қосу нұсқаулығы.
         </p>
       </div>
 
-      <div class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 sm:p-6 space-y-4 shadow-xl">
+      <div class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-4">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           
-          <div class="p-4 rounded-xl bg-[#141824] border border-[#1e2536] space-y-2">
-            <div class="text-xs font-bold text-cyan-400 font-mono">1-ҚАДАМ: КЛОНДАУ</div>
+          <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-2">
+            <div class="text-xs font-semibold text-white font-mono">01 / КЛОНДАУ</div>
             <p id="step1Desc" class="text-xs text-slate-400">Толық 41,377 субтитр файлдарын және API JSON файлдарын компьютеріңізге көшіріп алыңыз:</p>
-            <div class="rounded-lg bg-[#090a0f] p-2 text-xs font-mono text-slate-200">
+            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono text-slate-300 overflow-x-auto">
               <code>git clone https://github.com/ikymory/anime-subtitles-kazakh.git</code>
             </div>
           </div>
 
-          <div class="p-4 rounded-xl bg-[#141824] border border-[#1e2536] space-y-2">
-            <div class="text-xs font-bold text-amber-400 font-mono">2-ҚАДАМ: ЖЕРГІЛІКТІ СЕРВЕР</div>
+          <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-2">
+            <div class="text-xs font-semibold text-white font-mono">02 / ЖЕРГІЛІКТІ СЕРВЕР</div>
             <p id="step2Desc" class="text-xs text-slate-400">Python арқылы 1 жолмен жеке жергілікті API серверіңізді көтеріңіз:</p>
-            <div class="rounded-lg bg-[#090a0f] p-2 text-xs font-mono text-slate-200">
+            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono text-slate-300 overflow-x-auto">
               <code>python -m http.server 8000 --directory dist</code>
             </div>
           </div>
 
-          <div class="p-4 rounded-xl bg-[#141824] border border-[#1e2536] space-y-2">
-            <div class="text-xs font-bold text-emerald-400 font-mono">3-ҚАДАМ: ЛОКАЛДЫ ҚОСЫЛУ</div>
+          <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-2">
+            <div class="text-xs font-semibold text-white font-mono">03 / ЛОКАЛДЫ ҚОСЫЛУ</div>
             <p id="step3Desc" class="text-xs text-slate-400">Енді локалды IP арқылы кез келген қосымшаңызға қоса аласыз:</p>
-            <div class="rounded-lg bg-[#090a0f] p-2 text-xs font-mono text-emerald-300">
+            <div class="rounded-lg bg-[#050609] p-2 text-xs font-mono text-slate-300 overflow-x-auto">
               <code>http://localhost:8000/api/v1/anime.json</code>
             </div>
           </div>
@@ -433,13 +413,13 @@ fetchKazakhAnimeCatalog().then(animes => {
     </section>
 
     <!-- 6. PYTHON / DATA SCIENCE / NLP RESEARCH CODE -->
-    <section class="rounded-2xl bg-[#0f121a] border border-[#181e2b] p-5 sm:p-6 space-y-4 shadow-xl">
+    <section class="rounded-2xl bg-[#0d1017] border border-white/10 p-5 space-y-3.5">
       <div class="flex items-center justify-between">
-        <h2 id="nlpSectionTitle" class="text-base sm:text-lg font-bold text-white flex items-center space-x-2">
-          <i class="fab fa-python text-yellow-400 text-lg"></i>
+        <h2 id="nlpSectionTitle" class="text-xs sm:text-sm font-semibold text-white flex items-center space-x-2">
+          <i class="fab fa-python text-slate-300 text-sm"></i>
           <span>Python арқылы Лингвистикалық сараптама және Деректерді жүктеу</span>
         </h2>
-        <button onclick="copySnippet('snippet-python')" class="px-2.5 py-1 rounded-lg bg-[#141924] hover:bg-[#1a2233] text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
+        <button onclick="copySnippet('snippet-python')" class="px-2.5 py-1 rounded-md bg-white/[0.04] hover:bg-white/10 text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1">
           <i class="far fa-copy text-[10px]"></i>
           <span>Код көшіру</span>
         </button>
@@ -447,7 +427,7 @@ fetchKazakhAnimeCatalog().then(animes => {
       <p id="nlpSectionDesc" class="text-xs text-slate-400">
         Ғалымдар, зерттеушілер және дата-инженерлер қазақ тіліндегі бейнеаударма корпусын зерттеу үшін мына скриптті тікелей қолдана алады:
       </p>
-      <div class="relative rounded-xl bg-[#090a0f] border border-[#181e2b] p-4 overflow-x-auto text-xs font-mono text-yellow-300">
+      <div class="rounded-xl bg-[#050609] border border-white/[0.06] p-4 overflow-x-auto text-xs font-mono text-slate-300">
 <pre id="snippet-python"><code>import urllib.request
 import json
 
@@ -474,15 +454,15 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
 
   <!-- Toast Notification -->
   <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-16 opacity-0 transition-all duration-300 pointer-events-none">
-    <div class="bg-[#161c28] border border-[#232b3e] text-slate-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center space-x-2">
-      <i class="fas fa-check text-emerald-400 text-xs"></i>
+    <div class="bg-[#121620] border border-white/10 text-slate-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center space-x-2">
+      <i class="fas fa-check text-white text-xs"></i>
       <span id="toastMsg">Көшірілді</span>
     </div>
   </div>
 
   <!-- Footer -->
-  <footer class="mt-auto border-t border-[#141822] bg-[#08090d] py-6 text-xs text-slate-500">
-    <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+  <footer class="mt-auto border-t border-white/10 bg-[#06070a] py-6 text-xs text-slate-500">
+    <div class="w-full max-w-[1500px] mx-auto px-4 sm:px-8 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
       <div class="flex items-center space-x-2">
         <span class="font-extrabold text-slate-300">ikymory</span>
         <span>&bull;</span>
@@ -490,11 +470,11 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
       </div>
       <div class="flex flex-wrap items-center justify-center sm:justify-end gap-x-3 gap-y-1.5 text-xs text-slate-400">
         <a href="index.html" class="hover:text-white transition">Каталог</a>
-        <span class="text-slate-600">&bull;</span>
+        <span class="text-slate-700">&bull;</span>
         <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="hover:text-white transition">GitHub</a>
-        <span class="text-slate-600">&bull;</span>
+        <span class="text-slate-700">&bull;</span>
         <a href="https://x.com/ikymory" target="_blank" class="text-slate-300 hover:text-white transition font-medium">x.com (@ikymory)</a>
-        <span class="text-slate-600">&bull;</span>
+        <span class="text-slate-700">&bull;</span>
         <a href="mailto:ikymory@gmail.com" class="text-slate-300 hover:text-white transition font-mono">ikymory@gmail.com</a>
       </div>
     </div>
@@ -508,7 +488,7 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
         nav_back: "Каталогқа оралу",
         hero_title: "API және Әзірлеуші Құжаттамасы",
         hero_desc: "Қазақ тіліндегі 500 аниме франшизасы, 4,597 бөлімі және 41,377 (.srt, .vtt, .ass) субтитр файлдарының толық ашық деректер базасы. Кез келген веб-сайтқа, мобильді қосымшаға немесе ойнатқышқа оңай интеграциялаңыз.",
-        policy_title: "Оқу-ағарту мақсаты және Қарақшылыққа қарсы манифест (Anti-Piracy & Educational Statement)",
+        policy_title: "Оқу-ағарту мақсаты және Қарақшылыққа қарсы мәлімдеме",
         policy_edu_h: "1. Тек білім беру және лингвистикалық инклюзия мақсатында",
         policy_edu_t: "Бұл жоба 100% коммерциялық емес ашық бастапқы деректер жиынтығы болып табылады. Оның басты миссиясы — қазақ тілінің цифрлық әлемдегі үлесін арттыру, жасанды интеллект (NLP/LLM) модельдерін қазақша бейімдеуге көмектесу және Қазақстан Республикасындағы есту қабілеті шектеулі жандарға (DHH) субтитр арқылы тең қолжетімділік жасау (17 U.S.C. § 107 Fair Use талаптарына сай).",
         policy_piracy_h: "2. Қарақшылық қатаң айыпталады (Zero Media Hosting)",
@@ -582,9 +562,9 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
         const btn = document.getElementById(`lang-btn-${l}`);
         if (!btn) return;
         if (l === lang) {
-          btn.className = 'px-2 py-1 rounded-lg transition bg-[#1e2432] text-slate-100 font-semibold text-[11px]';
+          btn.className = 'px-2 py-1 rounded-lg transition bg-white/10 text-white font-semibold text-[11px]';
         } else {
-          btn.className = 'px-2 py-1 rounded-lg transition text-slate-400 hover:text-slate-200 text-[11px]';
+          btn.className = 'px-2 py-1 rounded-lg transition text-slate-400 hover:text-white text-[11px]';
         }
       });
 

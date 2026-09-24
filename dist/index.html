@@ -228,12 +228,12 @@
         </div>
 
         <button onclick="openDmcaModal()" class="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#161c28] border border-[#1a202c] hover:border-slate-500/50 text-slate-300 hover:text-white transition text-xs" title="DMCA & Legal Notice">
-          <i class="fas fa-shield-alt text-[10px] text-emerald-400"></i>
+          <i class="fas fa-shield-alt text-[10px] text-white"></i>
           <span id="navDmcaTxt" class="font-medium text-[11px]">DMCA</span>
         </button>
 
         <a href="api.html" class="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#161c28] border border-[#1a202c] hover:border-slate-500/50 text-slate-300 hover:text-white transition text-xs" title="REST API & Developer Docs">
-          <i class="fas fa-code text-[10px] text-cyan-400"></i>
+          <i class="fas fa-code text-[10px] text-white"></i>
           <span class="font-medium text-[11px]">API</span>
         </a>
 
@@ -268,8 +268,8 @@
           <i class="far fa-clock text-slate-300"></i>
           <span id="heroEpBadgeTxt">EP 28 • 24M</span>
         </span>
-        <span id="heroLegalBadge" class="hidden sm:inline-flex bg-black/60 backdrop-blur-md border border-emerald-500/30 text-emerald-400 text-[10px] font-medium px-2.5 py-1.5 rounded-full items-center space-x-1 shadow-sm">
-          <i class="fas fa-shield-alt text-[9px]"></i>
+        <span id="heroLegalBadge" class="hidden sm:inline-flex bg-black/60 backdrop-blur-md border border-white/10 text-slate-200 text-[10px] font-medium px-2.5 py-1.5 rounded-full items-center space-x-1.5 shadow-sm">
+          <i class="fas fa-shield-alt text-[9px] text-white"></i>
           <span id="heroLegalBadgeTxt">Тек мәтіндік субтитрлер • Видео сақталмайды</span>
         </span>
       </div>
@@ -295,13 +295,13 @@
             <i class="fas fa-closed-captioning text-[11px] text-slate-300"></i> 28
           </span>
           <span id="heroScore" class="bg-black/60 backdrop-blur border border-white/10 px-2.5 py-0.5 rounded-md text-slate-200 flex items-center gap-1.5">
-            <i class="far fa-star text-[11px] text-amber-400"></i> 95
+            <i class="far fa-star text-[11px] text-slate-300"></i> 95
           </span>
           <span id="heroDuration" class="bg-black/60 backdrop-blur border border-white/10 px-2.5 py-0.5 rounded-md text-slate-200 flex items-center gap-1.5">
             <i class="far fa-clock text-[11px] text-slate-300"></i> 24 mins
           </span>
-          <span class="bg-emerald-950/70 border border-emerald-500/40 text-emerald-400 px-2.5 py-0.5 rounded-md text-[11px] font-medium hidden sm:inline-flex items-center gap-1">
-            <i class="fas fa-check-circle text-[10px]"></i> KK SUB
+          <span class="bg-black/60 backdrop-blur border border-white/10 text-slate-200 px-2.5 py-0.5 rounded-md text-[11px] font-medium hidden sm:inline-flex items-center gap-1.5">
+            <i class="fas fa-check-circle text-[10px] text-white"></i> KK SUB
           </span>
         </div>
 
@@ -491,13 +491,14 @@
           <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
-                  <div class="w-7 h-7 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xs shadow-sm">
-                    <i class="fas fa-check-double"></i>
-                  </div>
+                <div class="flex items-center space-x-2 text-white font-black text-sm uppercase tracking-wider">
+                  <i class="fas fa-check-double text-white text-xs"></i>
                   <span id="bottomFinishedTitle">JUST FINISHED</span>
                 </div>
-                <span class="text-[11px] font-mono text-slate-300 bg-[#141924] px-2.5 py-0.5 rounded-lg border border-white/10 flex items-center space-x-1.5"><i class="fas fa-calendar-alt text-[10px] text-emerald-400"></i><span>2024–2026</span></span>
+                <span class="text-[11px] font-mono text-slate-400 flex items-center space-x-1.5">
+                  <i class="far fa-calendar-alt text-[10px] text-slate-400"></i>
+                  <span>2024–2026</span>
+                </span>
               </div>
               <div id="justFinishedList" class="space-y-3">
                 <!-- Rendered via JS -->
@@ -513,13 +514,14 @@
           <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-4">
-                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
-                  <div class="w-7 h-7 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 text-xs shadow-sm">
-                    <i class="fas fa-trophy"></i>
-                  </div>
+                <div class="flex items-center space-x-2 text-white font-black text-sm uppercase tracking-wider">
+                  <i class="fas fa-trophy text-white text-xs"></i>
                   <span id="bottomRatedTitle">TOP RATED</span>
                 </div>
-                <span class="text-[11px] font-mono text-amber-300 bg-amber-500/10 px-2.5 py-0.5 rounded-lg border border-amber-500/20 flex items-center space-x-1.5"><i class="fas fa-crown text-[10px] text-amber-400"></i><span>All Time Peak</span></span>
+                <span class="text-[11px] font-mono text-slate-400 flex items-center space-x-1.5">
+                  <i class="fas fa-crown text-[10px] text-slate-400"></i>
+                  <span>All Time Peak</span>
+                </span>
               </div>
               <div id="bottomTopRatedList" class="space-y-3">
                 <!-- Rendered via JS -->
@@ -540,13 +542,11 @@
         <!-- SECTION: TOP MOVIES (Expandable) -->
         <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 space-y-4 shadow-xl">
           <div class="flex items-center justify-between text-slate-200">
-            <div class="flex items-center space-x-2.5">
-              <div class="w-7 h-7 rounded-xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-xs shadow-sm">
-                <i class="fas fa-film"></i>
-              </div>
+            <div class="flex items-center space-x-2 text-white font-black text-sm uppercase tracking-wider">
+              <i class="fas fa-film text-white text-xs"></i>
               <h3 id="sidebarMoviesTitle" class="text-sm font-black tracking-wider text-slate-100 uppercase">TOP MOVIES</h3>
             </div>
-            <span class="text-[10px] font-mono font-semibold uppercase px-2 py-0.5 rounded-md bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Films</span>
+            <span class="text-[10px] font-mono text-slate-400">Films</span>
           </div>
           <div id="topMoviesList" class="space-y-3">
             <!-- Rendered via JS -->
@@ -585,8 +585,8 @@
             <i class="fa-brands fa-x-twitter"></i>
             <span class="hidden sm:inline">ikymory</span>
           </a>
-          <a id="modalApiLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-cyan-400 hover:text-white text-xs font-mono transition flex items-center space-x-1.5" title="JSON API">
-            <i class="fas fa-code text-[10px]"></i>
+          <a id="modalApiLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-slate-300 hover:text-white text-xs font-mono transition flex items-center space-x-1.5" title="JSON API">
+            <i class="fas fa-code text-[10px] text-white"></i>
             <span class="hidden sm:inline">API</span>
           </a>
           <a id="modalGithubLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-slate-300 hover:text-white text-xs font-medium transition flex items-center space-x-1.5">
@@ -630,15 +630,15 @@
           <div class="flex flex-wrap items-center gap-2 text-[11px] font-medium">
             <span id="modalFormatBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-slate-200 font-semibold uppercase">TV</span>
             <span id="modalYearBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-slate-300 font-mono">2024</span>
-            <span id="modalScoreBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-amber-300 flex items-center space-x-1">
-              <i class="far fa-star text-[10px] mr-1"></i><span id="modalScoreVal">95</span>
+            <span id="modalScoreBadge" class="bg-black/60 border border-white/10 px-2.5 py-0.5 rounded-lg text-slate-200 flex items-center space-x-1">
+              <i class="far fa-star text-[10px] mr-1 text-slate-300"></i><span id="modalScoreVal">95</span>
             </span>
-            <span id="modalStatusBadge" class="bg-emerald-950/70 border border-emerald-500/30 text-emerald-400 px-2.5 py-0.5 rounded-lg text-[10px] font-mono font-semibold flex items-center space-x-1.5 shadow-sm">
-              <i class="fas fa-closed-captioning text-[11px] text-emerald-400"></i>
+            <span id="modalStatusBadge" class="bg-black/60 border border-white/10 text-slate-200 px-2.5 py-0.5 rounded-lg text-[10px] font-mono font-medium flex items-center space-x-1.5 shadow-sm">
+              <i class="fas fa-closed-captioning text-[11px] text-white"></i>
               <span id="modalStatusText">Қазақша субтитр</span>
             </span>
-            <span class="bg-blue-950/60 border border-blue-800/60 text-blue-300 px-2.5 py-0.5 rounded-lg text-[10px] font-mono flex items-center space-x-1">
-              <i class="fas fa-file-alt text-[10px] text-blue-400"></i>
+            <span class="bg-black/60 border border-white/10 text-slate-300 px-2.5 py-0.5 rounded-lg text-[10px] font-mono flex items-center space-x-1">
+              <i class="fas fa-file-alt text-[10px] text-slate-400"></i>
               <span>SRT • VTT • ASS</span>
             </span>
           </div>
@@ -676,7 +676,7 @@
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#181e2b] pb-4">
               <div>
                 <h3 id="modalSubEpTitle" class="text-sm font-bold text-white tracking-tight flex items-center space-x-2">
-                  <i class="fas fa-closed-captioning text-emerald-400"></i>
+                  <i class="fas fa-closed-captioning text-slate-300"></i>
                   <span>Субтитрлер мен бөлімдер</span>
                 </h3>
                 <p id="modalEpSubtitleText" class="text-xs text-slate-500 mt-0.5">Кез келген бөлімнің субтитрін қалаған форматта (.srt, .vtt, .ass) жүктеп алыңыз</p>
@@ -717,11 +717,11 @@
               </div>
               <div class="flex justify-between items-center pt-2">
                 <span class="text-slate-500">Рейтинг</span>
-                <span id="infoScoreVal" class="font-mono text-amber-400">95 / 100</span>
+                <span id="infoScoreVal" class="font-mono text-slate-200">95 / 100</span>
               </div>
               <div class="flex justify-between items-center pt-2">
                 <span class="text-slate-500">Аудармашы</span>
-                <a href="https://x.com/ikymory" target="_blank" class="font-mono text-emerald-400 hover:underline">ikymory</a>
+                <a href="https://x.com/ikymory" target="_blank" class="font-mono text-slate-300 hover:text-white hover:underline">ikymory</a>
               </div>
               <div class="flex justify-between items-center pt-2">
                 <span class="text-slate-500">Лицензия</span>
@@ -732,8 +732,8 @@
             <!-- CDN Endpoint info -->
             <div class="pt-2 border-t border-[#181e2b]">
               <div class="p-3 rounded-xl bg-[#121620] border border-[#181e2b] space-y-1.5 text-[11px]">
-                <div class="text-slate-400 font-semibold flex items-center space-x-1.5">
-                  <i class="fas fa-network-wired text-emerald-400 text-xs"></i>
+                <div class="text-slate-300 font-semibold flex items-center space-x-1.5">
+                  <i class="fas fa-network-wired text-white text-xs"></i>
                   <span>jsDelivr Global CDN</span>
                 </div>
                 <p class="text-slate-500 text-[10px] leading-tight">
@@ -757,7 +757,7 @@
             <a href="mailto:ikymory@gmail.com" class="block p-3 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#1a202c] hover:border-slate-500 transition group text-xs">
               <div class="flex items-center justify-between">
                 <div class="flex items-center space-x-2">
-                  <i class="far fa-envelope text-slate-300 group-hover:text-emerald-400"></i>
+                  <i class="far fa-envelope text-slate-300 group-hover:text-white"></i>
                   <span class="font-mono text-slate-200 group-hover:text-white">ikymory@gmail.com</span>
                 </div>
                 <span class="text-[10px] text-slate-500 group-hover:text-slate-300">&rarr;</span>
@@ -799,7 +799,7 @@
       <!-- Modal Header -->
       <div class="p-5 border-b border-[#181e2b] flex items-center justify-between bg-[#121620]">
         <div class="flex items-center space-x-2.5">
-          <div class="w-8 h-8 rounded-xl bg-emerald-950/60 border border-emerald-800/60 flex items-center justify-center text-emerald-400 text-sm">
+          <div class="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center text-white text-sm">
             <i class="fas fa-shield-alt"></i>
           </div>
           <div>
@@ -816,8 +816,8 @@
       <div class="p-6 overflow-y-auto space-y-4 text-xs text-slate-300 leading-relaxed">
         
         <div class="p-3.5 rounded-xl bg-[#141824] border border-[#1f283a] space-y-2">
-          <div class="flex items-center space-x-2 text-emerald-400 font-semibold text-xs">
-            <i class="fas fa-check-circle"></i>
+          <div class="flex items-center space-x-2 text-white font-semibold text-xs">
+            <i class="fas fa-check-circle text-slate-300"></i>
             <span id="dmcaP1Title">1. Видео/Аудио файлдар мүлдем сақталмайды (Zero Multimedia Guarantee)</span>
           </div>
           <p id="dmcaP1Desc" class="text-[11px] text-slate-300">
@@ -826,8 +826,8 @@
         </div>
 
         <div class="p-3.5 rounded-xl bg-[#141824] border border-[#1f283a] space-y-2">
-          <div class="flex items-center space-x-2 text-cyan-400 font-semibold text-xs">
-            <i class="fas fa-universal-access"></i>
+          <div class="flex items-center space-x-2 text-white font-semibold text-xs">
+            <i class="fas fa-universal-access text-slate-300"></i>
             <span id="dmcaP2Title">2. Инклюзивтілік және Әділ пайдалану (Fair Use & Accessibility)</span>
           </div>
           <p id="dmcaP2Desc" class="text-[11px] text-slate-300">
@@ -836,8 +836,8 @@
         </div>
 
         <div class="p-3.5 rounded-xl bg-[#141824] border border-[#1f283a] space-y-2">
-          <div class="flex items-center space-x-2 text-amber-400 font-semibold text-xs">
-            <i class="fas fa-balance-scale"></i>
+          <div class="flex items-center space-x-2 text-white font-semibold text-xs">
+            <i class="fas fa-balance-scale text-slate-300"></i>
             <span id="dmcaP3Title">3. DMCA Safe Harbor және Шағым беру тәртібі (Notice & Takedown)</span>
           </div>
           <p id="dmcaP3Desc" class="text-[11px] text-slate-300">
@@ -845,7 +845,7 @@
           </p>
           <div class="mt-2 pt-2 border-t border-[#1e2536] flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-[11px]">
             <span class="text-slate-400">Ресми DMCA байланыс поштасы:</span>
-            <a href="mailto:ikymory@gmail.com" class="font-mono text-emerald-400 hover:underline">ikymory@gmail.com</a>
+            <a href="mailto:ikymory@gmail.com" class="font-mono text-slate-300 hover:text-white hover:underline">ikymory@gmail.com</a>
           </div>
         </div>
 
@@ -872,7 +872,7 @@
   <!-- Toast Notification -->
   <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-16 opacity-0 transition-all duration-300 pointer-events-none">
     <div class="bg-[#161c28] border border-[#232b3e] text-slate-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center space-x-2">
-      <i class="fas fa-check-circle text-emerald-400 text-xs"></i>
+      <i class="fas fa-check-circle text-white text-xs"></i>
       <span id="toastMsg">Сілтеме көшірілді</span>
     </div>
   </div>
@@ -890,8 +890,8 @@
           <span>GitHub</span>
         </a>
         <span class="text-slate-600">&bull;</span>
-        <a href="api.html" class="hover:text-white transition flex items-center space-x-1.5 text-cyan-400 font-medium">
-          <i class="fas fa-book-open"></i>
+        <a href="api.html" class="hover:text-white transition flex items-center space-x-1.5 text-slate-300 font-medium">
+          <i class="fas fa-book-open text-white text-xs"></i>
           <span>API Docs</span>
         </a>
         <span class="text-slate-600">&bull;</span>
@@ -915,7 +915,7 @@
           <span>ikymory@gmail.com</span>
         </a>
         <span class="text-slate-600">&bull;</span>
-        <button onclick="openDmcaModal()" class="text-slate-400 hover:text-emerald-400 transition underline underline-offset-4 decoration-slate-700">DMCA</button>
+        <button onclick="openDmcaModal()" class="text-slate-400 hover:text-white transition underline underline-offset-4 decoration-slate-700">DMCA</button>
       </div>
     </div>
   </footer>
@@ -1910,7 +1910,7 @@
 
         const scoreEl = document.getElementById('heroScore');
         if (scoreEl) {
-          scoreEl.innerHTML = `<i class="far fa-star text-[11px] text-amber-400 mr-1"></i> ${score}`;
+          scoreEl.innerHTML = `<i class="far fa-star text-[11px] text-slate-300 mr-1"></i> ${score}`;
         }
 
         const durEl = document.getElementById('heroDuration');
@@ -2057,15 +2057,11 @@
 
       let iconBadgeHtml = '';
       if (type === 'movie') {
-        iconBadgeHtml = `<span class="w-6 h-6 rounded-lg bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center shrink-0 shadow-sm" title="Movie"><i class="fas fa-film text-[10px] text-cyan-400"></i></span>`;
+        iconBadgeHtml = `<i class="fas fa-film text-[10px] text-white/70 shrink-0"></i>`;
       } else if (type === 'finished') {
-        iconBadgeHtml = `<span class="w-6 h-6 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center shrink-0 shadow-sm" title="Latest Release"><i class="fas fa-play text-[9px] text-emerald-400"></i></span>`;
+        iconBadgeHtml = `<i class="fas fa-play text-[9px] text-white/70 shrink-0"></i>`;
       } else if (type === 'rated' || typeof rank === 'number') {
-        let rankColor = 'bg-white/10 text-slate-400 border-white/10';
-        if (rank === 1) rankColor = 'bg-amber-500/20 text-amber-300 border-amber-500/40 shadow-sm shadow-amber-500/20';
-        else if (rank === 2) rankColor = 'bg-slate-300/20 text-slate-200 border-slate-300/40';
-        else if (rank === 3) rankColor = 'bg-amber-700/25 text-amber-400 border-amber-700/40';
-        iconBadgeHtml = `<span class="shrink-0 text-[10px] sm:text-xs font-mono font-bold px-2 py-0.5 rounded-lg border ${rankColor}">#${rank}</span>`;
+        iconBadgeHtml = `<span class="shrink-0 text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded bg-white/10 text-white border border-white/10">#${rank}</span>`;
       }
 
       return `
@@ -2098,12 +2094,12 @@
                 <i class="far fa-calendar-alt text-[10px] text-slate-500"></i>
                 <span>${year}</span>
               </span>
-              <span class="flex items-center space-x-1 text-emerald-400 font-semibold">
-                <i class="fas fa-closed-captioning text-[10px]"></i>
+              <span class="flex items-center space-x-1 text-slate-300 font-medium">
+                <i class="fas fa-closed-captioning text-[10px] text-slate-400"></i>
                 <span>${eps} ${eps === 1 ? 'film' : 'ep'}</span>
               </span>
-              <span class="flex items-center space-x-1 text-amber-300 font-bold bg-amber-400/10 border border-amber-400/20 px-2 py-0.5 rounded-md">
-                <i class="far fa-star text-[10px] text-amber-400"></i>
+              <span class="flex items-center space-x-1 text-slate-200 font-semibold bg-white/5 border border-white/10 px-1.5 py-0.5 rounded-md">
+                <i class="far fa-star text-[10px] text-slate-400"></i>
                 <span>${score}</span>
               </span>
             </div>
@@ -2305,7 +2301,7 @@
                 <!-- Hover Subtitle CC Badge -->
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-200">
                   <div class="px-3 py-1.5 rounded-lg bg-black/75 backdrop-blur-md border border-white/25 flex items-center space-x-1.5 text-white text-[11px] font-semibold shadow-xl">
-                    <i class="fas fa-closed-captioning text-emerald-400 text-xs"></i>
+                    <i class="fas fa-closed-captioning text-white text-xs"></i>
                     <span class="tracking-wide">SUBTITLES</span>
                   </div>
                 </div>
@@ -2322,7 +2318,7 @@
               <span class="text-slate-400 font-sans font-medium">${format}</span>
               <span>${year}</span>
               <span class="flex items-center space-x-0.5 text-slate-400">
-                <i class="fas fa-closed-captioning text-[9px] mr-0.5 text-emerald-400"></i>
+                <i class="fas fa-closed-captioning text-[9px] mr-0.5 text-slate-400"></i>
                 <span>${eps}</span>
               </span>
               <span class="text-slate-500">☆ ${score}</span>
