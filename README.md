@@ -22,6 +22,7 @@
 [![Watermark](https://img.shields.io/badge/Watermarks-100%25%20Verified%20(@ikymory)-06b6d4.svg?style=flat-square)](https://github.com/ikymory)
 [![CDN](https://img.shields.io/badge/CDN-jsDelivr%20%2F%20GitHub-f59e0b.svg?style=flat-square)](https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0%20%7C%20MIT-blue.svg?style=flat-square)](LICENSE)
+[![API Docs](https://img.shields.io/badge/API%20Docs-Interactive%20Guide-cyan.svg?style=flat-square)](https://ikymory.github.io/anime-subtitles-kazakh/api.html)
 [![DMCA Safe Harbor](https://img.shields.io/badge/DMCA-512(c)%20Safe%20Harbor-emerald.svg?style=flat-square)](DMCA.md)
 [![Zero Media](https://img.shields.io/badge/Media%20Hosting-Zero%20(Text%20Only)-indigo.svg?style=flat-square)](DMCA.md)
 
@@ -149,6 +150,15 @@ anime-subtitles-kazakh/
 ```
 
 ---
+
+---
+
+> [!IMPORTANT]
+> ### 🎓 Educational & Accessibility Purpose | Anti-Piracy Statement
+> - **100% Non-Commercial Research & Accessibility**: This repository exists solely for educational linguistic study, natural language processing (NLP) research in the Kazakh language, and accessibility for the Deaf and Hard-of-Hearing (DHH) community under **17 U.S.C. § 107 (Fair Use)**.
+> - **Zero Media Hosting Guarantee**: We **DO NOT host, stream, or distribute any video (mp4, mkv, webm) or audio tracks**. Only open-source text subtitle files (.srt, .vtt, .ass) and descriptive JSON metadata are provided.
+> - **Piracy Strictly Condemned**: Piracy harms the creators, animators, and studios. We strongly urge everyone to watch anime through official, legal platforms (Crunchyroll, Netflix, Muse Asia, Ani-One) and support the anime industry!
+> - **Interactive Developer Docs**: Read the full REST API & integration manual at [ikymory.github.io/anime-subtitles-kazakh/api.html](https://ikymory.github.io/anime-subtitles-kazakh/api.html).
 
 ---
 

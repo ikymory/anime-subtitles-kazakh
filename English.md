@@ -149,6 +149,15 @@ Jellyfin and Plex will automatically identify and index the track as **Kazakh**.
 
 ---
 
+> [!IMPORTANT]
+> ### 🎓 Educational & Accessibility Purpose | Anti-Piracy Statement
+> - **100% Non-Commercial Research & Accessibility**: This repository exists solely for educational linguistic study, natural language processing (NLP) research in the Kazakh language, and accessibility for the Deaf and Hard-of-Hearing (DHH) community under **17 U.S.C. § 107 (Fair Use)**.
+> - **Zero Media Hosting Guarantee**: We **DO NOT host, stream, or distribute any video (mp4, mkv, webm) or audio tracks**. Only open-source text subtitle files (.srt, .vtt, .ass) and descriptive JSON metadata are provided.
+> - **Piracy Strictly Condemned**: Piracy harms the creators, animators, and studios. We strongly urge everyone to watch anime through official, legal platforms (Crunchyroll, Netflix, Muse Asia, Ani-One) and support the anime industry!
+> - **Interactive Developer Docs**: Read the full REST API & integration manual at [ikymory.github.io/anime-subtitles-kazakh/api.html](https://ikymory.github.io/anime-subtitles-kazakh/api.html).
+
+---
+
 ## 📜 Permissive Production & Commercial Streaming License
 
 All subtitles in this repository are **free to use for anyone, anywhere**:

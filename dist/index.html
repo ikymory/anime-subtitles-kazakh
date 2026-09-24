@@ -232,6 +232,11 @@
           <span id="navDmcaTxt" class="font-medium text-[11px]">DMCA</span>
         </button>
 
+        <a href="api.html" class="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#161c28] border border-[#1a202c] hover:border-slate-500/50 text-slate-300 hover:text-white transition text-xs" title="REST API & Developer Docs">
+          <i class="fas fa-code text-[10px] text-cyan-400"></i>
+          <span class="font-medium text-[11px]">API</span>
+        </a>
+
         <a href="https://x.com/ikymory" target="_blank" class="text-slate-400 hover:text-slate-200 p-2 rounded-xl hover:bg-[#121620] transition border border-transparent hover:border-[#1a202c]" title="x.com (@ikymory)">
           <i class="fa-brands fa-x-twitter text-sm"></i>
         </a>
@@ -574,6 +579,10 @@
             <i class="fa-brands fa-x-twitter"></i>
             <span class="hidden sm:inline">ikymory</span>
           </a>
+          <a id="modalApiLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-cyan-400 hover:text-white text-xs font-mono transition flex items-center space-x-1.5" title="JSON API">
+            <i class="fas fa-code text-[10px]"></i>
+            <span class="hidden sm:inline">API</span>
+          </a>
           <a id="modalGithubLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl bg-[#11141c] hover:bg-[#181f2d] border border-[#1b2230] text-slate-300 hover:text-white text-xs font-medium transition flex items-center space-x-1.5">
             <i class="fab fa-github"></i>
             <span id="modalGithubTxt">GitHub</span>
@@ -873,9 +882,14 @@
           <span>GitHub</span>
         </a>
         <span class="text-slate-600">&bull;</span>
+        <a href="api.html" class="hover:text-white transition flex items-center space-x-1.5 text-cyan-400 font-medium">
+          <i class="fas fa-book-open"></i>
+          <span>API Docs</span>
+        </a>
+        <span class="text-slate-600">&bull;</span>
         <a href="https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json" target="_blank" class="hover:text-white transition flex items-center space-x-1.5">
           <i class="fas fa-code"></i>
-          <span>API</span>
+          <span>JSON</span>
         </a>
         <span class="text-slate-600">&bull;</span>
         <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="hover:text-white transition flex items-center space-x-1.5">
@@ -2458,6 +2472,8 @@
       document.getElementById('modalYearBadge').textContent = year;
       document.getElementById('modalScoreVal').textContent = score;
       document.getElementById('modalGithubLink').href = `https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${slug}`;
+      const modalApiLinkEl = document.getElementById('modalApiLink');
+      if (modalApiLinkEl) modalApiLinkEl.href = `api/v1/anime/${slug}.json`;
 
       // Populate info sidebar
       const fVal = document.getElementById('infoFormatVal');
