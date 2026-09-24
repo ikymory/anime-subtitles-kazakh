@@ -127,11 +127,11 @@
     .poster-aspect {
       aspect-ratio: 2 / 2.92;
     }
-    /* Miruro-style cinematic banner backdrop fade */
+    /* Miruro-style cinematic banner backdrop fade matching reference photo */
     .miruro-hero-backdrop {
       background: 
-        linear-gradient(90deg, #090a0f 0%, #090a0f 25%, rgba(9, 10, 15, 0.88) 55%, rgba(9, 10, 15, 0.25) 100%),
-        linear-gradient(180deg, transparent 40%, rgba(9, 10, 15, 0.8) 80%, #090a0f 100%);
+        linear-gradient(90deg, #090a0f 0%, rgba(9, 10, 15, 0.95) 26%, rgba(9, 10, 15, 0.72) 48%, rgba(9, 10, 15, 0.15) 75%, transparent 100%),
+        linear-gradient(180deg, rgba(9, 10, 15, 0.75) 0%, transparent 22%, transparent 45%, rgba(9, 10, 15, 0.85) 78%, #090a0f 100%);
     }
     .hide-scrollbar::-webkit-scrollbar {
       display: none;
@@ -230,80 +230,94 @@
   <!-- Main View Container -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-4 pb-12 w-full space-y-6">
 
-    <!-- 1. CINEMATIC HERO SHOWCASE BANNER (Featuring All High-Quality AniList Banners with Smooth Crossfade) -->
-    <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#171b26] shadow-2xl min-h-[380px] sm:min-h-[440px] flex flex-col justify-end p-5 sm:p-8 transition-all select-none">
+    <!-- 1. CINEMATIC HERO SHOWCASE BANNER (Matching Attached Reference Image & AniList Dynamic Colors) -->
+    <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#171b26] shadow-2xl min-h-[380px] sm:min-h-[440px] md:min-h-[460px] flex flex-col justify-end p-5 sm:p-8 transition-all select-none">
       
       <!-- Dual Crossfade Banner Images (Zero flicker, butter smooth transitions) -->
       <div class="absolute inset-0 overflow-hidden pointer-events-none">
         <img id="heroBannerImgA" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center transition-all duration-700 ease-in-out transform scale-100 opacity-100">
         <img id="heroBannerImgB" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center transition-all duration-700 ease-in-out transform scale-105 opacity-0">
         <div class="absolute inset-0 miruro-hero-backdrop z-10"></div>
+        <!-- Dynamic Ambient Colored Glow Layer (Reflecting Anime's Accent Color) -->
+        <div id="heroAmbientGlow" class="absolute inset-0 pointer-events-none transition-all duration-700 z-10 opacity-70"></div>
       </div>
 
-      <!-- Top Badges -->
+      <!-- Top Badges Row: Clock/Episode Info + Legal Safeguard -->
       <div class="absolute top-4 left-4 sm:left-6 flex flex-wrap items-center gap-2 z-20">
-        <span id="heroEpBadge" class="bg-black/60 backdrop-blur border border-white/10 text-slate-200 text-[11px] font-medium px-2.5 py-1 rounded-md flex items-center space-x-1.5 shadow-sm">
-          <i class="far fa-clock text-slate-400"></i>
-          <span>Ep 28 • Complete</span>
+        <span id="heroEpBadge" class="bg-black/60 backdrop-blur-md border border-white/10 text-slate-200 text-[11px] sm:text-xs font-semibold px-3 py-1.5 rounded-full flex items-center space-x-1.5 shadow-sm">
+          <i class="far fa-clock text-slate-300"></i>
+          <span id="heroEpBadgeTxt">EP 28 • 24M</span>
         </span>
-        <span id="heroLegalBadge" class="bg-black/60 backdrop-blur border border-emerald-500/30 text-emerald-400 text-[10px] font-medium px-2 py-1 rounded-md flex items-center space-x-1 shadow-sm">
+        <span id="heroLegalBadge" class="hidden sm:inline-flex bg-black/60 backdrop-blur-md border border-emerald-500/30 text-emerald-400 text-[10px] font-medium px-2.5 py-1.5 rounded-full items-center space-x-1 shadow-sm">
           <i class="fas fa-shield-alt text-[9px]"></i>
           <span id="heroLegalBadgeTxt">Тек мәтіндік субтитрлер • Видео сақталмайды</span>
         </span>
       </div>
 
       <!-- Top-Right Carousel Navigation (< 1 / N >) -->
-      <div class="absolute top-4 right-4 sm:right-6 flex items-center space-x-2 z-20">
-        <button onclick="prevHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition active:scale-90" title="Previous">
-          <i class="fas fa-chevron-left text-[10px]"></i>
+      <div class="absolute top-4 right-4 sm:right-6 flex items-center space-x-1.5 sm:space-x-2 z-20">
+        <button onclick="prevHero()" class="w-8 h-8 rounded-lg bg-black/60 hover:bg-black/90 backdrop-blur-md border border-white/10 text-slate-200 hover:text-white flex items-center justify-center text-xs transition active:scale-90 cursor-pointer" title="Previous">
+          <i class="fas fa-chevron-left text-[11px]"></i>
         </button>
-        <span id="heroCounter" class="text-xs font-mono text-slate-300 bg-black/60 backdrop-blur border border-white/10 px-2 py-0.5 rounded-md">1 / 240</span>
-        <button onclick="nextHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition active:scale-90" title="Next">
-          <i class="fas fa-chevron-right text-[10px]"></i>
+        <span id="heroCounter" class="text-xs font-mono font-medium text-slate-200 bg-black/60 backdrop-blur-md border border-white/10 px-3 py-1.5 rounded-lg select-none">1 / 10</span>
+        <button onclick="nextHero()" class="w-8 h-8 rounded-lg bg-black/60 hover:bg-black/90 backdrop-blur-md border border-white/10 text-slate-200 hover:text-white flex items-center justify-center text-xs transition active:scale-90 cursor-pointer" title="Next">
+          <i class="fas fa-chevron-right text-[11px]"></i>
         </button>
       </div>
 
       <!-- Bottom Hero Content with Smooth Micro-Animation -->
-      <div id="heroContentWrap" class="relative z-20 max-w-2xl space-y-2.5 transition-all duration-300 transform opacity-100 translate-y-0">
+      <div id="heroContentWrap" class="relative z-20 max-w-4xl space-y-3 transition-all duration-300 transform opacity-100 translate-y-0">
         
-        <!-- Metadata pills row -->
-        <div class="flex flex-wrap items-center gap-2 text-[11px] font-medium">
-          <span id="heroFormat" class="bg-black/50 border border-white/10 px-2 py-0.5 rounded text-slate-300 font-semibold uppercase">TV</span>
-          <span id="heroEps" class="bg-black/50 border border-white/10 px-2 py-0.5 rounded text-slate-300 flex items-center space-x-1">
-            <i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> 28
+        <!-- Metadata pills row (TV, CC 12, Star Score, Duration, Kazakh Sub badge) -->
+        <div class="flex flex-wrap items-center gap-2 text-xs font-medium">
+          <span id="heroFormat" class="bg-black/60 backdrop-blur border border-white/10 px-2.5 py-0.5 rounded-md text-slate-200 font-bold uppercase tracking-wider">TV</span>
+          <span id="heroEps" class="bg-black/60 backdrop-blur border border-white/10 px-2.5 py-0.5 rounded-md text-slate-200 flex items-center gap-1.5">
+            <i class="fas fa-closed-captioning text-[11px] text-slate-300"></i> 28
           </span>
-          <span id="heroScore" class="bg-black/50 border border-white/10 px-2 py-0.5 rounded text-slate-300 flex items-center space-x-1">
-            <i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> 95
+          <span id="heroScore" class="bg-black/60 backdrop-blur border border-white/10 px-2.5 py-0.5 rounded-md text-slate-200 flex items-center gap-1.5">
+            <i class="far fa-star text-[11px] text-amber-400"></i> 95
           </span>
-          <span class="bg-black/50 border border-white/10 px-2 py-0.5 rounded text-slate-300">24 mins</span>
-          <span class="bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 px-2 py-0.5 rounded text-[10px] font-mono">Kazakh Subtitles</span>
+          <span id="heroDuration" class="bg-black/60 backdrop-blur border border-white/10 px-2.5 py-0.5 rounded-md text-slate-200 flex items-center gap-1.5">
+            <i class="far fa-clock text-[11px] text-slate-300"></i> 24 mins
+          </span>
+          <span class="bg-emerald-950/70 border border-emerald-500/40 text-emerald-400 px-2.5 py-0.5 rounded-md text-[11px] font-medium hidden sm:inline-flex items-center gap-1">
+            <i class="fas fa-check-circle text-[10px]"></i> KK SUB
+          </span>
         </div>
 
-        <!-- Big Bold Title (Localized to Kazakh by default!) -->
-        <h1 id="heroTitle" class="text-2xl sm:text-4xl md:text-5xl font-black text-[#5ba4e5] tracking-tight leading-tight drop-shadow-md">
+        <!-- Big Bold Title with Dynamic Palette Color -->
+        <h1 id="heroTitle" class="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight transition-colors duration-300 drop-shadow-md">
           Сапар соңындағы Фрирен
         </h1>
 
-        <!-- Genre Tags -->
-        <p id="heroGenres" class="text-xs text-slate-300 font-medium">
-          Adventure &bull; Drama &bull; Fantasy
-        </p>
+        <!-- Genre Tags & Studio Pills Row (Two distinct rounded pills) -->
+        <div class="flex flex-wrap items-center gap-2.5 pt-0.5">
+          <div id="heroGenresWrap" class="bg-black/60 backdrop-blur-md border border-white/10 px-3.5 py-1 rounded-full text-xs text-slate-200 font-medium flex items-center">
+            <span id="heroGenres">Comedy · Ecchi · Slice of Life</span>
+          </div>
+          <div id="heroStudioWrap" class="bg-black/60 backdrop-blur-md border border-white/10 px-3.5 py-1 rounded-full text-xs text-slate-200 font-medium flex items-center">
+            <span id="heroStudio">Bibury Animation Studios</span>
+          </div>
+        </div>
 
-        <!-- Synopsis Description -->
-        <p id="heroDesc" class="text-xs text-slate-400 line-clamp-2 sm:line-clamp-3 leading-relaxed max-w-xl pr-2">
-          Эльф сиқыршысы Фрирен Жын әміршісін жеңгеннен кейін адамзат жүрегін түсіну үшін жаңа саяхатқа шығады.
-        </p>
+        <!-- Synopsis Description & Bottom-Right Action Buttons Row -->
+        <div class="pt-1 flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <!-- Left: Description -->
+          <p id="heroDesc" class="text-xs sm:text-sm text-slate-300/90 line-clamp-2 sm:line-clamp-3 leading-relaxed max-w-xl lg:max-w-2xl font-normal drop-shadow-sm">
+            Эльф сиқыршысы Фрирен Жын әміршісін жеңгеннен кейін адамзат жүрегін түсіну үшін жаңа саяхатқа шығады.
+          </p>
 
-        <!-- Action Buttons (Details / Subtitles) -->
-        <div class="pt-2 flex items-center space-x-3">
-          <button id="heroDetailsBtn" onclick="openHeroModal()" class="px-4 py-2 rounded-xl bg-[#141824] hover:bg-[#1a2030] text-slate-200 border border-[#222a3c] text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm active:scale-95">
-            <i class="fas fa-info-circle text-xs text-slate-400"></i>
-            <span id="heroDetailsTxt">Толығырақ</span>
-          </button>
-          <button id="heroWatchBtn" onclick="openHeroModal()" class="px-5 py-2 rounded-xl bg-slate-200 hover:bg-white text-slate-900 text-xs font-bold transition flex items-center space-x-1.5 shadow-lg shadow-white/5 active:scale-95">
-            <i class="fas fa-closed-captioning text-xs text-slate-900"></i>
-            <span id="heroWatchTxt">Субтитрлерді алу</span>
-          </button>
+          <!-- Right: Action Buttons (DETAILS & WATCH NOW - Pill Shaped) -->
+          <div class="shrink-0 flex items-center space-x-3 self-start md:self-end">
+            <button id="heroDetailsBtn" onclick="openHeroModal()" class="px-5 py-2.5 rounded-full bg-black/70 hover:bg-black/90 backdrop-blur-md border border-white/15 text-white text-xs font-bold uppercase tracking-wider transition flex items-center space-x-2 shadow-md active:scale-95 cursor-pointer">
+              <i class="fas fa-info-circle text-xs text-slate-300"></i>
+              <span id="heroDetailsTxt">Толығырақ</span>
+            </button>
+            <button id="heroWatchBtn" onclick="openHeroModal()" class="px-6 py-2.5 rounded-full bg-white hover:bg-slate-100 text-slate-950 text-xs font-black uppercase tracking-wider transition flex items-center space-x-2 shadow-xl shadow-white/10 active:scale-95 cursor-pointer">
+              <i class="fas fa-play text-[11px] text-slate-950"></i>
+              <span id="heroWatchTxt">Субтитрлерді алу</span>
+            </button>
+          </div>
         </div>
 
       </div>
@@ -1046,8 +1060,8 @@
         footer_sub: "Kazakh anime subtitle archive • 500  (4,597 Episodes) • ikymory (@ikymory)",
         no_results: "No anime found matching your query",
         no_results_sub: "Try resetting filters or search keywords",
-        details_btn: "Details",
-        watch_btn: "Download Subtitles",
+        details_btn: "DETAILS",
+        watch_btn: "WATCH NOW",
         hero_legal_badge: "Plain Text Subtitles Only • Zero Video Hosting",
         dmca_nav: "DMCA",
         dmca_heading: "DMCA Policy & Anti-Piracy Statement",
@@ -1104,8 +1118,8 @@
         footer_sub: "カザフ語アニメ字幕オープンソースアーカイブ • 500  (4,597話) • ikymory (@ikymory)",
         no_results: "該当するアニメが見つかりませんでした",
         no_results_sub: "検索条件やフィルターを変更してお試しください",
-        details_btn: "詳細情報",
-        watch_btn: "字幕ダウンロード",
+        details_btn: "詳細",
+        watch_btn: "今すぐ見る",
         hero_legal_badge: "テキスト字幕のみ • 動画配信なし",
         dmca_nav: "DMCA",
         dmca_heading: "DMCAポリシーおよび非海賊版・適法声明",
@@ -1337,7 +1351,78 @@
     });
 
     // -------------------------------------------------------------
-    // HERO SHOWCASE CONTROLLER (Featuring All Available High-Res Banners with Smooth Crossfade)
+    // ANILIST DYNAMIC COLOR & GENRE THEME ENGINE
+    // -------------------------------------------------------------
+    const GENRE_ACCENT_COLORS = {
+      'Action': '#ff6b6b',        // Coral Flame
+      'Adventure': '#10b981',     // Explorer Emerald
+      'Comedy': '#fbbf24',        // Radiant Amber
+      'Drama': '#60a5fa',         // Sky Blue
+      'Ecchi': '#fb7185',         // Soft Rose
+      'Fantasy': '#c084fc',       // Ethereal Violet
+      'Horror': '#f43f5e',        // Blood Crimson
+      'Mahou Shoujo': '#e879f9',  // Magic Pink
+      'Mecha': '#38bdf8',         // Cyber Cyan
+      'Music': '#ec4899',         // Neon Magenta
+      'Mystery': '#818cf8',       // Twilight Indigo
+      'Psychological': '#a855f7', // Mind Amethyst
+      'Romance': '#f472b6',       // Sakura Blossom
+      'Sci-Fi': '#22d3ee',        // Hologram Cyan
+      'Slice of Life': '#34d399', // Pastoral Mint
+      'Sports': '#f97316',        // Orange Flame
+      'Supernatural': '#a78bfa',  // Spirit Purple
+      'Thriller': '#ef4444'       // Tense Red
+    };
+
+    function tuneColorForDarkTheme(colorStr) {
+      if (!colorStr) return '#60a5fa';
+      if (colorStr.startsWith('#')) {
+        let hex = colorStr.replace('#', '');
+        if (hex.length === 3) hex = hex.split('').map(c => c + c).join('');
+        if (hex.length === 6) {
+          const r = parseInt(hex.substring(0, 2), 16) / 255;
+          const g = parseInt(hex.substring(2, 4), 16) / 255;
+          const b = parseInt(hex.substring(4, 6), 16) / 255;
+          const max = Math.max(r, g, b), min = Math.min(r, g, b);
+          let h, s, l = (max + min) / 2;
+          if (max === min) { h = s = 0; }
+          else {
+            const d = max - min;
+            s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+            switch (max) {
+              case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+              case g: h = (b - r) / d + 2; break;
+              case b: h = (r - g) / d + 4; break;
+            }
+            h /= 6;
+          }
+          if (l < 0.60) l = 0.68;
+          if (l > 0.85) l = 0.80;
+          if (s < 0.55) s = 0.78;
+          return `hsl(${Math.round(h * 360)}, ${Math.round(s * 100)}%, ${Math.round(l * 100)}%)`;
+        }
+      }
+      return colorStr;
+    }
+
+    function resolveAnimeColor(anime) {
+      if (!anime) return '#60a5fa';
+      if (anime.color) return tuneColorForDarkTheme(anime.color);
+      if (anime.genres && Array.isArray(anime.genres)) {
+        for (const g of anime.genres) {
+          if (GENRE_ACCENT_COLORS[g]) return GENRE_ACCENT_COLORS[g];
+        }
+      }
+      const titleStr = (anime.title && (anime.title.english || anime.title.romaji || anime.title.kazakh)) || anime.slug || 'anime';
+      let hash = 0;
+      for (let i = 0; i < titleStr.length; i++) {
+        hash = (hash * 31 + titleStr.charCodeAt(i)) & 0xffffffff;
+      }
+      return `hsl(${Math.abs(hash) % 360}, 78%, 68%)`;
+    }
+
+    // -------------------------------------------------------------
+    // HERO SHOWCASE CONTROLLER (Featuring All High-Res Banners with Smooth Crossfade)
     // -------------------------------------------------------------
     function updateHeroDisplay(immediate = false) {
       if (!featuredHeroMeta || featuredHeroMeta.length === 0) return;
@@ -1347,26 +1432,83 @@
       const title = getAnimeTitle(anime);
       const eps = anime.episodes || anime.translated_episodes_count || 12;
       const score = getAnimeScore(anime);
-      const genres = (anime.genres && Array.isArray(anime.genres)) ? anime.genres.slice(0, 3).join(' • ') : 'Anime';
+      const genres = (anime.genres && Array.isArray(anime.genres)) ? anime.genres.slice(0, 3).join(' · ') : 'Anime';
+      const studio = anime.studio || 'Animation Studio';
+      const duration = anime.duration || 24;
+
+      let durBadge = `${duration}M`;
+      if (duration >= 60) {
+        const h = Math.floor(duration / 60);
+        const m = duration % 60;
+        durBadge = m > 0 ? `${h}H ${m}M` : `${h}H`;
+      }
+      const durMeta = `${duration} mins`;
+
       const desc = anime.description || (anime.title && (anime.title.kazakh || anime.title.english)) || 'Қазақша субтитрлер қолжетімді.';
       const banner = anime.bannerImage;
+      const animeColor = resolveAnimeColor(anime);
 
       const imgA = document.getElementById('heroBannerImgA');
       const imgB = document.getElementById('heroBannerImgB');
       const activeImg = currentImgLayer === 'A' ? imgA : imgB;
       const nextImg = currentImgLayer === 'A' ? imgB : imgA;
       const contentWrap = document.getElementById('heroContentWrap');
+      const ambientGlow = document.getElementById('heroAmbientGlow');
+      const titleEl = document.getElementById('heroTitle');
 
       document.getElementById('heroCounter').textContent = `${currentHeroIndex + 1} / ${featuredHeroMeta.length}`;
 
       const renderContent = () => {
-        document.getElementById('heroTitle').textContent = title;
-        document.getElementById('heroEpBadge').innerHTML = `<i class="far fa-clock text-slate-400 mr-1.5"></i> Ep ${eps} • Complete`;
-        document.getElementById('heroEps').innerHTML = `<i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> ${eps}`;
-        document.getElementById('heroScore').innerHTML = `<i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> ${score}`;
-        document.getElementById('heroFormat').textContent = anime.format || 'TV';
-        document.getElementById('heroGenres').textContent = genres;
-        document.getElementById('heroDesc').textContent = desc;
+        titleEl.textContent = title;
+        titleEl.style.color = animeColor;
+        titleEl.style.textShadow = `0 4px 24px rgba(0,0,0,0.85), 0 0 35px ${animeColor}`;
+
+        if (ambientGlow) {
+          const glowColor = animeColor.startsWith('#')
+            ? animeColor + '30'
+            : animeColor.replace('hsl', 'hsla').replace(')', ', 0.22)');
+          ambientGlow.style.background = `radial-gradient(ellipse at 16% 76%, ${glowColor} 0%, transparent 62%)`;
+        }
+
+        const epBadge = document.getElementById('heroEpBadge');
+        if (epBadge) {
+          epBadge.innerHTML = `<i class="far fa-clock text-slate-300 mr-1.5"></i><span>EP ${eps} • ${durBadge}</span>`;
+        }
+
+        const epsEl = document.getElementById('heroEps');
+        if (epsEl) {
+          epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> ${eps}`;
+        }
+
+        const scoreEl = document.getElementById('heroScore');
+        if (scoreEl) {
+          scoreEl.innerHTML = `<i class="far fa-star text-[11px] text-amber-400 mr-1"></i> ${score}`;
+        }
+
+        const durEl = document.getElementById('heroDuration');
+        if (durEl) {
+          durEl.innerHTML = `<i class="far fa-clock text-[11px] text-slate-300 mr-1.5"></i> ${durMeta}`;
+        }
+
+        const formatEl = document.getElementById('heroFormat');
+        if (formatEl) {
+          formatEl.textContent = anime.format || 'TV';
+        }
+
+        const genresEl = document.getElementById('heroGenres');
+        if (genresEl) {
+          genresEl.textContent = genres;
+        }
+
+        const studioEl = document.getElementById('heroStudio');
+        if (studioEl) {
+          studioEl.textContent = studio;
+        }
+
+        const descEl = document.getElementById('heroDesc');
+        if (descEl) {
+          descEl.textContent = desc;
+        }
       };
 
       if (immediate) {
@@ -1859,7 +2001,11 @@
       const epCount = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
 
       // Populate hero elements
-      document.getElementById('modalTitle').textContent = titleText;
+      const animeColor = resolveAnimeColor(summary);
+      const modalTitleEl = document.getElementById('modalTitle');
+      modalTitleEl.textContent = titleText;
+      modalTitleEl.style.color = animeColor;
+      modalTitleEl.style.textShadow = `0 4px 24px rgba(0,0,0,0.85), 0 0 35px ${animeColor}`;
       const navTitle = document.getElementById('modalTopNavTitle');
       if (navTitle) navTitle.textContent = titleText;
 
