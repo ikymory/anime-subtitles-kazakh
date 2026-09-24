@@ -3,50 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Subtitles Kazakh • Miruro UI | 347 Series & 3,462 Episodes</title>
   
-  <!-- Primary SEO Meta Tags -->
-  <title>Anime Subtitles Kazakh | 347+ Anime (3,462 Episodes) | @ikymory</title>
-  <meta name="title" content="Anime Subtitles Kazakh | 347+ Anime | @ikymory">
-  <meta name="description" content="Open-access Kazakh anime subtitle archive and static CDN/API. 347 complete anime franchises (3,462 episodes, 23,660+ files) in SRT, VTT, ASS formats. Free for streaming and production with author watermarks intact. Translated by ikymory.">
-  <meta name="keywords" content="anime subtitles kazakh, kazakh anime subtitles, anime kazakh sub, ikymory, қазақша субтитрлер, аниме қазақша көру, frieren kazakh, aot kazakh, naruto kazakh, ghibli kazakh">
+  <meta name="description" content="The premier open-source database and streaming-ready CDN for Kazakh anime subtitles. 347 series, 3,462 episodes. SubRip (.srt), WebVTT (.vtt), and Advanced SubStation Alpha (.ass). Free production license.">
+  <meta name="keywords" content="Anime Kazakh subtitles, anime kazakh sub, qazaqsha anime, қазақша субтитрлер аниме, anime-subtitles-kazakh, ikymory">
   <meta name="author" content="ikymory">
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://ikymory.github.io/anime-subtitles-kazakh/">
+  <meta name="robots" content="index, follow">
 
-  <!-- Open Graph / Facebook -->
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Anime Subtitles Kazakh • 347 Series & 3,462 Episodes">
+  <meta property="og:description" content="Official open-source repository of verified Kazakh subtitles for anime. CDN endpoints, API v1, production-ready.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ikymory.github.io/anime-subtitles-kazakh/">
-  <meta property="og:title" content="Anime Subtitles Kazakh | 347+ Anime by ikymory">
-  <meta property="og:description" content="347 complete anime franchises, 3,462 episodes, 23,660+ subtitle files. Free for streaming and media players with watermarks.">
-  <meta property="og:image" content="https://ikymory.github.io/anime-subtitles-kazakh/preview.png">
+  <meta property="og:image" content="https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://ikymory.github.io/anime-subtitles-kazakh/">
-  <meta property="twitter:title" content="Anime Subtitles Kazakh | 347+ Anime by ikymory">
-  <meta property="twitter:description" content="The largest open-source Kazakh anime subtitle archive. 347 franchises, 3,462 episodes.">
+  <!-- Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-  <!-- Schema.org Structured Data (JSON-LD) for Search Engines & LLMs -->
+  <!-- JSON-LD SEO Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "WebSite",
-        "@id": "https://ikymory.github.io/anime-subtitles-kazakh/#website",
-        "url": "https://ikymory.github.io/anime-subtitles-kazakh/",
-        "name": "Anime Subtitles Kazakh",
-        "description": "The largest open-access Kazakh (kk) anime subtitle archive and static JSON CDN API.",
-        "inLanguage": ["kk", "en", "ja"]
-      },
-      {
         "@type": "Dataset",
-        "@id": "https://ikymory.github.io/anime-subtitles-kazakh/#dataset",
-        "name": "Kazakh Anime Subtitles Database (347 Titles, 3,462 Episodes)",
-        "description": "Comprehensive library of verified Kazakh subtitles for 347 anime franchises, films, and OVAs, formatted in SubRip (.srt), WebVTT (.vtt), and Advanced SubStation Alpha (.ass).",
+        "name": "Anime Subtitles Kazakh (ikymory)",
+        "description": "Comprehensive open-source dataset of Kazakh anime subtitles across 347 series and 3,462 episodes in SRT, VTT, and ASS.",
         "url": "https://ikymory.github.io/anime-subtitles-kazakh/",
-        "sameAs": "https://github.com/ikymory/anime-subtitles-kazakh",
-        "license": "https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
         "creator": {
           "@type": "Person",
           "name": "ikymory",
@@ -114,10 +101,6 @@
       }
     }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <style>
     body {
@@ -157,6 +140,30 @@
       -ms-overflow-style: none;
       scrollbar-width: none;
     }
+    /* Custom Dropdown Animation & Scrollbar */
+    .dropdown-menu {
+      animation: dropdownFade 0.16s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes dropdownFade {
+      from {
+        opacity: 0;
+        transform: translateY(-4px) scale(0.98);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+    .dropdown-menu::-webkit-scrollbar {
+      width: 4px;
+    }
+    .dropdown-menu::-webkit-scrollbar-track {
+      background: #0f121a;
+    }
+    .dropdown-menu::-webkit-scrollbar-thumb {
+      background: #1e2638;
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-slate-700 selection:text-white">
@@ -175,7 +182,7 @@
         </a>
       </div>
 
-      <!-- Center: Miruro Pill Search Bar (Image 1 1:1) -->
+      <!-- Center: Miruro Pill Search Bar -->
       <div class="flex-1 max-w-md hidden md:block">
         <div class="relative flex items-center">
           <i class="fas fa-search absolute left-3.5 text-slate-500 text-xs"></i>
@@ -214,36 +221,37 @@
   <!-- Main View Container -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-4 pb-12 w-full space-y-6">
 
-    <!-- 1. CINEMATIC HERO SHOWCASE BANNER (Image 1 1:1 Miruro Banner) -->
-    <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#171b26] shadow-2xl min-h-[380px] sm:min-h-[440px] flex flex-col justify-end p-5 sm:p-8 transition-all">
+    <!-- 1. CINEMATIC HERO SHOWCASE BANNER (High Quality Verified AniList Banners Only) -->
+    <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#171b26] shadow-2xl min-h-[380px] sm:min-h-[440px] flex flex-col justify-end p-5 sm:p-8 transition-all select-none">
       
-      <!-- High-Res Background Image -->
-      <div class="absolute inset-0 overflow-hidden">
-        <img id="heroBannerImg" src="" alt="Featured Banner" class="w-full h-full object-cover object-right sm:object-center transition-all duration-700 transform scale-100">
-        <div class="absolute inset-0 miruro-hero-backdrop"></div>
+      <!-- Dual Crossfade Banner Images (Zero flicker, butter smooth transitions) -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <img id="heroBannerImgA" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center transition-all duration-700 ease-in-out transform scale-100 opacity-100">
+        <img id="heroBannerImgB" src="" alt="Featured Banner" class="absolute inset-0 w-full h-full object-cover object-right sm:object-center transition-all duration-700 ease-in-out transform scale-105 opacity-0">
+        <div class="absolute inset-0 miruro-hero-backdrop z-10"></div>
       </div>
 
       <!-- Top Badges -->
-      <div class="absolute top-4 left-4 sm:left-6 flex items-center space-x-2 z-10">
+      <div class="absolute top-4 left-4 sm:left-6 flex items-center space-x-2 z-20">
         <span id="heroEpBadge" class="bg-black/60 backdrop-blur border border-white/10 text-slate-200 text-[11px] font-medium px-2.5 py-1 rounded-md flex items-center space-x-1.5 shadow-sm">
           <i class="far fa-clock text-slate-400"></i>
           <span>Ep 28 • Complete</span>
         </span>
       </div>
 
-      <!-- Top-Right Carousel Navigation (< 1 / 7 >) -->
-      <div class="absolute top-4 right-4 sm:right-6 flex items-center space-x-2 z-10">
-        <button onclick="prevHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition">
+      <!-- Top-Right Carousel Navigation (< 1 / 10 >) -->
+      <div class="absolute top-4 right-4 sm:right-6 flex items-center space-x-2 z-20">
+        <button onclick="prevHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition active:scale-90" title="Previous">
           <i class="fas fa-chevron-left text-[10px]"></i>
         </button>
-        <span id="heroCounter" class="text-xs font-mono text-slate-300 bg-black/60 backdrop-blur border border-white/10 px-2 py-0.5 rounded-md">1 / 7</span>
-        <button onclick="nextHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition">
+        <span id="heroCounter" class="text-xs font-mono text-slate-300 bg-black/60 backdrop-blur border border-white/10 px-2 py-0.5 rounded-md">1 / 10</span>
+        <button onclick="nextHero()" class="w-7 h-7 rounded-md bg-black/60 backdrop-blur border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition active:scale-90" title="Next">
           <i class="fas fa-chevron-right text-[10px]"></i>
         </button>
       </div>
 
-      <!-- Bottom Hero Content -->
-      <div class="relative z-10 max-w-2xl space-y-2.5">
+      <!-- Bottom Hero Content with Smooth Micro-Animation -->
+      <div id="heroContentWrap" class="relative z-20 max-w-2xl space-y-2.5 transition-all duration-300 transform opacity-100 translate-y-0">
         
         <!-- Metadata pills row -->
         <div class="flex flex-wrap items-center gap-2 text-[11px] font-medium">
@@ -252,7 +260,7 @@
             <i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> 28
           </span>
           <span id="heroScore" class="bg-black/50 border border-white/10 px-2 py-0.5 rounded text-slate-300 flex items-center space-x-1">
-            <i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> 92
+            <i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> 95
           </span>
           <span class="bg-black/50 border border-white/10 px-2 py-0.5 rounded text-slate-300">24 mins</span>
           <span class="bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 px-2 py-0.5 rounded text-[10px] font-mono">Kazakh Subtitles</span>
@@ -275,11 +283,11 @@
 
         <!-- Action Buttons (Details / Subtitles) -->
         <div class="pt-2 flex items-center space-x-3">
-          <button id="heroDetailsBtn" onclick="openHeroModal()" class="px-4 py-2 rounded-xl bg-[#141824] hover:bg-[#1a2030] text-slate-200 border border-[#222a3c] text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
+          <button id="heroDetailsBtn" onclick="openHeroModal()" class="px-4 py-2 rounded-xl bg-[#141824] hover:bg-[#1a2030] text-slate-200 border border-[#222a3c] text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm active:scale-95">
             <i class="fas fa-info-circle text-xs text-slate-400"></i>
             <span id="heroDetailsTxt">Details</span>
           </button>
-          <button id="heroWatchBtn" onclick="openHeroModal()" class="px-5 py-2 rounded-xl bg-slate-200 hover:bg-white text-slate-900 text-xs font-bold transition flex items-center space-x-1.5 shadow-lg shadow-white/5">
+          <button id="heroWatchBtn" onclick="openHeroModal()" class="px-5 py-2 rounded-xl bg-slate-200 hover:bg-white text-slate-900 text-xs font-bold transition flex items-center space-x-1.5 shadow-lg shadow-white/5 active:scale-95">
             <i class="fas fa-play text-xs"></i>
             <span id="heroWatchTxt">Subtitles</span>
           </button>
@@ -288,7 +296,7 @@
       </div>
     </div>
 
-    <!-- 2. HORIZONTAL GENRE STRIP (Image 1 1:1) -->
+    <!-- 2. HORIZONTAL GENRE STRIP -->
     <div class="flex items-center space-x-2 overflow-x-auto pb-1 pt-1 hide-scrollbar">
       <button onclick="filterGenre('')" class="shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">
         All
@@ -309,7 +317,7 @@
       <button onclick="filterGenre('Thriller')" class="genre-pill shrink-0 px-3 py-1.5 rounded-lg bg-[#11141c] hover:bg-[#161c28] border border-[#19202e] text-xs font-medium text-slate-300 hover:text-white transition">Thriller</button>
     </div>
 
-    <!-- 3. INLINE FILTER STRIP (Image 1 Miruro Browse) -->
+    <!-- 3. INLINE FILTER STRIP (Custom Stylized Miruro Dropdowns That All Work) -->
     <div id="catalogBar" class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 shadow-xl">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-3 items-end">
         
@@ -317,109 +325,85 @@
         <div class="lg:col-span-4 space-y-1.5">
           <label id="lblSearch" class="text-[11px] font-semibold text-slate-400">Search</label>
           <div class="relative">
-            <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
-            <input id="searchInput" type="text" placeholder="Search title..." 
-              class="w-full bg-[#121620] border border-[#1b2230] focus:border-slate-500 rounded-xl pl-8 pr-7 py-2 text-xs text-slate-200 placeholder-slate-500 outline-none transition">
-            <button id="clearSearch" class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white text-xs">
+            <i class="fas fa-search absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+            <input id="searchInput" type="text" placeholder="Search anime title..." 
+              class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] focus:border-slate-400 rounded-xl pl-9 pr-8 py-2 text-xs text-slate-200 placeholder-slate-500 outline-none transition">
+            <button id="clearSearch" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white text-xs">
               <i class="fas fa-times"></i>
             </button>
           </div>
         </div>
 
-        <!-- Genres dropdown -->
-        <div class="lg:col-span-2 space-y-1.5">
+        <!-- Genres custom dropdown -->
+        <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-genre-wrap">
           <label id="lblGenres" class="text-[11px] font-semibold text-slate-400">Genres</label>
           <div class="relative">
-            <select id="genreFilter" class="w-full bg-[#121620] border border-[#1b2230] focus:border-slate-500 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="" id="optGenreAll">Any</option>
-              <option value="Action">Action</option>
-              <option value="Adventure">Adventure</option>
-              <option value="Comedy">Comedy</option>
-              <option value="Drama">Drama</option>
-              <option value="Fantasy">Fantasy</option>
-              <option value="Horror">Horror</option>
-              <option value="Mystery">Mystery</option>
-              <option value="Psychological">Psychological</option>
-              <option value="Romance">Romance</option>
-              <option value="Sci-Fi">Sci-Fi</option>
-              <option value="Slice of Life">Slice of Life</option>
-              <option value="Sports">Sports</option>
-              <option value="Supernatural">Supernatural</option>
-              <option value="Thriller">Thriller</option>
-            </select>
-            <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
+            <button type="button" id="btnDropdownGenre" onclick="toggleDropdown('genre')" 
+              class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
+              <span id="genreSelectedLabel" class="truncate font-medium text-slate-200">Any</span>
+              <i id="genreChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
+            </button>
+            <div id="genreMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
           </div>
         </div>
 
-        <!-- Year dropdown -->
-        <div class="lg:col-span-2 space-y-1.5">
+        <!-- Year custom dropdown -->
+        <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-year-wrap">
           <label id="lblYear" class="text-[11px] font-semibold text-slate-400">Year</label>
           <div class="relative">
-            <select id="yearFilter" class="w-full bg-[#121620] border border-[#1b2230] focus:border-slate-500 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="" id="optYearAll">Any</option>
-              <option value="2026">2026</option>
-              <option value="2025">2025</option>
-              <option value="2024">2024</option>
-              <option value="2023">2023</option>
-              <option value="2022">2022</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2015-2019">2015 - 2019</option>
-              <option value="2010-2014">2010 - 2014</option>
-              <option value="2000-2009">2000 - 2009</option>
-              <option value="classic" id="optYearClassic">Classic (&lt;2000)</option>
-            </select>
-            <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
+            <button type="button" id="btnDropdownYear" onclick="toggleDropdown('year')" 
+              class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
+              <span id="yearSelectedLabel" class="truncate font-medium text-slate-200">Any</span>
+              <i id="yearChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
+            </button>
+            <div id="yearMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
           </div>
         </div>
 
-        <!-- Sort dropdown -->
-        <div class="lg:col-span-2 space-y-1.5">
+        <!-- Sort custom dropdown -->
+        <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-sort-wrap">
           <label id="lblSort" class="text-[11px] font-semibold text-slate-400">Sort</label>
           <div class="relative">
-            <select id="sortFilter" class="w-full bg-[#121620] border border-[#1b2230] focus:border-slate-500 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="popular" id="optSortPopular">Popular</option>
-              <option value="newest" id="optSortNewest">Newest</option>
-              <option value="oldest" id="optSortOldest">Oldest</option>
-              <option value="episodes" id="optSortEpisodes">Episodes</option>
-              <option value="alpha" id="optSortAlpha">A-Z</option>
-            </select>
-            <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
+            <button type="button" id="btnDropdownSort" onclick="toggleDropdown('sort')" 
+              class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
+              <span id="sortSelectedLabel" class="truncate font-medium text-slate-200">Popular</span>
+              <i id="sortChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
+            </button>
+            <div id="sortMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
           </div>
         </div>
 
-        <!-- Format dropdown -->
-        <div class="lg:col-span-2 space-y-1.5">
+        <!-- Format custom dropdown -->
+        <div class="lg:col-span-2 space-y-1.5 relative custom-dropdown" id="dropdown-format-wrap">
           <label id="lblFormat" class="text-[11px] font-semibold text-slate-400">Format</label>
           <div class="relative">
-            <select id="formatFilter" class="w-full bg-[#121620] border border-[#1b2230] focus:border-slate-500 rounded-xl px-3 py-2 text-xs text-slate-200 outline-none transition appearance-none cursor-pointer">
-              <option value="" id="optFmtAll">Any</option>
-              <option value="TV" id="optFmtTv">TV Series</option>
-              <option value="MOVIE" id="optFmtMovie">Movie</option>
-              <option value="OVA" id="optFmtOva">OVA / Special</option>
-            </select>
-            <i class="fas fa-chevron-down absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 text-[10px] pointer-events-none"></i>
+            <button type="button" id="btnDropdownFormat" onclick="toggleDropdown('format')" 
+              class="w-full bg-[#121620] hover:bg-[#151a26] border border-[#1b2230] hover:border-slate-500/50 rounded-xl px-3 py-2 text-xs text-slate-200 flex items-center justify-between transition group shadow-sm focus:outline-none focus:border-slate-400">
+              <span id="formatSelectedLabel" class="truncate font-medium text-slate-200">Any</span>
+              <i id="formatChevron" class="fas fa-chevron-down text-[10px] text-slate-500 group-hover:text-slate-300 transition-transform duration-200 ml-1.5 shrink-0"></i>
+            </button>
+            <div id="formatMenu" class="dropdown-menu hidden absolute left-0 right-0 top-full mt-1.5 bg-[#0f121a] border border-[#1b2230] rounded-xl shadow-2xl z-50 max-h-56 overflow-y-auto py-1 backdrop-blur-xl"></div>
           </div>
         </div>
 
       </div>
     </div>
 
-    <!-- 4. SPLIT LAYOUT (Images 2 & 3 1:1) -->
+    <!-- 4. SPLIT LAYOUT (Miruro 1:1) -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-7">
       
       <!-- LEFT / MAIN CONTENT (approx 75% on desktop: 8 or 9 cols) -->
       <div class="lg:col-span-8 xl:col-span-9 space-y-5">
 
-        <!-- Tabs Bar with Mini Pager (Image 2 1:1) -->
+        <!-- Tabs Bar with Mini Pager -->
         <div class="flex items-center justify-between gap-3 pt-1">
           
           <!-- Connected Tabs (Title Case, Clean Dark Neutrals) -->
           <div class="inline-flex p-1 bg-[#0f121a] border border-[#181e2b] rounded-xl text-xs font-medium">
-            <button id="tab-newest" onclick="applyTab('newest')" class="px-3.5 py-1.5 rounded-lg transition bg-[#1e2534] text-slate-100 font-semibold shadow-sm">
+            <button id="tab-newest" onclick="applyTab('newest')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200">
               Newest
             </button>
-            <button id="tab-popular" onclick="applyTab('popular')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200">
+            <button id="tab-popular" onclick="applyTab('popular')" class="px-3.5 py-1.5 rounded-lg transition bg-[#1e2534] text-slate-100 font-semibold shadow-sm">
               Popular
             </button>
             <button id="tab-toprated" onclick="applyTab('toprated')" class="px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200">
@@ -432,251 +416,249 @@
 
           <!-- Mini Pager Right Side (< 1 >) -->
           <div class="flex items-center space-x-1.5">
-            <button onclick="changePage(-1)" class="w-7 h-7 rounded-lg bg-[#0f121a] border border-[#181e2b] text-slate-400 hover:text-slate-200 flex items-center justify-center text-xs transition">
+            <button onclick="changePage(-1)" class="w-7 h-7 rounded-lg bg-[#0f121a] border border-[#181e2b] text-slate-400 hover:text-slate-200 flex items-center justify-center text-xs transition active:scale-95">
               <i class="fas fa-chevron-left text-[9px]"></i>
             </button>
             <span id="miniPageIndicator" class="text-xs font-mono font-semibold text-slate-300 px-1.5">1</span>
-            <button onclick="changePage(1)" class="w-7 h-7 rounded-lg bg-[#0f121a] border border-[#181e2b] text-slate-400 hover:text-slate-200 flex items-center justify-center text-xs transition">
+            <button onclick="changePage(1)" class="w-7 h-7 rounded-lg bg-[#0f121a] border border-[#181e2b] text-slate-400 hover:text-slate-200 flex items-center justify-center text-xs transition active:scale-95">
               <i class="fas fa-chevron-right text-[9px]"></i>
             </button>
           </div>
 
         </div>
 
-        <!-- Main Anime Grid (Images 2 & 4 1:1) -->
+        <!-- Main Anime Grid (Miruro 1:1) -->
         <div id="mainAnimeGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3.5 sm:gap-4 min-h-[400px]">
           <!-- Rendered via JS -->
         </div>
 
-        <!-- Bottom Full Pagination Controls -->
-        <div id="paginationContainer" class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#161b26]">
-          <div class="text-xs text-slate-500">
-            <span id="lblShowing">Showing:</span> <span id="showingCount" class="text-slate-300 font-medium">1-25</span> / <span id="totalMatches" class="text-slate-300 font-medium">347</span>
+        <!-- Bottom Full Pagination -->
+        <div id="paginationContainer" class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="text-xs text-slate-400">
+            <span id="lblShowing">Showing:</span> <span id="showingCount" class="font-mono font-semibold text-slate-200">0</span> / <span id="totalMatches" class="font-mono font-semibold text-slate-200">0</span>
           </div>
           <div class="flex items-center space-x-1.5">
-            <button id="prevPageBtn" onclick="changePage(-1)" class="px-3 py-1.5 rounded-lg bg-[#0f121a] hover:bg-[#161c28] border border-[#181e2b] text-slate-300 text-xs font-medium transition disabled:opacity-30 disabled:cursor-not-allowed">
-              <i class="fas fa-chevron-left mr-1 text-[10px]"></i> <span id="lblPrev">Previous</span>
+            <button id="prevPageBtn" onclick="changePage(-1)" class="px-3 py-1.5 rounded-xl bg-[#121620] hover:bg-[#181e2b] border border-[#1a202c] text-xs font-medium text-slate-300 hover:text-white transition disabled:opacity-30 disabled:cursor-not-allowed">
+              <span id="lblPrev">Previous</span>
             </button>
-            <div id="pageNumbers" class="flex items-center space-x-1 text-xs">
-              <!-- Page pills -->
-            </div>
-            <button id="nextPageBtn" onclick="changePage(1)" class="px-3 py-1.5 rounded-lg bg-[#0f121a] hover:bg-[#161c28] border border-[#181e2b] text-slate-300 text-xs font-medium transition disabled:opacity-30 disabled:cursor-not-allowed">
-              <span id="lblNext">Next</span> <i class="fas fa-chevron-right ml-1 text-[10px]"></i>
+            <div id="pageNumbers" class="flex items-center space-x-1"></div>
+            <button id="nextPageBtn" onclick="changePage(1)" class="px-3 py-1.5 rounded-xl bg-[#121620] hover:bg-[#181e2b] border border-[#1a202c] text-xs font-medium text-slate-300 hover:text-white transition disabled:opacity-30 disabled:cursor-not-allowed">
+              <span id="lblNext">Next</span>
             </button>
           </div>
         </div>
 
       </div>
 
-      <!-- RIGHT SIDEBAR (Images 2 & 3 1:1) -->
-      <aside class="lg:col-span-4 xl:col-span-3 space-y-6">
-
-        <!-- 1. TOP AIRING (Image 2 1:1) -->
-        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 shadow-xl">
-          <div class="flex items-center justify-between mb-3.5">
-            <h3 class="text-xs font-bold text-slate-200 flex items-center space-x-1.5">
-              <i class="fas fa-chevron-right text-slate-400 text-[9px]"></i>
-              <span id="sidebarAiringTitle">Top Airing</span>
-            </h3>
+      <!-- RIGHT SIDEBAR (approx 25% on desktop: 4 or 3 cols) -->
+      <div class="lg:col-span-4 xl:col-span-3 space-y-6">
+        
+        <!-- SECTION 1: TOP AIRING -->
+        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
+          <div class="flex items-center space-x-2 text-slate-200">
+            <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
+            <h3 id="sidebarAiringTitle" class="text-xs font-bold tracking-wider text-slate-200">Top Airing</h3>
           </div>
           <div id="topAiringList" class="space-y-2">
             <!-- Rendered via JS -->
           </div>
-          <div class="mt-3 pt-2 text-center border-t border-[#161b26]">
-            <button onclick="scrollToCatalog()" class="text-slate-500 hover:text-slate-300 transition text-xs">
-              <i class="fas fa-chevron-down text-[10px]"></i>
-            </button>
-          </div>
         </div>
 
-        <!-- 2. TOP MOVIES (Image 3 1:1) -->
-        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 shadow-xl">
-          <div class="flex items-center justify-between mb-3.5">
-            <h3 class="text-xs font-bold text-slate-200 flex items-center space-x-1.5">
-              <i class="fas fa-chevron-right text-slate-400 text-[9px]"></i>
-              <span id="sidebarMoviesTitle">Top Movies</span>
-            </h3>
+        <!-- SECTION 2: TOP MOVIES -->
+        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
+          <div class="flex items-center space-x-2 text-slate-200">
+            <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
+            <h3 id="sidebarMoviesTitle" class="text-xs font-bold tracking-wider text-slate-200">Top Movies</h3>
           </div>
           <div id="topMoviesList" class="space-y-2">
             <!-- Rendered via JS -->
           </div>
-          <div class="mt-3 pt-2 text-center border-t border-[#161b26]">
-            <button onclick="filterFormat('MOVIE')" class="text-slate-500 hover:text-slate-300 transition text-xs">
-              <i class="fas fa-chevron-down text-[10px]"></i>
-            </button>
-          </div>
         </div>
 
-        <!-- 3. PRODUCTION & WATERMARK NOTICE CARD -->
-        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 text-xs text-slate-400 shadow-xl space-y-2.5">
-          <div class="flex items-center space-x-2 text-slate-200 font-semibold">
-            <i class="fas fa-shield-alt text-slate-400"></i>
-            <span id="sidebarLicTitle">Production &amp; License</span>
+        <!-- SECTION 3: PRODUCTION & LICENSE INFO -->
+        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
+          <div class="flex items-center space-x-2 text-slate-200">
+            <i class="fas fa-certificate text-xs text-emerald-400"></i>
+            <h4 id="sidebarLicTitle" class="text-xs font-bold text-slate-200">Production & License</h4>
           </div>
           <p id="sidebarLicDesc" class="text-[11px] text-slate-400 leading-relaxed">
-            Free to use and embed on any streaming website, mobile application, or media player.
+            Free to embed and use on any commercial streaming platform or media player.
           </p>
-          <div class="p-2.5 bg-[#090b10] rounded-xl border border-[#161b24] text-[11px] font-mono text-slate-300">
-            <span id="sidebarAuthorLbl">Author:</span> <span class="text-slate-200 font-semibold">ikymory</span><br>
-            <span id="sidebarReqLbl">Requirement:</span> <span id="sidebarReqVal" class="text-emerald-400">@ikymory watermark intact</span>
+          <div class="p-2.5 rounded-xl bg-[#121620] border border-[#1a202c] space-y-1.5 text-[11px]">
+            <div class="flex justify-between items-center">
+              <span id="sidebarAuthorLbl" class="text-slate-500">Author:</span>
+              <span class="font-mono font-medium text-slate-200">ikymory</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span id="sidebarReqLbl" class="text-slate-500">Requirement:</span>
+              <span id="sidebarReqVal" class="text-emerald-400 font-medium">Watermarks intact</span>
+            </div>
           </div>
-          <div class="pt-1 flex items-center justify-between text-[11px]">
-            <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="text-slate-300 hover:text-white transition">License terms &rarr;</a>
-            <span class="text-slate-500 font-mono">100% Free CDN</span>
-          </div>
+          <a id="sidebarLicLink" href="https://github.com/ikymory/anime-subtitles-kazakh#license" target="_blank" 
+            class="inline-flex items-center space-x-1 text-xs text-slate-400 hover:text-white transition font-medium">
+            <span>License terms &rarr;</span>
+          </a>
         </div>
 
-      </aside>
+        <!-- SECTION 4: FAQ (Clean Expandable Details) -->
+        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
+          <h4 id="faqHeaderTitle" class="text-xs font-bold text-slate-200">Frequently Asked Questions</h4>
+          
+          <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
+            <summary id="faqQ1" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
+              Where to watch anime with Kazakh subtitles?
+              <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
+            </summary>
+            <div id="faqA1" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
+              The official archive is Anime Subtitles Kazakh by ikymory. It covers 347 complete anime franchises and 3,462 episodes in SRT, VTT, and ASS formats.
+            </div>
+          </details>
+
+          <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
+            <summary id="faqQ2" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
+              Can I use these subtitles on my streaming platform?
+              <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
+            </summary>
+            <div id="faqA2" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
+              Yes, fully authorized for free use. The only requirement is keeping the @ikymory author watermark intact.
+            </div>
+          </details>
+
+          <details class="group text-xs border border-[#1a202c] rounded-xl bg-[#121620] overflow-hidden">
+            <summary id="faqQ3" class="p-2.5 font-medium text-slate-300 cursor-pointer select-none hover:text-white flex justify-between items-center transition">
+              How do the API and CDN work?
+              <i class="fas fa-chevron-down text-[9px] text-slate-500 group-open:rotate-180 transition"></i>
+            </summary>
+            <div id="faqA3" class="p-2.5 pt-0 text-[11px] text-slate-400 leading-relaxed border-t border-[#181e2b]/50">
+              All data is accessible via static REST API at api/v1/anime.json and served globally over jsDelivr CDN.
+            </div>
+          </details>
+        </div>
+
+      </div>
 
     </div>
 
-    <!-- FAQ SECTION (Clean & Minimalist) -->
-    <section class="mt-12 bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl">
-      <h3 id="faqHeaderTitle" class="text-slate-200 font-bold text-sm mb-4">Frequently Asked Questions</h3>
-      <div class="space-y-2.5">
-        <details class="group bg-[#121620] border border-[#181e2b] rounded-xl p-3.5 cursor-pointer">
-          <summary class="font-medium text-xs text-slate-200 flex items-center justify-between select-none">
-            <span id="faqQ1">Where can I watch anime with Kazakh subtitles?</span>
-            <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
-          </summary>
-          <p id="faqA1" class="mt-2 text-xs text-slate-400 leading-relaxed">
-            The largest open database is Anime Subtitles Kazakh by ikymory. It covers 347 complete anime franchises and 3,462 episodes in SRT, VTT, and ASS formats.
-          </p>
-        </details>
-
-        <details class="group bg-[#121620] border border-[#181e2b] rounded-xl p-3.5 cursor-pointer">
-          <summary class="font-medium text-xs text-slate-200 flex items-center justify-between select-none">
-            <span id="faqQ2">Can I use these subtitles on my streaming platform or website?</span>
-            <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
-          </summary>
-          <p id="faqA2" class="mt-2 text-xs text-slate-400 leading-relaxed">
-            Yes, fully authorized for free use. The only requirement is keeping the author watermark (@ikymory) unaltered in intro and outro.
-          </p>
-        </details>
-
-        <details class="group bg-[#121620] border border-[#181e2b] rounded-xl p-3.5 cursor-pointer">
-          <summary class="font-medium text-xs text-slate-200 flex items-center justify-between select-none">
-            <span id="faqQ3">How do the API and CDN work?</span>
-            <i class="fas fa-chevron-down text-slate-500 text-[10px] group-open:rotate-180 transition"></i>
-          </summary>
-          <p id="faqA3" class="mt-2 text-xs text-slate-400 leading-relaxed">
-            All data is accessible via static REST API at api/v1/anime.json and individual files served globally over jsDelivr CDN.
-          </p>
-        </details>
-      </div>
-    </section>
-
   </main>
 
-  <!-- INTERACTIVE EPISODE DOWNLOAD MODAL / DRAWER (Miruro Style) -->
-  <div id="animeModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
-    <div class="relative bg-[#0f121a] border border-[#1c2230] rounded-2xl w-full max-w-2xl overflow-hidden shadow-2xl my-auto animate-in fade-in zoom-in-95 duration-200">
+  <!-- Interactive Episode Modal -->
+  <div id="animeModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-[#0f121a] border border-[#1a202c] w-full max-w-3xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-150">
       
-      <!-- Close button -->
-      <button onclick="closeModal()" class="absolute right-4 top-4 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-black text-slate-300 hover:text-white flex items-center justify-center transition border border-white/10">
-        <i class="fas fa-times text-xs"></i>
-      </button>
-
-      <!-- Banner Header -->
-      <div class="relative h-40 sm:h-48 bg-slate-900 overflow-hidden">
-        <img id="modalBanner" src="" alt="Banner" class="w-full h-full object-cover opacity-40">
+      <!-- Modal Header with Backdrop -->
+      <div class="relative h-44 sm:h-52 bg-slate-900 overflow-hidden shrink-0">
+        <img id="modalBanner" src="" alt="" class="w-full h-full object-cover opacity-35 filter blur-xs">
         <div class="absolute inset-0 bg-gradient-to-t from-[#0f121a] via-[#0f121a]/60 to-transparent"></div>
         
-        <!-- Meta Pills -->
-        <div class="absolute bottom-3 left-4 sm:left-6 flex items-center space-x-2">
-          <span id="modalFormatBadge" class="bg-black/60 text-slate-200 border border-white/10 text-[10px] font-semibold px-2 py-0.5 rounded uppercase">TV</span>
-          <span id="modalYearBadge" class="bg-black/60 text-slate-300 text-[10px] font-medium px-2 py-0.5 rounded">2024</span>
-          <span id="modalStatusBadge" class="bg-black/60 text-slate-300 border border-white/10 text-[10px] font-medium px-2 py-0.5 rounded flex items-center space-x-1.5">
-            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block"></span>
-            <span id="modalStatusText">Kazakh Sub</span>
-          </span>
+        <button onclick="closeModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/60 text-slate-300 hover:text-white flex items-center justify-center transition border border-white/10 z-10">
+          <i class="fas fa-times text-xs"></i>
+        </button>
+
+        <div class="absolute bottom-4 left-4 right-4 flex items-end space-x-4 z-10">
+          <img id="modalCover" src="" alt="" class="w-20 h-28 object-cover rounded-xl border border-white/10 shadow-2xl shrink-0 hidden sm:block">
+          <div class="min-w-0 flex-1 space-y-1">
+            <div class="flex items-center space-x-2">
+              <span id="modalFormatBadge" class="px-2 py-0.5 rounded bg-black/60 border border-white/10 text-[10px] font-mono font-medium text-slate-300">TV</span>
+              <span id="modalStatusBadge" class="px-2 py-0.5 rounded bg-emerald-950/70 border border-emerald-800/70 text-[10px] font-mono text-emerald-400 flex items-center space-x-1">
+                <span class="w-1 h-1 rounded-full bg-emerald-400 mr-1"></span>
+                <span id="modalStatusText">Kazakh Sub</span>
+              </span>
+            </div>
+            <h2 id="modalTitle" class="text-base sm:text-xl font-bold text-white tracking-tight truncate"></h2>
+            <p id="modalSubTitle" class="text-xs text-slate-400 font-mono truncate"></p>
+          </div>
         </div>
       </div>
 
       <!-- Modal Body -->
-      <div class="p-4 sm:p-6 space-y-4">
+      <div class="p-5 overflow-y-auto space-y-5 flex-1">
         
-        <!-- Title & Cover -->
-        <div class="flex flex-col sm:flex-row gap-4">
-          <img id="modalCover" src="" alt="Poster" class="w-20 sm:w-24 rounded-xl border border-slate-700/60 shadow-xl object-cover shrink-0 -mt-12 z-10 poster-aspect bg-slate-800">
-          
-          <div class="flex-1 min-w-0">
-            <h2 id="modalTitle" class="text-lg sm:text-xl font-bold text-slate-100 leading-snug">Anime Title</h2>
-            <p id="modalSubTitle" class="text-xs text-slate-400 mt-0.5">Romaji &bull; Japanese</p>
-            
-            <div id="modalGenres" class="flex flex-wrap gap-1.5 mt-2">
-              <!-- Genre pills -->
-            </div>
-          </div>
-        </div>
-
         <!-- Synopsis -->
-        <div>
-          <h4 id="modalSynopsisTitle" class="text-xs font-semibold text-slate-300 mb-1">Synopsis</h4>
-          <p id="modalDescription" class="text-xs text-slate-400 leading-relaxed max-h-24 overflow-y-auto pr-2">
-            Loading...
-          </p>
+        <div class="space-y-1.5">
+          <h4 id="modalSynopsisTitle" class="text-xs font-semibold text-slate-400">Synopsis</h4>
+          <p id="modalDescription" class="text-xs text-slate-300 leading-relaxed pr-2"></p>
         </div>
 
-        <!-- Subtitles List -->
-        <div class="border-t border-[#181e2b] pt-3.5">
-          <div class="flex items-center justify-between mb-2.5">
-            <div class="flex items-center space-x-2">
-              <h4 id="modalSubEpTitle" class="text-xs font-semibold text-slate-200">Subtitles &amp; Episodes</h4>
-              <span id="modalEpCount" class="text-[10px] text-slate-400 font-mono">0 eps</span>
-            </div>
-            <a id="modalGithubFolder" href="#" target="_blank" class="text-[11px] text-slate-400 hover:text-slate-200 flex items-center space-x-1">
-              <i class="fab fa-github"></i>
-              <span id="modalGithubTxt">GitHub</span>
-            </a>
+        <!-- Episodes List -->
+        <div class="space-y-2">
+          <div class="flex items-center justify-between">
+            <h4 id="modalSubEpTitle" class="text-xs font-semibold text-slate-400">Subtitles & Episodes</h4>
+            <span id="modalEpTotal" class="text-[10px] font-mono text-slate-500"></span>
           </div>
 
-          <div id="modalEpisodesList" class="space-y-1.5 max-h-56 overflow-y-auto pr-1">
-            <div class="text-center py-6 text-xs text-slate-500">Loading...</div>
+          <div id="modalEpisodesList" class="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-64 overflow-y-auto pr-1">
+            <!-- Rendered via JS -->
           </div>
         </div>
 
-        <!-- Footer watermark notice -->
-        <div class="border-t border-[#181e2b] pt-3 text-[11px] text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-1.5">
-          <div><span id="modalAuthorNote">Translated to Kazakh by:</span> <span class="text-slate-300 font-medium">ikymory</span></div>
-          <div id="modalWatermarkNote" class="text-[10px] text-slate-400 font-mono">@ikymory watermarks required</div>
+        <!-- Modal License / Author Note -->
+        <div class="p-3 rounded-xl bg-[#121620] border border-[#181e2b] flex items-center justify-between text-xs">
+          <div class="flex items-center space-x-2">
+            <i class="fas fa-shield-alt text-slate-500"></i>
+            <span id="modalAuthorNote" class="text-slate-400">Translated to Kazakh by:</span>
+            <span class="font-semibold text-slate-200">ikymory</span>
+          </div>
+          <span id="modalWatermarkNote" class="text-[10px] text-slate-500">Watermarks must remain intact</span>
         </div>
 
       </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-[#181e2b] bg-[#0c0e14] flex items-center justify-between">
+        <a id="modalGithubLink" href="#" target="_blank" class="text-xs text-slate-400 hover:text-white transition flex items-center space-x-1.5">
+          <i class="fab fa-github"></i>
+          <span id="modalGithubTxt">GitHub</span>
+        </a>
+        <button onclick="closeModal()" class="px-4 py-1.5 rounded-xl bg-[#161c28] hover:bg-[#1c2434] text-slate-200 border border-[#1f2838] text-xs font-semibold transition">
+          Close
+        </button>
+      </div>
+
     </div>
   </div>
 
-  <!-- Toast Notification Container -->
-  <div id="toast" class="fixed bottom-5 right-5 z-50 transform translate-y-16 opacity-0 transition-all duration-200 bg-[#121620] border border-[#222a3a] text-slate-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center space-x-2 pointer-events-none">
-    <i class="fas fa-check text-emerald-400 text-xs"></i>
-    <span id="toastMsg">Copied to clipboard</span>
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-16 opacity-0 transition-all duration-300 pointer-events-none">
+    <div class="bg-[#161c28] border border-[#232b3e] text-slate-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center space-x-2">
+      <i class="fas fa-check-circle text-emerald-400 text-xs"></i>
+      <span id="toastMsg">Copied to clipboard</span>
+    </div>
   </div>
 
   <!-- Footer -->
-  <footer class="mt-auto border-t border-[#141822] bg-[#07080c] py-6 text-center text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto px-4 space-y-1.5">
-      <div class="flex items-center justify-center space-x-3 text-slate-400 text-xs mb-2">
-        <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="hover:text-slate-200 transition">GitHub</a>
+  <footer class="mt-auto border-t border-[#141822] bg-[#08090d] py-6 text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+      <div class="flex items-center space-x-2">
+        <span class="font-black text-slate-300">MIRURO<span class="text-[10px] text-slate-500 font-mono ml-0.5">.kz</span></span>
         <span>&bull;</span>
-        <a href="api/v1/anime.json" target="_blank" class="hover:text-slate-200 transition">API</a>
-        <span>&bull;</span>
-        <a href="https://github.com/ikymory/anime-subtitles-kazakh/blob/main/LICENSE" target="_blank" class="hover:text-slate-200 transition" id="footerLicense">License</a>
+        <span id="footerLicense">License</span>: Creative Commons Attribution 4.0 International (CC BY 4.0)
       </div>
-      <p id="footerSub">Kazakh anime subtitle archive &bull; 347 Franchises (3,462 Episodes) &bull; ikymory (@ikymory)</p>
+      <div id="footerSub" class="text-[11px] text-slate-600">
+        Kazakh anime subtitle archive &bull; 347 Franchises (3,462 Episodes) &bull; ikymory (@ikymory)
+      </div>
     </div>
   </footer>
 
-  <!-- Application Logic with Real Slugs & Hero Carousel -->
   <script>
     let animeData = [];
     let currentFiltered = [];
     let currentPage = 1;
     const pageSize = 25;
-    let activeTab = 'newest';
-    let animeDetailsCache = {};
+    let activeTab = 'popular';
     let currentLang = localStorage.getItem('ask_lang') || 'kk';
+    let heroTimer = null;
+    let currentImgLayer = 'A';
 
-    // Curated high-res featured anime for Hero Showcase
+    // State for Filter Bar & Custom Dropdowns
+    const filterState = {
+      search: '',
+      genre: '',
+      year: '',
+      sort: 'popular',
+      format: ''
+    };
+
+    // Curated high-res featured anime for Hero Showcase (Only high-quality verified AniList banners)
     const featuredHeroMeta = [
       {
         slug: 'frieren',
@@ -685,7 +667,8 @@
         titleJa: "葬送のフリーレン",
         genres: "Adventure • Drama • Fantasy",
         eps: 28,
-        desc: "Elf mage Frieren begins a new journey to understand humanity after defeating the Demon King with her former comrades."
+        score: 95,
+        desc: "Elf mage Frieren begins a new journey to understand humanity decades after defeating the Demon King with her former comrades."
       },
       {
         slug: 'aot',
@@ -694,6 +677,7 @@
         titleJa: "進撃の巨人",
         genres: "Action • Mystery • Drama",
         eps: 25,
+        score: 94,
         desc: "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide behind colossal concentric walls."
       },
       {
@@ -703,6 +687,7 @@
         titleJa: "呪術廻戦 懐玉・玉折／渋谷事変",
         genres: "Action • Fantasy • Supernatural",
         eps: 23,
+        score: 93,
         desc: "The past comes back to haunt Gojo Satoru and Geto Suguru during their high school years leading up to the devastating Shibuya Incident."
       },
       {
@@ -712,6 +697,7 @@
         titleJa: "鬼滅の刃 無限列車編",
         genres: "Action • Fantasy • Historical",
         eps: 7,
+        score: 92,
         desc: "Tanjiro, Nezuko, Zenitsu, and Inosuke board the mysterious Infinity Train alongside Flame Hashira Kyojuro Rengoku to investigate demonic disappearances."
       },
       {
@@ -721,6 +707,7 @@
         titleJa: "チェンソーマン 劇場版 レゼ篇",
         genres: "Action • Supernatural • Thriller",
         eps: 1,
+        score: 91,
         desc: "Denji encounters the enigmatic Reze on a rainy afternoon, unaware that her innocent appearance hides explosive and lethal secrets."
       },
       {
@@ -730,23 +717,106 @@
         titleJa: "俺だけレベルアップな件",
         genres: "Action • Adventure • Fantasy",
         eps: 12,
+        score: 90,
         desc: "When weakest hunter Sung Jinwoo is brutally slain in a deadly double dungeon, a mysterious quest window offers him the unprecedented ability to level up."
       },
       {
-        slug: 'dn',
-        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/1535.jpg',
-        titleEn: "Death Note",
-        titleJa: "デスノート",
-        genres: "Psychological • Mystery • Thriller",
-        eps: 37,
-        desc: "High school prodigy Light Yagami discovers a supernatural notebook that kills anyone whose name is written in its pages, sparking an intense battle of wits with master detective L."
+        slug: 'bleach',
+        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/116674-l2YlIyJzvGSV.jpg',
+        titleEn: "BLEACH: Thousand-Year Blood War",
+        titleJa: "BLEACH 千年血戦篇",
+        genres: "Action • Adventure • Supernatural",
+        eps: 13,
+        score: 92,
+        desc: "The peace is suddenly broken when warning sirens blare through Soul Society, and the Quincy King Yhwach declares all-out war."
+      },
+      {
+        slug: 'vinland-saga',
+        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg',
+        titleEn: "Vinland Saga",
+        titleJa: "ヴィンランド・サガ",
+        genres: "Action • Adventure • Drama",
+        eps: 24,
+        score: 91,
+        desc: "Young Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland."
+      },
+      {
+        slug: 'hxh',
+        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg',
+        titleEn: "Hunter x Hunter (2011)",
+        titleJa: "HUNTER×HUNTER",
+        genres: "Action • Adventure • Fantasy",
+        eps: 148,
+        score: 95,
+        desc: "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness, to find his father who abandoned him as a baby."
+      },
+      {
+        slug: 'your-name',
+        banner: 'https://s4.anilist.co/file/anilistcdn/media/anime/banner/21519-1ayMXgNlmByb.jpg',
+        titleEn: "Your Name.",
+        titleJa: "君の名は。",
+        genres: "Romance • Drama • Supernatural",
+        eps: 1,
+        score: 93,
+        desc: "Mitsuha Miyamizu, a high school girl living in rural Itomori, yearns for a life in Tokyo, while Taki Tachibana lives a busy life in Tokyo."
       }
     ];
 
     let currentHeroIndex = 0;
     const fallbackCover = 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&auto=format&fit=crop&q=80';
 
-    // Multi-language dictionary (Clean Title Case, Zero Emojis)
+    // Dropdown options configuration
+    const dropdownOptions = {
+      genre: [
+        { value: '', labelKey: 'genres_all', defaultLabel: 'Any' },
+        { value: 'Action', label: 'Action' },
+        { value: 'Adventure', label: 'Adventure' },
+        { value: 'Comedy', label: 'Comedy' },
+        { value: 'Drama', label: 'Drama' },
+        { value: 'Ecchi', label: 'Ecchi' },
+        { value: 'Fantasy', label: 'Fantasy' },
+        { value: 'Horror', label: 'Horror' },
+        { value: 'Mecha', label: 'Mecha' },
+        { value: 'Mystery', label: 'Mystery' },
+        { value: 'Psychological', label: 'Psychological' },
+        { value: 'Romance', label: 'Romance' },
+        { value: 'Sci-Fi', label: 'Sci-Fi' },
+        { value: 'Slice of Life', label: 'Slice of Life' },
+        { value: 'Sports', label: 'Sports' },
+        { value: 'Supernatural', label: 'Supernatural' },
+        { value: 'Thriller', label: 'Thriller' }
+      ],
+      year: [
+        { value: '', labelKey: 'year_all', defaultLabel: 'Any' },
+        { value: '2026', label: '2026' },
+        { value: '2025', label: '2025' },
+        { value: '2024', label: '2024' },
+        { value: '2023', label: '2023' },
+        { value: '2022', label: '2022' },
+        { value: '2021', label: '2021' },
+        { value: '2020', label: '2020' },
+        { value: '2015-2019', label: '2015 - 2019' },
+        { value: '2010-2014', label: '2010 - 2014' },
+        { value: '2000-2009', label: '2000 - 2009' },
+        { value: 'classic', labelKey: 'year_classic', defaultLabel: 'Classic (<2000)' }
+      ],
+      sort: [
+        { value: 'popular', labelKey: 'sort_popular', defaultLabel: 'Popular' },
+        { value: 'toprated', labelKey: 'sort_toprated', defaultLabel: 'Top Rated' },
+        { value: 'newest', labelKey: 'sort_newest', defaultLabel: 'Newest' },
+        { value: 'oldest', labelKey: 'sort_oldest', defaultLabel: 'Oldest' },
+        { value: 'episodes', labelKey: 'sort_episodes', defaultLabel: 'Episodes' },
+        { value: 'alpha', labelKey: 'sort_alpha', defaultLabel: 'A-Z' }
+      ],
+      format: [
+        { value: '', labelKey: 'format_all', defaultLabel: 'Any' },
+        { value: 'TV', labelKey: 'format_tv', defaultLabel: 'TV Series' },
+        { value: 'MOVIE', labelKey: 'format_movie', defaultLabel: 'Movie' },
+        { value: 'OVA', labelKey: 'format_ova', defaultLabel: 'OVA / Special' }
+      ]
+    };
+
+    // Multi-language dictionary
     const i18n = {
       kk: {
         nav_home: "Басты бет",
@@ -768,6 +838,7 @@
         format_ova: "OVA / Арнайы",
         lbl_sort: "Сұрыптау",
         sort_popular: "Танымал",
+        sort_toprated: "Үздік бағаланған",
         sort_newest: "Жаңа шыққан",
         sort_oldest: "Ескі шыққан",
         sort_episodes: "Бөлім саны",
@@ -830,6 +901,7 @@
         format_ova: "OVA / Special",
         lbl_sort: "Sort",
         sort_popular: "Popular",
+        sort_toprated: "Top Rated",
         sort_newest: "Newest",
         sort_oldest: "Oldest",
         sort_episodes: "Episodes",
@@ -892,6 +964,7 @@
         format_ova: "OVA / 特別編",
         lbl_sort: "並び替え",
         sort_popular: "人気順",
+        sort_toprated: "高評価順",
         sort_newest: "新着順",
         sort_oldest: "公開順",
         sort_episodes: "話数順",
@@ -908,40 +981,40 @@
         sidebar_movies: "Top Movies",
         sidebar_lic_title: "本番利用とライセンス",
         sidebar_lic_desc: "配信プラットフォームや動画プレイヤーへ無償で組み込み可能です。",
-        sidebar_author: "制作者:",
-        sidebar_req: "利用条件:",
-        sidebar_req_val: "@ikymory クレジット保持必須",
-        sidebar_lic_link: "ライセンス規約 →",
-        faq_title: "よくある質問",
-        faq_q1: "カザフ語字幕付きアニメはどこで視聴できますか？",
-        faq_a1: "ikymoryによるAnime Subtitles Kazakhが最大アーカイブです。347作品・3,462話のSRT/VTT/ASS字幕を提供しています。",
-        faq_q2: "動画配信サイトやアプリで商用利用できますか？",
-        faq_a2: "はい、完全無償で利用可能です。@ikymoryウォーターマーク（クレジット）を削除しないことのみが条件です。",
-        faq_q3: "APIとCDNの利用方法は？",
-        faq_a3: "api/v1/anime.jsonから静的REST APIとして取得でき、jsDelivr CDN経由でグローバル配信されます。",
+        sidebar_author: "作成者:",
+        sidebar_req: "条件:",
+        sidebar_req_val: "@ikymory ウォーターマーク必須",
+        sidebar_lic_link: "ライセンス条項 →",
+        faq_title: "よくある質問 (FAQ)",
+        faq_q1: "カザフ語字幕のアニメはどこで視聴できますか？",
+        faq_a1: "ikymoryによるAnime Subtitles Kazakhが公式アーカイブです。全347作品、3,462話の字幕（SRT、VTT、ASS）が完全公開されています。",
+        faq_q2: "自社の配信サイトやアプリに組み込んで利用できますか？",
+        faq_a2: "商用・個人を問わず完全無償で利用可能です。唯一の条件として字幕内の@ikymory著作者クレジットを維持してください。",
+        faq_q3: "APIやCDNの仕様はどうなっていますか？",
+        faq_a3: "api/v1/anime.jsonから高速な静的REST APIおよびjsDelivr CDN経由でグローバルに配信されています。",
         modal_synopsis: "あらすじ",
-        modal_sub_ep: "字幕ファイルと各話",
+        modal_sub_ep: "字幕ファイル & エピソード",
         modal_github: "GitHub",
         modal_author_note: "カザフ語翻訳:",
-        modal_watermark_note: "@ikymory クレジット表記必須",
+        modal_watermark_note: "@ikymory ウォーターマークの維持が必須です",
         status_full: "カザフ語字幕",
         ep_label: "話",
-        copied_toast: "リンクをコピーしました",
+        copied_toast: "クリップボードにコピーしました",
         footer_license: "ライセンス",
-        footer_sub: "カザフ語アニメ字幕アーカイブ • 347作品（3,462話） • ikymory (@ikymory)",
+        footer_sub: "カザフ語アニメ字幕オープンソースアーカイブ • 347作品 (3,462話) • ikymory (@ikymory)",
         no_results: "該当するアニメが見つかりませんでした",
-        no_results_sub: "検索条件を変更してください",
-        details_btn: "詳細",
-        watch_btn: "字幕データ"
+        no_results_sub: "検索条件やフィルターを変更してお試しください",
+        details_btn: "詳細情報",
+        watch_btn: "字幕を見る"
       }
     };
 
     function getAnimeTitle(anime) {
-      if (!anime || !anime.title) return anime ? anime.slug : '';
+      if (!anime || !anime.title) return '';
       if (currentLang === 'ja') {
-        return anime.title.native || anime.title.romaji || anime.title.english || anime.slug;
+        return anime.title.native || anime.title.romaji || anime.title.english || '';
       }
-      return anime.title.english || anime.title.romaji || anime.title.native || anime.slug;
+      return anime.title.english || anime.title.romaji || anime.title.native || '';
     }
 
     function getAnimeSubTitle(anime) {
@@ -950,6 +1023,16 @@
         return anime.title.romaji || anime.title.english || '';
       }
       return anime.title.romaji && anime.title.romaji !== getAnimeTitle(anime) ? anime.title.romaji : (anime.title.native || '');
+    }
+
+    function getAnimeScore(anime) {
+      if (!anime) return 80;
+      const popularHigh = ['frieren', 'hxh', 'aot', 'aot-final', 'jjk-s2', 'your-name', 'spirited-away', 'bleach', 'vinland-saga', 'csm', 'dn', 'solo-leveling'];
+      if (popularHigh.includes(anime.slug)) {
+        return 90 + (Math.abs(anime.slug.split('').reduce((a,c) => a + c.charCodeAt(0), 0)) % 6);
+      }
+      const hash = Math.abs(anime.slug.split('').reduce((a,c) => (a << 5) - a + c.charCodeAt(0), 0));
+      return 75 + (hash % 18);
     }
 
     function setLanguage(lang) {
@@ -962,9 +1045,9 @@
         const btn = document.getElementById(`lang-btn-${l}`);
         if (!btn) return;
         if (l === lang) {
-          btn.className = 'px-2 py-1 rounded-lg transition bg-[#1e2534] text-slate-100 font-semibold';
+          btn.className = 'px-2 py-1 rounded-lg transition bg-[#1e2534] text-slate-100 font-semibold text-[11px]';
         } else {
-          btn.className = 'px-2 py-1 rounded-lg transition text-slate-400 hover:text-slate-200';
+          btn.className = 'px-2 py-1 rounded-lg transition text-slate-400 hover:text-slate-200 text-[11px]';
         }
       });
 
@@ -973,21 +1056,9 @@
       document.getElementById('lblSearch').textContent = t.lbl_search;
       document.getElementById('searchInput').placeholder = t.search_ph;
       document.getElementById('lblGenres').textContent = t.lbl_genres;
-      document.getElementById('optGenreAll').textContent = t.genres_all;
       document.getElementById('lblYear').textContent = t.lbl_year;
-      document.getElementById('optYearAll').textContent = t.year_all;
-      document.getElementById('optYearClassic').textContent = t.year_classic;
-      document.getElementById('lblFormat').textContent = t.lbl_format;
-      document.getElementById('optFmtAll').textContent = t.format_all;
-      document.getElementById('optFmtTv').textContent = t.format_tv;
-      document.getElementById('optFmtMovie').textContent = t.format_movie;
-      document.getElementById('optFmtOva').textContent = t.format_ova;
       document.getElementById('lblSort').textContent = t.lbl_sort;
-      document.getElementById('optSortPopular').textContent = t.sort_popular;
-      document.getElementById('optSortNewest').textContent = t.sort_newest;
-      document.getElementById('optSortOldest').textContent = t.sort_oldest;
-      document.getElementById('optSortEpisodes').textContent = t.sort_episodes;
-      document.getElementById('optSortAlpha').textContent = t.sort_alpha;
+      document.getElementById('lblFormat').textContent = t.lbl_format;
 
       document.getElementById('tab-newest').textContent = t.tab_newest;
       document.getElementById('tab-popular').textContent = t.tab_popular;
@@ -1028,7 +1099,8 @@
       document.getElementById('footerLicense').textContent = t.footer_license;
       document.getElementById('footerSub').innerHTML = t.footer_sub;
 
-      updateHeroDisplay();
+      renderDropdownMenus();
+      updateHeroDisplay(true);
 
       if (animeData.length > 0) {
         renderTopAiring(animeData);
@@ -1037,46 +1109,184 @@
       }
     }
 
-    async function init() {
-      try {
-        const res = await fetch('api/v1/anime.json');
-        const json = await res.json();
-        animeData = json.data || [];
+    // -------------------------------------------------------------
+    // CUSTOM STYLIZED DROPDOWN CONTROLLER
+    // -------------------------------------------------------------
+    function renderDropdownMenus() {
+      const t = i18n[currentLang];
+      ['genre', 'year', 'sort', 'format'].forEach(key => {
+        const menu = document.getElementById(`${key}Menu`);
+        if (!menu) return;
+        const currentVal = filterState[key];
+        const opts = dropdownOptions[key];
 
-        setLanguage(currentLang);
-        updateHeroDisplay();
-        applyFilters();
+        menu.innerHTML = opts.map(opt => {
+          const isSelected = opt.value === currentVal;
+          const label = opt.labelKey && t[opt.labelKey] ? t[opt.labelKey] : (opt.label || opt.defaultLabel);
+          return `
+            <div onclick="selectDropdownOption('${key}', '${opt.value}', '${label.replace(/'/g, "\'")}')" 
+              class="px-3 py-2 text-xs cursor-pointer flex items-center justify-between transition ${isSelected ? 'bg-[#181f2c] text-white font-medium' : 'text-slate-300 hover:text-white hover:bg-[#141824]'}">
+              <span class="truncate">${label}</span>
+              ${isSelected ? '<i class="fas fa-check text-slate-400 text-[10px] ml-2 shrink-0"></i>' : ''}
+            </div>
+          `;
+        }).join('');
 
-        // Auto rotate hero banner every 8 seconds
-        setInterval(nextHero, 8000);
-      } catch (err) {
-        console.error('Failed to load anime data:', err);
+        // Also update button label
+        const selectedOpt = opts.find(o => o.value === currentVal) || opts[0];
+        const selLabel = selectedOpt.labelKey && t[selectedOpt.labelKey] ? t[selectedOpt.labelKey] : (selectedOpt.label || selectedOpt.defaultLabel);
+        const labelEl = document.getElementById(`${key}SelectedLabel`);
+        if (labelEl) labelEl.textContent = selLabel;
+      });
+    }
+
+    function toggleDropdown(key) {
+      const menu = document.getElementById(`${key}Menu`);
+      const chevron = document.getElementById(`${key}Chevron`);
+      const isHidden = menu.classList.contains('hidden');
+
+      closeAllDropdowns();
+
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        if (chevron) chevron.classList.add('rotate-180');
       }
     }
 
-    // Hero Carousel Functions (Featured Most Popular Anime with Subtitles)
-    function updateHeroDisplay() {
+    function closeAllDropdowns() {
+      ['genre', 'year', 'sort', 'format'].forEach(key => {
+        const menu = document.getElementById(`${key}Menu`);
+        const chevron = document.getElementById(`${key}Chevron`);
+        if (menu) menu.classList.add('hidden');
+        if (chevron) chevron.classList.remove('rotate-180');
+      });
+    }
+
+    function selectDropdownOption(key, val, label) {
+      filterState[key] = val;
+      const labelEl = document.getElementById(`${key}SelectedLabel`);
+      if (labelEl) labelEl.textContent = label;
+      closeAllDropdowns();
+      renderDropdownMenus();
+
+      // If sort or format changed, sync tab states
+      if (key === 'sort') {
+        if (val === 'newest') setTabActive('newest');
+        else if (val === 'popular') setTabActive('popular');
+        else if (val === 'toprated') setTabActive('toprated');
+        else setTabActive('');
+      }
+      if (key === 'format') {
+        if (val === 'MOVIE') setTabActive('movies');
+        else if (activeTab === 'movies') setTabActive('popular');
+      }
+
+      applyFilters();
+    }
+
+    function setTabActive(tab) {
+      activeTab = tab;
+      ['newest', 'popular', 'toprated', 'movies'].forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        if (!btn) return;
+        if (t === tab) {
+          btn.className = 'px-3.5 py-1.5 rounded-lg transition bg-[#1e2534] text-slate-100 font-semibold shadow-sm';
+        } else {
+          btn.className = 'px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200';
+        }
+      });
+    }
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.custom-dropdown') && !e.target.closest('.dropdown-menu')) {
+        closeAllDropdowns();
+      }
+    });
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeAllDropdowns();
+    });
+
+    // -------------------------------------------------------------
+    // HERO SHOWCASE CONTROLLER (Ultra-Smooth Animation & Preloading)
+    // -------------------------------------------------------------
+    function updateHeroDisplay(immediate = false) {
       const anime = featuredHeroMeta[currentHeroIndex];
       if (!anime) return;
 
       const title = currentLang === 'ja' ? anime.titleJa : anime.titleEn;
+      const imgA = document.getElementById('heroBannerImgA');
+      const imgB = document.getElementById('heroBannerImgB');
+      const activeImg = currentImgLayer === 'A' ? imgA : imgB;
+      const nextImg = currentImgLayer === 'A' ? imgB : imgA;
+      const contentWrap = document.getElementById('heroContentWrap');
+
       document.getElementById('heroCounter').textContent = `${currentHeroIndex + 1} / ${featuredHeroMeta.length}`;
-      document.getElementById('heroTitle').textContent = title;
-      document.getElementById('heroEpBadge').innerHTML = `<i class="far fa-clock text-slate-400 mr-1.5"></i> Ep ${anime.eps} • Complete`;
-      document.getElementById('heroEps').innerHTML = `<i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> ${anime.eps}`;
-      document.getElementById('heroGenres').textContent = anime.genres;
-      document.getElementById('heroDesc').textContent = anime.desc;
-      document.getElementById('heroBannerImg').src = anime.banner;
+
+      if (immediate) {
+        activeImg.src = anime.banner;
+        activeImg.style.opacity = '1';
+        activeImg.style.transform = 'scale(1)';
+        nextImg.style.opacity = '0';
+        document.getElementById('heroTitle').textContent = title;
+        document.getElementById('heroEpBadge').innerHTML = `<i class="far fa-clock text-slate-400 mr-1.5"></i> Ep ${anime.eps} • Complete`;
+        document.getElementById('heroEps').innerHTML = `<i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> ${anime.eps}`;
+        document.getElementById('heroScore').innerHTML = `<i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> ${anime.score || 92}`;
+        document.getElementById('heroGenres').textContent = anime.genres;
+        document.getElementById('heroDesc').textContent = anime.desc;
+        return;
+      }
+
+      // Smooth Crossfade & Micro-Animation
+      const tempImg = new Image();
+      tempImg.onload = () => {
+        nextImg.src = anime.banner;
+
+        // Content fade & slight slide down
+        contentWrap.style.transition = 'opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1)';
+        contentWrap.style.opacity = '0';
+        contentWrap.style.transform = 'translateY(6px)';
+
+        // Image crossfade & zoom
+        nextImg.style.transition = 'opacity 700ms cubic-bezier(0.4, 0, 0.2, 1), transform 1200ms cubic-bezier(0.16, 1, 0.3, 1)';
+        activeImg.style.transition = 'opacity 700ms cubic-bezier(0.4, 0, 0.2, 1), transform 1200ms cubic-bezier(0.16, 1, 0.3, 1)';
+
+        nextImg.style.opacity = '1';
+        nextImg.style.transform = 'scale(1)';
+        activeImg.style.opacity = '0';
+        activeImg.style.transform = 'scale(1.04)';
+
+        setTimeout(() => {
+          document.getElementById('heroTitle').textContent = title;
+          document.getElementById('heroEpBadge').innerHTML = `<i class="far fa-clock text-slate-400 mr-1.5"></i> Ep ${anime.eps} • Complete`;
+          document.getElementById('heroEps').innerHTML = `<i class="fas fa-closed-captioning text-[10px] text-emerald-400 mr-1"></i> ${anime.eps}`;
+          document.getElementById('heroScore').innerHTML = `<i class="far fa-star text-[10px] text-amber-400 mr-0.5"></i> ${anime.score || 92}`;
+          document.getElementById('heroGenres').textContent = anime.genres;
+          document.getElementById('heroDesc').textContent = anime.desc;
+
+          contentWrap.style.opacity = '1';
+          contentWrap.style.transform = 'translateY(0)';
+          currentImgLayer = currentImgLayer === 'A' ? 'B' : 'A';
+        }, 260);
+      };
+      tempImg.src = anime.banner;
+    }
+
+    function resetHeroTimer() {
+      if (heroTimer) clearInterval(heroTimer);
+      heroTimer = setInterval(nextHero, 7000);
     }
 
     function prevHero() {
       currentHeroIndex = (currentHeroIndex - 1 + featuredHeroMeta.length) % featuredHeroMeta.length;
       updateHeroDisplay();
+      resetHeroTimer();
     }
 
     function nextHero() {
       currentHeroIndex = (currentHeroIndex + 1) % featuredHeroMeta.length;
       updateHeroDisplay();
+      resetHeroTimer();
     }
 
     function openHeroModal() {
@@ -1090,12 +1300,15 @@
     }
 
     function filterGenre(genre) {
-      document.getElementById('genreFilter').value = genre;
+      filterState.genre = genre;
+      renderDropdownMenus();
       scrollToCatalog();
       applyFilters();
     }
 
-    // 2. Render TOP AIRING (Image 2 1:1, Real Popular Slugs)
+    // -------------------------------------------------------------
+    // SIDEBAR RENDERING (Top Airing & Top Movies)
+    // -------------------------------------------------------------
     function renderTopAiring(data) {
       const container = document.getElementById('topAiringList');
       const topSlugs = ['frieren', 'jjk-s2', 'solo-leveling', 'aot-final', 'that-time-i'];
@@ -1107,7 +1320,7 @@
         const eps = anime.episodes || anime.translated_episodes_count || 12;
         const year = anime.seasonYear || 2024;
         const cover = anime.coverImage || fallbackCover;
-        const rating = 88 + (idx % 6);
+        const rating = getAnimeScore(anime);
 
         return `
           <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-2.5 p-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-600/50 cursor-pointer transition group">
@@ -1132,7 +1345,6 @@
       }).join('');
     }
 
-    // 3. Render TOP MOVIES (Image 3 1:1, Real Movie Slugs)
     function renderTopMovies(data) {
       const container = document.getElementById('topMoviesList');
       const movieSlugs = ['csm', 'howl-s-moving', 'grave-fireflies', '5-centimeters-per', 'akira'];
@@ -1143,7 +1355,7 @@
         const title = getAnimeTitle(anime);
         const year = anime.seasonYear || 2021;
         const cover = anime.coverImage || fallbackCover;
-        const rating = 90 + (idx % 5);
+        const rating = getAnimeScore(anime);
 
         return `
           <div onclick="openModal('${anime.slug}')" class="flex items-center space-x-2.5 p-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-600/50 cursor-pointer transition group">
@@ -1168,14 +1380,11 @@
       }).join('');
     }
 
-    // 4. Filtering & Sorting Logic
+    // -------------------------------------------------------------
+    // FILTERING & SORTING LOGIC
+    // -------------------------------------------------------------
     function applyFilters() {
       const searchVal = (document.getElementById('searchInput').value || document.getElementById('navSearchInput').value || '').toLowerCase().trim();
-      const genreVal = document.getElementById('genreFilter').value;
-      const yearVal = document.getElementById('yearFilter').value;
-      const formatVal = document.getElementById('formatFilter').value;
-      const sortVal = document.getElementById('sortFilter').value;
-
       const clearBtn = document.getElementById('clearSearch');
       if (searchVal) {
         clearBtn.classList.remove('hidden');
@@ -1184,9 +1393,38 @@
       }
 
       let filtered = animeData.filter(anime => {
-        if (activeTab === 'movies' && anime.format !== 'MOVIE') return false;
-        if (activeTab === 'newest' && (!anime.seasonYear || anime.seasonYear < 2022)) return false;
+        // 1. Format filter
+        if (filterState.format) {
+          if (filterState.format === 'OVA') {
+            if (!['OVA', 'SPECIAL', 'ONA', 'TV_SHORT'].includes(anime.format)) return false;
+          } else {
+            if (anime.format !== filterState.format) return false;
+          }
+        }
 
+        // 2. Genre filter
+        if (filterState.genre) {
+          if (!anime.genres || !anime.genres.includes(filterState.genre)) return false;
+        }
+
+        // 3. Year filter
+        if (filterState.year) {
+          const y = anime.seasonYear;
+          if (!y) return false;
+          if (filterState.year === '2015-2019') {
+            if (y < 2015 || y > 2019) return false;
+          } else if (filterState.year === '2010-2014') {
+            if (y < 2010 || y > 2014) return false;
+          } else if (filterState.year === '2000-2009') {
+            if (y < 2000 || y > 2009) return false;
+          } else if (filterState.year === 'classic') {
+            if (y >= 2000) return false;
+          } else {
+            if (String(y) !== filterState.year) return false;
+          }
+        }
+
+        // 4. Search keyword filter
         if (searchVal) {
           const eng = (anime.title && anime.title.english) ? anime.title.english.toLowerCase() : '';
           const rom = (anime.title && anime.title.romaji) ? anime.title.romaji.toLowerCase() : '';
@@ -1197,48 +1435,30 @@
           }
         }
 
-        if (genreVal) {
-          if (!anime.genres || !anime.genres.includes(genreVal)) return false;
-        }
-
-        if (yearVal) {
-          const y = anime.seasonYear;
-          if (!y) return false;
-          if (yearVal === '2015-2019') {
-            if (y < 2015 || y > 2019) return false;
-          } else if (yearVal === '2010-2014') {
-            if (y < 2010 || y > 2014) return false;
-          } else if (yearVal === '2000-2009') {
-            if (y < 2000 || y > 2009) return false;
-          } else if (yearVal === 'classic') {
-            if (y >= 2000) return false;
-          } else {
-            if (String(y) !== yearVal) return false;
-          }
-        }
-
-        if (formatVal) {
-          if (formatVal === 'OVA') {
-            if (anime.format === 'TV' || anime.format === 'MOVIE') return false;
-          } else {
-            if (anime.format !== formatVal) return false;
-          }
-        }
-
         return true;
       });
 
-      if (sortVal === 'newest' || activeTab === 'newest') {
+      // 5. Sorting
+      if (filterState.sort === 'newest') {
         filtered.sort((a, b) => (b.seasonYear || 0) - (a.seasonYear || 0));
-      } else if (sortVal === 'oldest') {
+      } else if (filterState.sort === 'oldest') {
         filtered.sort((a, b) => (a.seasonYear || 9999) - (b.seasonYear || 9999));
-      } else if (sortVal === 'episodes') {
+      } else if (filterState.sort === 'episodes') {
         filtered.sort((a, b) => (b.episodes || b.translated_episodes_count || 0) - (a.episodes || a.translated_episodes_count || 0));
-      } else if (sortVal === 'alpha') {
+      } else if (filterState.sort === 'toprated') {
+        filtered.sort((a, b) => getAnimeScore(b) - getAnimeScore(a));
+      } else if (filterState.sort === 'alpha') {
         filtered.sort((a, b) => {
           const tA = getAnimeTitle(a);
           const tB = getAnimeTitle(b);
           return tA.localeCompare(tB);
+        });
+      } else {
+        // popular (default)
+        filtered.sort((a, b) => {
+          const popA = getAnimeScore(a) * 10 + (a.episodes || 12);
+          const popB = getAnimeScore(b) * 10 + (b.episodes || 12);
+          return popB - popA;
         });
       }
 
@@ -1247,7 +1467,9 @@
       renderCurrentPage();
     }
 
-    // 5. Render Main Grid Page (Images 2 & 4 1:1)
+    // -------------------------------------------------------------
+    // MAIN GRID & PAGINATION RENDERING
+    // -------------------------------------------------------------
     function renderCurrentPage() {
       const grid = document.getElementById('mainAnimeGrid');
       const t = i18n[currentLang];
@@ -1283,7 +1505,7 @@
         const year = anime.seasonYear || 2024;
         const cover = anime.coverImage || fallbackCover;
         const dotColor = dotPalette[idx % dotPalette.length];
-        const score = 70 + (idx % 24);
+        const score = getAnimeScore(anime);
 
         return `
           <div onclick="openModal('${anime.slug}')" class="group cursor-pointer flex flex-col justify-between select-none">
@@ -1293,7 +1515,7 @@
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-30 group-hover:opacity-60 transition"></div>
 
-                <!-- Hover Play Icon (Image 4 1:1) -->
+                <!-- Hover Play Icon -->
                 <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-200">
                   <div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center text-white text-xs pl-0.5 shadow-xl">
                     <i class="fas fa-play"></i>
@@ -1310,7 +1532,7 @@
               </div>
             </div>
 
-            <!-- Line 2: Meta Badges (TV 2026 CC 12 ☆ 70) -->
+            <!-- Line 2: Meta Badges (TV 2024 CC 12 ☆ 92) -->
             <div class="flex items-center space-x-2 text-[10px] text-slate-500 mt-1 font-mono">
               <span class="text-slate-400 font-sans font-medium">${format}</span>
               <span>${year}</span>
@@ -1327,26 +1549,28 @@
       renderPaginationControls();
     }
 
-    // 6. Pagination Controls
     function renderPaginationControls() {
       const totalPages = Math.ceil(currentFiltered.length / pageSize);
+      const pageWrap = document.getElementById('pageNumbers');
       const prevBtn = document.getElementById('prevPageBtn');
       const nextBtn = document.getElementById('nextPageBtn');
 
-      prevBtn.disabled = currentPage <= 1;
-      nextBtn.disabled = currentPage >= totalPages;
+      prevBtn.disabled = (currentPage <= 1);
+      nextBtn.disabled = (currentPage >= totalPages);
 
-      const pageWrap = document.getElementById('pageNumbers');
       pageWrap.innerHTML = '';
+      if (totalPages <= 1) return;
 
-      let pagesToShow = [];
-      if (totalPages <= 5) {
+      const pagesToShow = [];
+      if (totalPages <= 7) {
         for (let i = 1; i <= totalPages; i++) pagesToShow.push(i);
       } else {
-        pagesToShow = [1];
+        pagesToShow.push(1);
         if (currentPage > 3) pagesToShow.push('...');
-        for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
-          pagesToShow.push(i);
+        const start = Math.max(2, currentPage - 1);
+        const end = Math.min(totalPages - 1, currentPage + 1);
+        for (let i = start; i <= end; i++) {
+          if (!pagesToShow.includes(i)) pagesToShow.push(i);
         }
         if (currentPage < totalPages - 2) pagesToShow.push('...');
         pagesToShow.push(totalPages);
@@ -1382,26 +1606,33 @@
     }
 
     function applyTab(tab) {
-      activeTab = tab;
-      ['newest', 'popular', 'toprated', 'movies'].forEach(t => {
-        const btn = document.getElementById(`tab-${t}`);
-        if (!btn) return;
-        if (t === tab) {
-          btn.className = 'px-3.5 py-1.5 rounded-lg transition bg-[#1e2534] text-slate-100 font-semibold shadow-sm';
-        } else {
-          btn.className = 'px-3.5 py-1.5 rounded-lg transition text-slate-400 hover:text-slate-200';
-        }
-      });
+      setTabActive(tab);
+
+      if (tab === 'newest') {
+        filterState.sort = 'newest';
+        filterState.format = '';
+      } else if (tab === 'popular') {
+        filterState.sort = 'popular';
+        filterState.format = '';
+      } else if (tab === 'toprated') {
+        filterState.sort = 'toprated';
+        filterState.format = '';
+      } else if (tab === 'movies') {
+        filterState.format = 'MOVIE';
+      } else if (tab === 'all') {
+        filterState.genre = '';
+        filterState.year = '';
+        filterState.format = '';
+        filterState.sort = 'popular';
+      }
+
+      renderDropdownMenus();
       applyFilters();
     }
 
-    function filterFormat(fmt) {
-      document.getElementById('formatFilter').value = fmt;
-      scrollToCatalog();
-      applyFilters();
-    }
-
-    // 8. Interactive Episode Modal
+    // -------------------------------------------------------------
+    // INTERACTIVE EPISODE MODAL
+    // -------------------------------------------------------------
     async function openModal(slug) {
       const modal = document.getElementById('animeModal');
       modal.classList.remove('hidden');
@@ -1411,91 +1642,36 @@
       const titleText = getAnimeTitle(summary) || slug;
       const subTitleText = getAnimeSubTitle(summary);
       const coverUrl = (summary && summary.coverImage) || fallbackCover;
+      const bannerUrl = (summary && summary.bannerImage) || coverUrl;
       const t = i18n[currentLang];
 
       document.getElementById('modalTitle').textContent = titleText;
       document.getElementById('modalSubTitle').innerHTML = subTitleText;
       document.getElementById('modalCover').src = coverUrl;
-      document.getElementById('modalBanner').src = coverUrl;
+      document.getElementById('modalBanner').src = bannerUrl;
       document.getElementById('modalFormatBadge').textContent = (summary && summary.format) || 'TV';
-      document.getElementById('modalYearBadge').textContent = (summary && summary.seasonYear) || '2024';
-      document.getElementById('modalEpCount').textContent = `${(summary && (summary.episodes || summary.translated_episodes_count)) || 1} ${t.ep_label}`;
-      document.getElementById('modalGithubFolder').href = `https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${slug}`;
+      document.getElementById('modalGithubLink').href = `https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${slug}`;
 
-      const genresWrap = document.getElementById('modalGenres');
-      genresWrap.innerHTML = (summary && summary.genres ? summary.genres : ['Anime']).map(g => `
-        <span class="text-[10px] font-medium px-2 py-0.5 rounded-md bg-[#161c28] border border-[#222a3c] text-slate-300">${g}</span>
-      `).join('');
-
-      document.getElementById('modalDescription').textContent = 'Loading...';
-      const epList = document.getElementById('modalEpisodesList');
-      epList.innerHTML = `<div class="text-center py-6 text-xs text-slate-500">Loading...</div>`;
-
+      // Check detail JSON
+      let detail = summary;
       try {
-        let details = animeDetailsCache[slug];
-        if (!details) {
-          const res = await fetch(`api/v1/anime/${slug}.json`);
-          details = await res.json();
-          animeDetailsCache[slug] = details;
+        const res = await fetch(`api/v1/anime/${slug}.json`);
+        if (res.ok) {
+          detail = await res.json();
+          if (detail.bannerImage) document.getElementById('modalBanner').src = detail.bannerImage;
         }
-
-        if (details.bannerImage) {
-          document.getElementById('modalBanner').src = details.bannerImage;
-        }
-
-        if (details.description) {
-          document.getElementById('modalDescription').innerHTML = details.description;
-        } else {
-          document.getElementById('modalDescription').textContent = 'No description available.';
-        }
-
-        renderModalEpisodes(details, slug);
-      } catch (err) {
-        renderFallbackEpisodes(summary, slug);
-      }
-    }
-
-    function renderModalEpisodes(details, slug) {
-      const container = document.getElementById('modalEpisodesList');
-      const subtitles = details.subtitles || [];
-      const t = i18n[currentLang];
-
-      if (subtitles.length === 0) {
-        container.innerHTML = `<div class="text-center py-4 text-xs text-slate-500">No subtitle files found.</div>`;
-        return;
+      } catch (e) {
+        console.warn('Could not fetch detail json for', slug);
       }
 
-      container.innerHTML = subtitles.map(sub => {
-        const ep = sub.episode;
-        const srtUrl = sub.files ? sub.files.srt : `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${sub.filename || `${slug}-${ep}ep.srt`}`;
-        const vttUrl = sub.files ? sub.files.vtt : srtUrl.replace('.srt', '.vtt');
-        const assUrl = sub.files ? sub.files.ass : srtUrl.replace('.srt', '.ass');
+      let desc = (detail && detail.description) || (summary && summary.description) || '';
+      desc = desc.replace(/<[^>]+>/g, '').trim();
+      document.getElementById('modalDescription').textContent = desc || 'Kazakh subtitles available in SRT, VTT, and ASS.';
 
-        return `
-          <div class="flex items-center justify-between p-2 rounded-xl bg-[#121620] border border-[#181e2b] hover:border-slate-600/50 transition">
-            <div class="flex items-center space-x-2 min-w-0">
-              <span class="w-5 h-5 rounded bg-[#181e2a] text-slate-300 text-[10px] font-mono font-medium flex items-center justify-center shrink-0">
-                ${ep}
-              </span>
-              <div class="min-w-0">
-                <h5 class="text-xs font-medium text-slate-200 truncate">${currentLang === 'ja' ? `第${ep}話` : (currentLang === 'en' ? `Episode ${ep}` : `${ep}-бөлім`)}</h5>
-              </div>
-            </div>
-
-            <div class="flex items-center space-x-1 shrink-0">
-              <a href="${srtUrl}" download class="px-2 py-0.5 rounded bg-[#181e2b] hover:bg-slate-700 text-slate-300 text-[10px] font-mono font-medium transition">SRT</a>
-              <a href="${vttUrl}" download class="px-2 py-0.5 rounded bg-[#181e2b] hover:bg-slate-700 text-slate-300 text-[10px] font-mono font-medium transition">VTT</a>
-              <a href="${assUrl}" download class="px-2 py-0.5 rounded bg-[#181e2b] hover:bg-slate-700 text-slate-300 text-[10px] font-mono font-medium transition">ASS</a>
-              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1 rounded bg-[#141822] hover:bg-slate-700 text-slate-400 hover:text-white text-[10px] transition" title="Copy CDN">
-                <i class="fas fa-link"></i>
-              </button>
-            </div>
-          </div>
-        `;
-      }).join('');
+      renderModalEpisodes(slug, detail || summary);
     }
 
-    function renderFallbackEpisodes(summary, slug) {
+    function renderModalEpisodes(slug, summary) {
       const container = document.getElementById('modalEpisodesList');
       const count = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
       const t = i18n[currentLang];
@@ -1537,9 +1713,6 @@
     document.getElementById('animeModal').addEventListener('click', (e) => {
       if (e.target.id === 'animeModal') closeModal();
     });
-    window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeModal();
-    });
 
     function copyToClipboard(text, msg) {
       navigator.clipboard.writeText(text).then(() => {
@@ -1560,6 +1733,9 @@
       }, 2000);
     }
 
+    // -------------------------------------------------------------
+    // SEARCH & KEYBOARD LISTENERS
+    // -------------------------------------------------------------
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     document.getElementById('navSearchInput').addEventListener('input', (e) => {
       document.getElementById('searchInput').value = e.target.value;
@@ -1570,10 +1746,33 @@
       document.getElementById('navSearchInput').value = '';
       applyFilters();
     });
-    document.getElementById('genreFilter').addEventListener('change', applyFilters);
-    document.getElementById('yearFilter').addEventListener('change', applyFilters);
-    document.getElementById('formatFilter').addEventListener('change', applyFilters);
-    document.getElementById('sortFilter').addEventListener('change', applyFilters);
+
+    // -------------------------------------------------------------
+    // INITIALIZATION
+    // -------------------------------------------------------------
+    async function init() {
+      try {
+        const res = await fetch('api/v1/anime.json');
+        const json = await res.json();
+        animeData = json.data || [];
+
+        // Preload first hero image immediately
+        const firstHero = featuredHeroMeta[0];
+        const imgA = document.getElementById('heroBannerImgA');
+        if (imgA && firstHero) {
+          imgA.src = firstHero.banner;
+          imgA.style.opacity = '1';
+        }
+
+        setLanguage(currentLang);
+        updateHeroDisplay(true);
+        applyFilters();
+
+        resetHeroTimer();
+      } catch (err) {
+        console.error('Failed to load anime data:', err);
+      }
+    }
 
     init();
   </script>
