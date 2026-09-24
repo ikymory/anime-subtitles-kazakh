@@ -2228,23 +2228,40 @@
         // Dynamically collect ALL anime with high-quality AniList banners
         const withBanners = animeData.filter(a => a.bannerImage && a.bannerImage.startsWith('https://s4.anilist.co'));
 
-        // Rank top hits first in carousel, followed by all remaining banner anime
-        const topSlugsOrder = [
-          'frieren', 'aot', 'jjk-s2', 'kny-mugen-train', 'csm', 'solo-leveling', 
-          'bleach', 'vinland-saga', 'hxh', 'your-name', 'aot-final', 'kny-s2', 
-          'oshi-no-ko', 'violet-evergarden', 'spirited-away', 'suzume', 'opm', 'steins-gate'
+        // Curated Top 30 "Peakest" Anime (Most Popular Titans, Highest Rated Masterpieces, and Cult/Niche Gems)
+        const peak30Slugs = [
+          // Highest Rated All-Time Masterpieces
+          'frieren', 'aot', 'jjk-s2', 'csm', 'solo-leveling', 'kny-mugen-train', 
+          'bleach-thousand-year-blood-war', 'hxh', 'jojo-steel-ball-run', 'steins-gate', 
+          'vinland-saga', 
+          // Cinematic Masterpieces
+          'your-name', 'spirited-away', 'silent-voice', 'princess-mononoke', 'suzume', 
+          'violet-evergarden', 
+          // Shonen Giants & Modern Hits
+          'blue-lock-tv', 'dr-stone-tv', 'delicious-in-dungeon-tv', 'gintama', 'fate-zero-tv',
+          // Celebrated Niche & Cult Gems
+          'cyberpunk-edgerunners', 'cowboy-bebop', 'bocchi-the-rock-tv', 'mob-psycho-100', 
+          'made-in-abyss', 'odd-taxi', 'serial-experiments-lain', 'ping-pong-the-animation'
         ];
 
-        withBanners.sort((a, b) => {
-          const idxA = topSlugsOrder.indexOf(a.slug);
-          const idxB = topSlugsOrder.indexOf(b.slug);
-          if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-          if (idxA !== -1) return -1;
-          if (idxB !== -1) return 1;
-          return getAnimeScore(b) - getAnimeScore(a);
+        const peakMap = new Map();
+        peak30Slugs.forEach(slug => {
+          const item = withBanners.find(a => a.slug === slug);
+          if (item) peakMap.set(slug, item);
         });
 
-        featuredHeroMeta = withBanners;
+        // Ensure exactly 30 peak anime even if catalogue slugs change
+        if (peakMap.size < 30) {
+          const sortedRemaining = withBanners
+            .filter(a => !peakMap.has(a.slug))
+            .sort((a, b) => ((b.averageScore || 0) * 1.5 + (b.popularity || 0) / 10000) - ((a.averageScore || 0) * 1.5 + (a.popularity || 0) / 10000));
+          for (const rem of sortedRemaining) {
+            peakMap.set(rem.slug, rem);
+            if (peakMap.size >= 30) break;
+          }
+        }
+
+        featuredHeroMeta = Array.from(peakMap.values()).slice(0, 30);
 
         // Preload first hero image immediately
         if (featuredHeroMeta.length > 0) {
