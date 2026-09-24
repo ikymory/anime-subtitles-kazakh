@@ -187,7 +187,7 @@
 
   <!-- Top Navbar -->
   <header class="sticky top-0 z-40 bg-[#090a0f]/90 backdrop-blur-md border-b border-[#141822] transition-all">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+    <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 h-14 flex items-center justify-between gap-4">
       
       <!-- Left: Hamburger + Sleek ikymory Wordmark -->
       <div class="flex items-center space-x-3">
@@ -245,10 +245,10 @@
   </header>
 
   <!-- Main View Container -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-4 pb-12 w-full space-y-6">
+  <main class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 pt-4 pb-12 space-y-7">
 
     <!-- 1. CINEMATIC HERO SHOWCASE BANNER (Matching Attached Reference Image & AniList Dynamic Colors) -->
-    <div id="heroShowcase" class="relative rounded-2xl overflow-hidden bg-[#0d1017] border border-[#1a202d] shadow-xl shadow-black/40 min-h-[380px] sm:min-h-[440px] md:min-h-[460px] flex flex-col justify-end p-5 sm:p-8 transition-all select-none">
+    <div id="heroShowcase" class="relative rounded-2xl sm:rounded-3xl overflow-hidden bg-[#0d1017] border border-[#1a202d] shadow-2xl shadow-black/60 min-h-[420px] sm:min-h-[480px] md:min-h-[520px] lg:min-h-[560px] flex flex-col justify-end p-6 sm:p-10 lg:p-14 transition-all select-none">
       
       <!-- Dual Crossfade Banner Images (Zero flicker, butter smooth transitions) -->
       <div class="absolute inset-0 overflow-hidden pointer-events-none">
@@ -281,7 +281,7 @@
       </div>
 
       <!-- Bottom Hero Content with Smooth Micro-Animation -->
-      <div id="heroContentWrap" class="relative z-20 max-w-4xl space-y-3 transition-opacity duration-200 opacity-100">
+      <div id="heroContentWrap" class="relative z-20 max-w-5xl lg:max-w-6xl xl:max-w-7xl space-y-3.5 transition-opacity duration-200 opacity-100">
         
         <!-- Metadata pills row (TV, CC 12, Star Score, Duration, Kazakh Sub badge) -->
         <div class="flex flex-wrap items-center gap-2 text-xs font-medium">
@@ -301,11 +301,11 @@
         </div>
 
         <!-- Anime Title & Subtitle: Commanding, High-End Cinematic Typography -->
-        <div class="space-y-1 pt-0.5">
-          <h1 id="heroTitle" class="hero-title-text text-2xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight transition-opacity duration-200">
+        <div class="space-y-1.5 pt-0.5">
+          <h1 id="heroTitle" class="hero-title-text text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] transition-opacity duration-200">
             Фрирен: Соңғы сапар
           </h1>
-          <div id="heroSubTitle" class="hero-subtitle-text text-xs sm:text-sm font-semibold tracking-wide text-slate-300/85 flex flex-wrap items-center gap-1.5 transition-opacity duration-200">
+          <div id="heroSubTitle" class="hero-subtitle-text text-xs sm:text-sm lg:text-base font-semibold tracking-wide text-slate-300/85 flex flex-wrap items-center gap-1.5 transition-opacity duration-200">
             Frieren: Beyond Journey’s End • 葬送のフリーレン
           </div>
         </div>
@@ -321,9 +321,9 @@
         </div>
 
         <!-- Synopsis Description & Bottom-Right Action Buttons Row -->
-        <div class="pt-1 flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div class="pt-1.5 flex flex-col md:flex-row md:items-end justify-between gap-5">
           <!-- Left: Description -->
-          <p id="heroDesc" class="text-xs sm:text-sm text-slate-300/90 line-clamp-2 sm:line-clamp-3 leading-relaxed max-w-xl lg:max-w-2xl font-normal drop-shadow-sm">
+          <p id="heroDesc" class="text-xs sm:text-sm lg:text-[15px] text-slate-300/90 line-clamp-2 sm:line-clamp-3 leading-relaxed max-w-xl lg:max-w-3xl xl:max-w-4xl font-normal drop-shadow-sm">
             Эльф сиқыршысы Фрирен Жын әміршісін жеңгеннен кейін адамзат жүрегін түсіну үшін жаңа саяхатқа шығады.
           </p>
 
@@ -495,38 +495,46 @@
           </div>
         </div>
 
-        <!-- 5. JUST FINISHED & TOP MOVIES DUAL SHOWCASE (Miruro Style) -->
-        <div class="pt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- 5. JUST FINISHED & TOP RATED DUAL SHOWCASE (Miruro Style) -->
+        <div class="pt-6 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           
           <!-- COLUMN 1: JUST FINISHED -->
-          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4.5 shadow-xl flex flex-col justify-between">
+          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
-              <div class="flex items-center space-x-2 text-white font-bold text-xs uppercase tracking-wider mb-3">
-                <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
-                <span id="bottomFinishedTitle">JUST FINISHED</span>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
+                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-sm shadow-emerald-400/50"></span>
+                  <span id="bottomFinishedTitle">JUST FINISHED</span>
+                </div>
+                <span class="text-[11px] font-mono text-slate-400 bg-[#141924] px-2 py-0.5 rounded-md border border-white/5">2024–2025</span>
               </div>
-              <div id="justFinishedList" class="space-y-2.5">
+              <div id="justFinishedList" class="space-y-3">
                 <!-- Rendered via JS -->
               </div>
             </div>
-            <button onclick="toggleExpand('justFinished')" class="w-full mt-3 py-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-500 hover:text-slate-300 flex items-center justify-center transition group" title="Көбірек көрсету">
+            <button onclick="toggleExpand('justFinished')" class="w-full mt-4 py-2.5 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-400 hover:text-slate-200 flex items-center justify-center space-x-1.5 transition text-xs font-semibold group cursor-pointer" title="Көбірек көрсету">
+              <span id="expandJustFinishedTxt">Көбірек көрсету</span>
               <i id="chevron-justFinished" class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
             </button>
           </div>
 
-          <!-- COLUMN 2: TOP MOVIES -->
-          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4.5 shadow-xl flex flex-col justify-between">
+          <!-- COLUMN 2: TOP RATED (Replacing Duplicate Top Movies) -->
+          <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 sm:p-6 shadow-xl flex flex-col justify-between">
             <div>
-              <div class="flex items-center space-x-2 text-white font-bold text-xs uppercase tracking-wider mb-3">
-                <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
-                <span id="bottomMoviesTitle">TOP MOVIES</span>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center space-x-2.5 text-white font-black text-sm uppercase tracking-wider">
+                  <span class="w-2.5 h-2.5 rounded-full bg-amber-400 shadow-sm shadow-amber-400/50"></span>
+                  <span id="bottomRatedTitle">TOP RATED</span>
+                </div>
+                <span class="text-[11px] font-mono text-amber-300 bg-amber-500/10 px-2 py-0.5 rounded-md border border-amber-500/20"><i class="fas fa-trophy text-[10px] mr-1 text-amber-400"></i>All Time Peak</span>
               </div>
-              <div id="bottomTopMoviesList" class="space-y-2.5">
+              <div id="bottomTopRatedList" class="space-y-3">
                 <!-- Rendered via JS -->
               </div>
             </div>
-            <button onclick="toggleExpand('topMovies')" class="w-full mt-3 py-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-500 hover:text-slate-300 flex items-center justify-center transition group" title="Көбірек көрсету">
-              <i id="chevron-topMovies" class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
+            <button onclick="toggleExpand('topRated')" class="w-full mt-4 py-2.5 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-400 hover:text-slate-200 flex items-center justify-center space-x-1.5 transition text-xs font-semibold group cursor-pointer" title="Көбірек көрсету">
+              <span id="expandTopRatedTxt">Көбірек көрсету</span>
+              <i id="chevron-topRated" class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
             </button>
           </div>
 
@@ -537,15 +545,19 @@
       <div class="lg:col-span-4 xl:col-span-3 space-y-6">
         
         <!-- SECTION: TOP MOVIES (Expandable) -->
-        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-4 space-y-3 shadow-xl">
-          <div class="flex items-center space-x-2 text-slate-200">
-            <i class="fas fa-chevron-right text-[10px] text-slate-500"></i>
-            <h3 id="sidebarMoviesTitle" class="text-xs font-bold tracking-wider text-slate-200">TOP MOVIES</h3>
+        <div class="bg-[#0f121a] border border-[#181e2b] rounded-2xl p-5 space-y-4 shadow-xl">
+          <div class="flex items-center justify-between text-slate-200">
+            <div class="flex items-center space-x-2.5">
+              <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-sm shadow-cyan-400/50"></span>
+              <h3 id="sidebarMoviesTitle" class="text-sm font-black tracking-wider text-slate-100 uppercase">TOP MOVIES</h3>
+            </div>
+            <i class="fas fa-film text-xs text-slate-500"></i>
           </div>
-          <div id="topMoviesList" class="space-y-2">
+          <div id="topMoviesList" class="space-y-3">
             <!-- Rendered via JS -->
           </div>
-          <button onclick="toggleExpand('sidebarMovies')" class="w-full mt-2 py-2 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-500 hover:text-slate-300 flex items-center justify-center transition group" title="Толығырақ көру">
+          <button onclick="toggleExpand('sidebarMovies')" class="w-full mt-2 py-2.5 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] text-slate-400 hover:text-slate-200 flex items-center justify-center space-x-1.5 transition text-xs font-semibold group cursor-pointer" title="Толығырақ көру">
+            <span id="expandSidebarMoviesTxt">Көбірек көрсету</span>
             <i id="chevron-sidebarMovies" class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
           </button>
         </div>
@@ -560,7 +572,7 @@
     
     <!-- Top Sticky Bar -->
     <header class="sticky top-0 z-40 bg-[#090a0f]/95 backdrop-blur-md border-b border-[#141822] transition-all">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
+      <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 h-14 flex items-center justify-between gap-4">
         
         <!-- Left: Back Button & Title breadcrumb -->
         <div class="flex items-center space-x-3 min-w-0">
@@ -600,7 +612,7 @@
       </div>
 
       <!-- Hero Content Container -->
-      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full flex flex-col sm:flex-row items-start sm:items-end gap-6">
+      <div class="relative z-10 w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 py-8 flex flex-col sm:flex-row items-start sm:items-end gap-6">
         
         <!-- Large Poster Cover -->
         <div class="relative shrink-0 hidden sm:block">
@@ -640,7 +652,7 @@
     </div>
 
     <!-- Main Content Area: Split Columns -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full flex-1">
+    <main class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 py-8 flex-1">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
         
         <!-- Left: Synopsis & Episode Download Grid (col-span-8 or 9) -->
@@ -757,7 +769,7 @@
 
     <!-- Bottom Full-Screen Modal Footer -->
     <footer class="border-t border-[#141822] bg-[#07080c] py-5 text-xs text-slate-500">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+      <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
         <div>
           <span class="font-extrabold text-slate-300">ikymory</span> &bull; Anime Subtitles Kazakh
         </div>
@@ -862,7 +874,7 @@
   </div>
   <!-- Footer -->
   <footer class="mt-auto border-t border-[#141822] bg-[#08090d] py-6 text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+    <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
       <div class="flex items-center space-x-2">
         <span class="font-extrabold text-slate-300">ikymory</span>
         <span>&bull;</span>
@@ -1011,7 +1023,11 @@
         lbl_prev: "Алдыңғы",
         lbl_next: "Келесі",
         sidebar_airing: "Top Airing",
-        sidebar_movies: "Top Movies",
+        sidebar_movies: "TOP MOVIES",
+        bottom_finished: "JUST FINISHED",
+        bottom_top_rated: "TOP RATED",
+        expand_more: "Көбірек көрсету",
+        expand_less: "Азырақ көрсету",
         modal_synopsis: "Сипаттама",
         modal_sub_ep: "Субтитрлер мен бөлімдер",
         modal_github: "GitHub",
@@ -1069,7 +1085,11 @@
         lbl_prev: "Previous",
         lbl_next: "Next",
         sidebar_airing: "Top Airing",
-        sidebar_movies: "Top Movies",
+        sidebar_movies: "TOP MOVIES",
+        bottom_finished: "JUST FINISHED",
+        bottom_top_rated: "TOP RATED",
+        expand_more: "Show More",
+        expand_less: "Show Less",
         modal_synopsis: "Synopsis",
         modal_sub_ep: "Subtitles & Episodes",
         modal_github: "GitHub",
@@ -1127,7 +1147,11 @@
         lbl_prev: "前へ",
         lbl_next: "次へ",
         sidebar_airing: "Top Airing",
-        sidebar_movies: "Top Movies",
+        sidebar_movies: "TOP MOVIES",
+        bottom_finished: "JUST FINISHED",
+        bottom_top_rated: "TOP RATED",
+        expand_more: "もっと見る",
+        expand_less: "折りたたむ",
         modal_synopsis: "あらすじ",
         modal_sub_ep: "字幕ファイル & エピソード",
         modal_github: "GitHub",
@@ -1234,9 +1258,13 @@
       setText('lblPrev', t.lbl_prev);
       setText('lblNext', t.lbl_next);
 
-      // Sidebar
-      setText('sidebarAiringTitle', t.sidebar_airing);
+      // Showcases & Sidebar
       setText('sidebarMoviesTitle', t.sidebar_movies);
+      setText('bottomFinishedTitle', t.bottom_finished);
+      setText('bottomRatedTitle', t.bottom_top_rated);
+      setText('expandJustFinishedTxt', expandState.justFinished ? t.expand_less : t.expand_more);
+      setText('expandTopRatedTxt', expandState.topRated ? t.expand_less : t.expand_more);
+      setText('expandSidebarMoviesTxt', expandState.sidebarMovies ? t.expand_less : t.expand_more);
 
       // Hero Banner
       setText('heroDetailsTxt', t.details_btn);
@@ -1270,7 +1298,7 @@
       if (animeData.length > 0) {
         renderSidebarMovies(animeData);
         renderJustFinished(animeData);
-        renderBottomTopMovies(animeData);
+        renderTopRated(animeData);
         renderCurrentPage();
       }
     }
@@ -1685,26 +1713,31 @@
     const expandState = {
       sidebarMovies: false,
       justFinished: false,
-      topMovies: false
+      topRated: false
     };
 
     function toggleExpand(key) {
       expandState[key] = !expandState[key];
       const chevron = document.getElementById(`chevron-${key}`);
+      const btnTxt = document.getElementById(`expand${key.charAt(0).toUpperCase() + key.slice(1)}Txt`);
+      const t = i18n[currentLang];
       if (chevron) {
         if (expandState[key]) {
           chevron.classList.add('rotate-180');
+          if (btnTxt && t) btnTxt.textContent = t.expand_less;
         } else {
           chevron.classList.remove('rotate-180');
+          if (btnTxt && t) btnTxt.textContent = t.expand_more;
         }
       }
       if (key === 'sidebarMovies') renderSidebarMovies(animeData);
       if (key === 'justFinished') renderJustFinished(animeData);
-      if (key === 'topMovies') renderBottomTopMovies(animeData);
+      if (key === 'topRated') renderTopRated(animeData);
     }
 
-    function createMiruroCardHtml(anime) {
+    function createMiruroCardHtml(anime, rank) {
       const title = getAnimeTitle(anime);
+      const subTitle = (anime.title && (anime.title.romaji || anime.title.english)) || '';
       const year = anime.seasonYear || 2024;
       const cover = anime.coverImage || fallbackCover;
       const banner = anime.bannerImage || '';
@@ -1712,41 +1745,51 @@
       const eps = anime.episodes || anime.translated_episodes_count || (anime.format === 'MOVIE' ? 1 : 12);
       const format = anime.format || (eps === 1 ? 'MOVIE' : 'TV');
 
+      let rankBadgeHtml = '';
+      if (typeof rank === 'number') {
+        let rankColor = 'bg-white/10 text-slate-400 border-white/10';
+        if (rank === 1) rankColor = 'bg-amber-500/20 text-amber-300 border-amber-500/40 shadow-sm shadow-amber-500/20';
+        else if (rank === 2) rankColor = 'bg-slate-300/20 text-slate-200 border-slate-300/40';
+        else if (rank === 3) rankColor = 'bg-amber-700/25 text-amber-400 border-amber-700/40';
+        rankBadgeHtml = `<span class="shrink-0 text-[10px] sm:text-xs font-mono font-bold px-1.5 py-0.5 rounded-md border ${rankColor}">#${rank}</span>`;
+      }
+
       return `
-        <div onclick="openModal('${anime.slug}')" class="relative overflow-hidden flex items-center space-x-3 p-2.5 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-500/50 cursor-pointer transition group shadow-sm">
+        <div onclick="openModal('${anime.slug}')" class="relative overflow-hidden flex items-center space-x-3.5 sm:space-x-4 p-3 sm:p-3.5 rounded-2xl bg-[#121620] hover:bg-[#151c2a] border border-[#1b2232] hover:border-slate-500/50 cursor-pointer transition-all duration-200 group shadow-md hover:shadow-xl">
           
           <!-- Faded banner artwork watermark on the right half -->
           ${banner ? `
-            <div class="absolute right-0 top-0 bottom-0 w-3/5 overflow-hidden pointer-events-none opacity-15 group-hover:opacity-25 transition-opacity duration-300">
+            <div class="absolute right-0 top-0 bottom-0 w-3/5 overflow-hidden pointer-events-none opacity-20 group-hover:opacity-35 transition-opacity duration-300">
               <img src="${banner}" alt="" class="w-full h-full object-cover object-center filter grayscale contrast-125">
               <div class="absolute inset-0 bg-gradient-to-r from-[#121620] via-[#121620]/60 to-transparent"></div>
             </div>
           ` : ''}
 
-          <!-- Left: Poster cover thumbnail -->
+          <!-- Left: Big High-End Poster Cover Thumbnail -->
           <div class="relative z-10 shrink-0">
             <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
-              class="w-11 h-15 object-cover rounded-lg border border-white/5 shadow-md group-hover:scale-105 transition-transform duration-200">
+              class="w-14 sm:w-16 h-20 sm:h-22 object-cover rounded-xl border border-white/10 shadow-md group-hover:scale-105 transition-transform duration-200">
           </div>
 
-          <!-- Foreground text -->
-          <div class="relative z-10 min-w-0 flex-1">
-            <div class="flex items-center space-x-1.5">
-              <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 shrink-0"></span>
-              <h4 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate" title="${title}">${title}</h4>
+          <!-- Foreground info -->
+          <div class="relative z-10 min-w-0 flex-1 space-y-1">
+            <div class="flex items-center space-x-2">
+              ${rankBadgeHtml}
+              <h4 class="text-sm sm:text-[15px] font-bold text-slate-100 group-hover:text-white transition truncate" title="${title}">${title}</h4>
             </div>
-            <div class="flex items-center space-x-2 text-[10px] text-slate-400 mt-1.5 font-mono">
-              <span class="text-slate-300 font-sans font-medium px-1.5 py-0.5 rounded bg-black/40 border border-white/5 uppercase text-[9px]">${format}</span>
-              <span class="flex items-center space-x-1">
-                <i class="far fa-calendar-alt text-[9px] text-slate-500"></i>
+            ${subTitle ? `<div class="text-[11px] text-slate-400 truncate font-medium group-hover:text-slate-300 transition">${subTitle}</div>` : ''}
+            <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 text-[11px] text-slate-400 font-mono pt-1">
+              <span class="text-slate-200 font-sans font-bold px-2 py-0.5 rounded-md bg-white/10 border border-white/10 uppercase text-[10px]">${format}</span>
+              <span class="flex items-center space-x-1 text-slate-400">
+                <i class="far fa-calendar-alt text-[10px] text-slate-500"></i>
                 <span>${year}</span>
               </span>
-              <span class="flex items-center space-x-1">
-                <i class="fas fa-closed-captioning text-[9px] text-emerald-400"></i>
-                <span>${eps}</span>
+              <span class="flex items-center space-x-1 text-emerald-400 font-semibold">
+                <i class="fas fa-closed-captioning text-[10px]"></i>
+                <span>${eps} ${eps === 1 ? 'film' : 'ep'}</span>
               </span>
-              <span class="flex items-center space-x-1 text-slate-300">
-                <i class="far fa-star text-[9px] text-amber-400"></i>
+              <span class="flex items-center space-x-1 text-amber-300 font-bold bg-amber-400/10 border border-amber-400/20 px-2 py-0.5 rounded-md">
+                <i class="far fa-star text-[10px] text-amber-400"></i>
                 <span>${score}</span>
               </span>
             </div>
@@ -1765,7 +1808,7 @@
       const remainingMovies = data.filter(a => a.format === 'MOVIE' && !movies.includes(a));
       movies = movies.concat(remainingMovies).slice(0, limit);
 
-      container.innerHTML = movies.map(createMiruroCardHtml).join('');
+      container.innerHTML = movies.map(anime => createMiruroCardHtml(anime)).join('');
     }
 
     function renderJustFinished(data) {
@@ -1777,19 +1820,24 @@
       const remainingTV = data.filter(a => a.format === 'TV' && !finished.includes(a));
       finished = finished.concat(remainingTV).slice(0, limit);
 
-      container.innerHTML = finished.map(createMiruroCardHtml).join('');
+      container.innerHTML = finished.map(anime => createMiruroCardHtml(anime)).join('');
     }
 
-    function renderBottomTopMovies(data) {
-      const container = document.getElementById('bottomTopMoviesList');
+    function renderTopRated(data) {
+      const container = document.getElementById('bottomTopRatedList');
       if (!container) return;
-      const limit = expandState.topMovies ? 12 : 5;
-      const movieSlugs = ['csm', 'first-slam-dunk', 'silent-voice', 'a-silent-voice', 'your-name', 'spirited-away', 'howl-s-moving', 'kny-mugen-train', 'grave-fireflies', 'akira', 'eva', '5-centimeters-per', 'suzume'];
-      let movies = movieSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
-      const remainingMovies = data.filter(a => a.format === 'MOVIE' && !movies.includes(a));
-      movies = movies.concat(remainingMovies).slice(0, limit);
+      const limit = expandState.topRated ? 12 : 5;
+      
+      const sorted = data.slice()
+        .sort((a, b) => {
+          const scoreA = getAnimeScore(a);
+          const scoreB = getAnimeScore(b);
+          if (scoreB !== scoreA) return scoreB - scoreA;
+          return (b.popularity || 0) - (a.popularity || 0);
+        })
+        .slice(0, limit);
 
-      container.innerHTML = movies.map(createMiruroCardHtml).join('');
+      container.innerHTML = sorted.map((anime, idx) => createMiruroCardHtml(anime, idx + 1)).join('');
     }
 
     // -------------------------------------------------------------
