@@ -879,10 +879,12 @@
   <!-- Footer -->
   <footer class="mt-auto border-t border-[#141822] bg-[#08090d] py-6 text-xs text-slate-500">
     <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-      <div class="flex items-center space-x-2">
+      <div class="flex flex-wrap items-center justify-center sm:justify-start gap-x-2 gap-y-1">
         <span class="font-extrabold text-slate-300">ikymory</span>
-        <span>&bull;</span>
-        <span id="footerLicense">Лицензия</span>: Creative Commons Attribution 4.0 International (CC BY 4.0)
+        <span class="text-slate-600">&bull;</span>
+        <span id="footerSubText" class="text-slate-400 font-medium">500 аниме (4,597 бөлім)</span>
+        <span class="text-slate-600">&bull;</span>
+        <span><span id="footerLicense">Лицензия</span>: CC BY 4.0</span>
       </div>
       <div class="flex flex-wrap items-center justify-center sm:justify-end gap-x-3 gap-y-1.5 text-xs text-slate-400">
         <a href="https://github.com/ikymory/anime-subtitles-kazakh" target="_blank" class="hover:text-white transition flex items-center space-x-1.5">
@@ -1308,7 +1310,7 @@
         ep_label: "бөлім",
         copied_toast: "Сілтеме көшірілді",
         footer_license: "Лицензия",
-        footer_sub: "Қазақша аниме субтитрлер архиві • 500  (4,597 Бөлім) • ikymory (@ikymory)",
+        footer_sub: "500 аниме (4,597 бөлім)",
         no_results: "Ешқандай аниме табылмады",
         no_results_sub: "Сүзгілерді тазартып қайта көріңіз",
         details_btn: "Толығырақ",
@@ -1370,7 +1372,7 @@
         ep_label: "Ep",
         copied_toast: "Copied to clipboard",
         footer_license: "License",
-        footer_sub: "Kazakh anime subtitle archive • 500  (4,597 Episodes) • ikymory (@ikymory)",
+        footer_sub: "500 anime (4,597 episodes)",
         no_results: "No anime found matching your query",
         no_results_sub: "Try resetting filters or search keywords",
         details_btn: "DETAILS",
@@ -1432,7 +1434,7 @@
         ep_label: "話",
         copied_toast: "クリップボードにコピーしました",
         footer_license: "ライセンス",
-        footer_sub: "カザフ語アニメ字幕オープンソースアーカイブ • 500  (4,597話) • ikymory (@ikymory)",
+        footer_sub: "500作品 (4,597話)",
         no_results: "該当するアニメが見つかりませんでした",
         no_results_sub: "検索条件やフィルターを変更してお試しください",
         details_btn: "詳細",
@@ -1555,6 +1557,7 @@
 
       // Footer & Legal
       setText('footerLicense', t.footer_license);
+      setText('footerSubText', t.footer_sub);
       setText('navDmcaTxt', t.dmca_nav);
       setText('dmcaModalHeading', t.dmca_heading);
       setText('dmcaModalSubHeading', t.dmca_subheading);
@@ -1840,7 +1843,9 @@
       if (!anime) return;
 
       const title = getAnimeTitle(anime);
-      const eps = anime.episodes || anime.translated_episodes_count || 12;
+      const transEps = anime.translated_episodes_count || (anime.translated_episodes ? anime.translated_episodes.length : 1);
+      const totalEps = anime.episodes || transEps;
+      const isMovie = anime.format === 'MOVIE';
       const score = getAnimeScore(anime);
       const genres = (anime.genres && Array.isArray(anime.genres)) 
         ? anime.genres.slice(0, 3).map(g => getLocalizedGenre(g, currentLang)).join(' · ') 
@@ -1900,12 +1905,24 @@
 
         const epBadge = document.getElementById('heroEpBadge');
         if (epBadge) {
-          epBadge.innerHTML = `<i class="far fa-clock text-slate-300 mr-1.5"></i><span>EP ${eps} • ${durBadge}</span>`;
+          if (isMovie) {
+            epBadge.innerHTML = `<i class="far fa-clock text-slate-300 mr-1.5"></i><span>MOVIE • ${durBadge}</span>`;
+          } else if (transEps < totalEps) {
+            epBadge.innerHTML = `<i class="far fa-clock text-slate-300 mr-1.5"></i><span>EP ${transEps}/${totalEps} • ${durBadge}</span>`;
+          } else {
+            epBadge.innerHTML = `<i class="far fa-clock text-slate-300 mr-1.5"></i><span>EP ${totalEps} • ${durBadge}</span>`;
+          }
         }
 
         const epsEl = document.getElementById('heroEps');
         if (epsEl) {
-          epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> ${eps}`;
+          if (isMovie) {
+            epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> 1 Film`;
+          } else if (transEps < totalEps) {
+            epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> ${transEps}/${totalEps} EP`;
+          } else {
+            epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> ${totalEps} EP`;
+          }
         }
 
         const scoreEl = document.getElementById('heroScore');
@@ -2052,8 +2069,11 @@
       const cover = anime.coverImage || fallbackCover;
       const banner = anime.bannerImage || '';
       const score = anime.averageScore || getAnimeScore(anime);
-      const eps = anime.episodes || anime.translated_episodes_count || (anime.format === 'MOVIE' ? 1 : 12);
-      const format = anime.format || (eps === 1 ? 'MOVIE' : 'TV');
+      const transEps = anime.translated_episodes_count || (anime.translated_episodes ? anime.translated_episodes.length : 1);
+      const totalEps = anime.episodes || transEps;
+      const format = anime.format || (totalEps === 1 ? 'MOVIE' : 'TV');
+      const isMovie = format === 'MOVIE';
+      const epsBadgeText = isMovie ? '1 film' : (transEps < totalEps ? `${transEps}/${totalEps} ep` : `${totalEps} ep`);
 
       let iconBadgeHtml = '';
       if (type === 'movie') {
@@ -2096,7 +2116,7 @@
               </span>
               <span class="flex items-center space-x-1 text-slate-300 font-medium">
                 <i class="fas fa-closed-captioning text-[10px] text-slate-400"></i>
-                <span>${eps} ${eps === 1 ? 'film' : 'ep'}</span>
+                <span>${epsBadgeText}</span>
               </span>
               <span class="flex items-center space-x-1 text-slate-200 font-semibold bg-white/5 border border-white/10 px-1.5 py-0.5 rounded-md">
                 <i class="far fa-star text-[10px] text-slate-400"></i>
@@ -2284,8 +2304,11 @@
 
       grid.innerHTML = pageItems.map((anime, idx) => {
         const title = getAnimeTitle(anime);
-        const format = anime.format || 'TV';
-        const eps = anime.episodes || anime.translated_episodes_count || 12;
+        const transEps = anime.translated_episodes_count || (anime.translated_episodes ? anime.translated_episodes.length : 1);
+        const totalEps = anime.episodes || transEps;
+        const isMovie = (anime.format === 'MOVIE') || (totalEps === 1 && !['TV', 'TV_SHORT'].includes(anime.format));
+        const format = isMovie ? 'MOVIE' : (anime.format || 'TV');
+        const epDisplay = isMovie ? 'Film' : (transEps < totalEps ? `${transEps}/${totalEps}` : `${totalEps}`);
         const year = anime.seasonYear || 2024;
         const cover = anime.coverImage || fallbackCover;
         const score = getAnimeScore(anime);
@@ -2319,7 +2342,7 @@
               <span>${year}</span>
               <span class="flex items-center space-x-0.5 text-slate-400">
                 <i class="fas fa-closed-captioning text-[9px] mr-0.5 text-slate-400"></i>
-                <span>${eps}</span>
+                <span>${epDisplay}</span>
               </span>
               <span class="text-slate-500">☆ ${score}</span>
             </div>
@@ -2451,10 +2474,12 @@
       const coverUrl = (summary && summary.coverImage) || fallbackCover;
       const bannerUrl = (summary && summary.bannerImage) || coverUrl;
       const t = i18n[currentLang];
-      const format = (summary && summary.format) || 'TV';
+      const rawFormat = (summary && summary.format) || 'TV';
+      const isMovie = rawFormat === 'MOVIE';
       const year = (summary && summary.seasonYear) || 2024;
       const score = getAnimeScore(summary);
-      const epCount = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
+      const transCount = (summary && (summary.translated_episodes_count || (summary.translated_episodes && summary.translated_episodes.length))) || 1;
+      const totalCount = (summary && summary.episodes) || transCount;
 
       // Populate hero elements
       const theme = resolveAnimeTheme(summary);
@@ -2482,7 +2507,8 @@
         };
         modalBannerEl.src = bannerUrl;
       }
-      document.getElementById('modalFormatBadge').textContent = format;
+      const formatLabel = isMovie ? (currentLang === 'ja' ? '劇場版' : (currentLang === 'en' ? 'MOVIE' : 'ФИЛЬМ')) : rawFormat;
+      document.getElementById('modalFormatBadge').textContent = formatLabel;
       document.getElementById('modalYearBadge').textContent = year;
       document.getElementById('modalScoreVal').textContent = score;
       document.getElementById('modalGithubLink').href = `https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${slug}`;
@@ -2491,9 +2517,17 @@
 
       // Populate info sidebar
       const fVal = document.getElementById('infoFormatVal');
-      if (fVal) fVal.textContent = format;
+      if (fVal) fVal.textContent = isMovie ? (currentLang === 'ja' ? '劇場版' : (currentLang === 'en' ? 'Movie' : 'Фильм')) : rawFormat;
       const eVal = document.getElementById('infoEpsVal');
-      if (eVal) eVal.textContent = epCount;
+      if (eVal) {
+        if (isMovie) {
+          eVal.textContent = currentLang === 'ja' ? '1 (劇場版)' : (currentLang === 'en' ? '1 (Movie)' : '1 (Фильм)');
+        } else if (transCount < totalCount) {
+          eVal.textContent = `${transCount} / ${totalCount}`;
+        } else {
+          eVal.textContent = `${totalCount}`;
+        }
+      }
       const yVal = document.getElementById('infoYearVal');
       if (yVal) yVal.textContent = year;
       const sVal = document.getElementById('infoScoreVal');
@@ -2529,15 +2563,26 @@
 
     function renderModalEpisodes(slug, summary) {
       const container = document.getElementById('modalEpisodesList');
-      const count = (summary && (summary.episodes || summary.translated_episodes_count)) || 1;
+      if (!container) return;
+      const isMovie = summary && summary.format === 'MOVIE';
+      const transList = (summary && Array.isArray(summary.translated_episodes) && summary.translated_episodes.length > 0)
+        ? summary.translated_episodes
+        : Array.from({ length: (summary && (summary.translated_episodes_count || summary.episodes)) || 1 }, (_, i) => i + 1);
+      const totalCount = (summary && summary.episodes) || transList.length;
       const t = i18n[currentLang];
       const epTotal = document.getElementById('modalEpTotal');
       if (epTotal) {
-        epTotal.textContent = `${count} ${t.anime_count_suffix || 'бөлім'}`;
+        if (isMovie) {
+          epTotal.textContent = currentLang === 'ja' ? '劇場版 (完全版)' : (currentLang === 'en' ? 'Movie (Complete)' : 'Фильм (Толық)');
+        } else if (transList.length < totalCount) {
+          epTotal.textContent = `${transList.length} / ${totalCount} ${t.ep_label || 'бөлім'}`;
+        } else {
+          epTotal.textContent = `${totalCount} ${t.ep_label || 'бөлім'}`;
+        }
       }
 
       let html = '';
-      for (let ep = 1; ep <= count; ep++) {
+      for (const ep of transList) {
         const srtUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.srt`;
         const vttUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.vtt`;
         const assUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.ass`;
@@ -2549,7 +2594,7 @@
                 ${ep}
               </span>
               <div class="min-w-0">
-                <h5 class="text-xs font-semibold text-slate-200 truncate">${currentLang === 'ja' ? `第${ep}話` : (currentLang === 'en' ? `Episode ${ep}` : `${ep}-бөлім`)}</h5>
+                <h5 class="text-xs font-semibold text-slate-200 truncate">${isMovie ? (currentLang === 'ja' ? '劇場版本編' : (currentLang === 'en' ? 'Full Movie' : 'Толық фильм')) : (currentLang === 'ja' ? `第${ep}話` : (currentLang === 'en' ? `Episode ${ep}` : `${ep}-бөлім`))}</h5>
               </div>
             </div>
             <div class="flex items-center space-x-1 shrink-0">
