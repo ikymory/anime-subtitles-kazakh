@@ -3,29 +3,23 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 08.ja.cc
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:16.45,0:00:17.41,Default,,0,0,0,,Иә?
 Dialogue: 0,0:00:17.50,0:00:19.16,Default,,0,0,0,,Ой...
 Dialogue: 0,0:00:22.79,0:00:27.87,Default,,0,0,0,,Охххх...
 Dialogue: 0,0:00:32.29,0:00:35.83,Default,,0,0,0,,Ой...
-Dialogue: 0,0:00:42.33,0:00:43.95,Default,,0,0,0,,Ооооооо!
+Dialogue: 0,0:00:42.33,0:00:43.95,Default,,0,0,0,,Ооо!
 Dialogue: 0,0:00:44.04,0:00:45.12,Default,,0,0,0,,Игиги!
 Dialogue: 0,0:00:46.00,0:00:46.62,Default,,0,0,0,,Igi
 Dialogue: 0,0:00:46.70,0:00:48.66,Default,,0,0,0,,Жоқ...жоқ!
@@ -51,7 +45,7 @@ Dialogue: 0,0:03:06.83,0:03:11.00,Default,,0,0,0,,Сіз жындар адамд
 Dialogue: 0,0:03:11.08,0:03:12.91,Default,,0,0,0,,А... сен...
 Dialogue: 0,0:03:13.54,0:03:16.62,Default,,0,0,0,,Ой...
 Dialogue: 0,0:03:16.70,0:03:19.95,Default,,0,0,0,,Ауырды... жіберіңізші
-Dialogue: 0,0:03:25.20,0:03:28.50,Default,,0,0,0,,Ааааааааааааааа!
+Dialogue: 0,0:03:25.20,0:03:28.50,Default,,0,0,0,,Ааа!
 Dialogue: 0,0:03:29.50,0:03:32.08,Default,,0,0,0,,Ой...
 Dialogue: 0,0:03:32.66,0:03:35.91,Default,,0,0,0,,Жек көру? Адам? (Қара шашты жын) Ооооо...
 Dialogue: 0,0:03:36.50,0:03:38.12,Default,,0,0,0,,Ооо...
@@ -76,7 +70,7 @@ Dialogue: 0,0:04:53.79,0:04:56.04,Default,,0,0,0,,Мына ғимаратты т
 Dialogue: 0,0:04:56.12,0:04:57.58,Default,,0,0,0,,Естисің бе? Жедел жәрдем қазір келеді.
 Dialogue: 0,0:04:57.66,0:05:00.33,Default,,0,0,0,,Мен оның өлгеніне көз жеткізуім керек еді.
 Dialogue: 0,0:05:00.41,0:05:01.08,Default,,0,0,0,,Әй?
-Dialogue: 0,0:05:01.58,0:05:04.58,Default,,0,0,0,,Увааааааа... уф... (қара шашты жын) Ооо...
+Dialogue: 0,0:05:01.58,0:05:04.58,Default,,0,0,0,,Уваа... уф... (қара шашты жын) Ооо...
 Dialogue: 0,0:05:08.08,0:05:11.95,Default,,0,0,0,,Ой...
 Dialogue: 0,0:05:12.04,0:05:14.75,Default,,0,0,0,,Біреу маған көмектесуін өтінемін...
 Dialogue: 0,0:05:17.95,0:05:18.95,Default,,0,0,0,,О!
@@ -141,7 +135,7 @@ Dialogue: 0,0:08:12.58,0:08:15.08,Default,,0,0,0,,Біз келіспеген с
 Dialogue: 0,0:08:16.00,0:08:17.87,Default,,0,0,0,,Аа, солай сияқты.
 Dialogue: 0,0:08:18.87,0:08:20.00,Default,,0,0,0,,Ұстау
 Dialogue: 0,0:08:21.70,0:08:23.20,Default,,0,0,0,,Igis! Игги!
-Dialogue: 0,0:08:32.37,0:08:33.83,Default,,0,0,0,,Барлығы, қозғалмаңдар.
+Dialogue: 0,0:08:32.37,0:08:33.83,Default,,0,0,0,,үшін, қозғалмаңдар.
 Dialogue: 0,0:08:36.83,0:08:38.95,Default,,0,0,0,,Hyupi~
 Dialogue: 0,0:08:39.04,0:08:42.04,Default,,0,0,0,,Менің міндетім - бұл жерді қауіпсіз ұстау.
 Dialogue: 0,0:08:43.20,0:08:44.04,Default,,0,0,0,,Хмм
@@ -151,7 +145,7 @@ Dialogue: 0,0:08:55.25,0:08:58.37,Default,,0,0,0,,Енді сен ғана қа�
 Dialogue: 0,0:08:58.87,0:09:00.87,Default,,0,0,0,,(соққы дыбысы)
 Dialogue: 0,0:09:11.75,0:09:14.08,Default,,0,0,0,,Hyupi~
 Dialogue: 0,0:09:14.91,0:09:15.91,Default,,0,0,0,,Сіз Титантардың бір-бірімен шайқасып жатқанын айтасыз ба?
-Dialogue: 0,0:09:29.25,0:09:31.37,Default,,0,0,0,,Не? (Huupy) Huupy?
+Dialogue: 0,0:09:29.25,0:09:31.37,Default,,0,0,0,,Жоқ? (Huupy) Huupy?
 Dialogue: 0,0:09:32.95,0:09:33.91,Default,,0,0,0,,Сізден бір нәрсе сұрасам…
 Dialogue: 0,0:09:34.00,0:09:37.12,Default,,0,0,0,,Тек сіздің айналаңызға түсетін жарық бөлшектері жоқ!
 Dialogue: 0,0:09:37.20,0:09:40.66,Default,,0,0,0,,Мен бұл жерден қашып, ұйықтап қалмас үшін жаңбыр жауып жатырмын!
@@ -174,31 +168,31 @@ Dialogue: 0,0:10:34.12,0:10:36.87,Default,,0,0,0,,Анна... Иә! Жақсы!
 Dialogue: 0,0:10:36.95,0:10:42.04,Default,,0,0,0,,Уау!
 Dialogue: 0,0:10:42.79,0:10:43.79,Default,,0,0,0,,Бұл не?
 Dialogue: 0,0:10:53.54,0:10:54.54,Default,,0,0,0,,Ана?
-Dialogue: 0,0:10:55.16,0:11:00.62,Default,,0,0,0,,Гррррр... Уау!
+Dialogue: 0,0:10:55.16,0:11:00.62,Default,,0,0,0,,Грр... Уау!
 Dialogue: 0,0:11:03.95,0:11:04.83,Default,,0,0,0,,(Өтіп бара жатқандардың айқайы)
 Dialogue: 0,0:11:04.91,0:11:06.29,Default,,0,0,0,,Ал сен менің бар екенімді соншалықты анық сездің.
-Dialogue: 0,0:11:11.75,0:11:13.54,Default,,0,0,0,,Вааааа!
+Dialogue: 0,0:11:11.75,0:11:13.54,Default,,0,0,0,,Ваа!
 Dialogue: 0,0:11:15.41,0:11:16.83,Default,,0,0,0,,Уау!
 Dialogue: 0,0:11:18.50,0:11:19.87,Default,,0,0,0,,Hyupi...
 Dialogue: 0,0:11:23.33,0:11:24.16,Default,,0,0,0,,Ана?
 Dialogue: 0,0:11:26.95,0:11:29.33,Default,,0,0,0,,Вааа! Руруру...!
-Dialogue: 0,0:11:38.50,0:11:39.75,Default,,0,0,0,,Вааааааааааааааааааааааааааааааааааааа...
-Dialogue: 0,0:11:40.75,0:11:43.50,Default,,0,0,0,,Вааааа!
+Dialogue: 0,0:11:38.50,0:11:39.75,Default,,0,0,0,,Ваа...
+Dialogue: 0,0:11:40.75,0:11:43.50,Default,,0,0,0,,Ваа!
 Dialogue: 0,0:11:59.62,0:12:01.62,Default,,0,0,0,,Ваааруру...!
 Dialogue: 0,0:12:03.08,0:12:03.95,Default,,0,0,0,,Вааа!
-Dialogue: 0,0:12:05.79,0:12:07.25,Default,,0,0,0,,Уф... вааааааааааа!
-Dialogue: 0,0:12:12.83,0:12:15.79,Default,,0,0,0,,Вааааа!
+Dialogue: 0,0:12:05.79,0:12:07.25,Default,,0,0,0,,Уф... ваа!
+Dialogue: 0,0:12:12.83,0:12:15.79,Default,,0,0,0,,Ваа!
 Dialogue: 0,0:12:20.41,0:12:21.54,Default,,0,0,0,,Ә? Аймақ па?
 Dialogue: 0,0:12:22.29,0:12:23.50,Default,,0,0,0,,Вааа!
 Dialogue: 0,0:12:29.66,0:12:31.54,Default,,0,0,0,,Уау!
-Dialogue: 0,0:12:44.25,0:12:46.58,Default,,0,0,0,,Вааааа!
+Dialogue: 0,0:12:44.25,0:12:46.58,Default,,0,0,0,,Ваа!
 Dialogue: 0,0:12:48.16,0:12:49.08,Default,,0,0,0,,Уау!
 Dialogue: 0,0:12:50.29,0:12:51.62,Default,,0,0,0,,Уууу!
 Dialogue: 0,0:12:51.70,0:12:53.00,Default,,0,0,0,,Вааа…
 Dialogue: 0,0:12:56.25,0:12:58.87,Default,,0,0,0,,Уау!
 Dialogue: 0,0:13:03.16,0:13:05.20,Default,,0,0,0,,Уау!
 Dialogue: 0,0:13:12.16,0:13:13.08,Default,,0,0,0,,Қаш!
-Dialogue: 0,0:13:19.37,0:13:25.41,Default,,0,0,0,,Вааааааааа...!
+Dialogue: 0,0:13:19.37,0:13:25.41,Default,,0,0,0,,Ваа...!
 Dialogue: 0,0:13:30.95,0:13:31.87,Default,,0,0,0,,Анна…
 Dialogue: 0,0:13:37.70,0:13:40.41,Default,,0,0,0,,Ана! Ол дамыды
 Dialogue: 0,0:13:40.50,0:13:42.66,Default,,0,0,0,,Керемет! Күшті!

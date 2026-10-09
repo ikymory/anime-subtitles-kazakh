@@ -3,23 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 02 .ja
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:05.25,0:00:09.34,Default,,0,0,0,,«Сиркемен өзін-өзі өлтіру оқиғасы»
 Dialogue: 0,0:00:10.92,0:00:12.34,Default,,0,0,0,,(Жарылыс дыбысы)
@@ -281,7 +275,7 @@ Dialogue: 0,0:17:26.33,0:17:27.50,Default,,0,0,0,,Өте жақсы
 Dialogue: 0,0:17:27.62,0:17:29.54,Default,,0,0,0,,Өйткені, мен мұны істей аламын.
 Dialogue: 0,0:17:31.71,0:17:32.55,Default,,0,0,0,,Ах... Уф!
 Dialogue: 0,0:17:32.92,0:17:34.55,Default,,0,0,0,,Ааа... ағайын!
-Dialogue: 0,0:17:34.72,0:17:35.97,Default,,0,0,0,,Не... Не?!
+Dialogue: 0,0:17:34.72,0:17:35.97,Default,,0,0,0,,Жоқ... Не?!
 Dialogue: 0,0:17:36.38,0:17:37.22,Default,,0,0,0,,Келіңіздер!
 Dialogue: 0,0:17:37.38,0:17:39.43,Default,,0,0,0,,Уф… Ой, жоқ!
 Dialogue: 0,0:17:40.18,0:17:42.01,Default,,0,0,0,,Шүкір, құлап жатырсың, тоқта!

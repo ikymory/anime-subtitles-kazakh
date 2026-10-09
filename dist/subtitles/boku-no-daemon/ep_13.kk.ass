@@ -3,23 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 13.ja.cc
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:06.58,0:00:08.58,Default,,0,0,0,,(Қыздың күлкісі)
 Dialogue: 0,0:00:13.33,0:00:16.08,Default,,0,0,0,,Уау әдемі
@@ -120,7 +114,7 @@ Dialogue: 0,0:08:06.91,0:08:09.16,Default,,0,0,0,,Ядролық зымыран�
 Dialogue: 0,0:08:16.75,0:08:19.58,Default,,0,0,0,,Анна Көпірді қолдау үшін бірдеңе әкел!
 Dialogue: 0,0:08:19.66,0:08:20.95,Default,,0,0,0,,Ах!
 Dialogue: 0,0:08:21.04,0:08:22.75,Default,,0,0,0,,(Адамдар айғайлайды)
-Dialogue: 0,0:08:23.54,0:08:25.29,Default,,0,0,0,,Igis Igi!
+Dialogue: 0,0:08:23.54,0:08:25.29,Default,,0,0,0,,...
 Dialogue: 0,0:08:25.79,0:08:27.54,Default,,0,0,0,,Igi! Игиги...
 Dialogue: 0,0:08:27.62,0:08:29.58,Default,,0,0,0,,Осы жерден эвакуациялаңыз! Жүгір!
 Dialogue: 0,0:08:31.20,0:08:32.58,Default,,0,0,0,,Ах! (Коноэ) Иә!
@@ -151,7 +145,7 @@ Dialogue: 0,0:10:13.04,0:10:15.50,Default,,0,0,0,,Мен атаға өтініш
 Dialogue: 0,0:10:15.58,0:10:17.62,Default,,0,0,0,,Уақытты аз да болса бәсеңдету
 Dialogue: 0,0:10:19.04,0:10:19.87,Default,,0,0,0,,Төраға!
 Dialogue: 0,0:10:27.08,0:10:31.70,Default,,0,0,0,,Командир, зымырандық шабуылды уақытша тоқтатуыңызды өтінемін!
-Dialogue: 0,0:10:31.79,0:10:35.29,Default,,0,0,0,,тым кеш. Барлығы мақұлданды.
+Dialogue: 0,0:10:31.79,0:10:35.29,Default,,0,0,0,,тым кеш. үшін мақұлданды.
 Dialogue: 0,0:10:35.37,0:10:38.91,Default,,0,0,0,,Жоқ! Немерем әлі сонда!
 Dialogue: 0,0:10:41.91,0:10:45.25,Default,,0,0,0,,Кешіріңіз, бірақ сіз осылай дедіңіз.
 Dialogue: 0,0:10:45.33,0:10:48.79,Default,,0,0,0,,Халықты құтқарудан басқа амалымыз жоқ.
@@ -182,7 +176,7 @@ Dialogue: 0,0:12:37.66,0:12:40.37,Default,,0,0,0,,Басқа тіршілік и
 Dialogue: 0,0:12:42.20,0:12:46.37,Default,,0,0,0,,Мен адамзаттың ядролық қаруды қолдануын тозаққа апаратын есікке айналдырамын.
 Dialogue: 0,0:12:47.50,0:12:49.79,Default,,0,0,0,,Қош бол Кентокун
 Dialogue: 0,0:12:50.50,0:12:53.37,Default,,0,0,0,,Мен енді ештеңе жоғалтқым келмейді
-Dialogue: 0,0:12:54.12,0:12:56.66,Default,,0,0,0,,Барлығы, тезірек бұл жерден қашыңдар!
+Dialogue: 0,0:12:54.12,0:12:56.66,Default,,0,0,0,,үшін, тезірек бұл жерден қашыңдар!
 Dialogue: 0,0:12:56.75,0:12:59.54,Default,,0,0,0,,Мен Аннаға ядролық зымыранды сақтауға беремін!
 Dialogue: 0,0:13:05.83,0:13:07.04,Default,,0,0,0,,Кешіріңіз
 Dialogue: 0,0:13:10.29,0:13:12.95,Default,,0,0,0,,Бұл менің кінәм болды
@@ -194,7 +188,7 @@ Dialogue: 0,0:13:45.54,0:13:47.04,Default,,0,0,0,,Рахмет, Ана
 Dialogue: 0,0:13:47.54,0:13:51.12,Default,,0,0,0,,Аннаның арқасында менде көптеген қуанышты естеліктер қалды.
 Dialogue: 0,0:13:51.20,0:13:52.54,Default,,0,0,0,,Ана (Өсімдік жын) Чуми
 Dialogue: 0,0:13:53.75,0:13:55.58,Default,,0,0,0,,Мен сене алар емеспін.
-Dialogue: 0,0:13:56.20,0:13:59.45,Default,,0,0,0,,Барлығының менімен бірге болғанын қалаймын.
+Dialogue: 0,0:13:56.20,0:13:59.45,Default,,0,0,0,,үшінның менімен бірге болғанын қалаймын.
 Dialogue: 0,0:14:00.79,0:14:01.79,Default,,0,0,0,,Чуми?
 Dialogue: 0,0:14:02.87,0:14:05.33,Default,,0,0,0,,Бұл бір отбасы сияқты, солай емес пе?
 Dialogue: 0,0:14:07.04,0:14:08.70,Default,,0,0,0,,Чумимин
@@ -260,7 +254,7 @@ Dialogue: 0,0:20:20.45,0:20:21.87,Default,,0,0,0,,Чумимин (Кэде) Ке
 Dialogue: 0,0:20:21.95,0:20:22.79,Default,,0,0,0,,Igi
 Dialogue: 0,0:20:22.87,0:20:25.16,Default,,0,0,0,,Чуми Чу Чу Чумин
 Dialogue: 0,0:20:25.79,0:20:28.66,Default,,0,0,0,,Мені осында Анна әкелді
-Dialogue: 0,0:20:28.75,0:20:30.70,Default,,0,0,0,,Барлығын осы жерден шығару үшін.
+Dialogue: 0,0:20:28.75,0:20:30.70,Default,,0,0,0,,үшінн осы жерден шығару үшін.
 Dialogue: 0,0:20:55.41,0:20:56.50,Default,,0,0,0,,Бұл...
 Dialogue: 0,0:20:58.62,0:20:59.62,Default,,0,0,0,,Бір минут күтіңіз...
 Dialogue: 0,0:21:02.83,0:21:04.91,Default,,0,0,0,,Ана, тез бірге барайық.

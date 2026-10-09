@@ -3,23 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 01.ja.cc
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:20.83,0:00:23.04,Default,,0,0,0,,Уф
 Dialogue: 0,0:00:23.12,0:00:24.70,Default,,0,0,0,,Не?
@@ -53,7 +47,7 @@ Dialogue: 0,0:02:57.20,0:02:59.62,Default,,0,0,0,,Кенто-кун! Оны та
 Dialogue: 0,0:02:59.70,0:03:02.08,Default,,0,0,0,,(Соңғы қоңырау)
 Dialogue: 0,0:03:10.58,0:03:13.37,Default,,0,0,0,,Сегіз миллион құдай бізді тастамайды.
 Dialogue: 0,0:03:14.20,0:03:15.70,Default,,0,0,0,,Әрқашан құтқарылу бар
-Dialogue: 0,0:03:16.50,0:03:20.50,Default,,0,0,0,,Барлығыңыз тоқтап, мені тыңдаңыздар.
+Dialogue: 0,0:03:16.50,0:03:20.50,Default,,0,0,0,,үшінңыз тоқтап, мені тыңдаңыздар.
 Dialogue: 0,0:03:21.54,0:03:24.04,Default,,0,0,0,,Біздің қолымызда әсем жер
 Dialogue: 0,0:03:24.12,0:03:26.29,Default,,0,0,0,,Біз оны қайтаруымыз керек.
 Dialogue: 0,0:03:29.29,0:03:31.62,Default,,0,0,0,,Бұл шықты! Сен бейбақ!
@@ -94,11 +88,11 @@ Dialogue: 0,0:05:05.16,0:05:07.12,Default,,0,0,0,,Менің балам өзге
 Dialogue: 0,0:05:07.62,0:05:09.00,Default,,0,0,0,,Бірақ бұл жақсы.
 Dialogue: 0,0:05:09.08,0:05:10.70,Default,,0,0,0,,Ондағы екі адам
 Dialogue: 0,0:05:10.79,0:05:11.95,Default,,0,0,0,,Иә
-Dialogue: 0,0:05:20.16,0:05:21.95,Default,,0,0,0,,Kento Wait?
+Dialogue: 0,0:05:20.16,0:05:21.95,Default,,0,0,0,,...
 Dialogue: 0,0:05:22.04,0:05:23.33,Default,,0,0,0,,Қолжазбалар бөлімінің қызметкерлері ғана жеткілікті болар еді, бірақ
 Dialogue: 0,0:05:24.16,0:05:26.04,Default,,0,0,0,,Сіз аш болуыңыз керек.
 Dialogue: 0,0:05:31.16,0:05:34.70,Default,,0,0,0,,Презентация Бұл қалай болды? Бүгін болды, солай ма?
-Dialogue: 0,0:05:34.79,0:05:36.95,Default,,0,0,0,,Барлығы таң қалды.
+Dialogue: 0,0:05:34.79,0:05:36.95,Default,,0,0,0,,үшін таң қалды.
 Dialogue: 0,0:05:37.54,0:05:39.33,Default,,0,0,0,,(Танжиро) Ал, баста! (Үшеуі) Бар күшіңді сал!
 Dialogue: 0,0:05:40.91,0:05:41.91,Default,,0,0,0,,Иә
 Dialogue: 0,0:05:43.87,0:05:48.25,Default,,0,0,0,,Ааа, өте сүйкімді, көзім шығып кете жаздады
@@ -341,16 +335,16 @@ Dialogue: 0,0:17:23.58,0:17:25.83,Default,,0,0,0,,Уф, уф
 Dialogue: 0,0:17:27.20,0:17:28.16,Default,,0,0,0,,Ах!
 Dialogue: 0,0:17:28.75,0:17:30.62,Default,,0,0,0,,Жоқ! Уау
 Dialogue: 0,0:17:30.70,0:17:32.25,Default,,0,0,0,,Қат! Бұл не!
-Dialogue: 0,0:17:34.00,0:17:36.70,Default,,0,0,0,,Kya Spa~
+Dialogue: 0,0:17:34.00,0:17:36.70,Default,,0,0,0,,...
 Dialogue: 0,0:17:41.04,0:17:43.33,Default,,0,0,0,,Бұл Кентоның сыныптасы еді...
 Dialogue: 0,0:17:43.41,0:17:45.33,Default,,0,0,0,,Сіз жын бар баласыз ба?
 Dialogue: 0,0:17:45.41,0:17:47.29,Default,,0,0,0,,Иә, мен дәл қазір сонда болдым.
 Dialogue: 0,0:17:47.37,0:17:49.25,Default,,0,0,0,,Бала мен ересек ер адам
 Dialogue: 0,0:17:49.33,0:17:51.00,Default,,0,0,0,,Мен арғы бетке шықтым.
 Dialogue: 0,0:17:51.08,0:17:53.29,Default,,0,0,0,,Баланы қуып келе жатқандай болды.
-Dialogue: 0,0:17:58.29,0:18:02.25,Default,,0,0,0,,Кяаспааааа~
+Dialogue: 0,0:17:58.29,0:18:02.25,Default,,0,0,0,,Кяаспаа~
 Dialogue: 0,0:18:02.33,0:18:04.04,Default,,0,0,0,,Барлық жолмен өлтіріңіз
-Dialogue: 0,0:18:04.12,0:18:06.54,Default,,0,0,0,,Ni~paa
+Dialogue: 0,0:18:04.12,0:18:06.54,Default,,0,0,0,,...
 Dialogue: 0,0:18:07.45,0:18:10.79,Default,,0,0,0,,Каспер абай бол (Каспер) Кя? Spa...
 Dialogue: 0,0:18:14.33,0:18:16.20,Default,,0,0,0,,Әлгі шіркін жын
 Dialogue: 0,0:18:16.29,0:18:18.45,Default,,0,0,0,,Бұл сіз қолданатын нәрсе ме?
@@ -361,10 +355,10 @@ Dialogue: 0,0:18:27.37,0:18:30.79,Default,,0,0,0,,Мен құбыжықтард�
 Dialogue: 0,0:18:30.87,0:18:34.70,Default,,0,0,0,,Сіз лайықты жұмыс таба алмайсыз. Сіз төменгі жағындасыз.
 Dialogue: 0,0:18:35.83,0:18:36.91,Default,,0,0,0,,Әпке
 Dialogue: 0,0:18:37.62,0:18:41.33,Default,,0,0,0,,Сіздің сәніңіз де өте батыл.
-Dialogue: 0,0:18:42.66,0:18:47.00,Default,,0,0,0,,Не? сурет? Не...! Мен, қашан?
+Dialogue: 0,0:18:42.66,0:18:47.00,Default,,0,0,0,,Не? сурет? Жоқ...! Мен, қашан?
 Dialogue: 0,0:18:47.08,0:18:48.00,Default,,0,0,0,,《Жоқ, жасама!》
 Dialogue: 0,0:18:48.79,0:18:50.00,Default,,0,0,0,,Менің бетім!
-Dialogue: 0,0:18:50.66,0:18:52.66,Default,,0,0,0,,Кяаааааааааааа!
+Dialogue: 0,0:18:50.66,0:18:52.66,Default,,0,0,0,,Кяаа!
 Dialogue: 0,0:18:57.41,0:19:00.33,Default,,0,0,0,,Ол жын қолданушы болды.
 Dialogue: 0,0:19:00.41,0:19:03.95,Default,,0,0,0,,Қасында болған жын, Шатырларымен ұстаған жын.
 Dialogue: 0,0:19:04.04,0:19:05.33,Default,,0,0,0,,Мөлдір етіп жасауға болады
@@ -382,7 +376,7 @@ Dialogue: 0,0:19:39.58,0:19:41.08,Default,,0,0,0,,Паа~ Паа!
 Dialogue: 0,0:19:41.91,0:19:44.66,Default,,0,0,0,,Фухахахаха
 Dialogue: 0,0:19:44.75,0:19:46.70,Default,,0,0,0,,Оны барған сайын мөлдір ету
 Dialogue: 0,0:19:46.79,0:19:50.37,Default,,0,0,0,,Қайда тығылсаң да, көресің!
-Dialogue: 0,0:19:52.00,0:19:54.54,Default,,0,0,0,,Kiss Spread!
+Dialogue: 0,0:19:52.00,0:19:54.54,Default,,0,0,0,,...
 Dialogue: 0,0:19:57.12,0:19:58.62,Default,,0,0,0,,(Гран Торино) Өкінішті. Мұндай ұсақ-түйекке тіпті реакция бере алмасаң—
 Dialogue: 0,0:19:59.16,0:20:02.33,Default,,0,0,0,,Мен таптым. Сіз оны сонда таптыңыз ба?
 Dialogue: 0,0:20:04.75,0:20:06.33,Default,,0,0,0,,Бұл қауіпті! Қанекей жүгірейік!

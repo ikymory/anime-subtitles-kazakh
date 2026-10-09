@@ -3,22 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 01.ja
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:01.50,0:00:04.92,Default,,0,0,0,,(Желдің дыбысы)
 Dialogue: 0,0:00:09.80,0:00:10.92,Default,,0,0,0,,(қабылдағыш шуы)
@@ -124,23 +119,23 @@ Dialogue: 0,0:08:01.89,0:08:04.19,Default,,0,0,0,,...
 Dialogue: 0,0:08:03.40,0:08:04.19,Default,,0,0,0,,Ах~
 Dialogue: 0,0:08:04.31,0:08:06.23,Default,,0,0,0,,Бүгінгі «бұл» қалай?
 Dialogue: 0,0:08:06.36,0:08:08.73,Default,,0,0,0,,Перт: Мен ішімдікке қызықпаймын.
-Dialogue: 0,0:08:06.86,0:08:07.86,Default,,0,0,0,,Ugggggg
+Dialogue: 0,0:08:06.86,0:08:07.86,Default,,0,0,0,,Ugg
 Dialogue: 0,0:08:08.86,0:08:10.44,Default,,0,0,0,,Эй~ Жоқ~
 Dialogue: 0,0:08:10.57,0:08:12.40,Default,,0,0,0,,Эй, мен саған айттым ғой, солай ма? Фуфун
 Dialogue: 0,0:08:12.53,0:08:16.24,Default,,0,0,0,,Ол суық сырадан гөрі қала сыртындағы нәрселерге көбірек қызығатын оғаш адам.
 Dialogue: 0,0:08:16.37,0:08:18.03,Default,,0,0,0,,Қалай болғанда да, сіз кең даладасыз.
-Dialogue: 0,0:08:17.20,0:08:21.08,Default,,0,0,0,,Ууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууу
+Dialogue: 0,0:08:17.20,0:08:21.08,Default,,0,0,0,,Ууу
 Dialogue: 0,0:08:18.16,0:08:19.54,Default,,0,0,0,,Тіпті темірді де ерітетін қышқыл көлі
 Dialogue: 0,0:08:19.66,0:08:21.45,Default,,0,0,0,,Тіпті келесі қала жүздеген шақырым жерде.
 Dialogue: 0,0:08:21.58,0:08:23.83,Default,,0,0,0,,Қаланы осылай тастап кету өз-өзіне қол жұмсау болар еді.
 Dialogue: 0,0:08:23.96,0:08:28.13,Default,,0,0,0,,Мұнда ыңғайлы жұмыс істеу және дәмді саке ішу - бұл...
-Dialogue: 0,0:08:25.58,0:08:28.13,Default,,0,0,0,,Ууууууууууу! Хмм...
+Dialogue: 0,0:08:25.58,0:08:28.13,Default,,0,0,0,,Ууу! Хмм...
 Dialogue: 0,0:08:28.50,0:08:30.96,Default,,0,0,0,,Бұл өмірдің нағыз рахаты.
 Dialogue: 0,0:08:31.09,0:08:32.05,Default,,0,0,0,,Хмм!
 Dialogue: 0,0:08:31.72,0:08:32.63,Default,,0,0,0,,Ой
 Dialogue: 0,0:08:32.17,0:08:35.30,Default,,0,0,0,,Мас болып, мас бол! Бол
 Dialogue: 0,0:08:35.64,0:08:38.18,Default,,0,0,0,,Бұл трафиктің ең жақсы жолы!
-Dialogue: 0,0:08:38.30,0:08:40.31,Default,,0,0,0,,(Барлығы күледі)
+Dialogue: 0,0:08:38.30,0:08:40.31,Default,,0,0,0,,(үшін күледі)
 Dialogue: 0,0:08:40.43,0:08:46.23,Default,,0,0,0,,(аяқ дыбысы)
 Dialogue: 0,0:08:50.15,0:08:52.69,Default,,0,0,0,,Ұстаз, мен бірден тамақ дайындаймын.
 Dialogue: 0,0:08:52.82,0:08:54.20,Default,,0,0,0,,40 ұпай
@@ -234,7 +229,7 @@ Dialogue: 0,0:13:31.35,0:13:32.35,Default,,0,0,0,,Әй
 Dialogue: 0,0:13:32.85,0:13:34.18,Default,,0,0,0,,Ах...
 Dialogue: 0,0:13:33.47,0:13:35.14,Default,,0,0,0,,(Тұншығу дыбысы)
 Dialogue: 0,0:13:34.31,0:13:35.14,Default,,0,0,0,,Иә?
-Dialogue: 0,0:13:35.27,0:13:37.48,Default,,0,0,0,,Ууууууууууу!
+Dialogue: 0,0:13:35.27,0:13:37.48,Default,,0,0,0,,Ууу!
 Dialogue: 0,0:13:38.35,0:13:40.98,Default,,0,0,0,,Сіз оны қабылдағыңыз келмейді деп ойлаймын.
 Dialogue: 0,0:13:41.27,0:13:43.19,Default,,0,0,0,,Өйткені бұл аянышты.
 Dialogue: 0,0:13:43.32,0:13:46.03,Default,,0,0,0,,Мұқият қара, ақымақ! Тым әдемі
@@ -286,7 +281,7 @@ Dialogue: 0,0:16:40.54,0:16:42.96,Default,,0,0,0,,Жұмақтай жерде е
 Dialogue: 0,0:16:43.87,0:16:48.54,Default,,0,0,0,,Ешкім жете алмайтын жерге барғаным анық.
 Dialogue: 0,0:16:49.71,0:16:53.63,Default,,0,0,0,,Мен мұны қызғандым.
 Dialogue: 0,0:16:53.93,0:16:58.80,Default,,0,0,0,,Мен туғаннан бері бір ғана аспанды көрдім.
-Dialogue: 0,0:17:00.31,0:17:01.47,Default,,0,0,0,,Барлығы осындай
+Dialogue: 0,0:17:00.31,0:17:01.47,Default,,0,0,0,,үшін осындай
 Dialogue: 0,0:17:01.60,0:17:06.52,Default,,0,0,0,,Қалада туып, қалада өлген, бұл жерде қалыпты жағдай.
 Dialogue: 0,0:17:06.65,0:17:10.40,Default,,0,0,0,,Егер сізге парасаттылық ұнаса, сіз мұны істемес едіңіз.
 Dialogue: 0,0:17:11.23,0:17:14.70,Default,,0,0,0,,Бір күні сіз үшін маңызды адам аурудан айыққанда,
@@ -335,7 +330,7 @@ Dialogue: 0,0:21:23.36,0:21:29.24,Default,,0,0,0,,Сол көкжиектен а
 Dialogue: 0,0:21:32.33,0:21:33.45,Default,,0,0,0,,Уау!
 Dialogue: 0,0:21:40.38,0:21:44.84,Default,,0,0,0,,Уау!
 Dialogue: 0,0:21:46.18,0:21:47.05,Default,,0,0,0,,Уау!
-Dialogue: 0,0:21:47.18,0:21:53.06,Default,,0,0,0,,(Барлығы айғайлайды)
+Dialogue: 0,0:21:47.18,0:21:53.06,Default,,0,0,0,,(үшін айғайлайды)
 Dialogue: 0,0:21:53.89,0:21:54.89,Default,,0,0,0,,Аһ!
 Dialogue: 0,0:22:00.69,0:22:02.57,Default,,0,0,0,,Сен кімсің?
 Dialogue: 0,0:22:02.69,0:22:03.69,Default,,0,0,0,,Иә?

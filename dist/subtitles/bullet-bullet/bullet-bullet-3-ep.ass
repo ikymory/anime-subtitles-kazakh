@@ -3,22 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 03.ja
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:03.17,0:00:04.17,Default,,0,0,0,,Ах...
 Dialogue: 0,0:00:04.88,0:00:08.17,Default,,0,0,0,,«Жүгіруші жол» Бұл әйгілі, солай емес пе?
@@ -34,7 +29,7 @@ Dialogue: 0,0:00:47.79,0:00:49.92,Default,,0,0,0,,Уайымдама, Gear!
 Dialogue: 0,0:00:47.79,0:00:48.96,Default,,0,0,0,,Уф!
 Dialogue: 0,0:00:50.05,0:00:52.88,Default,,0,0,0,,Жақсы сезіну үшін оны қанша рет сіңіру керек?
 Dialogue: 0,0:00:51.92,0:00:54.30,Default,,0,0,0,,(Кісі өлтірушілердің ұрыс айқайы)
-Dialogue: 0,0:00:54.42,0:00:58.22,Default,,0,0,0,,Уорааааааааааааааааа!
+Dialogue: 0,0:00:54.42,0:00:58.22,Default,,0,0,0,,Уораа!
 Dialogue: 0,0:00:59.47,0:01:00.72,Default,,0,0,0,,Иә?
 Dialogue: 0,0:01:02.52,0:01:03.68,Default,,0,0,0,,Уау!
 Dialogue: 0,0:01:03.93,0:01:06.19,Default,,0,0,0,,Өзімді жақсы сезіну үшін қанша алып тастауым керек?
@@ -52,7 +47,7 @@ Dialogue: 0,0:03:00.22,0:03:02.93,Default,,0,0,0,,Солай болса да, о
 Dialogue: 0,0:03:03.05,0:03:05.10,Default,,0,0,0,,Қайда барсаңыз да, менің артымнан жүріңіз~
 Dialogue: 0,0:03:05.43,0:03:08.10,Default,,0,0,0,,Бұл жігіт өте құнды.
 Dialogue: 0,0:03:08.23,0:03:11.10,Default,,0,0,0,,Уайымсыз сөздер айтуды доғар.
-Dialogue: 0,0:03:10.35,0:03:14.06,Default,,0,0,0,,Ааааааааааааааааааааааааааа
+Dialogue: 0,0:03:10.35,0:03:14.06,Default,,0,0,0,,Ааа
 Dialogue: 0,0:03:11.98,0:03:16.11,Default,,0,0,0,,Мен көшеде болдым, ал мені өлтірушілер нысанаға алды!
 Dialogue: 0,0:03:16.57,0:03:18.90,Default,,0,0,0,,Барреттің де газы таусылып қалу алдында тұр.
 Dialogue: 0,0:03:19.03,0:03:21.11,Default,,0,0,0,,Не болды, Gear?
@@ -96,7 +91,7 @@ Dialogue: 0,0:05:26.70,0:05:28.57,Default,,0,0,0,,Анау маңдайша, у�
 Dialogue: 0,0:05:28.91,0:05:30.91,Default,,0,0,0,,Сіз сенімдісіз бе?
 Dialogue: 0,0:05:31.03,0:05:34.58,Default,,0,0,0,,Әй, қала бар болса, картаға сал.
 Dialogue: 0,0:05:43.21,0:05:46.09,Default,,0,0,0,,Ешкімнен белгі жоқ.
-Dialogue: 0,0:05:46.63,0:05:49.26,Default,,0,0,0,,Барлығы жоғалып кетті ме?
+Dialogue: 0,0:05:46.63,0:05:49.26,Default,,0,0,0,,үшін жоғалып кетті ме?
 Dialogue: 0,0:05:49.76,0:05:52.10,Default,,0,0,0,,Не болды? О!
 Dialogue: 0,0:05:56.89,0:05:58.60,Default,,0,0,0,,Тенжин Пол
 Dialogue: 0,0:06:00.56,0:06:01.98,Default,,0,0,0,,Уф…
@@ -199,7 +194,7 @@ Dialogue: 0,0:11:44.03,0:11:45.58,Default,,0,0,0,,(Сағат дабылының
 Dialogue: 0,0:11:45.70,0:11:46.45,Default,,0,0,0,,Жеңілгеніңе ренжіп, маған шабуылдап жүрсің бе?
 Dialogue: 0,0:11:47.37,0:11:49.41,Default,,0,0,0,,Жарайды, тамақ ішейік!
 Dialogue: 0,0:11:52.96,0:11:55.00,Default,,0,0,0,,Иә!
-Dialogue: 0,0:11:55.50,0:11:58.05,Default,,0,0,0,,Нгггггггг!
+Dialogue: 0,0:11:55.50,0:11:58.05,Default,,0,0,0,,Нгг!
 Dialogue: 0,0:11:58.17,0:11:59.92,Default,,0,0,0,,Хе, қуғыншы!
 Dialogue: 0,0:12:00.47,0:12:02.30,Default,,0,0,0,,Хмм!
 Dialogue: 0,0:12:04.01,0:12:06.47,Default,,0,0,0,,Иә? Қандай кассета?
@@ -207,7 +202,7 @@ Dialogue: 0,0:12:08.72,0:12:09.60,Default,,0,0,0,,Мен күткендей, Д�
 Dialogue: 0,0:12:09.72,0:12:11.48,Default,,0,0,0,,(ойнатқыштан ойналатын музыка)
 Dialogue: 0,0:12:11.85,0:12:14.06,Default,,0,0,0,,О! «Самбаны алдым»!
 Dialogue: 0,0:12:14.19,0:12:16.94,Default,,0,0,0,,(Қуаныш дыбыстары)
-Dialogue: 0,0:12:17.07,0:12:20.32,Default,,0,0,0,,♪ Барлығымен бірге Самбаны алыңыз
+Dialogue: 0,0:12:17.07,0:12:20.32,Default,,0,0,0,,♪ үшінмен бірге Самбаны алыңыз
 Dialogue: 0,0:12:19.53,0:12:20.99,Default,,0,0,0,,Самба Самба~
 Dialogue: 0,0:12:21.11,0:12:24.61,Default,,0,0,0,,♪ Күлейік, билейік
 Dialogue: 0,0:12:23.61,0:12:24.61,Default,,0,0,0,,Самба Самба~
@@ -278,7 +273,7 @@ Dialogue: 0,0:16:47.13,0:16:48.00,Default,,0,0,0,,Уф!
 Dialogue: 0,0:16:48.34,0:16:51.05,Default,,0,0,0,,Уф... уф!
 Dialogue: 0,0:16:51.96,0:16:53.22,Default,,0,0,0,,Резеңке оқтар? Ха!
 Dialogue: 0,0:16:56.30,0:16:58.18,Default,,0,0,0,,Уф!
-Dialogue: 0,0:16:58.68,0:16:59.89,Default,,0,0,0,,Хмммммммммммммммммммммммммммммммммммммммммммммм.
+Dialogue: 0,0:16:58.68,0:16:59.89,Default,,0,0,0,,Хмм.
 Dialogue: 0,0:17:00.01,0:17:01.52,Default,,0,0,0,,Be~
 Dialogue: 0,0:17:01.64,0:17:03.02,Default,,0,0,0,,…мойынының артына дәл осы пішіндегі дақ шыққан.
 Dialogue: 0,0:17:03.14,0:17:05.77,Default,,0,0,0,,Сен қарғыс атқыр!
@@ -409,7 +404,7 @@ Dialogue: 0,0:23:23.23,0:23:26.11,Default,,0,0,0,,Чичи Жоқ Жоқ! Бұл
 Dialogue: 0,0:23:23.23,0:23:26.11,Default,,0,0,0,,Уау! аздап!
 Dialogue: 0,0:23:26.23,0:23:29.19,Default,,0,0,0,,Ки Бұның бәрі ойымнан шығып кетті Ойымнан шықты!
 Dialogue: 0,0:23:26.23,0:23:29.70,Default,,0,0,0,,Тез оралыңыз! Дәл осылай...
-Dialogue: 0,0:23:29.82,0:23:31.61,Default,,0,0,0,,-Рахмет баршаңызға -(Барлығыңызға) Не?
+Dialogue: 0,0:23:29.82,0:23:31.61,Default,,0,0,0,,-Рахмет баршаңызға -(үшінңызға) Не?
 Dialogue: 0,0:23:31.99,0:23:33.95,Default,,0,0,0,,Мені дұрыс қорғағаны үшін
 Dialogue: 0,0:23:34.99,0:23:37.20,Default,,0,0,0,,Бұл әлемді құтқарады
 Dialogue: 0,0:23:37.87,0:23:39.25,Default,,0,0,0,,Бұл дегеніміз…

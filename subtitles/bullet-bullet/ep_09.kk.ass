@@ -3,22 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 09.ja
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:05.67,0:00:07.21,Default,,0,0,0,,Хааа~
 Dialogue: 0,0:00:09.09,0:00:11.92,Default,,0,0,0,,(Үнсіз әңгіме)
@@ -231,26 +226,26 @@ Dialogue: 0,0:11:59.46,0:12:03.09,Default,,0,0,0,,Көз алдымда жұлд
 Dialogue: 0,0:12:03.80,0:12:04.89,Default,,0,0,0,,Жоқ
 Dialogue: 0,0:12:05.55,0:12:08.81,Default,,0,0,0,,Мүмкін мен бұл жай ғана көңілді деп ойлаған шығармын.
 Dialogue: 0,0:12:07.81,0:12:08.81,Default,,0,0,0,,Уф
-Dialogue: 0,0:12:09.22,0:12:13.10,Default,,0,0,0,,Ууууууууууууууууууу...
+Dialogue: 0,0:12:09.22,0:12:13.10,Default,,0,0,0,,Ууу...
 Dialogue: 0,0:12:09.52,0:12:14.27,Default,,0,0,0,,Қазір Нави өлді, ал Дампер өлуге жақын.
 Dialogue: 0,0:12:14.40,0:12:16.73,Default,,0,0,0,,Ал сіз Баррет деп атаған көлік.
 Dialogue: 0,0:12:14.60,0:12:15.61,Default,,0,0,0,,Уф
 Dialogue: 0,0:12:16.94,0:12:17.82,Default,,0,0,0,,Ах
 Dialogue: 0,0:12:18.11,0:12:19.98,Default,,0,0,0,,Ұшқын сияқты секіру
 Dialogue: 0,0:12:20.11,0:12:25.20,Default,,0,0,0,,Қауырсындай тоқтайтын сенімді төртінші серік, оқтан да жылдам.
-Dialogue: 0,0:12:24.57,0:12:26.91,Default,,0,0,0,,Ууууууууууу!
+Dialogue: 0,0:12:24.57,0:12:26.91,Default,,0,0,0,,Ууу!
 Dialogue: 0,0:12:25.78,0:12:28.20,Default,,0,0,0,,Сен оны қабірден қазып алдың
 Dialogue: 0,0:12:28.33,0:12:31.58,Default,,0,0,0,,Мен оны қайтадан жүгіріп, жойдым.
 Dialogue: 0,0:12:29.33,0:12:30.33,Default,,0,0,0,,Уф!
 Dialogue: 0,0:12:31.70,0:12:32.79,Default,,0,0,0,,Уф! Уф
-Dialogue: 0,0:12:32.91,0:12:34.83,Default,,0,0,0,,Барлығы өзгерді
+Dialogue: 0,0:12:32.91,0:12:34.83,Default,,0,0,0,,үшін өзгерді
 Dialogue: 0,0:12:34.96,0:12:36.29,Default,,0,0,0,,Уау!
 Dialogue: 0,0:12:36.42,0:12:38.50,Default,,0,0,0,,Ол күндерге қайта орала алмаймын.
 Dialogue: 0,0:12:38.63,0:12:40.51,Default,,0,0,0,,Мен үйге барамын.
 Dialogue: 0,0:12:38.96,0:12:40.51,Default,,0,0,0,,Дұрыс па?
 Dialogue: 0,0:12:55.98,0:13:00.73,Default,,0,0,0,,(жөтел дыбысы)
 Dialogue: 0,0:13:00.86,0:13:03.65,Default,,0,0,0,,(қатты жөтел дыбысы)
-Dialogue: 0,0:13:04.28,0:13:08.24,Default,,0,0,0,,Хааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа
+Dialogue: 0,0:13:04.28,0:13:08.24,Default,,0,0,0,,Хаа
 Dialogue: 0,0:13:13.79,0:13:17.00,Default,,0,0,0,,Гохо гохо гохо гохо гохо гохо
 Dialogue: 0,0:13:17.67,0:13:18.67,Default,,0,0,0,,Ол ма?
 Dialogue: 0,0:13:19.84,0:13:20.67,Default,,0,0,0,,Не?
@@ -313,7 +308,7 @@ Dialogue: 0,0:16:09.88,0:16:12.22,Default,,0,0,0,,Топқа бөлейік.
 Dialogue: 0,0:16:12.51,0:16:16.85,Default,,0,0,0,,Түптеп келгенде, ол билікке жағымпазданған жалқау бейбақ.
 Dialogue: 0,0:16:16.97,0:16:20.56,Default,,0,0,0,,Біздің әдемі байланысымыз сізді ренжіткеніне сенімдімін!
 Dialogue: 0,0:16:20.98,0:16:24.98,Default,,0,0,0,,Менің шаруам жоқ! Мұның мәні неде? Берілме!
-Dialogue: 0,0:16:25.56,0:16:26.44,Default,,0,0,0,,Hey Gear
+Dialogue: 0,0:16:25.56,0:16:26.44,Default,,0,0,0,,...
 Dialogue: 0,0:16:26.56,0:16:30.07,Default,,0,0,0,,Бізді мазақ етіп жатыр ма? Түсінесіз бе?
 Dialogue: 0,0:16:30.19,0:16:31.94,Default,,0,0,0,,Мен келдім!
 Dialogue: 0,0:16:32.07,0:16:36.32,Default,,0,0,0,,Бірақ егер мен бұл жерден кете алсам, мен жай ғана кейіп көрсетуім мүмкін.
@@ -341,7 +336,7 @@ Dialogue: 0,0:17:25.67,0:17:27.04,Default,,0,0,0,,Бұл сен кінәлісі
 Dialogue: 0,0:17:27.42,0:17:28.42,Default,,0,0,0,,Не!
 Dialogue: 0,0:17:28.54,0:17:29.96,Default,,0,0,0,,Тағы да айтыңыз!
 Dialogue: 0,0:17:30.09,0:17:31.42,Default,,0,0,0,,Шулы ақымақ!
-Dialogue: 0,0:17:31.55,0:17:34.17,Default,,0,0,0,,Гауккккккккккккккккккккккк солай... Шыға!
+Dialogue: 0,0:17:31.55,0:17:34.17,Default,,0,0,0,,Гаукк солай... Шыға!
 Dialogue: 0,0:17:32.05,0:17:34.17,Default,,0,0,0,,Идиот! Ақымақ аю!
 Dialogue: 0,0:17:34.51,0:17:36.55,Default,,0,0,0,,Тоқта... не істеп жатырсың!?
 Dialogue: 0,0:17:34.92,0:17:36.59,Default,,0,0,0,,Идиот! ақымақ! ақымақ!
@@ -362,7 +357,7 @@ Dialogue: 0,0:17:57.91,0:17:59.03,Default,,0,0,0,,Стингрей кемпір?
 Dialogue: 0,0:17:59.32,0:18:02.54,Default,,0,0,0,,Носаның даусы әлі естілді.
 Dialogue: 0,0:18:04.83,0:18:05.91,Default,,0,0,0,,Gotcha~
 Dialogue: 0,0:18:05.08,0:18:05.91,Default,,0,0,0,,Әй?
-Dialogue: 0,0:18:06.12,0:18:09.13,Default,,0,0,0,,Барлығының ұйықтайтын уақыты келді~
+Dialogue: 0,0:18:06.12,0:18:09.13,Default,,0,0,0,,үшінның ұйықтайтын уақыты келді~
 Dialogue: 0,0:18:09.67,0:18:12.42,Default,,0,0,0,,Шулы! Шулы шу!
 Dialogue: 0,0:18:12.55,0:18:13.55,Default,,0,0,0,,Беріліс?
 Dialogue: 0,0:18:13.88,0:18:18.51,Default,,0,0,0,,Жоқ, енді жоқ! Уф...
@@ -446,7 +441,7 @@ Dialogue: 0,0:23:55.55,0:23:58.06,Default,,0,0,0,,Жұмысыңыз үшін а
 Dialogue: 0,0:24:00.85,0:24:02.69,Default,,0,0,0,,«Мен түсіндім» деп айтыңыз
 Dialogue: 0,0:24:05.27,0:24:07.02,Default,,0,0,0,,Алдымен қашыңыз!
 Dialogue: 0,0:24:07.15,0:24:08.28,Default,,0,0,0,,О!
-Dialogue: 0,0:24:13.24,0:24:18.08,Default,,0,0,0,,Еееееееей!
+Dialogue: 0,0:24:13.24,0:24:18.08,Default,,0,0,0,,Ееей!
 Dialogue: 0,0:24:19.04,0:24:19.91,Default,,0,0,0,,(қолға кісен салу дыбысы)
 Dialogue: 0,0:24:22.04,0:24:24.33,Default,,0,0,0,,А... ааа... ха
 Dialogue: 0,0:24:25.04,0:24:26.92,Default,,0,0,0,,Не?!

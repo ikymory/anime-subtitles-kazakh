@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>API & Developer Documentation • ikymory</title>
-  <meta name="description" content="ikymory Қазақша аниме субтитрлер архивінің ресми REST API және Developer құжаттамасы. 500 аниме, 4,597 бөлім, 41,377 файл.">
+  <meta name="description" content="ikymory Қазақша аниме субтитрлер архивінің ресми REST API және Developer құжаттамасы. 1,200 аниме, 8,542 бөлім, 76,882 файл.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇰🇿</text></svg>">
 
   <!-- Tailwind CSS -->
@@ -203,7 +203,7 @@
         API және Әзірлеуші Құжаттамасы
       </h1>
       <p class="text-xs sm:text-sm text-slate-400 leading-relaxed" id="heroApiDesc">
-        Қазақ тіліндегі 500 аниме франшизасы, 4,597 бөлімі және 41,377 (.srt, .vtt, .ass) субтитр файлдарының толық ашық деректер базасы. Кез келген веб-сайтқа, мобильді қосымшаға немесе ойнатқышқа оңай интеграциялаңыз.
+        Қазақ тіліндегі 1,200 аниме франшизасы, 8,542 бөлімі және 76,882 (.srt, .vtt, .ass) субтитр файлдарының толық ашық деректер базасы. Кез келген веб-сайтқа, мобильді қосымшаға немесе ойнатқышқа оңай интеграциялаңыз.
       </p>
     </div>
 
@@ -256,7 +256,7 @@
           </button>
         </div>
         <p id="ep1Desc" class="text-xs text-slate-400">
-          Барлық 500 аниме франшизасының толық тізімін қайтарады: slug, қазақша, ағылшынша, жапонша атаулары, бөлім сандары, жанрлары, мұқаба суреттері (AniList HD).
+          Барлық 1,200 аниме франшизасының толық тізімін қайтарады: slug, қазақша, ағылшынша, жапонша атаулары, бөлім сандары, жанрлары, мұқаба суреттері (AniList HD).
         </p>
         
         <!-- Code snippet preview (Vibrant Monokai/Dracula) -->
@@ -278,7 +278,7 @@
           <div class="code-window-body">
 <pre id="snippet-json"><code class="language-json">{
   "version": "1.0.0",
-  "total": 500,
+  "total": 1200,
   "language": "kk",
   "data": [
     {
@@ -680,7 +680,7 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
       kk: {
         nav_back: "Каталогқа оралу",
         hero_title: "API және Әзірлеуші Құжаттамасы",
-        hero_desc: "Қазақ тіліндегі 500 аниме франшизасы, 4,597 бөлімі және 41,377 (.srt, .vtt, .ass) субтитр файлдарының толық ашық деректер базасы. Кез келген веб-сайтқа, мобильді қосымшаға немесе ойнатқышқа оңай интеграциялаңыз.",
+        hero_desc: "Қазақ тіліндегі 1,200 аниме франшизасы, 8,542 бөлімі және 76,882 (.srt, .vtt, .ass) субтитр файлдарының толық ашық деректер базасы. Кез келген веб-сайтқа, мобильді қосымшаға немесе ойнатқышқа оңай интеграциялаңыз.",
         policy_title: "Оқу-ағарту мақсаты және Қарақшылыққа қарсы мәлімдеме",
         policy_edu_h: "1. Тек білім беру және лингвистикалық инклюзия мақсатында",
         policy_edu_t: "Бұл жоба 100% коммерциялық емес ашық бастапқы деректер жиынтығы болып табылады. Оның басты миссиясы — қазақ тілінің цифрлық әлемдегі үлесін арттыру, жасанды интеллект (NLP/LLM) модельдерін қазақша бейімдеуге көмектесу және Қазақстан Республикасындағы есту қабілеті шектеулі жандарға (DHH) субтитр арқылы тең қолжетімділік жасау (17 U.S.C. § 107 Fair Use талаптарына сай).",
@@ -688,7 +688,7 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
         policy_piracy_t: "Қарақшылық (piracy) туындыгерлер мен анимация студияларының еңбегіне үлкен нұқсан келтіреді. Біз бейнематериалдарды рұқсатсыз таратуды қатаң айыптаймыз. Бұл серверлерде ешқандай видео (mp4, mkv) немесе аудио файлдары САҚТАЛМАЙДЫ және ТАРАТЫЛМАЙДЫ. Тек мәтіндік субтитрлер ғана қолжетімді. Сүйікті анимеңізді заңды ресми лицензиялы платформалардан (Crunchyroll, Netflix, Muse Asia, Ani-One) көріп, студияларды қолдауға шақырамыз!",
         endpoints_title: "Негізгі API Нүктелері (Endpoints)",
         endpoints_desc: "Тіркелусіз, API кілтсіз (no auth required), шектеусіз және CORS толық қосылған ғаламдық CDN арқылы жұмыс істейді.",
-        ep1_desc: "Барлық 500 аниме франшизасының толық тізімін қайтарады: slug, қазақша, ағылшынша, жапонша атаулары, бөлім сандары, жанрлары, мұқаба суреттері (AniList HD).",
+        ep1_desc: "Барлық 1,200 аниме франшизасының толық тізімін қайтарады: slug, қазақша, ағылшынша, жапонша атаулары, бөлім сандары, жанрлары, мұқаба суреттері (AniList HD).",
         ep2_desc: "Нақты бір анименің (мысалы frieren, solo-leveling, jojo-steel-ball-run) толық сипаттамасын, студиясын, рейтингін және барлық бөлімдер тізімін қайтарады.",
         ep3_desc: "Кез келген бөлімнің қазақша субтитріне jsDelivr Global Edge CDN арқылы тікелей сілтеме. Браузерде және ойнатқыштарда жылдам жүктелуге кепілдік берілген.",
         web_title: "Веб-сайттар мен Платформаларға қосу (Web Integration)",
@@ -702,7 +702,7 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
       en: {
         nav_back: "Back to Catalog",
         hero_title: "REST API & Developer Documentation",
-        hero_desc: "Complete open-source database of 500 anime franchises, 4,597 episodes, and 41,377 Kazakh subtitle files (.srt, .vtt, .ass). Seamless integration into any website, media player, mobile application, or NLP corpus.",
+        hero_desc: "Complete open-source database of 1,200 anime franchises, 8,542 episodes, and 76,882 Kazakh subtitle files (.srt, .vtt, .ass). Seamless integration into any website, media player, mobile application, or NLP corpus.",
         policy_title: "Educational Purpose & Anti-Piracy Statement",
         policy_edu_h: "1. Dedicated to Education & Linguistic Accessibility",
         policy_edu_t: "This project is a 100% non-commercial open-source research dataset. Its primary mission is expanding the Kazakh linguistic presence in modern digital media, aiding NLP/LLM language models, and providing accessibility for Deaf and Hard-of-Hearing (DHH) individuals in Kazakhstan under 17 U.S.C. § 107 (Fair Use).",
@@ -710,7 +710,7 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
         policy_piracy_t: "Piracy harms the creators, animators, and studios who dedicate their lives to this craft. We strictly condemn unauthorized video streaming and distribution. No video files (mp4, mkv) or audio streams are hosted or transmitted. We exclusively host text subtitles. Please support the anime industry by watching legally on official streaming platforms (Crunchyroll, Netflix, Muse Asia, Ani-One)!",
         endpoints_title: "Core API Endpoints",
         endpoints_desc: "No authentication required, no rate limits, full CORS enabled, globally accelerated via edge CDN.",
-        ep1_desc: "Returns the complete catalog of all 500 anime franchises: slugs, Kazakh, English, and Romaji titles, episode counts, genres, and high-resolution AniList artwork.",
+        ep1_desc: "Returns the complete catalog of all 1,200 anime franchises: slugs, Kazakh, English, and Romaji titles, episode counts, genres, and high-resolution AniList artwork.",
         ep2_desc: "Returns detailed metadata for a specific anime franchise (e.g. frieren, solo-leveling, jojo-steel-ball-run), including synopsis, studios, ratings, and episode lists.",
         ep3_desc: "Direct access to raw subtitle files (.srt, .vtt, .ass) via jsDelivr Global Edge CDN with instant global caching.",
         web_title: "Web & Platform Integration",
@@ -724,7 +724,7 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
       ja: {
         nav_back: "カタログに戻る",
         hero_title: "API & 開発者向けドキュメント",
-        hero_desc: "500作品、4,597話、41,377ファイルのカザフ語アニメ字幕オープンソースアーカイブ用REST API。ウェブサイト、動画プレーヤー、モバイルアプリ、自然言語処理（NLP）研究へ簡単に統合可能。",
+        hero_desc: "1,200作品、8,542話、76,882ファイルのカザフ語アニメ字幕オープンソースアーカイブ用REST API。ウェブサイト、動画プレーヤー、モバイルアプリ、自然言語処理（NLP）研究へ簡単に統合可能。",
         policy_title: "教育目的および非海賊版・適法声明",
         policy_edu_h: "1. 教育および聴覚障害者アクセシビリティ目的",
         policy_edu_t: "本プロジェクトは100%非営利のオープンデータセットです。カザフ語のデジタル空間における言語資源の保存、AI/NLP研究への貢献、および聴覚障害者（DHH）へのアクセシビリティ提供（米国法 17 U.S.C. § 107 Fair Use 準拠）を唯一の目的としています。",
@@ -732,7 +732,7 @@ print(f"[{sample['title']['kazakh']}] 1-бөлім субтитрі:", sub_url)<
         policy_piracy_t: "海賊行為はアニメクリエイターや制作スタジオに重大な損害を与えます。本サービスでは動画ファイル（mp4、mkv）や音声データのホスティング・配信は一切行っていません。テキスト字幕のみを提供します。正規の配信プラットフォーム（Crunchyroll、Netflix、Ani-One等）をご利用いただき、アニメ産業を応援してください！",
         endpoints_title: "主要APIエンドポイント",
         endpoints_desc: "認証不要（No Auth）、レート制限なし、CORS完全対応、グローバルエッジCDN配信。",
-        ep1_desc: "全500作品のカタログ（スラッグ、多言語タイトル、話数、ジャンル、AniList高画質画像等）を取得します。",
+        ep1_desc: "全1,200作品のカタログ（スラッグ、多言語タイトル、話数、ジャンル、AniList高画質画像等）を取得します。",
         ep2_desc: "指定した作品（例：frieren、solo-leveling等）の詳細メタデータ、あらすじ、各話リストを取得します。",
         ep3_desc: "jsDelivrグローバルCDN経由で各話の字幕ファイル（.srt, .vtt, .ass）を直接取得します。",
         web_title: "ウェブサイトへの統合 (Web Integration)",

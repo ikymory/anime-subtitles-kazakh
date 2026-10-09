@@ -3,23 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 09.ja.cc
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:23.87,0:00:24.87,Default,,0,0,0,,Ах...
 Dialogue: 0,0:00:26.91,0:00:27.83,Default,,0,0,0,,А?
@@ -171,7 +165,7 @@ Dialogue: 0,0:13:13.00,0:13:14.54,Default,,0,0,0,,Анна күтіңіз!
 Dialogue: 0,0:13:15.83,0:13:19.41,Default,,0,0,0,,Не? Бұл балалар қандай? (Ұшып) Сәл күте тұрыңыз...
 Dialogue: 0,0:13:22.83,0:13:23.87,Default,,0,0,0,,А?
 Dialogue: 0,0:13:25.87,0:13:26.70,Default,,0,0,0,,Сәлем...
-Dialogue: 0,0:13:35.08,0:13:37.66,Default,,0,0,0,,О? Не... Эй...
+Dialogue: 0,0:13:35.08,0:13:37.66,Default,,0,0,0,,О? Жоқ... Эй...
 Dialogue: 0,0:13:37.75,0:13:40.04,Default,,0,0,0,,Бұл Хупи таразысы!
 Dialogue: 0,0:13:43.79,0:13:45.91,Default,,0,0,0,,Міне, жұмыс орындалды.
 Dialogue: 0,0:13:53.75,0:13:55.75,Default,,0,0,0,,Мына балалар қандай? (Шыбынды тышқан) Очочо...

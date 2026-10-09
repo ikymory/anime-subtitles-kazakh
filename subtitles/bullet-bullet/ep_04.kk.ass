@@ -3,22 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 04.ja
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:04.37,0:00:07.04,Default,,0,0,0,,Мені дұрыс қорғағаныңыз үшін рахмет.
 Dialogue: 0,0:00:07.38,0:00:08.38,Default,,0,0,0,,Мені тыңда!
@@ -213,13 +208,13 @@ Dialogue: 0,0:10:15.78,0:10:17.28,Default,,0,0,0,,Өзіңізге қажеті�
 Dialogue: 0,0:10:17.40,0:10:18.99,Default,,0,0,0,,- (Ақ аю таяқшасы) О - Өтірік айтып тұрсың ғой?
 Dialogue: 0,0:10:19.11,0:10:21.24,Default,,0,0,0,,Бұл керемет, әжем.
 Dialogue: 0,0:10:21.78,0:10:23.24,Default,,0,0,0,,Itadakimasu!
-Dialogue: 0,0:10:23.74,0:10:25.58,Default,,0,0,0,,Нггаааааааааааааааааааа! Уфуфуфуфу
+Dialogue: 0,0:10:23.74,0:10:25.58,Default,,0,0,0,,Нггаа! Уфуфуфуфу
 Dialogue: 0,0:10:25.70,0:10:26.79,Default,,0,0,0,,Хмм...
 Dialogue: 0,0:10:28.83,0:10:31.96,Default,,0,0,0,,Ой, мен жасадым, енді менде аллергия бар ма?
 Dialogue: 0,0:10:29.33,0:10:30.29,Default,,0,0,0,,Уф
 Dialogue: 0,0:10:30.42,0:10:31.96,Default,,0,0,0,,(кеспенің шырылдаған дыбысы)
 Dialogue: 0,0:10:32.54,0:10:34.38,Default,,0,0,0,,Жоқ, ұқсайды
-Dialogue: 0,0:10:32.54,0:10:36.67,Default,,0,0,0,,Ммммммммммммм...
+Dialogue: 0,0:10:32.54,0:10:36.67,Default,,0,0,0,,Ммм...
 Dialogue: 0,0:10:34.50,0:10:37.97,Default,,0,0,0,,Бұл қоректік заттарға толы болса да, мәселе.
 Dialogue: 0,0:10:36.80,0:10:38.80,Default,,0,0,0,,Өйткені, әжем жасаған тағам
 Dialogue: 0,0:10:38.09,0:10:40.30,Default,,0,0,0,,Не ұстанып жейсің, не аузыңа тығып жіберемін.
@@ -485,7 +480,7 @@ Dialogue: 0,0:23:00.54,0:23:02.17,Default,,0,0,0,,Ой...
 Dialogue: 0,0:23:03.13,0:23:07.88,Default,,0,0,0,,Қашқаннан қалағаныңа жете алмайсың.
 Dialogue: 0,0:23:08.26,0:23:09.88,Default,,0,0,0,,Уф... уф!
 Dialogue: 0,0:23:12.22,0:23:14.01,Default,,0,0,0,,Кукку... уф
-Dialogue: 0,0:23:14.14,0:23:17.27,Default,,0,0,0,,Ааааааааааааааа!
+Dialogue: 0,0:23:14.14,0:23:17.27,Default,,0,0,0,,Ааа!
 Dialogue: 0,0:23:17.43,0:23:18.52,Default,,0,0,0,,(Мылтықтың ағытылған дыбысы)
 Dialogue: 0,0:23:23.36,0:23:24.90,Default,,0,0,0,,Қатты жақын қашықтықтағы шайқаста ол дерлік ешқандай осал тұс қалдырмайды—
 Dialogue: 0,0:23:29.28,0:23:32.45,Default,,0,0,0,,Олар өлтіруге тұрмайтын жәндіктер сияқты.

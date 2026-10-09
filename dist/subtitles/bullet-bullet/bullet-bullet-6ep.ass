@@ -3,22 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 06.ja
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Trebuchet MS,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:03.12,0:00:05.17,Default,,0,0,0,,Оны мұқият ұстаңыз!
 Dialogue: 0,0:00:05.46,0:00:08.05,Default,,0,0,0,,Жаңадан тазартылған пісірілген жұмыртқа сияқты!
@@ -66,7 +61,7 @@ Dialogue: 0,0:03:26.20,0:03:30.33,Default,,0,0,0,,Осы уақытқа дейі
 Dialogue: 0,0:03:31.00,0:03:32.75,Default,,0,0,0,,үшін? Ах
 Dialogue: 0,0:03:36.67,0:03:38.34,Default,,0,0,0,,Мылтық тым көп
 Dialogue: 0,0:03:38.59,0:03:40.76,Default,,0,0,0,,Міне, сіз аранжировкаларды өзгерттіңіз, солай ма?
-Dialogue: 0,0:03:40.88,0:03:44.30,Default,,0,0,0,,Бұл қиын болды, сондықтан...
+Dialogue: 0,0:03:40.88,0:03:44.30,Default,,0,0,0,,Бұл мәселе болды, сондықтан...
 Dialogue: 0,0:03:40.88,0:03:44.30,Default,,0,0,0,,Ах... мм...
 Dialogue: 0,0:03:45.10,0:03:47.89,Default,,0,0,0,,Мен сізге астанада инсайдер бар дедім.
 Dialogue: 0,0:03:45.97,0:03:46.97,Default,,0,0,0,,Ах
@@ -182,7 +177,7 @@ Dialogue: 0,0:09:36.20,0:09:38.82,Default,,0,0,0,,3 2 1 Аю!
 Dialogue: 0,0:09:38.95,0:09:40.78,Default,,0,0,0,,Хо!
 Dialogue: 0,0:09:40.91,0:09:43.04,Default,,0,0,0,,Ооо!
 Dialogue: 0,0:09:43.54,0:09:46.12,Default,,0,0,0,,Жарайсың ба? Сіз осылай жейсіз ...
-Dialogue: 0,0:09:46.25,0:09:50.34,Default,,0,0,0,,Хаха! Нггггггггггг
+Dialogue: 0,0:09:46.25,0:09:50.34,Default,,0,0,0,,Хаха! Нгг
 Dialogue: 0,0:09:50.46,0:09:52.67,Default,,0,0,0,,Өте дәмді! Хаха!
 Dialogue: 0,0:09:51.71,0:09:52.67,Default,,0,0,0,,Ах...
 Dialogue: 0,0:09:52.80,0:09:55.38,Default,,0,0,0,,Хехе, бұл жақсы, Gear.
@@ -297,7 +292,7 @@ Dialogue: 0,0:15:03.94,0:15:06.44,Default,,0,0,0,,Мен үшін аю аю ед
 Dialogue: 0,0:15:06.57,0:15:09.95,Default,,0,0,0,,Қазір бәрі дұрыс емес деп өзіңізді мазақ етпеңіз!
 Dialogue: 0,0:15:10.66,0:15:16.66,Default,,0,0,0,,Уф... бұлай ашуланбау керек.
 Dialogue: 0,0:15:16.79,0:15:17.79,Default,,0,0,0,,Дұрыс па?
-Dialogue: 0,0:15:18.25,0:15:19.37,Default,,0,0,0,,Сонымен қатар, Yoshida Productions Яиді Yotsuba-ның талисманы ретінде насихаттап жатыр.
+Dialogue: 0,0:15:18.25,0:15:19.37,Default,,0,0,0,,соңғы қатар, Yoshida Productions Яиді Yotsuba-ның талисманы ретінде насихаттап жатыр.
 Dialogue: 0,0:15:19.50,0:15:23.29,Default,,0,0,0,,Әйелің мен бала-шағаң сенімен бірге қашатыны заңды ғой, ақымақ.
 Dialogue: 0,0:15:23.67,0:15:24.92,Default,,0,0,0,,Иә?
 Dialogue: 0,0:15:25.04,0:15:29.05,Default,,0,0,0,,Менің ойымша, Гир өтірік айтқанына ашулы.
@@ -346,7 +341,7 @@ Dialogue: 0,0:18:11.34,0:18:17.38,Default,,0,0,0,,Әрине, үкімет мұ�
 Dialogue: 0,0:18:17.80,0:18:18.80,Default,,0,0,0,,Иә?
 Dialogue: 0,0:18:20.60,0:18:21.76,Default,,0,0,0,,Маған еріңіз
 Dialogue: 0,0:18:24.02,0:18:25.56,Default,,0,0,0,,Өнеркәсіптік аймақ
-Dialogue: 0,0:18:25.81,0:18:29.52,Default,,0,0,0,,Барлығы автоматтандырылған және азаматтарға кіруге рұқсат етілмейді.
+Dialogue: 0,0:18:25.81,0:18:29.52,Default,,0,0,0,,үшін автоматтандырылған және азаматтарға кіруге рұқсат етілмейді.
 Dialogue: 0,0:18:30.98,0:18:32.19,Default,,0,0,0,,(лифт қоңырауы)
 Dialogue: 0,0:18:33.48,0:18:34.53,Default,,0,0,0,,Мен күткендей, Джозефтің қаны араласып жатыр.
 Dialogue: 0,0:18:40.16,0:18:44.62,Default,,0,0,0,,(баспалдақпен жүру дыбысы)

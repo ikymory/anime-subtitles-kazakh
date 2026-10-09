@@ -3,23 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 03.ja.cc
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:16.04,0:00:21.08,Default,,0,0,0,,(сағаттың секунд тілінің дыбысы)
 Dialogue: 0,0:00:21.16,0:00:22.08,Default,,0,0,0,,Сіз...
@@ -38,7 +32,7 @@ Dialogue: 0,0:02:33.45,0:02:35.33,Default,,0,0,0,,Топырақты жерге 
 Dialogue: 0,0:02:35.83,0:02:38.20,Default,,0,0,0,,Құндылық! (Кенто) Ана, тіркеме сұра!
 Dialogue: 0,0:02:38.29,0:02:39.87,Default,,0,0,0,,Сіз! Құн?
 Dialogue: 0,0:02:39.95,0:02:42.37,Default,,0,0,0,,Вару Вару Вару Вару…
-Dialogue: 0,0:02:50.83,0:02:53.16,Default,,0,0,0,,Варуууууууууу!
+Dialogue: 0,0:02:50.83,0:02:53.16,Default,,0,0,0,,Варуу!
 Dialogue: 0,0:02:55.87,0:02:58.50,Default,,0,0,0,,Вару! Балу...!
 Dialogue: 0,0:02:59.41,0:03:00.95,Default,,0,0,0,,Мен саған рұқсат бермеймін!
 Dialogue: 0,0:03:01.04,0:03:02.37,Default,,0,0,0,,Вару!
@@ -51,7 +45,7 @@ Dialogue: 0,0:03:30.00,0:03:31.37,Default,,0,0,0,,Ах!
 Dialogue: 0,0:03:31.45,0:03:33.50,Default,,0,0,0,,Вару! тесік!
 Dialogue: 0,0:03:33.58,0:03:34.79,Default,,0,0,0,,Мән
 Dialogue: 0,0:03:36.50,0:03:38.25,Default,,0,0,0,,Вару? Құн?
-Dialogue: 0,0:03:39.33,0:03:41.04,Default,,0,0,0,,Не... мына жігіт! тесік!
+Dialogue: 0,0:03:39.33,0:03:41.04,Default,,0,0,0,,Жоқ... мына жігіт! тесік!
 Dialogue: 0,0:03:41.12,0:03:42.25,Default,,0,0,0,,Не?
 Dialogue: 0,0:03:42.33,0:03:43.37,Default,,0,0,0,,Біреудің шайқасып жатқан даусы естіледі.
 Dialogue: 0,0:03:48.41,0:03:49.41,Default,,0,0,0,,Ана!
@@ -249,7 +243,7 @@ Dialogue: 0,0:18:39.29,0:18:41.12,Default,,0,0,0,,Не болды?
 Dialogue: 0,0:18:43.20,0:18:45.79,Default,,0,0,0,,Жарайды, бұл кішкентай жын ғой.
 Dialogue: 0,0:19:28.79,0:19:31.25,Default,,0,0,0,,Кирикиру Кирукиру…
 Dialogue: 0,0:19:36.66,0:19:40.37,Default,,0,0,0,,Кирикиру Кирукиру…
-Dialogue: 0,0:19:42.04,0:19:43.58,Default,,0,0,0,,Кяаааааааааа!
+Dialogue: 0,0:19:42.04,0:19:43.58,Default,,0,0,0,,Кяаа!
 Dialogue: 0,0:19:47.66,0:19:49.66,Default,,0,0,0,,♪～
 Dialogue: 0,0:22:12.00,0:22:14.00,Default,,0,0,0,,～♪
 Dialogue: 0,0:22:15.50,0:22:21.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\NБарлық құқықтары қорғалған • github.com/ikymory

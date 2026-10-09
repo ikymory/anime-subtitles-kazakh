@@ -3,23 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 02.ja.cc
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:23.95,0:00:25.75,Default,,0,0,0,,Бұл да жаман ба?
 Dialogue: 0,0:00:29.79,0:00:33.00,Default,,0,0,0,,Ішімізге терең үңілейік. Жейтін бірдеңе болуы мүмкін.
@@ -48,7 +42,7 @@ Dialogue: 0,0:03:09.20,0:03:11.91,Default,,0,0,0,,Жабық! Анна өтін�
 Dialogue: 0,0:03:13.83,0:03:15.04,Default,,0,0,0,,Ах!
 Dialogue: 0,0:03:15.54,0:03:16.83,Default,,0,0,0,,Би...
 Dialogue: 0,0:03:20.70,0:03:21.79,Default,,0,0,0,,Цукиюби
-Dialogue: 0,0:03:23.29,0:03:26.91,Default,,0,0,0,,Хаааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа
+Dialogue: 0,0:03:23.29,0:03:26.91,Default,,0,0,0,,Хаа
 Dialogue: 0,0:03:31.33,0:03:37.70,Default,,0,0,0,,Канагава
 Dialogue: 0,0:03:59.95,0:04:01.12,Default,,0,0,0,,Сіз!
 Dialogue: 0,0:04:08.50,0:04:12.08,Default,,0,0,0,,Кешегі отты өшіргеніме қуаныштымын.
@@ -222,7 +216,7 @@ Dialogue: 0,0:14:53.75,0:14:55.87,Default,,0,0,0,,Урага-сан! Сен не
 Dialogue: 0,0:14:58.75,0:15:00.08,Default,,0,0,0,,Вару!
 Dialogue: 0,0:15:11.04,0:15:11.95,Default,,0,0,0,,Барон!
 Dialogue: 0,0:15:12.04,0:15:13.08,Default,,0,0,0,,Вару!
-Dialogue: 0,0:15:13.16,0:15:15.29,Default,,0,0,0,,Осыншама қиналғаның үшін рахмет. Рақмет.
+Dialogue: 0,0:15:13.16,0:15:15.29,Default,,0,0,0,,Осыншама қиналғаның үшін рахмет. Рахмет.
 Dialogue: 0,0:15:43.16,0:15:44.29,Default,,0,0,0,,Val...
 Dialogue: 0,0:15:50.87,0:15:52.12,Default,,0,0,0,,Руруу...
 Dialogue: 0,0:15:53.04,0:15:53.91,Default,,0,0,0,,Әрине, оны есінен тандырып тастаған дұрыс қой?
@@ -248,7 +242,7 @@ Dialogue: 0,0:17:19.95,0:17:20.70,Default,,0,0,0,,Мән
 Dialogue: 0,0:17:20.79,0:17:22.87,Default,,0,0,0,,Варуу...!
 Dialogue: 0,0:17:29.75,0:17:31.20,Default,,0,0,0,,Келесі жолы жақсырақ әрекет етіңіз
 Dialogue: 0,0:17:32.00,0:17:34.00,Default,,0,0,0,,Айналма жолмен жүріп, басқа көпірді табыңыз
-Dialogue: 0,0:17:37.91,0:17:39.29,Default,,0,0,0,,Varu…ru…
+Dialogue: 0,0:17:37.91,0:17:39.29,Default,,0,0,0,,...
 Dialogue: 0,0:17:47.54,0:17:49.20,Default,,0,0,0,,Бүгін күн суық.
 Dialogue: 0,0:17:49.95,0:17:50.62,Default,,0,0,0,,А...
 Dialogue: 0,0:17:50.70,0:17:54.33,Default,,0,0,0,,Мен отқа қыздырғым келеді, бірақ мен шыдамды болуым керек.

@@ -3,23 +3,17 @@
 ; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
 Title: Kazakh Subtitles by ikymory
 Original Translation: ikymory
-Title: [Erai-raws] 08 .ja
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1280
-PlayResY: 720
-Video Zoom Percent: 1
-Scroll Position: 0
-Active Line: 0
 ScaledBorderAndShadow: yes
+YCbCr Matrix: None
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,10,10,15,1
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
-Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
-
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
 Dialogue: 0,0:00:09.13,0:00:09.96,Default,,0,0,0,,Ах...
 Dialogue: 0,0:00:23.39,0:00:25.98,Default,,0,0,0,,Стандартты мән өшірілді. Сіз масканы алып тастай аласыз.
@@ -50,7 +44,7 @@ Dialogue: 0,0:01:36.26,0:01:38.84,Default,,0,0,0,,Алайда, екінші ж�
 Dialogue: 0,0:01:38.97,0:01:41.97,Default,,0,0,0,,Сіз кесіп өткеннен кейін аман-есен оралатыныңызға кепілдік жоқ.
 Dialogue: 0,0:01:42.10,0:01:42.93,Default,,0,0,0,,Хома...
 Dialogue: 0,0:01:43.06,0:01:46.14,Default,,0,0,0,,Мен мұнда өмір сүру үшін ақша табу үшін келдім!
-Dialogue: 0,0:01:46.27,0:01:47.69,Default,,0,0,0,,Не? Барлығы да
+Dialogue: 0,0:01:46.27,0:01:47.69,Default,,0,0,0,,Не? үшін да
 Dialogue: 0,0:01:47.81,0:01:50.36,Default,,0,0,0,,Тірі қайтып келмейтін мәселе емес пе?
 Dialogue: 0,0:01:50.48,0:01:52.32,Default,,0,0,0,,Әсіресе бұл миссия болғандықтан.
 Dialogue: 0,0:01:52.77,0:01:54.90,Default,,0,0,0,,Маяк Мен оны табуым керек
@@ -212,7 +206,7 @@ Dialogue: 0,0:10:33.09,0:10:35.42,Default,,0,0,0,,Бірақ ол екі ада�
 Dialogue: 0,0:10:35.55,0:10:39.01,Default,,0,0,0,,Бұл жағдайда аман қалу үшін қарсыласыңызды тақтадан итеріңіз.
 Dialogue: 0,0:10:39.13,0:10:41.68,Default,,0,0,0,,Біреудің суға батып сықырлауына жол беруге бола ма?
 Dialogue: 0,0:10:41.89,0:10:43.18,Default,,0,0,0,,Сіздің жауабыңыз қандай?
-Dialogue: 0,0:10:44.97,0:10:46.68,Default,,0,0,0,,Барлығын итеріп жіберіңіз
+Dialogue: 0,0:10:44.97,0:10:46.68,Default,,0,0,0,,үшінн итеріп жіберіңіз
 Dialogue: 0,0:10:47.93,0:10:48.93,Default,,0,0,0,,Мен...
 Dialogue: 0,0:10:50.60,0:10:52.19,Default,,0,0,0,,Күш! Исана!
 Dialogue: 0,0:10:52.40,0:10:53.56,Default,,0,0,0,,Чи…
@@ -223,7 +217,7 @@ Dialogue: 0,0:11:13.83,0:11:15.67,Default,,0,0,0,,Мен сені итеріп �
 Dialogue: 0,0:11:16.63,0:11:17.92,Default,,0,0,0,,Кенеттен не болды?
 Dialogue: 0,0:11:18.30,0:11:19.84,Default,,0,0,0,,Алдыңғы жауап
 Dialogue: 0,0:11:20.13,0:11:23.72,Default,,0,0,0,,Өйткені біз гемиттік бірлікпіз және өлмейміз.
-Dialogue: 0,0:11:23.89,0:11:26.56,Default,,0,0,0,,Барлығына аман қалудың жолын табыңыз
+Dialogue: 0,0:11:23.89,0:11:26.56,Default,,0,0,0,,үшінна аман қалудың жолын табыңыз
 Dialogue: 0,0:11:29.77,0:11:30.81,Default,,0,0,0,,Ол өзгерген жоқ
 Dialogue: 0,0:11:31.27,0:11:32.23,Default,,0,0,0,,Не?
 Dialogue: 0,0:11:32.35,0:11:34.48,Default,,0,0,0,,Шулы, сен кедергісің, жолдан кет.
@@ -270,7 +264,7 @@ Dialogue: 0,0:13:50.41,0:13:51.45,Default,,0,0,0,,Ах...
 Dialogue: 0,0:13:53.58,0:13:55.87,Default,,0,0,0,,Мен оны қабылдай алмаймын.
 Dialogue: 0,0:14:00.25,0:14:02.88,Default,,0,0,0,,Empress кодын жаңарту қатесі
 Dialogue: 0,0:14:03.00,0:14:05.05,Default,,0,0,0,,Empress кодын жаңарту қатесі
-Dialogue: 0,0:14:05.71,0:14:10.05,Default,,0,0,0,,Empress кодын жаңарту қатесі Empress коды…
+Dialogue: 0,0:14:05.71,0:14:10.05,Default,,0,0,0,,Императрица кодын қатесі Императрица коды…
 Dialogue: 0,0:14:13.43,0:14:14.81,Default,,0,0,0,,Енді сіз өзіңізді еркін сезінесіз.
 Dialogue: 0,0:14:22.57,0:14:24.07,Default,,0,0,0,,Жан тыныштығы...
 Dialogue: 0,0:14:24.32,0:14:25.65,Default,,0,0,0,,Мүмкін емес!
@@ -306,7 +300,7 @@ Dialogue: 0,0:15:55.16,0:15:56.66,Default,,0,0,0,,О, рахмет.
 Dialogue: 0,0:15:56.78,0:15:57.62,Default,,0,0,0,,Ах...
 Dialogue: 0,0:16:00.62,0:16:02.46,Default,,0,0,0,,ше? Сен не істеп жатырсың?
 Dialogue: 0,0:16:02.83,0:16:06.21,Default,,0,0,0,,Мен өміріме өкінемін. Мен мұны алып қашып кетемін деп ойлаймын.
-Dialogue: 0,0:16:08.59,0:16:09.96,Default,,0,0,0,,…
+Dialogue: 0,0:16:08.59,0:16:09.96,Default,,0,0,0,,...
 Dialogue: 0,0:16:11.55,0:16:14.34,Default,,0,0,0,,Менен осылай жоғалып кетуді жоспарлап отырсыз ба?
 Dialogue: 0,0:16:18.89,0:16:21.43,Default,,0,0,0,,Менің өмірім ұзақ емес
 Dialogue: 0,0:16:21.56,0:16:23.64,Default,,0,0,0,,Сондықтан мен қармақпын
@@ -377,7 +371,7 @@ Dialogue: 0,0:21:01.05,0:21:04.09,Default,,0,0,0,,Мен бәрін бірден
 Dialogue: 0,0:21:04.97,0:21:07.34,Default,,0,0,0,,Күтпеген қиыншылықтар болды.
 Dialogue: 0,0:21:07.47,0:21:09.85,Default,,0,0,0,,Жоспар бойынша Темір теңізінен өтті.
 Dialogue: 0,0:21:10.18,0:21:11.77,Default,,0,0,0,,Уәде етілген сыйлық.
-Dialogue: 0,0:21:14.64,0:21:16.23,Default,,0,0,0,,Барлығы осы ма?
+Dialogue: 0,0:21:14.64,0:21:16.23,Default,,0,0,0,,үшін осы ма?
 Dialogue: 0,0:21:16.81,0:21:21.23,Default,,0,0,0,,Бұл қауіпті төлем. Сондай-ақ өтемақы алуға құқығы бар.
 Dialogue: 0,0:21:24.15,0:21:24.99,Default,,0,0,0,,Ха…
 Dialogue: 0,0:21:25.40,0:21:27.49,Default,,0,0,0,,Сан-Диего елді мекені…
