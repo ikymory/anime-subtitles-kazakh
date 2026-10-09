@@ -14,7 +14,7 @@ ScaledBorderAndShadow: yes
 Video Aspect Ratio: 0
 Video Zoom: 8
 YCbCr Matrix: TV.709
-Original Timing: 宋宋
+Original Timing:
 
 [Aegisub Project Garbage]
 Export Encoding: Unicode (UTF-8)
@@ -29,90 +29,90 @@ Video Position: 105759
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: staff 方正正黑,方正正黑简体,65,&H00565B07,&H000000FF,&H32FEFEFE,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,23,23,23,1
+Style: staff ,Default,65,&H00565B07,&H000000FF,&H32FEFEFE,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,23,23,23,1
 Style: TEXT jp A-OTF Shin Maru Go Pro DB,A-OTF Shin Maru Go Pro DB,66,&H00FFFFFF,&H000000FF,&H00671AE6,&H78000000,-1,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
-Style: TEXT cn 方正粗圆_GBK,方正粗圆_GBK,66,&H00FFFFFF,&H000000FF,&H00671AE6,&H78000000,0,0,0,0,100,100,0,0,1,3.4,0,2,15,15,69,1
-Style: NOTES 方正北魏楷书_GBK,方正粗圆_GBK,51,&H00E8E8F5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,2.1,0,7,15,15,15,1
-Style: OTHERS 方正正准黑_GBK,方正正准黑_GBK,63,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,6,0,1,3,0,2,0,0,3,134
+Style: TEXT cn _GBK,_GBK,66,&H00FFFFFF,&H000000FF,&H00671AE6,&H78000000,0,0,0,0,100,100,0,0,1,3.4,0,2,15,15,69,1
+Style: NOTES _GBK,_GBK,51,&H00E8E8F5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,2.1,0,7,15,15,15,1
+Style: OTHERS _GBK,_GBK,63,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,6,0,1,3,0,2,0,0,3,134
 Style: 22-jp A-OTF Kumoya Std R,A-OTF Kumoya Std R,75,&H00E7E7F4,&H000000FF,&H0053B3D5,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,9,15,15,23,1
 Style: 35 jp A-OTF Shin Maru Go Pro DB,A-OTF Shin Maru Go Pro DB,69,&H00FFFFFF,&H000000FF,&H009D65E0,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,2,15,15,20,1
 Style: 43 jp A-OTF Folk Pro B,A-OTF Folk Pro B,75,&H00E8E8F5,&H000000FF,&H00290DBB,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,15,15,23,1
 Style: 71 jp A-OTF Kakumin Pro B,A-OTF Kakumin Pro B,75,&H00FFFFFF,&H000000FF,&H00737B7E,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,9,15,15,23,1
 Style: 86 jp A-OTF Shin Maru Go Pro DB,A-OTF Shin Maru Go Pro DB,75,&H00FFFFFF,&H000000FF,&H000F76F6,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,2,15,15,20,1
 Style: 94 jp G-OTF Kyoukasho ICA Pro M,G-OTF Kyoukasho ICA Pro M,75,&H00FFFFFF,&H000000FF,&H008978E0,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,3,23,23,23,1
-Style: 60 方正北魏楷书_GBK,方正北魏楷书_GBK,75,&H00FFFFFF,&H000000FF,&H00D87B3E,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,9,23,23,23,1
+Style: 60 _GBK,_GBK,75,&H00FFFFFF,&H000000FF,&H00D87B3E,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,9,23,23,23,1
 Style: 71 jp @A-OTF Kakumin Pro B - ed,@A-OTF Kakumin Pro B,66,&H00FFFFFF,&H000000FF,&H002B352C,&H00727A7D,-1,0,0,0,100,100,0,0,1,1.5,2.25,7,75,15,15,1
-Style: 35 cn 方正粗圆_GBK,方正粗圆_GBK,66,&H00FFFFFF,&H000000FF,&H009D65E0,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,15,15,20,1
+Style: 35 cn _GBK,_GBK,66,&H00FFFFFF,&H000000FF,&H009D65E0,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:25.98,0:00:25.98,staff 方正正黑,,0,0,0,,LoveLive
-Comment: 0,0:00:25.98,0:00:25.98,22-jp A-OTF Kumoya Std R,,0,0,0,,Hello,星を数えて
+; Comment: 0,0:00:25.98,0:00:25.98,staff ,,0,0,0,,LoveLive
+; Comment: 0,0:00:25.98,0:00:25.98,22-jp A-OTF Kumoya Std R,,0,0,0,,Hello,
 Comment: 0,0:00:25.98,0:00:25.98,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Angelic Angel
 Comment: 0,0:00:25.98,0:00:25.98,43 jp A-OTF Folk Pro B,,0,0,0,,Heartbeat
 Comment: 0,0:00:25.98,0:00:25.98,71 jp A-OTF Kakumin Pro B,,0,0,0,,Future style
 Comment: 0,0:00:25.98,0:00:25.98,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Sunny Day Song
-Comment: 0,0:00:25.98,0:00:25.98,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,僕たちはひとつの光
-Comment: 0,0:00:25.98,0:00:25.98,60 方正北魏楷书_GBK,,0,0,0,,
-Comment: 0,0:55:58.63,0:55:58.63,60 方正北魏楷书_GBK,,0,0,0,,
+; Comment: 0,0:00:25.98,0:00:25.98,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,
+; Comment: 0,0:00:25.98,0:00:25.98,60 _GBK,,0,0,0,,
+; Comment: 0,0:55:58.63,0:55:58.63,60 _GBK,,0,0,0,,
 Comment: 0,0:00:25.98,0:00:25.98,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,jp
 Comment: 0,0:42:23.79,0:42:24.53,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5}μ's
 Comment: 0,1:00:28.69,1:00:29.41,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5}μ's
 Comment: 0,1:13:29.39,1:13:31.10,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5}One Two Three Four
 Comment: 0,1:13:31.32,1:13:33.03,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5}Five Six Seven Eight
 Comment: 0,1:34:27.32,1:34:28.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5}μ's
-Comment: 0,0:00:33.87,0:00:35.87,TEXT cn 方正粗圆_GBK,,0,0,0,,CN
+; Comment: 0,0:00:33.87,0:00:35.87,TEXT cn _GBK,,0,0,0,,CN
 Comment: 0,0:00:00.00,0:00:00.00,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,
 
 Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
-Dialogue: 0,0:03:54.92,0:03:55.25,staff 方正正黑,,0,0,0,,...
-Dialogue: 0,0:03:54.92,0:03:55.25,staff 方正正黑,,0,0,0,,Юка ген
-Dialogue: 0,0:03:55.26,0:03:59.17,staff 方正正黑,,0,0,0,,...
-Dialogue: 0,0:03:55.26,0:03:59.17,staff 方正正黑,,0,0,0,,Юка ген
-Dialogue: 0,0:03:54.92,0:03:55.25,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:03:54.92,0:03:55.25,staff 方正正黑,,0,0,0,,Кана Ханазай Дайгун
-Dialogue: 0,0:03:55.26,0:03:59.17,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:03:55.26,0:03:59.17,staff 方正正黑,,0,0,0,,Кана Ханазаки Дайгун
-Dialogue: 0,0:04:04.14,0:04:04.47,staff 方正正黑,,0,0,0,,...
-Dialogue: 0,0:04:04.14,0:04:04.47,staff 方正正黑,,0,0,0,,Төмен тон TAO
-Dialogue: 0,0:04:04.47,0:04:08.22,staff 方正正黑,,0,0,0,,...
-Dialogue: 0,0:04:04.47,0:04:08.22,staff 方正正黑,,0,0,0,,Төмен дыбысты бала ТАО
-Dialogue: 0,0:04:04.14,0:04:04.47,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:04:04.14,0:04:04.47,staff 方正正黑,,0,0,0,,Майя Эксиакун
-Dialogue: 0,0:04:04.47,0:04:08.22,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:04:04.47,0:04:08.22,staff 方正正黑,,0,0,0,,Майя Эксиакун
-Dialogue: 0,0:04:17.36,0:04:17.69,staff 方正正黑,,0,0,0,,...
-Dialogue: 0,0:04:17.36,0:04:17.69,staff 方正正黑,,0,0,0,,Кейінгі әңгіме
-Dialogue: 0,0:04:17.69,0:04:21.49,staff 方正正黑,,0,0,0,,...
-Dialogue: 0,0:04:17.69,0:04:21.49,staff 方正正黑,,0,0,0,,Кейінгі әңгіме
-Dialogue: 0,0:04:17.36,0:04:17.69,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:04:17.36,0:04:17.69,staff 方正正黑,,0,0,0,,Джин араши
-Dialogue: 0,0:04:17.69,0:04:21.49,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:04:17.69,0:04:21.49,staff 方正正黑,,0,0,0,,Джин араши
-Dialogue: 0,0:04:44.43,0:04:44.76,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:04:44.43,0:04:44.76,staff 方正正黑,,0,0,0,,Хики Комори
-Dialogue: 0,0:04:44.76,0:04:48.51,staff 方正正黑,,0,0,0,,Аударма
-Dialogue: 0,0:04:44.76,0:04:48.51,staff 方正正黑,,0,0,0,,Хики Комори
-Dialogue: 0,0:04:44.43,0:04:44.76,staff 方正正黑,,0,0,0,,Мектеп
-Dialogue: 0,0:04:44.43,0:04:44.76,staff 方正正黑,,0,0,0,,Анонимді Сузука
-Dialogue: 0,0:04:44.76,0:04:48.51,staff 方正正黑,,0,0,0,,Мектеп
-Dialogue: 0,0:04:44.76,0:04:48.51,staff 方正正黑,,0,0,0,,Анонимді данышпан
-Dialogue: 0,0:04:52.43,0:04:52.77,staff 方正正黑,,0,0,0,,уақыт
-Dialogue: 0,0:04:52.43,0:04:52.77,staff 方正正黑,,0,0,0,,Аспанның жіптерін үзу
-Dialogue: 0,0:04:52.43,0:04:52.77,staff 方正正黑,,0,0,0,,Ән әулеті
-Dialogue: 0,0:04:52.77,0:04:56.52,staff 方正正黑,,0,0,0,,уақыт
-Dialogue: 0,0:04:52.77,0:04:56.52,staff 方正正黑,,0,0,0,,Аспанның жіптерін үзу
-Dialogue: 0,0:04:52.77,0:04:56.52,staff 方正正黑,,0,0,0,,Ән әулеті
-Dialogue: 0,0:05:12.95,0:05:13.29,staff 方正正黑,,0,0,0,,Жапондық жүйе
-Dialogue: 0,0:05:12.95,0:05:13.29,staff 方正正黑,,0,0,0,,Өзен крабы
-Dialogue: 0,0:05:13.29,0:05:17.04,staff 方正正黑,,0,0,0,,Жапондық жүйе
-Dialogue: 0,0:05:13.29,0:05:17.04,staff 方正正黑,,0,0,0,,Өзен крабы
-Dialogue: 0,0:05:28.05,0:05:28.34,staff 方正正黑,,0,0,0,,Ағылшын тілі жүйесі
-Dialogue: 0,0:05:28.05,0:05:28.34,staff 方正正黑,,0,0,0,,Фантом субтитрлер жұбы
-Dialogue: 0,0:05:28.05,0:05:28.34,staff 方正正黑,,0,0,0,,Құдайдың субтитр жұбы
-Dialogue: 0,0:05:28.34,0:05:32.35,staff 方正正黑,,0,0,0,,Ағылшын тілі жүйесі
-Dialogue: 0,0:05:28.34,0:05:32.35,staff 方正正黑,,0,0,0,,Фантом субтитрлер жұбы
-Dialogue: 0,0:05:28.34,0:05:32.35,staff 方正正黑,,0,0,0,,Құдайдың субтитр жұбы
+Dialogue: 0,0:03:54.92,0:03:55.25,Default,,0,0,0,,...
+Dialogue: 0,0:03:54.92,0:03:55.25,Default,,0,0,0,,Юка ген
+Dialogue: 0,0:03:55.26,0:03:59.17,Default,,0,0,0,,...
+Dialogue: 0,0:03:55.26,0:03:59.17,Default,,0,0,0,,Юка ген
+Dialogue: 0,0:03:54.92,0:03:55.25,Default,,0,0,0,,Аударма
+Dialogue: 0,0:03:54.92,0:03:55.25,Default,,0,0,0,,Кана Ханазай Дайгун
+Dialogue: 0,0:03:55.26,0:03:59.17,Default,,0,0,0,,Аударма
+Dialogue: 0,0:03:55.26,0:03:59.17,Default,,0,0,0,,Кана Ханазаки Дайгун
+Dialogue: 0,0:04:04.14,0:04:04.47,Default,,0,0,0,,...
+Dialogue: 0,0:04:04.14,0:04:04.47,Default,,0,0,0,,Төмен тон TAO
+Dialogue: 0,0:04:04.47,0:04:08.22,Default,,0,0,0,,...
+Dialogue: 0,0:04:04.47,0:04:08.22,Default,,0,0,0,,Төмен дыбысты бала ТАО
+Dialogue: 0,0:04:04.14,0:04:04.47,Default,,0,0,0,,Аударма
+Dialogue: 0,0:04:04.14,0:04:04.47,Default,,0,0,0,,Майя Эксиакун
+Dialogue: 0,0:04:04.47,0:04:08.22,Default,,0,0,0,,Аударма
+Dialogue: 0,0:04:04.47,0:04:08.22,Default,,0,0,0,,Майя Эксиакун
+Dialogue: 0,0:04:17.36,0:04:17.69,Default,,0,0,0,,...
+Dialogue: 0,0:04:17.36,0:04:17.69,Default,,0,0,0,,Кейінгі әңгіме
+Dialogue: 0,0:04:17.69,0:04:21.49,Default,,0,0,0,,...
+Dialogue: 0,0:04:17.69,0:04:21.49,Default,,0,0,0,,Кейінгі әңгіме
+Dialogue: 0,0:04:17.36,0:04:17.69,Default,,0,0,0,,Аударма
+Dialogue: 0,0:04:17.36,0:04:17.69,Default,,0,0,0,,Джин араши
+Dialogue: 0,0:04:17.69,0:04:21.49,Default,,0,0,0,,Аударма
+Dialogue: 0,0:04:17.69,0:04:21.49,Default,,0,0,0,,Джин араши
+Dialogue: 0,0:04:44.43,0:04:44.76,Default,,0,0,0,,Аударма
+Dialogue: 0,0:04:44.43,0:04:44.76,Default,,0,0,0,,Хики Комори
+Dialogue: 0,0:04:44.76,0:04:48.51,Default,,0,0,0,,Аударма
+Dialogue: 0,0:04:44.76,0:04:48.51,Default,,0,0,0,,Хики Комори
+Dialogue: 0,0:04:44.43,0:04:44.76,Default,,0,0,0,,Мектеп
+Dialogue: 0,0:04:44.43,0:04:44.76,Default,,0,0,0,,Анонимді Сузука
+Dialogue: 0,0:04:44.76,0:04:48.51,Default,,0,0,0,,Мектеп
+Dialogue: 0,0:04:44.76,0:04:48.51,Default,,0,0,0,,Анонимді данышпан
+Dialogue: 0,0:04:52.43,0:04:52.77,Default,,0,0,0,,уақыт
+Dialogue: 0,0:04:52.43,0:04:52.77,Default,,0,0,0,,Аспанның жіптерін үзу
+Dialogue: 0,0:04:52.43,0:04:52.77,Default,,0,0,0,,Ән әулеті
+Dialogue: 0,0:04:52.77,0:04:56.52,Default,,0,0,0,,уақыт
+Dialogue: 0,0:04:52.77,0:04:56.52,Default,,0,0,0,,Аспанның жіптерін үзу
+Dialogue: 0,0:04:52.77,0:04:56.52,Default,,0,0,0,,Ән әулеті
+Dialogue: 0,0:05:12.95,0:05:13.29,Default,,0,0,0,,Жапондық жүйе
+Dialogue: 0,0:05:12.95,0:05:13.29,Default,,0,0,0,,Өзен крабы
+Dialogue: 0,0:05:13.29,0:05:17.04,Default,,0,0,0,,Жапондық жүйе
+Dialogue: 0,0:05:13.29,0:05:17.04,Default,,0,0,0,,Өзен крабы
+Dialogue: 0,0:05:28.05,0:05:28.34,Default,,0,0,0,,Ағылшын тілі жүйесі
+Dialogue: 0,0:05:28.05,0:05:28.34,Default,,0,0,0,,Фантом субтитрлер жұбы
+Dialogue: 0,0:05:28.05,0:05:28.34,Default,,0,0,0,,Құдайдың субтитр жұбы
+Dialogue: 0,0:05:28.34,0:05:32.35,Default,,0,0,0,,Ағылшын тілі жүйесі
+Dialogue: 0,0:05:28.34,0:05:32.35,Default,,0,0,0,,Фантом субтитрлер жұбы
+Dialogue: 0,0:05:28.34,0:05:32.35,Default,,0,0,0,,Құдайдың субтитр жұбы
 Dialogue: 0,0:22:47.40,0:22:51.15,22-jp A-OTF Kumoya Std R,,0,0,0,,Сәлем, ән шақырды
 Dialogue: 0,0:22:51.57,0:22:55.37,22-jp A-OTF Kumoya Std R,,0,0,0,,Жарық шашқан қала карнавал сияқты
 Dialogue: 0,0:22:55.77,0:22:59.34,22-jp A-OTF Kumoya Std R,,0,0,0,,Сәлеметсіз бе, мен жауап беруге тырыстым.
@@ -272,29 +272,29 @@ Dialogue: 0,1:38:57.20,1:38:59.76,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,Өйт
 Dialogue: 0,1:39:00.45,1:39:03.22,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,Қазір ең жақсысы
 Dialogue: 0,1:39:05.34,1:39:10.45,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,Әлсіз ескертуден бастау
 Dialogue: 0,1:39:11.24,1:39:19.33,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,Мен жарықты қудым
-Dialogue: 0,0:28:21.58,0:28:26.89,60 方正北魏楷书_GBK,,0,0,0,,…Уақыт өткен сайын
-Dialogue: 0,0:28:28.66,0:28:31.16,60 方正北魏楷书_GBK,,0,0,0,,Ал екі ғашық бір-бірімен келіскенде
-Dialogue: 0,0:28:31.50,0:28:34.14,60 方正北魏楷书_GBK,,0,0,0,,Олар әлі де «Мен сені сүйемін» дейді
-Dialogue: 0,0:28:34.46,0:28:39.33,60 方正北魏楷书_GBK,,0,0,0,,Бұған сенуге болады
-Dialogue: 0,0:28:40.16,0:28:44.52,60 方正北魏楷书_GBK,,0,0,0,,Болашақ не әкелетініне қарамастан
-Dialogue: 0,0:28:44.73,0:28:49.64,60 方正北魏楷书_GBK,,0,0,0,,Уақыт өте келе
-Dialogue: 0,0:28:52.13,0:28:55.18,60 方正北魏楷书_GBK,,0,0,0,,Ай сәулесі және махаббат әндері
-Dialogue: 0,0:28:55.18,0:28:57.76,60 方正北魏楷书_GBK,,0,0,0,,Ешқашан ескірмейді
-Dialogue: 0,0:28:58.17,0:29:03.56,60 方正北魏楷书_GBK,,0,0,0,,Құмарлыққа толы жүректер Қызғаныш пен жек көрушілік
-Dialogue: 0,0:29:03.97,0:29:09.29,60 方正北魏楷书_GBK,,0,0,0,,Әйелге ер керек, ал еркектің жары болуы керек
-Dialogue: 0,0:29:09.30,0:29:14.33,60 方正北魏楷书_GBK,,0,0,0,,Оны ешкім жоққа шығара алмайды
-Dialogue: 0,0:29:14.86,0:29:18.11,60 方正北魏楷书_GBK,,0,0,0,,Әлі баяғы ескі әңгіме
-Dialogue: 0,0:29:18.36,0:29:21.01,60 方正北魏楷书_GBK,,0,0,0,,Махаббат пен даңқ үшін күрес
-Dialogue: 0,0:29:21.24,0:29:26.19,60 方正北魏楷书_GBK,,0,0,0,,Жасау немесе өлу жағдайы
-Dialogue: 0,0:29:26.93,0:29:32.51,60 方正北魏楷书_GBK,,0,0,0,,Әлем әрқашан ғашықтарды қарсы алады
-Dialogue: 0,0:29:32.99,0:29:38.33,60 方正北魏楷书_GBK,,0,0,0,,Уақыт өте келе
-Dialogue: 0,0:29:38.83,0:29:50.79,60 方正北魏楷书_GBK,,0,0,0,,Уақыт өте келе
-Dialogue: 0,1:01:16.26,1:01:19.30,60 方正北魏楷书_GBK,,0,0,0,,Әлі баяғы ескі әңгіме
-Dialogue: 0,1:01:19.61,1:01:22.34,60 方正北魏楷书_GBK,,0,0,0,,Махаббат пен даңқ үшін күрес
-Dialogue: 0,1:01:22.54,1:01:27.54,60 方正北魏楷书_GBK,,0,0,0,,Жасау немесе өлу жағдайы
-Dialogue: 0,1:01:28.16,1:01:33.74,60 方正北魏楷书_GBK,,0,0,0,,Әлем әрқашан ғашықтарды қарсы алады
-Dialogue: 0,1:01:34.26,1:01:39.66,60 方正北魏楷书_GBK,,0,0,0,,Уақыт өте келе
-Dialogue: 0,1:01:40.07,1:01:52.33,60 方正北魏楷书_GBK,,0,0,0,,Уақыт өте келе
+Dialogue: 0,0:28:21.58,0:28:26.89,Default,,0,0,0,,…Уақыт өткен сайын
+Dialogue: 0,0:28:28.66,0:28:31.16,Default,,0,0,0,,Ал екі ғашық бір-бірімен келіскенде
+Dialogue: 0,0:28:31.50,0:28:34.14,Default,,0,0,0,,Олар әлі де «Мен сені сүйемін» дейді
+Dialogue: 0,0:28:34.46,0:28:39.33,Default,,0,0,0,,Бұған сенуге болады
+Dialogue: 0,0:28:40.16,0:28:44.52,Default,,0,0,0,,Болашақ не әкелетініне қарамастан
+Dialogue: 0,0:28:44.73,0:28:49.64,Default,,0,0,0,,Уақыт өте келе
+Dialogue: 0,0:28:52.13,0:28:55.18,Default,,0,0,0,,Ай сәулесі және махаббат әндері
+Dialogue: 0,0:28:55.18,0:28:57.76,Default,,0,0,0,,Ешқашан ескірмейді
+Dialogue: 0,0:28:58.17,0:29:03.56,Default,,0,0,0,,Құмарлыққа толы жүректер Қызғаныш пен жек көрушілік
+Dialogue: 0,0:29:03.97,0:29:09.29,Default,,0,0,0,,Әйелге ер керек, ал еркектің жары болуы керек
+Dialogue: 0,0:29:09.30,0:29:14.33,Default,,0,0,0,,Оны ешкім жоққа шығара алмайды
+Dialogue: 0,0:29:14.86,0:29:18.11,Default,,0,0,0,,Әлі баяғы ескі әңгіме
+Dialogue: 0,0:29:18.36,0:29:21.01,Default,,0,0,0,,Махаббат пен даңқ үшін күрес
+Dialogue: 0,0:29:21.24,0:29:26.19,Default,,0,0,0,,Жасау немесе өлу жағдайы
+Dialogue: 0,0:29:26.93,0:29:32.51,Default,,0,0,0,,Әлем әрқашан ғашықтарды қарсы алады
+Dialogue: 0,0:29:32.99,0:29:38.33,Default,,0,0,0,,Уақыт өте келе
+Dialogue: 0,0:29:38.83,0:29:50.79,Default,,0,0,0,,Уақыт өте келе
+Dialogue: 0,1:01:16.26,1:01:19.30,Default,,0,0,0,,Әлі баяғы ескі әңгіме
+Dialogue: 0,1:01:19.61,1:01:22.34,Default,,0,0,0,,Махаббат пен даңқ үшін күрес
+Dialogue: 0,1:01:22.54,1:01:27.54,Default,,0,0,0,,Жасау немесе өлу жағдайы
+Dialogue: 0,1:01:28.16,1:01:33.74,Default,,0,0,0,,Әлем әрқашан ғашықтарды қарсы алады
+Dialogue: 0,1:01:34.26,1:01:39.66,Default,,0,0,0,,Уақыт өте келе
+Dialogue: 0,1:01:40.07,1:01:52.33,Default,,0,0,0,,Уақыт өте келе
 Dialogue: 0,0:00:35.87,0:00:36.84,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Хонока-чан
 Dialogue: 0,0:00:57.57,0:00:59.51,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Оны толтырыңыз
 Dialogue: 0,0:01:00.01,0:01:02.50,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Хонока-чан
@@ -312,8 +312,8 @@ Dialogue: 0,0:02:16.57,0:02:18.67,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұ
 Dialogue: 0,0:02:21.93,0:02:22.68,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ханаё-чан
 Dialogue: 0,0:02:23.26,0:02:25.18,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Тосын жаңалықтар
 Dialogue: 0,0:02:25.96,0:02:26.85,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл күмбез.
-Dialogue: 0,0:02:28.65,0:02:31.72,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Do...Doom
-Dialogue: 0,0:02:31.94,0:02:33.79,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Do...Doom?
+Dialogue: 0,0:02:28.65,0:02:31.72,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,...
+Dialogue: 0,0:02:31.94,0:02:33.79,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,...
 Dialogue: 0,0:02:33.81,0:02:34.38,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Гонока
 Dialogue: 0,0:02:34.54,0:02:35.45,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Хонока-чан
 Dialogue: 0,0:02:37.15,0:02:38.96,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Күмбез турнирі
@@ -330,7 +330,7 @@ Dialogue: 0,0:03:00.56,0:03:01.84,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұ
 Dialogue: 0,0:03:04.75,0:03:05.65,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сол жігіт мүлде есінен танып кетті – адамдар оны ұстап тұруға мәжбүр болды.
 Dialogue: 0,0:03:05.94,0:03:06.65,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Төраға
 Dialogue: 0,0:03:07.31,0:03:09.19,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл жүз мен естіген сияқтымын.
-Dialogue: 0,0:03:09.78,0:03:11.19,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Келесі Love Live туралы
+Dialogue: 0,0:03:09.78,0:03:11.19,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Келесі Лав Лайв туралы
 Dialogue: 0,0:03:11.87,0:03:12.43,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Иә
 Dialogue: 0,0:03:13.14,0:03:15.34,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сіз шынымен де күмбезде жасайсыз ба?
 Dialogue: 0,0:03:16.37,0:03:18.38,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әзірге сенімді емеспін
@@ -391,7 +391,7 @@ Dialogue: 0,0:06:42.92,0:06:44.81,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ак
 Dialogue: 0,0:06:45.12,0:06:47.68,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Екінші соңғы орыннан шамамен 10 есе үлкен
 Dialogue: 0,0:06:47.84,0:06:48.70,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,10x
 Dialogue: 0,0:06:49.72,0:06:51.44,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл үлкен
-Dialogue: 0,0:06:51.63,0:06:54.03,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Love Live танымалдығы қарқын алып келе жатқанымен
+Dialogue: 0,0:06:51.63,0:06:54.03,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Лав Лайв танымалдығы қарқын алып келе жатқанымен
 Dialogue: 0,0:06:54.28,0:06:55.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Тек ағымдағы жетістіктер
 Dialogue: 0,0:06:55.80,0:06:57.98,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Өткізілетін орынды қамтамасыз ету қиын.
 Dialogue: 0,0:06:58.60,0:07:01.36,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Осы эстафетамен мен көбірек от қостым.
@@ -444,7 +444,7 @@ Dialogue: 0,0:09:39.55,0:09:40.94,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ха
 Dialogue: 0,0:09:41.23,0:09:44.75,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Олай болса, оны жеп болған соң, ертеңгі жоспарымызды шешейік.
 Dialogue: 0,0:09:44.90,0:09:45.34,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Иә
 Dialogue: 0,0:09:45.55,0:09:47.23,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Уми-чан да жейді.
-Dialogue: 0,0:09:48.68,0:09:49.58,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Itadadakimasu
+Dialogue: 0,0:09:48.68,0:09:49.58,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ас болсын!
 Dialogue: 0,0:09:52.17,0:09:55.48,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен қарындашқа ұқсайтын сол ғимаратқа көтерілгім келеді.
 Dialogue: 0,0:09:56.05,0:09:58.32,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сіз мұнда не үшін келді деп ойлайсыз?
 Dialogue: 0,0:09:58.70,0:09:59.66,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сыртқы келбетті тексеру
@@ -461,7 +461,7 @@ Dialogue: 0,0:10:19.64,0:10:21.56,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұ
 Dialogue: 0,0:10:21.89,0:10:23.56,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жарайды, жарайды
 Dialogue: 0,0:10:23.89,0:10:25.65,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Қалада барлығы мейірімді болып көрінді...
 Dialogue: 0,0:10:25.68,0:10:27.77,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен Хоноканың айтқандарына сенбеймін.
-Dialogue: 0,0:10:29.14,0:10:31.80,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Шынында да, Love Live жеңімпазы ретінде
+Dialogue: 0,0:10:29.14,0:10:31.80,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Шынында да, Лав Лайв жеңімпазы ретінде
 Dialogue: 0,0:10:32.44,0:10:34.82,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен бұл тікелей эфирді елемеу мүмкін емес.
 Dialogue: 0,0:10:35.21,0:10:36.38,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әлі де менің соңымнан келесің бе?
 Dialogue: 0,0:10:37.06,0:10:39.54,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бірақ ән айтудың орны мен мазмұнына қатысты
@@ -473,7 +473,7 @@ Dialogue: 0,0:10:51.80,0:10:53.19,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Дұ
 Dialogue: 0,0:10:53.42,0:10:56.58,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сондықтан мен таңертең ерте тұрып, дұрыс жаттығу жасаймын.
 Dialogue: 0,0:10:57.06,0:11:00.57,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Одан кейін ән айтатын жер іздеп шығуға не жетсін?
 Dialogue: 0,0:11:00.87,0:11:01.98,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Менің ойымша, бұл жақсы.
-Dialogue: 0,0:11:02.58,0:11:03.24,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Kotori
+Dialogue: 0,0:11:02.58,0:11:03.24,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,...
 Dialogue: 0,0:11:03.93,0:11:04.94,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Қолдайтын адамдар
 Dialogue: 0,0:11:05.10,0:11:06.05,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Иә Иә
 Dialogue: 0,0:11:11.61,0:11:12.59,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Шешілді.
@@ -597,7 +597,7 @@ Dialogue: 0,0:18:10.17,0:18:11.55,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сі
 Dialogue: 0,0:18:11.78,0:18:14.14,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әртүрлі жерлерді қараңыз, өйткені
 Dialogue: 0,0:18:14.52,0:18:15.24,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Өйткені
 Dialogue: 0,0:18:16.70,0:18:18.25,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Нозоми-чан керемет
-Dialogue: 0,0:18:18.30,0:18:20.99,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,As expected, it's worth going to Antarctica.
+Dialogue: 0,0:18:18.30,0:18:20.99,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Күтілгендей, Антарктидаға барған жөн.
 Dialogue: 0,0:18:22.22,0:18:23.93,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Шетелдіктер де жаман емес.
 Dialogue: 0,0:18:24.30,0:18:26.48,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әрине, сақ болу керек.
 Dialogue: 0,0:18:28.17,0:18:29.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мүмкін солай.
@@ -616,7 +616,7 @@ Dialogue: 0,0:19:20.22,0:19:20.81,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мі
 Dialogue: 0,0:19:21.31,0:19:22.00,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Рахмет
 Dialogue: 0,0:19:23.02,0:19:23.64,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Қош келдіңіз
 Dialogue: 0,0:19:25.68,0:19:27.48,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл басты көше.
-Dialogue: 0,0:19:29.08,0:19:32.60,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,I guess we'll have breakfast at a place called Tiffany's.
+Dialogue: 0,0:19:29.08,0:19:32.60,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Таңғы асты Тиффани деген жерде ішеміз деп ойлаймын.
 Dialogue: 0,0:19:32.80,0:19:34.73,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл қандай тамаша мейрамхана.
 Dialogue: 0,0:19:34.98,0:19:36.24,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Нико-чан біледі
 Dialogue: 0,0:19:38.02,0:19:39.37,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әрине
@@ -773,7 +773,7 @@ Dialogue: 0,0:31:46.18,0:31:50.78,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ме
 Dialogue: 0,0:31:56.24,0:31:56.82,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Таңғалатын ештеңе жоқ — кенеттен біздің көптеген жолдастарымыз қаза тауып жатыр.
 Dialogue: 0,0:31:59.76,0:32:00.44,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сонымен
 Dialogue: 0,0:32:03.14,0:32:05.05,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сонымен не болды?
-Dialogue: 0,0:32:08.94,0:32:10.00,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,It was easy.
+Dialogue: 0,0:32:08.94,0:32:10.00,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл оңай болды.
 Dialogue: 0,0:32:12.52,0:32:13.89,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл өте оңай болды.
 Dialogue: 0,0:32:18.20,0:32:21.02,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Біз неге осы уақытқа дейін ән айтып келдік?
 Dialogue: 0,0:32:21.86,0:32:24.30,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сіз қандай болғыңыз келді және сізге не ұнады?
@@ -927,7 +927,7 @@ Dialogue: 0,0:43:16.02,0:43:20.88,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бі
 Dialogue: 0,0:43:20.98,0:43:22.77,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Беттидің шыдамы таусылып барады, білесің бе.
 Dialogue: 0,0:43:23.21,0:43:24.88,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Күмбез де тек арман емес.
 Dialogue: 0,0:43:25.32,0:43:27.27,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Егер бұл күмбезді турнирді шындыққа айналдырса
-Dialogue: 0,0:43:27.57,0:43:30.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Love Live мәңгілікке жалғасады.
+Dialogue: 0,0:43:27.57,0:43:30.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Лав Лайв мәңгілікке жалғасады.
 Dialogue: 0,0:43:31.00,0:43:32.20,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жақсы
 Dialogue: 0,0:43:32.44,0:43:33.32,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен бақыттымын
 Dialogue: 0,0:43:34.18,0:43:35.31,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әлі ерте
@@ -1004,7 +1004,7 @@ Dialogue: 0,0:48:00.13,0:48:02.40,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Кө
 Dialogue: 0,0:48:02.69,0:48:07.95,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Біздің мектеп кумиріміз бе, жоқ па маңызды емес.
 Dialogue: 0,0:48:11.12,0:48:14.34,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Негізі мектеп бітіргеннен кейін де кумир
 Dialogue: 0,0:48:14.69,0:48:16.92,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Пұт ретінде белсенді адамдар бар.
-Dialogue: 0,0:48:17.33,0:48:19.51,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен Love Live бағдарламасына қатыса алмасам да
+Dialogue: 0,0:48:17.33,0:48:19.51,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен Лав Лайв бағдарламасына қатыса алмасам да
 Dialogue: 0,0:48:20.06,0:48:24.24,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жанды дауыста орындап, ән шығаратындар көп.
 Dialogue: 0,0:48:25.19,0:48:25.99,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен көремін.
 Dialogue: 0,0:48:26.26,0:48:28.35,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сонымен не істеуім керек?
@@ -1080,7 +1080,7 @@ Dialogue: 0,0:51:56.16,0:51:56.84,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мұ
 Dialogue: 0,0:52:02.89,0:52:04.68,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сіз қиындыққа тап болдыңыз.
 Dialogue: 0,0:52:05.26,0:52:08.27,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Біз соңғы тікелей эфиріміз туралы айтып жатыр едік.
 Dialogue: 0,0:52:08.77,0:52:10.07,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен келіспеймін
-Dialogue: 0,0:52:10.75,0:52:13.68,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Осы уақытқа дейін Love Live бағдарламасының арқасында жеткенім рас.
+Dialogue: 0,0:52:10.75,0:52:13.68,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Осы уақытқа дейін Лав Лайв бағдарламасының арқасында жеткенім рас.
 Dialogue: 0,0:52:14.36,0:52:16.52,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,μ соншалықты алысқа бару керек пе?
 Dialogue: 0,0:52:17.44,0:52:19.47,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Иә, дұрыс.
 Dialogue: 0,0:52:20.05,0:52:23.38,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бірақ егер біз турнирді сәттілікке жете алсақ
@@ -1176,7 +1176,7 @@ Dialogue: 0,0:57:17.18,0:57:19.97,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,μ �
 Dialogue: 0,0:57:21.77,0:57:25.36,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Біз бұл ең жақсы деп ойладық.
 Dialogue: 0,0:57:26.51,0:57:27.07,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бірақ
 Dialogue: 0,0:57:28.41,0:57:31.60,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Қазір бізді күтіп тұрғандар қаншама.
-Dialogue: 0,0:57:33.33,0:57:36.04,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен Love Live-ге күшімді бере алатын дәрежеге жеттім.
+Dialogue: 0,0:57:33.33,0:57:36.04,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен Лав Лайв-ге күшімді бере алатын дәрежеге жеттім.
 Dialogue: 0,0:57:37.33,0:57:39.05,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен көңілімді қалдырғым келмейді
 Dialogue: 0,0:57:39.65,0:57:41.39,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мені қолдайтындар бар
 Dialogue: 0,0:57:41.97,0:57:44.29,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Біреу маған ән тыңдауымды өтінді.
@@ -1235,7 +1235,7 @@ Dialogue: 0,1:02:30.83,1:02:31.90,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жа
 Dialogue: 0,1:02:32.99,1:02:34.67,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Келесі кездескенше.
 Dialogue: 0,1:02:40.98,1:02:43.80,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Неліктен біз қайтадан кездесе алдық?
 Dialogue: 0,1:02:47.29,1:02:48.49,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жауабын таптың ба?
-Dialogue: 0,1:02:50.67,1:02:51.69,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,At that time
+Dialogue: 0,1:02:50.67,1:02:51.69,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сол кезде
 Dialogue: 0,1:02:53.49,1:02:54.48,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,(Куними) Эй, Сакута, ұйықтап қалған соң шашың бүлініп қалыпты.
 Dialogue: 0,1:02:59.10,1:03:00.06,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл солай ма?
 Dialogue: 0,1:03:02.76,1:03:03.47,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сіз ұша аласыз
@@ -1246,7 +1246,7 @@ Dialogue: 0,1:04:18.52,1:04:20.09,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұ
 Dialogue: 0,1:04:21.30,1:04:24.34,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Осыдан кейін біз үшеуміз ғана сөйлестік.
 Dialogue: 0,1:04:26.27,1:04:27.33,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Танымал болу
 Dialogue: 0,1:04:28.16,1:04:31.45,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әндерімізді көпшілік тыңдайтыны
-Dialogue: 0,1:04:32.48,1:04:36.17,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Love Live үшін күш беруді сұрайды
+Dialogue: 0,1:04:32.48,1:04:36.17,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Лав Лайв үшін күш беруді сұрайды
 Dialogue: 0,1:04:37.40,1:04:38.50,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен бақытты болдым.
 Dialogue: 0,1:04:40.64,1:04:44.96,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бірақ біздің жауабымыз өзгеріссіз қалды.
 Dialogue: 0,1:04:46.62,1:04:49.21,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ешқашан μ-ді жалғастырмаңыз
@@ -1531,12 +1531,12 @@ Dialogue: 0,1:20:15.03,1:20:18.35,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ме
 Dialogue: 0,1:20:19.64,1:20:22.20,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,μ сол сезімді бағалағысы келеді
 Dialogue: 0,1:20:22.94,1:20:25.20,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен барлығымен сөйлесіп, солай шештім.
 Dialogue: 0,1:20:26.48,1:20:27.33,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Үлкен әпке
-Dialogue: 0,1:20:29.17,1:20:32.69,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бірақ Love Live бағдарламасы кеңейе береді.
+Dialogue: 0,1:20:29.17,1:20:32.69,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бірақ Лав Лайв бағдарламасы кеңейе береді.
 Dialogue: 0,1:20:34.00,1:20:36.94,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Әр адамның мектептегі кумирлерінің ғажайыптары
 Dialogue: 0,1:20:37.30,1:20:39.18,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жалғастырған жарқырау
 Dialogue: 0,1:20:39.44,1:20:40.93,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен көп адамдарға жеткім келеді
 Dialogue: 0,1:20:41.58,1:20:43.36,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Егер күшімізді біріктірсек
-Dialogue: 0,1:20:44.13,1:20:47.66,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен Love Live бағдарламасы бұдан былай кеңейе беретініне сенімдімін.
+Dialogue: 0,1:20:44.13,1:20:47.66,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен Лав Лайв бағдарламасы бұдан былай кеңейе беретініне сенімдімін.
 Dialogue: 0,1:20:51.37,1:20:52.33,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бұл...
 Dialogue: 0,1:21:00.14,1:21:03.25,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сондықтан мен ертеңгі күннің жырын айтпаймын.
 Dialogue: 0,1:21:03.84,1:21:06.72,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бізбен, мектеп кумирлерімен
@@ -1554,7 +1554,7 @@ Dialogue: 0,1:21:50.29,1:21:52.00,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Кү
 Dialogue: 0,1:21:52.19,1:21:53.26,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,(Фушигиро) Неге мұнда жүрсің, Зэн'ин-сенпай?
 Dialogue: 0,1:21:53.52,1:21:54.75,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Тікелей эфирде жақсы шоу болатын сияқты
 Dialogue: 0,1:21:56.20,1:21:57.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Бірақ бұл біртүрлі.
-Dialogue: 0,1:21:58.24,1:22:01.38,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Love Live бағдарламасы аяқталғанда, мен онымен біттім.
+Dialogue: 0,1:21:58.24,1:22:01.38,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Лав Лайв бағдарламасы аяқталғанда, мен онымен біттім.
 Dialogue: 0,1:22:01.78,1:22:05.24,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен істейтін ештеңе қалмады деп ойладым.
 Dialogue: 0,1:22:05.64,1:22:06.41,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен де
 Dialogue: 0,1:22:06.56,1:22:09.87,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мен ұшақта боламын деп ешқашан ойламадым.
@@ -1623,7 +1623,7 @@ Dialogue: 0,1:26:48.98,1:26:50.98,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ке
 Dialogue: 0,1:26:52.90,1:26:53.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Айтайық
 Dialogue: 0,1:26:55.16,1:26:57.93,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мектеп кумирлерінің ғажайыптары
 Dialogue: 0,1:31:49.94,1:31:51.34,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Хона кеттік
-Dialogue: 0,1:31:51.54,1:31:52.58,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Yes
+Dialogue: 0,1:31:51.54,1:31:52.58,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Иә
 Dialogue: 0,1:31:55.44,1:31:57.59,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Екеуіміздің де салмағымыз ауыр.
 Dialogue: 0,1:31:57.70,1:31:59.64,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Эй, Нико, баспа.
 Dialogue: 0,1:31:59.79,1:32:00.48,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Уууу… Онда бұны қалай түсіндіресің?
@@ -1632,7 +1632,7 @@ Dialogue: 0,1:32:02.63,1:32:04.17,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ба
 Dialogue: 0,1:32:07.90,1:32:08.82,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Олай болса, бәріңе.
 Dialogue: 0,1:32:09.17,1:32:11.34,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жаттығуларымызды орындайық.
 Dialogue: 0,1:32:13.14,1:32:14.58,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Сено
-Dialogue: 0,1:32:15.06,1:32:16.89,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Love Live
+Dialogue: 0,1:32:15.06,1:32:16.89,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Лав Лайв
 Dialogue: 0,1:32:51.04,1:32:51.90,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Қайырлы таң
 Dialogue: 0,1:32:52.10,1:32:53.15,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Кеш болды
 Dialogue: 0,1:32:54.37,1:32:54.94,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Кешіріңіз
@@ -1651,7 +1651,7 @@ Dialogue: 0,1:33:42.47,1:33:44.31,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ме
 Dialogue: 0,1:33:44.82,1:33:46.65,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Турнирде жеңіске жету алдында
 Dialogue: 0,1:33:47.53,1:33:52.47,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Біз бұл идеяны мұра еттік және осы уақытқа дейін әрекет етуді жалғастырдық.
 Dialogue: 0,1:33:53.25,1:33:57.27,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Мектеп пұттарының күші арқылы μ-дің айналасында орналасқан
-Dialogue: 0,1:33:57.76,1:34:01.12,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Күмбезді турнир өткізілген кезде Love Live болды.
+Dialogue: 0,1:33:57.76,1:34:01.12,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Күмбезді турнир өткізілген кезде Лав Лайв болды.
 Dialogue: 0,1:34:01.55,1:34:06.52,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Күмбезге жету үшін биылғы жылы алдын ала турлар қайтадан басталды.
 Dialogue: 0,1:34:08.94,1:34:12.44,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Ал μ-ның соңғы тікелей эфирі...
 Dialogue: 0,1:34:13.44,1:34:15.82,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Жарайды, кеттік.
@@ -1667,7 +1667,7 @@ Dialogue: 0,1:34:24.02,1:34:24.65,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,9
 Dialogue: 0,1:34:29.20,1:34:33.39,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Музыканың басталуы
 Dialogue: 1,0:42:23.79,0:42:24.53,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,μ
 Dialogue: 1,1:00:28.69,1:00:29.41,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,μ
-Dialogue: 0,1:13:29.39,1:13:31.10,35 cn 方正粗圆_GBK,,0,0,0,,Бір екі үш төрт
-Dialogue: 0,1:13:31.32,1:13:33.03,35 cn 方正粗圆_GBK,,0,0,0,,Бес алты жеті сегіз
+Dialogue: 0,1:13:29.39,1:13:31.10,Default,,0,0,0,,Бір екі үш төрт
+Dialogue: 0,1:13:31.32,1:13:33.03,Default,,0,0,0,,Бес алты жеті сегіз
 Dialogue: 1,1:34:27.32,1:34:28.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,μ
 Dialogue: 0,1:39:20.83,1:39:26.83,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\NБарлық құқықтары қорғалған • github.com/ikymory
