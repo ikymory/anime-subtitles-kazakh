@@ -1,0 +1,129 @@
+[Script Info]
+; Subtitles translated to Kazakh by ikymory
+; Official Repository: https://github.com/ikymory/anime-subtitles-kazakh
+Title: Kazakh Subtitles by ikymory
+Original Translation: ikymory
+Title: [Nekomoe kissaten] CUE! Short Anime [08][BDRip].JPSC
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,HYXuanSong 65S,32,&H00FFFFFF,&H000000FF,&H00BE7E27,&H00000000,0,0,0,0,100,100,1,0,1,1,0,8,15,15,15,1
+Style: Dial-CH,FZLanTingYuan-DB-GBK,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,2,0,2,15,15,36,1
+Style: Dial-JP,FOT-Seurat ProN B,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,2,0,2,15,15,5,1
+Style: Dial-CH2,FZLanTingYuan-DB-GBK,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,2,0,8,15,15,38,1
+Style: Dial-JP2,FOT-Seurat ProN B,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,2,0,8,15,15,5,1
+Style: OP-CH,HYQiHei 95S,60,&H00FFFFFF,&H00FFFFFF,&H00C38217,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,15,15,2,1
+Style: OP-JP,FOT-RodinNTLG Pro EB,48,&H00FFFFFF,&H00FFFFFF,&H00C38217,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,15,15,10,1
+Style: ED1-CH,FZZhengHei-R-GBK,30,&H00FFFFFF,&H00FFFFFF,&H00414141,&H00000000,0,0,0,0,100,100,1,0,1,1.5,0,9,16,16,45,1
+Style: ED1-JP,FOT-Budo Std L,38,&H00FFFFFF,&H00FFFFFF,&H00414141,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,9,20,15,5,1
+Style: Scr,FZDengXian-H-GBK,48,&H003F3635,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,36,1
+Style: Title,FZLanTingYuan-B-GBK,48,&H00FFFFFF,&H000000FF,&H00000000,&H00BE7E27,0,0,0,0,100,100,4,0,1,0,4,3,15,15,36,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.10,0:00:00.10,Default,,0,0,0,,Staff
+Comment: 0,0:00:00.10,0:00:00.10,Default,,0,0,0,,Title
+Comment: 0,0:00:00.00,0:00:04.98,Default,,0,0,0,,{\fs90\shad0\bord0\c&H141924&\pos(640,130)}OL
+Comment: 0,0:00:00.10,0:00:00.10,Default,,0,0,0,,Comment
+Comment: 0,0:00:00.10,0:00:00.10,Default,,0,0,0,,Screen
+Comment: 0,0:00:00.10,0:00:00.10,Default,,0,0,0,,Dialogue Japanese
+Comment: 0,0:00:00.10,0:00:00.10,Default,,0,0,0,,Dialogue Chinese
+Dialogue: 1,0:00:24.81,0:00:27.36,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:00:28.73,0:00:30.19,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:00:30.19,0:00:31.16,Dial-CH,,0,0,0,,
+Dialogue: 1,0:00:32.46,0:00:33.90,Dial-CH,,0,0,0,,
+Dialogue: 1,0:00:34.06,0:00:36.57,Dial-CH,,0,0,0,,
+Dialogue: 1,0:00:53.44,0:00:55.51,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:00:55.51,0:00:56.83,Dial-CH,,0,0,0,,
+Dialogue: 1,0:00:58.03,0:01:00.38,Dial-CH,,0,0,0,,3
+Dialogue: 1,0:01:00.38,0:01:02.56,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:02.88,0:01:03.94,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:01:04.15,0:01:06.84,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:01:06.84,0:01:11.38,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:01:13.47,0:01:15.55,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:01:24.97,0:01:27.99,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:29.06,0:01:31.49,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:34.22,0:01:36.56,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:01:36.56,0:01:39.93,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:40.38,0:01:43.33,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:44.08,0:01:45.62,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:45.62,0:01:48.01,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:48.01,0:01:50.88,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:01:52.05,0:01:55.24,Dial-CH,,0,0,0,,
+Dialogue: 1,0:01:55.68,0:01:57.64,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:01.05,0:02:03.06,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:11.23,0:02:12.31,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:13.26,0:02:14.52,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:02:14.81,0:02:17.21,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:17.21,0:02:18.59,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:27.66,0:02:29.74,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:02:29.74,0:02:31.09,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:31.67,0:02:34.20,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:34.20,0:02:35.02,Dial-CH,,0,0,0,,…
+Dialogue: 1,0:02:36.49,0:02:40.79,Dial-CH,,0,0,0,,
+Dialogue: 1,0:02:59.03,0:03:00.46,Dial-CH,,0,0,0,,
+Dialogue: 1,0:03:03.96,0:03:05.99,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:03:08.29,0:03:10.46,Dial-CH,,0,0,0,,
+Dialogue: 1,0:03:10.72,0:03:12.05,Dial-CH,,0,0,0,,
+Dialogue: 1,0:03:19.98,0:03:21.72,Dial-CH,,0,0,0,, 
+Dialogue: 1,0:03:26.36,0:03:28.48,Dial-CH,,0,0,0,,
+Dialogue: 1,0:03:28.48,0:03:31.89,Dial-CH,,0,0,0,,…
+Dialogue: 1,0:03:32.79,0:03:35.35,Dial-CH,,0,0,0,,
+Dialogue: 1,0:03:37.07,0:03:39.31,Dial-CH,,0,0,0,,
+Dialogue: 1,0:03:39.68,0:03:45.25,Dial-CH,,0,0,0,,
+Dialogue: 1,0:04:00.98,0:04:03.80,Dial-CH,,0,0,0,, 
+Dialogue: 0,0:00:00.10,0:00:00.10,Default,,0,0,0,,
+
+Dialogue: 0,0:00:00.50,0:00:05.50,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Қазақ тіліне аударған: ikymory\NЖоба: Anime Subtitles Kazakh (@ikymory)
+Dialogue: 0,0:04:00.16,0:04:04.52,Default,,0,0,0,,Бұл субтитр тұтынушы алмасуын сынау және бақылау үшін өндірісте пайдалануға арналған. Коммерциялық мақсатта.
+Dialogue: 0,0:00:24.81,0:00:27.36,Dial-JP,,0,0,0,,Иә, бұл төтенше қабілеттерге қарсы шаралар бөлмесі.
+Dialogue: 0,0:00:28.73,0:00:30.19,Dial-JP,,0,0,0,,Иә, түсіндім.
+Dialogue: 0,0:00:30.19,0:00:31.16,Dial-JP,,0,0,0,,Иә
+Dialogue: 0,0:00:32.46,0:00:33.90,Dial-JP,,0,0,0,,Бұл жұмыс.
+Dialogue: 0,0:00:34.06,0:00:36.57,Dial-JP,,0,0,0,,Міне!
+Dialogue: 0,0:00:53.44,0:00:55.51,Dial-JP,,0,0,0,,Сакура, тағы біраз
+Dialogue: 0,0:00:55.51,0:00:56.83,Dial-JP,,0,0,0,,Қолданылуы мүмкін емес
+Dialogue: 0,0:00:58.03,0:01:00.38,Dial-JP,,0,0,0,,Табиғаттан тыс адам 3-ші ауданға қарай жылжиды.
+Dialogue: 0,0:01:00.38,0:01:02.56,Dial-JP,,0,0,0,,Екеуің де кешіктірмеңдер.
+Dialogue: 0,0:01:02.88,0:01:03.94,Dial-JP,,0,0,0,,Жарайсың Эмма
+Dialogue: 0,0:01:04.15,0:01:06.84,Dial-JP,,0,0,0,,Люси, мен ұсталдым.
+Dialogue: 0,0:01:06.84,0:01:11.38,Dial-JP,,0,0,0,,Сәлем Саклер
+Dialogue: 0,0:01:13.47,0:01:15.55,Dial-JP,,0,0,0,,Мен көремін.
+Dialogue: 0,0:01:24.97,0:01:27.99,Dial-JP,,0,0,0,,Бұл дүниенің түсі жетпейді.
+Dialogue: 0,0:01:29.06,0:01:31.49,Dial-JP,,0,0,0,,Мен оны әдемірек етуім керек
+Dialogue: 0,0:01:34.22,0:01:36.56,Dial-JP,,0,0,0,,Гүлдер әдемі гүлдей берсін
+Dialogue: 0,0:01:36.56,0:01:39.93,Dial-JP,,0,0,0,,Адамзат келесі кезеңге гүлдей алады.
+Dialogue: 0,0:01:40.38,0:01:43.33,Dial-JP,,0,0,0,,Балалар, неге түсінбейсіңдер?
+Dialogue: 0,0:01:44.08,0:01:45.62,Dial-JP,,0,0,0,,Сол адамдарды жіберіңіз
+Dialogue: 0,0:01:45.62,0:01:48.01,Dial-JP,,0,0,0,,Немесе мен сені дәл осы жерде атып тастаймын.
+Dialogue: 0,0:01:48.01,0:01:50.88,Dial-JP,,0,0,0,,Сіз істеп жатқан іс мүлдем дұрыс емес
+Dialogue: 0,0:01:52.05,0:01:55.24,Dial-JP,,0,0,0,,Өйткені, қанша алыс жүрсек те, бір-бірімізді түсіне алмаймыз.
+Dialogue: 0,0:01:55.68,0:01:57.64,Dial-JP,,0,0,0,,Уақыты келгенде тағы кездесейік
+Dialogue: 0,0:02:01.05,0:02:03.06,Dial-JP,,0,0,0,,Карен
+Dialogue: 0,0:02:11.23,0:02:12.31,Dial-JP,,0,0,0,,Оқтарды жою
+Dialogue: 0,0:02:13.26,0:02:14.52,Dial-JP,,0,0,0,,Сакура Люси
+Dialogue: 0,0:02:14.81,0:02:17.21,Dial-JP,,0,0,0,,Үлкен табиғаттан тыс реакция жақындап келеді.
+Dialogue: 0,0:02:17.21,0:02:18.59,Dial-JP,,0,0,0,,Мүмкін Карен.
+Dialogue: 0,0:02:27.66,0:02:29.74,Dial-JP,,0,0,0,,Ойын аяқталды, Карен.
+Dialogue: 0,0:02:29.74,0:02:31.09,Dial-JP,,0,0,0,,Тыныш болыңыз
+Dialogue: 0,0:02:31.67,0:02:34.20,Dial-JP,,0,0,0,,Бірге өмір сүрудің жолы болуы керек.
+Dialogue: 0,0:02:34.20,0:02:35.02,Dial-JP,,0,0,0,,Сонымен...
+Dialogue: 0,0:02:36.49,0:02:40.79,Dial-JP,,0,0,0,,Мен сендерге нағыз табиғаттан тыс қабілеттердің не екенін көрсетемін.
+Dialogue: 0,0:02:59.03,0:03:00.46,Dial-JP,,0,0,0,,Артық емес
+Dialogue: 0,0:03:03.96,0:03:05.99,Dial-JP,,0,0,0,,Қош бол Эмма
+Dialogue: 0,0:03:08.29,0:03:10.46,Dial-JP,,0,0,0,,Мен екеуіңді де қолдаймын.
+Dialogue: 0,0:03:10.72,0:03:12.05,Dial-JP,,0,0,0,,Осыны анықтайық
+Dialogue: 0,0:03:19.98,0:03:21.72,Dial-JP,,0,0,0,,Сакура, олай етпе
+Dialogue: 0,0:03:26.36,0:03:28.48,Dial-JP,,0,0,0,,Бұл осылай аяқталады ма?
+Dialogue: 0,0:03:28.48,0:03:31.89,Dial-JP,,0,0,0,,Табиғаттан тыс тіршілік иелері жасаған шынайы утопия үшін...
+Dialogue: 0,0:03:32.79,0:03:35.35,Dial-JP,,0,0,0,,Мені жазаламасаң
+Dialogue: 0,0:03:37.07,0:03:39.31,Dial-JP,,0,0,0,,Қанша уақыт қажет болса да
+Dialogue: 0,0:03:39.68,0:03:45.25,Dial-JP,,0,0,0,,Үйге уақытында жете алмаймын.
+Dialogue: 0,0:04:00.98,0:04:03.80,Dial-JP,,0,0,0,,Иә, бұл ерекше қабілетті қарсы шаралар бөлмесі.
+Dialogue: 0,0:04:06.02,0:04:12.02,Default,,0,0,0,,{\an8\fs18\c&H00FFFF&}Субтитрлерді дайындаған: ikymory\NБарлық құқықтары қорғалған • github.com/ikymory
