@@ -39,7 +39,7 @@ Every release includes universal `.srt`, web-native `.vtt`, and typography-tuned
 
 | Metric | Specification | Status |
 |---|---|---| 
-| **Total Anime Franchises** | 1400 "7d2713e62cbc08ff" complete series, movies & OVAs | Verified ✅ |
+| **Total Anime Franchises** | 1400 complete series, movies & OVAs | Verified ✅ |
 | **Total Episodes** | 9,819 episodes | 100% Translated ✅ |
 | **Total Subtitle Files** | 88,375 files (`.srt`, `.vtt`, `.ass`) | Built & Synced ✅ |
 | **Japanese Residue Leaks** | 0 characters across 1,385,000+ cues | Audited Clean ✅ |
