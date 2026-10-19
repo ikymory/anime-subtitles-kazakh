@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita no Little Star Wars 2021 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-little-star-wars-2021.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-little-star-wars-2021.jpg",
+  "description": "Doraemon. Nobita no Little Star Wars 2021 - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-no-little-star-wars-2021",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-no-little-star-wars-2021-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-little-star-wars-2021/doraemon-nobita-no-little-star-wars-2021-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-little-star-wars-2021/doraemon-nobita-no-little-star-wars-2021-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-little-star-wars-2021/doraemon-nobita-no-little-star-wars-2021-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-little-star-wars-2021/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-little-star-wars-2021/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-little-star-wars-2021/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-no-little-star-wars-2021/ep_01.kk.srt",
+          "sha256": "11e4995e176cd73b9fd0b2cd582efaf65b006b4f0d042d051e0ff135d25dd54a",
+          "bytes": 168611,
+          "cues": 2024,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-no-little-star-wars-2021/ep_01.kk.vtt",
+          "sha256": "163782299b50e6eb02e6a515ca317305b932aa5276064fac5f4f27bfe2fef7a2",
+          "bytes": 168708,
+          "cues": 2024,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-no-little-star-wars-2021/ep_01.kk.ass",
+          "sha256": "b6615b6d62807d7462aa9e043f0102ea560a7dfdf0432f381ed7370c7b4d70b4",
+          "bytes": 198824,
+          "cues": 2024,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-no-little-star-wars-2021.json"
 }

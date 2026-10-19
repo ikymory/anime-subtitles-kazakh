@@ -13,61 +13,160 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98497-6HJBfNzL704B.jpg",
+  "averageScore": 76,
+  "popularity": 71085,
+  "color": "hsl(167, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98497-eDgt9UiGTLAz.jpg",
+  "catalog_id": "free-take-your-marks",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
     3,
     4
   ],
+  "translated_episodes_count": 4,
+  "available_episodes_count": 4,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "free-take-your-marks-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/free-take-your-marks/ep_01.kk.srt",
+          "sha256": "91d20aec07f734ce81e46726daee33a991a3b667ad84551b5cd0f34036ae8029",
+          "bytes": 44722,
+          "cues": 478,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/free-take-your-marks/ep_01.kk.vtt",
+          "sha256": "4840ebc0638eace641d266262170371e9d00a82a7748953cc6022727d6394773",
+          "bytes": 44819,
+          "cues": 478,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/free-take-your-marks/ep_01.kk.ass",
+          "sha256": "c4cc705db6dd91cd52905563c636de82f3bed41a7af6bd6075b2517f134bfb32",
+          "bytes": 52720,
+          "cues": 478,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "free-take-your-marks-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/free-take-your-marks/ep_02.kk.srt",
+          "sha256": "1e21db8b5805caee4cb2082d9bdf2156e03f18f1f3376b8ad4a68fc2b63f3f09",
+          "bytes": 40104,
+          "cues": 446,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/free-take-your-marks/ep_02.kk.vtt",
+          "sha256": "5f31350fc609bdd75a3005ffd6ba68b7803eee456fe6e04a2372d716beed792b",
+          "bytes": 40201,
+          "cues": 446,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/free-take-your-marks/ep_02.kk.ass",
+          "sha256": "0e68833eaf866440de5e7a9266cdf1c8263ab2bbe74dd7d8df06f0bd8ff5f94a",
+          "bytes": 47622,
+          "cues": 446,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "free-take-your-marks-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/free-take-your-marks/ep_03.kk.srt",
+          "sha256": "b5928271434aeca33102fcb92ed66d6d937f0603c6ecec641decaf051d0f9cb8",
+          "bytes": 45244,
+          "cues": 487,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/free-take-your-marks/ep_03.kk.vtt",
+          "sha256": "6adc09d4bd56e000f9310008e1d932ddb0f4650ac5f602e7e573645e69b644e3",
+          "bytes": 45341,
+          "cues": 487,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/free-take-your-marks/ep_03.kk.ass",
+          "sha256": "07fd0f73bfa1e8dbc07beb77e0fd6d85edd283b889d2628f71b9cf3c31363696",
+          "bytes": 53377,
+          "cues": 487,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "free-take-your-marks-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-take-your-marks/free-take-your-marks-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-take-your-marks/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/free-take-your-marks/ep_04.kk.srt",
+          "sha256": "f7b627c4e61887bd9968031a17ea19906ed16cd35d3982089bfd4a591a71929c",
+          "bytes": 52914,
+          "cues": 612,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/free-take-your-marks/ep_04.kk.vtt",
+          "sha256": "ca53a22a9d336b98a9dd5dd53e0917bea40297599844a9eda67b80284e3e02c6",
+          "bytes": 53011,
+          "cues": 612,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/free-take-your-marks/ep_04.kk.ass",
+          "sha256": "a1e1ccb00b870ad30b219943c7f6ca9b370cfd8d043c23744199d0867e2c07c2",
+          "bytes": 62922,
+          "cues": 612,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(167, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 76,
-  "popularity": 71085,
-  "translated_episodes_count": 4
+  "quality_issues_count": 13,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/free-take-your-marks.json"
 }

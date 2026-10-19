@@ -16,24 +16,56 @@
     "Comedy",
     "Mystery"
   ],
-  "description": "City Hunter: Bay City Wars - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/city-hunter-bay-city-wars.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/city-hunter-bay-city-wars.jpg",
+  "description": "City Hunter: Bay City Wars - official Kazakh translation archive by ikymory.",
   "averageScore": 79,
   "popularity": 94800,
+  "catalog_id": "city-hunter-bay-city-wars",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "city-hunter-bay-city-wars-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/city-hunter-bay-city-wars/city-hunter-bay-city-wars-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/city-hunter-bay-city-wars/city-hunter-bay-city-wars-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/city-hunter-bay-city-wars/city-hunter-bay-city-wars-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/city-hunter-bay-city-wars/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/city-hunter-bay-city-wars/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/city-hunter-bay-city-wars/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/city-hunter-bay-city-wars/ep_01.kk.ass",
+          "sha256": "56226c3333003ee198a1dd6f8a806c828ab63c2848cb5ee968b2971812a79795",
+          "bytes": 67813,
+          "cues": 692,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/city-hunter-bay-city-wars/ep_01.kk.srt",
+          "sha256": "78c87fb1fcd78c8e5b86d8eab2634bbb76a7ded59ed69fe5fed962a1416c2ae7",
+          "bytes": 56338,
+          "cues": 691,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/city-hunter-bay-city-wars/ep_01.kk.vtt",
+          "sha256": "0a8be1d431865eade15a6d60ddb6cb77cc5253c9ca698e977bbd707a47bdb143",
+          "bytes": 56346,
+          "cues": 691,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/city-hunter-bay-city-wars.json"
 }

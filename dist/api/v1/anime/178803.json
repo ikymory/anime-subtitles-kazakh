@@ -3,17 +3,28 @@
   "slug": "silver-spoon",
   "title": {
     "romaji": "Silver Spoon",
-    "english": "Silver Spoon"
+    "english": "Silver Spoon",
+    "kazakh": "Күміс қасық",
+    "kk": "Күміс қасық"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 11,
+  "seasonYear": 2013,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16918-0biAxYFR29mw.png",
+  "averageScore": 75,
+  "popularity": 58204,
+  "color": "#bb2843",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16918-c2JbTcNvQpor.jpg",
+  "catalog_id": "silver-spoon",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -27,116 +38,373 @@
     10,
     11
   ],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "silver-spoon-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_01.kk.srt",
+          "sha256": "5e32f81517a4d7de1047e6c20c74304a2ed00f3d180f065912f2afa90be256f6",
+          "bytes": 36836,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_01.kk.vtt",
+          "sha256": "4161a5708c0583cb5b4de1617453a223d59feae6e8149f705c1a9e6d924fbde8",
+          "bytes": 36933,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_01.kk.ass",
+          "sha256": "0cd88ffb2dfce877b80cf302288caf6f849dec4399b1bfc473fe7a3ddc7f70eb",
+          "bytes": 43131,
+          "cues": 365,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "silver-spoon-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_02.kk.srt",
+          "sha256": "6fe48a8287aa34ccabb5d807f3b4c92a596d3f49ff9f302f6a81eab6446c6b39",
+          "bytes": 32979,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_02.kk.vtt",
+          "sha256": "6b8658caa5089f7c9ae6deb01b9e98399624ad584cfebe893776a1e71ebb706b",
+          "bytes": 33076,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_02.kk.ass",
+          "sha256": "1ecb02090645c46be25fe9e735c25316e978127614e8905c792827d528626988",
+          "bytes": 38704,
+          "cues": 327,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "silver-spoon-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_03.kk.srt",
+          "sha256": "e984d24f4ac7625b9f5ee6ce1015291a39bec1ffdd0a3768fc032ad82bf6ee79",
+          "bytes": 38693,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_03.kk.vtt",
+          "sha256": "7a86966257db13b8d04441bd950d73c9800abd43a1634be50bfd8898e398a309",
+          "bytes": 38790,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_03.kk.ass",
+          "sha256": "5edc6036b9f724236ef0b961bcfd7cc91e5cd24a6a6fb0d9a4bf0f79cec63989",
+          "bytes": 45018,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "silver-spoon-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_04.kk.srt",
+          "sha256": "7dcd5eb2b52d4e65b77f891c6940ec0001954035fb1570a7354cb8ac0b3cfbb3",
+          "bytes": 36084,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_04.kk.vtt",
+          "sha256": "90bb177a999bc49b64cd95bdd1246d3c285b5fe65fed2608c8f258f0524e79f6",
+          "bytes": 36181,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_04.kk.ass",
+          "sha256": "7d51a61a72d6f924cc15f8a39450377a9bba0750a774945b3d8791ac25c4473a",
+          "bytes": 42229,
+          "cues": 355,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "silver-spoon-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_05.kk.srt",
+          "sha256": "0fc469e5dfb13a6166f82195279cb0b9e34b89f43cc0d8dcbe5701aa1054046e",
+          "bytes": 32496,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_05.kk.vtt",
+          "sha256": "6f236fe8ba77f0296bdb4ba296e5809aafa580229cd42c7e3ebe77b05bd51198",
+          "bytes": 32593,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_05.kk.ass",
+          "sha256": "5637339770799e128ebf20b50e1c29dcc85537c905759d93712ce6281b34aba1",
+          "bytes": 38461,
+          "cues": 343,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "silver-spoon-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_06.kk.srt",
+          "sha256": "033a8a213fbe008962bfa4c407998761f2277e0dc984812fbcb7a87ecb7aaa7c",
+          "bytes": 34232,
+          "cues": 330,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_06.kk.vtt",
+          "sha256": "9a3fe387d831cac6ff53429ef691f08d27740668f1e9bff1d4e0792f6b4011a4",
+          "bytes": 34329,
+          "cues": 330,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_06.kk.ass",
+          "sha256": "7e396218ec3739b4dc358e07dd67d79e8fd367c941640bdaea45c0e9f948089d",
+          "bytes": 40002,
+          "cues": 330,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "silver-spoon-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_07.kk.srt",
+          "sha256": "13a442edb6217822ae468aa14a3a7a5d6b343f8e53dd393c8d4baf2cd57cb3b2",
+          "bytes": 36426,
+          "cues": 341,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_07.kk.vtt",
+          "sha256": "6595d56f7d450b5a6cf251f784965a449b4b4a3c26e76bc7a9ec08f6de85418e",
+          "bytes": 36523,
+          "cues": 341,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_07.kk.ass",
+          "sha256": "72b6aede77f730ff186016c76c92bf930e328bf113eb7edc5f28e0e7a797f0ed",
+          "bytes": 42361,
+          "cues": 341,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "silver-spoon-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_08.kk.srt",
+          "sha256": "0db10e45dd14ec21b5447e153b49e0ce35f1d4b7ef3027d95eda920011f155f1",
+          "bytes": 34535,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_08.kk.vtt",
+          "sha256": "c744b19b756f716b8d4597d9617df427d15922471ebb1accf55faf1bd80f49dd",
+          "bytes": 34632,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_08.kk.ass",
+          "sha256": "efab27fdc35a1c463c5ce90865e1bede6c0bddcd084f2227e4233dd129b86478",
+          "bytes": 40560,
+          "cues": 347,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "silver-spoon-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_09.kk.srt",
+          "sha256": "ea39e881b32aeeced67983d063b7f63aaa49729efb05379730046f5f4010fd27",
+          "bytes": 34726,
+          "cues": 342,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_09.kk.vtt",
+          "sha256": "f79ea622b804a8dc8d6612bfe05bac3b5d585006586074e0f407fc73615726b8",
+          "bytes": 34823,
+          "cues": 342,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_09.kk.ass",
+          "sha256": "1233a05dc4689d6f8085252468fd11173e90fdfe90def8d67542048ab3d573a6",
+          "bytes": 40676,
+          "cues": 342,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "silver-spoon-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_10.kk.srt",
+          "sha256": "c7e9f9b769ff00c501a37d8c345442b34ba72da428e5db2a426c1324ecaccabd",
+          "bytes": 30123,
+          "cues": 306,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_10.kk.vtt",
+          "sha256": "83a7babfa00909ff6c18d423a54f581e05cad9d827fa7e9d04aeff2c8122f217",
+          "bytes": 30220,
+          "cues": 306,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_10.kk.ass",
+          "sha256": "dfc0fa6dd3d999e3a8d3cb7153add001ce0d6386dd5bd74ebd9713371557d7d0",
+          "bytes": 35533,
+          "cues": 306,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "silver-spoon-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silver-spoon/silver-spoon-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silver-spoon/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silver-spoon/ep_11.kk.srt",
+          "sha256": "e1b8c9d9f945b40fb2233f98783716eaa880b7ead4a2848768e581fb3fa12d2f",
+          "bytes": 33601,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silver-spoon/ep_11.kk.vtt",
+          "sha256": "0af9ae4d6f88bb10553a6649835b0fef5a0ebd0a268a5ec8022165a3575a81f1",
+          "bytes": 33698,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silver-spoon/ep_11.kk.ass",
+          "sha256": "1b277ff5085bfd5aefd3628c1d30f83bdc62f25c8f3ff8621b517f36843999c7",
+          "bytes": 39356,
+          "cues": 329,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 33,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/silver-spoon.json"
 }

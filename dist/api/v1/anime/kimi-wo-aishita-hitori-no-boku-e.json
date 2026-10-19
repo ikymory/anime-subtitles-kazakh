@@ -16,24 +16,56 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "To Me, The One Who Loved You - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kimi-wo-aishita-hitori-no-boku-e.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kimi-wo-aishita-hitori-no-boku-e.jpg",
+  "description": "To Me, The One Who Loved You - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "kimi-wo-aishita-hitori-no-boku-e",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kimi-wo-aishita-hitori-no-boku-e-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimi-wo-aishita-hitori-no-boku-e/kimi-wo-aishita-hitori-no-boku-e-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimi-wo-aishita-hitori-no-boku-e/kimi-wo-aishita-hitori-no-boku-e-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimi-wo-aishita-hitori-no-boku-e/kimi-wo-aishita-hitori-no-boku-e-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimi-wo-aishita-hitori-no-boku-e/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimi-wo-aishita-hitori-no-boku-e/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimi-wo-aishita-hitori-no-boku-e/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/kimi-wo-aishita-hitori-no-boku-e/ep_01.kk.ass",
+          "sha256": "5b458a4e4dab42c03bc87ffa6d99310dd6833e5428149f99a0491dd0fd8059d6",
+          "bytes": 148475,
+          "cues": 1495,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/kimi-wo-aishita-hitori-no-boku-e/ep_01.kk.srt",
+          "sha256": "612e58db88f96ae013ce9a24e3826e2d29927cdfd8a90a975c60b040a5f10812",
+          "bytes": 125338,
+          "cues": 1491,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/kimi-wo-aishita-hitori-no-boku-e/ep_01.kk.vtt",
+          "sha256": "6ea058fa1fdb31749951cc0f3f1e7da7b358f32e71a26ca2923e52f3e6c14eeb",
+          "bytes": 125346,
+          "cues": 1491,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kimi-wo-aishita-hitori-no-boku-e.json"
 }

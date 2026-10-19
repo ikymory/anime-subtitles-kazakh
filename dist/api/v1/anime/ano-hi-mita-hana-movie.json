@@ -17,24 +17,56 @@
     "Slice of Life",
     "Supernatural"
   ],
-  "description": "The TV series is retold through the different main characters' points of view with new additional material from their childhood, during the original series, and one year after the conclusion of the series.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15039-FDT7nClRVzEf.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15039-5DJT0NCQiyvt.jpg",
+  "description": "The TV series is retold through the different main characters' points of view with new additional material from their childhood, during the original series, and one year after the conclusion of the series.",
   "averageScore": 76,
   "popularity": 75206,
+  "catalog_id": "ano-hi-mita-hana-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ano-hi-mita-hana-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ano-hi-mita-hana-movie/ano-hi-mita-hana-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ano-hi-mita-hana-movie/ano-hi-mita-hana-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ano-hi-mita-hana-movie/ano-hi-mita-hana-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ano-hi-mita-hana-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ano-hi-mita-hana-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ano-hi-mita-hana-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ano-hi-mita-hana-movie/ep_01.kk.srt",
+          "sha256": "0107ae0db7137f20cfade3b30c63cbc1fe07661b0b5e979ef7710673d233707c",
+          "bytes": 131346,
+          "cues": 1726,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ano-hi-mita-hana-movie/ep_01.kk.vtt",
+          "sha256": "20ec2557468650b546ecff5e71ff43698dbcf33e0857117e9eeadbca18975bf6",
+          "bytes": 131443,
+          "cues": 1726,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ano-hi-mita-hana-movie/ep_01.kk.ass",
+          "sha256": "d1ee9ca823bf2303fdefd39dbf2f17fa36557535305b9cb898069f152c6176cd",
+          "bytes": 157568,
+          "cues": 1726,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ano-hi-mita-hana-movie.json"
 }

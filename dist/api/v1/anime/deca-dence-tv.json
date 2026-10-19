@@ -15,11 +15,19 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Deca-Dence.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110353-XGYSsii7qJeK.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110353-ZKkmemQSFP7L.jpg",
+  "description": "Kazakh subtitles for Deca-Dence.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "deca-dence-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -47,260 +55,835 @@
     24,
     25
   ],
+  "translated_episodes_count": 25,
+  "available_episodes_count": 25,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "deca-dence-tv-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_01.kk.ass",
+          "sha256": "336d5add72434b7d33db6aba18def6893b7d1b44066ab77cff2ab62e23318395",
+          "bytes": 44023,
+          "cues": 474,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_01.kk.srt",
+          "sha256": "647127e96bce9e0711e9c05284a2c7832b840b88628c17bc63051ac8e0698fbc",
+          "bytes": 35746,
+          "cues": 471,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_01.kk.vtt",
+          "sha256": "9060dc2692829e5a0d427dcea6de9b55d8e42954d8015886a1ce35ababf0aca9",
+          "bytes": 35754,
+          "cues": 471,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "deca-dence-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_02.kk.srt",
+          "sha256": "3e3aa11dd822d096db53857b5344b2fd5563fe97cd4655c87aa9029ca042ba42",
+          "bytes": 35410,
+          "cues": 427,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_02.kk.vtt",
+          "sha256": "149880ee8b68284dbc187087e3976fd7dd0d719edceb033ea23ed17f81e03bed",
+          "bytes": 35507,
+          "cues": 427,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_02.kk.ass",
+          "sha256": "ac452c70a9b505345cc32db9f6a33ac90029dd30895b27dad0701973c85f2dbb",
+          "bytes": 42874,
+          "cues": 427,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "deca-dence-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_03.kk.srt",
+          "sha256": "c04bbf136939910e4cfb0b80e42a44b425c6ec42c753b8694106f4bd556e769f",
+          "bytes": 36742,
+          "cues": 462,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_03.kk.vtt",
+          "sha256": "a19ffdc194b5812bf9ddd694222c85b7609aff10f6d2f9c1b27e72042de6e95b",
+          "bytes": 36839,
+          "cues": 462,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_03.kk.ass",
+          "sha256": "8361ef5e8ac880597f187d8c864733c6fa6810f846910fa1012de3005faacb12",
+          "bytes": 44731,
+          "cues": 462,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "deca-dence-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_04.kk.srt",
+          "sha256": "f391437d0328c56eace36f665da387e03477ab7fc3916271c953179467c2054b",
+          "bytes": 36631,
+          "cues": 478,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_04.kk.vtt",
+          "sha256": "13e71052b40010bad9840734764bd7e818f6a15682ed70a7deaf99592ad4a80a",
+          "bytes": 36728,
+          "cues": 478,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_04.kk.ass",
+          "sha256": "63d15810588123e76020ce2c0429b8d727073db92ebc2c3ef9f123ba99bed9e3",
+          "bytes": 44860,
+          "cues": 478,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "deca-dence-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_05.kk.srt",
+          "sha256": "0a39cf800131ae67d156a53fcdd7115c73753c589fdfb8156d0a15734af1a924",
+          "bytes": 31315,
+          "cues": 421,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_05.kk.vtt",
+          "sha256": "15fdc6b050ca29817fc8d99b88d419b6e7a35d1513e1367a700dcf37f9b2d454",
+          "bytes": 31412,
+          "cues": 421,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_05.kk.ass",
+          "sha256": "ab7215abb65f591a47cc477358f847d680d7ed8c55b720f66694c3ae9a6fcf20",
+          "bytes": 38689,
+          "cues": 421,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "deca-dence-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_06.kk.srt",
+          "sha256": "4d95193462ac1a91b898f887e45e87a8eb297a12307284fb04b319f40825f020",
+          "bytes": 34858,
+          "cues": 454,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_06.kk.vtt",
+          "sha256": "d7f23a6fc4f2eb57acbb829b675cfc25a75e6ed8ee496bdf917d147cfcd2829d",
+          "bytes": 34955,
+          "cues": 454,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_06.kk.ass",
+          "sha256": "2aaace68bd2df9650ea6d6fdc00dcc9e1da07c49614b4b35ec1e46110daa7aef",
+          "bytes": 42727,
+          "cues": 454,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "deca-dence-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_07.kk.srt",
+          "sha256": "a7532c105040d96ad928e5fdd8dc93d6227eed2a07accae937d36ab5ab220856",
+          "bytes": 36799,
+          "cues": 450,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_07.kk.vtt",
+          "sha256": "7aeefd53d30ca93ab6be068f000c060e3070f767a416171049c4b77ab10b91d6",
+          "bytes": 36896,
+          "cues": 450,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_07.kk.ass",
+          "sha256": "b80c53bbd89c9e097f9ee009bc0b3f6c9a2eeeefa8edb013cabae31575ae217c",
+          "bytes": 44608,
+          "cues": 450,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "deca-dence-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_08.kk.srt",
+          "sha256": "1215423bd547488ce1f47d8dde263dbdd6b6d4c3d1a6db6d6fe6e51aea196973",
+          "bytes": 38234,
+          "cues": 475,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_08.kk.vtt",
+          "sha256": "65b4e5209689822f1282231c1a78979f71d7d62983e022c4ad2c44f352361afc",
+          "bytes": 38331,
+          "cues": 475,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_08.kk.ass",
+          "sha256": "6ad988a9ac33d84ada26758632d179ed52e4cdb81770c612c64711f46fbb89e0",
+          "bytes": 46418,
+          "cues": 475,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "deca-dence-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_09.kk.srt",
+          "sha256": "cefd545665749d05b5ecd5386d70ae03a38f9366184131f349270687563fcfe7",
+          "bytes": 38890,
+          "cues": 512,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_09.kk.vtt",
+          "sha256": "fab37e70d52b4904e05d4c1cf1f8e8c7e1ac64005f057ba1ba661356d3809a71",
+          "bytes": 38987,
+          "cues": 512,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_09.kk.ass",
+          "sha256": "c7f6a0643dc34feb4f642c7fe18b0caf552d7616615c37d025aa1152711fee88",
+          "bytes": 47629,
+          "cues": 512,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "deca-dence-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_10.kk.srt",
+          "sha256": "7454c12b633cdffb6b62ff3b80dccb8f2a4a813ea0903b786cd857ed068787b0",
+          "bytes": 31729,
+          "cues": 414,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_10.kk.vtt",
+          "sha256": "9c2d5da91aac170c94f288a013e9e2d0bcb861b0c4af6ea6b646215b2fe674fc",
+          "bytes": 31826,
+          "cues": 414,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_10.kk.ass",
+          "sha256": "267f74e500bb7584e6f2ee93aa9379ef249dd8b6860ec085be2bc3fc54a9b403",
+          "bytes": 38998,
+          "cues": 414,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "deca-dence-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_11.kk.srt",
+          "sha256": "1ee173c9f7a00fe4586a19f698e76ef09f30cfc6087b3c3bf48f5b83b80334ef",
+          "bytes": 31520,
+          "cues": 410,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_11.kk.vtt",
+          "sha256": "262b2f365c45e098925a181a45e3dd35c9cd682fed942cbc6a407a382530ed84",
+          "bytes": 31617,
+          "cues": 410,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_11.kk.ass",
+          "sha256": "6fd87628ad4b79e4763edfc07afd5b8bd9df0d8ed409e8887c85dbbe0e36123a",
+          "bytes": 38729,
+          "cues": 410,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "deca-dence-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_12.kk.srt",
+          "sha256": "c8966817a14a1a95de7370ba4a251146219f13f64aa6c6dfa691c9227be898d9",
+          "bytes": 38007,
+          "cues": 499,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_12.kk.vtt",
+          "sha256": "95ca4db447accb089cde70de937e2781403b0169270356cf4b0391681dd9f6f5",
+          "bytes": 38104,
+          "cues": 499,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_12.kk.ass",
+          "sha256": "3b72c3d5cd1f402edc6ad8520c4d610457d3678cbceac110b56bc89ac69d64a7",
+          "bytes": 46551,
+          "cues": 499,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "deca-dence-tv-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_13.kk.srt",
+          "sha256": "4cfb76b0eb7bfa43819790d492de7d284ec1bfab2e421f1ab75be0859158c3ff",
+          "bytes": 54606,
+          "cues": 666,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_13.kk.vtt",
+          "sha256": "2132fe9ee67b48ab19883e6e1a5c5787281c7280eb67b002289b4b06807db7f0",
+          "bytes": 54703,
+          "cues": 666,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_13.kk.ass",
+          "sha256": "e060d986e45f4b11d7733d3e3ab56d0963ae73d642e1669a07cb39b379b67e39",
+          "bytes": 68120,
+          "cues": 682,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "deca-dence-tv-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_14.kk.srt",
+          "sha256": "67ba437e44e36a2552d6eb0d5fa555100813e2a3ddaeb693b82b717b9b59bad5",
+          "bytes": 95466,
+          "cues": 1006,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_14.kk.vtt",
+          "sha256": "bf23691ada6509c54629b521af634e14d3aeb301d8f09bfacf3ca24b7ce19f2c",
+          "bytes": 95563,
+          "cues": 1006,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_14.kk.ass",
+          "sha256": "db6ba4e9ca2c50ae732a61480ac2704ad70b7683da2f77d95485f4ea71eaa90e",
+          "bytes": 114246,
+          "cues": 1038,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "deca-dence-tv-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-15ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_15.kk.srt",
+          "sha256": "80d761fdfda7acf5e901920a2bf3279cb81ab908b67e17a9918375c4cff14164",
+          "bytes": 58238,
+          "cues": 670,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_15.kk.vtt",
+          "sha256": "54107ca27164ab1afbc21a021fb2fb3a2c97f2e1ec24b2c9d2993ff4b22812ab",
+          "bytes": 58335,
+          "cues": 670,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_15.kk.ass",
+          "sha256": "d3818c77dc9f1e0d6793162e39ca854f67a70c47acdefbc3e2697ff02737eca4",
+          "bytes": 73599,
+          "cues": 702,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "deca-dence-tv-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-16ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_16.kk.srt",
+          "sha256": "c367b3593dc4e5eac33d2e1b75ffb5256b861b641f5d9bf81ea7c5b1b5c6d53e",
+          "bytes": 61114,
+          "cues": 737,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_16.kk.vtt",
+          "sha256": "4409c70c665863c0d5337487d712a758e3ccf65540c5022ccdfe62a1ffe5a63d",
+          "bytes": 61211,
+          "cues": 737,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_16.kk.ass",
+          "sha256": "0de78fe7116237c382baf2e5d027642211e50e8ce08e7ef1f3ef7c06bb926189",
+          "bytes": 77557,
+          "cues": 769,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "deca-dence-tv-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_17.kk.srt",
+          "sha256": "8551d37c491e6d4d518a904d183445d81f4713db0a62765f3338523624abf915",
+          "bytes": 53535,
+          "cues": 600,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_17.kk.vtt",
+          "sha256": "cbc7c25a8f1f9b611f63d1aa17aafb381e91c27583a0f697312863a18bcd5c60",
+          "bytes": 53632,
+          "cues": 600,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_17.kk.ass",
+          "sha256": "668d162d7c6e5327cd88003788eee375576fadd904f60a51425d51c4260bae33",
+          "bytes": 66632,
+          "cues": 616,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "deca-dence-tv-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-18ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_18.kk.srt",
+          "sha256": "b1139f40dd8f3f7d5781b0b0b461e5a5f861220d5cd206d6c8f69b44002bb2ac",
+          "bytes": 83022,
+          "cues": 1164,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_18.kk.vtt",
+          "sha256": "4c8e53b21cd26f42d62263350c7a9a3ea705c5b5cba7a641d5d68c070adaeb62",
+          "bytes": 83119,
+          "cues": 1164,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_18.kk.ass",
+          "sha256": "50c22ad0ab7a961950218a680ef212383ac3371cee8a741c653a481d0d936f19",
+          "bytes": 103170,
+          "cues": 1196,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "deca-dence-tv-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-19ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_19.kk.srt",
+          "sha256": "23f3d045ab0af634715b39d4e5ef1ae74da38a7db9bb48b88d7cb1282ab0224b",
+          "bytes": 55799,
+          "cues": 690,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_19.kk.vtt",
+          "sha256": "a910c0711483d845eb5fc668478e4d936abb75804d218ef9bfeb623a2faa7f2a",
+          "bytes": 55896,
+          "cues": 690,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_19.kk.ass",
+          "sha256": "46a403f7120c86af2fa6ff0ce9122ddedd4a6ee2782fab39dcc9a70a526679da",
+          "bytes": 71546,
+          "cues": 722,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "deca-dence-tv-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-20ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_20.kk.srt",
+          "sha256": "4c2d6b8859b3734be3aa0b3a037113b4c1eed7920ab1a9d1b36cca3d164428c5",
+          "bytes": 65218,
+          "cues": 777,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_20.kk.vtt",
+          "sha256": "099ace69943044b8c122e12bc53c31a158087e06f6d233c808175d66f43aef60",
+          "bytes": 65315,
+          "cues": 777,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_20.kk.ass",
+          "sha256": "cd0a67b58685044f03d3ba4040d5b1b7c01fd79d796112a8b98750525acf5aa0",
+          "bytes": 82055,
+          "cues": 809,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "deca-dence-tv-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-21ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_21.kk.srt",
+          "sha256": "a3846d039929d0562b98b0e8cf2bcaafa770217fc2685755e61eb3d9e3b90272",
+          "bytes": 66011,
+          "cues": 793,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_21.kk.vtt",
+          "sha256": "36a7ccac4d0a006b7c6f4e9a5d4ea3abd3a04c43d0aa5f34c3d09b81cc78b40b",
+          "bytes": 66108,
+          "cues": 793,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_21.kk.ass",
+          "sha256": "e73d9cf041dcf76667271f42c9cf2a383012073d46e414092d083e9b66da750d",
+          "bytes": 83310,
+          "cues": 825,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "deca-dence-tv-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-22ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_22.kk.srt",
+          "sha256": "5eb208173a725f81530b97137a3ae2e91935c48833939f9ad27d8e0f52751f87",
+          "bytes": 64709,
+          "cues": 795,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_22.kk.vtt",
+          "sha256": "06440bbb2c5812c88fb4cc583983b33a15a112cc27122664636cc3027bcee90c",
+          "bytes": 64806,
+          "cues": 795,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_22.kk.ass",
+          "sha256": "5a98f8997677a8a0e901447521b3fb2c60107fa27403f1d8743a1a6ac471d7c3",
+          "bytes": 81933,
+          "cues": 830,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "deca-dence-tv-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-23ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_23.kk.srt",
+          "sha256": "c6c9307cceb5fd2d02e45944c8f31e77dc3208808c47ae292ec0be198f977c96",
+          "bytes": 56373,
+          "cues": 686,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_23.kk.vtt",
+          "sha256": "b886a98c3dcc39c107826f418cd2d3409e2ca61754fb645eed4d84adf7631cd1",
+          "bytes": 56470,
+          "cues": 686,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_23.kk.ass",
+          "sha256": "03f6eecb862bcc5c8131177d82df6436330c52ae4d4dfc18b0e32fd357e6f8d7",
+          "bytes": 71970,
+          "cues": 718,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "deca-dence-tv-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-24ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_24.kk.srt",
+          "sha256": "35e889105237493c5fbf19ed33979f2b98ee2270dcca7e8650b14280d506c991",
+          "bytes": 58148,
+          "cues": 716,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_24.kk.vtt",
+          "sha256": "ad9739139d5e373c1974f47d126d1d00d71f1e428804df9ddfb1dad61f7bf53b",
+          "bytes": 58245,
+          "cues": 716,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_24.kk.ass",
+          "sha256": "d8fac662429ef0fa90e10aa2f64bc41752bb3478ca059bde0bc08e2be4e6b563",
+          "bytes": 74237,
+          "cues": 748,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "deca-dence-tv-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deca-dence-tv/deca-dence-tv-25ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deca-dence-tv/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deca-dence-tv/ep_25.kk.srt",
+          "sha256": "5a2ac15b683dbdb872709b89be20773535d10977d0645c34009218bedd10f13e",
+          "bytes": 71916,
+          "cues": 896,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deca-dence-tv/ep_25.kk.vtt",
+          "sha256": "cf45660dbaa1eeca1ecb2301450183d7bd1dd4df9520be863f4ef5d5a67e04b6",
+          "bytes": 72013,
+          "cues": 896,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deca-dence-tv/ep_25.kk.ass",
+          "sha256": "863ed2e8751b38ae16511a524751070c1e0122fe481d86e745db7ae0b8e398e6",
+          "bytes": 88812,
+          "cues": 897,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 25
+  "quality_issues_count": 90,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deca-dence-tv.json"
 }

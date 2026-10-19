@@ -17,24 +17,56 @@
     "Sci-Fi",
     "Slice of Life"
   ],
-  "description": "A new film announced for the 10th anniversary of <i>Binan Koukou Chikyuu Bouei-bu</i>. <br><br>",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179838-qCOaqbhZ8eFX.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179838-qCOaqbhZ8eFX.jpg",
+  "description": "A new film announced for the 10th anniversary of <i>Binan Koukou Chikyuu Bouei-bu</i>. <br><br>",
   "averageScore": 59,
   "popularity": 1091,
+  "catalog_id": "binan-koukou-chikyuu-bouei-bu-eternal-love",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-eternal-love-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/binan-koukou-chikyuu-bouei-bu-eternal-love-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/binan-koukou-chikyuu-bouei-bu-eternal-love-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/binan-koukou-chikyuu-bouei-bu-eternal-love-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/ep_01.kk.srt",
+          "sha256": "de4e856b2bec119a4e1eb9fb3d2fa1e6d3dcbf189301d3415f2ac939ce8921ca",
+          "bytes": 135373,
+          "cues": 1369,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/ep_01.kk.vtt",
+          "sha256": "814dd22746565e687141a74734f4ffac53a2d5b7df427817a0564983c5e42bf3",
+          "bytes": 135470,
+          "cues": 1369,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-eternal-love/ep_01.kk.ass",
+          "sha256": "2bf1c3d35b9d0fb30c23fbb061418aa73b34500b866bba2ec5d25c24b002258d",
+          "bytes": 156416,
+          "cues": 1369,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/binan-koukou-chikyuu-bouei-bu-eternal-love.json"
 }

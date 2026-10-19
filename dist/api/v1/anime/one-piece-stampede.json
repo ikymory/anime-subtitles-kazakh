@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151040-9QXRpaprfNmL.png",
+  "averageScore": 87,
+  "popularity": 67120,
+  "color": "hsl(194, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151040-1auPdaGqDGYd.jpg",
+  "catalog_id": "one-piece-stampede",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "one-piece-stampede-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-stampede/one-piece-stampede-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-stampede/one-piece-stampede-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-stampede/one-piece-stampede-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-stampede/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-stampede/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-stampede/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/one-piece-stampede/ep_01.kk.srt",
+          "sha256": "0deb805fdeabc67208342c60fcfaae57cad0363aef3d0e0e5bbcda9b68c37b62",
+          "bytes": 153165,
+          "cues": 1892,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/one-piece-stampede/ep_01.kk.vtt",
+          "sha256": "220ca6118b0471117f4f9480a71b4f1def269c0c9d7afbeb1d8cee6039a72f96",
+          "bytes": 153262,
+          "cues": 1892,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/one-piece-stampede/ep_01.kk.ass",
+          "sha256": "ab1593a8d421d2bd24c565b0c4822ebc3f13d9c0a5fc7cb0254c14c7e7b17d28",
+          "bytes": 181478,
+          "cues": 1892,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(194, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 67120,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-stampede.json"
 }

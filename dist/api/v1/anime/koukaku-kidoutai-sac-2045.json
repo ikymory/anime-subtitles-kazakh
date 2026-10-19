@@ -16,24 +16,56 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Ghost in the Shell: SAC_2045 Sustainable War - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/koukaku-kidoutai-sac-2045.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/koukaku-kidoutai-sac-2045.jpg",
+  "description": "Ghost in the Shell: SAC_2045 Sustainable War - official Kazakh translation archive by ikymory.",
   "averageScore": 81,
   "popularity": 97200,
+  "catalog_id": "koukaku-kidoutai-sac-2045",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "koukaku-kidoutai-sac-2045-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/koukaku-kidoutai-sac-2045/koukaku-kidoutai-sac-2045-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/koukaku-kidoutai-sac-2045/koukaku-kidoutai-sac-2045-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/koukaku-kidoutai-sac-2045/koukaku-kidoutai-sac-2045-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/koukaku-kidoutai-sac-2045/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/koukaku-kidoutai-sac-2045/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/koukaku-kidoutai-sac-2045/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/koukaku-kidoutai-sac-2045/ep_01.kk.srt",
+          "sha256": "b634b27375f7e42ce51d7f441fe99457e485b245a0fd9cff1f9c923e077a8d7b",
+          "bytes": 177708,
+          "cues": 1956,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/koukaku-kidoutai-sac-2045/ep_01.kk.vtt",
+          "sha256": "74a9785a991923d18860715e684975d600be1b1e0e68763eb68dc9c46113cc0d",
+          "bytes": 177805,
+          "cues": 1956,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/koukaku-kidoutai-sac-2045/ep_01.kk.ass",
+          "sha256": "36d4b2c3c93bc47fe02b32f684427a7df8b25a2208f836fdda83a03e110eb652",
+          "bytes": 207150,
+          "cues": 1956,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/koukaku-kidoutai-sac-2045.json"
 }

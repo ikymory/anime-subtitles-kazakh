@@ -15,24 +15,56 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "In the land of Earthsea, crops are dwindling, dragons have reappeared, and humanity is giving way to chaos. Journey with Lord Archmage Sparrowhawk, a master wizard, and Arren, a troubled young prince, on a tale of redemption and self-discovery as they search for the force behind the mysterious imbalance that threatens to destroy their world.<br>\n<br>\n(Source: Disney)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1829-DqhBRfDU7n6D.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1829-CogP9EXilVsU.jpg",
+  "description": "In the land of Earthsea, crops are dwindling, dragons have reappeared, and humanity is giving way to chaos. Journey with Lord Archmage Sparrowhawk, a master wizard, and Arren, a troubled young prince, on a tale of redemption and self-discovery as they search for the force behind the mysterious imbalance that threatens to destroy their world.<br>\n<br>\n(Source: Disney)",
   "averageScore": 64,
   "popularity": 41664,
+  "catalog_id": "ged-senki",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ged-senki-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ged-senki/ged-senki-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ged-senki/ged-senki-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ged-senki/ged-senki-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ged-senki/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ged-senki/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ged-senki/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ged-senki/ep_01.kk.srt",
+          "sha256": "710278895e2012ae54e1e7b0039b00f1395cc9c46b6389f4e722bd17f4a1eeb8",
+          "bytes": 106236,
+          "cues": 1316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ged-senki/ep_01.kk.vtt",
+          "sha256": "51173d1fa3ac59841f0ddda78e10fa58ae2df161e35cc461f578dfa8b7aa0183",
+          "bytes": 106333,
+          "cues": 1316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ged-senki/ep_01.kk.ass",
+          "sha256": "6b5912be450ce2dcace15e231ef280b4c78c56fe5921a49caf9a3a513c9ff507",
+          "bytes": 126719,
+          "cues": 1316,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ged-senki.json"
 }

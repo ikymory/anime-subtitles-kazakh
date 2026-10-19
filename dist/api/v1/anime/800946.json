@@ -3,22 +3,30 @@
   "slug": "barakamon",
   "title": {
     "romaji": "Barakamon",
-    "english": "Barakamon"
+    "english": "Barakamon",
+    "kazakh": "Баракамон",
+    "kk": "Баракамон"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 12,
+  "seasonYear": 2014,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20722-2KAeq72E95dr.png",
+  "averageScore": 81,
+  "popularity": 54780,
+  "color": "hsl(68, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20722-vjD7BMct1l1n.jpg",
+  "catalog_id": "barakamon",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
-    10,
-    11,
-    12,
     2,
     3,
     4,
@@ -26,128 +34,411 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "barakamon-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-1ep.ass"
-      }
-    },
-    {
-      "episode": 10,
-      "language": "kk",
-      "filename": "barakamon-10ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-10ep.ass"
-      }
-    },
-    {
-      "episode": 11,
-      "language": "kk",
-      "filename": "barakamon-11ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-11ep.ass"
-      }
-    },
-    {
-      "episode": 12,
-      "language": "kk",
-      "filename": "barakamon-12ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_01.kk.srt",
+          "sha256": "cd79a4f3f4dc752f5280382e1147c2afd22654ddd8cd3b08bd1a45bbc2ec430e",
+          "bytes": 31048,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_01.kk.vtt",
+          "sha256": "817e2db9cc51d209379b9831988a5b4ee26adc5de5108504fb248287fa3dac05",
+          "bytes": 31145,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_01.kk.ass",
+          "sha256": "53d19eea6cb3a3b9f2f0ac7c3030fd190dbcc51d6468544a31f0738a82868a67",
+          "bytes": 37580,
+          "cues": 381,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "barakamon-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_02.kk.srt",
+          "sha256": "e7f13f4ce6acb5d4409eec4c687e7845c9abf85c58786c41471a7962eb56ebdd",
+          "bytes": 35491,
+          "cues": 386,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_02.kk.vtt",
+          "sha256": "27e22e470ebc24b2ba36c40c47f2e36b31186c13909be69e017ca3ae5004fa85",
+          "bytes": 35588,
+          "cues": 386,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_02.kk.ass",
+          "sha256": "c5db6650f6c6525f6ea334c03245ae41bb6a63be3164a0c5f4762d60695207ff",
+          "bytes": 42098,
+          "cues": 386,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "barakamon-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_03.kk.srt",
+          "sha256": "b0890dc965ead0d6d38b505db199cdce3d368662900b055a6b9bbfbfe9273834",
+          "bytes": 33673,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_03.kk.vtt",
+          "sha256": "1df8b5d3e70afd26f8855df3f7187a99f32f2acb41fbce973ccb597e1df9d9a1",
+          "bytes": 33770,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_03.kk.ass",
+          "sha256": "706d88317645677fddb467bc359a53057ed2d77a4c73d877a3b09b274219a4d1",
+          "bytes": 39860,
+          "cues": 358,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "barakamon-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_04.kk.srt",
+          "sha256": "b8657ad76a91e55a9033d0b523373e6e1261dcc8dc921bf5062c6e9192e3dfc7",
+          "bytes": 38023,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_04.kk.vtt",
+          "sha256": "dd6e71ebb3f5bd201d404596eb7c4eacae3bcc6b417cf2a591854406ac57b037",
+          "bytes": 38120,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_04.kk.ass",
+          "sha256": "5775ebd17c04b27faf4ff2a43bd890e7d10b8261c2509cbfeff5f0d77afc6529",
+          "bytes": 45095,
+          "cues": 417,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "barakamon-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_05.kk.srt",
+          "sha256": "78cee99d1064585008f57afa675ab7e20227bb0f403bd5468e2b0f63a2fec035",
+          "bytes": 35616,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_05.kk.vtt",
+          "sha256": "b2519ead07c765ceaea6cd5d96232de1fdc558695b6d7ab9c9ef3475e34d8d06",
+          "bytes": 35713,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_05.kk.ass",
+          "sha256": "33fbe2323873150d2f9e0900173944875232b3179b1c70540686352c9dc851cc",
+          "bytes": 42268,
+          "cues": 389,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "barakamon-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_06.kk.srt",
+          "sha256": "3151cded2a6a6cf63b3f49ea96b64846267677a4f85719e34e024ab4ff335be7",
+          "bytes": 42644,
+          "cues": 452,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_06.kk.vtt",
+          "sha256": "a10e97ba8ccdac71e6912e632e6520b63f4ddbfe8e00da9137814f1c5145a5d4",
+          "bytes": 42741,
+          "cues": 452,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_06.kk.ass",
+          "sha256": "b0f33051272be096d11a731afdbf9a7443685c1d7db2ed5951b7fd0a14013b3e",
+          "bytes": 50241,
+          "cues": 452,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "barakamon-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_07.kk.srt",
+          "sha256": "969ba52030258032af16c0a3423a278bdf7cd757243f6c7d71b3f70b46a12313",
+          "bytes": 37017,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_07.kk.vtt",
+          "sha256": "7ca857f4193eebbf819f96b7c351d3f37c42b8bfef527a7103b174dbb3591782",
+          "bytes": 37114,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_07.kk.ass",
+          "sha256": "b072fa449b4066ce07cb1f7963752b4e3282bb7c035026d6baadb191a816edc4",
+          "bytes": 43669,
+          "cues": 389,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "barakamon-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_08.kk.srt",
+          "sha256": "47fca1f26290e3e4c707312b8904f4e2e511d5e4369de6a8fb8e0b6c1d1282ba",
+          "bytes": 38805,
+          "cues": 450,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_08.kk.vtt",
+          "sha256": "423bba2893600f7ec77aa4de7061218c89eb24a8c6d27ee31d7fbf2e2135f6e1",
+          "bytes": 38902,
+          "cues": 450,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_08.kk.ass",
+          "sha256": "7efd9756d698f4ba5aef87cf4d687d5a9e2a4c204198dc1fad7228eba1832a28",
+          "bytes": 46372,
+          "cues": 450,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "barakamon-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/barakamon/barakamon-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_09.kk.srt",
+          "sha256": "5254151e9daf39a6da76e7c434b8158dc8462b7db98c24430f7fee213ac58fda",
+          "bytes": 38337,
+          "cues": 438,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_09.kk.vtt",
+          "sha256": "0abf054eccdc1f1cf36f751052ffe4376b4092688bdc93de839a816687081057",
+          "bytes": 38434,
+          "cues": 438,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_09.kk.ass",
+          "sha256": "4256acbdb3793dc89167069cc7f291a97be69957630bbcf793176ef4af5dfb0d",
+          "bytes": 45724,
+          "cues": 438,
+          "origin": "source"
+        }
+      }
+    },
+    {
+      "episode": 10,
+      "language": "kk",
+      "filename": "ep_10.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_10.kk.srt",
+          "sha256": "08e10ddd5370f86df1adcb2d7bb71d399d61c3a82419bbb29ff62a4c8965fce0",
+          "bytes": 37499,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_10.kk.vtt",
+          "sha256": "7c88ad426892cf118683a114b517a5d510105a17e0e291b6cc94e542eaac6c19",
+          "bytes": 37596,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_10.kk.ass",
+          "sha256": "de5ccb8875ea150598c7d56d80359f12e87257b516241f32133f6ec3f1868f98",
+          "bytes": 44511,
+          "cues": 413,
+          "origin": "source"
+        }
+      }
+    },
+    {
+      "episode": 11,
+      "language": "kk",
+      "filename": "ep_11.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_11.kk.srt",
+          "sha256": "758ec398e48f56e294c5f0a25eeb52cc21bfa432b5593fec5681096ed45ecbc8",
+          "bytes": 33296,
+          "cues": 352,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_11.kk.vtt",
+          "sha256": "2b37d657402b0ef2f30557ec552531db8bf8e8dc31ea1b39cde95f6a8f9d7dc8",
+          "bytes": 33393,
+          "cues": 352,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_11.kk.ass",
+          "sha256": "24aba7e0e2079285c693423cd1acbcc9d0e995538f85cbca669b905b2d7f92d9",
+          "bytes": 39393,
+          "cues": 352,
+          "origin": "source"
+        }
+      }
+    },
+    {
+      "episode": 12,
+      "language": "kk",
+      "filename": "ep_12.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/barakamon/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/barakamon/ep_12.kk.srt",
+          "sha256": "08d7a72255336873b919b4837f5ef8c64a3230c145cfeb7b2772b39d9edbe625",
+          "bytes": 35904,
+          "cues": 386,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/barakamon/ep_12.kk.vtt",
+          "sha256": "13ff8532393a74b2a197c8424dd66a07278e0030868a40d41159286856c57f85",
+          "bytes": 36001,
+          "cues": 386,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/barakamon/ep_12.kk.ass",
+          "sha256": "42f76ab76b3a6e3883b2edbb19ecdb65aac94319a5b606dd71d7ec1d565c629e",
+          "bytes": 42511,
+          "cues": 386,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/barakamon.json"
 }

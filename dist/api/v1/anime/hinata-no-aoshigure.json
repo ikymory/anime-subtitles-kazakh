@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Hinata no Aoshigure - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hinata-no-aoshigure.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hinata-no-aoshigure.jpg",
+  "description": "Hinata no Aoshigure - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hinata-no-aoshigure",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hinata-no-aoshigure-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hinata-no-aoshigure/hinata-no-aoshigure-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hinata-no-aoshigure/hinata-no-aoshigure-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hinata-no-aoshigure/hinata-no-aoshigure-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hinata-no-aoshigure/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hinata-no-aoshigure/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hinata-no-aoshigure/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hinata-no-aoshigure/ep_01.kk.srt",
+          "sha256": "f065ee78412abcee75b119ea357dd5b3b790d1a95ecc81b0508c44cab2938171",
+          "bytes": 15246,
+          "cues": 224,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hinata-no-aoshigure/ep_01.kk.vtt",
+          "sha256": "aae4f5967916943dec4e1223ee87715c60007f57cc178778e4a4be041d193496",
+          "bytes": 15343,
+          "cues": 224,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hinata-no-aoshigure/ep_01.kk.ass",
+          "sha256": "1c3fdec1ccc71405f897eb9091cfac431e48ada0223e70b95f75df7dc3170908",
+          "bytes": 19484,
+          "cues": 224,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hinata-no-aoshigure.json"
 }

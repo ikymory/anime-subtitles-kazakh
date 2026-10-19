@@ -15,28 +15,59 @@
     "Action",
     "Comedy"
   ],
-  "description": "Assigned on a mission to capture Mukade, a missing-nin, Naruto Uzumaki sets out for the once glorious historic ruins of \"Ouran\", where he pursues and corners the rogue ninja. Mukade's goal is revealed to be a dormant leyline within the ruins; he unleashes the power of the leyline, causing a light to envelop Naruto, sending him into the past, 20 years before the series began. When Naruto awakens, he comes into contact with the Fourth Hokage, Minato Namikaze.<br><br>\n(Source: Wikipedia)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8246-KAi3bLLdJ4OI.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8246-FfSs0aXwJpPV.jpg",
+  "description": "Assigned on a mission to capture Mukade, a missing-nin, Naruto Uzumaki sets out for the once glorious historic ruins of \"Ouran\", where he pursues and corners the rogue ninja. Mukade's goal is revealed to be a dormant leyline within the ruins; he unleashes the power of the leyline, causing a light to envelop Naruto, sending him into the past, 20 years before the series began. When Naruto awakens, he comes into contact with the Fourth Hokage, Minato Namikaze.<br><br>\n(Source: Wikipedia)",
   "averageScore": 71,
   "popularity": 55658,
+  "color": "#d6936b",
+  "duration": 85,
+  "studio": "Studio Pierrot",
+  "catalog_id": "naruto-shippuuden-the-lost-tower",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "naruto-shippuuden-the-lost-tower-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-shippuuden-the-lost-tower/naruto-shippuuden-the-lost-tower-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-shippuuden-the-lost-tower/naruto-shippuuden-the-lost-tower-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-shippuuden-the-lost-tower/naruto-shippuuden-the-lost-tower-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-shippuuden-the-lost-tower/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-shippuuden-the-lost-tower/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-shippuuden-the-lost-tower/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/naruto-shippuuden-the-lost-tower/ep_01.kk.ass",
+          "sha256": "20389de8a99ce576454b1545785fdf7ccf26cb478ba35e72bf10506f45ac7fb6",
+          "bytes": 110650,
+          "cues": 1112,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/naruto-shippuuden-the-lost-tower/ep_01.kk.srt",
+          "sha256": "8267c3d95f0352dfa864dfcca1c6b2a3733262813e05a269052fc019aba91007",
+          "bytes": 92876,
+          "cues": 1108,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/naruto-shippuuden-the-lost-tower/ep_01.kk.vtt",
+          "sha256": "2b7693430655fa1b1c9523a03ba0656fd96903454fa39e3ae54569c4ab934d43",
+          "bytes": 92884,
+          "cues": 1108,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#d6936b",
-  "studio": "Studio Pierrot",
-  "duration": 85,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/naruto-shippuuden-the-lost-tower.json"
 }

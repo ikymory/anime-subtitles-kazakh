@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "cyberpunk-edgerunners",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cyberpunk-edgerunners.json"
+    },
+    {
+      "slug": "planetarian-hoshi-no-hito",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/planetarian-hoshi-no-hito.json"
+    }
+  ]
+}

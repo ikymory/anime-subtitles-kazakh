@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Bishounen Tanteidan - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bishounen-tanteidan.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bishounen-tanteidan.jpg",
+  "description": "Bishounen Tanteidan - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "bishounen-tanteidan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +40,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bishounen-tanteidan-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_01.kk.srt",
+          "sha256": "85e5c1123719517819881232edddac3165144dcb6aa7b1ed6fbbaa9e7ecfec10",
+          "bytes": 73026,
+          "cues": 778,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_01.kk.vtt",
+          "sha256": "05b13774eb277dc45ed76372960c37c0c4f2839b913a77443a158c69a22521cc",
+          "bytes": 73123,
+          "cues": 778,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_01.kk.ass",
+          "sha256": "396f7b9cefa44c9ca8e272846ad96f1b6332341549ad2213338ab7057e13b1ef",
+          "bytes": 85575,
+          "cues": 778,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "bishounen-tanteidan-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_02.kk.srt",
+          "sha256": "bafb78aa975a6d9ce0186d3ae1fd24f01edf1ba6dde12f5038912ec55fbb30ae",
+          "bytes": 158024,
+          "cues": 1998,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_02.kk.vtt",
+          "sha256": "922f6898407a52b95f4735f03bc3eaef347d9fd5191ff22449204b732d7d6d78",
+          "bytes": 158121,
+          "cues": 1998,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_02.kk.ass",
+          "sha256": "b6e92819e9dafb434a2aa8c5aaca059152a23e374ef796d8d115162e44bed33b",
+          "bytes": 187873,
+          "cues": 1998,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "bishounen-tanteidan-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_03.kk.srt",
+          "sha256": "2d749fe9297f7e984aa418fe26de0bce5b9ff59018fb4a0785c62904eb3b7069",
+          "bytes": 151700,
+          "cues": 1909,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_03.kk.vtt",
+          "sha256": "bed37416fa8681bc3db5f920f5813783c1aeab21a1444feea01153fc2e57c3e2",
+          "bytes": 151797,
+          "cues": 1909,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_03.kk.ass",
+          "sha256": "a323a4d440db832599444f85807bd40596c7d88d1930d1a4728a4e285ebe33d0",
+          "bytes": 180304,
+          "cues": 1909,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "bishounen-tanteidan-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_04.kk.srt",
+          "sha256": "b3455189014078eb26ce930fcc2854d3a4da7f96a68775ffc2d85f1201f6b565",
+          "bytes": 142986,
+          "cues": 1809,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_04.kk.vtt",
+          "sha256": "85794192d3f0837ad1a9e3e3c2222e68e0c9491315ed90b087b99173f6ff5737",
+          "bytes": 143083,
+          "cues": 1809,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_04.kk.ass",
+          "sha256": "977bcf8319078339fbb0e602b816379a0e3d8a311ccbf5253a86e8d7a19ba07a",
+          "bytes": 170189,
+          "cues": 1809,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "bishounen-tanteidan-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_05.kk.srt",
+          "sha256": "b286e91575fcdbeea25767d545f6fd61d0ba6df82cc2a1b87f06d25c26da7520",
+          "bytes": 153149,
+          "cues": 1879,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_05.kk.vtt",
+          "sha256": "1a328ac7c1212fa1ca1ff35305f574f9b32833cc030de8da2adfbf87f9687694",
+          "bytes": 153246,
+          "cues": 1879,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_05.kk.ass",
+          "sha256": "a29493856b3eeebe5b86efcdc15b18de59be13997d967ba82ee8b289f9d3add1",
+          "bytes": 181334,
+          "cues": 1879,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "bishounen-tanteidan-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_06.kk.srt",
+          "sha256": "4ba6efa41160038a107306a687e18242a6be75a72a48d5fad66085798a869d4d",
+          "bytes": 153961,
+          "cues": 1894,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_06.kk.vtt",
+          "sha256": "8fcee076e6e797409ffb1c6d8c559b9c08cd71692b24d9dd434c3ea0b93d8bb2",
+          "bytes": 154058,
+          "cues": 1894,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_06.kk.ass",
+          "sha256": "8d916389d2878687aa4f7e55d0a035e616b2e38e3e9a886e4de60c9426df68b9",
+          "bytes": 182354,
+          "cues": 1894,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "bishounen-tanteidan-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_07.kk.srt",
+          "sha256": "bec6abb7d39b9cb9171fc5b7f2a00a95ca69d558df49c9f7ede9bdc7bebaeb72",
+          "bytes": 157480,
+          "cues": 1920,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_07.kk.vtt",
+          "sha256": "b82ea2723f0133921645b91996a46858ef9c87accfeb84481cebdb8950216a48",
+          "bytes": 157577,
+          "cues": 1920,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_07.kk.ass",
+          "sha256": "9e2d1bbc89fc5bb1ed646e54e339f763acdeeb7e83df021fd939a7f776b60f1a",
+          "bytes": 186238,
+          "cues": 1920,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "bishounen-tanteidan-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_08.kk.srt",
+          "sha256": "1d7b38aa1319736feeeed59696f4357f898aecfca652b85ef36cda54aa49b9fa",
+          "bytes": 87210,
+          "cues": 1064,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_08.kk.vtt",
+          "sha256": "19c84837e3816b0158d1569e3b63a9811c117fcef42bee07e6ca126871db7461",
+          "bytes": 87307,
+          "cues": 1064,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_08.kk.ass",
+          "sha256": "3b4a6ea73c0e85974898e7d68584cd855561a4af83ad9360fe795228a6a0906a",
+          "bytes": 103983,
+          "cues": 1064,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "bishounen-tanteidan-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_09.kk.srt",
+          "sha256": "fc89c98201f5019f5dc0f04700a99c0f999f0d4deb6cb06f3ea0085037fe61c0",
+          "bytes": 91640,
+          "cues": 1096,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_09.kk.vtt",
+          "sha256": "17c8e368293e426ecd1f86597a17610372f2d49a6ebe29ac3df75bd1a1a0aed9",
+          "bytes": 91737,
+          "cues": 1096,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_09.kk.ass",
+          "sha256": "3496b4176b46c70d2a946960b95bab00b65f3cc327025b32fd1b33682e9801b8",
+          "bytes": 108861,
+          "cues": 1096,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "bishounen-tanteidan-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_10.kk.srt",
+          "sha256": "7cf21bfb315df2365d5a0bf7e7c7aa88a971a27127649548f72d7312ddb4ec52",
+          "bytes": 91629,
+          "cues": 1093,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_10.kk.vtt",
+          "sha256": "7ccb71c9808fa484b19ebe371facd7c63a7dfb13cf08a740efdf1abead79ec16",
+          "bytes": 91726,
+          "cues": 1093,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_10.kk.ass",
+          "sha256": "92e85996b585ce84585ff2d29c4f31b1a9c86c44d702b06a20fd1468bb602df8",
+          "bytes": 108808,
+          "cues": 1093,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "bishounen-tanteidan-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_11.kk.srt",
+          "sha256": "e578debfc6f121afb450cc65a083e691ec55720fb16690d2b97b614ec1a5fd6f",
+          "bytes": 93605,
+          "cues": 1118,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_11.kk.vtt",
+          "sha256": "2eea8b971090355bad36811beb14f675fc644c7cc6cd83f3abf8aa42592a9960",
+          "bytes": 93702,
+          "cues": 1118,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_11.kk.ass",
+          "sha256": "62adf63b0b50c7c3fe0423d1a7593288bc4c5e76c4b9664c14fcd36c5ed9c11c",
+          "bytes": 111135,
+          "cues": 1118,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "bishounen-tanteidan-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bishounen-tanteidan/bishounen-tanteidan-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bishounen-tanteidan/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bishounen-tanteidan/ep_12.kk.srt",
+          "sha256": "617f33f965b7f05164eaba62ff9747df7cf527204a96103a6439c0ae45c41444",
+          "bytes": 94729,
+          "cues": 1117,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bishounen-tanteidan/ep_12.kk.vtt",
+          "sha256": "86786629e8d2742f3702dfc701a6d834108d268fd7c761cc0c5dbc9d8b473510",
+          "bytes": 94826,
+          "cues": 1117,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bishounen-tanteidan/ep_12.kk.ass",
+          "sha256": "c869063aae9d4b20562d3c7374f4ef6b4a97161ad2f585a88fed5fd611ba275e",
+          "bytes": 112244,
+          "cues": 1117,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 37,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bishounen-tanteidan.json"
 }

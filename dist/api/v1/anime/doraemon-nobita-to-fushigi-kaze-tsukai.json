@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita to Fushigi Kaze Tsukai - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-fushigi-kaze-tsukai.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-fushigi-kaze-tsukai.jpg",
+  "description": "Doraemon. Nobita to Fushigi Kaze Tsukai - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-to-fushigi-kaze-tsukai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-to-fushigi-kaze-tsukai-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/doraemon-nobita-to-fushigi-kaze-tsukai-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/doraemon-nobita-to-fushigi-kaze-tsukai-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/doraemon-nobita-to-fushigi-kaze-tsukai-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/ep_01.kk.srt",
+          "sha256": "90749168b68ccc2489d4e66ad38db376976a246d183c916f5773febe90131370",
+          "bytes": 108516,
+          "cues": 1435,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/ep_01.kk.vtt",
+          "sha256": "d75b9b128d0995a616cd6ae9a80cab1d0059b347061e5ced4288d8f2860607c6",
+          "bytes": 108613,
+          "cues": 1435,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-to-fushigi-kaze-tsukai/ep_01.kk.ass",
+          "sha256": "51f3edad6590f77b17ef17e8e0a8be94f188cfa610e5222149f6003fee60b6f3",
+          "bytes": 130483,
+          "cues": 1435,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-to-fushigi-kaze-tsukai.json"
 }

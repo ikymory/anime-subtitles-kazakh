@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dounika Naru Hibi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dounika-naru-hibi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dounika-naru-hibi.jpg",
+  "description": "Dounika Naru Hibi - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dounika-naru-hibi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dounika-naru-hibi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dounika-naru-hibi/dounika-naru-hibi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dounika-naru-hibi/dounika-naru-hibi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dounika-naru-hibi/dounika-naru-hibi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dounika-naru-hibi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dounika-naru-hibi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dounika-naru-hibi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dounika-naru-hibi/ep_01.kk.srt",
+          "sha256": "00db86e87e4255332253d447a5fecabfc569b55df1950668563160b1b0064ef8",
+          "bytes": 50445,
+          "cues": 618,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dounika-naru-hibi/ep_01.kk.vtt",
+          "sha256": "b10608f311b2a7e03d031729a660dd292608a23b8e50ae088f87e404d095fa5a",
+          "bytes": 50542,
+          "cues": 618,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dounika-naru-hibi/ep_01.kk.ass",
+          "sha256": "68e35c95c38ec11d7b30fd95eff48b00829f1a43a20fdb8b8569aec8a0cd8094",
+          "bytes": 60593,
+          "cues": 618,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dounika-naru-hibi.json"
 }

@@ -16,24 +16,56 @@
     "Fantasy",
     "Supernatural"
   ],
-  "description": "Fate/stay night: Heaven's Feel I. presage flower - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fate-stay-night-heavens-feel-1.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fate-stay-night-heavens-feel-1.jpg",
+  "description": "Fate/stay night: Heaven's Feel I. presage flower - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "fate-stay-night-heavens-feel-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fate-stay-night-heavens-feel-1-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-heavens-feel-1/fate-stay-night-heavens-feel-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-heavens-feel-1/fate-stay-night-heavens-feel-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-heavens-feel-1/fate-stay-night-heavens-feel-1-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-heavens-feel-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-heavens-feel-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-heavens-feel-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fate-stay-night-heavens-feel-1/ep_01.kk.srt",
+          "sha256": "fb7ac778e34b2bce656282d7200a2313604c815d39d01cebe86bfa02953f1818",
+          "bytes": 107207,
+          "cues": 1305,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fate-stay-night-heavens-feel-1/ep_01.kk.vtt",
+          "sha256": "87d8eb52307609f03eaff0d40f3834cd4018f0c296a97dd12f9f5cac29d211f4",
+          "bytes": 107304,
+          "cues": 1305,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fate-stay-night-heavens-feel-1/ep_01.kk.ass",
+          "sha256": "777d8c39e08b9d43ebe628b2d18a88c139dfd33bad30de56b54c71a516674261",
+          "bytes": 127535,
+          "cues": 1305,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-stay-night-heavens-feel-1.json"
 }

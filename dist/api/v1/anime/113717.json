@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Ousama Ranking",
     "english": "Ranking of Kings",
-    "native": "王様ランキング"
+    "native": "王様ランキング",
+    "kazakh": "Патшалар рейтингі",
+    "kk": "Патшалар рейтингі"
   },
   "format": "TV",
   "episodes": 23,
@@ -15,9 +17,19 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Unable to hear, speak, or wield a sword, Prince Bojji doesn’t seem like a typical heir to the throne—and his kingdom agrees. But his fateful encounter with Kage, a shadow on the ground, gives him his first true friend. The two set off on a grand adventure and, together, form a bond that can overcome any obstacle...even being king.\n<br><br>\n(Source: Funimation)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113717-9sNnN8WRgK15.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113717-9sNnN8WRgK15.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113717-XFiGSPtNJQWv.jpg",
+  "description": "Unable to hear, speak, or wield a sword, Prince Bojji doesn’t seem like a typical heir to the throne—and his kingdom agrees. But his fateful encounter with Kage, a shadow on the ground, gives him his first true friend. The two set off on a grand adventure and, together, form a bond that can overcome any obstacle...even being king.\n\n(Source: Funimation)",
+  "averageScore": 79,
+  "popularity": 59286,
+  "color": "#e4935d",
+  "duration": 23,
+  "studio": "WIT STUDIO",
+  "catalog_id": "ranking-kings",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -43,236 +55,769 @@
     22,
     23
   ],
+  "translated_episodes_count": 23,
+  "available_episodes_count": 23,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ranking-kings-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_01.kk.srt",
+          "sha256": "a1809f6532779426e8a9920fdedb769eccfe0a1e6aa67b7987c0f8d95620713d",
+          "bytes": 26545,
+          "cues": 330,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_01.kk.vtt",
+          "sha256": "7e0c3160e8447fd574a81778a9f30fce2c4f7b3d8290186477af6d58945ec417",
+          "bytes": 26642,
+          "cues": 330,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_01.kk.ass",
+          "sha256": "01ce18c8415d9ee589cfd6388288e3d28abd8b01184773cd3b4cbed8a5e3a001",
+          "bytes": 32316,
+          "cues": 330,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "ranking-kings-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_02.kk.srt",
+          "sha256": "29a84c5b9d897e959b3f2a22616768d016979f9f3ce02d7992171d59f22895b1",
+          "bytes": 22752,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_02.kk.vtt",
+          "sha256": "132014de3e819db224b6ad51d776d2113ecc01db0345f8c94d7709718fef2fd8",
+          "bytes": 22849,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_02.kk.ass",
+          "sha256": "c28a00ca78454c029b184db42ff6e93c97094a3c80fb4d0089cb99c66eb060d3",
+          "bytes": 27833,
+          "cues": 284,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "ranking-kings-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_03.kk.srt",
+          "sha256": "24bc892b6d9fd460538b47107a456e5fb3d9e528413f22f13085df256c97a8ff",
+          "bytes": 20944,
+          "cues": 281,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_03.kk.vtt",
+          "sha256": "d0759e4fba295dac25fc529119b3783be1cdef0fa46afa424a3c2eccca6ebe1c",
+          "bytes": 21041,
+          "cues": 281,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_03.kk.ass",
+          "sha256": "6f74df3e6ab69635d0d81a3440cbc8f96e1f68b6ead7fa2710135ddff9c10bae",
+          "bytes": 25980,
+          "cues": 281,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "ranking-kings-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_04.kk.srt",
+          "sha256": "0ac29619a99647e7f4b4a7654ecea2b76ce7194f679239f26dc7a1e33b790fb3",
+          "bytes": 21075,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_04.kk.vtt",
+          "sha256": "5a752d5fbae08690dc7565489cce9071b18e823ef8336db30a9e5ae40c0703af",
+          "bytes": 21172,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_04.kk.ass",
+          "sha256": "37572a53af999845c0ea95dd7a4108cc8f9618002721f31e01293b6ac686b121",
+          "bytes": 25871,
+          "cues": 265,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "ranking-kings-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_05.kk.srt",
+          "sha256": "b1f4a865727cb764c6c6b60e3ef73d3008047610af631b6b1d0c7bb06d003c6f",
+          "bytes": 19252,
+          "cues": 248,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_05.kk.vtt",
+          "sha256": "1f46eea6d5da9fc1f1a165128d71c8bf2b9f49870196f49fbbbeb086a67fa9ba",
+          "bytes": 19349,
+          "cues": 248,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_05.kk.ass",
+          "sha256": "a494fbc38e8f2336a96308218e9d28bc22ff325599c7cb6cf7f320f130943f2f",
+          "bytes": 23793,
+          "cues": 248,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "ranking-kings-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_06.kk.srt",
+          "sha256": "6e6f32e80c77025747448acbad1678bfffb4383de91cf441d8594cd34b8e6558",
+          "bytes": 21710,
+          "cues": 268,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_06.kk.vtt",
+          "sha256": "f4e1f031fbc1bc368c7c932d30b6ab037a76eca0b94dd73cd2a6eb85d140eddd",
+          "bytes": 21807,
+          "cues": 268,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_06.kk.ass",
+          "sha256": "472adcd53ba7e04dbb891bad0acdbdfd6f91e0a0bd83f47fb394d3f062c3388d",
+          "bytes": 26551,
+          "cues": 268,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "ranking-kings-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_07.kk.srt",
+          "sha256": "798242e69c4b566f74fb12e3cebddb92696c48cad92cc9931d63b7406176b36a",
+          "bytes": 22918,
+          "cues": 295,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_07.kk.vtt",
+          "sha256": "f4516349b4c0a70dbadf05496e0fce049fe73ec0468a1157e337a0861156dca4",
+          "bytes": 23015,
+          "cues": 295,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_07.kk.ass",
+          "sha256": "feb29d59a66b4a1e8929cc57a8e3e108cff3ae2fbf126fdffd28eaf6ce2fb65d",
+          "bytes": 28164,
+          "cues": 295,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "ranking-kings-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_08.kk.srt",
+          "sha256": "9593bb9a2bb7a171a2cadc372e083ac554ff86bfe2f153b13bb283a552195cf5",
+          "bytes": 22690,
+          "cues": 290,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_08.kk.vtt",
+          "sha256": "ceee87e3669dad0fd5f110a6386bb920f2b49a1cef7acfd2179958a41b9e2f12",
+          "bytes": 22787,
+          "cues": 290,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_08.kk.ass",
+          "sha256": "77ab1943af3f24a4fd81e4f91f21cf68a10617245064aeb0288be4ff63087a15",
+          "bytes": 27861,
+          "cues": 290,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "ranking-kings-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_09.kk.srt",
+          "sha256": "b4b2ae75feb2941fd19d24e02d2c222e51e44c4bb3bda2851c55025b0bac02bd",
+          "bytes": 21436,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_09.kk.vtt",
+          "sha256": "2875b7fbcae96cf475b1355d805ffe75cec4b7c81674f1491da5fd1b75bf50f6",
+          "bytes": 21533,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_09.kk.ass",
+          "sha256": "c47009b5b32c9c49d80392bde8d29292a55a65f807b16c67b37539f962cee2d8",
+          "bytes": 26517,
+          "cues": 284,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "ranking-kings-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_10.kk.srt",
+          "sha256": "0fe2416d338830a6216370acde60bce7129f4c2602895c19272a77128b046d21",
+          "bytes": 26634,
+          "cues": 341,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_10.kk.vtt",
+          "sha256": "b28a74cedee8de749192b177343d609d497216938916ac2e93346aa610e5f435",
+          "bytes": 26731,
+          "cues": 341,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_10.kk.ass",
+          "sha256": "52639fb130fe1daf7802c6d70a96fc1537a293c0fa1e5faae2737759e0ed562e",
+          "bytes": 32570,
+          "cues": 341,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "ranking-kings-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_11.kk.srt",
+          "sha256": "f4a35954402440612ac61a00777cd98fedb9e34ada5aca11e169595e468bb9e3",
+          "bytes": 25438,
+          "cues": 304,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_11.kk.vtt",
+          "sha256": "8b376e3456a19b3a95dcbe7e386d7ef5f78bff1d3d4726103e44f2b7618d77d0",
+          "bytes": 25535,
+          "cues": 304,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_11.kk.ass",
+          "sha256": "e65dabb20853f81789c8b1db068d42d07ac0c404cd0a70c38f22bdfc9d01ba05",
+          "bytes": 30819,
+          "cues": 304,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "ranking-kings-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_12.kk.srt",
+          "sha256": "3c98e10839a0b0ab5f030504e8ea24e4de6a246429e10ad81692bdc37e1e588e",
+          "bytes": 21601,
+          "cues": 283,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_12.kk.vtt",
+          "sha256": "c6d682ddebc1d811f66dfdd50019634fcb89b1da0fd919949f8f85c70e23c554",
+          "bytes": 21698,
+          "cues": 283,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_12.kk.ass",
+          "sha256": "52b4349bcad20be80c1050d3978ebc6028282244ab1d8151106413da2715b079",
+          "bytes": 26667,
+          "cues": 283,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "ranking-kings-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_13.kk.srt",
+          "sha256": "2f2c9522829c046882576bfedce0ca54ab30c8693699b5d357dc71c81f38d17d",
+          "bytes": 20603,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_13.kk.vtt",
+          "sha256": "11c453dbd5f8a02422fea41007cb47301b25c1596984fc1a6784b08399c9e9ce",
+          "bytes": 20700,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_13.kk.ass",
+          "sha256": "c9ea07e4c8be3d17329ece43a7c462341255ebd4041ddc9ad224667117e72e52",
+          "bytes": 25684,
+          "cues": 284,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "ranking-kings-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_14.kk.srt",
+          "sha256": "03e91adde1b913c9594d9141a7fb4fbd5be51471c0592a102d3801c7366b8c04",
+          "bytes": 21810,
+          "cues": 303,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_14.kk.vtt",
+          "sha256": "55c557ba71600b8f7a02feb749677dd7bbbad4611add976a64f109c80a26bfcf",
+          "bytes": 21907,
+          "cues": 303,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_14.kk.ass",
+          "sha256": "3d8b2c5c48ec0d498453587d52c4fcf7c153feeeaacd202f74a2c0fd12b713e9",
+          "bytes": 27176,
+          "cues": 303,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "ranking-kings-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-15ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_15.kk.srt",
+          "sha256": "01fd58a83c486847c8cc9f6ae57037d2ccc734cf616942be524d5de0e11a58bd",
+          "bytes": 25744,
+          "cues": 337,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_15.kk.vtt",
+          "sha256": "fda0ba43dac43ea3df7eee0865553a6017824725e221d662081ac957f82355bd",
+          "bytes": 25841,
+          "cues": 337,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_15.kk.ass",
+          "sha256": "eb6c14aa6db59881d1201c93c430dae25a63efcfedbdec51295ba04bfed30dc1",
+          "bytes": 31620,
+          "cues": 337,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "ranking-kings-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-16ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_16.kk.srt",
+          "sha256": "fbf7073d0ba6da318f1d462a4487243d2b233e051fdbcc4cb6bf93e8a17435db",
+          "bytes": 24480,
+          "cues": 318,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_16.kk.vtt",
+          "sha256": "6cbdb3c4ee5fc204b5b4a78b00de39cbbf2529481fab50c0e54188540426f5d7",
+          "bytes": 24577,
+          "cues": 318,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_16.kk.ass",
+          "sha256": "9dc4c53c8a5f98b286eac5df151e64a225a1513ac0cd3142a626d446e707cf4c",
+          "bytes": 30071,
+          "cues": 318,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "ranking-kings-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_17.kk.srt",
+          "sha256": "d0460035cb98840ece686b66b325bca3b903a153c5e91e8a9494666f84c65bd8",
+          "bytes": 25168,
+          "cues": 339,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_17.kk.vtt",
+          "sha256": "38c1ec903f311a8065f7ac797f134b0711ece29bbc49fae30001cf0a0dbc8aa0",
+          "bytes": 25265,
+          "cues": 339,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_17.kk.ass",
+          "sha256": "6ac92b582e197a0c69eb870eb54ff4781d9d75562b24dcdb62596c5b571140c3",
+          "bytes": 31074,
+          "cues": 339,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "ranking-kings-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-18ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_18.kk.srt",
+          "sha256": "a045178de80efa6d301a0ebdb02f366a3855e7e5373208778d5caa49ae98303f",
+          "bytes": 23637,
+          "cues": 294,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_18.kk.vtt",
+          "sha256": "9d47a1f9c20771307e73bb53864ca252469dc1efb0eb0f4abde19c59947ab62a",
+          "bytes": 23734,
+          "cues": 294,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_18.kk.ass",
+          "sha256": "766b662a5b31bde267a4206e698aabb2c0fd4dbe13dd85076ae9021780ad7dea",
+          "bytes": 28868,
+          "cues": 294,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "ranking-kings-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-19ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_19.kk.srt",
+          "sha256": "4f67c9d9978186a12de7c4a0caa47d78ceb5f456ec25816e705d000a491e4ca4",
+          "bytes": 21465,
+          "cues": 299,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_19.kk.vtt",
+          "sha256": "41ded13bece35c2246bf2a2b695b761317d74b9174b9f194c18be204e65577e0",
+          "bytes": 21562,
+          "cues": 299,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_19.kk.ass",
+          "sha256": "e1f5f4ae3241f42fc0100580a1d395233ad87dab57b86ca3bec3a70c07e03c75",
+          "bytes": 26771,
+          "cues": 299,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "ranking-kings-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-20ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_20.kk.srt",
+          "sha256": "cfbf87e0f9217c50611d8098345053de1aeef0bb3e26f032c2f88a9b6b2a2372",
+          "bytes": 20315,
+          "cues": 274,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_20.kk.vtt",
+          "sha256": "5d7e5fc0682f5d8de80f9e64a6053ce1795f1e27eaed590e7155e72761fc01f3",
+          "bytes": 20412,
+          "cues": 274,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_20.kk.ass",
+          "sha256": "161a719186c3d6e673bb05b848696e0ed230420c8b10149da8320baa2b04e426",
+          "bytes": 25246,
+          "cues": 274,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "ranking-kings-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-21ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_21.kk.srt",
+          "sha256": "985a638b2da3b0770b6efad7e5197645de696bd5097f4f42161e2374ee89e5d5",
+          "bytes": 18366,
+          "cues": 246,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_21.kk.vtt",
+          "sha256": "1c987adb1a8d74cc6a341252ab2704440e9d721374c695018874b405acfeb5fd",
+          "bytes": 18463,
+          "cues": 246,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_21.kk.ass",
+          "sha256": "b3056097e04695ec8b651f3e0d268c9dbb3ddbfe59d712a6fe8214c8b4c660a8",
+          "bytes": 22877,
+          "cues": 246,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "ranking-kings-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-22ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_22.kk.srt",
+          "sha256": "e60e714fd4e20e19dfbbc024a432cc62b6e90007c46a665825d262b90caa3aba",
+          "bytes": 21156,
+          "cues": 290,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_22.kk.vtt",
+          "sha256": "efc31be4153757365af2c2b3fbe101c0d06da38e183084c65d34511625ded14d",
+          "bytes": 21253,
+          "cues": 290,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_22.kk.ass",
+          "sha256": "805e3112157d45a4e4005cebcff0da9ca4068f41e0ea094da5d860d494572443",
+          "bytes": 26327,
+          "cues": 290,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "ranking-kings-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ranking-kings/ranking-kings-23ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ranking-kings/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ranking-kings/ep_23.kk.srt",
+          "sha256": "2c488c613cb3e57a52707b9a436f4b89b4d619472b8edbf52b410f7b5c4792c0",
+          "bytes": 19898,
+          "cues": 281,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ranking-kings/ep_23.kk.vtt",
+          "sha256": "8abbd12d1e42159d2c3a3644f409c71b857c4a97a6b400673efd2a04212e8755",
+          "bytes": 19995,
+          "cues": 281,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ranking-kings/ep_23.kk.ass",
+          "sha256": "827203eda6fe9f75935b73a69f7c0f3ec010e106de8a55049d05e805c0da88ff",
+          "bytes": 24934,
+          "cues": 281,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 69,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ranking-kings.json"
 }

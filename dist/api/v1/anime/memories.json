@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "MEMORIES - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/memories.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/memories.jpg",
+  "description": "MEMORIES - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "memories",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "memories-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/memories/memories-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/memories/memories-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/memories/memories-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/memories/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/memories/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/memories/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/memories/ep_01.kk.srt",
+          "sha256": "6c4e4cfda665e2e8225d2d4801243a9c8526db348d8c6367977cbe2e6634ed94",
+          "bytes": 127878,
+          "cues": 1563,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/memories/ep_01.kk.vtt",
+          "sha256": "ff4b611394c802921f0380de1b961f3ed22d80a2533684cdb51594eaf383c3e5",
+          "bytes": 127975,
+          "cues": 1563,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/memories/ep_01.kk.ass",
+          "sha256": "8b3cde28cc20495eecd6ccfd9faaaf320e28494760b73b0f9b091b974b58e5eb",
+          "bytes": 151818,
+          "cues": 1563,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/memories.json"
 }

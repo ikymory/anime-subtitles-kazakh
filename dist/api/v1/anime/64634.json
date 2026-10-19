@@ -3,41 +3,102 @@
   "slug": "the-cat-returns",
   "title": {
     "romaji": "The Cat Returns",
-    "english": "The Cat Returns"
+    "english": "The Cat Returns",
+    "kazakh": "Мысықтың қайтуы",
+    "kk": "Мысықтың қайтуы"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 2,
+  "seasonYear": 2002,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx597-Prw5pUyYwcFO.png",
+  "averageScore": 78,
+  "popularity": 62519,
+  "color": "hsl(3, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/597-nTMnq104EwyB.jpg",
+  "catalog_id": "the-cat-returns",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     5
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "the-cat-returns-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-cat-returns/the-cat-returns-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-cat-returns/the-cat-returns-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-cat-returns/the-cat-returns-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-cat-returns/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-cat-returns/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-cat-returns/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/the-cat-returns/ep_01.kk.srt",
+          "sha256": "f341bc330fe4871cd808dee84d8409f920f44d4ae1488051d2ff53345f33ef41",
+          "bytes": 88062,
+          "cues": 1066,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/the-cat-returns/ep_01.kk.vtt",
+          "sha256": "e178f31b6e12d26ae3551eaa0350217144a37a0326a419267386ebd436797c2e",
+          "bytes": 88159,
+          "cues": 1066,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/the-cat-returns/ep_01.kk.ass",
+          "sha256": "e0c96e1534842cd0852599758bd1457649151b15129bc2e5f3a8f1328e01ffed",
+          "bytes": 104808,
+          "cues": 1066,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "the-cat-returns-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-cat-returns/the-cat-returns-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-cat-returns/the-cat-returns-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-cat-returns/the-cat-returns-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-cat-returns/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-cat-returns/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-cat-returns/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/the-cat-returns/ep_05.kk.srt",
+          "sha256": "1ebd182dae6c6ee90544e92e1f1c2966b95108a652d96c76c0e5ff94c74b213d",
+          "bytes": 84657,
+          "cues": 998,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/the-cat-returns/ep_05.kk.vtt",
+          "sha256": "ad2b387e7b389f957f4b4ff6bd5d98f004681cc8b865ddae25d91e280d8a5261",
+          "bytes": 84754,
+          "cues": 998,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/the-cat-returns/ep_05.kk.ass",
+          "sha256": "60705a9d6f87bb36e1d77d95f8ff31a8d70b36c74f6bcf5f7622868986953188",
+          "bytes": 100450,
+          "cues": 998,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/the-cat-returns.json"
 }

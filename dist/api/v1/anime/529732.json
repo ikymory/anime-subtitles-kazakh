@@ -3,30 +3,68 @@
   "slug": "mha-heroes-rising",
   "title": {
     "romaji": "Mha Heroes Rising",
-    "english": "Mha Heroes Rising"
+    "english": "Mha Heroes Rising",
+    "kazakh": "Менің қаһармандық академиям: Қаһармандар көтерілісі",
+    "kk": "Менің қаһармандық академиям: Қаһармандар көтерілісі"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2019,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108553-yOLfFogpWnTF.jpg",
+  "averageScore": 76,
+  "popularity": 65583,
+  "color": "hsl(52, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108553-rEe0n22hRkPH.jpg",
+  "catalog_id": "mha-heroes-rising",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mha-heroes-rising-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-heroes-rising/mha-heroes-rising-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-heroes-rising/mha-heroes-rising-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-heroes-rising/mha-heroes-rising-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-heroes-rising/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-heroes-rising/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-heroes-rising/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mha-heroes-rising/ep_01.kk.srt",
+          "sha256": "261990f7e0664ebcfdbc09c586f4795dd433eca64512465b3a4f505ca6e1f494",
+          "bytes": 139204,
+          "cues": 1676,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mha-heroes-rising/ep_01.kk.vtt",
+          "sha256": "2051f9aa689d584f89332a3179a8d3e40874a6876df399252876a1c8fb3d550c",
+          "bytes": 139301,
+          "cues": 1676,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mha-heroes-rising/ep_01.kk.ass",
+          "sha256": "a410e4933317d2acd25c4c7927d5711d9418ea0d333b3ab2d8ce8973573d7a02",
+          "bytes": 164492,
+          "cues": 1676,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mha-heroes-rising.json"
 }

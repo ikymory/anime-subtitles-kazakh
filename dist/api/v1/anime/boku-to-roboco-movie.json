@@ -15,24 +15,56 @@
     "Comedy",
     "Sci-Fi"
   ],
-  "description": "Me & Roboco The Movie - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-to-roboco-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-to-roboco-movie.jpg",
+  "description": "Me & Roboco The Movie - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 96000,
+  "catalog_id": "boku-to-roboco-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boku-to-roboco-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-to-roboco-movie/boku-to-roboco-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-to-roboco-movie/boku-to-roboco-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-to-roboco-movie/boku-to-roboco-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-to-roboco-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-to-roboco-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-to-roboco-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-to-roboco-movie/ep_01.kk.srt",
+          "sha256": "6abc97491107a3160af87c6bb8b37096120cd13c4605759233471dde0feea599",
+          "bytes": 115110,
+          "cues": 1319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-to-roboco-movie/ep_01.kk.vtt",
+          "sha256": "c673fd7019e128c99160da1abb2fee7a2425f5c3feb227c3e99b8c00741cbc9f",
+          "bytes": 115207,
+          "cues": 1319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-to-roboco-movie/ep_01.kk.ass",
+          "sha256": "5a7d8d8c69623ee506b3c78387cd589b35c7df3b52491e0864e6b55741ac9e97",
+          "bytes": 135634,
+          "cues": 1319,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boku-to-roboco-movie.json"
 }

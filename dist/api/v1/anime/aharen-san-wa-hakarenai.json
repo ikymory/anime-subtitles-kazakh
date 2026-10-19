@@ -16,11 +16,19 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "The story follows the \"indecipherable\" daily life of the short and quiet Reina Aharen and Raidou who sits next to her. Aharen is not so good at gauging the distance between people, and Raidou initially felt some distance between the two of them. One day, when Raidou picked up the eraser that Aharen had dropped, the distance between them suddenly became uncomfortably close.<br>\n<br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137281-i4UHcGkUi7j6.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137281-kWj2z1Nk8akA.jpg",
+  "description": "The story follows the \"indecipherable\" daily life of the short and quiet Reina Aharen and Raidou who sits next to her. Aharen is not so good at gauging the distance between people, and Raidou initially felt some distance between the two of them. One day, when Raidou picked up the eraser that Aharen had dropped, the distance between them suddenly became uncomfortably close.<br>\n<br>\n(Source: Anime News Network)",
   "averageScore": 71,
   "popularity": 128305,
+  "color": "#5d93e4",
+  "duration": 24,
+  "studio": "Felix Film",
+  "catalog_id": "aharen-san-wa-hakarenai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -35,130 +43,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_01.kk.ass",
+          "sha256": "3f18780a063c48d4dd674c3970edf5dc8f4b9fc58a5d01a852560f39d412e862",
+          "bytes": 36644,
+          "cues": 373,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_01.kk.srt",
+          "sha256": "0c16dfa9a2438b0685e294122f30dd577d17cd771909476450d58be20901aa21",
+          "bytes": 29882,
+          "cues": 370,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_01.kk.vtt",
+          "sha256": "cc5133ac888ebdfbf6b83a83ec62fd3bc6aa680f454123e954429ac109ad8da1",
+          "bytes": 29890,
+          "cues": 370,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-2ep.srt",
+      "filename": "ep_02.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_02.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_02.kk.ass",
+          "sha256": "4928ff2213ec9106fe2113fa0ecaba98d1207a33bba73bdcd2017cc85a45084f",
+          "bytes": 37760,
+          "cues": 398,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_02.kk.srt",
+          "sha256": "b90f1492aff7c8d0ca280c4295b72d80bef8b9dc2af6231c4cd8b06a2bfc028d",
+          "bytes": 30587,
+          "cues": 394,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_02.kk.vtt",
+          "sha256": "8a45544bbb3901ecf00ab25b7f482d8fb5fcb1517476417edd8cf49531a78b34",
+          "bytes": 30595,
+          "cues": 394,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-3ep.srt",
+      "filename": "ep_03.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_03.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_03.kk.ass",
+          "sha256": "fc69c2be7d3b2639a62e8347e76bca11798ae15c8853d52a513fa299ec816a42",
+          "bytes": 42802,
+          "cues": 424,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_03.kk.srt",
+          "sha256": "34182a0c7550779ee5a4f382a871851242c10b0e58b3ef2c2c1aae8f07ad1451",
+          "bytes": 35274,
+          "cues": 421,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_03.kk.vtt",
+          "sha256": "421cd18ded49d2f757d974d6632232c248ffd7fd9a6c1ac4c4abb16b7702cdf4",
+          "bytes": 35282,
+          "cues": 421,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-4ep.srt",
+      "filename": "ep_04.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_04.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_04.kk.ass",
+          "sha256": "f7521f13ace5d88f92f433db56b2d6c8957654e969e4129e829889fc7a3defc9",
+          "bytes": 49123,
+          "cues": 493,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_04.kk.srt",
+          "sha256": "f805e710da13820e9b1e4e90363e687f6f140bb43b2f4d49a61ebeb102abfd14",
+          "bytes": 40633,
+          "cues": 492,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_04.kk.vtt",
+          "sha256": "9aec7a0e03112ffaa03b3572523557261f909c2e845346405530c0be95ee1ff3",
+          "bytes": 40641,
+          "cues": 492,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_05.kk.srt",
+          "sha256": "8d56116883ebbac89710b16f5145ff4cbfcd98866c7b6ead6db833aa428bb9ba",
+          "bytes": 31133,
+          "cues": 382,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_05.kk.vtt",
+          "sha256": "707d02d13d0c03e6f5573aa336e901defec740bd3d745a72f401d3fa14a681ac",
+          "bytes": 31230,
+          "cues": 382,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_05.kk.ass",
+          "sha256": "3f8c03a72a7a16bc4700abad9ae87c4c9cae3f1095de67b4d7c2d673e11a1e6c",
+          "bytes": 37923,
+          "cues": 382,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-6ep.srt",
+      "filename": "ep_06.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_06.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_06.kk.ass",
+          "sha256": "a23e404c553f976a50108c62dd08a86d5ebc8a0613e6d93c329c7bbba08c8286",
+          "bytes": 35633,
+          "cues": 368,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_06.kk.srt",
+          "sha256": "170d21a9aadd902b1d215261540a3cb31c230a1847174bf2d9d29e99057879fc",
+          "bytes": 28910,
+          "cues": 364,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_06.kk.vtt",
+          "sha256": "eb0e279cdc8f16f0cb517713ea4b66bf4061230ee124be9ff1f94d861e84851d",
+          "bytes": 28918,
+          "cues": 364,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-7ep.srt",
+      "filename": "ep_07.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_07.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_07.kk.ass",
+          "sha256": "9c371d47c08abc4267f6978828f1a6e709cbe8d7c116232df734cdafbd428420",
+          "bytes": 45194,
+          "cues": 434,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_07.kk.srt",
+          "sha256": "eb4aa411c928b61d7b092feb2e47527c580a75377bb7c076ca714d8f8f9f7cda",
+          "bytes": 37481,
+          "cues": 430,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_07.kk.vtt",
+          "sha256": "45da099bbcfd7fb5c99d7af1b3cd7254dcfe56d531214700d58dfbdc11183ed3",
+          "bytes": 37489,
+          "cues": 430,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-8ep.srt",
+      "filename": "ep_08.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_08.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_08.kk.ass",
+          "sha256": "f04a796a5af620c59c7da43ab05ddc3f6db2634139cfba1bacc5022ced643fd6",
+          "bytes": 39454,
+          "cues": 390,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_08.kk.srt",
+          "sha256": "864e29759f8f952bfd8986401b95d2171243a5c4359ce409c515bf28b766d20c",
+          "bytes": 32509,
+          "cues": 389,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_08.kk.vtt",
+          "sha256": "4decc9db856fe6bff8a082e5611ab82d0dab4ee37e21942643b4a4c7047e924f",
+          "bytes": 32517,
+          "cues": 389,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-9ep.srt",
+      "filename": "ep_09.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_09.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_09.kk.ass",
+          "sha256": "38ffc193ffb476fcc766ff36229c774a298a705a00ed1ad0d9dafc5a3259357a",
+          "bytes": 40951,
+          "cues": 409,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_09.kk.srt",
+          "sha256": "ac9a7b259ca4220a26c759d489b0d6cd8e7e4a630f3aaf18cbe134ef516e1ae2",
+          "bytes": 33721,
+          "cues": 408,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_09.kk.vtt",
+          "sha256": "7bccaf71259f6cc588c48d6bf139c58bc20901801c65465c6a31c3d68caf75e8",
+          "bytes": 33729,
+          "cues": 408,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-10ep.srt",
+      "filename": "ep_10.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_10.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_10.kk.ass",
+          "sha256": "70ae21f9321f5d3b30f78563efa1062e2e3031d55f98e9b8568c5fbfbfb75105",
+          "bytes": 40101,
+          "cues": 416,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_10.kk.srt",
+          "sha256": "1308ea866a52464c6ad14be9d4cf95e3d7ea2787f505c9510e2a0da79a449e7f",
+          "bytes": 32730,
+          "cues": 414,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_10.kk.vtt",
+          "sha256": "ac01ca871a7ebf134df1b438c0fc6396ab12577ccb52751e3a5fc51d2fed5313",
+          "bytes": 32738,
+          "cues": 414,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-11ep.srt",
+      "filename": "ep_11.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_11.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_11.kk.ass",
+          "sha256": "40f37f10f9a13ad2f8637c4625c3b93372dbaee92306f17b729d0463cae3a84b",
+          "bytes": 36356,
+          "cues": 364,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_11.kk.srt",
+          "sha256": "585311400edd0964fd256950ade817743c097133eadf4db88e3d6ecd1769fe3b",
+          "bytes": 29764,
+          "cues": 362,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_11.kk.vtt",
+          "sha256": "4113ec58c52bbae9e13b552e8aeef61290b45efb4e2ed40d469f3256957b402c",
+          "bytes": 29772,
+          "cues": 362,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "aharen-san-wa-hakarenai-12ep.srt",
+      "filename": "ep_12.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aharen-san-wa-hakarenai/aharen-san-wa-hakarenai-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aharen-san-wa-hakarenai/ep_12.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_12.kk.ass",
+          "sha256": "30c9c101506f40291ff03a0eee3ad71386509b4076f7d97d8d33e4dfed487660",
+          "bytes": 40288,
+          "cues": 403,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_12.kk.srt",
+          "sha256": "fce1f5ad200eae7849a473f4013afb6679782060242879fe7450d92a13463e5e",
+          "bytes": 33112,
+          "cues": 401,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aharen-san-wa-hakarenai/ep_12.kk.vtt",
+          "sha256": "63be2d4ef444eb077fe39852df2c76d4172a2a2d3b93bb87d5270ffbcbb330b3",
+          "bytes": 33120,
+          "cues": 401,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#5d93e4",
-  "studio": "Felix Film",
-  "duration": 24,
-  "translated_episodes_count": 12
+  "quality_issues_count": 61,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aharen-san-wa-hakarenai.json"
 }

@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "deemo-sakura-no-oto",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deemo-sakura-no-oto.json"
+    },
+    {
+      "slug": "one-piece-chopper-plus",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-chopper-plus.json"
+    }
+  ]
+}

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Fragtime - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fragtime.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fragtime.jpg",
+  "description": "Fragtime - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "fragtime",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fragtime-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fragtime/fragtime-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fragtime/fragtime-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fragtime/fragtime-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fragtime/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fragtime/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fragtime/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fragtime/ep_01.kk.srt",
+          "sha256": "4d42d31733a2d47eb0c8a9db398d8b594089aeff21d407c1a84b578a03639d9d",
+          "bytes": 76690,
+          "cues": 802,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fragtime/ep_01.kk.vtt",
+          "sha256": "7ee8eb3f12db47b08ad230bb20c88e040ed338bba7bec40653f29120cc593e35",
+          "bytes": 76787,
+          "cues": 802,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fragtime/ep_01.kk.ass",
+          "sha256": "415297aa8291a8ce9681c24aee8678ac2737c7b24ea652e3d6b1443f937821c7",
+          "bytes": 89598,
+          "cues": 802,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fragtime.json"
 }

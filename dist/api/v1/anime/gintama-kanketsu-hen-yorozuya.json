@@ -17,24 +17,56 @@
     "Drama",
     "Sci-Fi"
   ],
-  "description": "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gintama-kanketsu-hen-yorozuya.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gintama-kanketsu-hen-yorozuya.jpg",
+  "description": "Gintama: The Movie: The Final Chapter: Be Forever Yorozuya - official Kazakh translation archive by ikymory.",
   "averageScore": 90,
   "popularity": 108000,
+  "catalog_id": "gintama-kanketsu-hen-yorozuya",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gintama-kanketsu-hen-yorozuya-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-kanketsu-hen-yorozuya/gintama-kanketsu-hen-yorozuya-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-kanketsu-hen-yorozuya/gintama-kanketsu-hen-yorozuya-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-kanketsu-hen-yorozuya/gintama-kanketsu-hen-yorozuya-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-kanketsu-hen-yorozuya/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-kanketsu-hen-yorozuya/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-kanketsu-hen-yorozuya/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-kanketsu-hen-yorozuya/ep_01.kk.srt",
+          "sha256": "41d54062a0cf5f338a10674fe01fb9bd7e06a1c3e3b2271dfefb5ce5510d33a0",
+          "bytes": 432037,
+          "cues": 5338,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-kanketsu-hen-yorozuya/ep_01.kk.vtt",
+          "sha256": "3a46c490964d2186582b79088369277c243f9150f724ab6491174b2e25db10ee",
+          "bytes": 432134,
+          "cues": 5338,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-kanketsu-hen-yorozuya/ep_01.kk.ass",
+          "sha256": "6427ffe77ddaabd2b6315327e1ba1ec705a04bef09e92b2c3172964ccf4788f6",
+          "bytes": 508392,
+          "cues": 5338,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-kanketsu-hen-yorozuya.json"
 }

@@ -16,28 +16,59 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "A retelling of <i>Dragon Ball</i>'s origins, this is a different version of the meeting of Goku, Bulma, Oolong, and Yamucha. They are all looking for the dragon balls for different reasons when they cross paths with an evil king named Gourmeth, who is also looking for the dragon balls.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/502-qMhEQOjbNK0w.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/502-xNziMcLtegvj.jpg",
+  "description": "A retelling of <i>Dragon Ball</i>'s origins, this is a different version of the meeting of Goku, Bulma, Oolong, and Yamucha. They are all looking for the dragon balls for different reasons when they cross paths with an evil king named Gourmeth, who is also looking for the dragon balls.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 63,
   "popularity": 17657,
+  "color": "#e4bb0d",
+  "duration": 50,
+  "studio": "Toei Animation",
+  "catalog_id": "dragon-ball-curse-blood-rubies",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-curse-blood-rubies-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-curse-blood-rubies/dragon-ball-curse-blood-rubies-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-curse-blood-rubies/dragon-ball-curse-blood-rubies-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-curse-blood-rubies/dragon-ball-curse-blood-rubies-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-curse-blood-rubies/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-curse-blood-rubies/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-curse-blood-rubies/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-curse-blood-rubies/ep_01.kk.srt",
+          "sha256": "90aaf2f71a816820080f03e258b4ae30daad2f2fd9e5ae8960dfe5692eb8add6",
+          "bytes": 57190,
+          "cues": 731,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-curse-blood-rubies/ep_01.kk.vtt",
+          "sha256": "9103fb54c41a8d9e1f61008ab289d66a2cee57cf8e8497095a354a5319e55264",
+          "bytes": 57287,
+          "cues": 731,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-curse-blood-rubies/ep_01.kk.ass",
+          "sha256": "e8373b4ec1b6c545b181ba536bd7b3949b205839516478086519ede3822b2b49",
+          "bytes": 70418,
+          "cues": 731,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e4bb0d",
-  "studio": "Toei Animation",
-  "duration": 50,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-curse-blood-rubies.json"
 }

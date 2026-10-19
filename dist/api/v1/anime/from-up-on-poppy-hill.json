@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10029-R7iZdjWuzeYq.png",
+  "averageScore": 78,
+  "popularity": 72795,
+  "color": "hsl(270, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10029-U4tY2KezjAc5.jpg",
+  "catalog_id": "from-up-on-poppy-hill",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "from-up-on-poppy-hill-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/from-up-on-poppy-hill/from-up-on-poppy-hill-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/from-up-on-poppy-hill/from-up-on-poppy-hill-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/from-up-on-poppy-hill/from-up-on-poppy-hill-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/from-up-on-poppy-hill/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/from-up-on-poppy-hill/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/from-up-on-poppy-hill/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/from-up-on-poppy-hill/ep_01.kk.srt",
+          "sha256": "40ec2c64e18507d0b704329f80aac6eeae169600eb88c6439025754516365386",
+          "bytes": 95101,
+          "cues": 1113,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/from-up-on-poppy-hill/ep_01.kk.vtt",
+          "sha256": "84e77caf922f7a675c3cd17fe27c4a91f3ff250c7ea0e88f657d7f2b8c77126f",
+          "bytes": 95198,
+          "cues": 1113,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/from-up-on-poppy-hill/ep_01.kk.ass",
+          "sha256": "829d84b3adffe26653be8d7abe6d115bdf54ffea17a6b8ab493680a1fe4214d1",
+          "bytes": 112511,
+          "cues": 1113,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(270, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 78,
-  "popularity": 72795,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/from-up-on-poppy-hill.json"
 }

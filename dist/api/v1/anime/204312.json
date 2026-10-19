@@ -3,30 +3,68 @@
   "slug": "josee-the-tiger-and-the-fish",
   "title": {
     "romaji": "Josee The Tiger And The Fish",
-    "english": "Josee The Tiger And The Fish"
+    "english": "Josee The Tiger And The Fish",
+    "kazakh": "Жозе, жолбарыс және балық",
+    "kk": "Жозе, жолбарыс және балық"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2020,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113596-LKA0bYJGjLnB.jpg",
+  "averageScore": 86,
+  "popularity": 53427,
+  "color": "#0d78bb",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113596-8r3fCSFgQHIY.jpg",
+  "catalog_id": "josee-the-tiger-and-the-fish",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "josee-the-tiger-and-the-fish-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/josee-the-tiger-and-the-fish/josee-the-tiger-and-the-fish-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/josee-the-tiger-and-the-fish/josee-the-tiger-and-the-fish-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/josee-the-tiger-and-the-fish/josee-the-tiger-and-the-fish-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/josee-the-tiger-and-the-fish/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/josee-the-tiger-and-the-fish/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/josee-the-tiger-and-the-fish/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/josee-the-tiger-and-the-fish/ep_01.kk.srt",
+          "sha256": "f4e718654cef3296991ba50fb78c35ec320acb6f587349cb885a2ee8ffc8aff3",
+          "bytes": 107301,
+          "cues": 1283,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/josee-the-tiger-and-the-fish/ep_01.kk.vtt",
+          "sha256": "caf615dd4109331038966012dd9c32a60e2d5696898165de6d15975fefa9d8da",
+          "bytes": 107398,
+          "cues": 1283,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/josee-the-tiger-and-the-fish/ep_01.kk.ass",
+          "sha256": "b610562bc8e40b02189fc60fff6b36e9638e041a5942ff174e3b2072fae80f6f",
+          "bytes": 127098,
+          "cues": 1283,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/josee-the-tiger-and-the-fish.json"
 }

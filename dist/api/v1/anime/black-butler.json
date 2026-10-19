@@ -18,28 +18,59 @@
     "Mystery",
     "Supernatural"
   ],
-  "description": "In Victorian-era Europe, a young boy loses everything he once held near and dear to a vicious plot. In his moment of death, he strikes a deal with a demon: his soul, in exchange for revenge. Ciel Phantomhive is now the head of the Phantomhive corporation, handling all business affairs as well as the underground work for the Queen of England. His new partner is a demon butler, Sebastian Michaelis, whose powers as a butler is only surpassed by his strength as a demon.<br><br>\nThe story follows the two along with their other servants, as they work to unravel the plot behind Ciel's parents' murder, and the horrendous tragedies that befell Ciel in the month directly after.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx4898-mW4gabZvwmLC.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4898-qqGPkf0qkMDh.jpg",
+  "description": "In Victorian-era Europe, a young boy loses everything he once held near and dear to a vicious plot. In his moment of death, he strikes a deal with a demon: his soul, in exchange for revenge. Ciel Phantomhive is now the head of the Phantomhive corporation, handling all business affairs as well as the underground work for the Queen of England. His new partner is a demon butler, Sebastian Michaelis, whose powers as a butler is only surpassed by his strength as a demon.\nThe story follows the two along with their other servants, as they work to unravel the plot behind Ciel's parents' murder, and the horrendous tragedies that befell Ciel in the month directly after.",
+  "averageScore": 84,
+  "popularity": 58031,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "A-1 Pictures",
+  "catalog_id": "black-butler",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "black-butler-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-butler/black-butler-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-butler/black-butler-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-butler/black-butler-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-butler/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-butler/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-butler/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-butler/ep_01.kk.srt",
+          "sha256": "5ff9d1e7fed6b0f5f2f831dee7afe0ceb871fac17df52db31dbe17c1d0002012",
+          "bytes": 31791,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-butler/ep_01.kk.vtt",
+          "sha256": "58e7f5983f34dc46f76fc40284a2291589ba825a848c91c4fb3f11c603fa7b3f",
+          "bytes": 31888,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-butler/ep_01.kk.ass",
+          "sha256": "21c3e12196a89af5960655528828bef097e88a41f0d62870999b29c441c8ff25",
+          "bytes": 38101,
+          "cues": 366,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "A-1 Pictures",
-  "duration": 24,
-  "averageScore": 84,
-  "popularity": 58031,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/black-butler.json"
 }

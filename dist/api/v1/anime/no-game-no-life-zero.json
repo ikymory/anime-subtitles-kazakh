@@ -18,28 +18,59 @@
     "Fantasy",
     "Romance"
   ],
-  "description": "Six thousand years before Sora and Shiro were even a blink in the history of Disboard, war consumed the land, tearing apart the heavens, destroying stars, and even threatening to wipe out the human race. Amid the chaos and destruction, a young man named Riku leads humanity toward the tomorrow his heart believes in. One day, in the ruins of an Elf city, he meets Schwi, a female exiled \"Ex Machina\" android who asks him to teach her what it means to have a human heart.\n<br><br>(Source: Sentai Filmworks)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21875-ybSgx75MgRMM.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21875-WWkiWSnNcdbt.jpg",
+  "description": "Six thousand years before Sora and Shiro were even a blink in the history of Disboard, war consumed the land, tearing apart the heavens, destroying stars, and even threatening to wipe out the human race. Amid the chaos and destruction, a young man named Riku leads humanity toward the tomorrow his heart believes in. One day, in the ruins of an Elf city, he meets Schwi, a female exiled \"Ex Machina\" android who asks him to teach her what it means to have a human heart.\n<br><br>(Source: Sentai Filmworks)",
   "averageScore": 79,
   "popularity": 230753,
+  "color": "#50aee4",
+  "duration": 110,
+  "studio": "MADHOUSE",
+  "catalog_id": "no-game-no-life-zero",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "no-game-no-life-zero-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/no-game-no-life-zero/no-game-no-life-zero-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/no-game-no-life-zero/no-game-no-life-zero-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/no-game-no-life-zero/no-game-no-life-zero-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/no-game-no-life-zero/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/no-game-no-life-zero/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/no-game-no-life-zero/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/no-game-no-life-zero/ep_01.kk.ass",
+          "sha256": "f67cf1025f7ba1c62af7623c9831613d62b30509e32beaa0194c1942e9c93a2b",
+          "bytes": 158641,
+          "cues": 1549,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/no-game-no-life-zero/ep_01.kk.srt",
+          "sha256": "1ab5baf1dc5c64836f02147971d8f1612451d7f43b71b369774deebb25ee68cc",
+          "bytes": 134859,
+          "cues": 1548,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/no-game-no-life-zero/ep_01.kk.vtt",
+          "sha256": "13a9cac9bdf1ed8138c4eb8f58368e4b5d99e81fbb0e6438645d571cb74baa50",
+          "bytes": 134867,
+          "cues": 1548,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#50aee4",
-  "studio": "MADHOUSE",
-  "duration": 110,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/no-game-no-life-zero.json"
 }

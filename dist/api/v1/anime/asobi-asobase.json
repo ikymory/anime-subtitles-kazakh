@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Asobi Asobase - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/asobi-asobase.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/asobi-asobase.jpg",
+  "description": "Asobi Asobase - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "asobi-asobase",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +40,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "asobi-asobase-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_01.kk.srt",
+          "sha256": "36fe7aaf3c86f36a962d40f8132da6363722c6a5a1fb50a388a2ce74440bcdef",
+          "bytes": 36204,
+          "cues": 363,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_01.kk.vtt",
+          "sha256": "4f0b91ad3efa971e88079ad352db8329b22fcd5448e29d2130030428a61e384e",
+          "bytes": 36301,
+          "cues": 363,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_01.kk.ass",
+          "sha256": "027e5ea1dcc2862f677389f018fe3bbdb648c62f9a5018a9182b59bd59eb53e2",
+          "bytes": 42528,
+          "cues": 363,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "asobi-asobase-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_02.kk.srt",
+          "sha256": "a9a48bedd32a73c14239e1c776b9f3d73697b435890ad49ebe7d64e1a3b95b7b",
+          "bytes": 39191,
+          "cues": 376,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_02.kk.vtt",
+          "sha256": "47a173082a3ed35d52adb84da0d107f0928dbad1a4ecd9a61855b1acb9d3ca82",
+          "bytes": 39288,
+          "cues": 376,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_02.kk.ass",
+          "sha256": "17bfa1d0cbc1abf10fc1915834b70894cd0b1f46009d93e5cca553810a028573",
+          "bytes": 45709,
+          "cues": 376,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "asobi-asobase-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_03.kk.srt",
+          "sha256": "3e9d1522fdd7441ebc17f2d7a31c3cf08a6d12ed973d8fd8ff4e7da72c4e4295",
+          "bytes": 34530,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_03.kk.vtt",
+          "sha256": "031a70b379b0a013809b824bf19c69f7e46900b78ea9f9e28dfe79f47863f0d4",
+          "bytes": 34627,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_03.kk.ass",
+          "sha256": "4a2d8d0792ee2d493fb87b320f19c2f32c568fa3c21fcc4d1d81840a5f1a25ad",
+          "bytes": 40628,
+          "cues": 348,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "asobi-asobase-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_04.kk.srt",
+          "sha256": "e528c1122857ab1a418f861b74b6f3598e1f7d65e9e1bbd43d8430a2f52ce393",
+          "bytes": 41470,
+          "cues": 392,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_04.kk.vtt",
+          "sha256": "3122b70c46029005f86a659856182e36888258cbce61c1d13460a9ccad14dab3",
+          "bytes": 41567,
+          "cues": 392,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_04.kk.ass",
+          "sha256": "e46ded5e1857ca98746e3400733e8030a574bd9726eb0c05e7c153b7626ad1dc",
+          "bytes": 48229,
+          "cues": 392,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "asobi-asobase-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_05.kk.srt",
+          "sha256": "c0dd26fd094719bacf1d3edc0d73d7936c310dbb53e1651f2a72ea3c60c70156",
+          "bytes": 38525,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_05.kk.vtt",
+          "sha256": "58d4867115d33aec60bd33bfc3ebe6bb0a612fdd9ea7fa48f64cf2593e72c5ee",
+          "bytes": 38622,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_05.kk.ass",
+          "sha256": "97f02f40044b97ac3ed62dc03198485ae2cf6894a1e3d2a4db2e9dbe7f0f931a",
+          "bytes": 45119,
+          "cues": 381,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "asobi-asobase-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_06.kk.srt",
+          "sha256": "ecacf7d309f90ae6356e2c5361bbe29e29d24f14e4be07cc6bbe3451b272b4c0",
+          "bytes": 38521,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_06.kk.vtt",
+          "sha256": "73b21ab940ed1163197706c18b8359fa21d30dfa2d213c2ddd97f1ee716c686e",
+          "bytes": 38618,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_06.kk.ass",
+          "sha256": "4f3a194b1b6645504906df62ea4c24b2a1973cdfc33c4f4d7c4de9ff6d1c917c",
+          "bytes": 45116,
+          "cues": 381,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "asobi-asobase-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_07.kk.srt",
+          "sha256": "e0542cd88beaf5f6594a1e638a5250910f7e23fbd587b568231a12555a16587d",
+          "bytes": 33071,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_07.kk.vtt",
+          "sha256": "72cea04ef8780cfe991cf4184e8fa7868f95361699d72c706a43a8c8c174e2d5",
+          "bytes": 33168,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_07.kk.ass",
+          "sha256": "06782722d36b96bc7dc9fc944f2a73a4b01aacc705ad9bd6f50760b0ade07d33",
+          "bytes": 38884,
+          "cues": 329,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "asobi-asobase-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_08.kk.srt",
+          "sha256": "4c4a505dd56088469b8129c9f0ca340f2ea99277ba949e5fe2c60f4ce64c8aac",
+          "bytes": 37584,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_08.kk.vtt",
+          "sha256": "7ce06712fdc633185d70c5166bfeb4ed4f06be85a0f677628966ade396d11266",
+          "bytes": 37681,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_08.kk.ass",
+          "sha256": "a87ff34594b1ce9a6fb611b525ff73d2a55707c73fe8d2d2632c619a1f9d5f6b",
+          "bytes": 44072,
+          "cues": 374,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "asobi-asobase-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_09.kk.srt",
+          "sha256": "255a7675badddf84f7b1772df1a78fb6eccadf1e0ea87f654c2fff46acf6634e",
+          "bytes": 38160,
+          "cues": 371,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_09.kk.vtt",
+          "sha256": "b1f124fc1602ab9f4991fdc7b3307d748b438edee23f45d6a3f4724d63416ec2",
+          "bytes": 38257,
+          "cues": 371,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_09.kk.ass",
+          "sha256": "195455ecc969b6080e79c1cea5231a3be6e6c70cc0eac9b360f63403629b60ac",
+          "bytes": 44603,
+          "cues": 371,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "asobi-asobase-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_10.kk.srt",
+          "sha256": "da15092b1ed411e7fed45942c851382ea19def2681430200dbc632a2866e47d9",
+          "bytes": 37550,
+          "cues": 375,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_10.kk.vtt",
+          "sha256": "02530241d6622da308c2100cf8a54cecac461a80bb372186f5d1549340687c35",
+          "bytes": 37647,
+          "cues": 375,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_10.kk.ass",
+          "sha256": "668e94be0bc167e35fc1e7482ca7c3302e284ed5a560e02a36965feaf6ffdabc",
+          "bytes": 44054,
+          "cues": 375,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "asobi-asobase-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_11.kk.srt",
+          "sha256": "8d1857d6d0e0272f9df02d70a2629ef423c06909120986508db745ef01a25802",
+          "bytes": 42134,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_11.kk.vtt",
+          "sha256": "bf74f842e255d920e1e819099257ae47244ffbad858ad9e656da41841831b492",
+          "bytes": 42231,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_11.kk.ass",
+          "sha256": "d2c65ceaf05ad43ef37ded26d72a0c154abac72c47c5c9689cce7718503ecbc6",
+          "bytes": 49132,
+          "cues": 408,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "asobi-asobase-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/asobi-asobase/asobi-asobase-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/asobi-asobase/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/asobi-asobase/ep_12.kk.srt",
+          "sha256": "1086b280ac7a7787a75f47f27e02a013eee4463219313705bdfad90691b4c861",
+          "bytes": 39848,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/asobi-asobase/ep_12.kk.vtt",
+          "sha256": "766c8f10cc09a7bcc12868c0482268e909e72ad957484360abc245977510fa79",
+          "bytes": 39945,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/asobi-asobase/ep_12.kk.ass",
+          "sha256": "c200e12e2a91b6310011e608f2910757b5c2d024c916f736e568551a0b14363a",
+          "bytes": 46531,
+          "cues": 387,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/asobi-asobase.json"
 }

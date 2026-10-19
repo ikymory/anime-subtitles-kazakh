@@ -13,9 +13,18 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20447-EoQXeygHaVCK.jpg",
+  "averageScore": 76,
+  "popularity": 55867,
+  "color": "hsl(358, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20447-nlgQQzcgWbgw.jpg",
+  "catalog_id": "noragami-s2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -31,142 +40,439 @@
     12,
     13
   ],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "noragami-s2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_01.kk.srt",
+          "sha256": "6ae28da450fc29aeb64cc376c6bf5716cbbaa035d3f0c1479faa3a179e308e41",
+          "bytes": 201924,
+          "cues": 508,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_01.kk.vtt",
+          "sha256": "909af3f9e491750a023b7a0b75772aa160369c9bdd56c48798e8a8ef137da0ba",
+          "bytes": 202021,
+          "cues": 508,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_01.kk.ass",
+          "sha256": "5750cf337e9f38832b7ebe409ad6afc3a3359418c2d7194de5ae6ba35acb4c3a",
+          "bytes": 210363,
+          "cues": 508,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "noragami-s2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_02.kk.srt",
+          "sha256": "5ac1abb2b86e3f3c8f12bb27761afea1d4f0c7184c629d806bf4eb10da5fb796",
+          "bytes": 35268,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_02.kk.vtt",
+          "sha256": "281567686801f4d49a7e0ddb430708e9e40dd6847393ab2f03f75a375d54f989",
+          "bytes": 35365,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_02.kk.ass",
+          "sha256": "03fb3b7637334c8577bd3a0e3152f2b2a18efcb85f36290beccdff22c368107b",
+          "bytes": 41802,
+          "cues": 381,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "noragami-s2-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_03.kk.srt",
+          "sha256": "c6c0a69db2126fc6b651f2b7104c1968db766342e25bbff1510d951ebbacc502",
+          "bytes": 200701,
+          "cues": 505,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_03.kk.vtt",
+          "sha256": "ad620ec5093d376c8a1f724d3ed5b4b14864ea9dd7b2a63fb068954b599e8848",
+          "bytes": 200798,
+          "cues": 505,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_03.kk.ass",
+          "sha256": "4a51da85713989f673eac0f0f614d8bfa2511d1ab601bf3a66e326068342b847",
+          "bytes": 209095,
+          "cues": 505,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "noragami-s2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_04.kk.srt",
+          "sha256": "df8d5f12449d85c88631f28433edad01c7301bb730d96d91df2b073a810bb2ff",
+          "bytes": 203186,
+          "cues": 500,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_04.kk.vtt",
+          "sha256": "032e606964a441f08ef93e5ab6875874610d69b9cca134dc29937f217059dc39",
+          "bytes": 203283,
+          "cues": 500,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_04.kk.ass",
+          "sha256": "2a4c78aa6f03299170a7b5e774cf88c2c0310c3d22ef7dab89a90032e03886d0",
+          "bytes": 211505,
+          "cues": 500,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "noragami-s2-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_05.kk.srt",
+          "sha256": "68e72bc4a5d01908269a240d2c9bdaf2765780f7044a8d7d432dbc2f9bf4aa57",
+          "bytes": 188285,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_05.kk.vtt",
+          "sha256": "bbb04693a8fdde52b5b89a343d742b0e6fff17de57d2c59bb6292289b1fbc1a8",
+          "bytes": 188382,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_05.kk.ass",
+          "sha256": "1e9973d83fe8b8608517803de70fda86ecacc5f33550e641443134111672c487",
+          "bytes": 195209,
+          "cues": 407,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "noragami-s2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_06.kk.srt",
+          "sha256": "200bb47848214f56f80035880b854e90199fe134a3448b48ee6a0a190fb7dd13",
+          "bytes": 211152,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_06.kk.vtt",
+          "sha256": "b83838df568bdc9b7f9c11fcddeb0d1024bd195a763e1ff7406e0995247f702a",
+          "bytes": 211249,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_06.kk.ass",
+          "sha256": "74f0c19197b335fa6b1de29ccfe1145a310120e4bb01122fb1a32880865f7cfd",
+          "bytes": 218076,
+          "cues": 407,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "noragami-s2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_07.kk.srt",
+          "sha256": "72a5fca05b6bccac138542942e37d40664807c9098f657d0f025abf2b6f0701a",
+          "bytes": 211294,
+          "cues": 522,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_07.kk.vtt",
+          "sha256": "df7182e65c644fee7aab98cb018d2d739528ecef7de3ed510d6f5764599a72fb",
+          "bytes": 211391,
+          "cues": 522,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_07.kk.ass",
+          "sha256": "f0e351a5d43546d9f7584b1f71f98e2fe0f2fab0f2feeea810ca198420cae4a9",
+          "bytes": 219943,
+          "cues": 522,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "noragami-s2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_08.kk.srt",
+          "sha256": "63dc502031242ba1c173464da30f9c27fd3079515af3211a8811fb37d680ae8d",
+          "bytes": 208060,
+          "cues": 519,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_08.kk.vtt",
+          "sha256": "c261ae7b6fbdc766766b3e7bc6a44bb3a2ba59433e72999b69d7ab48d9d9c880",
+          "bytes": 208157,
+          "cues": 519,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_08.kk.ass",
+          "sha256": "0befcbcbef2a3f44e912dd936e315fb4c9b75974648b431eb5ba6a01254bec2a",
+          "bytes": 216664,
+          "cues": 519,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "noragami-s2-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_09.kk.srt",
+          "sha256": "d0774dcbeb287f535d816d53efd109754a2842d08f1d5695f0c7437f75b64871",
+          "bytes": 207628,
+          "cues": 558,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_09.kk.vtt",
+          "sha256": "4b84e2445987e90730a07525ab80fcdd0b183da565c6d0f36cbb278f5a639dd3",
+          "bytes": 207725,
+          "cues": 558,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_09.kk.ass",
+          "sha256": "d24156c4de7cbb0f5cfe0e94b5dde06416af53109eefda0c5b0951df9e035738",
+          "bytes": 216817,
+          "cues": 558,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "noragami-s2-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_10.kk.srt",
+          "sha256": "84c9228f9f47fa0f9f8eed48190970685f87ee812abdb02808b6c4d9d3b2f15f",
+          "bytes": 197931,
+          "cues": 475,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_10.kk.vtt",
+          "sha256": "39295a54eb7d0f2c640d1a550519b19397a4e33d40a4904eca3be9ccdcdb40a8",
+          "bytes": 198028,
+          "cues": 475,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_10.kk.ass",
+          "sha256": "a819f522383ea047828d80eb0a11c3161de9ecfcb04aecbe3a378f604f52557e",
+          "bytes": 205875,
+          "cues": 475,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "noragami-s2-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_11.kk.srt",
+          "sha256": "73768b529317f4868878cc122f6ea02250d9ece38122f66a8e30b591a5d3b7e6",
+          "bytes": 195989,
+          "cues": 456,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_11.kk.vtt",
+          "sha256": "92e2e55ede4e9a614399b13de4c4b9c905a0b0084d2ccf3ee800e4459a88ef88",
+          "bytes": 196086,
+          "cues": 456,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_11.kk.ass",
+          "sha256": "4e5725f58385d0574f2958c6ef64f79090da82b48b2f2c9b2047409d4c05cfe0",
+          "bytes": 203648,
+          "cues": 456,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "noragami-s2-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_12.kk.srt",
+          "sha256": "2d6aebaad9dfbdde4bc859efee88e8745420d6fa14acc9690f5b34534460c7a7",
+          "bytes": 202127,
+          "cues": 336,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_12.kk.vtt",
+          "sha256": "895d3da2c074a1e0593e51924189afde2c05d154b4badf12e368f51dbd2b88c0",
+          "bytes": 202224,
+          "cues": 336,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_12.kk.ass",
+          "sha256": "a21fbf0f3bab9280a04a6014dfea4c3fd7f25fdf69264fa99a4dd4aa2a11dfff",
+          "bytes": 207986,
+          "cues": 336,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "noragami-s2-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/noragami-s2/noragami-s2-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/noragami-s2/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/noragami-s2/ep_13.kk.srt",
+          "sha256": "9b38abbd60821d7cc1978f0539c23903532904ca4f1776681bfe644c76ae31ab",
+          "bytes": 170818,
+          "cues": 301,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/noragami-s2/ep_13.kk.vtt",
+          "sha256": "a483edeb2c35970129a21f195384a0807a69935c316ef8cbae36841a88f783f9",
+          "bytes": 170915,
+          "cues": 301,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/noragami-s2/ep_13.kk.ass",
+          "sha256": "1e657bfb7bce66e8bb7a711e32d2cb4d45450b3658d48e76ee24ab5c27af41a5",
+          "bytes": 176152,
+          "cues": 301,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(358, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 76,
-  "popularity": 55867,
-  "translated_episodes_count": 13
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/noragami-s2.json"
 }

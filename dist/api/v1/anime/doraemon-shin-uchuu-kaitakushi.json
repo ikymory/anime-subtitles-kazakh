@@ -15,24 +15,56 @@
     "Adventure",
     "Sci-Fi"
   ],
-  "description": "Doraemon: The New Record of Nobita's Spaceblazer - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-shin-uchuu-kaitakushi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-shin-uchuu-kaitakushi.jpg",
+  "description": "Doraemon: The New Record of Nobita's Spaceblazer - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 98400,
+  "catalog_id": "doraemon-shin-uchuu-kaitakushi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-shin-uchuu-kaitakushi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-shin-uchuu-kaitakushi/doraemon-shin-uchuu-kaitakushi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-shin-uchuu-kaitakushi/doraemon-shin-uchuu-kaitakushi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-shin-uchuu-kaitakushi/doraemon-shin-uchuu-kaitakushi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-shin-uchuu-kaitakushi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-shin-uchuu-kaitakushi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-shin-uchuu-kaitakushi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-shin-uchuu-kaitakushi/ep_01.kk.srt",
+          "sha256": "be419b70ac58188d2a1c29d00107fdf93bce1ec63d85831e0db317d59ab48489",
+          "bytes": 152563,
+          "cues": 1862,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-shin-uchuu-kaitakushi/ep_01.kk.vtt",
+          "sha256": "01e965b028a4fba99f6214f5fab7a8058090f51f80d7208f0a22fc6678de77d6",
+          "bytes": 152660,
+          "cues": 1862,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-shin-uchuu-kaitakushi/ep_01.kk.ass",
+          "sha256": "00b33bed01fbf444694bc99aa60233d4acd150b95c83371c82c24068943df75b",
+          "bytes": 180690,
+          "cues": 1862,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-shin-uchuu-kaitakushi.json"
 }

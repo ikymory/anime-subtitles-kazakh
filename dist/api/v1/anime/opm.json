@@ -17,28 +17,59 @@
     "Sci-Fi",
     "Supernatural"
   ],
-  "description": "Saitama has a rather peculiar hobby, being a superhero, but despite his heroic deeds and superhuman abilities, a shadow looms over his life. He's become much too powerful, to the point that every opponent ends up defeated with a single punch.\n<br><br>\nThe lack of challenge has driven him into a state of apathy, as he watches his life pass by having lost all enthusiasm, at least until he's unwillingly thrust in the role of being a mentor to the young and revenge-driven Genos.   \n\n",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21087-B5DHjqZ3kW4b.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21087-sHb9zUZFsHe1.jpg",
+  "description": "Saitama has a rather peculiar hobby, being a superhero, but despite his heroic deeds and superhuman abilities, a shadow looms over his life. He's become much too powerful, to the point that every opponent ends up defeated with a single punch.\n\nThe lack of challenge has driven him into a state of apathy, as he watches his life pass by having lost all enthusiasm, at least until he's unwillingly thrust in the role of being a mentor to the young and revenge-driven Genos.",
+  "averageScore": 87,
+  "popularity": 95000,
+  "color": "#e4ae5d",
+  "duration": 24,
+  "studio": "MADHOUSE",
+  "catalog_id": "opm",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "opm-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/opm/opm-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/opm/opm-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/opm/opm-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/opm/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/opm/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/opm/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/opm/ep_01.kk.srt",
+          "sha256": "d8020f3bfa31fae2b023d3e32736dbcfb43a02e6f476f1598aee937fac598694",
+          "bytes": 23442,
+          "cues": 267,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/opm/ep_01.kk.vtt",
+          "sha256": "b6587ecf3a56440f01712951f78f27888be8cc4c145720a41be7ee0a3094ace5",
+          "bytes": 23539,
+          "cues": 267,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/opm/ep_01.kk.ass",
+          "sha256": "9a21ede3d5c0649a351b95f9d47cbe1062c21de251e614307de0d40c261f7348",
+          "bytes": 28258,
+          "cues": 267,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e4ae5d",
-  "studio": "MADHOUSE",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 95000,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/opm.json"
 }

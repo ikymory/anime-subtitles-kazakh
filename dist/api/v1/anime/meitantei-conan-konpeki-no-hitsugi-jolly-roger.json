@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Meitantei Conan. Konpeki no Hitsugi (Jolly Roger) - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-konpeki-no-hitsugi-jolly-roger.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-konpeki-no-hitsugi-jolly-roger.jpg",
+  "description": "Meitantei Conan. Konpeki no Hitsugi (Jolly Roger) - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "meitantei-conan-konpeki-no-hitsugi-jolly-roger",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "meitantei-conan-konpeki-no-hitsugi-jolly-roger-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/meitantei-conan-konpeki-no-hitsugi-jolly-roger-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/meitantei-conan-konpeki-no-hitsugi-jolly-roger-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/meitantei-conan-konpeki-no-hitsugi-jolly-roger-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/ep_01.kk.srt",
+          "sha256": "8ad36e8952fb903bad61fd6a2f2fccad03f3516bd6e77fa0d88f55dba8c6c8ab",
+          "bytes": 174501,
+          "cues": 2034,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/ep_01.kk.vtt",
+          "sha256": "b1d939de95f99b9af150ff33ae75a57a7c3f485911ae1258d3e7aea5adae8a49",
+          "bytes": 174598,
+          "cues": 2034,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/meitantei-conan-konpeki-no-hitsugi-jolly-roger/ep_01.kk.ass",
+          "sha256": "8c064b0b82364a531ae271c5638bf4adf7ed14471d0dec669ddcb4860531ba80",
+          "bytes": 205036,
+          "cues": 2034,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-konpeki-no-hitsugi-jolly-roger.json"
 }

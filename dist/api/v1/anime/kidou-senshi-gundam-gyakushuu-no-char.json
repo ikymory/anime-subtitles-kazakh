@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kidou Senshi Gundam. Gyakushuu no Char - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kidou-senshi-gundam-gyakushuu-no-char.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kidou-senshi-gundam-gyakushuu-no-char.jpg",
+  "description": "Kidou Senshi Gundam. Gyakushuu no Char - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kidou-senshi-gundam-gyakushuu-no-char",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kidou-senshi-gundam-gyakushuu-no-char-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kidou-senshi-gundam-gyakushuu-no-char/kidou-senshi-gundam-gyakushuu-no-char-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kidou-senshi-gundam-gyakushuu-no-char/kidou-senshi-gundam-gyakushuu-no-char-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kidou-senshi-gundam-gyakushuu-no-char/kidou-senshi-gundam-gyakushuu-no-char-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kidou-senshi-gundam-gyakushuu-no-char/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kidou-senshi-gundam-gyakushuu-no-char/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kidou-senshi-gundam-gyakushuu-no-char/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kidou-senshi-gundam-gyakushuu-no-char/ep_01.kk.srt",
+          "sha256": "98fa8b91c1494f8bb7a794d73ff4d02518f1f1e63258bf2d3b6bb5a6ed0084f3",
+          "bytes": 168285,
+          "cues": 1903,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kidou-senshi-gundam-gyakushuu-no-char/ep_01.kk.vtt",
+          "sha256": "212c1fb297f4f4b56df84b8c96558cedf193e7eab6a9c4cce97a23d5ba23ca6b",
+          "bytes": 168382,
+          "cues": 1903,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kidou-senshi-gundam-gyakushuu-no-char/ep_01.kk.ass",
+          "sha256": "7de9fbced3dd9449a41b627b756d6979afe2d580f0f2883cb758b70b267dfbe6",
+          "bytes": 196985,
+          "cues": 1903,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kidou-senshi-gundam-gyakushuu-no-char.json"
 }

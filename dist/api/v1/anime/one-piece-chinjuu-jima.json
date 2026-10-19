@@ -15,28 +15,59 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for One Piece: Chopper's Kingdom on the Island of Strange Animals.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx461-DC9fMDl3AaK1.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/461-0pvcIaXC0p70.jpg",
+  "description": "Kazakh subtitles for One Piece: Chopper's Kingdom on the Island of Strange Animals.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "one-piece-chinjuu-jima",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "one-piece-chinjuu-jima-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-chinjuu-jima/one-piece-chinjuu-jima-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-chinjuu-jima/one-piece-chinjuu-jima-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-chinjuu-jima/one-piece-chinjuu-jima-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-chinjuu-jima/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-chinjuu-jima/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-chinjuu-jima/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/one-piece-chinjuu-jima/ep_01.kk.srt",
+          "sha256": "9775b58e7ed77a1c800f13a23bec831d702706bdab9a0abb18eb04b296fca1f7",
+          "bytes": 95889,
+          "cues": 953,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/one-piece-chinjuu-jima/ep_01.kk.vtt",
+          "sha256": "28a694f197ff569fbf12c1e948d39f700dfb15b3cf57e569b50aca841b721e23",
+          "bytes": 95986,
+          "cues": 953,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/one-piece-chinjuu-jima/ep_01.kk.ass",
+          "sha256": "52dc956794846ac9a58727f36053efedc79bc7585e6a0ff2b11166226917526f",
+          "bytes": 119815,
+          "cues": 953,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-chinjuu-jima.json"
 }

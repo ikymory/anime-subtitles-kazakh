@@ -13,39 +13,92 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21399-VTAdAqc8u5AE.png",
+  "averageScore": 77,
+  "popularity": 62784,
+  "color": "hsl(317, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21399-vCKFTNkrYLIz.jpg",
+  "catalog_id": "kizumonogatari-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kizumonogatari-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-2/kizumonogatari-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-2/kizumonogatari-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-2/kizumonogatari-2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kizumonogatari-2/ep_01.kk.srt",
+          "sha256": "8b84576cd27c4c5674d0a3457b02b5153afe30f24ca45076ba51b738b2c4303c",
+          "bytes": 57965,
+          "cues": 611,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kizumonogatari-2/ep_01.kk.vtt",
+          "sha256": "5aa53d986c4081b464e60644519001b0064324e3cbdaf45cc802710b7d46ca0a",
+          "bytes": 58062,
+          "cues": 611,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kizumonogatari-2/ep_01.kk.ass",
+          "sha256": "024bd42ad5f7a1615d66b0fa385f2a86d36f4f3158b7832a9f9dce1eb592b5b4",
+          "bytes": 67954,
+          "cues": 611,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "kizumonogatari-2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-2/kizumonogatari-2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-2/kizumonogatari-2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-2/kizumonogatari-2-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kizumonogatari-2/ep_02.kk.srt",
+          "sha256": "0954f49f777272b200e8735830725d5d94859fb9769d4b334a9e01febe8e9c13",
+          "bytes": 57567,
+          "cues": 610,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kizumonogatari-2/ep_02.kk.vtt",
+          "sha256": "54f0bcc977111526dc7855b45b69802ad9613317ec4a2e903bbcefb64bf13558",
+          "bytes": 57664,
+          "cues": 610,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kizumonogatari-2/ep_02.kk.ass",
+          "sha256": "673942604d37c66e19b8a53ab901965bfffc7bc77f5ca6952ccec81e240481bf",
+          "bytes": 67541,
+          "cues": 610,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(317, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 77,
-  "popularity": 62784,
-  "translated_episodes_count": 2
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kizumonogatari-2.json"
 }

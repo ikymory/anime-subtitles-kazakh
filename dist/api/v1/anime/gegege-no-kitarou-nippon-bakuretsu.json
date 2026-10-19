@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Gegege no Kitarou. Nippon Bakuretsu - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gegege-no-kitarou-nippon-bakuretsu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gegege-no-kitarou-nippon-bakuretsu.jpg",
+  "description": "Gegege no Kitarou. Nippon Bakuretsu - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "gegege-no-kitarou-nippon-bakuretsu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gegege-no-kitarou-nippon-bakuretsu-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gegege-no-kitarou-nippon-bakuretsu/gegege-no-kitarou-nippon-bakuretsu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gegege-no-kitarou-nippon-bakuretsu/gegege-no-kitarou-nippon-bakuretsu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gegege-no-kitarou-nippon-bakuretsu/gegege-no-kitarou-nippon-bakuretsu-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gegege-no-kitarou-nippon-bakuretsu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gegege-no-kitarou-nippon-bakuretsu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gegege-no-kitarou-nippon-bakuretsu/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gegege-no-kitarou-nippon-bakuretsu/ep_01.kk.srt",
+          "sha256": "7fbe2d38b46e9458ff812d027afe54412f06f90edb11c94fda4438e58b82fa9f",
+          "bytes": 103623,
+          "cues": 1168,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gegege-no-kitarou-nippon-bakuretsu/ep_01.kk.vtt",
+          "sha256": "97926f20274e26d4ffe05f1475a5baf00e289c0eeda2aed1af1488243dbe6bbe",
+          "bytes": 103720,
+          "cues": 1168,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gegege-no-kitarou-nippon-bakuretsu/ep_01.kk.ass",
+          "sha256": "3119690940b1fcb5e934d545da2baf7f2cbffd81f977148bdb675c85fcc520ed",
+          "bytes": 121852,
+          "cues": 1168,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gegege-no-kitarou-nippon-bakuretsu.json"
 }

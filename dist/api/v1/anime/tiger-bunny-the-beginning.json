@@ -16,24 +16,56 @@
     "Comedy",
     "Supernatural"
   ],
-  "description": "Tiger & Bunny: The Beginning - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/tiger-bunny-the-beginning.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/tiger-bunny-the-beginning.jpg",
+  "description": "Tiger & Bunny: The Beginning - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "tiger-bunny-the-beginning",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tiger-bunny-the-beginning-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tiger-bunny-the-beginning/tiger-bunny-the-beginning-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tiger-bunny-the-beginning/tiger-bunny-the-beginning-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tiger-bunny-the-beginning/tiger-bunny-the-beginning-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tiger-bunny-the-beginning/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tiger-bunny-the-beginning/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tiger-bunny-the-beginning/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tiger-bunny-the-beginning/ep_01.kk.srt",
+          "sha256": "adc94f0a755bd56c87414deb9fe100432e41cc1b244edaa26a537479d91eeec0",
+          "bytes": 161765,
+          "cues": 1958,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tiger-bunny-the-beginning/ep_01.kk.vtt",
+          "sha256": "6f6f3dde10d6cdd31c32800ce37178bc4c73c42928f62a6842e0d7f19dc5ca43",
+          "bytes": 161862,
+          "cues": 1958,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tiger-bunny-the-beginning/ep_01.kk.ass",
+          "sha256": "41be2df58bfb41ae5c639586116150133c003a848c76b33a3a197aa8dd955333",
+          "bytes": 191237,
+          "cues": 1958,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tiger-bunny-the-beginning.json"
 }

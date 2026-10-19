@@ -16,24 +16,56 @@
     "Fantasy",
     "Mystery"
   ],
-  "description": "Lonely Castle in the Mirror - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kagami-no-kojou.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kagami-no-kojou.jpg",
+  "description": "Lonely Castle in the Mirror - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "kagami-no-kojou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kagami-no-kojou-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kagami-no-kojou/kagami-no-kojou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kagami-no-kojou/kagami-no-kojou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kagami-no-kojou/kagami-no-kojou-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kagami-no-kojou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kagami-no-kojou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kagami-no-kojou/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/kagami-no-kojou/ep_01.kk.ass",
+          "sha256": "0fa25e87e2d247e2567474f096ea9fe474bacdab9daeed0d3251d8e2dfa4e7ed",
+          "bytes": 318368,
+          "cues": 3117,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/kagami-no-kojou/ep_01.kk.srt",
+          "sha256": "4bb08d3045750c59718f80e1d1f9cf536874b15e7a2f4b19da19ab907d42bc59",
+          "bytes": 262431,
+          "cues": 3111,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/kagami-no-kojou/ep_01.kk.vtt",
+          "sha256": "dc0f4b4acc4f053d13704b9b54eb53f82a18dbf6d5fb19c8ee3dccfcde15ec13",
+          "bytes": 262439,
+          "cues": 3111,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kagami-no-kojou.json"
 }

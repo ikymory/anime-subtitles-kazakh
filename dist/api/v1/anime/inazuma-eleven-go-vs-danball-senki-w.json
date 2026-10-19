@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Inazuma Eleven GO vs Danball Senki W - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/inazuma-eleven-go-vs-danball-senki-w.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/inazuma-eleven-go-vs-danball-senki-w.jpg",
+  "description": "Inazuma Eleven GO vs Danball Senki W - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "inazuma-eleven-go-vs-danball-senki-w",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "inazuma-eleven-go-vs-danball-senki-w-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inazuma-eleven-go-vs-danball-senki-w/inazuma-eleven-go-vs-danball-senki-w-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inazuma-eleven-go-vs-danball-senki-w/inazuma-eleven-go-vs-danball-senki-w-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inazuma-eleven-go-vs-danball-senki-w/inazuma-eleven-go-vs-danball-senki-w-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inazuma-eleven-go-vs-danball-senki-w/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inazuma-eleven-go-vs-danball-senki-w/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inazuma-eleven-go-vs-danball-senki-w/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inazuma-eleven-go-vs-danball-senki-w/ep_01.kk.srt",
+          "sha256": "337042a7d32c31788ded265255cea1c5a9258c695263672e9c1aa4beeac4686b",
+          "bytes": 98838,
+          "cues": 1233,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inazuma-eleven-go-vs-danball-senki-w/ep_01.kk.vtt",
+          "sha256": "083ef01dac835792113813351d66d033e8ff8afed7cabc4cfe9711f4d7f979a3",
+          "bytes": 98935,
+          "cues": 1233,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inazuma-eleven-go-vs-danball-senki-w/ep_01.kk.ass",
+          "sha256": "1a25bae946882d23c0dccc0007675b5877e92fb760d242fd1098f51ac3cfd573",
+          "bytes": 117978,
+          "cues": 1233,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/inazuma-eleven-go-vs-danball-senki-w.json"
 }

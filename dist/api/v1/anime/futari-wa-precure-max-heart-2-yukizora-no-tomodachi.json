@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Futari wa Precure. Max Heart 2 - Yukizora no Tomodachi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/futari-wa-precure-max-heart-2-yukizora-no-tomodachi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/futari-wa-precure-max-heart-2-yukizora-no-tomodachi.jpg",
+  "description": "Futari wa Precure. Max Heart 2 - Yukizora no Tomodachi - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "futari-wa-precure-max-heart-2-yukizora-no-tomodachi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "futari-wa-precure-max-heart-2-yukizora-no-tomodachi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/futari-wa-precure-max-heart-2-yukizora-no-tomodachi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/futari-wa-precure-max-heart-2-yukizora-no-tomodachi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/futari-wa-precure-max-heart-2-yukizora-no-tomodachi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/ep_01.kk.srt",
+          "sha256": "7ee2a8118453204ec0ea64f9220daa7fe0ccd44862b4014c6f6f6657cc28d261",
+          "bytes": 73561,
+          "cues": 896,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/ep_01.kk.vtt",
+          "sha256": "8e9370d5ca2f70de7916c884aff1f86a446970676dc1c23b093e21160fd17212",
+          "bytes": 73658,
+          "cues": 896,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/futari-wa-precure-max-heart-2-yukizora-no-tomodachi/ep_01.kk.ass",
+          "sha256": "7c4dd891529b2df4d3faedaeb0e816a0c6ec6dce23d235bac4ac1f0b368b4b95",
+          "bytes": 87879,
+          "cues": 896,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/futari-wa-precure-max-heart-2-yukizora-no-tomodachi.json"
 }

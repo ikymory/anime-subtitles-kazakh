@@ -15,24 +15,56 @@
     "Action",
     "Sci-Fi"
   ],
-  "description": "Arpeggio of Blue Steel: Ars Nova Cadenza - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arpeggio-ars-nova-cadenza.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arpeggio-ars-nova-cadenza.jpg",
+  "description": "Arpeggio of Blue Steel: Ars Nova Cadenza - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "arpeggio-ars-nova-cadenza",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "arpeggio-ars-nova-cadenza-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arpeggio-ars-nova-cadenza/arpeggio-ars-nova-cadenza-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arpeggio-ars-nova-cadenza/arpeggio-ars-nova-cadenza-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arpeggio-ars-nova-cadenza/arpeggio-ars-nova-cadenza-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arpeggio-ars-nova-cadenza/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arpeggio-ars-nova-cadenza/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arpeggio-ars-nova-cadenza/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/arpeggio-ars-nova-cadenza/ep_01.kk.ass",
+          "sha256": "579a033e3cca52fd2463ec256bf2d41c016aeb5ed28a005183d4cc82a22db1d1",
+          "bytes": 147255,
+          "cues": 1523,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/arpeggio-ars-nova-cadenza/ep_01.kk.srt",
+          "sha256": "0ad7895f57e998ceaa3f7ba832c83c8881d7ba5fb8cc2736e65d4ff2b5273f75",
+          "bytes": 123836,
+          "cues": 1522,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/arpeggio-ars-nova-cadenza/ep_01.kk.vtt",
+          "sha256": "2d762e094e510af299d7dd53216f67baa575cc61239d50e81c143e2d4f63a53d",
+          "bytes": 123844,
+          "cues": 1522,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/arpeggio-ars-nova-cadenza.json"
 }

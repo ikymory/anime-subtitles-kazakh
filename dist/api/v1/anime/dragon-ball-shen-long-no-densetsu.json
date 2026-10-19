@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dragon Ball. Shen Long no Densetsu - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-shen-long-no-densetsu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-shen-long-no-densetsu.jpg",
+  "description": "Dragon Ball. Shen Long no Densetsu - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dragon-ball-shen-long-no-densetsu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-shen-long-no-densetsu-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-shen-long-no-densetsu/dragon-ball-shen-long-no-densetsu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-shen-long-no-densetsu/dragon-ball-shen-long-no-densetsu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-shen-long-no-densetsu/dragon-ball-shen-long-no-densetsu-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-shen-long-no-densetsu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-shen-long-no-densetsu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-shen-long-no-densetsu/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-shen-long-no-densetsu/ep_01.kk.srt",
+          "sha256": "ca1037b026c9f59461c9286339595a9b41875730780207a4550146dbc7003cd0",
+          "bytes": 56034,
+          "cues": 718,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-shen-long-no-densetsu/ep_01.kk.vtt",
+          "sha256": "2fc7185c6b7629c2e70ebb979dadefcc3f5620afe6f7b7c0fb382946d534632e",
+          "bytes": 56131,
+          "cues": 718,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-shen-long-no-densetsu/ep_01.kk.ass",
+          "sha256": "328609f3b8558f3d15728cf6e6fbd26a2a7804ef91bc250d9ca8aa87adf04c29",
+          "bytes": 67682,
+          "cues": 718,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-shen-long-no-densetsu.json"
 }

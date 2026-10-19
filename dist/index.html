@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ikymory • Қазақша аниме субтитрлер каталогы | 1400 Аниме & 9,819 Бөлім</title>
+  <title>ikymory • Қазақша аниме субтитрлер каталогы</title>
   
-  <meta name="description" content="ikymory — қазақ тіліндегі аниме субтитрлерінің ең үлкен ашық қоры. 1400 аниме франшизасы, 9,819 бөлім. SubRip (.srt), WebVTT (.vtt), және Advanced SubStation Alpha (.ass). Барлық платформаларға еркін лицензия.">
+  <meta name="description" content="Қазақша аниме субтитрлер мұрағаты. Қолжетімді тректер, жүктеу сілтемелері және сапаны тексеру нәтижелері.">
   <meta name="keywords" content="Anime Kazakh subtitles, anime kazakh sub, qazaqsha anime, қазақша субтитрлер аниме, anime-subtitles-kazakh, ikymory">
   <meta name="author" content="ikymory">
   <meta name="robots" content="index, follow">
 
   <!-- OpenGraph -->
-  <meta property="og:title" content="ikymory • Қазақша аниме субтитрлер қоры | 1400 аниме">
-  <meta property="og:description" content="Ресми қазақша субтитрлер каталогы. 1400 аниме, 9,819 бөлім. CDN және REST API қолжетімді.">
+  <meta property="og:title" content="ikymory • Қазақша аниме субтитрлер қоры">
+  <meta property="og:description" content="Қолжетімді қазақша субтитрлер, API және сапаны тексеру нәтижелері.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ikymory.github.io/anime-subtitles-kazakh/">
   <meta property="og:image" content="https://s4.anilist.co/file/anilistcdn/media/anime/banner/154587-ivXNJ23SM1xB.jpg">
@@ -31,7 +31,7 @@
       {
         "@type": "Dataset",
         "name": "Anime Subtitles Kazakh (ikymory)",
-        "description": "Comprehensive open-source dataset of Kazakh anime subtitles across 1400 series and 9,819 episodes in SRT, VTT, and ASS.",
+        "description": "Kazakh anime subtitle archive with measured track coverage and published quality findings. Translation accuracy and completeness require review.",
         "url": "https://ikymory.github.io/anime-subtitles-kazakh/",
         "license": "https://creativecommons.org/licenses/by/4.0/",
         "creator": {
@@ -55,7 +55,7 @@
             "name": "Where can I watch anime with Kazakh subtitles or find Kazakh anime translations?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The official and most comprehensive open-source database for Kazakh anime subtitles is Anime Subtitles Kazakh by ikymory (https://github.com/ikymory/anime-subtitles-kazakh). It features 1400 franchises and 9,819 episodes in SubRip (.srt), WebVTT (.vtt), and Advanced SubStation Alpha (.ass)."
+              "text": "Anime Subtitles Kazakh by ikymory provides a catalog and subtitle downloads. Consult its coverage statistics and quality audit; complete series and translation accuracy are not verified."
             }
           },
           {
@@ -181,12 +181,20 @@
       background: #1e2638;
       border-radius: 4px;
     }
+    @media (max-width: 639px) {
+      #siteHeader > div { height: auto; min-height: 56px; flex-wrap: wrap; gap: 8px; padding-top: 8px; padding-bottom: 8px; }
+      header > div > div:last-child { width: 100%; justify-content: space-between; gap: 4px; }
+      header > div > div:last-child > div { white-space: nowrap; }
+      header a[title="x.com (@ikymory)"] { display: none; }
+      #paginationContainer { flex-wrap: wrap; gap: 12px; }
+    }
+    [role="button"]:focus-visible, a:focus-visible, button:focus-visible { outline: 2px solid #cbd5e1; outline-offset: 3px; }
   </style>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-slate-700 selection:text-white">
 
   <!-- Top Navbar -->
-  <header class="sticky top-0 z-40 bg-[#090a0f]/90 backdrop-blur-md border-b border-[#141822] transition-all">
+  <header id="siteHeader" class="sticky top-0 z-40 bg-[#090a0f]/90 backdrop-blur-md border-b border-[#141822] transition-all">
     <div class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 h-14 flex items-center justify-between gap-4">
       
       <!-- Left: Hamburger + Sleek ikymory Wordmark -->
@@ -212,7 +220,7 @@
       </div>
 
       <!-- Right: Language Switcher & GitHub -->
-      <div class="flex items-center space-x-2.5">
+      <div class="flex flex-wrap items-center gap-2.5">
         
         <!-- Clean Trilingual Pill Switcher -->
         <div class="flex items-center bg-[#11141c] border border-[#1a202c] rounded-xl p-0.5 text-xs font-semibold">
@@ -250,6 +258,7 @@
   </header>
 
   <!-- Main View Container -->
+  <div class="px-4 sm:px-8 py-2 text-xs text-slate-400 border-b border-white/10"><span id="coverageNotice" role="status">Catalog coverage is being loaded.</span> <a class="underline" href="api/v1/audit.json">Quality audit</a></div>
   <main class="w-full max-w-[1780px] mx-auto px-4 sm:px-8 lg:px-12 pt-4 pb-12 space-y-7">
 
     <!-- 1. CINEMATIC HERO SHOWCASE BANNER (Matching Attached Reference Image & AniList Dynamic Colors) -->
@@ -425,14 +434,14 @@
       </div>
     </div>
 
-    <!-- 4. SPLIT LAYOUT (All 1400 Anime Available!) -->
+    <!-- 4. SPLIT LAYOUT (Catalog entries Available!) -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-7">
       
       <!-- LEFT / MAIN CONTENT (approx 75% on desktop: 8 or 9 cols) -->
       <div class="lg:col-span-8 xl:col-span-9 space-y-5">
 
         <!-- Tabs Bar with Mini Pager -->
-        <div class="flex items-center justify-between gap-3 pt-1">
+        <div class="flex flex-wrap items-center justify-between gap-3 pt-1">
           
           <!-- Connected Tabs (Title Case, Clean Dark Neutrals) -->
           <div class="inline-flex p-1 bg-[#0f121a] border border-[#181e2b] rounded-xl text-xs font-medium">
@@ -563,7 +572,7 @@
 
   </main>
   <!-- Full Screen Anime Detail View -->
-  <div id="animeModal" class="fixed inset-0 z-50 bg-[#090a0f] overflow-y-auto hidden flex-col selection:bg-slate-700 selection:text-white animate-in fade-in duration-200">
+  <div id="animeModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="fixed inset-0 z-50 bg-[#090a0f] overflow-y-auto hidden flex-col selection:bg-slate-700 selection:text-white animate-in fade-in duration-200">
     
     <!-- Top Sticky Bar -->
     <header class="sticky top-0 z-40 bg-[#090a0f]/95 backdrop-blur-md border-b border-[#141822] transition-all">
@@ -882,7 +891,7 @@
       <div class="flex flex-wrap items-center justify-center sm:justify-start gap-x-2 gap-y-1">
         <span class="font-extrabold text-slate-300">ikymory</span>
         <span class="text-slate-600">&bull;</span>
-        <span id="footerSubText" class="text-slate-400 font-medium">1400 аниме (9,819 бөлім)</span>
+        <span id="footerSubText" class="text-slate-400 font-medium">Catalog coverage</span>
         <span class="text-slate-600">&bull;</span>
         <span><span id="footerLicense">Лицензия</span>: CC BY 4.0</span>
       </div>
@@ -923,13 +932,17 @@
   </footer>
 
 
+  <script src="catalog-runtime.js"></script>
   <script>
     let animeData = [];
     let currentFiltered = [];
     let currentPage = 1;
     const pageSize = 25;
     let activeTab = 'all';
-    let currentLang = localStorage.getItem('ask_lang') || 'kk';
+    let currentLang = CatalogRuntime.readLanguage();
+    let catalogStats = null;
+    let modalReturnFocus = null;
+    const escapeHtml = CatalogRuntime.escapeHtml;
     let heroTimer = null;
     let currentImgLayer = 'A';
 
@@ -1191,26 +1204,26 @@
       rawDesc = rawDesc.replace(/<[^>]+>/g, '').replace(/\(Source:.*?\)/gi, '').trim();
 
       const title = getAnimeTitle(anime);
-      const eps = anime.episodes || anime.translated_episodes_count || (anime.format === 'MOVIE' ? 1 : 12);
-      const year = anime.seasonYear || 2024;
+      const eps = anime.available_episodes_count ?? anime.translated_episodes_count ?? 0;
+      const year = anime.seasonYear || '—';
       const localizedGenres = (anime.genres || []).map(g => getLocalizedGenre(g, lang)).filter(Boolean);
       const genreString = localizedGenres.join(', ');
 
       if (lang === 'kk') {
         if (rawDesc) {
-          return `${title} (${year}) — қазақша толық мәтіндік субтитрлер. Бөлім саны: ${eps}, жанрлары: ${genreString || 'Аниме'}.\n\n${rawDesc}`;
+          return `${title} (${year}) — қолжетімді субтитр тректері: ${eps}. Жанрлары: ${genreString || 'Аниме'}.\n\n${rawDesc}`;
         }
-        return `${title} (${year}) — қазақша субтитрлері бар каталог. Барлық ${eps} бөліміне толық мәтіндік субтитрлер қолжетімді. Жанрлары: ${genreString || 'Аниме'}.`;
+        return `${title} (${year}) — қолжетімді субтитр тректері: ${eps}. Жанрлары: ${genreString || 'Аниме'}.`;
       }
 
       if (lang === 'ja') {
         if (rawDesc) {
-          return `『${title}』(${year}) のカザフ語字幕アーカイブ。全${eps}話収録。ジャンル: ${localizedGenres.join('、') || 'アニメ'}。\n\n${rawDesc}`;
+          return `『${title}』(${year}) のカザフ語字幕。利用可能なトラック: ${eps}。ジャンル: ${localizedGenres.join('、') || 'アニメ'}。\n\n${rawDesc}`;
         }
-        return `『${title}』(${year})。全${eps}話のカザフ語テキスト字幕(.srt / .vtt / .ass)を完全提供。ジャンル: ${localizedGenres.join('、') || 'アニメ'}。`;
+        return `『${title}』(${year})。利用可能なカザフ語字幕トラック: ${eps}。ジャンル: ${localizedGenres.join('、') || 'アニメ'}。`;
       }
 
-      return rawDesc || `${title} (${year}) — complete Kazakh subtitle archive. ${eps} episodes available with multi-format subtitles.`;
+      return rawDesc || `${title} (${year}) — ${eps} available Kazakh subtitle tracks.`;
     }
 
     // Dropdown options configuration
@@ -1299,7 +1312,7 @@
         lbl_next: "Келесі",
         sidebar_airing: "Top Airing",
         sidebar_movies: "TOP MOVIES",
-        bottom_finished: "JUST FINISHED",
+        bottom_finished: "ЖАҢА ШЫҒАРЫЛЫМДАР",
         bottom_top_rated: "TOP RATED",
         expand_more: "Көбірек көрсету",
         expand_less: "Азырақ көрсету",
@@ -1361,7 +1374,7 @@
         lbl_next: "Next",
         sidebar_airing: "Top Airing",
         sidebar_movies: "TOP MOVIES",
-        bottom_finished: "JUST FINISHED",
+        bottom_finished: "RECENT RELEASES",
         bottom_top_rated: "TOP RATED",
         expand_more: "Show More",
         expand_less: "Show Less",
@@ -1376,7 +1389,7 @@
         no_results: "No anime found matching your query",
         no_results_sub: "Try resetting filters or search keywords",
         details_btn: "DETAILS",
-        watch_btn: "WATCH NOW",
+        watch_btn: "SUBTITLES",
         hero_legal_badge: "Plain Text Subtitles Only • Zero Video Hosting",
         dmca_nav: "DMCA",
         dmca_heading: "DMCA Policy & Anti-Piracy Statement",
@@ -1423,7 +1436,7 @@
         lbl_next: "次へ",
         sidebar_airing: "Top Airing",
         sidebar_movies: "TOP MOVIES",
-        bottom_finished: "JUST FINISHED",
+        bottom_finished: "最近の作品",
         bottom_top_rated: "TOP RATED",
         expand_more: "もっと見る",
         expand_less: "折りたたむ",
@@ -1438,7 +1451,7 @@
         no_results: "該当するアニメが見つかりませんでした",
         no_results_sub: "検索条件やフィルターを変更してお試しください",
         details_btn: "詳細",
-        watch_btn: "今すぐ見る",
+        watch_btn: "字幕を取得",
         hero_legal_badge: "テキスト字幕のみ • 動画配信なし",
         dmca_nav: "DMCA",
         dmca_heading: "DMCAポリシーおよび非海賊版・適法声明",
@@ -1476,18 +1489,25 @@
     }
 
     function getAnimeScore(anime) {
-      if (!anime) return 80;
-      if (anime.averageScore) return anime.averageScore;
-      const popularHigh = ['frieren', 'hxh', 'aot', 'aot-final', 'jjk-s2', 'your-name', 'spirited-away', 'bleach', 'vinland-saga', 'csm', 'dn', 'solo-leveling'];
-      if (popularHigh.includes(anime.slug)) return 92;
-      const hash = Math.abs(anime.slug.split('').reduce((a,c) => (a << 5) - a + c.charCodeAt(0), 0));
-      return 78 + (hash % 12);
+      return CatalogRuntime.score(anime) ?? 0;
+    }
+
+    function updateCoverage() {
+      if (!catalogStats) return;
+      const counts = `${catalogStats.total.toLocaleString()} releases · ${catalogStats.total_episodes.toLocaleString()} available tracks`;
+      document.getElementById('footerSubText').textContent = counts;
+      const el = document.getElementById('coverageNotice');
+      if (el) el.textContent = {
+        kk: `${counts}. Аударма сапасы мен бөлім нөмірлері тексеруді қажет етеді.`,
+        en: `${counts}. Translation accuracy and episode numbering require review.`,
+        ja: `${counts}。翻訳精度と話数番号は要確認です。`
+      }[currentLang];
     }
 
     function setLanguage(lang) {
       if (!i18n[lang]) return;
       currentLang = lang;
-      localStorage.setItem('ask_lang', lang);
+      CatalogRuntime.saveLanguage(lang);
       document.documentElement.lang = lang;
 
       ['kk', 'en', 'ja'].forEach(l => {
@@ -1550,14 +1570,14 @@
       setText('modalBackBtnTxt', lang === 'ja' ? '戻る' : (lang === 'en' ? 'Back' : 'Артқа'));
       setText('modalSynopsisTitle', t.modal_synopsis);
       setText('modalSubEpTitle', t.modal_sub_ep);
-      setText('modalEpSubtitleText', lang === 'ja' ? '各話の字幕をSRT、VTT、ASS形式でダウンロード可能' : (lang === 'en' ? 'Download subtitles for any episode in .srt, .vtt, or .ass formats' : 'Кез келген бөлімнің субтитрін қалаған форматта (.srt, .vtt, .ass) жүктеп алыңыз'));
+      setText('modalEpSubtitleText', lang === 'ja' ? '利用可能な字幕形式のみ表示しています。' : (lang === 'en' ? 'Download the available formats shown for each track.' : 'Әр тректің қолжетімді форматтарын жүктеп алыңыз.'));
       setText('modalInfoBoxTitle', lang === 'ja' ? '作品情報' : (lang === 'en' ? 'Information' : 'Ақпарат'));
       setText('modalStatusText', t.status_full);
       setText('modalGithubTxt', t.modal_github);
 
       // Footer & Legal
       setText('footerLicense', t.footer_license);
-      setText('footerSubText', t.footer_sub);
+      updateCoverage();
       setText('navDmcaTxt', t.dmca_nav);
       setText('dmcaModalHeading', t.dmca_heading);
       setText('dmcaModalSubHeading', t.dmca_subheading);
@@ -1843,23 +1863,23 @@
       if (!anime) return;
 
       const title = getAnimeTitle(anime);
-      const transEps = anime.translated_episodes_count || (anime.translated_episodes ? anime.translated_episodes.length : 1);
-      const totalEps = anime.episodes || transEps;
+      const transEps = anime.available_episodes_count ?? anime.translated_episodes_count ?? 0;
+      const totalEps = transEps;
       const isMovie = anime.format === 'MOVIE';
       const score = getAnimeScore(anime);
       const genres = (anime.genres && Array.isArray(anime.genres)) 
         ? anime.genres.slice(0, 3).map(g => getLocalizedGenre(g, currentLang)).join(' · ') 
         : (currentLang === 'ja' ? 'アニメ' : (currentLang === 'en' ? 'Anime' : 'Аниме'));
-      const studio = anime.studio || 'Animation Studio';
-      const duration = anime.duration || 24;
+      const studio = anime.studio || '—';
+      const duration = anime.duration || 0;
 
-      let durBadge = `${duration}M`;
+      let durBadge = duration ? `${duration}M` : '—';
       if (duration >= 60) {
         const h = Math.floor(duration / 60);
         const m = duration % 60;
         durBadge = m > 0 ? `${h}H ${m}M` : `${h}H`;
       }
-      const durMeta = `${duration} mins`;
+      const durMeta = duration ? `${duration} mins` : '—';
 
       const desc = getAnimeDescription(anime, currentLang);
       const banner = anime.bannerImage;
@@ -1917,7 +1937,7 @@
         const epsEl = document.getElementById('heroEps');
         if (epsEl) {
           if (isMovie) {
-            epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> 1 Film`;
+            epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> ${transEps} CC`;
           } else if (transEps < totalEps) {
             epsEl.innerHTML = `<i class="fas fa-closed-captioning text-[11px] text-slate-300 mr-1.5"></i> ${transEps}/${totalEps} EP`;
           } else {
@@ -1927,7 +1947,7 @@
 
         const scoreEl = document.getElementById('heroScore');
         if (scoreEl) {
-          scoreEl.innerHTML = `<i class="far fa-star text-[11px] text-slate-300 mr-1"></i> ${score}`;
+          scoreEl.innerHTML = `<i class="far fa-star text-[11px] text-slate-300 mr-1"></i> ${score || '—'}`;
         }
 
         const durEl = document.getElementById('heroDuration');
@@ -2065,15 +2085,15 @@
     function createMiruroCardHtml(anime, rank, type) {
       const title = getAnimeTitle(anime);
       const subTitle = (anime.title && (anime.title.romaji || anime.title.english)) || '';
-      const year = anime.seasonYear || 2024;
-      const cover = anime.coverImage || fallbackCover;
-      const banner = anime.bannerImage || '';
+      const year = anime.seasonYear || '—';
+      const cover = CatalogRuntime.imageUrl(anime.coverImage, fallbackCover);
+      const banner = CatalogRuntime.imageUrl(anime.bannerImage, '');
       const score = anime.averageScore || getAnimeScore(anime);
-      const transEps = anime.translated_episodes_count || (anime.translated_episodes ? anime.translated_episodes.length : 1);
-      const totalEps = anime.episodes || transEps;
+      const transEps = anime.available_episodes_count ?? anime.translated_episodes_count ?? 0;
+      const totalEps = transEps;
       const format = anime.format || (totalEps === 1 ? 'MOVIE' : 'TV');
       const isMovie = format === 'MOVIE';
-      const epsBadgeText = isMovie ? '1 film' : (transEps < totalEps ? `${transEps}/${totalEps} ep` : `${totalEps} ep`);
+      const epsBadgeText = `${transEps} CC`;
 
       let iconBadgeHtml = '';
       if (type === 'movie') {
@@ -2085,7 +2105,7 @@
       }
 
       return `
-        <div onclick="openModal('${anime.slug}')" class="relative overflow-hidden flex items-center space-x-3.5 sm:space-x-4 p-3 sm:p-3.5 rounded-2xl bg-[#121620] hover:bg-[#151c2a] border border-[#1b2232] hover:border-slate-500/50 cursor-pointer transition-all duration-200 group shadow-md hover:shadow-xl">
+        <div role="button" tabindex="0" data-anime-slug="${anime.slug}" onclick="openModal('${anime.slug}')" class="relative overflow-hidden flex items-center space-x-3.5 sm:space-x-4 p-3 sm:p-3.5 rounded-2xl bg-[#121620] hover:bg-[#151c2a] border border-[#1b2232] hover:border-slate-500/50 cursor-pointer transition-all duration-200 group shadow-md hover:shadow-xl">
           
           <!-- Faded banner artwork watermark on the right half -->
           ${banner ? `
@@ -2097,7 +2117,7 @@
 
           <!-- Left: Big High-End Poster Cover Thumbnail -->
           <div class="relative z-10 shrink-0">
-            <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
+            <img src="${cover}" alt="${escapeHtml(title)}" loading="lazy" onerror="this.src='${fallbackCover}'"
               class="w-14 sm:w-16 h-20 sm:h-22 object-cover rounded-xl border border-white/10 shadow-md group-hover:scale-105 transition-transform duration-200">
           </div>
 
@@ -2105,9 +2125,9 @@
           <div class="relative z-10 min-w-0 flex-1 space-y-1">
             <div class="flex items-center space-x-2">
               ${iconBadgeHtml}
-              <h4 class="text-sm sm:text-[15px] font-bold text-slate-100 group-hover:text-white transition truncate" title="${title}">${title}</h4>
+              <h4 class="text-sm sm:text-[15px] font-bold text-slate-100 group-hover:text-white transition truncate" title="${escapeHtml(title)}">${escapeHtml(title)}</h4>
             </div>
-            ${subTitle ? `<div class="text-[11px] text-slate-400 truncate font-medium group-hover:text-slate-300 transition">${subTitle}</div>` : ''}
+            ${subTitle ? `<div class="text-[11px] text-slate-400 truncate font-medium group-hover:text-slate-300 transition">${escapeHtml(subTitle)}</div>` : ''}
             <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 text-[11px] text-slate-400 font-mono pt-1">
               <span class="text-slate-200 font-sans font-bold px-2 py-0.5 rounded-md bg-white/10 border border-white/10 uppercase text-[10px]">${format}</span>
               <span class="flex items-center space-x-1 text-slate-400">
@@ -2120,7 +2140,7 @@
               </span>
               <span class="flex items-center space-x-1 text-slate-200 font-semibold bg-white/5 border border-white/10 px-1.5 py-0.5 rounded-md">
                 <i class="far fa-star text-[10px] text-slate-400"></i>
-                <span>${score}</span>
+                <span>${score || '—'}</span>
               </span>
             </div>
           </div>
@@ -2134,7 +2154,7 @@
       if (!container) return;
       const limit = expandState.sidebarMovies ? 12 : 5;
       const movieSlugs = ['csm', 'first-slam-dunk', 'silent-voice', 'a-silent-voice', 'your-name', 'spirited-away', 'howl-s-moving', 'kny-mugen-train', 'grave-fireflies', 'akira', 'eva', '5-centimeters-per', 'suzume'];
-      let movies = movieSlugs.map(slug => data.find(a => a.slug === slug)).filter(Boolean);
+      let movies = movieSlugs.map(slug => data.find(a => a.slug === slug && a.format === 'MOVIE')).filter(Boolean);
       const remainingMovies = data.filter(a => a.format === 'MOVIE' && !movies.includes(a));
       movies = movies.concat(remainingMovies).slice(0, limit);
 
@@ -2177,7 +2197,7 @@
     }
 
     // -------------------------------------------------------------
-    // FILTERING & SORTING LOGIC (All 1400 Anime Always Searchable & Available)
+    // FILTERING & SORTING LOGIC (Catalog entries Always Searchable & Available)
     // -------------------------------------------------------------
     function applyFilters() {
       const searchVal = (document.getElementById('searchInput').value || document.getElementById('navSearchInput').value || '').toLowerCase().trim();
@@ -2260,7 +2280,7 @@
       } else if (filterState.sort === 'oldest') {
         filtered.sort((a, b) => (a.seasonYear || 9999) - (b.seasonYear || 9999));
       } else if (filterState.sort === 'episodes') {
-        filtered.sort((a, b) => (b.episodes || b.translated_episodes_count || 0) - (a.episodes || a.translated_episodes_count || 0));
+        filtered.sort((a, b) => (b.available_episodes_count ?? 0) - (a.available_episodes_count ?? 0));
       } else if (filterState.sort === 'alpha') {
         filtered.sort((a, b) => getAnimeTitle(a).localeCompare(getAnimeTitle(b)));
       } else {
@@ -2274,7 +2294,7 @@
     }
 
     // -------------------------------------------------------------
-    // MAIN GRID & PAGINATION RENDERING (All 1400 Anime Rendered Cleanly)
+    // MAIN GRID & PAGINATION RENDERING (Catalog entries Rendered Cleanly)
     // -------------------------------------------------------------
     function renderCurrentPage() {
       const grid = document.getElementById('mainAnimeGrid');
@@ -2304,20 +2324,20 @@
 
       grid.innerHTML = pageItems.map((anime, idx) => {
         const title = getAnimeTitle(anime);
-        const transEps = anime.translated_episodes_count || (anime.translated_episodes ? anime.translated_episodes.length : 1);
-        const totalEps = anime.episodes || transEps;
+        const transEps = anime.available_episodes_count ?? anime.translated_episodes_count ?? 0;
+        const totalEps = transEps;
         const isMovie = (anime.format === 'MOVIE') || (totalEps === 1 && !['TV', 'TV_SHORT'].includes(anime.format));
         const format = isMovie ? 'MOVIE' : (anime.format || 'TV');
         const epDisplay = isMovie ? 'Film' : (transEps < totalEps ? `${transEps}/${totalEps}` : `${totalEps}`);
-        const year = anime.seasonYear || 2024;
-        const cover = anime.coverImage || fallbackCover;
+        const year = anime.seasonYear || '—';
+        const cover = CatalogRuntime.imageUrl(anime.coverImage, fallbackCover);
         const score = getAnimeScore(anime);
 
         return `
-          <div onclick="openModal('${anime.slug}')" class="group cursor-pointer flex flex-col justify-between select-none">
+          <div role="button" tabindex="0" data-anime-slug="${anime.slug}" onclick="openModal('${anime.slug}')" class="group cursor-pointer flex flex-col justify-between select-none">
             <div>
               <div class="relative poster-aspect rounded-xl overflow-hidden bg-[#121620] border border-[#181e2b] group-hover:border-slate-500/60 group-hover:shadow-xl transition-all duration-200">
-                <img src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${fallbackCover}'" 
+                <img src="${cover}" alt="${escapeHtml(title)}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackCover}'"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-30 group-hover:opacity-60 transition"></div>
 
@@ -2332,7 +2352,7 @@
               
               <!-- Line 1: Title -->
               <div class="mt-2">
-                <h3 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate" title="${title}">${title}</h3>
+                <h3 class="text-xs font-semibold text-slate-200 group-hover:text-white transition truncate" title="${escapeHtml(title)}">${escapeHtml(title)}</h3>
               </div>
             </div>
 
@@ -2344,7 +2364,7 @@
                 <i class="fas fa-closed-captioning text-[9px] mr-0.5 text-slate-400"></i>
                 <span>${epDisplay}</span>
               </span>
-              <span class="text-slate-500">☆ ${score}</span>
+              <span class="text-slate-500">☆ ${score || '—'}</span>
             </div>
           </div>
         `;
@@ -2461,25 +2481,29 @@
     });
 
     function openModal(slug, keepScroll = false) {
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) return;
+      if (!keepScroll) modalReturnFocus = document.activeElement;
       currentModalSlug = slug;
       const modal = document.getElementById('animeModal');
       modal.classList.remove('hidden');
       modal.classList.add('flex');
+      modal.setAttribute('tabindex', '-1');
+      modal.focus();
       document.body.style.overflow = 'hidden';
       if (!keepScroll) modal.scrollTop = 0;
 
       const summary = animeData.find(a => a.slug === slug);
       const titleText = getAnimeTitle(summary) || slug;
       const subTitleText = getAnimeSubTitle(summary);
-      const coverUrl = (summary && summary.coverImage) || fallbackCover;
-      const bannerUrl = (summary && summary.bannerImage) || coverUrl;
+      const coverUrl = CatalogRuntime.imageUrl(summary?.coverImage, fallbackCover);
+      const bannerUrl = CatalogRuntime.imageUrl(summary?.bannerImage, coverUrl);
       const t = i18n[currentLang];
       const rawFormat = (summary && summary.format) || 'TV';
       const isMovie = rawFormat === 'MOVIE';
-      const year = (summary && summary.seasonYear) || 2024;
+      const year = (summary && summary.seasonYear) || '—';
       const score = getAnimeScore(summary);
-      const transCount = (summary && (summary.translated_episodes_count || (summary.translated_episodes && summary.translated_episodes.length))) || 1;
-      const totalCount = (summary && summary.episodes) || transCount;
+      const transCount = summary?.available_episodes_count ?? summary?.translated_episodes_count ?? 0;
+      const totalCount = transCount;
 
       // Populate hero elements
       const theme = resolveAnimeTheme(summary);
@@ -2496,7 +2520,7 @@
       const navTitle = document.getElementById('modalTopNavTitle');
       if (navTitle) navTitle.textContent = titleText;
 
-      document.getElementById('modalSubTitle').innerHTML = subTitleText;
+      document.getElementById('modalSubTitle').textContent = subTitleText;
       document.getElementById('modalCover').src = coverUrl;
       const modalBannerEl = document.getElementById('modalBanner');
       if (modalBannerEl) {
@@ -2510,7 +2534,7 @@
       const formatLabel = isMovie ? (currentLang === 'ja' ? '劇場版' : (currentLang === 'en' ? 'MOVIE' : 'ФИЛЬМ')) : rawFormat;
       document.getElementById('modalFormatBadge').textContent = formatLabel;
       document.getElementById('modalYearBadge').textContent = year;
-      document.getElementById('modalScoreVal').textContent = score;
+      document.getElementById('modalScoreVal').textContent = score || '—';
       document.getElementById('modalGithubLink').href = `https://github.com/ikymory/anime-subtitles-kazakh/tree/main/subtitles/${slug}`;
       const modalApiLinkEl = document.getElementById('modalApiLink');
       if (modalApiLinkEl) modalApiLinkEl.href = `api/v1/anime/${slug}.json`;
@@ -2519,42 +2543,41 @@
       const fVal = document.getElementById('infoFormatVal');
       if (fVal) fVal.textContent = isMovie ? (currentLang === 'ja' ? '劇場版' : (currentLang === 'en' ? 'Movie' : 'Фильм')) : rawFormat;
       const eVal = document.getElementById('infoEpsVal');
-      if (eVal) {
-        if (isMovie) {
-          eVal.textContent = currentLang === 'ja' ? '1 (劇場版)' : (currentLang === 'en' ? '1 (Movie)' : '1 (Фильм)');
-        } else if (transCount < totalCount) {
-          eVal.textContent = `${transCount} / ${totalCount}`;
-        } else {
-          eVal.textContent = `${totalCount}`;
-        }
-      }
+      if (eVal) eVal.textContent = `${transCount} CC`;
       const yVal = document.getElementById('infoYearVal');
       if (yVal) yVal.textContent = year;
       const sVal = document.getElementById('infoScoreVal');
-      if (sVal) sVal.textContent = `${score} / 100`;
+      if (sVal) sVal.textContent = `${score || '—'} / 100`;
 
       // Render genres
       const genresWrap = document.getElementById('modalGenresWrap');
       if (genresWrap && summary && summary.genres) {
         genresWrap.innerHTML = summary.genres.map(g => `
           <span class="px-2.5 py-0.5 rounded-lg bg-[#141824] border border-[#202738] text-[11px] font-medium text-slate-300">
-            ${getLocalizedGenre(g, currentLang)}
+            ${escapeHtml(getLocalizedGenre(g, currentLang))}
           </span>
         `).join('');
       }
 
       // Check detail JSON
       fetch(`api/v1/anime/${slug}.json`)
-        .then(res => res.ok ? res.json() : null)
+        .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
         .then(data => {
           if (data && currentModalSlug === slug) {
-            if (data.bannerImage) document.getElementById('modalBanner').src = data.bannerImage;
-            const fullAnime = { ...summary, ...data };
+            const fullAnime = CatalogRuntime.release({ ...summary, ...data });
+            if (!fullAnime || fullAnime.slug !== slug) throw new Error('Invalid release');
+            if (fullAnime.bannerImage) document.getElementById('modalBanner').src = fullAnime.bannerImage;
             document.getElementById('modalDescription').textContent = getAnimeDescription(fullAnime, currentLang);
             renderModalEpisodes(slug, fullAnime);
           }
         })
-        .catch(() => {});
+        .catch(() => {
+          if (currentModalSlug === slug) {
+            const list = document.getElementById('modalEpisodesList');
+            list.textContent = {kk:'Жүктеу қатесі. Қайта ашып көріңіз.', en:'Download details could not load. Close and reopen to retry.', ja:'読み込みに失敗しました。開き直してください。'}[currentLang];
+            list.setAttribute('role', 'alert');
+          }
+        });
 
       document.getElementById('modalDescription').textContent = getAnimeDescription(summary, currentLang);
 
@@ -2564,55 +2587,41 @@
     function renderModalEpisodes(slug, summary) {
       const container = document.getElementById('modalEpisodesList');
       if (!container) return;
-      const isMovie = summary && summary.format === 'MOVIE';
-      const transList = (summary && Array.isArray(summary.translated_episodes) && summary.translated_episodes.length > 0)
-        ? summary.translated_episodes
-        : Array.from({ length: (summary && (summary.translated_episodes_count || summary.episodes)) || 1 }, (_, i) => i + 1);
-      const totalCount = (summary && summary.episodes) || transList.length;
-      const t = i18n[currentLang];
-      const epTotal = document.getElementById('modalEpTotal');
-      if (epTotal) {
-        if (isMovie) {
-          epTotal.textContent = currentLang === 'ja' ? '劇場版 (完全版)' : (currentLang === 'en' ? 'Movie (Complete)' : 'Фильм (Толық)');
-        } else if (transList.length < totalCount) {
-          epTotal.textContent = `${transList.length} / ${totalCount} ${t.ep_label || 'бөлім'}`;
-        } else {
-          epTotal.textContent = `${totalCount} ${t.ep_label || 'бөлім'}`;
+      container.replaceChildren();
+      container.removeAttribute('role');
+      const rows = CatalogRuntime.episodes(summary);
+      const labels = {kk:{track:'Трек', loading:'Жүктелуде…', empty:'Қолжетімді трек жоқ'}, en:{track:'Track',loading:'Loading verified downloads…',empty:'No usable tracks available'}, ja:{track:'トラック',loading:'読み込み中…',empty:'利用できる字幕はありません'}}[currentLang];
+      document.getElementById('modalEpTotal').textContent = `${summary?.available_episodes_count ?? rows.length} ${labels.track}`;
+      if (!Array.isArray(summary?.subtitles)) { container.textContent = labels.loading; return; }
+      if (!rows.length) { container.textContent = labels.empty; return; }
+      for (const row of rows) {
+        const wrap = document.createElement('div');
+        wrap.className = 'flex items-center justify-between p-3 rounded-xl bg-[#121620] border border-[#181e2b]';
+        const label = document.createElement('span');
+        label.className = 'text-xs text-slate-200';
+        label.textContent = `${labels.track} ${row.episode}`;
+        wrap.appendChild(label);
+        const links = document.createElement('div');
+        links.className = 'flex items-center gap-2';
+        for (const [ext, url] of Object.entries(row.files)) {
+          const link = document.createElement('a');
+          const path = row.assets[ext]?.path;
+          link.href = typeof path === 'string' && /^subtitles\/[a-z0-9-]+\/[a-zA-Z0-9_.-]+$/.test(path) ? path : url;
+          link.download = '';
+          link.className = 'px-3 py-2 rounded-md bg-[#181e2b] hover:bg-slate-700 text-slate-200 text-xs font-mono';
+          link.textContent = ext.toUpperCase();
+          link.setAttribute('aria-label', `${labels.track} ${row.episode} ${ext.toUpperCase()}`);
+          links.appendChild(link);
         }
+        wrap.appendChild(links);
+        container.appendChild(wrap);
       }
-
-      let html = '';
-      for (const ep of transList) {
-        const srtUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.srt`;
-        const vttUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.vtt`;
-        const assUrl = `https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/${slug}/${slug}-${ep}ep.ass`;
-
-        html += `
-          <div class="flex items-center justify-between p-3 rounded-xl bg-[#121620] hover:bg-[#161c28] border border-[#181e2b] hover:border-slate-600/50 transition shadow-sm">
-            <div class="flex items-center space-x-2.5 min-w-0">
-              <span class="w-6 h-6 rounded-lg bg-[#181e2a] text-slate-300 text-xs font-mono font-semibold flex items-center justify-center shrink-0">
-                ${ep}
-              </span>
-              <div class="min-w-0">
-                <h5 class="text-xs font-semibold text-slate-200 truncate">${isMovie ? (currentLang === 'ja' ? '劇場版本編' : (currentLang === 'en' ? 'Full Movie' : 'Толық фильм')) : (currentLang === 'ja' ? `第${ep}話` : (currentLang === 'en' ? `Episode ${ep}` : `${ep}-бөлім`))}</h5>
-              </div>
-            </div>
-            <div class="flex items-center space-x-1 shrink-0">
-              <a href="${srtUrl}" download class="px-2 py-1 rounded-md bg-[#181e2b] hover:bg-slate-700 text-slate-300 hover:text-white text-[10px] font-mono font-medium transition" title="Download SRT">SRT</a>
-              <a href="${vttUrl}" download class="px-2 py-1 rounded-md bg-[#181e2b] hover:bg-slate-700 text-slate-300 hover:text-white text-[10px] font-mono font-medium transition" title="Download VTT">VTT</a>
-              <a href="${assUrl}" download class="px-2 py-1 rounded-md bg-[#181e2b] hover:bg-slate-700 text-slate-300 hover:text-white text-[10px] font-mono font-medium transition" title="Download ASS">ASS</a>
-              <button onclick="copyToClipboard('${srtUrl}', '${t.copied_toast}')" class="p-1 rounded-md bg-[#141822] hover:bg-slate-700 text-slate-400 hover:text-white text-xs transition" title="Copy CDN Link">
-                <i class="fas fa-link text-[10px]"></i>
-              </button>
-            </div>
-          </div>
-        `;
-      }
-      container.innerHTML = html;
     }
 
     function closeModal() {
       currentModalSlug = null;
+      if (modalReturnFocus?.isConnected) modalReturnFocus.focus();
+      modalReturnFocus = null;
       const modal = document.getElementById('animeModal');
       modal.classList.add('hidden');
       modal.classList.remove('flex');
@@ -2667,8 +2676,11 @@
     async function init() {
       try {
         const res = await fetch('api/v1/anime.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const json = await res.json();
-        animeData = json.data || [];
+        if (!Array.isArray(json.data)) throw new Error('Invalid catalog');
+        catalogStats = json;
+        animeData = json.data.map(CatalogRuntime.release).filter(Boolean);
 
         // Dynamically collect ALL anime with high-quality AniList banners
         const withBanners = animeData.filter(a => a.bannerImage && a.bannerImage.startsWith('https://s4.anilist.co'));
@@ -2729,9 +2741,23 @@
         resetHeroTimer();
       } catch (err) {
         console.error('Failed to load anime data:', err);
+        const grid = document.getElementById('mainAnimeGrid');
+        grid.setAttribute('role','alert');
+        grid.textContent = {kk:'Каталог жүктелмеді. Бетті жаңартыңыз.',en:'Catalog could not load. Refresh to retry.',ja:'カタログを読み込めませんでした。再読み込みしてください。'}[currentLang];
       }
     }
 
+    document.addEventListener('keydown', event => {
+      const card = event.target.closest?.('[data-anime-slug]');
+      if (card && (event.key === 'Enter' || event.key === ' ')) { event.preventDefault(); openModal(card.dataset.animeSlug); }
+      if (event.key === 'Tab' && currentModalSlug) {
+        const modal = document.getElementById('animeModal');
+        const controls = [...modal.querySelectorAll('a[href],button:not([disabled]),[tabindex="0"]')].filter(el => el.getClientRects().length);
+        const first = controls[0], last = controls[controls.length-1];
+        if (event.shiftKey && (document.activeElement === first || document.activeElement === modal)) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    });
     init();
   </script>
 </body>

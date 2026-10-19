@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita no Parallel Saiyuuki - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-parallel-saiyuuki.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-parallel-saiyuuki.jpg",
+  "description": "Doraemon. Nobita no Parallel Saiyuuki - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-no-parallel-saiyuuki",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-no-parallel-saiyuuki-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-parallel-saiyuuki/doraemon-nobita-no-parallel-saiyuuki-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-parallel-saiyuuki/doraemon-nobita-no-parallel-saiyuuki-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-parallel-saiyuuki/doraemon-nobita-no-parallel-saiyuuki-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-parallel-saiyuuki/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-parallel-saiyuuki/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-parallel-saiyuuki/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-no-parallel-saiyuuki/ep_01.kk.srt",
+          "sha256": "f020912fce1b720096d2b8482d80341b084336304aa5c25a9c3efe9e2c2f1230",
+          "bytes": 126847,
+          "cues": 1555,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-no-parallel-saiyuuki/ep_01.kk.vtt",
+          "sha256": "3daf22ea5c24d6622339011f46b577380fe3a25698513b75357c4d936aab3614",
+          "bytes": 126944,
+          "cues": 1555,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-no-parallel-saiyuuki/ep_01.kk.ass",
+          "sha256": "4517b9ee93223d8330cde591418129a7dc043af1b1e82085794d99a40081a1d0",
+          "bytes": 150494,
+          "cues": 1555,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-no-parallel-saiyuuki.json"
 }

@@ -17,28 +17,59 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "The theme of the film is the love between parents and children. The story covers 13 years and begins with a 19-year-old college student named Hana who encounters and falls in \"fairy tale-like\" love with a \"wolf man.\" After marrying the wolf man, Hana gives birth and raises two wolf children&mdash;an older sister named Yuki who was born on a snowy day, and a younger brother named Ame who was born on a rainy day. The four quietly lived in a corner of a city to conceal the existence of the \"wolf children,\" but when the wolf man suddenly dies, Hana decides to move to a rural town far removed from the city.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12355-wNsvhEsXEgrH.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12355.jpg",
+  "description": "The theme of the film is the love between parents and children. The story covers 13 years and begins with a 19-year-old college student named Hana who encounters and falls in \"fairy tale-like\" love with a \"wolf man.\" After marrying the wolf man, Hana gives birth and raises two wolf children&mdash;an older sister named Yuki who was born on a snowy day, and a younger brother named Ame who was born on a rainy day. The four quietly lived in a corner of a city to conceal the existence of the \"wolf children,\" but when the wolf man suddenly dies, Hana decides to move to a rural town far removed from the city.\n\n(Source: Anime News Network)",
+  "averageScore": 79,
+  "popularity": 59328,
+  "color": "#e45d6b",
+  "duration": 117,
+  "studio": "MADHOUSE",
+  "catalog_id": "wolf-children",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "wolf-children-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wolf-children/wolf-children-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wolf-children/wolf-children-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wolf-children/wolf-children-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wolf-children/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wolf-children/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wolf-children/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wolf-children/ep_01.kk.srt",
+          "sha256": "97c879f345b8c44284cef28c7f8fab5697e6ecc097432b8ff59ae72b1c1370ec",
+          "bytes": 118058,
+          "cues": 1417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wolf-children/ep_01.kk.vtt",
+          "sha256": "c3efde40c28d6cd5102cbb57879ef6c715df3b894abf3bb8d52850a7cfb5cba6",
+          "bytes": 118155,
+          "cues": 1417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wolf-children/ep_01.kk.ass",
+          "sha256": "57c856482c7b954fecf069a495d892bc2ee733d8272e2933f735643fb6b3a87e",
+          "bytes": 139716,
+          "cues": 1417,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e45d6b",
-  "studio": "MADHOUSE",
-  "duration": 117,
-  "averageScore": 79,
-  "popularity": 59328,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/wolf-children.json"
 }

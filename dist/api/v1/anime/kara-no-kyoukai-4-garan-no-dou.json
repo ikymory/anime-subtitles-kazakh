@@ -16,24 +16,56 @@
     "Mystery",
     "Supernatural"
   ],
-  "description": "The Garden of Sinners Chapter 4: The Hollow Shrine - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kara-no-kyoukai-4-garan-no-dou.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kara-no-kyoukai-4-garan-no-dou.jpg",
+  "description": "The Garden of Sinners Chapter 4: The Hollow Shrine - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "kara-no-kyoukai-4-garan-no-dou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kara-no-kyoukai-4-garan-no-dou-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-4-garan-no-dou/kara-no-kyoukai-4-garan-no-dou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-4-garan-no-dou/kara-no-kyoukai-4-garan-no-dou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-4-garan-no-dou/kara-no-kyoukai-4-garan-no-dou-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-4-garan-no-dou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-4-garan-no-dou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-4-garan-no-dou/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kara-no-kyoukai-4-garan-no-dou/ep_01.kk.srt",
+          "sha256": "17325ca8299e85d1f1be360a2cfe4df200858b99ac81d74d0ad2a3550bdbb5b7",
+          "bytes": 67506,
+          "cues": 757,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kara-no-kyoukai-4-garan-no-dou/ep_01.kk.vtt",
+          "sha256": "17aa25c5d724dbedd93581250005b000bb62d5081984bb561ccbaea44409a65b",
+          "bytes": 67603,
+          "cues": 757,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kara-no-kyoukai-4-garan-no-dou/ep_01.kk.ass",
+          "sha256": "51fe96814f0afcb146f631d98f58f31c704fbdf5ef2028792ed1cec39ffed8e7",
+          "bytes": 88375,
+          "cues": 765,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-4-garan-no-dou.json"
 }

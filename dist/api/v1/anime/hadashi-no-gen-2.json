@@ -15,24 +15,56 @@
     "Drama",
     "Historical"
   ],
-  "description": "Barefoot Gen 2 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hadashi-no-gen-2.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hadashi-no-gen-2.jpg",
+  "description": "Barefoot Gen 2 - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "hadashi-no-gen-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hadashi-no-gen-2-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hadashi-no-gen-2/hadashi-no-gen-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hadashi-no-gen-2/hadashi-no-gen-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hadashi-no-gen-2/hadashi-no-gen-2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hadashi-no-gen-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hadashi-no-gen-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hadashi-no-gen-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/hadashi-no-gen-2/ep_01.kk.ass",
+          "sha256": "3d3446d950224f03a754f1f7f98e2bd576bc3f22f3b338678a38c81073febb48",
+          "bytes": 120665,
+          "cues": 1197,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/hadashi-no-gen-2/ep_01.kk.srt",
+          "sha256": "5dd7852801caf98485a8e0c045056c912b9cf297db7b18e991badf0921975805",
+          "bytes": 101811,
+          "cues": 1196,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/hadashi-no-gen-2/ep_01.kk.vtt",
+          "sha256": "de2b0f0563bf5f3db407da65bfa939b26b00f5e5d1aa14b147be341eb9b1f78a",
+          "bytes": 101819,
+          "cues": 1196,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hadashi-no-gen-2.json"
 }

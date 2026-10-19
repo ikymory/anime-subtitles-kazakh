@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "ao-no-exorcist-movie",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ao-no-exorcist-movie.json"
+    },
+    {
+      "slug": "blue-exorcist-movie",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/blue-exorcist-movie.json"
+    }
+  ]
+}

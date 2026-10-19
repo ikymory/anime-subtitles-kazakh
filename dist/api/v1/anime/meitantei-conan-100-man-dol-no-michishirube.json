@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Meitantei Conan. 100-man Dol no Michishirube - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-100-man-dol-no-michishirube.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-100-man-dol-no-michishirube.jpg",
+  "description": "Meitantei Conan. 100-man Dol no Michishirube - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "meitantei-conan-100-man-dol-no-michishirube",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "meitantei-conan-100-man-dol-no-michishirube-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-100-man-dol-no-michishirube/meitantei-conan-100-man-dol-no-michishirube-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-100-man-dol-no-michishirube/meitantei-conan-100-man-dol-no-michishirube-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-100-man-dol-no-michishirube/meitantei-conan-100-man-dol-no-michishirube-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-100-man-dol-no-michishirube/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-100-man-dol-no-michishirube/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-100-man-dol-no-michishirube/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/meitantei-conan-100-man-dol-no-michishirube/ep_01.kk.srt",
+          "sha256": "d2c5b7e6d5d4d9c539ead5d98ffc14f9b4744bb7a992d98a9e1f7fa247053b9e",
+          "bytes": 185089,
+          "cues": 2121,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/meitantei-conan-100-man-dol-no-michishirube/ep_01.kk.vtt",
+          "sha256": "8d16aac475aaf5fd1a7ceb22279990c4129199e4f51f837c834d1c00daa7ab32",
+          "bytes": 185186,
+          "cues": 2121,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/meitantei-conan-100-man-dol-no-michishirube/ep_01.kk.ass",
+          "sha256": "2ed3d21ed9e45f36cc916f1914345c704139a47ac4078b1946f917cd1637aae4",
+          "bytes": 216841,
+          "cues": 2121,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-100-man-dol-no-michishirube.json"
 }

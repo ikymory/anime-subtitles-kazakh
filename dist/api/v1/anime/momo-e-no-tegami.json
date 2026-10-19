@@ -15,24 +15,56 @@
     "Drama",
     "Supernatural"
   ],
-  "description": "A Letter to Momo - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/momo-e-no-tegami.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/momo-e-no-tegami.jpg",
+  "description": "A Letter to Momo - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "momo-e-no-tegami",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "momo-e-no-tegami-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/momo-e-no-tegami/momo-e-no-tegami-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/momo-e-no-tegami/momo-e-no-tegami-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/momo-e-no-tegami/momo-e-no-tegami-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/momo-e-no-tegami/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/momo-e-no-tegami/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/momo-e-no-tegami/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/momo-e-no-tegami/ep_01.kk.srt",
+          "sha256": "c3bcce3b544e99eaff370ba245f5be10635a23caacd1a1231c8986bfde080c41",
+          "bytes": 174610,
+          "cues": 2169,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/momo-e-no-tegami/ep_01.kk.vtt",
+          "sha256": "b215728ef876dbc53a7da95219996411fcfbb2e2157c4d39c0825251d1552137",
+          "bytes": 174707,
+          "cues": 2169,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/momo-e-no-tegami/ep_01.kk.ass",
+          "sha256": "09bc2b4e92a08f71a0447110f2917ccc3bb808a7e15658241706d917780fd060",
+          "bytes": 206602,
+          "cues": 2169,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/momo-e-no-tegami.json"
 }

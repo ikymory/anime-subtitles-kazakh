@@ -16,24 +16,56 @@
     "Comedy",
     "Sci-Fi"
   ],
-  "description": "Doraemon the Movie: Nobita's Sky Utopia - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobitas-sky-utopia.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobitas-sky-utopia.jpg",
+  "description": "Doraemon the Movie: Nobita's Sky Utopia - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "doraemon-nobitas-sky-utopia",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobitas-sky-utopia-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-sky-utopia/doraemon-nobitas-sky-utopia-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-sky-utopia/doraemon-nobitas-sky-utopia-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-sky-utopia/doraemon-nobitas-sky-utopia-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-sky-utopia/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-sky-utopia/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-sky-utopia/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/doraemon-nobitas-sky-utopia/ep_01.kk.ass",
+          "sha256": "07d57917970c9f7a1a256f99c56c44496bd9ef985ee426c506d75f70e54ac3cb",
+          "bytes": 195052,
+          "cues": 2118,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/doraemon-nobitas-sky-utopia/ep_01.kk.srt",
+          "sha256": "66c708b0bf7fe53ff448fd33c6d4868a14706e9994c78f2365199ef73ad98615",
+          "bytes": 163304,
+          "cues": 2117,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobitas-sky-utopia/ep_01.kk.vtt",
+          "sha256": "4656d917fb75e64d16d6dc243a308f0b49558e6f88742671a4ba1e765ab50089",
+          "bytes": 163312,
+          "cues": 2117,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobitas-sky-utopia.json"
 }

@@ -16,24 +16,56 @@
     "Romance",
     "Supernatural"
   ],
-  "description": "The Night Is Short, Walk on Girl - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/yoru-wa-mijikashi-arukeyo-otome.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/yoru-wa-mijikashi-arukeyo-otome.jpg",
+  "description": "The Night Is Short, Walk on Girl - official Kazakh translation archive by ikymory.",
   "averageScore": 89,
   "popularity": 106800,
+  "catalog_id": "yoru-wa-mijikashi-arukeyo-otome",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "yoru-wa-mijikashi-arukeyo-otome-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yoru-wa-mijikashi-arukeyo-otome/yoru-wa-mijikashi-arukeyo-otome-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yoru-wa-mijikashi-arukeyo-otome/yoru-wa-mijikashi-arukeyo-otome-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yoru-wa-mijikashi-arukeyo-otome/yoru-wa-mijikashi-arukeyo-otome-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yoru-wa-mijikashi-arukeyo-otome/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yoru-wa-mijikashi-arukeyo-otome/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yoru-wa-mijikashi-arukeyo-otome/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/yoru-wa-mijikashi-arukeyo-otome/ep_01.kk.ass",
+          "sha256": "d79ebc47451b18e59af3f0c6c293ca15b0cd09bb64daf954e06b7a1b617375a0",
+          "bytes": 187430,
+          "cues": 1762,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/yoru-wa-mijikashi-arukeyo-otome/ep_01.kk.srt",
+          "sha256": "630f52b04f34c9967db9a40fe742d6bea9b925d7b6de60c8ecd312c1efb5f3b2",
+          "bytes": 159962,
+          "cues": 1742,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/yoru-wa-mijikashi-arukeyo-otome/ep_01.kk.vtt",
+          "sha256": "eddeddcf23c0b013819bebf31ff7676359abe570f90b97efcde69c20176292e1",
+          "bytes": 159970,
+          "cues": 1742,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/yoru-wa-mijikashi-arukeyo-otome.json"
 }

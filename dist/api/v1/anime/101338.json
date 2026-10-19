@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Mob Psycho 100 II",
     "english": "Mob Psycho 100 II",
-    "native": "モブサイコ100 II"
+    "native": "モブサイコ100 II",
+    "kazakh": "Моб Психо 100 II",
+    "kk": "Моб Психо 100 II"
   },
   "format": "TV",
   "episodes": 13,
@@ -17,22 +19,59 @@
     "Slice of Life",
     "Supernatural"
   ],
-  "description": "Kageyama is an ordinary 8th grader who just wants to live a normal life. Although he can disappear in the crowd in a flash, he was actually the most powerful psychic. The lives of those around Mob and his numerous feelings that softly piles up for the eventual explosion. The mysterious group \"Claw\" stands before him once again. In the midst of his youthful days, where will his roaring heart take him!?\n<br><br>\n(Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101338-rokVscjRYzdP.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101338-Rl54Qhx71dUq.jpg",
+  "description": "Kageyama is an ordinary 8th grader who just wants to live a normal life. Although he can disappear in the crowd in a flash, he was actually the most powerful psychic. The lives of those around Mob and his numerous feelings that softly piles up for the eventual explosion. The mysterious group \"Claw\" stands before him once again. In the midst of his youthful days, where will his roaring heart take him!?\n\n(Source: Crunchyroll)",
+  "averageScore": 79,
+  "popularity": 61484,
+  "color": "#50e4f1",
+  "duration": 24,
+  "studio": "bones",
+  "catalog_id": "mob-psycho-100-s2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     100
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 100,
       "language": "kk",
-      "filename": "mob-psycho-100-s2-100ep.srt",
+      "filename": "ep_100.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mob-psycho-100-s2/mob-psycho-100-s2-100ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mob-psycho-100-s2/mob-psycho-100-s2-100ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mob-psycho-100-s2/mob-psycho-100-s2-100ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mob-psycho-100-s2/ep_100.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mob-psycho-100-s2/ep_100.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mob-psycho-100-s2/ep_100.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mob-psycho-100-s2/ep_100.kk.srt",
+          "sha256": "5cd859e5d65ef0a3c9e451980c4d5e3dfb042f599ad133e3b5dc227224bbc195",
+          "bytes": 36875,
+          "cues": 386,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mob-psycho-100-s2/ep_100.kk.vtt",
+          "sha256": "452c6e4ed5dd5830c5df00c90351bb5d846d2bd59672a707a0b87a25e099101e",
+          "bytes": 36972,
+          "cues": 386,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mob-psycho-100-s2/ep_100.kk.ass",
+          "sha256": "bfa03772a2035d04f7739d155aeedff83240dadc34d8bee09a8d4c449c919d14",
+          "bytes": 43490,
+          "cues": 386,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mob-psycho-100-s2.json"
 }

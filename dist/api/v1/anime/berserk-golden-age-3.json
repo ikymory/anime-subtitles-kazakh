@@ -19,28 +19,59 @@
     "Horror",
     "Supernatural"
   ],
-  "description": "One year has passed since Guts left the Band of the Hawk and Griffith was imprisoned by the Kingdom of Midland for treason.<br><br>\nIn the dead of night, at a camping site where they hide, the Band of the Hawk is attacked by Bakiraka assassins led by Silat. When all seems lost, Guts returns from his journey. \"You destroyed everything.\" Crying that Griffith is nothing without Guts, Casca and Guts are joined together body and soul. Griffith is imprisoned in the oldest building in Wyndham Catle, the Tower of Rebirth.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b12115-pslMEaGV6gpf.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12115-xKymFRGu8FmD.png",
+  "description": "One year has passed since Guts left the Band of the Hawk and Griffith was imprisoned by the Kingdom of Midland for treason.<br><br>\nIn the dead of night, at a camping site where they hide, the Band of the Hawk is attacked by Bakiraka assassins led by Silat. When all seems lost, Guts returns from his journey. \"You destroyed everything.\" Crying that Griffith is nothing without Guts, Casca and Guts are joined together body and soul. Griffith is imprisoned in the oldest building in Wyndham Catle, the Tower of Rebirth.",
   "averageScore": 79,
   "popularity": 52014,
+  "color": "#f15d50",
+  "duration": 110,
+  "studio": "Studio 4°C",
+  "catalog_id": "berserk-golden-age-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "berserk-golden-age-3-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/berserk-golden-age-3/berserk-golden-age-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/berserk-golden-age-3/berserk-golden-age-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/berserk-golden-age-3/berserk-golden-age-3-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/berserk-golden-age-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/berserk-golden-age-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/berserk-golden-age-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/berserk-golden-age-3/ep_01.kk.srt",
+          "sha256": "a166cd5dc9bed83c4930140b9aee102b28d0434dc4d3e6517632e7b156bae46a",
+          "bytes": 126417,
+          "cues": 1505,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/berserk-golden-age-3/ep_01.kk.vtt",
+          "sha256": "19ca81ea93b49ea061c2bb670634d40f159ffe4241ec256f8280b3a1cb0f1c66",
+          "bytes": 126514,
+          "cues": 1505,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/berserk-golden-age-3/ep_01.kk.ass",
+          "sha256": "a411abc904c2d6ae139b128626140de9ea1b7ce7fbe787c6a8f6959c51dc6c76",
+          "bytes": 151751,
+          "cues": 1505,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#f15d50",
-  "studio": "Studio 4°C",
-  "duration": 110,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/berserk-golden-age-3.json"
 }

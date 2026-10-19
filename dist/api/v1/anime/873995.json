@@ -3,30 +3,68 @@
   "slug": "when-marnie-was-there",
   "title": {
     "romaji": "When Marnie Was There",
-    "english": "When Marnie Was There"
+    "english": "When Marnie Was There",
+    "kazakh": "Марни осында болғанда",
+    "kk": "Марни осында болғанда"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2014,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20555-QGbWQC3Kfpok.jpg",
+  "averageScore": 84,
+  "popularity": 72745,
+  "color": "hsl(252, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20555-pJTKZKw8vDe8.jpg",
+  "catalog_id": "when-marnie-was-there",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "when-marnie-was-there-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/when-marnie-was-there/when-marnie-was-there-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/when-marnie-was-there/when-marnie-was-there-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/when-marnie-was-there/when-marnie-was-there-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/when-marnie-was-there/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/when-marnie-was-there/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/when-marnie-was-there/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/when-marnie-was-there/ep_01.kk.srt",
+          "sha256": "0e17a4e53de9b6d5a926ed962a7d4b267559031faba43152c49153f559527536",
+          "bytes": 107215,
+          "cues": 1276,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/when-marnie-was-there/ep_01.kk.vtt",
+          "sha256": "2c2af3b2e0746d37f4b41355f19670a7b712ee086f37edcb419ecb811424d8ea",
+          "bytes": 107312,
+          "cues": 1276,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/when-marnie-was-there/ep_01.kk.ass",
+          "sha256": "083d6a68c8e7be33dfb28d723392a2063bcce08ea2b17b2ed64fc630faeaa807",
+          "bytes": 126907,
+          "cues": 1276,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/when-marnie-was-there.json"
 }

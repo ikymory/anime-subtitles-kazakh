@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Gensou Maden Saiyuuki. Requiem - Erabarezaru Mono e no Chinkonka - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka.jpg",
+  "description": "Gensou Maden Saiyuuki. Requiem - Erabarezaru Mono e no Chinkonka - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/ep_01.kk.srt",
+          "sha256": "24ac227865b9a3c8c03aad7ee1f7cb65177fb8fe8190ccc2791763dd3ba30713",
+          "bytes": 111204,
+          "cues": 1422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/ep_01.kk.vtt",
+          "sha256": "afa602b1b2b1f2263859216988ac6565765a1c3d73db7c9ae71127b2ab3063b7",
+          "bytes": 111301,
+          "cues": 1422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka/ep_01.kk.ass",
+          "sha256": "f0601a9a9f41e30132915d1f4b842cdff700d1bf9cca65f68de7623b4d31aa81",
+          "bytes": 132989,
+          "cues": 1422,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gensou-maden-saiyuuki-requiem-erabarezaru-mono-e-no-chinkonka.json"
 }

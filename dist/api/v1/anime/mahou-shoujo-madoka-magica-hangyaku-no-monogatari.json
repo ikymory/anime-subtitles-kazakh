@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Mahou Shoujo Madoka☆Magica. Hangyaku no Monogatari - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahou-shoujo-madoka-magica-hangyaku-no-monogatari.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahou-shoujo-madoka-magica-hangyaku-no-monogatari.jpg",
+  "description": "Mahou Shoujo Madoka☆Magica. Hangyaku no Monogatari - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "mahou-shoujo-madoka-magica-hangyaku-no-monogatari",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mahou-shoujo-madoka-magica-hangyaku-no-monogatari-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/mahou-shoujo-madoka-magica-hangyaku-no-monogatari-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/mahou-shoujo-madoka-magica-hangyaku-no-monogatari-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/mahou-shoujo-madoka-magica-hangyaku-no-monogatari-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/ep_01.kk.srt",
+          "sha256": "1d63089abe6bd3b20b2ccf6dcde26f52a26ce23b5e5ad9a91e1437c034d32358",
+          "bytes": 126719,
+          "cues": 1533,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/ep_01.kk.vtt",
+          "sha256": "72d98a49b35e7bbf83257e25cec8f3d6d87b0bf9adc2cb0c5255ae2586d1e4c9",
+          "bytes": 126816,
+          "cues": 1533,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-hangyaku-no-monogatari/ep_01.kk.ass",
+          "sha256": "7a623751a4221b2c9b053a0abd659be109c395e6a2921404b1793fb778b695d1",
+          "bytes": 150239,
+          "cues": 1533,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mahou-shoujo-madoka-magica-hangyaku-no-monogatari.json"
 }

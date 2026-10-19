@@ -16,24 +16,56 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Ghost in the Shell: Arise - Border:2 Ghost Whispers - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ghost-in-the-shell-arise-border-2.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ghost-in-the-shell-arise-border-2.jpg",
+  "description": "Ghost in the Shell: Arise - Border:2 Ghost Whispers - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "ghost-in-the-shell-arise-border-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ghost-in-the-shell-arise-border-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-2/ghost-in-the-shell-arise-border-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-2/ghost-in-the-shell-arise-border-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-2/ghost-in-the-shell-arise-border-2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-2/ep_01.kk.srt",
+          "sha256": "b7c6e47707e308ac814ee9633916778e32d24b618bbdcbc50fcd65a472dda27d",
+          "bytes": 72455,
+          "cues": 802,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-2/ep_01.kk.vtt",
+          "sha256": "8f50c6aa1fdf5eedc4d820cdd3346fc60ef7c693108ff64e8c90ac74b70000c5",
+          "bytes": 72552,
+          "cues": 802,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-2/ep_01.kk.ass",
+          "sha256": "0665b93896eae7569e7c56439c157dd15b5488a416799f23d786025556329dea",
+          "bytes": 85544,
+          "cues": 802,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-arise-border-2.json"
 }

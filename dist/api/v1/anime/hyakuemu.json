@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Hyakuemu - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hyakuemu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hyakuemu.jpg",
+  "description": "Hyakuemu - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hyakuemu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hyakuemu-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hyakuemu/hyakuemu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hyakuemu/hyakuemu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hyakuemu/hyakuemu-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hyakuemu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hyakuemu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hyakuemu/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hyakuemu/ep_01.kk.srt",
+          "sha256": "ccfde2fe794464e68783419c058d4c95c860ae6c8fc628118a6b2926ed730a88",
+          "bytes": 146099,
+          "cues": 1681,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hyakuemu/ep_01.kk.vtt",
+          "sha256": "ce90f49cc5809f1de63fe2a12dd15b8e784d42ad8cbafa39ccb67f23d2b9f272",
+          "bytes": 146196,
+          "cues": 1681,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hyakuemu/ep_01.kk.ass",
+          "sha256": "4ef3208a194a514333a3f0bfb1358476dc6519b3960156db4d24f6c11283da42",
+          "bytes": 171510,
+          "cues": 1681,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hyakuemu.json"
 }

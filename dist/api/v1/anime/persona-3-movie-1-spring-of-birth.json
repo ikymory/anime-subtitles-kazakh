@@ -16,24 +16,56 @@
     "Fantasy",
     "Supernatural"
   ],
-  "description": "Persona 3 the Movie: #1 Spring of Birth - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/persona-3-movie-1-spring-of-birth.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/persona-3-movie-1-spring-of-birth.jpg",
+  "description": "Persona 3 the Movie: #1 Spring of Birth - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "persona-3-movie-1-spring-of-birth",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "persona-3-movie-1-spring-of-birth-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/persona-3-movie-1-spring-of-birth/persona-3-movie-1-spring-of-birth-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/persona-3-movie-1-spring-of-birth/persona-3-movie-1-spring-of-birth-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/persona-3-movie-1-spring-of-birth/persona-3-movie-1-spring-of-birth-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/persona-3-movie-1-spring-of-birth/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/persona-3-movie-1-spring-of-birth/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/persona-3-movie-1-spring-of-birth/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/persona-3-movie-1-spring-of-birth/ep_01.kk.ass",
+          "sha256": "62343df14598d0b416983295b673e5662ce561b8fbb1a3e315d4209b98b1cae9",
+          "bytes": 131690,
+          "cues": 1302,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/persona-3-movie-1-spring-of-birth/ep_01.kk.srt",
+          "sha256": "e59fca2c9f8e94d66d14e1388b8ed573cc1c26ca800cebdfce4a33942a3656b8",
+          "bytes": 111255,
+          "cues": 1298,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/persona-3-movie-1-spring-of-birth/ep_01.kk.vtt",
+          "sha256": "81dc7a9b5984013336c81be13cfad1e5e80536730e7178c10ebc73cbb46e2fc0",
+          "bytes": 111263,
+          "cues": 1298,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/persona-3-movie-1-spring-of-birth.json"
 }

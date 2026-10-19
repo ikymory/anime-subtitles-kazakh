@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174788-9LsUnn0oEppv.jpg",
+  "averageScore": 87,
+  "popularity": 54338,
+  "color": "hsl(89, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/174788-0ZM9g7npJH8X.jpg",
+  "catalog_id": "look-back",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "look-back-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/look-back/look-back-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/look-back/look-back-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/look-back/look-back-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/look-back/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/look-back/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/look-back/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/look-back/ep_01.kk.srt",
+          "sha256": "839e5d60b10edb9cc132e75b40fc0bb6ea5bc93c42d3a4d89e8a0d2c69110255",
+          "bytes": 38529,
+          "cues": 454,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/look-back/ep_01.kk.vtt",
+          "sha256": "b38a5862a149164e233f7f38b5d6accbb69bf3025805946166f4a194c10b5e76",
+          "bytes": 38626,
+          "cues": 454,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/look-back/ep_01.kk.ass",
+          "sha256": "606b5b5f72bdb64795b90952fe39f52d80e068272da7eb0773ca09a3416007d3",
+          "bytes": 46156,
+          "cues": 454,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(89, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 54338,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/look-back.json"
 }

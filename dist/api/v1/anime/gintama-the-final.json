@@ -17,28 +17,59 @@
     "Drama",
     "Sci-Fi"
   ],
-  "description": "Two years have passed following the Tendoshuu's invasion of the O-Edo Central Terminal. Since then, the Yorozuya have gone their separate ways. Foreseeing Utsuro's return, Gintoki Sakata begins surveying Earth's ley lines for traces of the other man's Altana. After an encounter with the remnants of the Tendoshuu—who continue to press on in search of immortality—Gintoki returns to Edo.\n<br><br>\nLater, the regrouped Shinsengumi and Yorozuya begin an attack on the occupied Central Terminal. With the Altana harvested by the wreckage of the Tendoshuu's ship in danger of detonating, the Yorozuya and their allies fight their enemies while the safety of Edo—and the rest of the world—hangs in the balance. Fulfilling the wishes of their teacher, Shouyou Yoshida's former students unite and relive their pasts one final time in an attempt to save their futures.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114129-RLgSuh6YbeYx.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114129-ZsLDkdwaYeJY.jpg",
+  "description": "Two years have passed following the Tendoshuu's invasion of the O-Edo Central Terminal. Since then, the Yorozuya have gone their separate ways. Foreseeing Utsuro's return, Gintoki Sakata begins surveying Earth's ley lines for traces of the other man's Altana. After an encounter with the remnants of the Tendoshuu—who continue to press on in search of immortality—Gintoki returns to Edo.\n<br><br>\nLater, the regrouped Shinsengumi and Yorozuya begin an attack on the occupied Central Terminal. With the Altana harvested by the wreckage of the Tendoshuu's ship in danger of detonating, the Yorozuya and their allies fight their enemies while the safety of Edo—and the rest of the world—hangs in the balance. Fulfilling the wishes of their teacher, Shouyou Yoshida's former students unite and relive their pasts one final time in an attempt to save their futures.",
   "averageScore": 91,
   "popularity": 55844,
+  "color": "#e48643",
+  "duration": 104,
+  "studio": "Bandai Namco Pictures",
+  "catalog_id": "gintama-the-final",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gintama-the-final-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-the-final/gintama-the-final-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-the-final/gintama-the-final-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-the-final/gintama-the-final-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-the-final/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-the-final/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-the-final/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-the-final/ep_01.kk.srt",
+          "sha256": "fe09ec4e7423cebe6bc7ba426794885662f463ad27194340d50bb7ee0a295682",
+          "bytes": 130625,
+          "cues": 1453,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-the-final/ep_01.kk.vtt",
+          "sha256": "05f60537c5e0758e2745c49fa3b6ed55b1898b18552ebfb3a928d24a30994f64",
+          "bytes": 130722,
+          "cues": 1453,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-the-final/ep_01.kk.ass",
+          "sha256": "7010ac3a492867317bc4b0985f843c4fc640343a87f60e9e42e564cfcd29c46e",
+          "bytes": 153025,
+          "cues": 1453,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e48643",
-  "studio": "Bandai Namco Pictures",
-  "duration": 104,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-the-final.json"
 }

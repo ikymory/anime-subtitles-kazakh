@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21296-WtdIXdg64GCK.jpg",
+  "averageScore": 81,
+  "popularity": 52120,
+  "color": "hsl(105, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21296-1tLF48awXvQw.png",
+  "catalog_id": "zutto-mae-kara-suki-deshita",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "zutto-mae-kara-suki-deshita-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/zutto-mae-kara-suki-deshita/zutto-mae-kara-suki-deshita-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/zutto-mae-kara-suki-deshita/zutto-mae-kara-suki-deshita-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/zutto-mae-kara-suki-deshita/zutto-mae-kara-suki-deshita-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/zutto-mae-kara-suki-deshita/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/zutto-mae-kara-suki-deshita/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/zutto-mae-kara-suki-deshita/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/zutto-mae-kara-suki-deshita/ep_01.kk.srt",
+          "sha256": "0593fea5a9ddcce5f86df32af9a5c6a5fc67a02f0df40fbae604fa13fca36bde",
+          "bytes": 74483,
+          "cues": 872,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/zutto-mae-kara-suki-deshita/ep_01.kk.vtt",
+          "sha256": "0bb307783766b2923416c8a16b30d75ff83ef32470c0fef71bf41547dd375d5f",
+          "bytes": 74580,
+          "cues": 872,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/zutto-mae-kara-suki-deshita/ep_01.kk.ass",
+          "sha256": "aebecb5367b4164369c17b024e3605ac650074d2a09b8ed0d3b3ca766df23aa2",
+          "bytes": 88398,
+          "cues": 872,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(105, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 81,
-  "popularity": 52120,
-  "translated_episodes_count": 1
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/zutto-mae-kara-suki-deshita.json"
 }

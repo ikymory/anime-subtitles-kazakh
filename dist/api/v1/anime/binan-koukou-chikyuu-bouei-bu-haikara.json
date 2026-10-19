@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Binan Koukou Chikyuu Bouei-bu Haikara! - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/binan-koukou-chikyuu-bouei-bu-haikara.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/binan-koukou-chikyuu-bouei-bu-haikara.jpg",
+  "description": "Binan Koukou Chikyuu Bouei-bu Haikara! - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "binan-koukou-chikyuu-bouei-bu-haikara",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +40,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_01.kk.srt",
+          "sha256": "7a0a624cb0f2e72e70c342e94aaa7a592487cddcc0f5a3d0fa68607062081ac7",
+          "bytes": 38342,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_01.kk.vtt",
+          "sha256": "be0eecef11abdfd030a418f91b4d292de2af6748d542efd59e1cc8a101565c57",
+          "bytes": 38439,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_01.kk.ass",
+          "sha256": "0bbdb1dc821988220cf5f1f5cf2d1bbd8a4c50c89f46f030a94ea77b13631bca",
+          "bytes": 45205,
+          "cues": 399,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_02.kk.srt",
+          "sha256": "dbe1395585d487c63a38dad86d9de7567d0850d2b3e8135e67e7c0b4c6929010",
+          "bytes": 40283,
+          "cues": 397,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_02.kk.vtt",
+          "sha256": "c4fc5b4638831b008a7b478777da259f154e49b3fb6bde4b6047e30bb3888e68",
+          "bytes": 40380,
+          "cues": 397,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_02.kk.ass",
+          "sha256": "37b82dae19768852dfa6fd5dc70c3b7979e3cd746d6acf47fb8b361fc5ec9032",
+          "bytes": 47116,
+          "cues": 397,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_03.kk.srt",
+          "sha256": "a64d22f7f431d52d972b3f79d33cc6c1ceab2b0ad8be21bfef86bbcb6525c97f",
+          "bytes": 38911,
+          "cues": 388,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_03.kk.vtt",
+          "sha256": "a88f889f8143907cc88c82e660491aa52094d042ac8a834b461a27712cfbb09a",
+          "bytes": 39008,
+          "cues": 388,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_03.kk.ass",
+          "sha256": "1007c94df8b9d5b0d236fa73b5f9c39c7559de85ebdb7a43d385173695a4aebb",
+          "bytes": 45609,
+          "cues": 388,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_04.kk.srt",
+          "sha256": "bb28ef961207f79cba487ecaff135719f0cd6a9c945827d8c6d5ad7ed36dd9a0",
+          "bytes": 34313,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_04.kk.vtt",
+          "sha256": "87f19522936ee980e051f9feb35394a1784a1b4a835c1b9c57e4233bfad36186",
+          "bytes": 34410,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_04.kk.ass",
+          "sha256": "f70c61b3ee97d901ea3b2883d9ac7ebd80a450fc09609ef9d25b6e03c8b36ade",
+          "bytes": 40771,
+          "cues": 372,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_05.kk.srt",
+          "sha256": "bdd8b69aa6683282e9e25ca28c2129fbc9bd1381fef473704fb4dae370024b8b",
+          "bytes": 31409,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_05.kk.vtt",
+          "sha256": "37caa00003033e7c0ca38c85c286e352d966fc6d1d22cabdef0428b69d4b6ed6",
+          "bytes": 31506,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_05.kk.ass",
+          "sha256": "481e49518a8597f89fb3ff802f6a850eb0ccdd3395b31b291936d1eccc7ac566",
+          "bytes": 37162,
+          "cues": 325,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_06.kk.srt",
+          "sha256": "1bfffb42766c31e6951b62e55e2205c915c7c9f45b13ed2fecf71425324adb78",
+          "bytes": 35008,
+          "cues": 376,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_06.kk.vtt",
+          "sha256": "96fef9bd9192519d2d12c9bce37a7f36d38c382cab8096f3fd43cb56b8789944",
+          "bytes": 35105,
+          "cues": 376,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_06.kk.ass",
+          "sha256": "b29fc5eafe410333b51362be8bda025fc425dbc26ddf9d40da77abb69e52e3d8",
+          "bytes": 41526,
+          "cues": 376,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_07.kk.srt",
+          "sha256": "4120db116d8673c8ce16982a1c17cfff2d444e6fc2002f6d091c3e28a69e8c59",
+          "bytes": 31848,
+          "cues": 344,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_07.kk.vtt",
+          "sha256": "c7d6fa033a77f7a40782c084f2507fa1081417500d2bc10a44012331e044729e",
+          "bytes": 31945,
+          "cues": 344,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_07.kk.ass",
+          "sha256": "8434bd600ea27005e406bb70f4f5c05593fe442cb17e9789bec4720dcaf31a45",
+          "bytes": 37886,
+          "cues": 344,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_08.kk.srt",
+          "sha256": "0441af1b2efa21741627dde57f114b4112df4b6c8dcd20a502494759fd48cc37",
+          "bytes": 36139,
+          "cues": 378,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_08.kk.vtt",
+          "sha256": "665327820f2450bf4e8ab72a4c848189c60fdcc1f11898d09bcbe4befc11355d",
+          "bytes": 36236,
+          "cues": 378,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_08.kk.ass",
+          "sha256": "d2b40626eae2f7180ada91839c4d40a98492b1e6cb857adc47f4968323df23b6",
+          "bytes": 42687,
+          "cues": 378,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_09.kk.srt",
+          "sha256": "8e8c09f31ad46e085df646a7bec700b130141fde5df690ce3200ace5cfaa3105",
+          "bytes": 38720,
+          "cues": 398,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_09.kk.vtt",
+          "sha256": "f632ea6cede036f3d263b2d0a82786220e824df5333995414d0eea3d4d9b3e9d",
+          "bytes": 38817,
+          "cues": 398,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_09.kk.ass",
+          "sha256": "8f8079daaed7a60edf8ca242bd6a61feaa58f74aad79dd313b4c7efdec8cbf14",
+          "bytes": 45568,
+          "cues": 398,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_10.kk.srt",
+          "sha256": "83f84a2615ff7361ef527dec268f0b4abb4e0fbd3f4bccc67e5c0096ca6f6b39",
+          "bytes": 32712,
+          "cues": 351,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_10.kk.vtt",
+          "sha256": "ba9f139212a8e843afb854e6db5c75fc3a9a88a361c071ff30dcc585e1bad898",
+          "bytes": 32809,
+          "cues": 351,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_10.kk.ass",
+          "sha256": "b69a014d422f8fe267d4533d9554504cdbf23028fcf08995e50c0dd025f892cf",
+          "bytes": 38855,
+          "cues": 351,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_11.kk.srt",
+          "sha256": "d50a0ae258f4c01460549de45d4131065404c78c47a39ded12ca2225f72c3d19",
+          "bytes": 35360,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_11.kk.vtt",
+          "sha256": "0d2e96bfd82fe3dc0856a622a6ce2ba1f0a145ed0281239be1598814b3d16607",
+          "bytes": 35457,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_11.kk.ass",
+          "sha256": "2b0301024933b3df57785a4b3336d102f4957236f1ce67c71099b92d1640b13a",
+          "bytes": 41923,
+          "cues": 379,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "binan-koukou-chikyuu-bouei-bu-haikara-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/binan-koukou-chikyuu-bouei-bu-haikara-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_12.kk.srt",
+          "sha256": "1a0cd185f2debadb9eb4e2fc0ebbc7b4435286dd5795c169afb6dd8aad4a1e6a",
+          "bytes": 39779,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_12.kk.vtt",
+          "sha256": "10d704c2cb1144b739e1dde8b28ca59b7a9c9242fa44f3c4cef74cf7bd5d33d0",
+          "bytes": 39876,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binan-koukou-chikyuu-bouei-bu-haikara/ep_12.kk.ass",
+          "sha256": "94aa417a5c1f3cb5140702011543acca948db59a2f7fc160c682015a1d54674d",
+          "bytes": 46657,
+          "cues": 400,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/binan-koukou-chikyuu-bouei-bu-haikara.json"
 }

@@ -15,28 +15,59 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for New Initial D Movie: Legend 2 - Racer.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20990-zjBrKc3r0mqO.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20990-zCw9iYm2vOf9.jpg",
+  "description": "Kazakh subtitles for New Initial D Movie: Legend 2 - Racer.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "initial-d-legend-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "initial-d-legend-2-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-legend-2/initial-d-legend-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-legend-2/initial-d-legend-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-legend-2/initial-d-legend-2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-legend-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-legend-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-legend-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/initial-d-legend-2/ep_01.kk.ass",
+          "sha256": "e13f3da7a9c043a0d3bbb22279e1d65675dd701ef306ae5089998423d74c5c95",
+          "bytes": 103784,
+          "cues": 874,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/initial-d-legend-2/ep_01.kk.srt",
+          "sha256": "4d43d4dc5c8534a2370937fe324f79c57d506cd3fe5cc33e01c37b58d90d3eb1",
+          "bytes": 89579,
+          "cues": 873,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/initial-d-legend-2/ep_01.kk.vtt",
+          "sha256": "70a5d37c41e6f853c8ee3499b44280b6ad88165219d0b143aab6306f69c2b9cf",
+          "bytes": 89587,
+          "cues": 873,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/initial-d-legend-2.json"
 }

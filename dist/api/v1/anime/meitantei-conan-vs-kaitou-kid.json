@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Meitantei Conan vs Kaitou Kid - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-vs-kaitou-kid.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-vs-kaitou-kid.jpg",
+  "description": "Meitantei Conan vs Kaitou Kid - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "meitantei-conan-vs-kaitou-kid",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "meitantei-conan-vs-kaitou-kid-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-vs-kaitou-kid/meitantei-conan-vs-kaitou-kid-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-vs-kaitou-kid/meitantei-conan-vs-kaitou-kid-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-vs-kaitou-kid/meitantei-conan-vs-kaitou-kid-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-vs-kaitou-kid/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-vs-kaitou-kid/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-vs-kaitou-kid/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/meitantei-conan-vs-kaitou-kid/ep_01.kk.srt",
+          "sha256": "89d376ca5bd00d3b59eeb88fee0090b5338beb54cf610804f273ceab4174db02",
+          "bytes": 140775,
+          "cues": 1483,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/meitantei-conan-vs-kaitou-kid/ep_01.kk.vtt",
+          "sha256": "30750323e6dafe670702e37e486833d830678aa9ec8755810d31262b28fe9c0c",
+          "bytes": 140872,
+          "cues": 1483,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/meitantei-conan-vs-kaitou-kid/ep_01.kk.ass",
+          "sha256": "b768e4f8bd6f551159332c8fcd4a8ca254093077854601fb11cb4df84596c3a0",
+          "bytes": 163595,
+          "cues": 1483,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-vs-kaitou-kid.json"
 }

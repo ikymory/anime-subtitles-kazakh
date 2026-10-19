@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Meitantei Conan. Halloween no Hanayome - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-halloween-no-hanayome.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-halloween-no-hanayome.jpg",
+  "description": "Meitantei Conan. Halloween no Hanayome - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "meitantei-conan-halloween-no-hanayome",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "meitantei-conan-halloween-no-hanayome-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-halloween-no-hanayome/meitantei-conan-halloween-no-hanayome-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-halloween-no-hanayome/meitantei-conan-halloween-no-hanayome-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-halloween-no-hanayome/meitantei-conan-halloween-no-hanayome-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-halloween-no-hanayome/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-halloween-no-hanayome/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-halloween-no-hanayome/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/meitantei-conan-halloween-no-hanayome/ep_01.kk.srt",
+          "sha256": "17079975fea8c5dcf69dae1d27580c5a93371b8ef951b1358e78e06cb67fcf0e",
+          "bytes": 208197,
+          "cues": 2327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/meitantei-conan-halloween-no-hanayome/ep_01.kk.vtt",
+          "sha256": "3ab49e7a4783f5fcfc002a0769656ce094e3580f785ee5f7e1c07cdf467914fb",
+          "bytes": 208294,
+          "cues": 2327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/meitantei-conan-halloween-no-hanayome/ep_01.kk.ass",
+          "sha256": "4bd259335c372d90eccd9b2d13b222a79dee3f3502d4ed669122c9c932d8d01e",
+          "bytes": 242833,
+          "cues": 2327,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-halloween-no-hanayome.json"
 }

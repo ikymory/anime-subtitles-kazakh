@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Koukyoushihen Eureka Seven Hi-Evolution 1 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/koukyoushihen-eureka-seven-hi-evolution-1.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/koukyoushihen-eureka-seven-hi-evolution-1.jpg",
+  "description": "Koukyoushihen Eureka Seven Hi-Evolution 1 - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "koukyoushihen-eureka-seven-hi-evolution-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "koukyoushihen-eureka-seven-hi-evolution-1-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/koukyoushihen-eureka-seven-hi-evolution-1/koukyoushihen-eureka-seven-hi-evolution-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/koukyoushihen-eureka-seven-hi-evolution-1/koukyoushihen-eureka-seven-hi-evolution-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/koukyoushihen-eureka-seven-hi-evolution-1/koukyoushihen-eureka-seven-hi-evolution-1-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/koukyoushihen-eureka-seven-hi-evolution-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/koukyoushihen-eureka-seven-hi-evolution-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/koukyoushihen-eureka-seven-hi-evolution-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/koukyoushihen-eureka-seven-hi-evolution-1/ep_01.kk.srt",
+          "sha256": "2a055c78f91e514af58f25fc27f587ded803779c455fcf831dc23750767f2806",
+          "bytes": 123354,
+          "cues": 1450,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/koukyoushihen-eureka-seven-hi-evolution-1/ep_01.kk.vtt",
+          "sha256": "0e2fcacbcef31fbd1de8f0448323bf4044fdf040bdc9c7f39973bb6cd31c7ea7",
+          "bytes": 123451,
+          "cues": 1450,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/koukyoushihen-eureka-seven-hi-evolution-1/ep_01.kk.ass",
+          "sha256": "db440c0e824582a24467c7023ac43cdff6e5edca5f6c0f5c98f9b1f2f833c55d",
+          "bytes": 145713,
+          "cues": 1450,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/koukyoushihen-eureka-seven-hi-evolution-1.json"
 }

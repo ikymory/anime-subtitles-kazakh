@@ -15,24 +15,56 @@
     "Adventure",
     "Sci-Fi"
   ],
-  "description": "Doraemon: Nobita's Chronicle of the Moon Exploration - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-getsumen-tansa-ki.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-getsumen-tansa-ki.jpg",
+  "description": "Doraemon: Nobita's Chronicle of the Moon Exploration - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "doraemon-getsumen-tansa-ki",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-getsumen-tansa-ki-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-getsumen-tansa-ki/doraemon-getsumen-tansa-ki-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-getsumen-tansa-ki/doraemon-getsumen-tansa-ki-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-getsumen-tansa-ki/doraemon-getsumen-tansa-ki-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-getsumen-tansa-ki/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-getsumen-tansa-ki/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-getsumen-tansa-ki/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-getsumen-tansa-ki/ep_01.kk.srt",
+          "sha256": "63bdcc91345971c28e672a825c1b88ffdae5e8cd17e37a4a351b60269a944676",
+          "bytes": 151584,
+          "cues": 1993,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-getsumen-tansa-ki/ep_01.kk.vtt",
+          "sha256": "b36446343a45cd54fab9875cca504681836cd6aa55f7112314362545b14527bd",
+          "bytes": 151681,
+          "cues": 1993,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-getsumen-tansa-ki/ep_01.kk.ass",
+          "sha256": "d62566aac6c6a6a8dd5771d4388c7a62b90426ed64957e282a11a8f62c34ff47",
+          "bytes": 181544,
+          "cues": 1993,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-getsumen-tansa-ki.json"
 }

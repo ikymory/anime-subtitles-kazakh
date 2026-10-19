@@ -3,17 +3,28 @@
   "slug": "jojo",
   "title": {
     "romaji": "Jojo",
-    "english": "Jojo"
+    "english": "Jojo",
+    "kazakh": "ДжоДжоның таңғажайып оқиғалары",
+    "kk": "ДжоДжоның таңғажайып оқиғалары"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MUSIC",
+  "episodes": 26,
+  "seasonYear": 2012,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b176144-VV2bl7Wvp88k.png",
+  "averageScore": 87,
+  "popularity": 51090,
+  "color": "hsl(338, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14719-m7Hv2AxcNNjM.jpg",
+  "catalog_id": "jojo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -42,266 +53,868 @@
     25,
     26
   ],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "jojo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_01.kk.srt",
+          "sha256": "03ec0d5ae2fe1775ab022fca6b5fc2117f8593a8957ac5b3cf9f99159c4828e4",
+          "bytes": 475499,
+          "cues": 4646,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_01.kk.vtt",
+          "sha256": "4c942ef71bac400b9d0eaa6091b286b6415c4b17aabd778b2dfd854837a75a74",
+          "bytes": 475596,
+          "cues": 4646,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_01.kk.ass",
+          "sha256": "74525d7718a2efb8a8ef172443775e33d8cbc48ca3e76eed99465ff58a46e132",
+          "bytes": 542354,
+          "cues": 4646,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "jojo-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_02.kk.srt",
+          "sha256": "caacb4ad45211c4226b9254673db46ee5024e10e834a4a53345a05e75c967048",
+          "bytes": 33805,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_02.kk.vtt",
+          "sha256": "33af134a51707bbc45853c4a6949d8e6ff2fa231671399e1019bed2394bdbdd3",
+          "bytes": 33902,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_02.kk.ass",
+          "sha256": "4905fbbf79c117d09b30056a98f709a38d638e595d2913fad3ec9bc811b54cbf",
+          "bytes": 40812,
+          "cues": 413,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "jojo-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_03.kk.srt",
+          "sha256": "79c1f94deb99457954bb4f4b32bfcc138a35a39f124350b4d6b3899303078039",
+          "bytes": 38434,
+          "cues": 406,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_03.kk.vtt",
+          "sha256": "984453a2ed4e51fa067e7b02c24a0e4646e0a5b8aebb284eeedadb3fd525458e",
+          "bytes": 38531,
+          "cues": 406,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_03.kk.ass",
+          "sha256": "acb995c0d59c22ad1187c1924bcb25073f3c08341df107ccfb70cd2680f7a705",
+          "bytes": 45336,
+          "cues": 406,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "jojo-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_04.kk.srt",
+          "sha256": "8c7736e784f1a4f2f74c89b9eec4e09ec7f056cad3de5a3be0e9a4de48fc4010",
+          "bytes": 36678,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_04.kk.vtt",
+          "sha256": "30809bd143762bff28ae2d60dc84b148002ea881b57b651b49fd213a968f7799",
+          "bytes": 36775,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_04.kk.ass",
+          "sha256": "bbd68c173b4116ee8ce349b5d18ab2e79473520d49ebd80aa20014a65402beab",
+          "bytes": 43925,
+          "cues": 429,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "jojo-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_05.kk.srt",
+          "sha256": "1b8cd2b050759a68c0bb22614f9829edcb218923d3542a9e4ac5bc7288d8752d",
+          "bytes": 41360,
+          "cues": 440,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_05.kk.vtt",
+          "sha256": "8e3ffb84b64e6941ce0c3beeb31b5b5a2fe65c9761da4d9a2ca9e0124e93d77d",
+          "bytes": 41457,
+          "cues": 440,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_05.kk.ass",
+          "sha256": "641a42111b61afba1d672578f7274c8172d9999f8f8e103aec6758bcbb705f30",
+          "bytes": 48772,
+          "cues": 440,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "jojo-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_06.kk.srt",
+          "sha256": "bc3accd57362c7e920e5811fb739435c5eee4f4db9aaee0529316846d2578ccb",
+          "bytes": 38433,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_06.kk.vtt",
+          "sha256": "0a889f78393058e85acabd9a23d1c7dbe4468bc7590efa46ee117949ac5c18f1",
+          "bytes": 38530,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_06.kk.ass",
+          "sha256": "0c158f8c19952e5afb54b9d2096b1cb75753bdf94b4fc495facbca7fc47adae0",
+          "bytes": 44615,
+          "cues": 358,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "jojo-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_07.kk.srt",
+          "sha256": "ac79e78fd9e7d5b1084a029d4fba1915ca93792e6ce2457e057bb17def5433d9",
+          "bytes": 25050,
+          "cues": 307,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_07.kk.vtt",
+          "sha256": "06db4ca0aa76f73ae67b8703739d105b11248c3f6e1e67294f9775e007482f3b",
+          "bytes": 25147,
+          "cues": 307,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_07.kk.ass",
+          "sha256": "a5119e72e0cdccd1ad07f5f5ff6a89c57e227a7bd80af0cc7cd2f7fda511966f",
+          "bytes": 30467,
+          "cues": 307,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "jojo-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_08.kk.srt",
+          "sha256": "c376580d79ac5c59ae6fd8d452d9be0dee89113445a8b2ddba0e851c15ac998c",
+          "bytes": 34883,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_08.kk.vtt",
+          "sha256": "eab3193d66e4f9263016ab3de2eab68c0b48fb5856179f1fb047e451062f0483",
+          "bytes": 34980,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_08.kk.ass",
+          "sha256": "04f5729af96340cd7a05e0d4f0fb3cd7211c6e891321e5ee3b3f729c147733bd",
+          "bytes": 41620,
+          "cues": 395,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "jojo-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_09.kk.srt",
+          "sha256": "e1a3414bcb645757ecff7589a3e68bfa0ba984b66c30249c6ab021d37fd93838",
+          "bytes": 34492,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_09.kk.vtt",
+          "sha256": "b91c4b6870c9540ba6ab506442f7ad00fa4849be26931690af2e75b25a2ac60b",
+          "bytes": 34589,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_09.kk.ass",
+          "sha256": "b08ee98cba479e6c421013e2297522efbfde2f03f6219d90ca7acc1181ae2e36",
+          "bytes": 41379,
+          "cues": 405,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "jojo-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_10.kk.srt",
+          "sha256": "1822212973ceaa7ea81b74125b2182c7d96299db2d83a954b7ba16e54277041a",
+          "bytes": 43416,
+          "cues": 484,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_10.kk.vtt",
+          "sha256": "ec5842e670b6d7f6ba91ff869892a75cc23d2bfdd0dcf0da57a6863a1b056828",
+          "bytes": 43513,
+          "cues": 484,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_10.kk.ass",
+          "sha256": "ba9d9ff90934d20b7a9407cb7b2689f6d50a83735bd71b58fc5757cdafd295a7",
+          "bytes": 51488,
+          "cues": 484,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "jojo-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_11.kk.srt",
+          "sha256": "3aae6b846f78acea8ce15bdaf29650a963462a1e8ff02afc4754b39635067caf",
+          "bytes": 34636,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_11.kk.vtt",
+          "sha256": "0d27c5188bf43727ddb116b99f2e9d9f3bf97d7df8ea12281fe9ae5cb76c312f",
+          "bytes": 34733,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_11.kk.ass",
+          "sha256": "e517891dd29a9763e2cd748535adfe1a9cea6dd859f3a0b7d8cbade14fd299ea",
+          "bytes": 40953,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "jojo-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_12.kk.srt",
+          "sha256": "185ba6e95e19297915c7772e2dc93578f6e8f4ae37d9c1a19663aa5ad2321136",
+          "bytes": 33157,
+          "cues": 341,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_12.kk.vtt",
+          "sha256": "9d4f47231929bf84139b43c5ac2ca58714e43926e97217862a14a0f011732817",
+          "bytes": 33254,
+          "cues": 341,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_12.kk.ass",
+          "sha256": "b6c65f0c64eaacc2b700489fdb4a09750a85c61618f42f92fa123e0791e4f033",
+          "bytes": 39084,
+          "cues": 341,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "jojo-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_13.kk.srt",
+          "sha256": "c1546bb127d54b14546514b1642a46dd974f28991c6df459d22e6a141dc91553",
+          "bytes": 37802,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_13.kk.vtt",
+          "sha256": "b9bd2c08789c07600ad511466a9781645237f6d78a2677863c2af22479ac2a10",
+          "bytes": 37899,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_13.kk.ass",
+          "sha256": "e967ab44a7b83df0b869d8841378d8d311fae1d9c8a43118e651504e2147a2e4",
+          "bytes": 43999,
+          "cues": 359,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "jojo-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_14.kk.srt",
+          "sha256": "5c72db29eee8238c89347945e774a65d1abab3fb64786eaa8c38bc55ad3e7a29",
+          "bytes": 510206,
+          "cues": 5079,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_14.kk.vtt",
+          "sha256": "cd8ed32077b66ec35f504dd23b5fbf66504c8f4e6d04ad08a7e4ea6b4da7a294",
+          "bytes": 510303,
+          "cues": 5079,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_14.kk.ass",
+          "sha256": "3871883749df0726ec12d6b4cf964ac08df5a50461642e2c217b1079496c08c1",
+          "bytes": 583123,
+          "cues": 5079,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "jojo-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-15ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_15.kk.srt",
+          "sha256": "58c4a8e7880857c8c4573b0c7665521b6963630cf7d6a48f12c77b267e93a336",
+          "bytes": 40780,
+          "cues": 459,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_15.kk.vtt",
+          "sha256": "d292c056760fc0f81de66d68dfc44a55566584c857ea65f51e57d24945e02bed",
+          "bytes": 40877,
+          "cues": 459,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_15.kk.ass",
+          "sha256": "6df2e65277314204f3ae5ceb5e98bdc21607b5012a9084286d383c447e021975",
+          "bytes": 48477,
+          "cues": 459,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "jojo-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-16ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_16.kk.srt",
+          "sha256": "ff7b15ae2658cf5c150a6053cd6fed812041c597adf93fd2a629003790431323",
+          "bytes": 40362,
+          "cues": 469,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_16.kk.vtt",
+          "sha256": "b17ec10ce937c96c9ad414903b68204420f217e6afcb12270e0440a24cc6d634",
+          "bytes": 40459,
+          "cues": 469,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_16.kk.ass",
+          "sha256": "727ab8279e3e96beeea52cf4f5820df5e83710998531f1455c114c109510192d",
+          "bytes": 48209,
+          "cues": 469,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "jojo-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_17.kk.srt",
+          "sha256": "bc5fab19214d50c0dd4373d6fcd0b731e743a6fcaf54f0525d512b98fac9104d",
+          "bytes": 42931,
+          "cues": 402,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_17.kk.vtt",
+          "sha256": "6937eab02c5e7f0e989b7b1fa018abd5d9d669f619065f656257879752b02628",
+          "bytes": 43028,
+          "cues": 402,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_17.kk.ass",
+          "sha256": "1ca8a73bdbdfec1aafb79010525fa3a507b4f1b35fa191b7e0c000b9706c7491",
+          "bytes": 49773,
+          "cues": 402,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "jojo-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-18ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_18.kk.srt",
+          "sha256": "0b200594ab3593b6349712ec9eace9f6f0bc17bac490d6501e2fbf50cb047835",
+          "bytes": 37361,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_18.kk.vtt",
+          "sha256": "77d400e98abfe6ac4b90e7abb8324fbb8c8c8f7ce240fab214879e832a835590",
+          "bytes": 37458,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_18.kk.ass",
+          "sha256": "268910df24cb042fc23239dc043e96943b1bc052b5957bcec71434a416db40cc",
+          "bytes": 44278,
+          "cues": 407,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "jojo-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-19ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_19.kk.srt",
+          "sha256": "0c7e6ab34d77da56582dfea389b6345c652ab9691d84ce530ac909c1b9ee0cad",
+          "bytes": 47682,
+          "cues": 479,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_19.kk.vtt",
+          "sha256": "43fcf4870631c07a46b588fec4622539390ba64fbbc176d52b346d065bf1fb9a",
+          "bytes": 47779,
+          "cues": 479,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_19.kk.ass",
+          "sha256": "1d9c029c7462d776c35baf98ff8351a9c4640c303f0aca771dde25d40724ce59",
+          "bytes": 55679,
+          "cues": 479,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "jojo-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-20ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_20.kk.srt",
+          "sha256": "672da8dba716d750840a2228240a717378e627452f8ff0b9f4dfec05f0cada8e",
+          "bytes": 48298,
+          "cues": 475,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_20.kk.vtt",
+          "sha256": "6982e077b243702a1cc00c9a432bc336118d0e5279f9689902e47b8f932a1386",
+          "bytes": 48395,
+          "cues": 475,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_20.kk.ass",
+          "sha256": "dbc8d9ef2afa7494715363204de04a0a2ac47941e31a2c2695ed3b87e8c84295",
+          "bytes": 56235,
+          "cues": 475,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "jojo-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-21ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_21.kk.srt",
+          "sha256": "2d849bd030d4b47fbf4beb5fbb95f5c151f470c5a0756f345e9d94fa0fe6aa62",
+          "bytes": 40055,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_21.kk.vtt",
+          "sha256": "128df8c11a1e9e82c76849f5a11c0a12744198fcc7fbf6f527df65dd422eebc2",
+          "bytes": 40152,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_21.kk.ass",
+          "sha256": "6731f81c43367e3bdfa387fdb85eb2727e4f5dbedca8d585f14b8790e9edd9e7",
+          "bytes": 46792,
+          "cues": 395,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "jojo-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-22ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_22.kk.srt",
+          "sha256": "174d2592582e4091be3d4a2504f1538300df7cc6b50ee7a6f772c085c8aa8f8e",
+          "bytes": 41989,
+          "cues": 423,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_22.kk.vtt",
+          "sha256": "fffc2b14720790e4992f86d8ee6deba5108e4512c42fe4f3c8564beb2c5371fe",
+          "bytes": 42086,
+          "cues": 423,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_22.kk.ass",
+          "sha256": "d5a0b7cccf9f7918a3325e363fd2c2a2c5c051f40a660e373a2dfe10d37b056e",
+          "bytes": 49146,
+          "cues": 423,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "jojo-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-23ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_23.kk.srt",
+          "sha256": "3816a6f9c6f5e8125840cadff74612aa97c2b221be3f898962996ccab5250f9b",
+          "bytes": 40756,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_23.kk.vtt",
+          "sha256": "daa5df5c42888264a6fa546800ce4242619a9f7d315aabe3d3eba72a86c5a8b9",
+          "bytes": 40853,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_23.kk.ass",
+          "sha256": "3b5baf18389db56e7d6786310d6b7cc4e8cdd3e5c2baa63b48171b9ee0e2ea21",
+          "bytes": 47253,
+          "cues": 379,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "jojo-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-24ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_24.kk.srt",
+          "sha256": "3903e34ae162ea9ad669fac4597ce06a1389a9d8217aa66b2146741ea120e695",
+          "bytes": 32144,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_24.kk.vtt",
+          "sha256": "8048ec1478b1946b8a074c6a96d3988f4a6a7e37eae39ba0421a4902d858627e",
+          "bytes": 32241,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_24.kk.ass",
+          "sha256": "d461ca62f4b01b3c2ffb0b152a30557a0921bca663655804ba71fc25947c503c",
+          "bytes": 37921,
+          "cues": 331,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "jojo-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-25ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_25.kk.srt",
+          "sha256": "70987f07eff0b8c3ff8fcafd4459e374c6d1c1cca90c005bb2b03edf96b53f52",
+          "bytes": 31967,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_25.kk.vtt",
+          "sha256": "8cd4c9eb9a153d160cd4fe34bf82ad8497ba27d24d45f35d0eca83767c860900",
+          "bytes": 32064,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_25.kk.ass",
+          "sha256": "3cc5def047ee4b7cc2a5acd6473d672e58b6218f66ccbe0ccd817eb544f7b9ae",
+          "bytes": 38284,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "jojo-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo/jojo-26ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo/ep_26.kk.srt",
+          "sha256": "29a3c80981ed3ddcc579dec16fb2d8e9c592012960c42d256be4b425e3cc0faf",
+          "bytes": 30343,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo/ep_26.kk.vtt",
+          "sha256": "5db624fd75b3533f838be03fa0dfb2c944be44a43b8df5b77d186dcec474f5db",
+          "bytes": 30440,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo/ep_26.kk.ass",
+          "sha256": "39ce136cd844d4779cc23aacdf9949e0c69afdc799ce80a70153784a58ee8d45",
+          "bytes": 36990,
+          "cues": 389,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 130,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jojo.json"
 }

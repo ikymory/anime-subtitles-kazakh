@@ -20,28 +20,59 @@
     "Romance",
     "Thriller"
   ],
-  "description": "After learning more behind the Death Loop and Witches of Sin, Subaru vows to save Emilia and his friends from further doom.<br>\n<br>\n(Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119661-GDbUZxrZMz01.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119661-9C7DvtL7yfCu.jpg",
+  "description": "After learning more behind the Death Loop and Witches of Sin, Subaru vows to save Emilia and his friends from further doom.\n\n(Source: Crunchyroll)",
+  "averageScore": 78,
+  "popularity": 56289,
+  "color": "#43d6f1",
+  "duration": 30,
+  "studio": "WHITE FOX",
+  "catalog_id": "rezero-s2-p2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "rezero-s2-p2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero-s2-p2/rezero-s2-p2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero-s2-p2/rezero-s2-p2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero-s2-p2/rezero-s2-p2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero-s2-p2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero-s2-p2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero-s2-p2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero-s2-p2/ep_01.kk.srt",
+          "sha256": "02cd61a7d5e50e64ad9898bca48b26750f4e0ba0ba1995b3acf6cfdcfb805a61",
+          "bytes": 45853,
+          "cues": 504,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero-s2-p2/ep_01.kk.vtt",
+          "sha256": "89d1637a672a41924c051c002ff768f61fb542cc7e825fdd4d4f9c5df226152f",
+          "bytes": 45950,
+          "cues": 504,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero-s2-p2/ep_01.kk.ass",
+          "sha256": "369ae12343f60d337d6d467cd7ee0585cd2492086b91ebc7e42ba617e2bdef1e",
+          "bytes": 54233,
+          "cues": 504,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#43d6f1",
-  "studio": "WHITE FOX",
-  "duration": 30,
-  "averageScore": 78,
-  "popularity": 56289,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/rezero-s2-p2.json"
 }

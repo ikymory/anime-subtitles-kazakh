@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Overlord III",
     "english": "Overlord III",
-    "native": "オーバーロードⅢ"
+    "native": "オーバーロードⅢ",
+    "kazakh": "Әмірші III",
+    "kk": "Әмірші III"
   },
   "format": "TV",
   "episodes": 13,
@@ -14,22 +16,59 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "With his foundations now set in this new world, the first steps of Ains Ooal Gown's master plan apparent begin to come to fruition. The value of Carne village and especially the political value of his alter ego Momon are reaffirmed; the “hidden” genius of his actions is continuously met with shock and awe by Demiurge, Albedo, the rest of his guardians, and even Ains himself at his “great wisdom.” His attempts to act in a way befitting the ruler of Nazarick, continuing to further cement his guardian’s loyalty, push him ever further down the path of not-so-intentional world domination. Without human conscience due to being undead, he is motivated only to continue searching for other players from Yggdrasil and to gain power to better protect the children and home of him and his forty former companions. Lord Ains Ooal Gown maintains his mantle of Overlord and leads the Great Tomb of Nazarick unto the world stage, directly into a vicious power struggle between two great empires.\n<br><br>\n(Source: Anime News Network)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101474-tGRyvSAWMjU9.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101474-tGRyvSAWMjU9.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101474-n35NKyt9APDw.jpg",
+  "description": "With his foundations now set in this new world, the first steps of Ains Ooal Gown's master plan apparent begin to come to fruition. The value of Carne village and especially the political value of his alter ego Momon are reaffirmed; the “hidden” genius of his actions is continuously met with shock and awe by Demiurge, Albedo, the rest of his guardians, and even Ains himself at his “great wisdom.” His attempts to act in a way befitting the ruler of Nazarick, continuing to further cement his guardian’s loyalty, push him ever further down the path of not-so-intentional world domination. Without human conscience due to being undead, he is motivated only to continue searching for other players from Yggdrasil and to gain power to better protect the children and home of him and his forty former companions. Lord Ains Ooal Gown maintains his mantle of Overlord and leads the Great Tomb of Nazarick unto the world stage, directly into a vicious power struggle between two great empires.\n\n(Source: Anime News Network)",
+  "averageScore": 81,
+  "popularity": 56026,
+  "color": "#5daef1",
+  "duration": 24,
+  "studio": "MADHOUSE",
+  "catalog_id": "overlord-s3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "overlord-s3-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/overlord-s3/overlord-s3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/overlord-s3/overlord-s3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/overlord-s3/overlord-s3-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/overlord-s3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/overlord-s3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/overlord-s3/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/overlord-s3/ep_01.kk.srt",
+          "sha256": "617fd5cc8dca621f74c3bc15b5dfa133b1ee893748c2dd2d834a8cefd1a5b879",
+          "bytes": 37685,
+          "cues": 419,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/overlord-s3/ep_01.kk.vtt",
+          "sha256": "3b2d870ad52b8121df7e99f3bf8397efb5b38301adbd8b4b89ecee3699c100c6",
+          "bytes": 37782,
+          "cues": 419,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/overlord-s3/ep_01.kk.ass",
+          "sha256": "861c183710b9d16a153a492054d43dbced65b2d7bca44926e5961a93576c367d",
+          "bytes": 44789,
+          "cues": 419,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/overlord-s3.json"
 }

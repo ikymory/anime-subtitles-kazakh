@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Chouyaku Hyakuninisshu. Uta Koi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chouyaku-hyakuninisshu-uta-koi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chouyaku-hyakuninisshu-uta-koi.jpg",
+  "description": "Chouyaku Hyakuninisshu. Uta Koi - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "chouyaku-hyakuninisshu-uta-koi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +41,439 @@
     12,
     13
   ],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_01.kk.srt",
+          "sha256": "42239a704be58d464c2f9b411c8f48499c196e0a98dd7fb5d07dc21a227a963b",
+          "bytes": 65476,
+          "cues": 729,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_01.kk.vtt",
+          "sha256": "d3c2be9fa42ac3ab5b62a2ab8042ad593edc11b07de9339afa8548889f626b0d",
+          "bytes": 65573,
+          "cues": 729,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_01.kk.ass",
+          "sha256": "638242c741ecc5fbfe291c1be6167d42390963077c2f43b3f0f4c19bf7608543",
+          "bytes": 77034,
+          "cues": 729,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_02.kk.srt",
+          "sha256": "44a132fb5b4d69defbc002c1c2df1fb5971a5282b50754b0eb1ce8c52223dbeb",
+          "bytes": 62866,
+          "cues": 677,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_02.kk.vtt",
+          "sha256": "61bce31ca1f4614d2a44116d48787cf57337edca5fbd157e19bc8cad8f28d054",
+          "bytes": 62963,
+          "cues": 677,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_02.kk.ass",
+          "sha256": "cb019b607b484792ec9434e265be4caf23f78f862adf618958dd27da63c8121e",
+          "bytes": 73645,
+          "cues": 677,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_03.kk.srt",
+          "sha256": "fc16b3b2db05b877de77941a21259a5b6740be7453d219d92465d2a53ca108db",
+          "bytes": 70514,
+          "cues": 750,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_03.kk.vtt",
+          "sha256": "bc7d8b562a41404169bca72bcb1341db49d309e9d0cd0ee62bfab1f0b2736a15",
+          "bytes": 70611,
+          "cues": 750,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_03.kk.ass",
+          "sha256": "0d192fcd2d574025b653bd7e33e38cdbde641229c42603bf538adbff11184acd",
+          "bytes": 82390,
+          "cues": 750,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_04.kk.srt",
+          "sha256": "23d61017926080357aec450dbd8792d810505a84801f18f116ae6dfdcd50bfe7",
+          "bytes": 76666,
+          "cues": 837,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_04.kk.vtt",
+          "sha256": "68f8d0c2e35da9f9bb5c3cc7780fba8acb72bd7c9e2a52ff5042707ef98fe9d5",
+          "bytes": 76763,
+          "cues": 837,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_04.kk.ass",
+          "sha256": "f573f198427b42175ed2f76863f857bf7b49549dc945c8e06f7504ed85444e1b",
+          "bytes": 89845,
+          "cues": 837,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_05.kk.srt",
+          "sha256": "d6bf76ddf75cf4c2d0a71ddaaef6e49121743e5f884fb3585628368d2f420055",
+          "bytes": 68090,
+          "cues": 723,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_05.kk.vtt",
+          "sha256": "8d3238aa43d8a4d8d448815619fd299af95a3db28531444e202717aee9d9b905",
+          "bytes": 68187,
+          "cues": 723,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_05.kk.ass",
+          "sha256": "7dff87a020aa4b1686958adf1e64abd062718fc65b65fb4c066ead65485a3381",
+          "bytes": 79560,
+          "cues": 723,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_06.kk.srt",
+          "sha256": "bc7a66acd9a986babac7afa0eff0bb72ede55c69d210bea6414984f419de1333",
+          "bytes": 82373,
+          "cues": 879,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_06.kk.vtt",
+          "sha256": "8020bfd7c82cf12ab6a8c6aa8a883617e657e1cfbc226da7d7c2fdc193a889f3",
+          "bytes": 82470,
+          "cues": 879,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_06.kk.ass",
+          "sha256": "97c64deadf28908ff150d5e963f5d053fc565c03285ef1c73c0415f6553680fc",
+          "bytes": 96182,
+          "cues": 879,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_07.kk.srt",
+          "sha256": "dde529180f7bc65ddf17b026c5f9e9b7c16aa144078bbd8545ddfc69a8521d36",
+          "bytes": 65638,
+          "cues": 692,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_07.kk.vtt",
+          "sha256": "20376f0013e8a2f33a2c132f4e48ad9dd53999379ea63e1e733893b9b3207ef9",
+          "bytes": 65735,
+          "cues": 692,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_07.kk.ass",
+          "sha256": "e84fa03536db8765b0e1124d0154aa6e45578db3399356c5b3b1b36f461a4077",
+          "bytes": 76644,
+          "cues": 692,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_08.kk.srt",
+          "sha256": "bf29838213ac3e5569ca39f8f8191cc65b750fc3d21294be459ffdb0d2e4a38b",
+          "bytes": 67454,
+          "cues": 716,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_08.kk.vtt",
+          "sha256": "8d22abd2bead005350c4ac01f1dd9f47d74a69f855a2d2f843fc3c7e28ea353f",
+          "bytes": 67551,
+          "cues": 716,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_08.kk.ass",
+          "sha256": "14ea186c790be2a62e303b6ee1a49964fdc270e91e42e4ffb23b65a3bfac529e",
+          "bytes": 78817,
+          "cues": 716,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_09.kk.srt",
+          "sha256": "01f2ebd7dbb2ead2805f9b7a751fe78bd5e699ef55b3699509db9825a03f612d",
+          "bytes": 71878,
+          "cues": 754,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_09.kk.vtt",
+          "sha256": "6db8ef3b82f75d6155e91b433587cfd04298e2695487039091e6955014d94c50",
+          "bytes": 71975,
+          "cues": 754,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_09.kk.ass",
+          "sha256": "8ace67c2435f7d9ce573bc02e21bc5d71b41a98bb4c0de15957dd0f942524e6a",
+          "bytes": 83811,
+          "cues": 754,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_10.kk.srt",
+          "sha256": "09fd3879b08f858d142bfa3f60f2d4607c79a5b0fef63a22c2dfd4e67d529b63",
+          "bytes": 60648,
+          "cues": 612,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_10.kk.vtt",
+          "sha256": "44930046dbe1126d9a5cab18a0c87f39dc563fe777e9b0efb120451fe09a2681",
+          "bytes": 60745,
+          "cues": 612,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_10.kk.ass",
+          "sha256": "995ea26793a3a5bd35a3bfbb255899d2a5cfd36a2cfea54c4e2516ed91f0439d",
+          "bytes": 70451,
+          "cues": 612,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_11.kk.srt",
+          "sha256": "aec812dcec713dc0d2096c79fcc73e506bb06102de8e0c5610134e1edb949980",
+          "bytes": 53635,
+          "cues": 576,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_11.kk.vtt",
+          "sha256": "d0ef53607e2b74bc0e49c94a3e80f9f8dc3ea5e581a40e0f07a064cc505fa9fa",
+          "bytes": 53732,
+          "cues": 576,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_11.kk.ass",
+          "sha256": "63ae1a76d2c734086dddb979359408f78f7be7197da082ec683f3eabec2d5fb9",
+          "bytes": 62898,
+          "cues": 576,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_12.kk.srt",
+          "sha256": "6abf328111de8e84580a09f951f5bbec5a4a846a1f1739e25b105de976f1b601",
+          "bytes": 60544,
+          "cues": 637,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_12.kk.vtt",
+          "sha256": "2a10a1395dab33f2ef4568052a3fd755f14e75f3ad95f232437d4b2bba013e41",
+          "bytes": 60641,
+          "cues": 637,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_12.kk.ass",
+          "sha256": "3a2be9ff3774125e802cefb69936bf332398eccf1169d905773e73feb3c70aa2",
+          "bytes": 70722,
+          "cues": 637,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "chouyaku-hyakuninisshu-uta-koi-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chouyaku-hyakuninisshu-uta-koi/chouyaku-hyakuninisshu-uta-koi-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chouyaku-hyakuninisshu-uta-koi/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_13.kk.srt",
+          "sha256": "45de1647a2a2fc4c2b714d63c83db75b07f0a5132644603261e8d9da8c67bc2c",
+          "bytes": 64146,
+          "cues": 732,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_13.kk.vtt",
+          "sha256": "fe88481a67f06be9c68e7ba8f430a5c7ff9f0ca63b14f7c921bce4547a80b0f8",
+          "bytes": 64243,
+          "cues": 732,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chouyaku-hyakuninisshu-uta-koi/ep_13.kk.ass",
+          "sha256": "0fd121705fb1612264ede898f1ab55b3bb6f9ee426ec3701af646c1b3acfb2bf",
+          "bytes": 84786,
+          "cues": 790,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 52,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chouyaku-hyakuninisshu-uta-koi.json"
 }

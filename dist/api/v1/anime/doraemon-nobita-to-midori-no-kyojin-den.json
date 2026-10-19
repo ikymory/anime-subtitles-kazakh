@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita to Midori no Kyojin Den - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-midori-no-kyojin-den.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-midori-no-kyojin-den.jpg",
+  "description": "Doraemon. Nobita to Midori no Kyojin Den - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-to-midori-no-kyojin-den",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-to-midori-no-kyojin-den-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-midori-no-kyojin-den/doraemon-nobita-to-midori-no-kyojin-den-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-midori-no-kyojin-den/doraemon-nobita-to-midori-no-kyojin-den-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-midori-no-kyojin-den/doraemon-nobita-to-midori-no-kyojin-den-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-midori-no-kyojin-den/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-midori-no-kyojin-den/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-midori-no-kyojin-den/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-to-midori-no-kyojin-den/ep_01.kk.srt",
+          "sha256": "42c96b2805562fb74e0b8e44de18df031c3f029f9aad50d4caa2240d2e2662cb",
+          "bytes": 146396,
+          "cues": 1840,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-to-midori-no-kyojin-den/ep_01.kk.vtt",
+          "sha256": "4b357bd95e28828c8db185322f2730a051606073323e5074b49a4a4c7ef789dd",
+          "bytes": 146493,
+          "cues": 1840,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-to-midori-no-kyojin-den/ep_01.kk.ass",
+          "sha256": "95f231793d8717d3e290a066f21cc2feecd9670feeee2882504a0220ab3f8943",
+          "bytes": 174033,
+          "cues": 1840,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-to-midori-no-kyojin-den.json"
 }

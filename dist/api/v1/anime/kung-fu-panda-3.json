@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kung Fu Panda 3 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kung-fu-panda-3.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kung-fu-panda-3.jpg",
+  "description": "Kung Fu Panda 3 - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kung-fu-panda-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kung-fu-panda-3-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kung-fu-panda-3/kung-fu-panda-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kung-fu-panda-3/kung-fu-panda-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kung-fu-panda-3/kung-fu-panda-3-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kung-fu-panda-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kung-fu-panda-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kung-fu-panda-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kung-fu-panda-3/ep_01.kk.srt",
+          "sha256": "9402dbe6a19483ef743dc0f78c8aec756a8bfda1a7e76eb5805092b2d3c4c334",
+          "bytes": 92165,
+          "cues": 1166,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kung-fu-panda-3/ep_01.kk.vtt",
+          "sha256": "79470e1518702f35865709a296551c2ccb44a4ab35afacc10dc25bbce4ac5206",
+          "bytes": 92262,
+          "cues": 1166,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kung-fu-panda-3/ep_01.kk.ass",
+          "sha256": "61ab43bb8790bb8f3c4d3a71ae7f3968fa22c2b6b92c84dd15caaa1bf2c879b1",
+          "bytes": 110547,
+          "cues": 1166,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kung-fu-panda-3.json"
 }

@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Trinity Seven",
     "english": "TRINITY SEVEN",
-    "native": "トリニティセブン"
+    "native": "トリニティセブン",
+    "kazakh": "Үштік жетілік",
+    "kk": "Үштік жетілік"
   },
   "format": "TV",
   "episodes": 12,
@@ -16,22 +18,59 @@
     "Fantasy",
     "Romance"
   ],
-  "description": "Pride, Envy, Wrath, Sloth, Greed, Gluttony, Lust. These are the seven sins laid upon seven girls who rule over Biblia Academy. \n<br><br>\nTo retake his world, the boy decides he must control these sins... The boy, Arata Kasuga, has had the world he knows hit by a mysterious phenomenon \"Collapse Phenomenon\", and his cousin Hijiri disappears into another dimension. To understand the Collapse Phenomenon and win back his cousin, he comes to Biblia Academy. There he finds the seven girls and their sins.\n<br><br>\n(Source: Crunchyroll)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20631-LdCiy3goitcT.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20631-LdCiy3goitcT.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20631-JsRVj8iDf21B.jpg",
+  "description": "Pride, Envy, Wrath, Sloth, Greed, Gluttony, Lust. These are the seven sins laid upon seven girls who rule over Biblia Academy. \n\nTo retake his world, the boy decides he must control these sins... The boy, Arata Kasuga, has had the world he knows hit by a mysterious phenomenon \"Collapse Phenomenon\", and his cousin Hijiri disappears into another dimension. To understand the Collapse Phenomenon and win back his cousin, he comes to Biblia Academy. There he finds the seven girls and their sins.\n\n(Source: Crunchyroll)",
+  "averageScore": 81,
+  "popularity": 59512,
+  "color": "#e47850",
+  "duration": 24,
+  "studio": "Seven Arcs Pictures",
+  "catalog_id": "trinity-seven",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "trinity-seven-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trinity-seven/trinity-seven-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trinity-seven/trinity-seven-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trinity-seven/trinity-seven-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trinity-seven/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trinity-seven/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trinity-seven/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trinity-seven/ep_01.kk.srt",
+          "sha256": "70da3edf3234c1938740b44d802e09433b5e290360f06a69ed56c047e3aab4e5",
+          "bytes": 31725,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trinity-seven/ep_01.kk.vtt",
+          "sha256": "1d3980220aaf2b9bf528e39e60c80c8f0f0159558d70171a683cf233f9cb4040",
+          "bytes": 31822,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trinity-seven/ep_01.kk.ass",
+          "sha256": "3dff615d3bd0a27f9f9de9d2839da3e02f408375b0e77dc07ad1cb5dbb443613",
+          "bytes": 38051,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/trinity-seven.json"
 }

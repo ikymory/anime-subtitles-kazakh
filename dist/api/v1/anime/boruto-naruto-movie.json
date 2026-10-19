@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21040-6OdtR7iK1KvY.jpg",
+  "averageScore": 79,
+  "popularity": 69562,
+  "color": "hsl(161, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21040-7rg6UrT1xZh2.jpg",
+  "catalog_id": "boruto-naruto-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boruto-naruto-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boruto-naruto-movie/boruto-naruto-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boruto-naruto-movie/boruto-naruto-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boruto-naruto-movie/boruto-naruto-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boruto-naruto-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boruto-naruto-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boruto-naruto-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boruto-naruto-movie/ep_01.kk.srt",
+          "sha256": "e087ff3680a6810fcb68dff0748d13c72a0989931cd2fde1fb396ec61dacb7e4",
+          "bytes": 101922,
+          "cues": 1187,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boruto-naruto-movie/ep_01.kk.vtt",
+          "sha256": "6c96a5863e986d238ea9f28857775be652397372b32b345834e777b1da401e71",
+          "bytes": 102019,
+          "cues": 1187,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boruto-naruto-movie/ep_01.kk.ass",
+          "sha256": "0196f44b745c80b5cd9d72c1b67f4d145fc85e88622ff4b107814d60b440ea39",
+          "bytes": 120366,
+          "cues": 1187,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(161, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 79,
-  "popularity": 69562,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boruto-naruto-movie.json"
 }

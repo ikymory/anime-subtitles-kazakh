@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kono Sekai no (Sara ni Ikutsumono) Katasumi ni - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni.jpg",
+  "description": "Kono Sekai no (Sara ni Ikutsumono) Katasumi ni - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kono-sekai-no-sara-ni-ikutsumono-katasumi-ni",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kono-sekai-no-sara-ni-ikutsumono-katasumi-ni-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/ep_01.kk.srt",
+          "sha256": "896ba3ae32d85c483bdddfbfef2754d29eeffd56673c7c81aff253c760107ef3",
+          "bytes": 239350,
+          "cues": 2775,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/ep_01.kk.vtt",
+          "sha256": "43dcaeeade3389bcc73171a9ec36f579c9106710614971946380b6d852ec45f9",
+          "bytes": 239447,
+          "cues": 2775,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni/ep_01.kk.ass",
+          "sha256": "8f8b05d2d33ce3445ee33226815224d9aa3340fa8b87ae551495b946c354d4e2",
+          "bytes": 280259,
+          "cues": 2775,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kono-sekai-no-sara-ni-ikutsumono-katasumi-ni.json"
 }

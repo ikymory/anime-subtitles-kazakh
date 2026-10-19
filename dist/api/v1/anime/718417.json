@@ -3,17 +3,28 @@
   "slug": "rainbow-nisha-rokubou",
   "title": {
     "romaji": "Rainbow Nisha Rokubou",
-    "english": "Rainbow Nisha Rokubou"
+    "english": "Rainbow Nisha Rokubou",
+    "kazakh": "Радуга: Жеті тұтқын хикаясы",
+    "kk": "Радуга: Жеті тұтқын хикаясы"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 26,
+  "seasonYear": 2010,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6114-pLPszMA7AxbD.jpg",
+  "averageScore": 81,
+  "popularity": 73806,
+  "color": "hsl(40, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6114-1bZLnT9u6YFM.jpg",
+  "catalog_id": "rainbow-nisha-rokubou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -34,186 +45,604 @@
     17,
     18
   ],
+  "translated_episodes_count": 18,
+  "available_episodes_count": 18,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_01.kk.srt",
+          "sha256": "9c741407e0862cf5867018c28ca6a0083030528e1c631982a47a3cfb6fd7a458",
+          "bytes": 16974,
+          "cues": 184,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_01.kk.vtt",
+          "sha256": "4e64047e3df3eb9b96400c4772c26909a09c279ffab43acdbabb769d3e02b22b",
+          "bytes": 17071,
+          "cues": 184,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_01.kk.ass",
+          "sha256": "07d53de05a4a7c827296ba7ae7e4cac42cf8f8dc59bece2777e913f077655113",
+          "bytes": 20563,
+          "cues": 184,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_02.kk.srt",
+          "sha256": "19fe57840dda45d47e660e6664849ee103607922e435c3065f8a1b56dd8eeaec",
+          "bytes": 21176,
+          "cues": 230,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_02.kk.vtt",
+          "sha256": "7321258dea1bba427a23f484eef1a2779606fa06f289526748afb402f3010866",
+          "bytes": 21273,
+          "cues": 230,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_02.kk.ass",
+          "sha256": "deb41cf72dc39619fb337ee75c34dad52b43a19057885bf28cce418916e8a64f",
+          "bytes": 25455,
+          "cues": 230,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_03.kk.srt",
+          "sha256": "fc172c5d35cb27402eec7237fc08ffd3fd8d5487ef77e0d69edb8fadda37b326",
+          "bytes": 20148,
+          "cues": 229,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_03.kk.vtt",
+          "sha256": "047b4298b4133aeddc402b51819106c5e1910242dd78a5a483faffe8c0456d29",
+          "bytes": 20245,
+          "cues": 229,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_03.kk.ass",
+          "sha256": "ada62e584ba640ba3a361d93103f85e7a339a11f16aee9a3fbc4161db032369c",
+          "bytes": 24412,
+          "cues": 229,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_04.kk.srt",
+          "sha256": "00869f728503b0e92a3aa0cd5e3361fc8535a8a402b2b9986e81b9a06e87aa22",
+          "bytes": 20795,
+          "cues": 224,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_04.kk.vtt",
+          "sha256": "8d3eaf767b954ef21ab3d6da054bbe28445b6be51eb65c29b753627c249eee29",
+          "bytes": 20892,
+          "cues": 224,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_04.kk.ass",
+          "sha256": "610a1dc8603323e0776902d1bac720fe9f788eab4210debada432c919022b84d",
+          "bytes": 24984,
+          "cues": 224,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_05.kk.srt",
+          "sha256": "f50b4f3344385af64b8f17575c36a9bace394a1f4f20eb93255ac82a88a0a71c",
+          "bytes": 21555,
+          "cues": 207,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_05.kk.vtt",
+          "sha256": "3fda784f9d1d7cc5ed2dde87f87e71d78232588f357d719afcba7bf4ad08330f",
+          "bytes": 21652,
+          "cues": 207,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_05.kk.ass",
+          "sha256": "bb3b5d615a9adb0afe1ec47039b2f114c7795f994e7eb2ad90bcf82940c29c5d",
+          "bytes": 25489,
+          "cues": 207,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_06.kk.srt",
+          "sha256": "8c364e842fe9afa61f1670da03b18e8fd665c6777012da64cafa93d129f273de",
+          "bytes": 22080,
+          "cues": 253,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_06.kk.vtt",
+          "sha256": "f323faeda75bc5a5e82d897d730663c8aa8437bf40726e99f206484252d6fac0",
+          "bytes": 22177,
+          "cues": 253,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_06.kk.ass",
+          "sha256": "9359e0b9c58d0243aa242b989b3f59034a49fe3de28ebcfc21da775fee3a5fec",
+          "bytes": 26704,
+          "cues": 253,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_07.kk.srt",
+          "sha256": "b1f655abf5e87b9e923d7af87438505f7de5a0304fbbd4402da8e57681f9b97d",
+          "bytes": 22200,
+          "cues": 212,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_07.kk.vtt",
+          "sha256": "dc789781acb040cd3693a65b7a1c2baed3c4f2eabd48b847b7f7877fc6f13d2a",
+          "bytes": 22297,
+          "cues": 212,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_07.kk.ass",
+          "sha256": "4f1392152315d0d262667e14e076778fd564a61ed74e948918914866ff93ca3f",
+          "bytes": 26209,
+          "cues": 212,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_08.kk.srt",
+          "sha256": "9ee71ca4b6b40f6e6a66aed4ff9d3d837dcf2ce746c140ef374988dd65c2c346",
+          "bytes": 24783,
+          "cues": 273,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_08.kk.vtt",
+          "sha256": "50b5fc38a0a2ae93a97bd7e42dc297ba55b18b67dacfd58db49ede6e6d915571",
+          "bytes": 24880,
+          "cues": 273,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_08.kk.ass",
+          "sha256": "1e8d915f32f051669d8eafaef424cba6dab33de557b6163d794cf9e7b73f3784",
+          "bytes": 29707,
+          "cues": 273,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_09.kk.srt",
+          "sha256": "e71972adc24068449bececeedbe470be84c490569b31961cf8c0ff1c0ed7730d",
+          "bytes": 24955,
+          "cues": 250,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_09.kk.vtt",
+          "sha256": "34331400b2c51138ec30d17892d8f449b50517a43d0cfc5014d246edf5605069",
+          "bytes": 25052,
+          "cues": 250,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_09.kk.ass",
+          "sha256": "13cb410740d8d33af119eab396b3d822ff0a7e80ff0ff27ddadac757a8580d3a",
+          "bytes": 29534,
+          "cues": 250,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_10.kk.srt",
+          "sha256": "68471dd180f09802673596bb766c7b213182f62af83a30c44d8bb35b2a09a0c0",
+          "bytes": 24067,
+          "cues": 225,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_10.kk.vtt",
+          "sha256": "a1bf3a005f6b01f2cd03f1d6771766f646bd10e67dc5631d8c06f3b5e038e34a",
+          "bytes": 24164,
+          "cues": 225,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_10.kk.ass",
+          "sha256": "94ba4a2dd48f0065b317357b5fdc4b1e4a8cb4fde915de7e0d4c084c74dad098",
+          "bytes": 28271,
+          "cues": 225,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_11.kk.srt",
+          "sha256": "1a56fbba16dcac2488298850735ad931806bcbe11fb109e2c6f1d21927e03c5a",
+          "bytes": 21065,
+          "cues": 237,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_11.kk.vtt",
+          "sha256": "8827943833907f1c1b6d51dcc21b9252241e79fe2334339e0838311c998347a5",
+          "bytes": 21162,
+          "cues": 237,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_11.kk.ass",
+          "sha256": "eb6571f31fcb4d28f5d9b3bfbca8d76751b86aebd4fe0820384190f0dca1b887",
+          "bytes": 25449,
+          "cues": 237,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_12.kk.srt",
+          "sha256": "f7aa7f845270419d0e9d9ee1cbe150ab883977ffe5c846645395e9d14b0f8892",
+          "bytes": 18717,
+          "cues": 192,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_12.kk.vtt",
+          "sha256": "e24c7f2f063f28eb4001030070a9ac70560d2f38db134176a77fca81fe648818",
+          "bytes": 18814,
+          "cues": 192,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_12.kk.ass",
+          "sha256": "5ed2eb19f38c1d6554eef1608d078599ffd6f3a400038752d201c04e618cd6f1",
+          "bytes": 22426,
+          "cues": 192,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_13.kk.srt",
+          "sha256": "cbcbf71ce862023c4b55b39524e006eaa923d6bbd507b59ca9e6850d40efe4c7",
+          "bytes": 22996,
+          "cues": 274,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_13.kk.vtt",
+          "sha256": "e9d1309a44abcbf8c8f00a61eb2066cbc6466a3e92d4eaebb1e4a694d4870d99",
+          "bytes": 23093,
+          "cues": 274,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_13.kk.ass",
+          "sha256": "1b8142e0b4c80f95660f7ffd3371f0b7f89e180b3f5e0c8e3e7ecf9faa3219d8",
+          "bytes": 27935,
+          "cues": 274,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_14.kk.srt",
+          "sha256": "344c018352ad4352434c0d731a96f6fe5a908d15733bdee3f03d7652785f982a",
+          "bytes": 20606,
+          "cues": 193,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_14.kk.vtt",
+          "sha256": "4c33a5adfaaae962834e9605dd91d6452382dd72c574f0e4642293e5a934a2bc",
+          "bytes": 20703,
+          "cues": 193,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_14.kk.ass",
+          "sha256": "b8ae2f81c8d099e6bcf31dcad1f23d22d8f45f3e54de02d2493e67cd9a51f7f6",
+          "bytes": 24330,
+          "cues": 193,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-15ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_15.kk.srt",
+          "sha256": "6091e7340847f022b3f1db015738100da5dfb6f54424db99b67a07dcf4c8dec9",
+          "bytes": 25491,
+          "cues": 250,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_15.kk.vtt",
+          "sha256": "6363c8a5fbdec8721c590ccddc3b2cc68d8a2f7899e1a041da982409fe542420",
+          "bytes": 25588,
+          "cues": 250,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_15.kk.ass",
+          "sha256": "0e90023f4e2b813a7111d52c56503bf6b7590a0b8ff83085558cb19ea77208e2",
+          "bytes": 30070,
+          "cues": 250,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-16ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_16.kk.srt",
+          "sha256": "23e9f43fc91a3c3d1bbf2fd9d7298ee6c12231d2b6c1e737506c0c9d383baeec",
+          "bytes": 24123,
+          "cues": 247,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_16.kk.vtt",
+          "sha256": "06ef72ae2154ff0856370fa399d99827a8c0412156eff5c166c8a46ed704567a",
+          "bytes": 24220,
+          "cues": 247,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_16.kk.ass",
+          "sha256": "2acdddbb9a754937ca52a9eeacaa7cf49593fe1ae4d898a3ee2598f528e84e4f",
+          "bytes": 28657,
+          "cues": 247,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_17.kk.srt",
+          "sha256": "1021daeea3f83da1fa5ae25f4c1e22ff86a71f58b2f8f7e21c72a21cb4554b3c",
+          "bytes": 18999,
+          "cues": 213,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_17.kk.vtt",
+          "sha256": "77048a0ea9062d78f109b03979f767506c2072c5447beb542348c381422ba252",
+          "bytes": 19096,
+          "cues": 213,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_17.kk.ass",
+          "sha256": "178af4126b36c6d39f89cd33afd02ace9650decc08c876bdf5bd0ebf6a24c983",
+          "bytes": 23023,
+          "cues": 213,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "rainbow-nisha-rokubou-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rainbow-nisha-rokubou/rainbow-nisha-rokubou-18ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rainbow-nisha-rokubou/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_18.kk.srt",
+          "sha256": "64757e60ff100de82cf11f69e05e7b8721fa0e3abd7b0ec1dffade0c60fb7e88",
+          "bytes": 25640,
+          "cues": 276,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_18.kk.vtt",
+          "sha256": "a82c70b48b0e95d02b5e4ec9ddd0ca5bf37b779cc9c2da1fc668f462c0a0dfa0",
+          "bytes": 25737,
+          "cues": 276,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rainbow-nisha-rokubou/ep_18.kk.ass",
+          "sha256": "7a219032dfd6a57442b196abbc18fa05bcdf67b272b643e3b5cbc426f2cdf8cd",
+          "bytes": 30609,
+          "cues": 276,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 55,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/rainbow-nisha-rokubou.json"
 }

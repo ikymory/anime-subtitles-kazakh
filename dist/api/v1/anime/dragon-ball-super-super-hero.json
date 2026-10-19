@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx133898-KdQ7fWTG06n4.png",
+  "averageScore": 87,
+  "popularity": 55416,
+  "color": "hsl(71, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/133898-MYeTtAsD6KjA.jpg",
+  "catalog_id": "dragon-ball-super-super-hero",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-super-super-hero-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-super-super-hero/dragon-ball-super-super-hero-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-super-super-hero/dragon-ball-super-super-hero-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-super-super-hero/dragon-ball-super-super-hero-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-super-super-hero/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-super-super-hero/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-super-super-hero/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-super-super-hero/ep_01.kk.srt",
+          "sha256": "76af62e34b0baf2f4e5b1d724f7c28e48f43495a11b5df3494f1b45b9f0c038c",
+          "bytes": 162584,
+          "cues": 2035,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-super-super-hero/ep_01.kk.vtt",
+          "sha256": "eeeb4cbdd557a2bcf9211ec31f91f56e946a06a9b236e747a50321fb7b0f660f",
+          "bytes": 162681,
+          "cues": 2035,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-super-super-hero/ep_01.kk.ass",
+          "sha256": "67e615a5ec717086a553e2db67385f120dad7e0f089060b42f51aee5cabb680d",
+          "bytes": 192909,
+          "cues": 2035,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(71, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 55416,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-super-super-hero.json"
 }

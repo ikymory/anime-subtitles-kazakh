@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita to Mugen Sankenshi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-mugen-sankenshi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-mugen-sankenshi.jpg",
+  "description": "Doraemon. Nobita to Mugen Sankenshi - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-to-mugen-sankenshi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-to-mugen-sankenshi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-mugen-sankenshi/doraemon-nobita-to-mugen-sankenshi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-mugen-sankenshi/doraemon-nobita-to-mugen-sankenshi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-mugen-sankenshi/doraemon-nobita-to-mugen-sankenshi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-mugen-sankenshi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-mugen-sankenshi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-mugen-sankenshi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-to-mugen-sankenshi/ep_01.kk.srt",
+          "sha256": "c1499b0544030717924c5a82a191c99a4d004eb3883c2145152d89fb4eb62f2e",
+          "bytes": 142706,
+          "cues": 1613,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-to-mugen-sankenshi/ep_01.kk.vtt",
+          "sha256": "1e6e8fd013433f1c24d34c721c9a89637a1ef4aac04c10fdd953fbda5dc28129",
+          "bytes": 142803,
+          "cues": 1613,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-to-mugen-sankenshi/ep_01.kk.ass",
+          "sha256": "7110eca91297bb1b8c4c058f86bdbc0009294d776d4307ec15bdef12cd84dc56",
+          "bytes": 167165,
+          "cues": 1613,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-to-mugen-sankenshi.json"
 }

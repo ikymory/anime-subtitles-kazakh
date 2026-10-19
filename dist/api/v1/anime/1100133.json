@@ -1,0 +1,71 @@
+{
+  "id": 1100133,
+  "slug": "harmonie",
+  "title": {
+    "romaji": "Harmonie",
+    "english": "Harmonie",
+    "native": "Harmonie",
+    "kazakh": "Гармония",
+    "kk": "Гармония"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2018,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/harmonie.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/harmonie.jpg",
+  "description": "Harmonie - official Kazakh translation archive by ikymory.",
+  "averageScore": 82,
+  "popularity": 75000,
+  "catalog_id": "harmonie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translated_episodes": [
+    1
+  ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/harmonie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/harmonie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/harmonie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/harmonie/ep_01.kk.srt",
+          "sha256": "3e40bfb695ea84b522002b86d69be1b08f6ffdc2c21468b75f758e1407bf266b",
+          "bytes": 66398,
+          "cues": 860,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/harmonie/ep_01.kk.vtt",
+          "sha256": "8a29357835973006a7c4aa5cb171bfc362513d009c31a3a5f47444dc1b0a5a4a",
+          "bytes": 66495,
+          "cues": 860,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/harmonie/ep_01.kk.ass",
+          "sha256": "673f9ecda610852be38d137375c7b074854fe5789dc1268c8b2c2b1f6d218491",
+          "bytes": 80176,
+          "cues": 860,
+          "origin": "source"
+        }
+      }
+    }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/harmonie.json"
+}

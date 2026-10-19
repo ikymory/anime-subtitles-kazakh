@@ -15,24 +15,56 @@
     "Drama",
     "Mystery"
   ],
-  "description": "Odd Taxi: In the Woods - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/odd-taxi-in-the-woods.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/odd-taxi-in-the-woods.jpg",
+  "description": "Odd Taxi: In the Woods - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "odd-taxi-in-the-woods",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "odd-taxi-in-the-woods-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/odd-taxi-in-the-woods/odd-taxi-in-the-woods-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/odd-taxi-in-the-woods/odd-taxi-in-the-woods-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/odd-taxi-in-the-woods/odd-taxi-in-the-woods-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/odd-taxi-in-the-woods/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/odd-taxi-in-the-woods/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/odd-taxi-in-the-woods/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/odd-taxi-in-the-woods/ep_01.kk.ass",
+          "sha256": "77f37065337c092f5c1b7131297086af1861df6a64c155a4351c140367bfa3a9",
+          "bytes": 251807,
+          "cues": 2220,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/odd-taxi-in-the-woods/ep_01.kk.srt",
+          "sha256": "eea3a04cf71b652e3388d44481ae1dde5c67fa09e98b7e3084a392ab4363f4d4",
+          "bytes": 218593,
+          "cues": 2218,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/odd-taxi-in-the-woods/ep_01.kk.vtt",
+          "sha256": "ef81f8ac40b3489d38fe6dfeab39094d9abd124ff84bfd3da9206ed886a75109",
+          "bytes": 218601,
+          "cues": 2218,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/odd-taxi-in-the-woods.json"
 }

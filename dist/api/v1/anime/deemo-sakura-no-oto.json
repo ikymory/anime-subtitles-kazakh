@@ -16,24 +16,56 @@
     "Fantasy",
     "Drama"
   ],
-  "description": "Deemo: Memorial Keys - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/deemo-sakura-no-oto.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/deemo-sakura-no-oto.jpg",
+  "description": "Deemo: Memorial Keys - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 96000,
+  "catalog_id": "deemo-sakura-no-oto",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "deemo-sakura-no-oto-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deemo-sakura-no-oto/deemo-sakura-no-oto-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deemo-sakura-no-oto/deemo-sakura-no-oto-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deemo-sakura-no-oto/deemo-sakura-no-oto-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deemo-sakura-no-oto/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deemo-sakura-no-oto/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deemo-sakura-no-oto/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deemo-sakura-no-oto/ep_01.kk.srt",
+          "sha256": "db0833189c6aeb1aef5136f28b51e94464892bff3d692b11b86857aec6530c79",
+          "bytes": 47770,
+          "cues": 608,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deemo-sakura-no-oto/ep_01.kk.vtt",
+          "sha256": "62af28685ac7d47c6f5e79cfcdefead59f69d528ca3da4bfcef4161ce790bb68",
+          "bytes": 47867,
+          "cues": 608,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deemo-sakura-no-oto/ep_01.kk.ass",
+          "sha256": "feeb40ef9ecd661334e352919483b586a9fbb0de188702eeac9f3a38148efb60",
+          "bytes": 65467,
+          "cues": 719,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deemo-sakura-no-oto.json"
 }

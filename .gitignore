@@ -9,4 +9,9 @@ temp/
 *.sqlite*
 *.db
 scratch/
+.build/
+.env
+.env.*
+!.env.example
+.pytest_cache/
 data/kitsunekko_full_tree.json

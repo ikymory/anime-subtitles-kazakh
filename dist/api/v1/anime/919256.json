@@ -3,30 +3,68 @@
   "slug": "tekkonkinkreet",
   "title": {
     "romaji": "Tekkonkinkreet",
-    "english": "Tekkonkinkreet"
+    "english": "Tekkonkinkreet",
+    "kazakh": "Темір-бетон",
+    "kk": "Темір-бетон"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "SPECIAL",
+  "episodes": 4,
+  "seasonYear": 2006,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1841.jpg",
+  "averageScore": 83,
+  "popularity": 61334,
+  "color": "hsl(142, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1841.jpg",
+  "catalog_id": "tekkonkinkreet",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tekkonkinkreet-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tekkonkinkreet/tekkonkinkreet-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tekkonkinkreet/tekkonkinkreet-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tekkonkinkreet/tekkonkinkreet-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tekkonkinkreet/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tekkonkinkreet/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tekkonkinkreet/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tekkonkinkreet/ep_01.kk.srt",
+          "sha256": "fe471a813b170724827fd876855df0db9baa131e793765f5baae4ddaa6422bab",
+          "bytes": 110669,
+          "cues": 1354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tekkonkinkreet/ep_01.kk.vtt",
+          "sha256": "70a1813447aa1ac68f2ca0a27bbdf37ccf7b43caa8b504f244bfae73d4c497dd",
+          "bytes": 110766,
+          "cues": 1354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tekkonkinkreet/ep_01.kk.ass",
+          "sha256": "276338fa1d53a1d717ce29ad71c4f59dca2e87555c08abc37f4cedbee6a436e9",
+          "bytes": 131446,
+          "cues": 1354,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tekkonkinkreet.json"
 }

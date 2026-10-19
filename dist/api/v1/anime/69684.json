@@ -3,17 +3,28 @@
   "slug": "inuyashiki",
   "title": {
     "romaji": "Inuyashiki",
-    "english": "Inuyashiki"
+    "english": "Inuyashiki",
+    "kazakh": "Инуяшики",
+    "kk": "Инуяшики"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 11,
+  "seasonYear": 2017,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97922-qrGn5fkQinDs.jpg",
+  "averageScore": 83,
+  "popularity": 55916,
+  "color": "hsl(124, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97922-j6ba0Zmq8xOa.jpg",
+  "catalog_id": "inuyashiki",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -27,116 +38,373 @@
     10,
     11
   ],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "inuyashiki-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_01.kk.srt",
+          "sha256": "28fa57224ac57a3289b5a902b830a128dc2827428b6f77c0669467a607e0e079",
+          "bytes": 23661,
+          "cues": 306,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_01.kk.vtt",
+          "sha256": "fb50554b2a23874c6f40d846b1b958b6a701fdec37f86f3d98b2699965eefbf2",
+          "bytes": 23758,
+          "cues": 306,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_01.kk.ass",
+          "sha256": "d007a2d0487d0fa2fe6c6e9e1acc1916769230b05d635470210077daa3aea51a",
+          "bytes": 29069,
+          "cues": 306,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "inuyashiki-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_02.kk.srt",
+          "sha256": "da7d81bab62d2f7934d2c8c3fa5506390530ce0c7e9e50ff47d6abbdd22c59ad",
+          "bytes": 25612,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_02.kk.vtt",
+          "sha256": "0c91e3a728fb23456febe6fa17000f6e3df3d956c3088fe5c08d5eaebcd23e83",
+          "bytes": 25709,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_02.kk.ass",
+          "sha256": "9c94ae6b87dd2ea87990afa432b847fd01993e8d55e4e8cbccf3455cb5b2bcef",
+          "bytes": 31245,
+          "cues": 321,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "inuyashiki-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_03.kk.srt",
+          "sha256": "086cfc77d4bf189951de796f13466a2a000e7d84d09a880eb9334f4f93f93ba9",
+          "bytes": 23855,
+          "cues": 305,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_03.kk.vtt",
+          "sha256": "4a28141e50a2fd04ad8902847ca289a64b8a067472cf710531c55f0d964e93ac",
+          "bytes": 23952,
+          "cues": 305,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_03.kk.ass",
+          "sha256": "b8b82d10f505349d37d7fe7fcc10f57522bbb5c719be7c1e63df19de3d3d22f0",
+          "bytes": 29248,
+          "cues": 305,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "inuyashiki-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_04.kk.srt",
+          "sha256": "b136dff98b1cbe49c0d43004629d2d16bd125f4a82ee688777269c5e3d40dc2f",
+          "bytes": 22098,
+          "cues": 285,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_04.kk.vtt",
+          "sha256": "016b7f3f6d5c271cec1cf2051660bea380def67b2666c6987c5ed56a68a0eba5",
+          "bytes": 22195,
+          "cues": 285,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_04.kk.ass",
+          "sha256": "fff49fc8751e49029323d4b14510277cea1840c2dae0c7e648f2ea0dd2e18a98",
+          "bytes": 27191,
+          "cues": 285,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "inuyashiki-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_05.kk.srt",
+          "sha256": "d5b1a42e2ad4bc01fa12f0329ff35c946510b39adda8812d4baf2f2a6dd38dbc",
+          "bytes": 29497,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_05.kk.vtt",
+          "sha256": "41c9aeafe94932662cf105ceadda651be65f5352bd41c0779e04226e0ee7caeb",
+          "bytes": 29594,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_05.kk.ass",
+          "sha256": "2d528d376ee2011ade09ebb2bf5e56948e5136ece6826c68bdc5ec156588034d",
+          "bytes": 35820,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "inuyashiki-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_06.kk.srt",
+          "sha256": "a411de373db84403eb6abc258c736ceb60bb1b3395b77b34a0ef74c7a828d11a",
+          "bytes": 24633,
+          "cues": 296,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_06.kk.vtt",
+          "sha256": "1cc0c0af40a4fbe3d9da26525faf65707a0e1397edb1510b257ce30016e565cc",
+          "bytes": 24730,
+          "cues": 296,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_06.kk.ass",
+          "sha256": "c25c3b845ca200a1fb964d14d1ac4ac3d705e452eb33b3d0d30ffd0e1809fb3a",
+          "bytes": 29891,
+          "cues": 296,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "inuyashiki-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_07.kk.srt",
+          "sha256": "e8e39e48ac6e48908458c11ce475d4141b735ff48901c8ec90a59843b6c592ed",
+          "bytes": 21204,
+          "cues": 263,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_07.kk.vtt",
+          "sha256": "6516db8362e22aff0b868353f2e9c9b5bc5a4f7056d0a93a514ca3d6850a2949",
+          "bytes": 21301,
+          "cues": 263,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_07.kk.ass",
+          "sha256": "e039aee2735621096370d22a5c57da4f866b762b9dc7845bb706d6d50ba3f9ca",
+          "bytes": 25967,
+          "cues": 263,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "inuyashiki-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_08.kk.srt",
+          "sha256": "648f235614caf0d777f83fb724205590de30134db27ddf5f0a5fddd3f41a4638",
+          "bytes": 21606,
+          "cues": 267,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_08.kk.vtt",
+          "sha256": "3e4211a588cae5f82828de3e3f51dd9fd50adf1c0b372794048e754671157e2f",
+          "bytes": 21703,
+          "cues": 267,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_08.kk.ass",
+          "sha256": "aff03b52e96bebac5a96a7a96dbd40d64e69f2c909ac03b087ffff5af9a356fa",
+          "bytes": 26429,
+          "cues": 267,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "inuyashiki-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_09.kk.srt",
+          "sha256": "00711b15eea55905cc5e422ad44ae8b1d1fbd57f83b0ac4b14119fcb9aca6053",
+          "bytes": 25648,
+          "cues": 272,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_09.kk.vtt",
+          "sha256": "4ce7edbe2a117e52e7d3110cb4558881a89116841d6edb2e20efad2dcea5a5e8",
+          "bytes": 25745,
+          "cues": 272,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_09.kk.ass",
+          "sha256": "056e40d1ce21fc421198a75b4baa67f54612b56a839b7a0ee39fad4cbafeae80",
+          "bytes": 30546,
+          "cues": 272,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "inuyashiki-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_10.kk.srt",
+          "sha256": "dd874be2713eebdd47d124a4301b0cc1bf6ef3f0b4f8232ac07e9d11a60c645f",
+          "bytes": 18098,
+          "cues": 225,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_10.kk.vtt",
+          "sha256": "3375e7c4592d02dd29c3cdbc8fad5ae7cacf88cac80ff73a1c40a48d78ab64ad",
+          "bytes": 18195,
+          "cues": 225,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_10.kk.ass",
+          "sha256": "3b00e7f78fba3f9831dde6f58fcecf01a1c1705aa3b6fb5b9c2eae5f650c25ea",
+          "bytes": 22291,
+          "cues": 225,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "inuyashiki-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyashiki/inuyashiki-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyashiki/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyashiki/ep_11.kk.srt",
+          "sha256": "5396aaf593c1cd5b9a049f5aee53a549fd1b1c952281263f713a2091973428e1",
+          "bytes": 22522,
+          "cues": 289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyashiki/ep_11.kk.vtt",
+          "sha256": "4c51af63dcf237dfd613167a095aa184508d98ac618bf252c3de3fb1824852cc",
+          "bytes": 22619,
+          "cues": 289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyashiki/ep_11.kk.ass",
+          "sha256": "eefade13c85495ce4a6a66619d726e523f03c3f790a898fc34011a545bf816fe",
+          "bytes": 27675,
+          "cues": 289,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 34,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/inuyashiki.json"
 }

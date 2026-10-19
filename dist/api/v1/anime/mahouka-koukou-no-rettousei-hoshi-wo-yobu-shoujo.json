@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Mahouka Koukou no Rettousei. Hoshi wo Yobu Shoujo - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo.jpg",
+  "description": "Mahouka Koukou no Rettousei. Hoshi wo Yobu Shoujo - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/ep_01.kk.srt",
+          "sha256": "157bb5918dfadb400db4b031bbc11108d609c21b9dbaf1088bf22b63cf196698",
+          "bytes": 98250,
+          "cues": 1074,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/ep_01.kk.vtt",
+          "sha256": "840d2786ebcce3697b331a254e5105e18230c603b6bc8807a69b0832a318eb35",
+          "bytes": 98347,
+          "cues": 1074,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo/ep_01.kk.ass",
+          "sha256": "e9ea1983222a1df5259773ce9f6c1e6e1f7d033c9fe8c683759e5edff411c6d9",
+          "bytes": 115344,
+          "cues": 1074,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mahouka-koukou-no-rettousei-hoshi-wo-yobu-shoujo.json"
 }

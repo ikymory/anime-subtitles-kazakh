@@ -16,24 +16,56 @@
     "Sports",
     "Slice of Life"
   ],
-  "description": "Free! - Road to the World - Dream - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/free-road-to-the-world-yume.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/free-road-to-the-world-yume.jpg",
+  "description": "Free! - Road to the World - Dream - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 98400,
+  "catalog_id": "free-road-to-the-world-yume",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "free-road-to-the-world-yume-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-road-to-the-world-yume/free-road-to-the-world-yume-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-road-to-the-world-yume/free-road-to-the-world-yume-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-road-to-the-world-yume/free-road-to-the-world-yume-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-road-to-the-world-yume/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-road-to-the-world-yume/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-road-to-the-world-yume/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/free-road-to-the-world-yume/ep_01.kk.ass",
+          "sha256": "7c80af9cc0d4fc1109c2fa19eea028326a8c9c4e56026350ea64f559f6e97e81",
+          "bytes": 155698,
+          "cues": 1441,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/free-road-to-the-world-yume/ep_01.kk.srt",
+          "sha256": "e79dcadc50f54cfd4b4f4033b42da42708e8e6e3245292d666e35f184bf3303f",
+          "bytes": 133428,
+          "cues": 1440,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/free-road-to-the-world-yume/ep_01.kk.vtt",
+          "sha256": "4759f60edb06e83084aa6bd60ea95f1f62fbde87f1520d16b7e26671e4ba680e",
+          "bytes": 133436,
+          "cues": 1440,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/free-road-to-the-world-yume.json"
 }

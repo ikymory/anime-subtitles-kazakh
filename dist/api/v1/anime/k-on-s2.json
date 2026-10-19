@@ -13,9 +13,18 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5680-r3AI3Cwfv0Aq.png",
+  "averageScore": 84,
+  "popularity": 52235,
+  "color": "hsl(24, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5680-Mc9n4eFI4i0Y.jpg",
+  "catalog_id": "k-on-s2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -44,272 +53,868 @@
     25,
     26
   ],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "k-on-s2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_01.kk.srt",
+          "sha256": "427fb0e53d9285de276a76d9fda5720483df704e8a2e68190eec52b40eb95b28",
+          "bytes": 33569,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_01.kk.vtt",
+          "sha256": "5e8a2e3b25d860870ead34c25b86a7ee52608f268afe46a3f6079426bebd19ca",
+          "bytes": 33666,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_01.kk.ass",
+          "sha256": "5e4b73dcdda2561a7400c0b9b63922acd8a2995ef6270ceb260614a68a1ab553",
+          "bytes": 40504,
+          "cues": 408,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "k-on-s2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_02.kk.srt",
+          "sha256": "515b3d41318637914e68cb2656c9bde5932324a2029fbf4f55d84afbefc061b0",
+          "bytes": 38203,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_02.kk.vtt",
+          "sha256": "ca073df33f77a9c2e4f1d30146f0d90ac5f1cbb34c105fe1629d9b4cc3475dde",
+          "bytes": 38300,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_02.kk.ass",
+          "sha256": "0b0111bbcd2e4a825cc52d0f40716347714d0efe7cd2b64be5481746abadc545",
+          "bytes": 45843,
+          "cues": 455,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "k-on-s2-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_03.kk.srt",
+          "sha256": "5b687e14d8ed92c03f9ff5a302064731d1db3a4ee31291cee3134528bdf84f20",
+          "bytes": 34835,
+          "cues": 421,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_03.kk.vtt",
+          "sha256": "1cd42d7198d5db506985798c609a0ca14dd944234c7a883ef23f9c536aa20c47",
+          "bytes": 34932,
+          "cues": 421,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_03.kk.ass",
+          "sha256": "9d0238a06186bf727ccb96dc9e3a61dcd85b9b6ca1f7e9783e7ff49ecd7e748e",
+          "bytes": 41965,
+          "cues": 421,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "k-on-s2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_04.kk.srt",
+          "sha256": "8710eee42957627cac1aaa3bbb8a7f2b4ad0306d1d0a4778e091663edde54b6c",
+          "bytes": 35537,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_04.kk.vtt",
+          "sha256": "6077824929bd585881a32c9d950ca773a59d3e5ac5f7dcdb6b67fd06514a09f4",
+          "bytes": 35634,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_04.kk.ass",
+          "sha256": "2999fea996cc88a68638696ad308b19068aa921c607dd38842a89d7cb1cfc293",
+          "bytes": 42937,
+          "cues": 439,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "k-on-s2-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_05.kk.srt",
+          "sha256": "74b45963e2b9b7a3eade48cb1b04f6153fe8a86bd6d5d3f7d6a523e634263595",
+          "bytes": 31426,
+          "cues": 398,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_05.kk.vtt",
+          "sha256": "267f1cf097dcf16de7c995e4eee4d7eac2ac562c170fbc96fc1830cb441eb083",
+          "bytes": 31523,
+          "cues": 398,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_05.kk.ass",
+          "sha256": "f697104c43e7340d44e750fbd278f1626f32636f7806069d5be7a1cdc1ea74c3",
+          "bytes": 38211,
+          "cues": 398,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "k-on-s2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_06.kk.srt",
+          "sha256": "c0c8d8bbcdffc1346af1daeb1940531672d6382c94932f1961653134e5148968",
+          "bytes": 35659,
+          "cues": 445,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_06.kk.vtt",
+          "sha256": "76cbaad203c748bd8193b318018c5930f6d8fba527488462e0a813ff447b53a4",
+          "bytes": 35756,
+          "cues": 445,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_06.kk.ass",
+          "sha256": "66e35c688f8a3dc39017bf5589192d67d39c794384e97bcba6c0c75136641cf3",
+          "bytes": 43149,
+          "cues": 445,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "k-on-s2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_07.kk.srt",
+          "sha256": "11e0a9a6f7c26913f2ba5ed392e3d50f3a9581956e5d8a85264e17124e6b2906",
+          "bytes": 41554,
+          "cues": 463,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_07.kk.vtt",
+          "sha256": "8b1a5d6083393c33c051bb1f48024c4f245a10b65bb78316b6173f54ff69d620",
+          "bytes": 41651,
+          "cues": 463,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_07.kk.ass",
+          "sha256": "6ba8f42ef5a774c243a96c56886b55072f7f502b73c5b8e6ac8c79f40d7367a9",
+          "bytes": 49314,
+          "cues": 463,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "k-on-s2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_08.kk.srt",
+          "sha256": "bee93c47a6b0635d9d9eb28d16aab44cb97d5f4b3810b3716dd932c811f56c05",
+          "bytes": 33419,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_08.kk.vtt",
+          "sha256": "b9c46acf0c42aa01e916e3c6490e23af82acdb8f63809a2f9c030777f69b2c2c",
+          "bytes": 33516,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_08.kk.ass",
+          "sha256": "172472a6f01852b4bd5caaa0965f28f8a50434d7730b84b156c6174025f3c2da",
+          "bytes": 39919,
+          "cues": 379,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "k-on-s2-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_09.kk.srt",
+          "sha256": "861aca92d30bf7b1b6cdcd0c19eeb494feee3bb7e2a09b091981a5b2b53fcd6a",
+          "bytes": 34348,
+          "cues": 444,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_09.kk.vtt",
+          "sha256": "ac8417b9183eb518eff283e47c8e552293a74492cff942db24786b3962e8b18c",
+          "bytes": 34445,
+          "cues": 444,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_09.kk.ass",
+          "sha256": "619b72f74dc4a525988795881fac31dd7b6c7a616f0294bede1ec1b9b821f501",
+          "bytes": 41823,
+          "cues": 444,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "k-on-s2-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_10.kk.srt",
+          "sha256": "dfdb487b29cf09f3bf3cb6e83c19535d2f4b7e2c41280d5ea6e5819305d641c6",
+          "bytes": 36538,
+          "cues": 449,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_10.kk.vtt",
+          "sha256": "491455933e2f417ba3cd7f507011be5d9f6b57d1b615b8bef5f3d57eac40fc14",
+          "bytes": 36635,
+          "cues": 449,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_10.kk.ass",
+          "sha256": "880ddc3ffd03685e3efae91a3ad8617adb0f01a6005fd7f15cb69a92e7381983",
+          "bytes": 44088,
+          "cues": 449,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "k-on-s2-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_11.kk.srt",
+          "sha256": "3d0b5cce9a4947c3fe219db44941338d78f1a443dc9809c296c5349f9139fd6c",
+          "bytes": 34632,
+          "cues": 406,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_11.kk.vtt",
+          "sha256": "796cefecc5a90b5df87d25123db302f4e8160da81e542f7b9849c904c1177fce",
+          "bytes": 34729,
+          "cues": 406,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_11.kk.ass",
+          "sha256": "df4553a60ed9811107165231ed4863427e9863b1e85a2ed6047628067d0084bd",
+          "bytes": 41537,
+          "cues": 406,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "k-on-s2-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_12.kk.srt",
+          "sha256": "8cf56de90351e2500cb28546f202f029f0738d82c240ac957ff3968cc380d443",
+          "bytes": 38143,
+          "cues": 460,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_12.kk.vtt",
+          "sha256": "4ecf8c1ed8b767d3ec16f9225f0dec0158e63f1ff8d8b7514d95b648d221e46f",
+          "bytes": 38240,
+          "cues": 460,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_12.kk.ass",
+          "sha256": "9e8dab47a75d7b30d3f6f4b9e6542f1810d647f563bb6ab090933f5ece9df3b1",
+          "bytes": 45858,
+          "cues": 460,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "k-on-s2-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_13.kk.srt",
+          "sha256": "4b64b20cab45621c2412f9c5d87c96937643f5e82d4770c56c0c661acfe72e3f",
+          "bytes": 34300,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_13.kk.vtt",
+          "sha256": "d30c932289077ec0fbab8d53f1a91247a3945d64ef8c0b28dbbc13c0720ad82a",
+          "bytes": 34397,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_13.kk.ass",
+          "sha256": "664584ffca85491f40f1bd6786cdf3c0e702d7d889f2588ab53eff390b646e7d",
+          "bytes": 41310,
+          "cues": 413,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "k-on-s2-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_14.kk.srt",
+          "sha256": "7577cc36bd1497486a2be3cb1e7e1a0b624a11bd4aae000ac2e6d26897c05366",
+          "bytes": 37870,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_14.kk.vtt",
+          "sha256": "e0b10665e23d4d9564dc89784f8f46f6871f98a840121de86ad087a9bfad955e",
+          "bytes": 37967,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_14.kk.ass",
+          "sha256": "dddc36b945c4aa2ba727a42fa266a8654fd817947d9f6e20bad1040ca6e0144f",
+          "bytes": 45510,
+          "cues": 455,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "k-on-s2-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-15ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_15.kk.srt",
+          "sha256": "bcad358caffba621e4810e7ad550d13af5982f960d47bc1ad91d128e43bc65e2",
+          "bytes": 33694,
+          "cues": 396,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_15.kk.vtt",
+          "sha256": "9aa0a48c5285ced3e8670f2a30a6dd1858c24c8e799fda91a36191eb88bd2cda",
+          "bytes": 33791,
+          "cues": 396,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_15.kk.ass",
+          "sha256": "16a3be35ab1d17faee42b0df0e4802862fd8a090a2576c41c52be787eb4661e8",
+          "bytes": 40449,
+          "cues": 396,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "k-on-s2-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-16ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_16.kk.srt",
+          "sha256": "1859a598f3d2edac9bc28554da0f9a537b836594817ad15c8aac9896b7faf7c1",
+          "bytes": 37806,
+          "cues": 466,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_16.kk.vtt",
+          "sha256": "e3eae9900cd2fcbc29a2fefcf6271f03707c4beee082f6b18a92332f9faf2e06",
+          "bytes": 37903,
+          "cues": 466,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_16.kk.ass",
+          "sha256": "5ba9488474a6813ece413ba91e845b49f29d32c62be969efec8468ff13d9ab2d",
+          "bytes": 45611,
+          "cues": 466,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "k-on-s2-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_17.kk.srt",
+          "sha256": "1fd051a8de5a8ec59fe057de88c9d447c6ea1bf039479545685d8ae0d9d1120c",
+          "bytes": 38826,
+          "cues": 468,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_17.kk.vtt",
+          "sha256": "fbbbed2646b577328ba614502da070a79bbdcded29eaa38ee13b7d37dd34217b",
+          "bytes": 38923,
+          "cues": 468,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_17.kk.ass",
+          "sha256": "c360e80fbc7ca27f10b762ab0b78d1656626bf0a0c8968a0195b1bfb794bd816",
+          "bytes": 46661,
+          "cues": 468,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "k-on-s2-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-18ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_18.kk.srt",
+          "sha256": "eebf2d6ea0206eea3a5fe99e1bc40a2f8773d9ad14ba6ab07688c56fbf3aacf1",
+          "bytes": 42301,
+          "cues": 510,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_18.kk.vtt",
+          "sha256": "56b7d18cafb54416ff0883ec3b7f337b613029091cdeab153099ef2c46ec76de",
+          "bytes": 42398,
+          "cues": 510,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_18.kk.ass",
+          "sha256": "356146e5fa7be85b85320512dcff9b198d0381f313bd4fc01d6d6585d3a3d5dd",
+          "bytes": 50766,
+          "cues": 510,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "k-on-s2-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-19ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_19.kk.srt",
+          "sha256": "ac4a2733de6dc724831fe7cbe2e2f2314d16cc1c96d9a8d1b706f61eb340bf12",
+          "bytes": 38789,
+          "cues": 461,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_19.kk.vtt",
+          "sha256": "9c31c7a71bb971a269f3ee5cd6e9d4bd213e87c5070e5e91adde07490a15b524",
+          "bytes": 38886,
+          "cues": 461,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_19.kk.ass",
+          "sha256": "6cc5ed30f37d862572d59eadc111bdcc0b7e8c0815f5a7dd4a218e625477640b",
+          "bytes": 46519,
+          "cues": 461,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "k-on-s2-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-20ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_20.kk.srt",
+          "sha256": "46ab62a4188279092f0dabdb26eb95e0f3874b67bb688d1e973b95659bfee129",
+          "bytes": 31902,
+          "cues": 397,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_20.kk.vtt",
+          "sha256": "585e3b2b33f8ce721d4ed35941881ed9ec4dbddcfde404fe41a674d3f8e3d231",
+          "bytes": 31999,
+          "cues": 397,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_20.kk.ass",
+          "sha256": "f500208ab9d29b7837498a6adcc85148470b8c8fdbaedaa4fab09d3b3e93719f",
+          "bytes": 38672,
+          "cues": 397,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "k-on-s2-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-21ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_21.kk.srt",
+          "sha256": "17f4a6cce2c8080c90656f67d71d412147c4086c9de694e9c68797adb81a6c39",
+          "bytes": 32691,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_21.kk.vtt",
+          "sha256": "6a94404009d3a56cf669a27e2aad5ca15564e47377552bd1f1253af36a7e8132",
+          "bytes": 32788,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_21.kk.ass",
+          "sha256": "f5e2bb37c608dee9ee9d16c0c0784434fffdfe40ffb2ae75bc732c651a50efbc",
+          "bytes": 39626,
+          "cues": 408,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "k-on-s2-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-22ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_22.kk.srt",
+          "sha256": "a66aaf93f130269a8ff62bbab4ea3b874d7eaad4cc16da1d579e9d533fa400b9",
+          "bytes": 38179,
+          "cues": 499,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_22.kk.vtt",
+          "sha256": "a75035f4e06e6bc53e46785c50bbef0156dde8b819a0c157201c427d78efd91e",
+          "bytes": 38276,
+          "cues": 499,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_22.kk.ass",
+          "sha256": "6b0c68402facb186c217d7d5ac03d8105e0c5757c4b4e4c5793fd95cd5519dad",
+          "bytes": 46479,
+          "cues": 499,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "k-on-s2-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-23ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_23.kk.srt",
+          "sha256": "9a3d0cf628dbeb1b2d7ca8631ea28fe95f8b0343e6d023126a3c0593aec0211f",
+          "bytes": 37489,
+          "cues": 474,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_23.kk.vtt",
+          "sha256": "8ce9f8f6e4f5123a0cf714bac7839393b7d286f0070c437d05d275873ac93882",
+          "bytes": 37586,
+          "cues": 474,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_23.kk.ass",
+          "sha256": "a7c4a96af777923e0a68b72afc5718d00f5c39a97023e15b701685e95e762ea3",
+          "bytes": 45414,
+          "cues": 474,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "k-on-s2-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-24ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_24.kk.srt",
+          "sha256": "a79c91afdab9945e41ee6f31948a71b381927bd53662da0084430994670deefe",
+          "bytes": 33352,
+          "cues": 419,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_24.kk.vtt",
+          "sha256": "472001133154bd55f875eebe33a8d3379cf4038e1b766e07d985f66c79d54851",
+          "bytes": 33449,
+          "cues": 419,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_24.kk.ass",
+          "sha256": "d2b440cd60cdcd3ed84c0840bfdcb4e2248067e126380e42f1327480073c06e4",
+          "bytes": 40452,
+          "cues": 419,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "k-on-s2-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-25ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_25.kk.srt",
+          "sha256": "0fc0c15eb5edca34c8fcf6f8789d9606a29b04214f83284d4487f5ee0fe9555e",
+          "bytes": 41125,
+          "cues": 456,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_25.kk.vtt",
+          "sha256": "9f600d93540f3602f7f37472064dd1466aa70675df6282c31b65a28a2048dac8",
+          "bytes": 41222,
+          "cues": 456,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_25.kk.ass",
+          "sha256": "ec164b7c7d206d1945ef4cd551ea2f49df7316799374c06fa08ba74b0a356be4",
+          "bytes": 48780,
+          "cues": 456,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "k-on-s2-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/k-on-s2/k-on-s2-26ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/k-on-s2/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/k-on-s2/ep_26.kk.srt",
+          "sha256": "30de922fc81835db3745c947d7ae22c97efb343f75f8429c66b135fa0b292184",
+          "bytes": 34536,
+          "cues": 419,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/k-on-s2/ep_26.kk.vtt",
+          "sha256": "59f98e90205133b9724651faa68b88fe14b74df838bf069f0706bf8fdda138e2",
+          "bytes": 34633,
+          "cues": 419,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/k-on-s2/ep_26.kk.ass",
+          "sha256": "9073d3ff1b64c28356e237c91595d050da29b1915df428930fa08a5525d914aa",
+          "bytes": 41636,
+          "cues": 419,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(24, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 84,
-  "popularity": 52235,
-  "translated_episodes_count": 26
+  "quality_issues_count": 81,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/k-on-s2.json"
 }

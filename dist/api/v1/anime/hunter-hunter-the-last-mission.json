@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "HUNTER×HUNTER. THE LAST MISSION - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hunter-hunter-the-last-mission.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hunter-hunter-the-last-mission.jpg",
+  "description": "HUNTER×HUNTER. THE LAST MISSION - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hunter-hunter-the-last-mission",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hunter-hunter-the-last-mission-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hunter-hunter-the-last-mission/hunter-hunter-the-last-mission-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hunter-hunter-the-last-mission/hunter-hunter-the-last-mission-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hunter-hunter-the-last-mission/hunter-hunter-the-last-mission-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hunter-hunter-the-last-mission/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hunter-hunter-the-last-mission/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hunter-hunter-the-last-mission/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hunter-hunter-the-last-mission/ep_01.kk.srt",
+          "sha256": "e2c5d6d76b491f04a2ab40de91a670713114a11e05d6e838ba575223ee71c614",
+          "bytes": 113040,
+          "cues": 1408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hunter-hunter-the-last-mission/ep_01.kk.vtt",
+          "sha256": "b725f2b1dae22554f8f601e6aaec249be6cd7d1e8a84db1aef0970785197438e",
+          "bytes": 113137,
+          "cues": 1408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hunter-hunter-the-last-mission/ep_01.kk.ass",
+          "sha256": "2775200b6106fe7c0be42b244dfc3ce780238abcf3619b061a42111a28fb5ec1",
+          "bytes": 134629,
+          "cues": 1408,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hunter-hunter-the-last-mission.json"
 }

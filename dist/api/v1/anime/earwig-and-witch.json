@@ -13,39 +13,92 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119321-Gc4A3x0vNgWH.jpg",
+  "averageScore": 75,
+  "popularity": 63398,
+  "color": "hsl(252, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119321-dW8t32VfKviE.jpg",
+  "catalog_id": "earwig-and-witch",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     264
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "earwig-and-witch-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-witch/earwig-and-witch-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-witch/earwig-and-witch-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-witch/earwig-and-witch-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-witch/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-witch/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-witch/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/earwig-and-witch/ep_01.kk.srt",
+          "sha256": "f077665daf50ae4bb23316159149e1581d744ffe1eb2965158d6b818617457a8",
+          "bytes": 101076,
+          "cues": 1289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/earwig-and-witch/ep_01.kk.vtt",
+          "sha256": "bebf930452c6d5a5227787e8dddc5c3741257ce532ea23851054368ed000c966",
+          "bytes": 101173,
+          "cues": 1289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/earwig-and-witch/ep_01.kk.ass",
+          "sha256": "d7baa05cb7c661892df4f6f8e898aa8d9881464223a7906dffcd564a35eea9f9",
+          "bytes": 120945,
+          "cues": 1289,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 264,
       "language": "kk",
-      "filename": "earwig-and-witch-264ep.srt",
+      "filename": "ep_264.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-witch/earwig-and-witch-264ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-witch/earwig-and-witch-264ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-witch/earwig-and-witch-264ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-witch/ep_264.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-witch/ep_264.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-witch/ep_264.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/earwig-and-witch/ep_264.kk.srt",
+          "sha256": "b1ac0e32794c5775f05f1e5ef35931e5b428ce94d97cfcba283bd07f12db8385",
+          "bytes": 86687,
+          "cues": 1016,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/earwig-and-witch/ep_264.kk.vtt",
+          "sha256": "ef39a3243bf9d8eab69452c8a4aa6b2215d437f2f197b00baa3033c44ec8cbde",
+          "bytes": 86784,
+          "cues": 1016,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/earwig-and-witch/ep_264.kk.ass",
+          "sha256": "4acc99d9380b344cd8fc1352b04ee42743756de838088a6bd4ae92bcf9a51344",
+          "bytes": 102734,
+          "cues": 1016,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(252, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 75,
-  "popularity": 63398,
-  "translated_episodes_count": 2
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/earwig-and-witch.json"
 }

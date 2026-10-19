@@ -15,28 +15,59 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Dragon Ball Z: Battle of Gods.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/14837.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14837-dMPlW45GA8BE.jpg",
+  "description": "Kazakh subtitles for Dragon Ball Z: Battle of Gods.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "dragon-ball-z-battle-of-gods",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-z-battle-of-gods-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-battle-of-gods/dragon-ball-z-battle-of-gods-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-battle-of-gods/dragon-ball-z-battle-of-gods-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-battle-of-gods/dragon-ball-z-battle-of-gods-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-battle-of-gods/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-battle-of-gods/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-battle-of-gods/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-z-battle-of-gods/ep_01.kk.srt",
+          "sha256": "376c63bb4d703d2e8de285bbfcca993da1de8506af62f90fe5f47e4851d7ff02",
+          "bytes": 136793,
+          "cues": 1659,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-z-battle-of-gods/ep_01.kk.vtt",
+          "sha256": "b01317487a0aec2249f3f206c855a2219e06bc2d44d801592fa8e80c286cb8d5",
+          "bytes": 136890,
+          "cues": 1659,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-z-battle-of-gods/ep_01.kk.ass",
+          "sha256": "87f4994beb660b4b39f2c4ea09bb1b2e01bf5521d75acb79e3ca599c2fc7be2e",
+          "bytes": 164248,
+          "cues": 1659,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-battle-of-gods.json"
 }

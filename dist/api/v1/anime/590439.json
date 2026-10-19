@@ -3,30 +3,68 @@
   "slug": "kikis-delivery-service",
   "title": {
     "romaji": "Kikis Delivery Service",
-    "english": "Kikis Delivery Service"
+    "english": "Kikis Delivery Service",
+    "kazakh": "Кикидің жеткізу қызметі",
+    "kk": "Кикидің жеткізу қызметі"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 1989,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx512-UwP8X4BR8YoM.png",
+  "averageScore": 81,
+  "popularity": 76046,
+  "color": "hsl(165, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/512-Ssp3EE2NdeoA.jpg",
+  "catalog_id": "kikis-delivery-service",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kikis-delivery-service-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kikis-delivery-service/kikis-delivery-service-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kikis-delivery-service/kikis-delivery-service-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kikis-delivery-service/kikis-delivery-service-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kikis-delivery-service/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kikis-delivery-service/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kikis-delivery-service/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kikis-delivery-service/ep_01.kk.srt",
+          "sha256": "a00fc2f2cd8e2a6acb2f05df71763b1ed957ed2bc77d0b888f35774a9bb93e32",
+          "bytes": 113672,
+          "cues": 1236,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kikis-delivery-service/ep_01.kk.vtt",
+          "sha256": "ffe604645c71e361168b5dee1a7eca45b18d738b0b9b06ee4ed38d732222a8b9",
+          "bytes": 113769,
+          "cues": 1236,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kikis-delivery-service/ep_01.kk.ass",
+          "sha256": "eeba2c61d9528758152c94b0e5f85cad4d3da1d9dfb3d690c187f5a61b182257",
+          "bytes": 132805,
+          "cues": 1236,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kikis-delivery-service.json"
 }

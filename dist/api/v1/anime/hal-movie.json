@@ -16,24 +16,56 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "Hal - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hal-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hal-movie.jpg",
+  "description": "Hal - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "hal-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hal-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hal-movie/hal-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hal-movie/hal-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hal-movie/hal-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hal-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hal-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hal-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hal-movie/ep_01.kk.srt",
+          "sha256": "ce68e98b844ca399bc880e8c59cc5d348b082af94ae1e4aa45f59290216dd5f6",
+          "bytes": 38930,
+          "cues": 488,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hal-movie/ep_01.kk.vtt",
+          "sha256": "172a1be4a7d508c1cf18b3cf858f21d374a4fb430c9950d3cb17b61c9bcaa59c",
+          "bytes": 39027,
+          "cues": 488,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hal-movie/ep_01.kk.ass",
+          "sha256": "198db0520507b31f93cc78543524e67aae056997be95874f1874b463795c30df",
+          "bytes": 52266,
+          "cues": 488,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hal-movie.json"
 }

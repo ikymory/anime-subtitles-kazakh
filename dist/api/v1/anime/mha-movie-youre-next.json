@@ -15,24 +15,56 @@
     "Action",
     "Adventure"
   ],
-  "description": "My Hero Academia: You're Next - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mha-movie-youre-next.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mha-movie-youre-next.jpg",
+  "description": "My Hero Academia: You're Next - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "mha-movie-youre-next",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mha-movie-youre-next-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-movie-youre-next/mha-movie-youre-next-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-movie-youre-next/mha-movie-youre-next-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-movie-youre-next/mha-movie-youre-next-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-movie-youre-next/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-movie-youre-next/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-movie-youre-next/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/mha-movie-youre-next/ep_01.kk.ass",
+          "sha256": "fd2abe7c69bb62275700f542e7ff3efffddb515ed294fb61573cea5b773810b7",
+          "bytes": 151586,
+          "cues": 1542,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/mha-movie-youre-next/ep_01.kk.srt",
+          "sha256": "e9ac26d12d4e1c0fb60530578f70e59e91bcff93959e99dc11212cc4dc1225a8",
+          "bytes": 127902,
+          "cues": 1541,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/mha-movie-youre-next/ep_01.kk.vtt",
+          "sha256": "d6fa897cdcd9081991769dbe1dbd904269fea0cd40a425e5c582badcc2addf1e",
+          "bytes": 127910,
+          "cues": 1541,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mha-movie-youre-next.json"
 }

@@ -16,28 +16,59 @@
     "Comedy",
     "Sci-Fi"
   ],
-  "description": "The average human body contains about 60 trillion cells, and each of them has work to do! But when you get injured, viruses or bacteria invade, or when an allergic reaction flares up, everyone from the silent but deadly white blood cells to the brainy neurons has to work together to get through the crisis!<br>\n<br>\n(Source: Kodansha US)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100977-nH1J2dR7GGAk.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n100977-IztHpiaTckCh.jpg",
+  "description": "The average human body contains about 60 trillion cells, and each of them has work to do! But when you get injured, viruses or bacteria invade, or when an allergic reaction flares up, everyone from the silent but deadly white blood cells to the brainy neurons has to work together to get through the crisis!\n\n(Source: Kodansha US)",
+  "averageScore": 87,
+  "popularity": 59084,
+  "color": "#f1d6ae",
+  "duration": 24,
+  "studio": "david production",
+  "catalog_id": "cells-at-work",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     14
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 14,
       "language": "kk",
-      "filename": "cells-at-work-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cells-at-work/cells-at-work-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cells-at-work/cells-at-work-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cells-at-work/cells-at-work-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cells-at-work/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cells-at-work/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cells-at-work/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cells-at-work/ep_14.kk.srt",
+          "sha256": "1db06a65b1fe07015f11a8ed6153536dc6f53206107f0d8a5ce2a2be202c3ebc",
+          "bytes": 27764,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cells-at-work/ep_14.kk.vtt",
+          "sha256": "31b9c7761861c761b76093a1bae8d27e03d33eff4ae2a9c7dcba9d0bbc42c070",
+          "bytes": 27861,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cells-at-work/ep_14.kk.ass",
+          "sha256": "e57ccaa8d15d305cf826c9925d03c97ab33d5e6ec4fe93dc2a9bd21a508fe623",
+          "bytes": 33985,
+          "cues": 360,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#f1d6ae",
-  "studio": "david production",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 59084,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cells-at-work.json"
 }

@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Acchi Kocchi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/acchi-kocchi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/acchi-kocchi.jpg",
+  "description": "Acchi Kocchi - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "acchi-kocchi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +40,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "acchi-kocchi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_01.kk.srt",
+          "sha256": "0c35cf15e40747e67f2f56a7abf62bf2cd48910366c03ed35ede4513302cd997",
+          "bytes": 28618,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_01.kk.vtt",
+          "sha256": "5b81af0d912ae4cecc28ad4aa78c79a4c7603f8e1aa6eb664bbee147d3f103eb",
+          "bytes": 28715,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_01.kk.ass",
+          "sha256": "48426517a6fc0e5df43bcef572a1c49a726da4644d7a8bc9a4f551cae53566a4",
+          "bytes": 34461,
+          "cues": 331,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "acchi-kocchi-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_02.kk.srt",
+          "sha256": "a4325c1e8ff4727bcac5d08b1801c41d201a590872ba6c4dcc4fe11541535844",
+          "bytes": 31913,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_02.kk.vtt",
+          "sha256": "23a641be5da7f0fa1e61361338de4e780451ca50d2e3022a42addd36bdcb1b57",
+          "bytes": 32010,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_02.kk.ass",
+          "sha256": "b5a2af9cdf5ba407dc9ad1ce98c70dbfa4b4d75d8996557fc9ea579d3512db6d",
+          "bytes": 38131,
+          "cues": 356,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "acchi-kocchi-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_03.kk.srt",
+          "sha256": "4ee06930b6e445a89baa4a678f92e259d59c08bfe969dd767b0ab2eaf798e119",
+          "bytes": 27813,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_03.kk.vtt",
+          "sha256": "ca979b614415388fd9406336366a8ab9f37129f9a0826230fba06b17e5600a6c",
+          "bytes": 27910,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_03.kk.ass",
+          "sha256": "0f9b6c086d2d05b5d8ae9a692e41db92628fd3287e4aa76033f1483901658016",
+          "bytes": 33521,
+          "cues": 322,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "acchi-kocchi-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_04.kk.srt",
+          "sha256": "7daeabad000ff59fc3062a107e9b762099ef27d8720b2000a93c1fff3fd871b7",
+          "bytes": 33903,
+          "cues": 351,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_04.kk.vtt",
+          "sha256": "09b7011208afea4aefd0b8dbd59f114a0300fb274e883ff773cb6903f73b7819",
+          "bytes": 34000,
+          "cues": 351,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_04.kk.ass",
+          "sha256": "5f7fbe1898f017868a91c6b3a8af8c15f00685101e59fa26cfaa3df622f3d96a",
+          "bytes": 40046,
+          "cues": 351,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "acchi-kocchi-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_05.kk.srt",
+          "sha256": "1b7e907188fc3d22db500887a95995dec6b974565cdaabe10db30a98feb3120b",
+          "bytes": 29565,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_05.kk.vtt",
+          "sha256": "657b83a84fac0ec155b337262928d4d1af328b8232e8880dd18a2a1a24924dbf",
+          "bytes": 29662,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_05.kk.ass",
+          "sha256": "921480d1e303a032ae85294e91bd795e1c0bcbe598d3a34e2e3b3139e97f4581",
+          "bytes": 36023,
+          "cues": 372,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "acchi-kocchi-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_06.kk.srt",
+          "sha256": "5e81edc2da1075f1e1112d37e690e5419e6fe7cabf263c56069c7fb8b36e90e0",
+          "bytes": 30758,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_06.kk.vtt",
+          "sha256": "406afafd370559eb7730dae99ae486e079bbf84b485ba5844095e3d0ba527f03",
+          "bytes": 30855,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_06.kk.ass",
+          "sha256": "c5067a58ee895836331ed67faa005402cf6521a464c1b687a668829a42bae27f",
+          "bytes": 37216,
+          "cues": 372,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "acchi-kocchi-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_07.kk.srt",
+          "sha256": "f1b0cd548b17cca78c8cdae4086622fc202ce791afafadc7ef3d563acb67fe78",
+          "bytes": 27691,
+          "cues": 350,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_07.kk.vtt",
+          "sha256": "428a61de9682b4b44479f2b83cfa35ace2166f660929571cd16209636fe1ec28",
+          "bytes": 27788,
+          "cues": 350,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_07.kk.ass",
+          "sha256": "678507e53868b3c3eb270153c4e8d534701c6e24a49372805f33a45ed2780e33",
+          "bytes": 33819,
+          "cues": 350,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "acchi-kocchi-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_08.kk.srt",
+          "sha256": "10b710eda23b507a460bff88c3e0a4b0cb5929ec91b77da5da0df1db13f7c62d",
+          "bytes": 26355,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_08.kk.vtt",
+          "sha256": "e984de6c070cc9e25a9ece4f4e7fc5526b989ec1a868c5acf2a616889cfbd485",
+          "bytes": 26452,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_08.kk.ass",
+          "sha256": "8118ece0c49b073489497766872a01568d16241f730ba3e149fb3f3145137d99",
+          "bytes": 32093,
+          "cues": 324,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "acchi-kocchi-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_09.kk.srt",
+          "sha256": "980659b4baf3d86ad15485e34bfb80f213a3fd882c6d2479ef28c7e92b0a6b86",
+          "bytes": 28416,
+          "cues": 332,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_09.kk.vtt",
+          "sha256": "76162792999f32775f70d573344eb4e4e24237f32a3a157fc0139d37b39a3bbb",
+          "bytes": 28513,
+          "cues": 332,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_09.kk.ass",
+          "sha256": "8d9f61814e3efef7b5da8a97b1cbfbe5f1f15fb4ec571c43fc8ea6a032a2c343",
+          "bytes": 34275,
+          "cues": 332,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "acchi-kocchi-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_10.kk.srt",
+          "sha256": "6e4c6dd95670b3fb95c57bf12fa506f9137fb1a1810fed19eba0aad609167563",
+          "bytes": 30331,
+          "cues": 340,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_10.kk.vtt",
+          "sha256": "5a98e735a4aecfb02638b3277bed8fc3dc2ca5a5e709b1d600b6b5f737e9f715",
+          "bytes": 30428,
+          "cues": 340,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_10.kk.ass",
+          "sha256": "d750bf12536bfe4f65a467a5fd6c45537f37beadbc55b442b6ab4d0554b28ae9",
+          "bytes": 36309,
+          "cues": 340,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "acchi-kocchi-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_11.kk.srt",
+          "sha256": "e0e7fa964e23a2467d100b151e4d7b4565d840f9deea579176b7ce6432347ddb",
+          "bytes": 29565,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_11.kk.vtt",
+          "sha256": "a1f0113632a2f8e3875f25b9b51302cd032ab8fefb458f35e6c2a7c81cdb6f92",
+          "bytes": 29662,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_11.kk.ass",
+          "sha256": "194edb85106e9797295412900c83e7506668eb83917546cc29435b4e59acfec6",
+          "bytes": 35438,
+          "cues": 333,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "acchi-kocchi-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/acchi-kocchi/acchi-kocchi-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/acchi-kocchi/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/acchi-kocchi/ep_12.kk.srt",
+          "sha256": "d274bedfec31cf99891d9d406eea71ef91591d6263e6f9278039eaeec6afc5e5",
+          "bytes": 31832,
+          "cues": 335,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/acchi-kocchi/ep_12.kk.vtt",
+          "sha256": "bab87c1c386a40e2d624053362f15cf251f1e20c369d5416eae29323558ab8fe",
+          "bytes": 31929,
+          "cues": 335,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/acchi-kocchi/ep_12.kk.ass",
+          "sha256": "dc9736207b04caa90ad36f702351fdb20153f538e99657958772a646824446e0",
+          "bytes": 37735,
+          "cues": 335,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/acchi-kocchi.json"
 }

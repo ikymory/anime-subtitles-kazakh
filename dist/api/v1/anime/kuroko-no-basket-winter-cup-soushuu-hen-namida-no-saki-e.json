@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kuroko no Basket. Winter Cup Soushuu-hen - Namida no Saki e - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e.jpg",
+  "description": "Kuroko no Basket. Winter Cup Soushuu-hen - Namida no Saki e - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/ep_01.kk.srt",
+          "sha256": "f18f7fa271b1f8483c679045743deff0552f4fb4681930f63d06a6310fdd93a0",
+          "bytes": 118759,
+          "cues": 1407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/ep_01.kk.vtt",
+          "sha256": "1433fc3fa2ddbaad3b819a28dfe9dcbea99eedb17973f1320225964ef296d29f",
+          "bytes": 118856,
+          "cues": 1407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e/ep_01.kk.ass",
+          "sha256": "9873f0a008e81823aeb492683b59c4df6d5d60507e465d5d597cbefad5a0ed9c",
+          "bytes": 140515,
+          "cues": 1407,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kuroko-no-basket-winter-cup-soushuu-hen-namida-no-saki-e.json"
 }

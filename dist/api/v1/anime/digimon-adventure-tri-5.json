@@ -16,24 +16,56 @@
     "Adventure",
     "Drama"
   ],
-  "description": "Digimon Adventure tri. 5: Coexistence - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-tri-5.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-tri-5.jpg",
+  "description": "Digimon Adventure tri. 5: Coexistence - official Kazakh translation archive by ikymory.",
   "averageScore": 81,
   "popularity": 97200,
+  "catalog_id": "digimon-adventure-tri-5",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "digimon-adventure-tri-5-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/digimon-adventure-tri-5/digimon-adventure-tri-5-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/digimon-adventure-tri-5/digimon-adventure-tri-5-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/digimon-adventure-tri-5/digimon-adventure-tri-5-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-5/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-5/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-5/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/digimon-adventure-tri-5/ep_01.kk.ass",
+          "sha256": "3ff286ab659f77de6d2ffdf0153f13676ca9fa0887983ffc4840678e7ce38210",
+          "bytes": 123965,
+          "cues": 1253,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/digimon-adventure-tri-5/ep_01.kk.srt",
+          "sha256": "6ad043a7e256cbcf4134a47415c5e8cbe2b718e3b9ebd13b6ed75fc1405ce80f",
+          "bytes": 104068,
+          "cues": 1245,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/digimon-adventure-tri-5/ep_01.kk.vtt",
+          "sha256": "9b0e672e7a7377c41db2f0b3681a7b5790773cf09e4dfb705280da657e69b66c",
+          "bytes": 104076,
+          "cues": 1245,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/digimon-adventure-tri-5.json"
 }

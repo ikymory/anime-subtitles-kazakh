@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita no Nankai Dai Bouken - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-nankai-dai-bouken.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-nankai-dai-bouken.jpg",
+  "description": "Doraemon. Nobita no Nankai Dai Bouken - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-no-nankai-dai-bouken",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-no-nankai-dai-bouken-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-nankai-dai-bouken/doraemon-nobita-no-nankai-dai-bouken-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-nankai-dai-bouken/doraemon-nobita-no-nankai-dai-bouken-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-nankai-dai-bouken/doraemon-nobita-no-nankai-dai-bouken-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-nankai-dai-bouken/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-nankai-dai-bouken/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-nankai-dai-bouken/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-no-nankai-dai-bouken/ep_01.kk.srt",
+          "sha256": "0c1e974dcb238026fac91b324519bef99e47fe996d14313b8f7a0dcec35acdcc",
+          "bytes": 127010,
+          "cues": 1563,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-no-nankai-dai-bouken/ep_01.kk.vtt",
+          "sha256": "c46539c7138f3a3c8282470e39e0019b1c97368770a89db58ac0d9697d4ba300",
+          "bytes": 127107,
+          "cues": 1563,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-no-nankai-dai-bouken/ep_01.kk.ass",
+          "sha256": "94fad3f19c7ce0bdd3b8bfdcc834483b9af0ebe737b75c6e615ade9750f902dd",
+          "bytes": 150769,
+          "cues": 1563,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-no-nankai-dai-bouken.json"
 }

@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "gintama-be-forever-yorozuya",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-be-forever-yorozuya.json"
+    },
+    {
+      "slug": "suzumiya-haruhi-no-shoushitsu",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/suzumiya-haruhi-no-shoushitsu.json"
+    }
+  ]
+}

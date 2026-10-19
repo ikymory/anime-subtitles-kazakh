@@ -18,24 +18,56 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "A new Gundam SEED Movie announced as part of the project \"Mobile Suit Gundam SEED PROJECT Ignited\" in celebration of Gundam SEED's upcoming 20th anniversary in 2022.\n<br><br>\nIt is now Cosmic Era (C.E.) 75, two years after the dismantlement of the Destiny Plan, but warfare still continues to rage on between Naturals and Coordinators.\nIndependence movements are now sprouting up across Earth, and invasions by Blue Cosmos grow exponentially stronger...\nTo deal with these predicaments, a World Peace Supervision Organization known as COMPASS has been established, with PLANT Chairwoman Lacus Clyne as the founding leader.\nKira Yamato and the others, as its new members, intervene into various battles for the sake of this peace.\nHowever, as these battles take place, an emergent nation known as 'FOUNDATION' appears, and they propose a joint operation to attack the Blue Cosmos Headquarters.\n\nWill Destiny run its course, or will Kira still have the Freedom to resist against impossible odds?",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134761-UCVG3V6t6gJq.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/134761-rkxgE6nDeSqj.jpg",
+  "description": "A new Gundam SEED Movie announced as part of the project \"Mobile Suit Gundam SEED PROJECT Ignited\" in celebration of Gundam SEED's upcoming 20th anniversary in 2022.\n<br><br>\nIt is now Cosmic Era (C.E.) 75, two years after the dismantlement of the Destiny Plan, but warfare still continues to rage on between Naturals and Coordinators.\nIndependence movements are now sprouting up across Earth, and invasions by Blue Cosmos grow exponentially stronger...\nTo deal with these predicaments, a World Peace Supervision Organization known as COMPASS has been established, with PLANT Chairwoman Lacus Clyne as the founding leader.\nKira Yamato and the others, as its new members, intervene into various battles for the sake of this peace.\nHowever, as these battles take place, an emergent nation known as 'FOUNDATION' appears, and they propose a joint operation to attack the Blue Cosmos Headquarters.\n\nWill Destiny run its course, or will Kira still have the Freedom to resist against impossible odds?",
   "averageScore": 73,
   "popularity": 7615,
+  "catalog_id": "gundam-seed-freedom",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gundam-seed-freedom-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-seed-freedom/gundam-seed-freedom-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-seed-freedom/gundam-seed-freedom-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-seed-freedom/gundam-seed-freedom-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-seed-freedom/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-seed-freedom/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-seed-freedom/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gundam-seed-freedom/ep_01.kk.ass",
+          "sha256": "65600bebe126de16a0edd02824e0b87727417b885b2931d60e196e98330c60e7",
+          "bytes": 226007,
+          "cues": 2232,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gundam-seed-freedom/ep_01.kk.srt",
+          "sha256": "d7ae3b4ffe6ace0a61c978b0ab6f92e347fa7416bc361079ac0e84d0f2aefbeb",
+          "bytes": 192662,
+          "cues": 2231,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gundam-seed-freedom/ep_01.kk.vtt",
+          "sha256": "b35a8c90b620acb0e73d57dba66ace7d571cf4770ee9357b19b3be5b74e6034f",
+          "bytes": 192670,
+          "cues": 2231,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gundam-seed-freedom.json"
 }

@@ -16,24 +16,56 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Appleseed Saga Ex Machina - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/appleseed-saga-ex-machina.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/appleseed-saga-ex-machina.jpg",
+  "description": "Appleseed Saga Ex Machina - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 96000,
+  "catalog_id": "appleseed-saga-ex-machina",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "appleseed-saga-ex-machina-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/appleseed-saga-ex-machina/appleseed-saga-ex-machina-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/appleseed-saga-ex-machina/appleseed-saga-ex-machina-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/appleseed-saga-ex-machina/appleseed-saga-ex-machina-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/appleseed-saga-ex-machina/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/appleseed-saga-ex-machina/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/appleseed-saga-ex-machina/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/appleseed-saga-ex-machina/ep_01.kk.srt",
+          "sha256": "8d1958619f02787ae3f4e2c29f2e5a796e64d1722e57da65c5f503f8cf7cf61f",
+          "bytes": 197232,
+          "cues": 2029,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/appleseed-saga-ex-machina/ep_01.kk.vtt",
+          "sha256": "64cc41140fe2907cfdc93613a81e0cf3f5346facb72909742250a55802cd1a35",
+          "bytes": 197329,
+          "cues": 2029,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/appleseed-saga-ex-machina/ep_01.kk.ass",
+          "sha256": "8d541db8c03957cba5d8a06ee471ae17015491599e4d421d4723035953a208d6",
+          "bytes": 230743,
+          "cues": 2029,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/appleseed-saga-ex-machina.json"
 }

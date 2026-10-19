@@ -17,24 +17,56 @@
     "Comedy",
     "Sci-Fi"
   ],
-  "description": "SAND LAND - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/sand-land-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/sand-land-movie.jpg",
+  "description": "SAND LAND - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "sand-land-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "sand-land-movie-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sand-land-movie/sand-land-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sand-land-movie/sand-land-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sand-land-movie/sand-land-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sand-land-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sand-land-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sand-land-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/sand-land-movie/ep_01.kk.ass",
+          "sha256": "3f81ab35ffda52461533c1c74a9c9017a962adc743190681c2009d0ce6f5112d",
+          "bytes": 186728,
+          "cues": 1717,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/sand-land-movie/ep_01.kk.srt",
+          "sha256": "ee7656e746b6bed84fbd803cdf78309760445a20f3ac274755d464e4e0b55eaf",
+          "bytes": 160594,
+          "cues": 1716,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/sand-land-movie/ep_01.kk.vtt",
+          "sha256": "009da08d57147cff918c4eb42c69b0abfbdf863f1a141d54c03badfaadf997e1",
+          "bytes": 160602,
+          "cues": 1716,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sand-land-movie.json"
 }

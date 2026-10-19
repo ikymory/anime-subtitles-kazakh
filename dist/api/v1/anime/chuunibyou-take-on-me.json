@@ -16,24 +16,56 @@
     "Drama",
     "Romance"
   ],
-  "description": "Love, Chunibyo & Other Delusions! Take On Me - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chuunibyou-take-on-me.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chuunibyou-take-on-me.jpg",
+  "description": "Love, Chunibyo & Other Delusions! Take On Me - official Kazakh translation archive by ikymory.",
   "averageScore": 89,
   "popularity": 106800,
+  "catalog_id": "chuunibyou-take-on-me",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "chuunibyou-take-on-me-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-take-on-me/chuunibyou-take-on-me-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-take-on-me/chuunibyou-take-on-me-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-take-on-me/chuunibyou-take-on-me-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-take-on-me/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-take-on-me/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-take-on-me/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/chuunibyou-take-on-me/ep_01.kk.ass",
+          "sha256": "f90a6e55cb7c7037863eebc816d455cf87ac001a696bf3003b278d600f52037f",
+          "bytes": 142859,
+          "cues": 1363,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/chuunibyou-take-on-me/ep_01.kk.srt",
+          "sha256": "68086a25ffee53ecfde16f1ec9fd64865bba8e2c5d3416eaa0691defddd57bae",
+          "bytes": 121644,
+          "cues": 1361,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-take-on-me/ep_01.kk.vtt",
+          "sha256": "b93bd26f18112206120268a85cd7c9ada6d27f8c9d3c8d8395dd339c9002c707",
+          "bytes": 121652,
+          "cues": 1361,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuunibyou-take-on-me.json"
 }

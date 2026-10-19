@@ -1,0 +1,730 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Anime Subtitles Kazakh API",
+    "version": "1.1.0",
+    "description": "Read-only static JSON and optional self-hosted HTTP API. Entries and tracks do not establish complete series or verified translations. Pages publishes canonical SRT/VTT; self-hosted builds support ASS too."
+  },
+  "servers": [
+    {
+      "url": "https://ikymory.github.io/anime-subtitles-kazakh"
+    },
+    {
+      "url": "http://localhost:8000"
+    }
+  ],
+  "paths": {
+    "/api/v1/anime.json": {
+      "get": {
+        "summary": "Complete static catalog; filter in your client",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Catalog"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/anime/{slug}.json": {
+      "get": {
+        "summary": "Release details; numeric legacy IDs may be ambiguous",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Anime"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/stats.json": {
+      "get": {
+        "summary": "Measured coverage and quality summary",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Stats"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/audit.json": {
+      "get": {
+        "summary": "Full structural/content-review findings",
+        "responses": {
+          "200": {
+            "description": "Audit report",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/anime": {
+      "get": {
+        "summary": "Search and paginate (self-hosted server only)",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaginatedCatalog"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:8000",
+            "description": "Self-hosted API"
+          }
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          {
+            "name": "genre",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1900,
+              "maximum": 2200
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 24
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 1000000,
+              "default": 0
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/anime/{slug}": {
+      "get": {
+        "summary": "Release details (self-hosted server only)",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Anime"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:8000"
+          }
+        ],
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/v1/stats": {
+      "get": {
+        "summary": "Statistics (self-hosted server only)",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Stats"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:8000"
+          }
+        ]
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Self-hosted readiness",
+        "servers": [
+          {
+            "url": "http://localhost:8000"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Dataset loaded"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Error": {
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "properties": {
+          "error": {
+            "type": "object",
+            "required": [
+              "code",
+              "message"
+            ],
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              }
+            }
+          },
+          "matches": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "api_url": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Asset": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256",
+          "bytes",
+          "cues",
+          "origin"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "cues": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "origin": {
+            "enum": [
+              "source",
+              "derived"
+            ]
+          }
+        }
+      },
+      "Episode": {
+        "type": "object",
+        "required": [
+          "episode",
+          "language",
+          "files",
+          "assets"
+        ],
+        "properties": {
+          "episode": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "language": {
+            "const": "kk"
+          },
+          "files": {
+            "type": "object",
+            "properties": {
+              "srt": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "uri"
+              },
+              "vtt": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "uri"
+              },
+              "ass": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "uri"
+              }
+            }
+          },
+          "assets": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Asset"
+            }
+          }
+        }
+      },
+      "AnimeSummary": {
+        "type": "object",
+        "required": [
+          "slug",
+          "catalog_id",
+          "available_episodes_count",
+          "translated_episodes",
+          "translation_status"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Legacy metadata ID; not a verified AniList ID."
+          },
+          "catalog_id": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "title": {
+            "type": "object",
+            "additionalProperties": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "available_episodes_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "translated_episodes_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "translated_episodes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "episodes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Unverified legacy reported episode total."
+          },
+          "translation_status": {
+            "const": "not_human_verified"
+          },
+          "coverage_status": {
+            "const": "unverified"
+          },
+          "metadata_status": {
+            "const": "unverified"
+          },
+          "api_url": {
+            "type": "string"
+          }
+        }
+      },
+      "Anime": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/AnimeSummary"
+          },
+          {
+            "type": "object",
+            "required": [
+              "subtitles"
+            ],
+            "properties": {
+              "subtitles": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Episode"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "Catalog": {
+        "type": "object",
+        "required": [
+          "total",
+          "total_episodes",
+          "total_files",
+          "data"
+        ],
+        "properties": {
+          "total": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "total_episodes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "total_files": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AnimeSummary"
+            }
+          }
+        }
+      },
+      "PaginatedCatalog": {
+        "type": "object",
+        "required": [
+          "total",
+          "limit",
+          "offset",
+          "has_more",
+          "data"
+        ],
+        "properties": {
+          "total": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "offset": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "has_more": {
+            "type": "boolean"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AnimeSummary"
+            }
+          }
+        }
+      },
+      "Stats": {
+        "type": "object",
+        "required": [
+          "total",
+          "total_episodes",
+          "translation_accuracy",
+          "issue_counts"
+        ],
+        "properties": {
+          "total": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "total_episodes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_episode_tracks": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "translation_accuracy": {
+            "const": "not_verified"
+          },
+          "issue_counts": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

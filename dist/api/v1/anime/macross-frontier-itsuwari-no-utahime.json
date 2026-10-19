@@ -18,24 +18,56 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "Macross Frontier: The False Songstress - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-frontier-itsuwari-no-utahime.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-frontier-itsuwari-no-utahime.jpg",
+  "description": "Macross Frontier: The False Songstress - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "macross-frontier-itsuwari-no-utahime",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "macross-frontier-itsuwari-no-utahime-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-frontier-itsuwari-no-utahime/macross-frontier-itsuwari-no-utahime-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-frontier-itsuwari-no-utahime/macross-frontier-itsuwari-no-utahime-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-frontier-itsuwari-no-utahime/macross-frontier-itsuwari-no-utahime-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-frontier-itsuwari-no-utahime/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-frontier-itsuwari-no-utahime/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-frontier-itsuwari-no-utahime/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/macross-frontier-itsuwari-no-utahime/ep_01.kk.srt",
+          "sha256": "0b335060b9bca0a0134dc01caeaa2605b9b7ad041696d50ace7b24fa4862a9e1",
+          "bytes": 141617,
+          "cues": 1628,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/macross-frontier-itsuwari-no-utahime/ep_01.kk.vtt",
+          "sha256": "1931ed7f9bed8c547aa5eb9244056912df4adbf16cec309056b91f29b9f7cad2",
+          "bytes": 141714,
+          "cues": 1628,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/macross-frontier-itsuwari-no-utahime/ep_01.kk.ass",
+          "sha256": "0bc7d62c025f74d70bea4cac09374947aa897660c379f235de3716e95a8655f2",
+          "bytes": 166468,
+          "cues": 1628,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/macross-frontier-itsuwari-no-utahime.json"
 }

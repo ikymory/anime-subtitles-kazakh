@@ -16,24 +16,56 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "The Seven Deadly Sins: Prisoners of the Sky - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanatsu-no-taizai-tenkuu-no-torawarebito.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanatsu-no-taizai-tenkuu-no-torawarebito.jpg",
+  "description": "The Seven Deadly Sins: Prisoners of the Sky - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "nanatsu-no-taizai-tenkuu-no-torawarebito",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "nanatsu-no-taizai-tenkuu-no-torawarebito-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/nanatsu-no-taizai-tenkuu-no-torawarebito-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/nanatsu-no-taizai-tenkuu-no-torawarebito-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/nanatsu-no-taizai-tenkuu-no-torawarebito-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/ep_01.kk.srt",
+          "sha256": "bdf3d43f1d4963587655d734f640bf6d034d573632c76509c3bf54da6aa92964",
+          "bytes": 157277,
+          "cues": 1942,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/ep_01.kk.vtt",
+          "sha256": "a47b552678c72dccb090d2c6fa1874d41fe1f446bf150f3715aad31f0198d5bb",
+          "bytes": 157374,
+          "cues": 1942,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/nanatsu-no-taizai-tenkuu-no-torawarebito/ep_01.kk.ass",
+          "sha256": "e7a5fe5d18350ecaf8c7aad050ff7b0f72dd8c27137678110ab440c6c77b8f4a",
+          "bytes": 186524,
+          "cues": 1942,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nanatsu-no-taizai-tenkuu-no-torawarebito.json"
 }

@@ -3,41 +3,102 @@
   "slug": "patema-inverted",
   "title": {
     "romaji": "Patema Inverted",
-    "english": "Patema Inverted"
+    "english": "Patema Inverted",
+    "kazakh": "Төңкерілген Патема",
+    "kk": "Төңкерілген Патема"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 2,
+  "seasonYear": 2013,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12477-KtZm8BuvrPYo.jpg",
+  "averageScore": 82,
+  "popularity": 62411,
+  "color": "hsl(152, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12477-RngQKNBGkEhp.jpg",
+  "catalog_id": "patema-inverted",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     265
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "patema-inverted-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patema-inverted/patema-inverted-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patema-inverted/patema-inverted-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patema-inverted/patema-inverted-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patema-inverted/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patema-inverted/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patema-inverted/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/patema-inverted/ep_01.kk.srt",
+          "sha256": "010d63f6b928572c61b6499921b16547445771d4b025fec804aadbcba331871a",
+          "bytes": 74412,
+          "cues": 899,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/patema-inverted/ep_01.kk.vtt",
+          "sha256": "90924e1135893fed4c5699a56b4e305acc28cc62d0bf178b2cb9905d3d4a84e9",
+          "bytes": 74509,
+          "cues": 899,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/patema-inverted/ep_01.kk.ass",
+          "sha256": "3081b053d0726af753b834e9364c8f30f8f45601f5508eaaa146cc175b30b972",
+          "bytes": 88720,
+          "cues": 899,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 265,
       "language": "kk",
-      "filename": "patema-inverted-265ep.srt",
+      "filename": "ep_265.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patema-inverted/patema-inverted-265ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patema-inverted/patema-inverted-265ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patema-inverted/patema-inverted-265ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patema-inverted/ep_265.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patema-inverted/ep_265.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patema-inverted/ep_265.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/patema-inverted/ep_265.kk.srt",
+          "sha256": "e4dcbe564b234127fda24d950868722ffbc9fe022e5b274c44cf706433efb8bb",
+          "bytes": 195107,
+          "cues": 1522,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/patema-inverted/ep_265.kk.vtt",
+          "sha256": "ac434a6c8fd7b577293a6e091fc50fb8ff43a76d867bea1142dd4b1db0fafb04",
+          "bytes": 195204,
+          "cues": 1522,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/patema-inverted/ep_265.kk.ass",
+          "sha256": "80662b5d79d041df27be84bbc0e70cd79d9c77ea7d635e09ac1142e39ae2a528",
+          "bytes": 218237,
+          "cues": 1522,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/patema-inverted.json"
 }

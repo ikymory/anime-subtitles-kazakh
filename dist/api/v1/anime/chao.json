@@ -15,24 +15,56 @@
     "Fantasy",
     "Romance"
   ],
-  "description": "In a futuristic world where humans and mermaids coexist, <i>ChaO</i> follows Stephan, a mild-mannered office worker at a shipbuilding company, whose life is upended when he is suddenly proposed to by Chao — a princess from the mermaid kingdom. With no time to make sense of what’s happening, Stephan soon finds himself living with the unpredictable, wholehearted Chao. As her sincere love begins to break down his emotional barriers, an unexpected and touching romance begins to unfold.<br><br>\n(Source: GKIDS)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186169-QRx9StczXhsR.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/186169-LiKdEGKyGkQj.jpg",
+  "description": "In a futuristic world where humans and mermaids coexist, <i>ChaO</i> follows Stephan, a mild-mannered office worker at a shipbuilding company, whose life is upended when he is suddenly proposed to by Chao — a princess from the mermaid kingdom. With no time to make sense of what’s happening, Stephan soon finds himself living with the unpredictable, wholehearted Chao. As her sincere love begins to break down his emotional barriers, an unexpected and touching romance begins to unfold.<br><br>\n(Source: GKIDS)",
   "averageScore": 69,
   "popularity": 3384,
+  "catalog_id": "chao",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "chao-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chao/chao-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chao/chao-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chao/chao-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chao/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chao/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chao/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chao/ep_01.kk.srt",
+          "sha256": "13b7380d96438b19758cc2e833eb155f25312fcb4fbee82f7a481c20305b7844",
+          "bytes": 101708,
+          "cues": 1254,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chao/ep_01.kk.vtt",
+          "sha256": "237d42cbb9881b4c66b7878334c40961c2de80afe61e279f53a1ea415033f55c",
+          "bytes": 101805,
+          "cues": 1254,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chao/ep_01.kk.ass",
+          "sha256": "6ef0c6fb0c56d4c090ff94b24aa930b2607ddee8f4547d4528730d41598e0515",
+          "bytes": 121141,
+          "cues": 1254,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chao.json"
 }

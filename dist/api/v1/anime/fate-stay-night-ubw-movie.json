@@ -16,24 +16,56 @@
     "Fantasy",
     "Supernatural"
   ],
-  "description": "Fate/stay night: Unlimited Blade Works (Movie) - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fate-stay-night-ubw-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fate-stay-night-ubw-movie.jpg",
+  "description": "Fate/stay night: Unlimited Blade Works (Movie) - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "fate-stay-night-ubw-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fate-stay-night-ubw-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-ubw-movie/fate-stay-night-ubw-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-ubw-movie/fate-stay-night-ubw-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-ubw-movie/fate-stay-night-ubw-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-ubw-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-ubw-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-ubw-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fate-stay-night-ubw-movie/ep_01.kk.srt",
+          "sha256": "b2b769e312ec3ada913fa0325480fa907bb8f189d418df19e294b4c532c0336d",
+          "bytes": 111242,
+          "cues": 1317,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fate-stay-night-ubw-movie/ep_01.kk.vtt",
+          "sha256": "7004550dc2081c6a422cc65659141d0bb567f649a2af3ceba7993f4660fde077",
+          "bytes": 111339,
+          "cues": 1317,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fate-stay-night-ubw-movie/ep_01.kk.ass",
+          "sha256": "79b24f72009cc6dc9886b368c4b1f39dcf1f8528d2d73a25d9e05e4f215410f2",
+          "bytes": 131738,
+          "cues": 1317,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-stay-night-ubw-movie.json"
 }

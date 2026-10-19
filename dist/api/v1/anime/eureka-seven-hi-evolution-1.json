@@ -17,24 +17,56 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Eureka Seven Hi-Evolution 1 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/eureka-seven-hi-evolution-1.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/eureka-seven-hi-evolution-1.jpg",
+  "description": "Eureka Seven Hi-Evolution 1 - official Kazakh translation archive by ikymory.",
   "averageScore": 78,
   "popularity": 93600,
+  "catalog_id": "eureka-seven-hi-evolution-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "eureka-seven-hi-evolution-1-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eureka-seven-hi-evolution-1/eureka-seven-hi-evolution-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eureka-seven-hi-evolution-1/eureka-seven-hi-evolution-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eureka-seven-hi-evolution-1/eureka-seven-hi-evolution-1-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eureka-seven-hi-evolution-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eureka-seven-hi-evolution-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eureka-seven-hi-evolution-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/eureka-seven-hi-evolution-1/ep_01.kk.ass",
+          "sha256": "209261ada8f7f219126eb14b10a5389e5d244ade9b6de51476274769e3d5b200",
+          "bytes": 145917,
+          "cues": 1454,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/eureka-seven-hi-evolution-1/ep_01.kk.srt",
+          "sha256": "d681cc9d92058f4c70c1bcf35bcad34da59ca38d5bacfce5efb75468f199bbdc",
+          "bytes": 123354,
+          "cues": 1450,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/eureka-seven-hi-evolution-1/ep_01.kk.vtt",
+          "sha256": "3742cc92bcead8d62162f6a84526adfd74e3fd06fced4804f4e72f28261ad362",
+          "bytes": 123362,
+          "cues": 1450,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/eureka-seven-hi-evolution-1.json"
 }

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Love Live! Sunshine!! The School Idol Movie. Over the Rainbow - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/love-live-sunshine-the-school-idol-movie-over-the-rainbow.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/love-live-sunshine-the-school-idol-movie-over-the-rainbow.jpg",
+  "description": "Love Live! Sunshine!! The School Idol Movie. Over the Rainbow - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "love-live-sunshine-the-school-idol-movie-over-the-rainbow",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "love-live-sunshine-the-school-idol-movie-over-the-rainbow-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/love-live-sunshine-the-school-idol-movie-over-the-rainbow-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/love-live-sunshine-the-school-idol-movie-over-the-rainbow-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/love-live-sunshine-the-school-idol-movie-over-the-rainbow-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/ep_01.kk.srt",
+          "sha256": "6250620fd7e7a69c9b9e812bd19bb02043fbbcb0848ceec862d85554c3b27aff",
+          "bytes": 132783,
+          "cues": 1450,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/ep_01.kk.vtt",
+          "sha256": "93a73a8727d443782ab890305db0ee66e3f5666a0b70c254655bef0888bc8b48",
+          "bytes": 132880,
+          "cues": 1450,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/love-live-sunshine-the-school-idol-movie-over-the-rainbow/ep_01.kk.ass",
+          "sha256": "107537e7c14bb04700137b6abd70cf44d0ff960b61c9f376fe1f6bfc33b26498",
+          "bytes": 155143,
+          "cues": 1450,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/love-live-sunshine-the-school-idol-movie-over-the-rainbow.json"
 }

@@ -15,24 +15,56 @@
     "Adventure",
     "Drama"
   ],
-  "description": "Goodbye, Don Glees! - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/goodbye-don-glees.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/goodbye-don-glees.jpg",
+  "description": "Goodbye, Don Glees! - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "goodbye-don-glees",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "goodbye-don-glees-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goodbye-don-glees/goodbye-don-glees-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goodbye-don-glees/goodbye-don-glees-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goodbye-don-glees/goodbye-don-glees-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goodbye-don-glees/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goodbye-don-glees/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goodbye-don-glees/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goodbye-don-glees/ep_01.kk.srt",
+          "sha256": "91430e218808eb16f604e25c9da2306476a9b550c2dff9293afe881fc208ca56",
+          "bytes": 130055,
+          "cues": 1497,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goodbye-don-glees/ep_01.kk.vtt",
+          "sha256": "dd8ea1b099c7e58abda733b88274cdf9981eff46b66699e2e722f7c8bdda8c88",
+          "bytes": 130152,
+          "cues": 1497,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goodbye-don-glees/ep_01.kk.ass",
+          "sha256": "1bf24be81ba23de6b18e542d07dc773869ab3a5cf6b48db7eb9ed6ba684ada7f",
+          "bytes": 153072,
+          "cues": 1497,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/goodbye-don-glees.json"
 }

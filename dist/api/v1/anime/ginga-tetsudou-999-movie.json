@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Ginga Tetsudou 999 (Movie) - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ginga-tetsudou-999-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ginga-tetsudou-999-movie.jpg",
+  "description": "Ginga Tetsudou 999 (Movie) - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "ginga-tetsudou-999-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ginga-tetsudou-999-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ginga-tetsudou-999-movie/ginga-tetsudou-999-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ginga-tetsudou-999-movie/ginga-tetsudou-999-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ginga-tetsudou-999-movie/ginga-tetsudou-999-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ginga-tetsudou-999-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ginga-tetsudou-999-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ginga-tetsudou-999-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ginga-tetsudou-999-movie/ep_01.kk.srt",
+          "sha256": "55f7b429d169164b99330ffaf21e3a26b4bab89d72801922c531ea795e9856c1",
+          "bytes": 120374,
+          "cues": 1448,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ginga-tetsudou-999-movie/ep_01.kk.vtt",
+          "sha256": "c337015ec89501781246defd4b1a0fc95c895cec05f07d79d213cf8f8caa2ce1",
+          "bytes": 120471,
+          "cues": 1448,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ginga-tetsudou-999-movie/ep_01.kk.ass",
+          "sha256": "a6717684382fdb2a10ffd6db184ab021bc6147dde4c49a11c00ef4314bec7371",
+          "bytes": 142523,
+          "cues": 1448,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ginga-tetsudou-999-movie.json"
 }

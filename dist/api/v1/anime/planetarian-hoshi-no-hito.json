@@ -15,24 +15,56 @@
     "Drama",
     "Sci-Fi"
   ],
-  "description": "Planetarian: Storyteller of the Stars - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/planetarian-hoshi-no-hito.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/planetarian-hoshi-no-hito.jpg",
+  "description": "Planetarian: Storyteller of the Stars - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "planetarian-hoshi-no-hito",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "planetarian-hoshi-no-hito-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/planetarian-hoshi-no-hito/planetarian-hoshi-no-hito-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/planetarian-hoshi-no-hito/planetarian-hoshi-no-hito-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/planetarian-hoshi-no-hito/planetarian-hoshi-no-hito-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/planetarian-hoshi-no-hito/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/planetarian-hoshi-no-hito/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/planetarian-hoshi-no-hito/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/planetarian-hoshi-no-hito/ep_01.kk.srt",
+          "sha256": "43b80027968a05a3882d977d2e50111f8c5dac23d09c783a4aaca547dcf308d2",
+          "bytes": 162674,
+          "cues": 1839,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/planetarian-hoshi-no-hito/ep_01.kk.vtt",
+          "sha256": "f368c6c04bebb536e1ea4452227753bd16526ca97dcb8a060039a89400178e1d",
+          "bytes": 162771,
+          "cues": 1839,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/planetarian-hoshi-no-hito/ep_01.kk.ass",
+          "sha256": "c1597b1212bd18c8964bbd7991616831e25caca27602e7f845d15a67bce8212a",
+          "bytes": 190479,
+          "cues": 1839,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/planetarian-hoshi-no-hito.json"
 }

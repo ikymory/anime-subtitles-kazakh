@@ -3,30 +3,68 @@
   "slug": "grave-of-fireflies",
   "title": {
     "romaji": "Grave Of Fireflies",
-    "english": "Grave Of Fireflies"
+    "english": "Grave Of Fireflies",
+    "kazakh": "Жарыққоңыздар қабірі",
+    "kk": "Жарыққоңыздар қабірі"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 1988,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx578-vU6XcOlb1XFU.jpg",
+  "averageScore": 79,
+  "popularity": 67238,
+  "color": "hsl(267, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/578.jpg",
+  "catalog_id": "grave-of-fireflies",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "grave-of-fireflies-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/grave-of-fireflies/grave-of-fireflies-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/grave-of-fireflies/grave-of-fireflies-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/grave-of-fireflies/grave-of-fireflies-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/grave-of-fireflies/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/grave-of-fireflies/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/grave-of-fireflies/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/grave-of-fireflies/ep_01.kk.srt",
+          "sha256": "e0b0c16dc82157988d1b326a89e7869c5cb573bdba3cb4bd6e59e605339b76d0",
+          "bytes": 72421,
+          "cues": 855,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/grave-of-fireflies/ep_01.kk.vtt",
+          "sha256": "a46504d858a48382cf2792db42911327c31edf54865903e23fc2a2bebc2ccfcb",
+          "bytes": 72518,
+          "cues": 855,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/grave-of-fireflies/ep_01.kk.ass",
+          "sha256": "bd902e40c99f1825fa44dd76ed15966248c47cf19c9fad139a6b54c8cb720e4d",
+          "bytes": 86072,
+          "cues": 855,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/grave-of-fireflies.json"
 }

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kobayashi-san Chi no Maidragon Samishii Gariya no Ryuu - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu.jpg",
+  "description": "Kobayashi-san Chi no Maidragon Samishii Gariya no Ryuu - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/ep_01.kk.srt",
+          "sha256": "231f20039239a201fed1b5826a04c66c5267037df6a84c67a54542be0b6862cb",
+          "bytes": 148128,
+          "cues": 1753,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/ep_01.kk.vtt",
+          "sha256": "ae53e6aba93dad48724918c9531e41891562cf10408afb58ce29388ffb15ab58",
+          "bytes": 148225,
+          "cues": 1753,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu/ep_01.kk.ass",
+          "sha256": "d7aadf5f5e0ad5b9988947b4ac5e973d466044f13aa0a08666e06cb9407ae331",
+          "bytes": 174730,
+          "cues": 1753,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kobayashi-san-chi-no-maidragon-samishii-gariya-no-ryuu.json"
 }

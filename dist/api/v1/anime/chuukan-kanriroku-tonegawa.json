@@ -16,46 +16,124 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Chuukan Kanriroku Tonegawa - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chuukan-kanriroku-tonegawa.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chuukan-kanriroku-tonegawa.jpg",
+  "description": "Chuukan Kanriroku Tonegawa - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "chuukan-kanriroku-tonegawa",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     9,
     17
   ],
+  "translated_episodes_count": 3,
+  "available_episodes_count": 3,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "chuukan-kanriroku-tonegawa-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_01.kk.srt",
+          "sha256": "804c5aafbb2c3c0f0f8a39250fc62678c26edc3c397a727d7c042e121d2ba074",
+          "bytes": 223781,
+          "cues": 2342,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_01.kk.vtt",
+          "sha256": "a5123e12d43461f3260bb8cb59cd9671c7134b3458137f28024763a2a1e98212",
+          "bytes": 223878,
+          "cues": 2342,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_01.kk.ass",
+          "sha256": "07e4f6dc1ce86a7d62f761ce12d1d1e49837fabb156ee4ac7f57f256e3f277aa",
+          "bytes": 258628,
+          "cues": 2342,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "chuukan-kanriroku-tonegawa-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_09.kk.srt",
+          "sha256": "8b17fe9b18fd464dbd13c2e5992acb3d1b03810865f974798c36889e14debf7b",
+          "bytes": 229491,
+          "cues": 2480,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_09.kk.vtt",
+          "sha256": "8c65a0425b3119942eb1791cc81d8a61e0dae99f40888db7b0ca0573b0b86b0b",
+          "bytes": 229588,
+          "cues": 2480,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_09.kk.ass",
+          "sha256": "ec1156f9e6282f4298a6a99af4e394bfc29d86c7322670f19d31f34e4440bd7a",
+          "bytes": 266271,
+          "cues": 2480,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "chuukan-kanriroku-tonegawa-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuukan-kanriroku-tonegawa/chuukan-kanriroku-tonegawa-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuukan-kanriroku-tonegawa/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_17.kk.srt",
+          "sha256": "d997aba0dafc6188051e68c69612ae5f3cc6b77c82c2a399d2c697ae2465c873",
+          "bytes": 226643,
+          "cues": 2434,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_17.kk.vtt",
+          "sha256": "de2a90fe6483ba60f185e1a64d1d834ae219dcb9e162f47ab17c5d0a6e4dbf4d",
+          "bytes": 226740,
+          "cues": 2434,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuukan-kanriroku-tonegawa/ep_17.kk.ass",
+          "sha256": "b836d64cbf9e749ec7a3f4b8e1bdd9ee0a5819ad035aaa4cccb75416cdc2445e",
+          "bytes": 262777,
+          "cues": 2434,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 10,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuukan-kanriroku-tonegawa.json"
 }

@@ -16,35 +16,90 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Chibi Maruko-chan (1995) - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chibi-maruko-chan-1995.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chibi-maruko-chan-1995.jpg",
+  "description": "Chibi Maruko-chan (1995) - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "chibi-maruko-chan-1995",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     9,
     11
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 9,
       "language": "kk",
-      "filename": "chibi-maruko-chan-1995-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chibi-maruko-chan-1995/chibi-maruko-chan-1995-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chibi-maruko-chan-1995/chibi-maruko-chan-1995-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chibi-maruko-chan-1995/chibi-maruko-chan-1995-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chibi-maruko-chan-1995/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chibi-maruko-chan-1995/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chibi-maruko-chan-1995/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chibi-maruko-chan-1995/ep_09.kk.srt",
+          "sha256": "d076aa1ef4067593225d4c72d0031f73fd9b5c903be77ee5411eeda4adf6fd1a",
+          "bytes": 69497,
+          "cues": 773,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chibi-maruko-chan-1995/ep_09.kk.vtt",
+          "sha256": "69c4d9d07559b3292a6a84131e29c7694e9c6282fd58bc6b1be59922613a3814",
+          "bytes": 69594,
+          "cues": 773,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chibi-maruko-chan-1995/ep_09.kk.ass",
+          "sha256": "f56d86723bdc082cbbba43bb64e20c39563950326a1a8a8cbcb281dec7e06940",
+          "bytes": 89102,
+          "cues": 773,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "chibi-maruko-chan-1995-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chibi-maruko-chan-1995/chibi-maruko-chan-1995-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chibi-maruko-chan-1995/chibi-maruko-chan-1995-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chibi-maruko-chan-1995/chibi-maruko-chan-1995-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chibi-maruko-chan-1995/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chibi-maruko-chan-1995/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chibi-maruko-chan-1995/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chibi-maruko-chan-1995/ep_11.kk.srt",
+          "sha256": "27be49bfa74ecc914da4ad7078fe55a6599c5a1bb63e0e8382242e985af013e9",
+          "bytes": 40685,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chibi-maruko-chan-1995/ep_11.kk.vtt",
+          "sha256": "05cbdff2a0c4e2f6a270a1eddd29640ba22e5733213c851a0b8f2c8409c330ca",
+          "bytes": 40782,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chibi-maruko-chan-1995/ep_11.kk.ass",
+          "sha256": "74ef3ccd2095bae503878c0e787e5d160779c43464f4a68c1f87915d50bb8e16",
+          "bytes": 50546,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chibi-maruko-chan-1995.json"
 }

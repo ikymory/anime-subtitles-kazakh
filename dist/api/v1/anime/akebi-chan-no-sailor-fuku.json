@@ -15,11 +15,16 @@
     "Comedy",
     "Slice of Life"
   ],
-  "description": "Akebi's Sailor Uniform - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/akebi-chan-no-sailor-fuku.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/akebi-chan-no-sailor-fuku.jpg",
+  "description": "Akebi's Sailor Uniform - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "akebi-chan-no-sailor-fuku",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -34,126 +39,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_01.kk.srt",
+          "sha256": "3a4fa565f21bcdd936a41a20ad9c09f21d14f98b02e913322c9c370b77ec88f4",
+          "bytes": 30124,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_01.kk.vtt",
+          "sha256": "978db4b0b58cfdafa670abd94d3a6018612ad9397474ac24f5ff3e9f0d9db6c3",
+          "bytes": 30221,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_01.kk.ass",
+          "sha256": "194b40ef75f8edc112d397937d9ed891171ba3bfe3d6793c0fca17c9a9498ca1",
+          "bytes": 36899,
+          "cues": 381,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-2ep.srt",
+      "filename": "ep_02.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_02.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_02.kk.ass",
+          "sha256": "cfe7241b89a59174324f496c60025a1940e7007c45f244f950fc6c2ccc4a278b",
+          "bytes": 36020,
+          "cues": 375,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_02.kk.srt",
+          "sha256": "2a0ec06db414d6b7669f00a6f4e4d7afd5a7911822472f16642a164868988983",
+          "bytes": 29299,
+          "cues": 374,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_02.kk.vtt",
+          "sha256": "648b6158032866d9e709b91c2f204c8bf53c63f606154a80370d7701f60381d2",
+          "bytes": 29307,
+          "cues": 374,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-3ep.srt",
+      "filename": "ep_03.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_03.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_03.kk.ass",
+          "sha256": "8355ad892e2400a459da7bf2343ca836b059b1ae042a1c882bbc543511d09582",
+          "bytes": 33812,
+          "cues": 340,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_03.kk.srt",
+          "sha256": "cdd4481c54ac2db98e317386eac9a6036749e9753862503526120b40ae2f3d14",
+          "bytes": 27508,
+          "cues": 336,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_03.kk.vtt",
+          "sha256": "2e5c4697ad106dbe60fac14beb199e70571b7aebb4724d071cff1cad1b9c6794",
+          "bytes": 27516,
+          "cues": 336,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-4ep.srt",
+      "filename": "ep_04.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_04.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_04.kk.ass",
+          "sha256": "ed838cdad15dcc9523f149d7ee8615e24d348e707dbfdab86bf46948520fd74a",
+          "bytes": 41367,
+          "cues": 415,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_04.kk.srt",
+          "sha256": "0605e322e7e1a4b5ff56e558456a7e29d74a1b08b2409274f7e18ad8ed896174",
+          "bytes": 34010,
+          "cues": 413,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_04.kk.vtt",
+          "sha256": "efa6690744540ad96de054ea25e11917b817ec7395178d49d15c8df113537df5",
+          "bytes": 34018,
+          "cues": 413,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_05.kk.srt",
+          "sha256": "8ec95347385a29b3d2d130cbf185811e8342ceb2d8676f8a9a4ca2201b86d61e",
+          "bytes": 28755,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_05.kk.vtt",
+          "sha256": "eca9f65e8e7fdfdab76c2fe840d347cb65cec11caa888490505633320a0ebbc2",
+          "bytes": 28852,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_05.kk.ass",
+          "sha256": "bd1bb3b16832043637e86df17ac60bbdb89f1f44c98e2abbb057bffd64b97b39",
+          "bytes": 35305,
+          "cues": 366,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-6ep.srt",
+      "filename": "ep_06.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_06.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_06.kk.ass",
+          "sha256": "1574981da7be2dfa1e7d539bc6109b397a4920f2f99f61d3b26c2f116b70df64",
+          "bytes": 35046,
+          "cues": 381,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_06.kk.srt",
+          "sha256": "e27a6ba3fc53cd31eb87dc00f260820af20e4d6066909a14b2f561e0130560ab",
+          "bytes": 28235,
+          "cues": 380,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_06.kk.vtt",
+          "sha256": "6f165c445d9e6c2ac3b4e083c6b2cd9387d3e097eabeb90ad83b7529e11a66f2",
+          "bytes": 28243,
+          "cues": 380,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_07.kk.srt",
+          "sha256": "20b1d8cadc0a302a9671d5ed34bd8265f0d565f41508da95ca5804eea6d4ea1a",
+          "bytes": 26398,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_07.kk.vtt",
+          "sha256": "ced87cf66b0786d8ab5b0f970a84df03e598284b920cbfe2c452e47c0400eb25",
+          "bytes": 26495,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_07.kk.ass",
+          "sha256": "d7d6d3f6360e212ab914b291d6ac62aa0c1ab979c2885554a3155f0cbf19e657",
+          "bytes": 32318,
+          "cues": 324,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-8ep.srt",
+      "filename": "ep_08.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_08.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_08.kk.ass",
+          "sha256": "d02c05f320df71848881e2957e32eae1047951254b925a3f23a516a4ac50720c",
+          "bytes": 34327,
+          "cues": 354,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_08.kk.srt",
+          "sha256": "02e4494a9a6de19cdae16bcd15e92c81a37d46db41c96a82a73c1a05547714a3",
+          "bytes": 27885,
+          "cues": 352,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_08.kk.vtt",
+          "sha256": "3548ffe92bc5effe4895c4726dd6a9889a2e876c0c435076a528229839d24e6d",
+          "bytes": 27893,
+          "cues": 352,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_09.kk.srt",
+          "sha256": "1950676cb102f5567390dccc6f2cdf6d75884ad84322e716908f3b371dafbb21",
+          "bytes": 26586,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_09.kk.vtt",
+          "sha256": "f494b728124cfefe54f6ce28d9f524d8e26a95901960010fbab980ae2b812e55",
+          "bytes": 26683,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_09.kk.ass",
+          "sha256": "4df4a469dec541ad946b7f8e64cfffcb01d5b422e9484ca3ef2346f9334b2d55",
+          "bytes": 32866,
+          "cues": 348,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_10.kk.srt",
+          "sha256": "f3b54055b74a800d22c13ffa84bbdaad7c0acfb57ddbf5845a44e97df8e9593f",
+          "bytes": 27615,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_10.kk.vtt",
+          "sha256": "21d5f506c3c8ca34451dcf405a5fb503a06f21b65f2eb38d0b79abf859d16cc7",
+          "bytes": 27712,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_10.kk.ass",
+          "sha256": "7f150dcbb69244e1e9e924f112832fd0cd718607068ecc771090023231980ae0",
+          "bytes": 34075,
+          "cues": 360,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-11ep.srt",
+      "filename": "ep_11.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_11.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_11.kk.ass",
+          "sha256": "48718c2da8b90f395c177a92513a4b0cc64b6ecc09e938ed4e3a1df25a1c739b",
+          "bytes": 31065,
+          "cues": 323,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_11.kk.srt",
+          "sha256": "f6e25607ba0b22319f2856a71d143952748cd954baf6ea1b595d51562974222b",
+          "bytes": 25088,
+          "cues": 321,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_11.kk.vtt",
+          "sha256": "1e961d3814f9aa2f5153806fc1e76f1ad539865bb79ada9e9be42940c99b3ab6",
+          "bytes": 25096,
+          "cues": 321,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "akebi-chan-no-sailor-fuku-12ep.srt",
+      "filename": "ep_12.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akebi-chan-no-sailor-fuku/akebi-chan-no-sailor-fuku-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akebi-chan-no-sailor-fuku/ep_12.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_12.kk.ass",
+          "sha256": "12ef76b3f3638dd08fbed8a9953e523be152f76c266d78da95981241c939e7d5",
+          "bytes": 18024,
+          "cues": 192,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_12.kk.srt",
+          "sha256": "2f46eed934e78f0a6467d939cdbcab69e89e7b7172744766af35b649d4844913",
+          "bytes": 13976,
+          "cues": 189,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/akebi-chan-no-sailor-fuku/ep_12.kk.vtt",
+          "sha256": "43b6ee517f3729a7319666e17a4690a5cb3cf906eb91a37780f531764fddf0f7",
+          "bytes": 13984,
+          "cues": 189,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 50,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/akebi-chan-no-sailor-fuku.json"
 }

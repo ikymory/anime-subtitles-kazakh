@@ -17,24 +17,56 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Mobile Suit Gundam F91 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gundam-f91-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gundam-f91-movie.jpg",
+  "description": "Mobile Suit Gundam F91 - official Kazakh translation archive by ikymory.",
   "averageScore": 79,
   "popularity": 94800,
+  "catalog_id": "gundam-f91-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gundam-f91-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-f91-movie/gundam-f91-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-f91-movie/gundam-f91-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-f91-movie/gundam-f91-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-f91-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-f91-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-f91-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gundam-f91-movie/ep_01.kk.srt",
+          "sha256": "844a24471a794d06efec66cb996c2243353a812d1273379fe177398e6c72a6fa",
+          "bytes": 164792,
+          "cues": 1741,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gundam-f91-movie/ep_01.kk.vtt",
+          "sha256": "5ee6c1ad9f119f29900fd6e2d5439ebbd02e531a1c8e4489fc7e878da8b53624",
+          "bytes": 164889,
+          "cues": 1741,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gundam-f91-movie/ep_01.kk.ass",
+          "sha256": "e71cf3c947efac3131c4e4ec23a43147f40379fc0184d1bc992523a16a9df51d",
+          "bytes": 206031,
+          "cues": 1742,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gundam-f91-movie.json"
 }

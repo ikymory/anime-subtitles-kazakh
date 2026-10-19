@@ -17,24 +17,56 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "The Tunnel to Summer, the Exit of Goodbyes - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/natsu-e-no-tunnel-sayonara-no-deguchi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/natsu-e-no-tunnel-sayonara-no-deguchi.jpg",
+  "description": "The Tunnel to Summer, the Exit of Goodbyes - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "natsu-e-no-tunnel-sayonara-no-deguchi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "natsu-e-no-tunnel-sayonara-no-deguchi-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/natsu-e-no-tunnel-sayonara-no-deguchi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/natsu-e-no-tunnel-sayonara-no-deguchi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/natsu-e-no-tunnel-sayonara-no-deguchi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/ep_01.kk.ass",
+          "sha256": "5f161fb320709b2b1cd1e0c67392bfc78b10fff7a1ce1df19f8b2e3ad735d9d1",
+          "bytes": 105803,
+          "cues": 1028,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/ep_01.kk.srt",
+          "sha256": "f9b7e8336fd7439a7468950766d0e128f370b97ed60dfad88d14894d79c4d148",
+          "bytes": 89315,
+          "cues": 1027,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/natsu-e-no-tunnel-sayonara-no-deguchi/ep_01.kk.vtt",
+          "sha256": "d211515a8b88e6562d1a98a5375011204deb65ba29c82a14bd5778e049f9fe9f",
+          "bytes": 89323,
+          "cues": 1027,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/natsu-e-no-tunnel-sayonara-no-deguchi.json"
 }

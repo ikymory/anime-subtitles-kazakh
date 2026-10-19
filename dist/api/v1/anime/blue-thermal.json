@@ -15,24 +15,56 @@
     "Drama",
     "Sports"
   ],
-  "description": "Blue Thermal - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/blue-thermal.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/blue-thermal.jpg",
+  "description": "Blue Thermal - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 98400,
+  "catalog_id": "blue-thermal",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "blue-thermal-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blue-thermal/blue-thermal-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blue-thermal/blue-thermal-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blue-thermal/blue-thermal-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blue-thermal/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blue-thermal/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blue-thermal/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blue-thermal/ep_01.kk.srt",
+          "sha256": "c791bcbd9068d1e1cb4f825dcf10fec40453408c22c601fd4bbde854ff7d1ab7",
+          "bytes": 162976,
+          "cues": 1914,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blue-thermal/ep_01.kk.vtt",
+          "sha256": "a3e7e66031760f90b67e3e2c287d34b96d0665c1666754131eb9e39fa8b4e53b",
+          "bytes": 163073,
+          "cues": 1914,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blue-thermal/ep_01.kk.ass",
+          "sha256": "29b107fb3364244557a2e12cd91a541b6ac36f76a2609e71eddaad3486e774ee",
+          "bytes": 192209,
+          "cues": 1915,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/blue-thermal.json"
 }

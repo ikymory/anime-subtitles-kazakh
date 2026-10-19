@@ -16,24 +16,56 @@
     "Drama",
     "Slice of Life"
   ],
-  "description": "Fortune Favors Lady Nikuko - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gyokou-no-nikuko-chan.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gyokou-no-nikuko-chan.jpg",
+  "description": "Fortune Favors Lady Nikuko - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "gyokou-no-nikuko-chan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gyokou-no-nikuko-chan-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gyokou-no-nikuko-chan/gyokou-no-nikuko-chan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gyokou-no-nikuko-chan/gyokou-no-nikuko-chan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gyokou-no-nikuko-chan/gyokou-no-nikuko-chan-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gyokou-no-nikuko-chan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gyokou-no-nikuko-chan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gyokou-no-nikuko-chan/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gyokou-no-nikuko-chan/ep_01.kk.ass",
+          "sha256": "5fe50b85ac63284dfafd6070b8a08b4c1442b5e2abb9928b0f27ac866d3fe43a",
+          "bytes": 166081,
+          "cues": 1740,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gyokou-no-nikuko-chan/ep_01.kk.srt",
+          "sha256": "f011aa28fe690844bd45f0678684fb008d9606cb0b07aa88b5d785280d8381c7",
+          "bytes": 139588,
+          "cues": 1738,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gyokou-no-nikuko-chan/ep_01.kk.vtt",
+          "sha256": "902efd7150bf98e25c5f71ddd8f300ebb77b2d5435c5fe15cbb95fa61869f7f1",
+          "bytes": 139596,
+          "cues": 1738,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gyokou-no-nikuko-chan.json"
 }

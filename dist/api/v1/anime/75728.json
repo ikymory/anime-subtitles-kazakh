@@ -3,17 +3,28 @@
   "slug": "usagi-drop",
   "title": {
     "romaji": "Usagi Drop",
-    "english": "Usagi Drop"
+    "english": "Usagi Drop",
+    "kazakh": "Қоян тастау",
+    "kk": "Қоян тастау"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 11,
+  "seasonYear": 2011,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10162-w4SG5oQSQwMn.jpg",
+  "averageScore": 79,
+  "popularity": 55576,
+  "color": "hsl(202, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10162-CHoa4mll25WM.png",
+  "catalog_id": "usagi-drop",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -27,116 +38,373 @@
     10,
     11
   ],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "usagi-drop-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_01.kk.srt",
+          "sha256": "9aacb464308bd9992492e82d86c182091ff58aca0b15feea8a4d20024c6558a3",
+          "bytes": 17385,
+          "cues": 218,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_01.kk.vtt",
+          "sha256": "86c43373816a94e9f8ce884ca58ab0a4f68b80c5453b4e7a05af0dfd8e4e0d4b",
+          "bytes": 17482,
+          "cues": 218,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_01.kk.ass",
+          "sha256": "0124a79171961277b4e2a75b1a0990f2a5016646d0a6bead81a2b3f4262d9f61",
+          "bytes": 21473,
+          "cues": 218,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "usagi-drop-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_02.kk.srt",
+          "sha256": "aa168fb83b440dcbb91fa4238948cf7a9fd7c9ddc357b41fd51a8ce27c064092",
+          "bytes": 19194,
+          "cues": 234,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_02.kk.vtt",
+          "sha256": "ee85512126c28244bf4926c1abd605dd0b7ec62b7bf692be690dc9dfcf359b69",
+          "bytes": 19291,
+          "cues": 234,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_02.kk.ass",
+          "sha256": "1519211628ffc4c6a2558eb2fad66893708baa7757109baf181d8edfa80e4a91",
+          "bytes": 23522,
+          "cues": 234,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "usagi-drop-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_03.kk.srt",
+          "sha256": "c4b1749aa42f2aaf2e56a7f10470c2b0567f8b1e6226b38154d50e56dc2918f6",
+          "bytes": 30680,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_03.kk.vtt",
+          "sha256": "b14c6a659f392447d5cb9e7bd5ef8a8440e59fab5c9ece0e3184f9ad0ea109f6",
+          "bytes": 30777,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_03.kk.ass",
+          "sha256": "46d1dda4f3b612655e393deb2554a17dbf3c94a26135813df8efecfb90da3aac",
+          "bytes": 36403,
+          "cues": 327,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "usagi-drop-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_04.kk.srt",
+          "sha256": "85dfb9578de19010f5694b67f93c62cf8e20293fd8852ad54ce2e9db445aa60c",
+          "bytes": 32429,
+          "cues": 344,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_04.kk.vtt",
+          "sha256": "2b61966704a15340b5c8d907eed3350a63c9959774a4b53b0f017993a683911b",
+          "bytes": 32526,
+          "cues": 344,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_04.kk.ass",
+          "sha256": "336c16e1342d6131acacd235e8868b6e979be997164054a8b75ea91e4d25942b",
+          "bytes": 38407,
+          "cues": 344,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "usagi-drop-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_05.kk.srt",
+          "sha256": "265c7360955fa4a0c27c0f208742db7452e60d0f67b75840c930f3147496234f",
+          "bytes": 26620,
+          "cues": 282,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_05.kk.vtt",
+          "sha256": "d2bde092542bbe473eada555dd8b686f4053d90c49e0e813ad7f913c665cc430",
+          "bytes": 26717,
+          "cues": 282,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_05.kk.ass",
+          "sha256": "ebab1b79fa4d55bbf16ab7b1685b6cb8d4ba4a9ee571f5c628e1e037c3c3386c",
+          "bytes": 31668,
+          "cues": 282,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "usagi-drop-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_06.kk.srt",
+          "sha256": "38152ddb68fb449e41270e16f4bfc73fae50ed21e32ac4e22c1082a72782f075",
+          "bytes": 26465,
+          "cues": 311,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_06.kk.vtt",
+          "sha256": "79e6072130f9b998d547a10ee604371a3f16e54a26e2126097cd4148f488b403",
+          "bytes": 26562,
+          "cues": 311,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_06.kk.ass",
+          "sha256": "3755009630a8e22e53fa8b0399ba983782e8389e0cd7f97829443b1123c434cd",
+          "bytes": 31948,
+          "cues": 311,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "usagi-drop-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_07.kk.srt",
+          "sha256": "8afbfcadd3e56567a2ce3779df2fde5761dfafe1a05200d846744477b501e6d6",
+          "bytes": 32723,
+          "cues": 334,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_07.kk.vtt",
+          "sha256": "07c87a653aa072bd9b510ea69db3455c3df32e85d282ec73cd27ee150bf94c50",
+          "bytes": 32820,
+          "cues": 334,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_07.kk.ass",
+          "sha256": "8c2cc5169ef7efcb5e04f99fc709a826ca54c1677bb3afc89219efefc49cbc5d",
+          "bytes": 38551,
+          "cues": 334,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "usagi-drop-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_08.kk.srt",
+          "sha256": "df1d118ba34e81e5351e8e7eea133de701dca4b5e86cf1e924c6b274f0509fc6",
+          "bytes": 21628,
+          "cues": 244,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_08.kk.vtt",
+          "sha256": "540ede720ace5f2cb3e64b276e0458790401cb8bbcfed8256311cd6c5adc108a",
+          "bytes": 21725,
+          "cues": 244,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_08.kk.ass",
+          "sha256": "eefcf90c1444de86f282bf410f96dd2b80b98d3fc391df58b6b8acd80d34280e",
+          "bytes": 26106,
+          "cues": 244,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "usagi-drop-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_09.kk.srt",
+          "sha256": "d674e5efa4bace70187ccc0f9a3decd89657bc345142170671c5b8ed80691821",
+          "bytes": 23789,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_09.kk.vtt",
+          "sha256": "73545df19f423a3b6a4627d9a9abca77cb75c4cbe2ab8f7dd5c7a73b4a190e69",
+          "bytes": 23886,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_09.kk.ass",
+          "sha256": "85ad7650d8fd59f07d85c95238ae8cb73304d48ca56588ebb8f843941434f887",
+          "bytes": 28582,
+          "cues": 265,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "usagi-drop-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_10.kk.srt",
+          "sha256": "67ff7bc959f143c896a29479b310774fda132f6343e85d641c1dc6ca33b9527c",
+          "bytes": 23601,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_10.kk.vtt",
+          "sha256": "462520e2be39efd01c9bafc05cca919c93dc5bbc8f43927e0909253b6efe9131",
+          "bytes": 23698,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_10.kk.ass",
+          "sha256": "c1eed0965373e098203d413b05536d6a86fb26211cb09afe1b135038f24f9621",
+          "bytes": 28394,
+          "cues": 265,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "usagi-drop-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/usagi-drop/usagi-drop-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/usagi-drop/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/usagi-drop/ep_11.kk.srt",
+          "sha256": "89b991b69616d83411ba51644aa56d8302912b018e260f57a40680f2a23cdd53",
+          "bytes": 28296,
+          "cues": 328,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/usagi-drop/ep_11.kk.vtt",
+          "sha256": "99bd5404d6076e77083e535432f02e27695188aaea30c272ad3fb2baa75e1066",
+          "bytes": 28393,
+          "cues": 328,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/usagi-drop/ep_11.kk.ass",
+          "sha256": "c5840f8fb88174d8de5836121baf04c95f8241a564d388ef6f31e2e9d63999bd",
+          "bytes": 34034,
+          "cues": 328,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 34,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/usagi-drop.json"
 }

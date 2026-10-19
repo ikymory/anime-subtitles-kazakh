@@ -3,41 +3,102 @@
   "slug": "porco-rosso",
   "title": {
     "romaji": "Porco Rosso",
-    "english": "Porco Rosso"
+    "english": "Porco Rosso",
+    "kazakh": "Порко Россо",
+    "kk": "Порко Россо"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 2,
+  "seasonYear": 1992,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx416-oO8Tts2dQtuv.jpg",
+  "averageScore": 78,
+  "popularity": 56989,
+  "color": "hsl(175, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/416-EGpl89C7nYoP.jpg",
+  "catalog_id": "porco-rosso",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     7
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "porco-rosso-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/porco-rosso/porco-rosso-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/porco-rosso/porco-rosso-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/porco-rosso/porco-rosso-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/porco-rosso/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/porco-rosso/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/porco-rosso/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/porco-rosso/ep_01.kk.srt",
+          "sha256": "5bfc72b9c809040764bb75b17bfe8caa0d44097371273ac013b85c370912cce7",
+          "bytes": 110824,
+          "cues": 1256,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/porco-rosso/ep_01.kk.vtt",
+          "sha256": "8da918d2db2c8cbaf9cf19db5019186498ef26403938e688178d7d4fdf7a53a6",
+          "bytes": 110921,
+          "cues": 1256,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/porco-rosso/ep_01.kk.ass",
+          "sha256": "047881cc6f9b5d0e2e96415e456be0ac51793e1f080ea528107f9070f823e0ae",
+          "bytes": 130226,
+          "cues": 1256,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "porco-rosso-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/porco-rosso/porco-rosso-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/porco-rosso/porco-rosso-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/porco-rosso/porco-rosso-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/porco-rosso/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/porco-rosso/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/porco-rosso/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/porco-rosso/ep_07.kk.srt",
+          "sha256": "4614eeb71b6a943f9078c6b8851451013f555103d529edcfa21ee30cc560542f",
+          "bytes": 101380,
+          "cues": 1052,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/porco-rosso/ep_07.kk.vtt",
+          "sha256": "edee3aaf679f061b4ae7e0301f1cdda4aee5d5c9262c5a8f5896b69e6027fe92",
+          "bytes": 101477,
+          "cues": 1052,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/porco-rosso/ep_07.kk.ass",
+          "sha256": "28512cc948a7101b68b63a3dd0d0d6a3385df5e8eaef62aaf463efbab7a7bca5",
+          "bytes": 117926,
+          "cues": 1052,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/porco-rosso.json"
 }

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Hottarake no Shima. Haruka to Mahou no Kagami - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hottarake-no-shima-haruka-to-mahou-no-kagami.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hottarake-no-shima-haruka-to-mahou-no-kagami.jpg",
+  "description": "Hottarake no Shima. Haruka to Mahou no Kagami - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hottarake-no-shima-haruka-to-mahou-no-kagami",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hottarake-no-shima-haruka-to-mahou-no-kagami-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/hottarake-no-shima-haruka-to-mahou-no-kagami-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/hottarake-no-shima-haruka-to-mahou-no-kagami-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/hottarake-no-shima-haruka-to-mahou-no-kagami-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/ep_01.kk.srt",
+          "sha256": "d98e737576bcb17ec90144690f6b81ee5984e981307b9378bc2a4c9ea8011005",
+          "bytes": 653,
+          "cues": 5,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/ep_01.kk.vtt",
+          "sha256": "84b5f3dc87084359e9eeb0e6d38b4f0a12e160957d3f5e3003110d7b45a045cd",
+          "bytes": 750,
+          "cues": 5,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hottarake-no-shima-haruka-to-mahou-no-kagami/ep_01.kk.ass",
+          "sha256": "548483e9fc939de7d464f282980dca5bf078e59669e65a92282766b1131f414e",
+          "bytes": 1508,
+          "cues": 5,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hottarake-no-shima-haruka-to-mahou-no-kagami.json"
 }

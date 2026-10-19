@@ -18,24 +18,56 @@
     "Sci-Fi",
     "Supernatural"
   ],
-  "description": "The Disappearance of Haruhi Suzumiya - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/suzumiya-haruhi-no-shoushitsu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/suzumiya-haruhi-no-shoushitsu.jpg",
+  "description": "The Disappearance of Haruhi Suzumiya - official Kazakh translation archive by ikymory.",
   "averageScore": 93,
   "popularity": 111600,
+  "catalog_id": "suzumiya-haruhi-no-shoushitsu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "suzumiya-haruhi-no-shoushitsu-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/suzumiya-haruhi-no-shoushitsu/suzumiya-haruhi-no-shoushitsu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/suzumiya-haruhi-no-shoushitsu/suzumiya-haruhi-no-shoushitsu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/suzumiya-haruhi-no-shoushitsu/suzumiya-haruhi-no-shoushitsu-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/suzumiya-haruhi-no-shoushitsu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/suzumiya-haruhi-no-shoushitsu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/suzumiya-haruhi-no-shoushitsu/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/suzumiya-haruhi-no-shoushitsu/ep_01.kk.ass",
+          "sha256": "174b6466fd165ef89e274177187a7261096f1ad97fe0aa1650bf1a8347586eaf",
+          "bytes": 263802,
+          "cues": 2483,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/suzumiya-haruhi-no-shoushitsu/ep_01.kk.srt",
+          "sha256": "1dbc7ebc715609cedf9cfe742d8070f89411a10c02827d41f2111f19cc153718",
+          "bytes": 226758,
+          "cues": 2477,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/suzumiya-haruhi-no-shoushitsu/ep_01.kk.vtt",
+          "sha256": "77c1f91cb2fde290181a8bee19ca81fb603a2e702c98fae043ed7981dc15b554",
+          "bytes": 226766,
+          "cues": 2477,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/suzumiya-haruhi-no-shoushitsu.json"
 }

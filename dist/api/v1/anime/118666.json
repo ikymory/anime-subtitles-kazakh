@@ -3,17 +3,28 @@
   "slug": "himouto-umaru-chan",
   "title": {
     "romaji": "Himouto Umaru Chan",
-    "english": "Himouto Umaru Chan"
+    "english": "Himouto Umaru Chan",
+    "kazakh": "Екіжүзді Умару-чан",
+    "kk": "Екіжүзді Умару-чан"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 12,
+  "seasonYear": 2015,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20987-9Tq7kZTeJPMo.jpg",
+  "averageScore": 75,
+  "popularity": 67010,
+  "color": "#feae50",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20987-jnbJ4VXW687z.jpg",
+  "catalog_id": "himouto-umaru-chan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -28,126 +39,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "himouto-umaru-chan-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_01.kk.srt",
+          "sha256": "64ea93da81a29707daf8686026026db1550dd5d43e1e19c277c0fea92896781b",
+          "bytes": 32886,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_01.kk.vtt",
+          "sha256": "e8a3d28280232e2a36550552b2aa7c958447cfd583979ecbeedf97d25f003940",
+          "bytes": 32983,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_01.kk.ass",
+          "sha256": "3abb2648e2f82d09379104fc2a29f65876448bb365d4438077a9ca52afc9ad2e",
+          "bytes": 39547,
+          "cues": 389,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "himouto-umaru-chan-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_02.kk.srt",
+          "sha256": "5d59bbb69d320e7cab20c0fbcdb8074e5bec099767b71b2283a6dd898c823090",
+          "bytes": 31077,
+          "cues": 345,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_02.kk.vtt",
+          "sha256": "1caac58c68118c598be3aa3e1c87dd228d04f5a0356cfd82ff0f360745eff0b6",
+          "bytes": 31174,
+          "cues": 345,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_02.kk.ass",
+          "sha256": "b5c218f2db7dad48167ac01c763cc177fb9610e54376c8a205b12c63fd6f32ae",
+          "bytes": 37078,
+          "cues": 345,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "himouto-umaru-chan-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_03.kk.srt",
+          "sha256": "cd41045db6f699aedd54f40322428101c58421697fa2aa45445f09a0325d59c2",
+          "bytes": 27854,
+          "cues": 315,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_03.kk.vtt",
+          "sha256": "1a2afbda793119cd3635f1240c15dfb0a103a3e7290025a42bfe25c3c11c3c02",
+          "bytes": 27951,
+          "cues": 315,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_03.kk.ass",
+          "sha256": "a68cf2f59c779355dd136f84b964395ab90ffaccf0069b52575402ea03a0c248",
+          "bytes": 33405,
+          "cues": 315,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "himouto-umaru-chan-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_04.kk.srt",
+          "sha256": "78bb5608a95f2199899ed2d38a95c2357110c69b52d5c06e53c7b6145474510c",
+          "bytes": 31255,
+          "cues": 335,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_04.kk.vtt",
+          "sha256": "1eb1e9b8c2aac542de84bc6f183a09884140c6024e8b73505f943ac1d69e9601",
+          "bytes": 31352,
+          "cues": 335,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_04.kk.ass",
+          "sha256": "eabd1e0f7adbe60e8ef9f03f7be1e2ffe32a66a59857ce39c02ee0346219dd77",
+          "bytes": 37106,
+          "cues": 335,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "himouto-umaru-chan-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_05.kk.srt",
+          "sha256": "152e1210422fb18fd816ff60943e2beceabc4e6adde00ea52320a54885b31d91",
+          "bytes": 26277,
+          "cues": 287,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_05.kk.vtt",
+          "sha256": "365f8772d088736fe654385a3462dee324fa301f1da1cfc5196dbc88348c7a6b",
+          "bytes": 26374,
+          "cues": 287,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_05.kk.ass",
+          "sha256": "8b7b43146983cf853b37c3d0e9a3f8cce8e136aa68831b4391ba262eb76e6036",
+          "bytes": 31408,
+          "cues": 287,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "himouto-umaru-chan-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_06.kk.srt",
+          "sha256": "7f89b0e3538c057e64c7b3fc5f04d7a76b180a3ca786670527090438b26b756d",
+          "bytes": 29650,
+          "cues": 313,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_06.kk.vtt",
+          "sha256": "00bb523a34bf74abf543ff89493e579c00b8a55439a9f4558fbc424265e75ae2",
+          "bytes": 29747,
+          "cues": 313,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_06.kk.ass",
+          "sha256": "2d7443610906775c8a566ebb7b6bff9782d5ba75aeb8a7a1e2d8e3cb4ea115b8",
+          "bytes": 35171,
+          "cues": 313,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "himouto-umaru-chan-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_07.kk.srt",
+          "sha256": "65883c253b2a3426c6844742f00b3948955aabd3d67eb589a06ec400344c724a",
+          "bytes": 31056,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_07.kk.vtt",
+          "sha256": "79159ea5040acae32ee3ba1cb85a4c85ac8d053cb778683d29e15af7aef5adfc",
+          "bytes": 31153,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_07.kk.ass",
+          "sha256": "7a92f4c9a668c6592747a34ec7dd42d18d1dd2ff07252fb1c47863f5e1957050",
+          "bytes": 37087,
+          "cues": 347,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "himouto-umaru-chan-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_08.kk.srt",
+          "sha256": "f3d36ff821aa1d2e9364d0a7b57316fcda61e88b6215d4f2bb4a0a2c00c85890",
+          "bytes": 29982,
+          "cues": 319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_08.kk.vtt",
+          "sha256": "d7793984f52becc69cbb0c6f0835a709946eb2eeea5412c7cfa00b6b2fdd95c5",
+          "bytes": 30079,
+          "cues": 319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_08.kk.ass",
+          "sha256": "3d979058f0ce768435f7fef4b3d9ee0a86e119c2f691cce0ac0b19b645905005",
+          "bytes": 35593,
+          "cues": 319,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "himouto-umaru-chan-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_09.kk.srt",
+          "sha256": "8f52f99f754384432a3741728ac3165d1126c7ea3194102b9e6d4755b11d57dc",
+          "bytes": 27424,
+          "cues": 287,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_09.kk.vtt",
+          "sha256": "1142259a03a479c4eac4cf39c5d4876bd1171df0cff92d6b9ba94e334230ad92",
+          "bytes": 27521,
+          "cues": 287,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_09.kk.ass",
+          "sha256": "3bfdd327a85519308206a8696a86853f48d49b2300e1a388211cbda7b67b27af",
+          "bytes": 32555,
+          "cues": 287,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "himouto-umaru-chan-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_10.kk.srt",
+          "sha256": "958fa51ac1210c57b0e7eb1b706dcf25f87f42040480360609de22e5fe048780",
+          "bytes": 30330,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_10.kk.vtt",
+          "sha256": "e5eeb0da641c565577a05fe360280e39dca582c4ed212ab3287bf0defccd4d82",
+          "bytes": 30427,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_10.kk.ass",
+          "sha256": "cd30f957c5f35c56e604c6412237d42abdec99ddadc00506305e8d99823a1419",
+          "bytes": 36031,
+          "cues": 325,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "himouto-umaru-chan-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_11.kk.srt",
+          "sha256": "9594faa7d3ae2e2f064a3dee50a371d0e354b830b2deaf8cc7e2ebaeda12d11b",
+          "bytes": 27833,
+          "cues": 310,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_11.kk.vtt",
+          "sha256": "68ccf641852d9e450a418083352858e7303222c6aa2eeb325364fdd38854715f",
+          "bytes": 27930,
+          "cues": 310,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_11.kk.ass",
+          "sha256": "546b2133734d45c2215244cc95a5270064dd576087124967f30d6bbc7756c4f1",
+          "bytes": 33309,
+          "cues": 310,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "himouto-umaru-chan-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/himouto-umaru-chan/himouto-umaru-chan-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/himouto-umaru-chan/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/himouto-umaru-chan/ep_12.kk.srt",
+          "sha256": "1a2072cd05473accb7c167593a8890fb912fe7e8d9118d8569ee0bd00e699d89",
+          "bytes": 28988,
+          "cues": 315,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/himouto-umaru-chan/ep_12.kk.vtt",
+          "sha256": "d9f78c20710362cd24217e7ce7dd9b3b507b94a1fc02119bfd08324d9f7271b1",
+          "bytes": 29085,
+          "cues": 315,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/himouto-umaru-chan/ep_12.kk.ass",
+          "sha256": "40cabbd6b589010f662de243e447cc292e7a8b93ae131e11ad01f27a0052e676",
+          "bytes": 34539,
+          "cues": 315,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/himouto-umaru-chan.json"
 }

@@ -16,28 +16,59 @@
     "Adventure",
     "Sci-Fi"
   ],
-  "description": "The Z Warriors discover an unopenable music box and are told to open it with the dragon balls. The contents turn out to be a warrior named Tapion who had sealed himself inside along with a monster called Hildegarn. Goku must now perfect a new technique to defeat the evil monster.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/906-TmrkEiLnm9nR.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/906-U6OaVwykG1bc.jpg",
+  "description": "The Z Warriors discover an unopenable music box and are told to open it with the dragon balls. The contents turn out to be a warrior named Tapion who had sealed himself inside along with a monster called Hildegarn. Goku must now perfect a new technique to defeat the evil monster.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 71,
   "popularity": 36669,
+  "color": "#e4c943",
+  "duration": 51,
+  "studio": "Toei Animation",
+  "catalog_id": "dragon-ball-z-wrath-of-the-dragon",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-z-wrath-of-the-dragon-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-wrath-of-the-dragon/dragon-ball-z-wrath-of-the-dragon-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-wrath-of-the-dragon/dragon-ball-z-wrath-of-the-dragon-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-wrath-of-the-dragon/dragon-ball-z-wrath-of-the-dragon-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-wrath-of-the-dragon/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-wrath-of-the-dragon/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-wrath-of-the-dragon/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-z-wrath-of-the-dragon/ep_01.kk.srt",
+          "sha256": "6fea0de0f10832297cf5d876f756dadcd1278da498c72d9aade3518f2ffd1ddb",
+          "bytes": 59763,
+          "cues": 694,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-z-wrath-of-the-dragon/ep_01.kk.vtt",
+          "sha256": "e4dead59ef157caa7a9b0ec8b6aa3efc4c7914623b75904380096ca4ee543219",
+          "bytes": 59860,
+          "cues": 694,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-z-wrath-of-the-dragon/ep_01.kk.ass",
+          "sha256": "bcf8396230114619cbea09bc101dbea1854217b118d09a0dec5a56242de9548e",
+          "bytes": 71232,
+          "cues": 694,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e4c943",
-  "studio": "Toei Animation",
-  "duration": 51,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-wrath-of-the-dragon.json"
 }

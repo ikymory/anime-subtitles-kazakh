@@ -17,24 +17,56 @@
     "Music",
     "Sci-Fi"
   ],
-  "description": "Macross Delta Movie: Absolute Live!!!!!! - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-delta-zettai-live.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-delta-zettai-live.jpg",
+  "description": "Macross Delta Movie: Absolute Live!!!!!! - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "macross-delta-zettai-live",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "macross-delta-zettai-live-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-delta-zettai-live/macross-delta-zettai-live-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-delta-zettai-live/macross-delta-zettai-live-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-delta-zettai-live/macross-delta-zettai-live-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-delta-zettai-live/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-delta-zettai-live/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-delta-zettai-live/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/macross-delta-zettai-live/ep_01.kk.srt",
+          "sha256": "e8c77211bf8cc4013d50c335f5c395c4ea2b2b4ebff68f175592394a7210f5fc",
+          "bytes": 207568,
+          "cues": 2496,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/macross-delta-zettai-live/ep_01.kk.vtt",
+          "sha256": "25aaef1452da99f548b25299c476dbc82f302d1c5aa7ae521318848e5a20cce3",
+          "bytes": 207665,
+          "cues": 2496,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/macross-delta-zettai-live/ep_01.kk.ass",
+          "sha256": "2e91f5734662d6abdd7b58cf273641b6f3728ddcc519a3054b8f7b656af1d549",
+          "bytes": 260692,
+          "cues": 2523,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/macross-delta-zettai-live.json"
 }

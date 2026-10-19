@@ -13,9 +13,18 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17549-ROdV36u4nWkU.png",
+  "averageScore": 86,
+  "popularity": 60735,
+  "color": "hsl(19, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17549-J7bDkafpjQ0D.jpg",
+  "catalog_id": "non-non-biyori",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -30,132 +39,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "non-non-biyori-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_01.kk.srt",
+          "sha256": "7e99ade0135f50f3c6619f45db9da328f6b58090066e25e92828dfc8d9d1d42b",
+          "bytes": 23940,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_01.kk.vtt",
+          "sha256": "7eb63912e63b1760be61ae902a8a28d3159b4f14a21c980beb99306ccc8f0a02",
+          "bytes": 24037,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_01.kk.ass",
+          "sha256": "64f295a0aba06d79f3456f3ca2d4aacc9a6f89c2f38a5be201fe33c1b951c73d",
+          "bytes": 29667,
+          "cues": 327,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "non-non-biyori-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_02.kk.srt",
+          "sha256": "24cc97a6467820ab38ef6199b50439ca92d2bd5c9ea127249c77799db421912c",
+          "bytes": 32359,
+          "cues": 410,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_02.kk.vtt",
+          "sha256": "8a10f3833530f6999e5771dfc31b0acfe3d9858073795ba3583273129a6f0f77",
+          "bytes": 32456,
+          "cues": 410,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_02.kk.ass",
+          "sha256": "aba51345f623e71ce4f1111051b2f3e07b480b32b709fe8f2ab3c155c9127bf4",
+          "bytes": 39331,
+          "cues": 410,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "non-non-biyori-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_03.kk.srt",
+          "sha256": "ee3f70b0abc91ee6bf0caa8a66fad128e13847fc8c2b0125a430f845e6b45044",
+          "bytes": 35009,
+          "cues": 420,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_03.kk.vtt",
+          "sha256": "6592fda0e6238766416e93bdce6cdd16dc300207eb2946bbe5a23ec2c4db621d",
+          "bytes": 35106,
+          "cues": 420,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_03.kk.ass",
+          "sha256": "dd48e2acbc2f80ee4f364d1ee31c617d1f3defafaf04f3c59b087d2123559bf7",
+          "bytes": 42131,
+          "cues": 420,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "non-non-biyori-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_04.kk.srt",
+          "sha256": "154737c7a7a9ddf18029cdc13a98e8597bebc9c944e107aa507b66fd326b1452",
+          "bytes": 25221,
+          "cues": 318,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_04.kk.vtt",
+          "sha256": "a70ef5585d374110632c28c706959cd2d49246d592f68195cf7bdfd53ccb693d",
+          "bytes": 25318,
+          "cues": 318,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_04.kk.ass",
+          "sha256": "9d3f3930fd287d467b8c2a3c2a96beda6466aa7b9a20b88f30c2f30b1c2252b2",
+          "bytes": 30813,
+          "cues": 318,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "non-non-biyori-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_05.kk.srt",
+          "sha256": "e153798dae5581851dc9538761648fc82898121e2a1f5d7e0f0f49dee92c70b6",
+          "bytes": 34998,
+          "cues": 425,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_05.kk.vtt",
+          "sha256": "7166a23e9700c7fbb471d6bdf4ca14f444e1ccd21050c7198516100a5ddbc8a8",
+          "bytes": 35095,
+          "cues": 425,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_05.kk.ass",
+          "sha256": "07cfa39f162a1eeb9bcc425a983e6462d3c26cd78cd1d72a2acd370c5b70de35",
+          "bytes": 42195,
+          "cues": 425,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "non-non-biyori-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_06.kk.srt",
+          "sha256": "d0012f9c9b15236bf74d84d00efc9c92441e7ef1ad5c890291fd042fdf19f187",
+          "bytes": 33396,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_06.kk.vtt",
+          "sha256": "8f1571f74dedbc10d669223687d08d6ee3a5696a9f17c990ec04c7977d6bc995",
+          "bytes": 33493,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_06.kk.ass",
+          "sha256": "30c46323d176f879f247a72e6b48ea09e76fb98d30f89dd46276fa848eb05d92",
+          "bytes": 40203,
+          "cues": 399,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "non-non-biyori-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_07.kk.srt",
+          "sha256": "d173937ed0f3ad287636cf5667b765cf6104e39fe88018b98ba1a39659c4a4a1",
+          "bytes": 33696,
+          "cues": 409,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_07.kk.vtt",
+          "sha256": "ec67783e32581fe629a33084b8bcbb91ca3dadfb033517bf38ca3484b81a9f1c",
+          "bytes": 33793,
+          "cues": 409,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_07.kk.ass",
+          "sha256": "cf3f2be79b59380354232f88d12f32fdd0202fa0cbc37546a746ae899b676b72",
+          "bytes": 40653,
+          "cues": 409,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "non-non-biyori-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_08.kk.srt",
+          "sha256": "adc7a3c945c0dfcf37482b99a98a1752ebd6aedaac247c3d7acfc97466296088",
+          "bytes": 40569,
+          "cues": 474,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_08.kk.vtt",
+          "sha256": "0a71387895504e1ff3714127e49494d4806bf0ace0cb84034dedf90d4f38eb01",
+          "bytes": 40666,
+          "cues": 474,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_08.kk.ass",
+          "sha256": "3e48056d1390081d14513915d60a80e01495df9f3935fd50d592ae7793035bcc",
+          "bytes": 48501,
+          "cues": 474,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "non-non-biyori-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_09.kk.srt",
+          "sha256": "570bbe187dea892c5ba7a27df27b54b27ca2a8391247079ea76cbb67bd2cac9d",
+          "bytes": 42320,
+          "cues": 491,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_09.kk.vtt",
+          "sha256": "e1ab1b1c9a89b4e6afac3e7d74a354bfcf56b7f16ce0d58279bdbcd5a3ae1f05",
+          "bytes": 42417,
+          "cues": 491,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_09.kk.ass",
+          "sha256": "9e7b37b7af656d4de0ad2d3c8621dc396c71d046e19c2239c3fece0560c2ca5a",
+          "bytes": 50507,
+          "cues": 491,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "non-non-biyori-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_10.kk.srt",
+          "sha256": "8f2b442b240ac813fcaf5766b25535591746bc127a91b2849209336980a96808",
+          "bytes": 32637,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_10.kk.vtt",
+          "sha256": "c4445d9da939031849732d5deaf12d09f32b05c29885b6b6f416fec9c6d305a4",
+          "bytes": 32734,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_10.kk.ass",
+          "sha256": "36fbf921cfbe16cd606e2ab8cccbd59d765814e4fc8706a5065459a38ef55fd0",
+          "bytes": 39699,
+          "cues": 416,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "non-non-biyori-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_11.kk.srt",
+          "sha256": "a363872e44373ec8c9b365feb3d951acca82c9eae7bb755a0e9c8bbaa074e467",
+          "bytes": 39323,
+          "cues": 460,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_11.kk.vtt",
+          "sha256": "d55822acc1248771fcaf1d1f068fa7bf2d157f74ba409ae33c7581b7bd42d799",
+          "bytes": 39420,
+          "cues": 460,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_11.kk.ass",
+          "sha256": "7acdb75ffed0c30cf882a8bede8f24676b88abf028ca3999ca3ddc22ac74c83f",
+          "bytes": 47045,
+          "cues": 460,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "non-non-biyori-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/non-non-biyori/non-non-biyori-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/non-non-biyori/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/non-non-biyori/ep_12.kk.srt",
+          "sha256": "06d05fa4e25548bc4d9a690c7e3dfd2dc84a23ccbc07e05ff4848a9829c3e5f0",
+          "bytes": 28856,
+          "cues": 351,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/non-non-biyori/ep_12.kk.vtt",
+          "sha256": "544239db988dafedd0255652717962c6aec81e81d5c2c557ac2090f9779d053b",
+          "bytes": 28953,
+          "cues": 351,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/non-non-biyori/ep_12.kk.ass",
+          "sha256": "0bbe08c2d5608db0a0211a51b4738db5a4651a3122d9e5238aea7b46fbd4468f",
+          "bytes": 34943,
+          "cues": 351,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(19, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 86,
-  "popularity": 60735,
-  "translated_episodes_count": 12
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/non-non-biyori.json"
 }

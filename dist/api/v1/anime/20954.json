@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Koe no Katachi",
     "english": "A Silent Voice",
-    "native": "聲の形"
+    "native": "聲の形",
+    "kazakh": "Үнсіз дауыс",
+    "kk": "Үнсіз дауыс"
   },
   "format": "MOVIE",
   "episodes": 1,
@@ -14,22 +16,59 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n<br><br>\n(Source: Eleven Arts)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-sYRfE5jQRtSB.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20954-f30bHMXa5Qoe.jpg",
+  "description": "After transferring into a new school, a deaf girl, Shouko Nishimiya, is bullied by the popular Shouya Ishida. As Shouya continues to bully Shouko, the class turns its back on him. Shouko transfers and Shouya grows up as an outcast. Alone and depressed, the regretful Shouya finds Shouko to make amends.\n\n(Source: Eleven Arts)",
+  "averageScore": 90,
+  "popularity": 94000,
+  "color": "#5dbbe4",
+  "duration": 130,
+  "studio": "Kyoto Animation",
+  "catalog_id": "silent-voice",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "silent-voice-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silent-voice/silent-voice-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silent-voice/silent-voice-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/silent-voice/silent-voice-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silent-voice/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silent-voice/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/silent-voice/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/silent-voice/ep_01.kk.srt",
+          "sha256": "063c8b3351d9dbf44955bf1058924ac33c929e0e9e29c6ae27252d5196721f9a",
+          "bytes": 137186,
+          "cues": 1769,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/silent-voice/ep_01.kk.vtt",
+          "sha256": "f8fa57999b4c8854617b672d2eb6e29d2f6a7e77dd21ad932a4fa06ca490c729",
+          "bytes": 137283,
+          "cues": 1769,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/silent-voice/ep_01.kk.ass",
+          "sha256": "7d4972d7f088ae0645d0b5dd436bd2b44aa1a0cff86aaafa13ea5f084c308ae9",
+          "bytes": 163771,
+          "cues": 1769,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/silent-voice.json"
 }

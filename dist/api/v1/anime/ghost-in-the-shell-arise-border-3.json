@@ -16,24 +16,56 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Ghost in the Shell: Arise - Border:3 Ghost Tears - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ghost-in-the-shell-arise-border-3.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ghost-in-the-shell-arise-border-3.jpg",
+  "description": "Ghost in the Shell: Arise - Border:3 Ghost Tears - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 98400,
+  "catalog_id": "ghost-in-the-shell-arise-border-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ghost-in-the-shell-arise-border-3-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-3/ghost-in-the-shell-arise-border-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-3/ghost-in-the-shell-arise-border-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-3/ghost-in-the-shell-arise-border-3-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-3/ep_01.kk.srt",
+          "sha256": "d1795dd47a6d844cb90867c29e0203d6ecac74742dc0c8e3bbdc1c158918f110",
+          "bytes": 85082,
+          "cues": 912,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-3/ep_01.kk.vtt",
+          "sha256": "bdf59dbdd5ffe2fe630644402f60836d69ae377dee7bb38e11fb2c81854df6bb",
+          "bytes": 85179,
+          "cues": 912,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-3/ep_01.kk.ass",
+          "sha256": "a8c238e02f5bb5cdac6a8dceaa0504eff62ca97ae833932724bdc305f700396e",
+          "bytes": 99821,
+          "cues": 912,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-arise-border-3.json"
 }

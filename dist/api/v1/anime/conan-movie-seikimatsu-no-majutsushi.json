@@ -15,24 +15,56 @@
     "Adventure",
     "Mystery"
   ],
-  "description": "Kaitou Kid announces to the police that he intends to steal the Russian Imperial Easter Egg, which is currently being held in Osaka. As Conan pursues his rival, he discovers that there's more to this case then simply stopping a robbery.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx781-5VSeE53N40BF.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n781-p47e6Uf1RG6d.jpg",
+  "description": "Kaitou Kid announces to the police that he intends to steal the Russian Imperial Easter Egg, which is currently being held in Osaka. As Conan pursues his rival, he discovers that there's more to this case then simply stopping a robbery.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 78,
   "popularity": 15354,
+  "catalog_id": "conan-movie-seikimatsu-no-majutsushi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "conan-movie-seikimatsu-no-majutsushi-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-seikimatsu-no-majutsushi/conan-movie-seikimatsu-no-majutsushi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-seikimatsu-no-majutsushi/conan-movie-seikimatsu-no-majutsushi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-seikimatsu-no-majutsushi/conan-movie-seikimatsu-no-majutsushi-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-seikimatsu-no-majutsushi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-seikimatsu-no-majutsushi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-seikimatsu-no-majutsushi/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/conan-movie-seikimatsu-no-majutsushi/ep_01.kk.ass",
+          "sha256": "6eb147350c2dcffdc000234328f699f8d4a6394bb2a63478d674c6b704f7cf29",
+          "bytes": 179271,
+          "cues": 1727,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/conan-movie-seikimatsu-no-majutsushi/ep_01.kk.srt",
+          "sha256": "b1ce4e465ca2744358b5e8079bd3ad166194d06248aba3d5bb4e4c1526ad9dc2",
+          "bytes": 152885,
+          "cues": 1723,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/conan-movie-seikimatsu-no-majutsushi/ep_01.kk.vtt",
+          "sha256": "0321cdaa245124425966854ce2fd4866f3dafd01b7efc6a98bda067b4c6632e4",
+          "bytes": 152893,
+          "cues": 1723,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/conan-movie-seikimatsu-no-majutsushi.json"
 }

@@ -15,24 +15,56 @@
     "Drama",
     "Sports"
   ],
-  "description": "Umamusume: Pretty Derby - Beginning of a New Era - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/uma-musume-shin-jidai-no-tobira.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/uma-musume-shin-jidai-no-tobira.jpg",
+  "description": "Umamusume: Pretty Derby - Beginning of a New Era - official Kazakh translation archive by ikymory.",
   "averageScore": 89,
   "popularity": 106800,
+  "catalog_id": "uma-musume-shin-jidai-no-tobira",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "uma-musume-shin-jidai-no-tobira-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/uma-musume-shin-jidai-no-tobira/uma-musume-shin-jidai-no-tobira-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/uma-musume-shin-jidai-no-tobira/uma-musume-shin-jidai-no-tobira-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/uma-musume-shin-jidai-no-tobira/uma-musume-shin-jidai-no-tobira-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/uma-musume-shin-jidai-no-tobira/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/uma-musume-shin-jidai-no-tobira/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/uma-musume-shin-jidai-no-tobira/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/uma-musume-shin-jidai-no-tobira/ep_01.kk.srt",
+          "sha256": "4d3f10bc8297ec42c1e8c4446a65d75ff80d78fab41452555e370b5270338ed9",
+          "bytes": 171242,
+          "cues": 2002,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/uma-musume-shin-jidai-no-tobira/ep_01.kk.vtt",
+          "sha256": "938a970cbd200e40e0e8cf2346b1488c8bd096f51c3e78aae07e450707201dc3",
+          "bytes": 171339,
+          "cues": 2002,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/uma-musume-shin-jidai-no-tobira/ep_01.kk.ass",
+          "sha256": "ba60a0546dc7701bfcdc87c11b45cc45d9c8e614630c5e8a6612b8210bc238aa",
+          "bytes": 201329,
+          "cues": 2002,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/uma-musume-shin-jidai-no-tobira.json"
 }

@@ -16,24 +16,56 @@
     "Fantasy",
     "Music"
   ],
-  "description": "Inu-Oh - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/inu-ou.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/inu-ou.jpg",
+  "description": "Inu-Oh - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "inu-ou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "inu-ou-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inu-ou/inu-ou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inu-ou/inu-ou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inu-ou/inu-ou-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inu-ou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inu-ou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inu-ou/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inu-ou/ep_01.kk.srt",
+          "sha256": "7ff7923ac3996d06a9f28a6e5061c5fddd6fd3d33df96ae1ccaff85637d7ac83",
+          "bytes": 101073,
+          "cues": 1228,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inu-ou/ep_01.kk.vtt",
+          "sha256": "5813f7262fdd371fa073a5407b7eaa50a193fcb3a7a4b075c64f892076414304",
+          "bytes": 101170,
+          "cues": 1228,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inu-ou/ep_01.kk.ass",
+          "sha256": "7adbeb95b1013da57f33a1b96adf72988622de6f8b9dc57dd49365ea5ba76665",
+          "bytes": 120324,
+          "cues": 1228,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/inu-ou.json"
 }

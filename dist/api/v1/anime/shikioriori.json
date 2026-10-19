@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101231-8X1CanhPk9iw.jpg",
+  "averageScore": 82,
+  "popularity": 57189,
+  "color": "hsl(317, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101231-QB3E5LNZUPYg.jpg",
+  "catalog_id": "shikioriori",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "shikioriori-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shikioriori/shikioriori-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shikioriori/shikioriori-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shikioriori/shikioriori-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shikioriori/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shikioriori/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shikioriori/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/shikioriori/ep_01.kk.srt",
+          "sha256": "2d38d1bcb0427ebfc391d5117ed828669334d63a7b52b75a33aea780e7d90cf9",
+          "bytes": 99712,
+          "cues": 1160,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/shikioriori/ep_01.kk.vtt",
+          "sha256": "68a296be5f987a909477da368b4a330092020128b1bab49b8ac565534108ca16",
+          "bytes": 99809,
+          "cues": 1160,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/shikioriori/ep_01.kk.ass",
+          "sha256": "8a41a0cf2757bbc44e4a6c2a8b977abb830370bfa769c600cba08d3b62704583",
+          "bytes": 117770,
+          "cues": 1160,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(317, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 82,
-  "popularity": 57189,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/shikioriori.json"
 }

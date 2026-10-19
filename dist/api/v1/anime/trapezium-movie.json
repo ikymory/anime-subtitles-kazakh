@@ -16,24 +16,56 @@
     "Music",
     "Slice of Life"
   ],
-  "description": "Trapezium - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/trapezium-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/trapezium-movie.jpg",
+  "description": "Trapezium - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "trapezium-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "trapezium-movie-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trapezium-movie/trapezium-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trapezium-movie/trapezium-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trapezium-movie/trapezium-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trapezium-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trapezium-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trapezium-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/trapezium-movie/ep_01.kk.ass",
+          "sha256": "66bda09ea2e805c881b1060182da828e4b3e3b7f0fa8712579b295129bfb597e",
+          "bytes": 147786,
+          "cues": 1423,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/trapezium-movie/ep_01.kk.srt",
+          "sha256": "00bccedff9d0ddb1de5e30792339e9096496ad7770f36de68d561e0d093456ff",
+          "bytes": 125657,
+          "cues": 1419,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/trapezium-movie/ep_01.kk.vtt",
+          "sha256": "cffc4699116d20b85902fb0969995d9e76c1a1485e1bf1a048c1ce66812373a5",
+          "bytes": 125665,
+          "cues": 1419,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/trapezium-movie.json"
 }

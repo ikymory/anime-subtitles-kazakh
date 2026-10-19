@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "MUTAFUKAZ - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mutafukaz.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mutafukaz.jpg",
+  "description": "MUTAFUKAZ - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "mutafukaz",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mutafukaz-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mutafukaz/mutafukaz-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mutafukaz/mutafukaz-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mutafukaz/mutafukaz-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mutafukaz/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mutafukaz/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mutafukaz/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mutafukaz/ep_01.kk.srt",
+          "sha256": "6a652194d2ec2de77ffede0c25aa4098fcb97ec54f68820cf703cca8b6093b31",
+          "bytes": 82163,
+          "cues": 964,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mutafukaz/ep_01.kk.vtt",
+          "sha256": "fa2a1446d870e2f66b9f1f0b37089dcd9254be5e5aeb4d5dd0018a4ba3597ab8",
+          "bytes": 82260,
+          "cues": 964,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mutafukaz/ep_01.kk.ass",
+          "sha256": "132d029b6d43b73945b89cfcce45c561f031333c5d847107d474a85607bf4e71",
+          "bytes": 97682,
+          "cues": 964,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mutafukaz.json"
 }

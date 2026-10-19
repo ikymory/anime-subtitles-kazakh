@@ -16,24 +16,56 @@
     "Comedy",
     "Sports"
   ],
-  "description": "Girls und Panzer der Film - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/girls-und-panzer-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/girls-und-panzer-movie.jpg",
+  "description": "Girls und Panzer der Film - official Kazakh translation archive by ikymory.",
   "averageScore": 89,
   "popularity": 106800,
+  "catalog_id": "girls-und-panzer-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "girls-und-panzer-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/girls-und-panzer-movie/girls-und-panzer-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/girls-und-panzer-movie/girls-und-panzer-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/girls-und-panzer-movie/girls-und-panzer-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/girls-und-panzer-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/girls-und-panzer-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/girls-und-panzer-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/girls-und-panzer-movie/ep_01.kk.srt",
+          "sha256": "9328ff5aaaa44e4a0d9f5c5621d9db61fefd5924f0141fd725b26a7ceb027509",
+          "bytes": 191763,
+          "cues": 2163,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/girls-und-panzer-movie/ep_01.kk.vtt",
+          "sha256": "050a1e5b49945c62af5930840c06579349952910044b78283cfe9379f1f7d1ed",
+          "bytes": 191860,
+          "cues": 2163,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/girls-und-panzer-movie/ep_01.kk.ass",
+          "sha256": "d307042f735b84b3f531fb415d309a0d14d9b7ee2fc7eb733248cb0a845852b5",
+          "bytes": 224104,
+          "cues": 2163,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/girls-und-panzer-movie.json"
 }

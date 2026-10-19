@@ -13,39 +13,92 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx8675-5H2QSLvXA7bH.jpg",
+  "averageScore": 88,
+  "popularity": 69977,
+  "color": "hsl(68, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/8675-0wWRCPJPnYvZ.jpg",
+  "catalog_id": "seitokai-yakuindomo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "seitokai-yakuindomo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/seitokai-yakuindomo/seitokai-yakuindomo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/seitokai-yakuindomo/seitokai-yakuindomo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/seitokai-yakuindomo/seitokai-yakuindomo-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/seitokai-yakuindomo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/seitokai-yakuindomo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/seitokai-yakuindomo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/seitokai-yakuindomo/ep_01.kk.srt",
+          "sha256": "447f35c3a611829e2d077f8b2d82288e80efbb72b8e420cd8d3ec80fe9e89716",
+          "bytes": 39668,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/seitokai-yakuindomo/ep_01.kk.vtt",
+          "sha256": "6b44735663ed1e1d8bc1b7765a3a572f091357d4e7ce8d48bb3f74a597cb1a77",
+          "bytes": 39765,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/seitokai-yakuindomo/ep_01.kk.ass",
+          "sha256": "79f08535f0e787b77e35dcb0d57e6b5ef51b55293351457ffe0c846adb4da915",
+          "bytes": 47080,
+          "cues": 439,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "seitokai-yakuindomo-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/seitokai-yakuindomo/seitokai-yakuindomo-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/seitokai-yakuindomo/seitokai-yakuindomo-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/seitokai-yakuindomo/seitokai-yakuindomo-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/seitokai-yakuindomo/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/seitokai-yakuindomo/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/seitokai-yakuindomo/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/seitokai-yakuindomo/ep_02.kk.srt",
+          "sha256": "2c093435646939d3de6bda3eef66aa9c0bb509da2ecdbdb699fa234b3ac7a49b",
+          "bytes": 39547,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/seitokai-yakuindomo/ep_02.kk.vtt",
+          "sha256": "d3baac773d345db4ea8aedfd939b39336a3a4249360ae94c5fc2616e40557b00",
+          "bytes": 39644,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/seitokai-yakuindomo/ep_02.kk.ass",
+          "sha256": "9799753389325278ce1f1672c04d2c1c0d0b3d76821005b4cbdfda74410475ec",
+          "bytes": 46374,
+          "cues": 400,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(68, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 88,
-  "popularity": 69977,
-  "translated_episodes_count": 2
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/seitokai-yakuindomo.json"
 }

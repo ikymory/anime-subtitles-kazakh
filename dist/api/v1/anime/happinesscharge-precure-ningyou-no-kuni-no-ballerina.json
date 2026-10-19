@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "HappinessCharge Precure! Ningyou no Kuni no Ballerina - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/happinesscharge-precure-ningyou-no-kuni-no-ballerina.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/happinesscharge-precure-ningyou-no-kuni-no-ballerina.jpg",
+  "description": "HappinessCharge Precure! Ningyou no Kuni no Ballerina - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "happinesscharge-precure-ningyou-no-kuni-no-ballerina",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "happinesscharge-precure-ningyou-no-kuni-no-ballerina-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/happinesscharge-precure-ningyou-no-kuni-no-ballerina-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/happinesscharge-precure-ningyou-no-kuni-no-ballerina-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/happinesscharge-precure-ningyou-no-kuni-no-ballerina-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/ep_01.kk.srt",
+          "sha256": "dd2e37a69da50e1776bdabeaf0076719de50990b63809e015217a5d6a6ffcd24",
+          "bytes": 89643,
+          "cues": 1120,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/ep_01.kk.vtt",
+          "sha256": "34be13dda70c5bf39cc0d913b39431e9514b4770b39c26a7614302e1d3965a86",
+          "bytes": 89740,
+          "cues": 1120,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/happinesscharge-precure-ningyou-no-kuni-no-ballerina/ep_01.kk.ass",
+          "sha256": "5264f2c23da065810376125d76ee08c9f6b081b95c64d5058202dcb16de5d50c",
+          "bytes": 107200,
+          "cues": 1120,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/happinesscharge-precure-ningyou-no-kuni-no-ballerina.json"
 }

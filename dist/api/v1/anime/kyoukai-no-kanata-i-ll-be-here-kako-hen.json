@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kyoukai no Kanata. I’LL BE HERE - Kako-hen - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kyoukai-no-kanata-i-ll-be-here-kako-hen.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kyoukai-no-kanata-i-ll-be-here-kako-hen.jpg",
+  "description": "Kyoukai no Kanata. I’LL BE HERE - Kako-hen - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kyoukai-no-kanata-i-ll-be-here-kako-hen",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kyoukai-no-kanata-i-ll-be-here-kako-hen-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/kyoukai-no-kanata-i-ll-be-here-kako-hen-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/kyoukai-no-kanata-i-ll-be-here-kako-hen-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/kyoukai-no-kanata-i-ll-be-here-kako-hen-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/ep_01.kk.srt",
+          "sha256": "75fd5eb7ee74c3ba6cc06595af6365bd71abe67e5008b040317c961b8fbe8725",
+          "bytes": 93447,
+          "cues": 1054,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/ep_01.kk.vtt",
+          "sha256": "9f786516de5a8fa2cdab6bb39946bd553a497639029c025a2373c2be9d6b6827",
+          "bytes": 93544,
+          "cues": 1054,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kyoukai-no-kanata-i-ll-be-here-kako-hen/ep_01.kk.ass",
+          "sha256": "1d4cf12ab02b7704454841d7608b3f25c8b85bd07e53f40419f6d58ae1892a3a",
+          "bytes": 110260,
+          "cues": 1054,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kyoukai-no-kanata-i-ll-be-here-kako-hen.json"
 }

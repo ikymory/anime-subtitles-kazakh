@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "sailor-moon-s-kaguya-hime",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sailor-moon-s-kaguya-hime.json"
+    },
+    {
+      "slug": "sailor-moon-s-movie",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sailor-moon-s-movie.json"
+    }
+  ]
+}

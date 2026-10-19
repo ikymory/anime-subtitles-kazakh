@@ -3,17 +3,28 @@
   "slug": "megalo-box",
   "title": {
     "romaji": "Megalo Box",
-    "english": "Megalo Box"
+    "english": "Megalo Box",
+    "kazakh": "Мегалобокс",
+    "kk": "Мегалобокс"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 13,
+  "seasonYear": 2018,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b100298-A5VQUcw7ZC64.jpg",
+  "averageScore": 85,
+  "popularity": 55512,
+  "color": "hsl(93, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100298-vOjmw7DvMns3.jpg",
+  "catalog_id": "megalo-box",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -29,136 +40,439 @@
     12,
     13
   ],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "megalo-box-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_01.kk.srt",
+          "sha256": "299f214ee36c33a60517609f51b12b6c4e5aeb811dc2773c0f751a56852f90fb",
+          "bytes": 29781,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_01.kk.vtt",
+          "sha256": "7275252bcc82d761c2fd2dd406fdd78ab328b2b9d7f8652a2597d994d1139316",
+          "bytes": 29878,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_01.kk.ass",
+          "sha256": "2c626593537043953902b6a9982091abd631cd69dd50beda1e112d9b427c2df5",
+          "bytes": 35954,
+          "cues": 357,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "megalo-box-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_02.kk.srt",
+          "sha256": "4553f6e61497e2b845a1406abdf315552850f0beb15b9f5b635f071a138b4177",
+          "bytes": 29208,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_02.kk.vtt",
+          "sha256": "499c9fea8c4be20c94ef6e37135eb79661afdff6d14154789329f6b5c0aebaeb",
+          "bytes": 29305,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_02.kk.ass",
+          "sha256": "a4b7214c4aab53c584aad8c9fc52090969c0176d89a5e729cf460c30e5d1b7f6",
+          "bytes": 35531,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "megalo-box-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_03.kk.srt",
+          "sha256": "7ffd496dbb74323aa1dd514227e0471d049d5a535c5203fdfe8839b41e2bfad6",
+          "bytes": 36471,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_03.kk.vtt",
+          "sha256": "5920406cc51b6d4bd128abafacaa8b9d8028c8532d723b333ba0f92c0100f832",
+          "bytes": 36568,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_03.kk.ass",
+          "sha256": "824ecd73c11751cc8225e375c6ddb8caede2bd75c6ea3e6154ec1bb6624afb26",
+          "bytes": 43844,
+          "cues": 437,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "megalo-box-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_04.kk.srt",
+          "sha256": "7e6f6a199814e5ea38c74b9437d9dd52250c032fa546c86602607510b29c1563",
+          "bytes": 31267,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_04.kk.vtt",
+          "sha256": "2b1d1adf1fd0114e005aa9925529ce51bc226ae79d3a187bc1588937942b7763",
+          "bytes": 31364,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_04.kk.ass",
+          "sha256": "9790fab74937d0e1584e3b52052d2968f784cba69222b7b3ec0ea6afbe30589e",
+          "bytes": 37665,
+          "cues": 372,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "megalo-box-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_05.kk.srt",
+          "sha256": "d203a3b0a33c58bbf8cfda41055acc8d8c3e954b19713c4029699015f2162cf2",
+          "bytes": 28008,
+          "cues": 323,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_05.kk.vtt",
+          "sha256": "8797cf449cabf6dc8ce12bdd77724866f68264c6e993d2aec7d0ce29ec73133c",
+          "bytes": 28105,
+          "cues": 323,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_05.kk.ass",
+          "sha256": "31be6e86dcd176a25e2c1ed677293158f12ab0b956952add3a72f54a609c1199",
+          "bytes": 33671,
+          "cues": 323,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "megalo-box-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_06.kk.srt",
+          "sha256": "4ea0db8f40f76dfde819754bcb41b25a517cd5fac5126fbcdd44cf4da938e607",
+          "bytes": 33322,
+          "cues": 406,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_06.kk.vtt",
+          "sha256": "2e461e9372a27a13aa8cebfa112d28bc5713c985283d248c9bbb264f46d3bd45",
+          "bytes": 33419,
+          "cues": 406,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_06.kk.ass",
+          "sha256": "65f21a45046a6d6aa1a9a5da59c541a2c8a57c9852ce4a68a0f1fa1c640b75c3",
+          "bytes": 40230,
+          "cues": 406,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "megalo-box-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_07.kk.srt",
+          "sha256": "c30aadef838dc0016eb50abec1120d66db07404633968dc46b12eea187018d12",
+          "bytes": 33199,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_07.kk.vtt",
+          "sha256": "ed78f336cdec4486191f500e911d84dcc8538d2ba5e740a6c11c987e67ac365c",
+          "bytes": 33296,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_07.kk.ass",
+          "sha256": "0ef1d1fea8b6a7c2f70e009764e8f859e393d0a952b5d5ed0de004d4e7e1cca6",
+          "bytes": 39372,
+          "cues": 357,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "megalo-box-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_08.kk.srt",
+          "sha256": "3b1e44e11f53d64dd6d3a86eaa8d22405e3f7b7a4c5066273b1f851d685e5682",
+          "bytes": 35190,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_08.kk.vtt",
+          "sha256": "3759ff5bef55f762f283d80aaeadced1fd617b054fab09ad4a8c818387034e53",
+          "bytes": 35287,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_08.kk.ass",
+          "sha256": "40892409231efa8426c4c8d537a33489fd038eb1c226471e1fd692d778e30af0",
+          "bytes": 42008,
+          "cues": 400,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "megalo-box-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_09.kk.srt",
+          "sha256": "f412d636caa5af22f3c8838a5347528e8a6bd8cd649bdc09987ca2d04008d67e",
+          "bytes": 31730,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_09.kk.vtt",
+          "sha256": "460a5fd0e8ea09d0764f24dc147ec9ac9e1da2f80b29d188bfd73f5170685313",
+          "bytes": 31827,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_09.kk.ass",
+          "sha256": "c5f9ae7a5d2093c9ca80a6baa8c1f0e289a0936af41a9147769ab4af3437994a",
+          "bytes": 38233,
+          "cues": 379,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "megalo-box-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_10.kk.srt",
+          "sha256": "1695326738e0770bb89a37e6b876fbff5a2e0f1d442a76ceab48ccbe6efc9286",
+          "bytes": 31149,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_10.kk.vtt",
+          "sha256": "ee47c8b770204222d5d877a2fa16db43b2f1001e607e607457c06fcee6fb2424",
+          "bytes": 31246,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_10.kk.ass",
+          "sha256": "2548c6a283ed9be956474e00b15733d0f6a63ea074cec8ec6885bc96cae3c953",
+          "bytes": 37292,
+          "cues": 355,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "megalo-box-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_11.kk.srt",
+          "sha256": "0714c04353613e2816c3df621eb232b9c9e335e77c6ce059b2f981c739edc76b",
+          "bytes": 30252,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_11.kk.vtt",
+          "sha256": "0b21209fa9f595e60ca266e9dc654f09f7baf22c8d52826e731370efe0f65b3b",
+          "bytes": 30349,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_11.kk.ass",
+          "sha256": "013732c1f72f818b7e106883f94a25a89afa915385a189f458b0335c1136c1e0",
+          "bytes": 36380,
+          "cues": 354,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "megalo-box-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_12.kk.srt",
+          "sha256": "79046b38fc9f77dc04a6b57bc726d4429324f23abed7db6aa5accb4f0bf801cf",
+          "bytes": 27174,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_12.kk.vtt",
+          "sha256": "5ded9755a9d2488177ae46d2e9449dfdb927458dda21f951714b5c2da107fc21",
+          "bytes": 27271,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_12.kk.ass",
+          "sha256": "eee4dab1ffa0c8f1e0c5906a4089f99d59cddcf8d03fb0f1a204930c039bdb23",
+          "bytes": 32732,
+          "cues": 316,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "megalo-box-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/megalo-box/megalo-box-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/megalo-box/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/megalo-box/ep_13.kk.srt",
+          "sha256": "bca75b89fb08895a95a26605a9efa41e047dfe962519b9e33457ffdb102003ee",
+          "bytes": 30313,
+          "cues": 350,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/megalo-box/ep_13.kk.vtt",
+          "sha256": "fe72839ac98f9debdf983fab54173c8209cd01f8219470cf92cb343a6aaa646b",
+          "bytes": 30410,
+          "cues": 350,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/megalo-box/ep_13.kk.ass",
+          "sha256": "9f883e770e1f6fec2fcdc34cdde34258a404e6cce9ea1bd305d71a85fb1f0d46",
+          "bytes": 36381,
+          "cues": 350,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 42,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/megalo-box.json"
 }

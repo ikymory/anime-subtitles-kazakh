@@ -17,28 +17,59 @@
     "Comedy",
     "Fantasy"
   ],
-  "description": "The goddess Rista summons a hero to help her hard mode video game-like world. The hero, Seiya, is exceptional in every way, but he is incredibly cautious to the point of buying three sets of armor (one to wear, a spare, and a spare for the spare) and going full power against weak slimes (just in case). \n <br /> <br />\n",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105156-ZVtxISdoUqnY.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105156-AER446HoeuJZ.jpg",
+  "description": "The goddess Rista summons a hero to help her hard mode video game-like world. The hero, Seiya, is exceptional in every way, but he is incredibly cautious to the point of buying three sets of armor (one to wear, a spare, and a spare for the spare) and going full power against weak slimes (just in case).",
+  "averageScore": 86,
+  "popularity": 67147,
+  "color": "#e4ae5d",
+  "duration": 24,
+  "studio": "WHITE FOX",
+  "catalog_id": "cautious-hero-hero",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "cautious-hero-hero-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cautious-hero-hero/cautious-hero-hero-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cautious-hero-hero/cautious-hero-hero-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cautious-hero-hero/cautious-hero-hero-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cautious-hero-hero/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cautious-hero-hero/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cautious-hero-hero/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cautious-hero-hero/ep_01.kk.srt",
+          "sha256": "7a1e2cca972799ed950b2fd272e3536b085ee57e4b762054df585d61e52e956a",
+          "bytes": 42361,
+          "cues": 462,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cautious-hero-hero/ep_01.kk.vtt",
+          "sha256": "4e2d749ab6c47d47c662dba98865d26c9847a79ce90cf719aa173b128c73fbfc",
+          "bytes": 42458,
+          "cues": 462,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cautious-hero-hero/ep_01.kk.ass",
+          "sha256": "410451e2c3fe006f12376297c0a29e65131619948a291a6c5ca3caff824c86b9",
+          "bytes": 50117,
+          "cues": 462,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e4ae5d",
-  "studio": "WHITE FOX",
-  "duration": 24,
-  "averageScore": 86,
-  "popularity": 67147,
-  "translated_episodes_count": 1
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cautious-hero-hero.json"
 }

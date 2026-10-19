@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kouchuu Ouja Mushiking Super Battle Movie. Yami no Kaizou Kouchuu - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu.jpg",
+  "description": "Kouchuu Ouja Mushiking Super Battle Movie. Yami no Kaizou Kouchuu - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/ep_01.kk.srt",
+          "sha256": "29aff5fb60b40c8131a797608728f6c97c8eebb4261a51b085713630342ccd31",
+          "bytes": 74755,
+          "cues": 1032,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/ep_01.kk.vtt",
+          "sha256": "672de3c000961dbaa052e2387cfb07aeee885f5fa5d7c751d8667c7c11c9dc5e",
+          "bytes": 74852,
+          "cues": 1032,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu/ep_01.kk.ass",
+          "sha256": "ac5c57171ccf2ab0259b52274ef967e4988d97ae782e4e368dac6d1846ad07a3",
+          "bytes": 91262,
+          "cues": 1032,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kouchuu-ouja-mushiking-super-battle-movie-yami-no-kaizou-kouchuu.json"
 }

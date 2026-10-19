@@ -18,24 +18,56 @@
     "Psychological",
     "Sci-Fi"
   ],
-  "description": "After the second impact, all that remains of Japan is Tokyo-3, a city that's being attacked by giant creatures that seek to eradicate the human kind, called Angels. After not seeing his father for more than eight years, Shinji Ikari receives a phone call in which he is told to urgently come to the NERV Headquarters, an organization that deals with the destruction of the Angels through the use of giant mechs called Evas. Shinji's objective is to pilot the Eva Unit 01 while teaming up with the Eva Unit 00 pilot, Ayanami Rei.<br><br>\n<i>Note: Exists in several versions, as denoted by the version number:<br>\n• <b>1.0</b>: Sep 1, 2007 - Original theatrical release<br>\n• <b>1.01</b>: Apr 25, 2008 - DVD release containing minor adjustments and fine tunings in picture, editing, and sound quality.<br>\n&#8195;• <b>Explanation of Evangelion 1.01</b> - Included with the special edition DVD release of 1.01, overlays large captions to provide the \"official designations\" of people, locations, weapons, technology, and so forth.<br>\n• <b>1.11</b>: May 27, 2009 - Blu-ray/DVD re-release with 3 minutes of new animation added to the first 15 minutes and fixing video issues present in the previous release.</i>",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2759-S0ATamQtDwlW.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2759-wndNbYSgvph1.jpg",
+  "description": "After the second impact, all that remains of Japan is Tokyo-3, a city that's being attacked by giant creatures that seek to eradicate the human kind, called Angels. After not seeing his father for more than eight years, Shinji Ikari receives a phone call in which he is told to urgently come to the NERV Headquarters, an organization that deals with the destruction of the Angels through the use of giant mechs called Evas. Shinji's objective is to pilot the Eva Unit 01 while teaming up with the Eva Unit 00 pilot, Ayanami Rei.<br><br>\n<i>Note: Exists in several versions, as denoted by the version number:<br>\n• <b>1.0</b>: Sep 1, 2007 - Original theatrical release<br>\n• <b>1.01</b>: Apr 25, 2008 - DVD release containing minor adjustments and fine tunings in picture, editing, and sound quality.<br>\n&#8195;• <b>Explanation of Evangelion 1.01</b> - Included with the special edition DVD release of 1.01, overlays large captions to provide the \"official designations\" of people, locations, weapons, technology, and so forth.<br>\n• <b>1.11</b>: May 27, 2009 - Blu-ray/DVD re-release with 3 minutes of new animation added to the first 15 minutes and fixing video issues present in the previous release.</i>",
   "averageScore": 78,
   "popularity": 145888,
+  "catalog_id": "evangelion-1-0-you-are-not-alone",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "evangelion-1-0-you-are-not-alone-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/evangelion-1-0-you-are-not-alone/evangelion-1-0-you-are-not-alone-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/evangelion-1-0-you-are-not-alone/evangelion-1-0-you-are-not-alone-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/evangelion-1-0-you-are-not-alone/evangelion-1-0-you-are-not-alone-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-1-0-you-are-not-alone/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-1-0-you-are-not-alone/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-1-0-you-are-not-alone/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/evangelion-1-0-you-are-not-alone/ep_01.kk.ass",
+          "sha256": "5db9f7c30d09841fbb235f3cd75114b4678ea519881c6f20ce72d683d26ba686",
+          "bytes": 169549,
+          "cues": 1620,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/evangelion-1-0-you-are-not-alone/ep_01.kk.srt",
+          "sha256": "770e8c3d1bb691d2af018a8e7723d4e664e0f81ea58286781251ed225fed98ae",
+          "bytes": 144619,
+          "cues": 1613,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/evangelion-1-0-you-are-not-alone/ep_01.kk.vtt",
+          "sha256": "beab73b16d5d8cedf675f05f89d2e4d29b1b279bf5966c3077120bc73e641bd5",
+          "bytes": 144627,
+          "cues": 1613,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/evangelion-1-0-you-are-not-alone.json"
 }

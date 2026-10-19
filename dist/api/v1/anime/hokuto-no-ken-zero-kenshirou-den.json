@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Hokuto no Ken Zero. Kenshirou Den - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokuto-no-ken-zero-kenshirou-den.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokuto-no-ken-zero-kenshirou-den.jpg",
+  "description": "Hokuto no Ken Zero. Kenshirou Den - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hokuto-no-ken-zero-kenshirou-den",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hokuto-no-ken-zero-kenshirou-den-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-zero-kenshirou-den/hokuto-no-ken-zero-kenshirou-den-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-zero-kenshirou-den/hokuto-no-ken-zero-kenshirou-den-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-zero-kenshirou-den/hokuto-no-ken-zero-kenshirou-den-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-zero-kenshirou-den/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-zero-kenshirou-den/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-zero-kenshirou-den/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hokuto-no-ken-zero-kenshirou-den/ep_01.kk.srt",
+          "sha256": "656538641122789f1a893e503b971c6660f794901af3ad2ad71dac7627428f72",
+          "bytes": 79777,
+          "cues": 821,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hokuto-no-ken-zero-kenshirou-den/ep_01.kk.vtt",
+          "sha256": "5eb4e88ff78f6fd156659782150faaa4af4603f71b2ad02c28789c5208ccbf08",
+          "bytes": 79874,
+          "cues": 821,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hokuto-no-ken-zero-kenshirou-den/ep_01.kk.ass",
+          "sha256": "e5627624b683a79bf065201958eb27e3c1d0bf26d3cca8b2bdcc0ae0b08b10aa",
+          "bytes": 92970,
+          "cues": 821,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hokuto-no-ken-zero-kenshirou-den.json"
 }

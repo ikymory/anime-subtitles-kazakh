@@ -16,11 +16,16 @@
     "Sci-Fi",
     "Slice of Life"
   ],
-  "description": "Aria the Animation - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aria-the-animation-tv.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aria-the-animation-tv.jpg",
+  "description": "Aria the Animation - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "aria-the-animation-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +41,439 @@
     12,
     13
   ],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "aria-the-animation-tv-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_01.kk.srt",
+          "sha256": "7d2aa37f9788a2dbeb892201aaf4a2b9b87ed2fce1fbd8e8f9966c6bb145b53b",
+          "bytes": 28370,
+          "cues": 310,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_01.kk.vtt",
+          "sha256": "02e94d3efdd4c946e4af7a4e087e938efa084d68db80922e70652f315c8581fb",
+          "bytes": 28467,
+          "cues": 310,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_01.kk.ass",
+          "sha256": "3282566bf589140db4ea902b308a6ba9d32b94f2f4ab4f37522afc617e597837",
+          "bytes": 34080,
+          "cues": 310,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "aria-the-animation-tv-2ep.srt",
+      "filename": "ep_02.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_02.kk.ass",
+          "sha256": "fab99b5c263e16d1add05e5f9d57c83b9f8b00b570702e964bd5433362660cb6",
+          "bytes": 44516,
+          "cues": 427,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_02.kk.srt",
+          "sha256": "917ace2712fbb9b216a1c8a36e6985ee930d5bda05363078022d1cc3999f3874",
+          "bytes": 37015,
+          "cues": 426,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_02.kk.vtt",
+          "sha256": "f4d81d1b0a62d4438297ffd3456302fbc3022d0008c4ac2f47d27dcb4acf34d9",
+          "bytes": 37023,
+          "cues": 426,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "aria-the-animation-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_03.kk.srt",
+          "sha256": "ac39098434e1944b982ffdcbf2be7dfc2696727a94bde7b379c1b63f24cf3c66",
+          "bytes": 31746,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_03.kk.vtt",
+          "sha256": "9210e90d9f03589d5b1e4e69bba30dfcbbbc125f26cd91e91c1caa000658fdbd",
+          "bytes": 31843,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_03.kk.ass",
+          "sha256": "78565c78e6a4a33e8333b5c7c5587534888328c3c7d30b381a5209554f5430e1",
+          "bytes": 37952,
+          "cues": 343,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "aria-the-animation-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_04.kk.srt",
+          "sha256": "0167db5c7d372777fc7c24acd924b0c8495311272e1a6dea47c81e588fe74c7a",
+          "bytes": 31387,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_04.kk.vtt",
+          "sha256": "2998bc83929976ff5bac37ff51e9939cd8c90c3bd5163f8fbc5a9987c7ec6c3d",
+          "bytes": 31484,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_04.kk.ass",
+          "sha256": "6a5d5125b9681957188c0e3eb5d8d08d3754c87e79b3f9ef3e9c9ac24789c7ee",
+          "bytes": 37757,
+          "cues": 354,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "aria-the-animation-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_05.kk.srt",
+          "sha256": "86bd22b434de6eb1a4e822596986cefb947076927419814692dc96ca57254314",
+          "bytes": 30092,
+          "cues": 312,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_05.kk.vtt",
+          "sha256": "c17f5be82136db05735ab489876ef4cc619113d4e5eca8ad09d6e7c196f38e90",
+          "bytes": 30189,
+          "cues": 312,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_05.kk.ass",
+          "sha256": "dc706f2da07412d46fd6301b7d7856dd54a55d39209a8736d74d3821b03829ec",
+          "bytes": 35832,
+          "cues": 312,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "aria-the-animation-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_06.kk.srt",
+          "sha256": "e2199ea1c37c7a235034d7a8a8843cf4272df34185bc7cfb4113903bac1bedb9",
+          "bytes": 20844,
+          "cues": 212,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_06.kk.vtt",
+          "sha256": "9dd4e9b3ab4d60ccf9f7d59352f2c6e47839373157a86a8ed85d3579c3862886",
+          "bytes": 20941,
+          "cues": 212,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_06.kk.ass",
+          "sha256": "70d7f2a829201c00782487e3355710b882fbd049e679e7e9d96b877fdfab13a1",
+          "bytes": 25084,
+          "cues": 212,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "aria-the-animation-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_07.kk.srt",
+          "sha256": "ef66a777001aec6db5a91fb2b423dcc1610fb3a14c08efc9e6117e0ba36f35fb",
+          "bytes": 29301,
+          "cues": 310,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_07.kk.vtt",
+          "sha256": "03a509d0806e234b60022efdd242686cf421fb459860a7e4e7593b12ba2bd74f",
+          "bytes": 29398,
+          "cues": 310,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_07.kk.ass",
+          "sha256": "13f3b163e4925eee946cc55a286d3efbdbb588ec7e1e3ed256eeacac48de9d28",
+          "bytes": 35011,
+          "cues": 310,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "aria-the-animation-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_08.kk.srt",
+          "sha256": "619723ff5e1d17a92e4be7d0857ebb409ce573be00bd77414cf19ff72d988c0e",
+          "bytes": 11679,
+          "cues": 125,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_08.kk.vtt",
+          "sha256": "bfe77f989db7af10f37ad9e71010c26a4cb434144d0620d80efbc821cb39657a",
+          "bytes": 11776,
+          "cues": 125,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_08.kk.ass",
+          "sha256": "1394cdb3e656d60ceb6a2e01739ddc5454b9b88c8cf238376f6c26b8b43de5f6",
+          "bytes": 14614,
+          "cues": 125,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "aria-the-animation-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_09.kk.srt",
+          "sha256": "bd099e820a5161b20cf149206022f7f2a613e66298a7861806af16dc0f000374",
+          "bytes": 28121,
+          "cues": 278,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_09.kk.vtt",
+          "sha256": "4745fbab3e5b73940ae10f0ebaf7925d61a25ebfad2a0aaba5145d6c77cd561c",
+          "bytes": 28218,
+          "cues": 278,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_09.kk.ass",
+          "sha256": "a236be04587517c59dc3177bd307f86708a0c353408d466c7d4dff0e8d298283",
+          "bytes": 33351,
+          "cues": 278,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "aria-the-animation-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_10.kk.srt",
+          "sha256": "00bc40874b85b65631553f673b5afd33c5638e275de97649cc46d8957a5ba3cd",
+          "bytes": 26093,
+          "cues": 282,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_10.kk.vtt",
+          "sha256": "a246d90a9487f023e3762a8023227754fe259198c7f18c2a69059ea80b8653ce",
+          "bytes": 26190,
+          "cues": 282,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_10.kk.ass",
+          "sha256": "6d8bd27682468a3f930e2cbfeb6cdbe8ac77403c92d446248e78a0252b39cb37",
+          "bytes": 31383,
+          "cues": 282,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "aria-the-animation-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_11.kk.srt",
+          "sha256": "4627a2db55fb10f0ea598602d8e587e2b5b35980b1c03ab09301c912f7c0c71a",
+          "bytes": 25539,
+          "cues": 268,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_11.kk.vtt",
+          "sha256": "be61d4661ffa15ae688e99f0012db910656620afcc6cb9b2d0b1fde42bb232de",
+          "bytes": 25636,
+          "cues": 268,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_11.kk.ass",
+          "sha256": "9cbe411662e2c22c705382309cc08e158536d914d2c5a503e4e060924b19e4be",
+          "bytes": 30619,
+          "cues": 268,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "aria-the-animation-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_12.kk.srt",
+          "sha256": "c3ea6933022e07f63068c3d59766dae08eea5fbb4abf374ea7286c546d74950b",
+          "bytes": 27350,
+          "cues": 311,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_12.kk.vtt",
+          "sha256": "4e319c7cae2dd384ef25002b910b19c14d6bbc2eeec39a9b1686b138c8201569",
+          "bytes": 27447,
+          "cues": 311,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_12.kk.ass",
+          "sha256": "9bab713b4df3b2b7ef17e2d32ef556f4deae29eb2a17d0b9dce1f0fd90063f54",
+          "bytes": 33075,
+          "cues": 311,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "aria-the-animation-tv-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-animation-tv/aria-the-animation-tv-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-animation-tv/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-animation-tv/ep_13.kk.srt",
+          "sha256": "cac09c99c13fb3c33d4cbcca2b1fa66b1e22ad6b1fadc58791b0e5ff4b78d398",
+          "bytes": 28074,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-animation-tv/ep_13.kk.vtt",
+          "sha256": "87ddeb6948cd552d4d5803176cbe3b12679c1d7cc8312e81008d74195b4cf16a",
+          "bytes": 28171,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-animation-tv/ep_13.kk.ass",
+          "sha256": "fbc747033b833e7cbe70cb7c7bfa3f9f94b4996d9b072cb368f3c13ef1d377fb",
+          "bytes": 33964,
+          "cues": 322,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 41,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aria-the-animation-tv.json"
 }

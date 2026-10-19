@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "doraemon-himitsu-dougu-museum",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-himitsu-dougu-museum.json"
+    },
+    {
+      "slug": "vampire-hunter-d-bloodlust",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/vampire-hunter-d-bloodlust.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "eureka-seven-anemone",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/eureka-seven-anemone.json"
+    },
+    {
+      "slug": "hadashi-no-gen-2",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hadashi-no-gen-2.json"
+    }
+  ]
+}

@@ -19,28 +19,59 @@
     "Mahou Shoujo",
     "Romance"
   ],
-  "description": "Sailor Moon battles Shadow Galactica, an enemy threatening her friends in order to rule the universe. Can she protect her loved ones and persevere? <br><br>\n\n(Source: Netflix Anime)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160850-DuQm6kqO89Lj.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/160850-33GLXaOfm4Y9.jpg",
+  "description": "Sailor Moon battles Shadow Galactica, an enemy threatening her friends in order to rule the universe. Can she protect her loved ones and persevere? <br><br>\n\n(Source: Netflix Anime)",
   "averageScore": 78,
   "popularity": 4656,
+  "color": "#28a1f1",
+  "duration": 80,
+  "studio": "Studio DEEN",
+  "catalog_id": "sailor-moon-cosmos-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "sailor-moon-cosmos-1-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-cosmos-1/sailor-moon-cosmos-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-cosmos-1/sailor-moon-cosmos-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-cosmos-1/sailor-moon-cosmos-1-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-cosmos-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-cosmos-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-cosmos-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/sailor-moon-cosmos-1/ep_01.kk.ass",
+          "sha256": "1c93ecfa4c22d2d0b18fe8e83b3e882a2ce48acdb4ad1b9a44cfdf5db74e1400",
+          "bytes": 142483,
+          "cues": 1406,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/sailor-moon-cosmos-1/ep_01.kk.srt",
+          "sha256": "da5417ffcb0391c660e32b359698cec4c0b5944b5b307e402f449140f126dc95",
+          "bytes": 120669,
+          "cues": 1402,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/sailor-moon-cosmos-1/ep_01.kk.vtt",
+          "sha256": "59c15a2ce85feecae2654d48c22fe05df799126dffd71995b03dc332f2b1b742",
+          "bytes": 120677,
+          "cues": 1402,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#28a1f1",
-  "studio": "Studio DEEN",
-  "duration": 80,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sailor-moon-cosmos-1.json"
 }

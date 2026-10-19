@@ -15,24 +15,56 @@
     "Action",
     "Sci-Fi"
   ],
-  "description": "Date A Bullet: Dead or Bullet - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/date-a-bullet-dead-or-bullet.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/date-a-bullet-dead-or-bullet.jpg",
+  "description": "Date A Bullet: Dead or Bullet - official Kazakh translation archive by ikymory.",
   "averageScore": 81,
   "popularity": 97200,
+  "catalog_id": "date-a-bullet-dead-or-bullet",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "date-a-bullet-dead-or-bullet-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/date-a-bullet-dead-or-bullet/date-a-bullet-dead-or-bullet-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/date-a-bullet-dead-or-bullet/date-a-bullet-dead-or-bullet-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/date-a-bullet-dead-or-bullet/date-a-bullet-dead-or-bullet-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/date-a-bullet-dead-or-bullet/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/date-a-bullet-dead-or-bullet/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/date-a-bullet-dead-or-bullet/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/date-a-bullet-dead-or-bullet/ep_01.kk.srt",
+          "sha256": "27346c9d9ae6e34f739cb11e72b423197190a7fd6e833bb2373ef5c96ad7e648",
+          "bytes": 28761,
+          "cues": 332,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/date-a-bullet-dead-or-bullet/ep_01.kk.vtt",
+          "sha256": "345a431d819cb22978f7bde407d38e87cc34c02a731b2de8be0da89806e14a14",
+          "bytes": 28858,
+          "cues": 332,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/date-a-bullet-dead-or-bullet/ep_01.kk.ass",
+          "sha256": "f8e2348e94762813343b78511018a9e4413a072f0b8bf1ac3bc349c42934a204",
+          "bytes": 34801,
+          "cues": 332,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/date-a-bullet-dead-or-bullet.json"
 }

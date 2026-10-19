@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Wotaku ni Koi wa Muzukashii",
     "english": "Wotakoi: Love is Hard for Otaku",
-    "native": "ヲタクに恋は難しい"
+    "native": "ヲタクに恋は難しい",
+    "kazakh": "Отакуға махаббат қиын",
+    "kk": "Отакуға махаббат қиын"
   },
   "format": "TV",
   "episodes": 11,
@@ -14,9 +16,19 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "Having slept through all four of her alarms, the energetic Narumi Momose finds herself running late for her first day of work at a new office. As she races to catch her train, she makes a promise to herself that none of her coworkers will find out about her dark secret: that she is an otaku and a fujoshi. Her plan goes instantly awry, though, when she runs into Hirotaka Nifuji, an old friend from middle school. Although she tries to keep her secret by inviting him out for drinks after work, her cover is blown when he casually asks her whether or not she will be attending the upcoming Summer Comiket. Luckily for her, the only witnesses—Hanako Koyanagi and Tarou Kabakura—are otaku as well.<br>\n<br>\nLater that night, the pair go out for drinks so that they can catch up after all the years apart. After Narumi complains about her previous boyfriend breaking up with her because he refused to date a fujoshi, Hirotaka suggests that she try dating a fellow otaku, specifically himself. He makes a solemn promise to always be there for her, to support her, and to help her farm for rare drops in Monster Hunter. Blown away by the proposal, Narumi agrees immediately. Thus the two otaku start dating, and their adorably awkward romance begins.<br>\n<br>\n(Source: MAL Rewrite)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx99578-oO5KChtfhzln.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99578-oO5KChtfhzln.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99578-8orFGgDq7NS8.jpg",
+  "description": "Having slept through all four of her alarms, the energetic Narumi Momose finds herself running late for her first day of work at a new office. As she races to catch her train, she makes a promise to herself that none of her coworkers will find out about her dark secret: that she is an otaku and a fujoshi. Her plan goes instantly awry, though, when she runs into Hirotaka Nifuji, an old friend from middle school. Although she tries to keep her secret by inviting him out for drinks after work, her cover is blown when he casually asks her whether or not she will be attending the upcoming Summer Comiket. Luckily for her, the only witnesses—Hanako Koyanagi and Tarou Kabakura—are otaku as well.\n\nLater that night, the pair go out for drinks so that they can catch up after all the years apart. After Narumi complains about her previous boyfriend breaking up with her because he refused to date a fujoshi, Hirotaka suggests that she try dating a fellow otaku, specifically himself. He makes a solemn promise to always be there for her, to support her, and to help her farm for rare drops in Monster Hunter. Blown away by the proposal, Narumi agrees immediately. Thus the two otaku start dating, and their adorably awkward romance begins.\n\n(Source: MAL Rewrite)",
+  "averageScore": 88,
+  "popularity": 61745,
+  "color": "#d6936b",
+  "duration": 23,
+  "studio": "A-1 Pictures",
+  "catalog_id": "wotakoi-love-is",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -30,116 +42,373 @@
     10,
     11
   ],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "wotakoi-love-is-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_01.kk.srt",
+          "sha256": "435118658914238f0f08d9395d6ffe53b63f93a736222812ee350388a6866574",
+          "bytes": 33860,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_01.kk.vtt",
+          "sha256": "17dc61112620d2c37390e351865ce1021b256114537bdbbf8fa7047614108f4c",
+          "bytes": 33957,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_01.kk.ass",
+          "sha256": "7f6249e180693b0d8554b77e9de466af694fff0889d85072272a591c4ded5622",
+          "bytes": 40488,
+          "cues": 387,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "wotakoi-love-is-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_02.kk.srt",
+          "sha256": "411b1cb1d55717784a7c30e1c646e37044cee2148a0d23ff7d70f992e7f63c1c",
+          "bytes": 32926,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_02.kk.vtt",
+          "sha256": "4cc9e4e7a7ea6550f0d70949d2588e3810dfad5eb9b6c9982fe490dfbac21402",
+          "bytes": 33023,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_02.kk.ass",
+          "sha256": "974f37e11391082386511ac4e59aa4d2436d78e902d494d32099509672872e3c",
+          "bytes": 39239,
+          "cues": 366,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "wotakoi-love-is-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_03.kk.srt",
+          "sha256": "04a8b43b48fd59777c84fa283323665eaffb16362fd25936f1640419c2b341c3",
+          "bytes": 37768,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_03.kk.vtt",
+          "sha256": "ec5fe49ca3157c4827959f25a0c47dd0844dac0ad3408e72026337cc2d106d04",
+          "bytes": 37865,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_03.kk.ass",
+          "sha256": "57fd870bd2d5034ec016cbfd65ec32011d737d81b4d2e2fd55a8a7da10e61eef",
+          "bytes": 45026,
+          "cues": 429,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "wotakoi-love-is-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_04.kk.srt",
+          "sha256": "6f3a0c44ea50b739f12ad623f43467cb43f018fa86fabb631425f7c8358f5e7c",
+          "bytes": 36570,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_04.kk.vtt",
+          "sha256": "d7e5c8757f9b8da6696cf5e6b40d79d6626571c2e519563942291f9a259d42e1",
+          "bytes": 36667,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_04.kk.ass",
+          "sha256": "6b5c146bd00f5e03d36319bfed6c120799a03ed896d74c12ff2e8442005f8dd4",
+          "bytes": 43618,
+          "cues": 415,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "wotakoi-love-is-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_05.kk.srt",
+          "sha256": "8d7a36404a1bdaa6b2d249f0ff563ec7b3e4f64106514f9d05b659359e05d73a",
+          "bytes": 38048,
+          "cues": 427,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_05.kk.vtt",
+          "sha256": "bc255320711925fee5c84d5d85c16782aa9778e30badf5b7d6d029367ce7ec8e",
+          "bytes": 38145,
+          "cues": 427,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_05.kk.ass",
+          "sha256": "768dd0b0f220c952e9d07a00323930ddec5f63b371e2ddcae0a1f3b8351e4b92",
+          "bytes": 45276,
+          "cues": 427,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "wotakoi-love-is-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_06.kk.srt",
+          "sha256": "0c42a670833e942151d9d9d7d563f58c203ef279922a94742bdafe233e85c52f",
+          "bytes": 35143,
+          "cues": 392,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_06.kk.vtt",
+          "sha256": "f3b6ef38b113f965d130a666fd861e6de70416d8b0126b64050b743751ed4c5b",
+          "bytes": 35240,
+          "cues": 392,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_06.kk.ass",
+          "sha256": "e0aac576ff30ff3439248471e908c116c1738421e78a9027a41cbd7a8623fc5f",
+          "bytes": 41846,
+          "cues": 392,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "wotakoi-love-is-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_07.kk.srt",
+          "sha256": "77267161f06a42564cd6bc6e890cc4a31339c842e8729375d53b0079028ef46b",
+          "bytes": 36525,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_07.kk.vtt",
+          "sha256": "6a36daadae9a82a02485a52e1ed4c2dcb0059ce8a53c42ed8ed8b7561d850dbd",
+          "bytes": 36622,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_07.kk.ass",
+          "sha256": "bb3177f825b55aba53eeb471c755dbfb277000955242ed271e8a9ae34fdb854a",
+          "bytes": 43603,
+          "cues": 417,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "wotakoi-love-is-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_08.kk.srt",
+          "sha256": "0a5e5cd3bd5b9fd6d5698b6d8d92b4ab4196d99d4ad1bcdda147ff737bfd8a66",
+          "bytes": 30482,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_08.kk.vtt",
+          "sha256": "829491bd0e1f204915c33c255c9f36585fa63bbb7fd360de3b2939b6ecaa898a",
+          "bytes": 30579,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_08.kk.ass",
+          "sha256": "40224e198f98bbd714f214f4318bea6bd6aaf20b7d250b4400a73e7b1b6d590f",
+          "bytes": 36660,
+          "cues": 357,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "wotakoi-love-is-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_09.kk.srt",
+          "sha256": "064ca948375e22129d25df338f2fe16b65c1035b51436997a87154182ba6a993",
+          "bytes": 33242,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_09.kk.vtt",
+          "sha256": "4756d0fdf7d5acb0ba46878e6295ea48e3f52d6ae3356e298dc84affb346755a",
+          "bytes": 33339,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_09.kk.ass",
+          "sha256": "a5a19788ebf08ab797ff9b79231c2aafb315ebe7b05f17b50239ccb5d2838a73",
+          "bytes": 39975,
+          "cues": 394,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "wotakoi-love-is-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_10.kk.srt",
+          "sha256": "c612dace4a9510b0a34e0e9394cab7f0ccec12323acf6f90d32a29f903b3a1cb",
+          "bytes": 38138,
+          "cues": 466,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_10.kk.vtt",
+          "sha256": "96906ec550587b5b2039378c60cce119ac941d4b8aa93d6dbb0eae41ce188d73",
+          "bytes": 38235,
+          "cues": 466,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_10.kk.ass",
+          "sha256": "889913c3c016ff6dd151c4c5588d063075eb1bca4b8e7bfd675398fc4f718683",
+          "bytes": 45951,
+          "cues": 466,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "wotakoi-love-is-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi-love-is/wotakoi-love-is-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi-love-is/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi-love-is/ep_11.kk.srt",
+          "sha256": "2981cd86defd477c55eff7eb2f25bbd31733c38e7051f8acd0b3028dca6ce331",
+          "bytes": 39325,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi-love-is/ep_11.kk.vtt",
+          "sha256": "229ebb82addba9c23f534442be87ed40339da7560eeefcbd2b6068d9c356222d",
+          "bytes": 39422,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi-love-is/ep_11.kk.ass",
+          "sha256": "5716b3f222768c2a7b52c646225086330291a112ae019a7625eab88c75ff3b08",
+          "bytes": 46973,
+          "cues": 455,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 57,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/wotakoi-love-is.json"
 }

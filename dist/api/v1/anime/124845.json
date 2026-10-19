@@ -4,10 +4,12 @@
   "title": {
     "romaji": "Wonder Egg Priority",
     "english": "WONDER EGG PRIORITY",
-    "native": "ワンダーエッグ・プライオリティ"
+    "native": "ワンダーエッグ・プライオリティ",
+    "kazakh": "Ғажайып жұмыртқа басымдығы",
+    "kk": "Ғажайып жұмыртқа басымдығы"
   },
   "format": "TV",
-  "episodes": 12,
+  "episodes": 13,
   "seasonYear": 2021,
   "genres": [
     "Action",
@@ -18,9 +20,19 @@
     "Sci-Fi",
     "Thriller"
   ],
-  "description": "This is the story of Ai, an introverted girl whose fate is forever changed when she acquires a mysterious “Wonder Egg” from a deserted arcade. That night, her dreams blend into reality, and as other girls obtain their own Wonder Eggs, Ai discovers new friends—and the magic within herself.\n<br><br>\n(Source: Funimation)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124845-JXORhqCTGt04.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124845-JXORhqCTGt04.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124845-uw8Fiw3kWtbj.jpg",
+  "description": "This is the story of Ai, an introverted girl whose fate is forever changed when she acquires a mysterious “Wonder Egg” from a deserted arcade. That night, her dreams blend into reality, and as other girls obtain their own Wonder Eggs, Ai discovers new friends—and the magic within herself.\n\n(Source: Funimation)",
+  "averageScore": 85,
+  "popularity": 69792,
+  "color": "#43bbf1",
+  "duration": 23,
+  "studio": "CloverWorks",
+  "catalog_id": "wonder-egg-priority",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +48,439 @@
     12,
     13
   ],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "wonder-egg-priority-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_01.kk.srt",
+          "sha256": "6e27a20680372fd4a2875af2cb08ac877b7de12be7458f9802aebfa3371b1091",
+          "bytes": 18791,
+          "cues": 224,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_01.kk.vtt",
+          "sha256": "3f7727a84830829da019fcd8614975cf4c9a66b208466b6b3f986665d6349ec9",
+          "bytes": 18888,
+          "cues": 224,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_01.kk.ass",
+          "sha256": "d8adddcb5fe2dbe30e916a3dff202f12882dcb0d85cb6c8785f905e21a56c054",
+          "bytes": 22978,
+          "cues": 224,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "wonder-egg-priority-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_02.kk.srt",
+          "sha256": "13cc3b73c55adce68be86fdd4dc866ba83be94c357a0292437f1fee152f7abe5",
+          "bytes": 20249,
+          "cues": 228,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_02.kk.vtt",
+          "sha256": "452dabb6e712ecc7176f2cd76b2d28b5a7c85094d520b179a9fcb43816a2aca5",
+          "bytes": 20346,
+          "cues": 228,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_02.kk.ass",
+          "sha256": "86f5cceb2eb14948b28dd47ef55ef3df64a0deeebd65d569bfb3d8f72a6cee71",
+          "bytes": 24496,
+          "cues": 228,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "wonder-egg-priority-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_03.kk.srt",
+          "sha256": "82d1f95d8e91d02fb613298d09c66bfb4ec57d11734a6224a73f3664aeacb9e5",
+          "bytes": 22222,
+          "cues": 260,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_03.kk.vtt",
+          "sha256": "36c4104e8a517e46bd408542a5718e39525eb0c7927fb31cc507efb117319aec",
+          "bytes": 22319,
+          "cues": 260,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_03.kk.ass",
+          "sha256": "9d33d9918975e8071633c3014a9c590057129b5f1666b2e86bfe91a31bff2712",
+          "bytes": 26949,
+          "cues": 260,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "wonder-egg-priority-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_04.kk.srt",
+          "sha256": "b36c3c2e36f4a6366dcd09222d6e6c4933bb743bcf575ab5394c9f02599978b1",
+          "bytes": 21610,
+          "cues": 263,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_04.kk.vtt",
+          "sha256": "377e36cce03c3953c9a01ec66681e7d15f606c87bef50d87c38fc98b0b07db79",
+          "bytes": 21707,
+          "cues": 263,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_04.kk.ass",
+          "sha256": "93a9a8452f6bd6aac03f049e368583d443a0fca35e915e77a5e085f65bdc97a2",
+          "bytes": 26382,
+          "cues": 263,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "wonder-egg-priority-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_05.kk.srt",
+          "sha256": "1cf29f6cd4e38fdb42cd3698e858949592923ea57ae077fcc2bc383a70a0b9b2",
+          "bytes": 30578,
+          "cues": 317,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_05.kk.vtt",
+          "sha256": "1c042ab5acf307eb8c987e2063c0e8a516b6ab089a30824a4db1e9d40d5f4300",
+          "bytes": 30675,
+          "cues": 317,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_05.kk.ass",
+          "sha256": "ffcb7eb0c7387bf863cad89241c1e26867568553471ab8eeab2bc8555896a8cf",
+          "bytes": 36160,
+          "cues": 317,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "wonder-egg-priority-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_06.kk.srt",
+          "sha256": "d3556c9a8c3ec5b8e145e0d29b7cca6effe776a04d545bd200f8933853325a3d",
+          "bytes": 23279,
+          "cues": 261,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_06.kk.vtt",
+          "sha256": "782d80d65a28d7d6be2e18250abdd33c9c91ec12f79805c9452d0ab8b54cff31",
+          "bytes": 23376,
+          "cues": 261,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_06.kk.ass",
+          "sha256": "ba8cdabd0bca6af0d9f6c5d7056135722a3ebd09d1eb61ddbd8cdd6d225944fb",
+          "bytes": 28021,
+          "cues": 261,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "wonder-egg-priority-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_07.kk.srt",
+          "sha256": "303ffb2c91e33173396c560b48e3b014df28db437c91ad38e00310b8be722aab",
+          "bytes": 22879,
+          "cues": 251,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_07.kk.vtt",
+          "sha256": "4e7116bede14c036d139468e86d9834df4e21ce5325486ec37a950ca1f1fb314",
+          "bytes": 22976,
+          "cues": 251,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_07.kk.ass",
+          "sha256": "bb4d0738d2a6bc5da864b089dda848b1591f4d2e9578a2d03613a7c0b2287fe8",
+          "bytes": 27471,
+          "cues": 251,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "wonder-egg-priority-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_08.kk.srt",
+          "sha256": "7df832a288cdce87840dccb6fcc97a039fba2c3a5c5392bd809499f0e1f4eb2c",
+          "bytes": 37029,
+          "cues": 422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_08.kk.vtt",
+          "sha256": "f4ad3237ea6e2a78b7f54f4a7993a9bb2ad4194ff88a25ed879844e52557f300",
+          "bytes": 37126,
+          "cues": 422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_08.kk.ass",
+          "sha256": "09026e0da2c1a8e0b1922a51f6b0e94e38302edc81aae2c92f404b25b0b2cb1a",
+          "bytes": 44186,
+          "cues": 422,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "wonder-egg-priority-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_09.kk.srt",
+          "sha256": "3d3a537ee7e625a9817271a520d78c2a982fee1b78ec53386d821104f47c38cd",
+          "bytes": 33473,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_09.kk.vtt",
+          "sha256": "23f5cc9f537ea940cd756108fb655d35700e80ab7bf1f4551c0ef2f744122de1",
+          "bytes": 33570,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_09.kk.ass",
+          "sha256": "064f4c1c6ce53996c5d058e1ce863124582d08b7a9aa476c6fa1a69050adf8c4",
+          "bytes": 39445,
+          "cues": 343,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "wonder-egg-priority-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_10.kk.srt",
+          "sha256": "bd5d1751016862504af79f34f0a614249349782a456f92bfeb165d32dccc7265",
+          "bytes": 18704,
+          "cues": 224,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_10.kk.vtt",
+          "sha256": "7fa6d45f26af2db236a1d729b14c074320334140e1a62bb6cb6758f9ccd46630",
+          "bytes": 18801,
+          "cues": 224,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_10.kk.ass",
+          "sha256": "7ce7961574e33016c12700eb01e0c47dc08e494217d3b384ddfb852b5106103d",
+          "bytes": 22891,
+          "cues": 224,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "wonder-egg-priority-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_11.kk.srt",
+          "sha256": "19f9f5d079ef0403f6e66237e580ae7b9ded5c397a0a0051dc1c5656d757ccef",
+          "bytes": 18960,
+          "cues": 212,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_11.kk.vtt",
+          "sha256": "d6c7e5b3a8dfdd084395f429f734b19bb8134bbaf77534b96f8e14e424dbbcc7",
+          "bytes": 19057,
+          "cues": 212,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_11.kk.ass",
+          "sha256": "00dbdcddee4cdf1f1988b1c125e3cc290f60609fbd2a87c6f5c97c8c85dfd9c9",
+          "bytes": 22967,
+          "cues": 212,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "wonder-egg-priority-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_12.kk.srt",
+          "sha256": "f4f70b2c8e4d8a5f818bec664a8d1a1398774d2452ba5d4131ebd4a46779c9c0",
+          "bytes": 18222,
+          "cues": 220,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_12.kk.vtt",
+          "sha256": "df22e3a851345b0524fc63c68292f24a323142437b95958b6bf1799b4fd8fbb8",
+          "bytes": 18319,
+          "cues": 220,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_12.kk.ass",
+          "sha256": "3b057689421e7b9f5c5444a9b424e943e5441f0c2d8f3933aacc64f244879a08",
+          "bytes": 22349,
+          "cues": 220,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "wonder-egg-priority-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wonder-egg-priority/wonder-egg-priority-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wonder-egg-priority/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wonder-egg-priority/ep_13.kk.srt",
+          "sha256": "304517e003da1ad4534690d17e2d285ec277bfd7dde5a5729256256531dd9076",
+          "bytes": 62764,
+          "cues": 739,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wonder-egg-priority/ep_13.kk.vtt",
+          "sha256": "e105ccb8a2bf4a76518065da2913fe78d23ce5f409532dd696cda96992a43eb0",
+          "bytes": 62861,
+          "cues": 739,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wonder-egg-priority/ep_13.kk.ass",
+          "sha256": "373fa6773d4aba7325f166472e6e6e81295f322e024e788f20d21d661211b0f2",
+          "bytes": 74676,
+          "cues": 739,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 66,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/wonder-egg-priority.json"
 }

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Hakubo - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hakubo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hakubo.jpg",
+  "description": "Hakubo - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hakubo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hakubo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hakubo/hakubo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hakubo/hakubo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hakubo/hakubo-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hakubo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hakubo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hakubo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hakubo/ep_01.kk.srt",
+          "sha256": "6bef74d0526a21164e59a46827219ed4940262c9e93376ab3c4bcd0d01841a1b",
+          "bytes": 56053,
+          "cues": 630,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hakubo/ep_01.kk.vtt",
+          "sha256": "33afed82aca11a920508461b93255b1e8bd05f5b6163aaf61e818bcad7ac631a",
+          "bytes": 56150,
+          "cues": 630,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hakubo/ep_01.kk.ass",
+          "sha256": "1c2f73603f1fc51f7e3609fb027de9bb0488aa51f2872eb0fd0e65d7bf34b8ee",
+          "bytes": 66383,
+          "cues": 630,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hakubo.json"
 }

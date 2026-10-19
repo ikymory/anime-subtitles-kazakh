@@ -16,28 +16,59 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Thirty years have passed since the appearance of the Burnish, a race of flame-wielding mutant beings who destroyed half of the world with fire. When a new group of aggressive mutants calling themselves Mad Burnish appears, the epic battle between their leader, Lio Fotia, and Galo Thymos, a new member of the anti-Burnish rescue team Burning Rescue, begins.\n<br><br>\n(Source: GKIDS)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99425-CQ500X23zp4i.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n99425-GgPoElhysW3D.jpg",
+  "description": "Thirty years have passed since the appearance of the Burnish, a race of flame-wielding mutant beings who destroyed half of the world with fire. When a new group of aggressive mutants calling themselves Mad Burnish appears, the epic battle between their leader, Lio Fotia, and Galo Thymos, a new member of the anti-Burnish rescue team Burning Rescue, begins.\n<br><br>\n(Source: GKIDS)",
   "averageScore": 77,
   "popularity": 109949,
+  "color": "#d6bb1a",
+  "duration": 115,
+  "studio": "TRIGGER",
+  "catalog_id": "promare-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "promare-movie-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/promare-movie/promare-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/promare-movie/promare-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/promare-movie/promare-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/promare-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/promare-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/promare-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/promare-movie/ep_01.kk.ass",
+          "sha256": "c753fea42c773b9b92f928a270a8aa5b7c5a01f7c8d72508178ed338fc51afd9",
+          "bytes": 153197,
+          "cues": 1496,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/promare-movie/ep_01.kk.srt",
+          "sha256": "cc44e860ff608b0d2c6662b1d3b3d6274809a6ea5765ed6e2ecc49620139c5ca",
+          "bytes": 130072,
+          "cues": 1489,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/promare-movie/ep_01.kk.vtt",
+          "sha256": "7743f59945fd491d29a58bd6803747c6260f987b2c62dca4b2a0281305a6f771",
+          "bytes": 130080,
+          "cues": 1489,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#d6bb1a",
-  "studio": "TRIGGER",
-  "duration": 115,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/promare-movie.json"
 }

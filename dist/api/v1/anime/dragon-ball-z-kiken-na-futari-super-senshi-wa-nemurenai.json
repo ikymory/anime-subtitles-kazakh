@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dragon Ball Z. Kiken na Futari! Super Senshi wa Nemurenai - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai.jpg",
+  "description": "Dragon Ball Z. Kiken na Futari! Super Senshi wa Nemurenai - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/ep_01.kk.srt",
+          "sha256": "cf7726418b261a574bb7d065d8061a207c495c00b6f2ab1d3d2dd0b8a0d6d16f",
+          "bytes": 45281,
+          "cues": 612,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/ep_01.kk.vtt",
+          "sha256": "a2fafdf0c11712ed3071dd2b39b24f194eb8ef30dc4e0d32b62d9973c994d4b4",
+          "bytes": 45378,
+          "cues": 612,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai/ep_01.kk.ass",
+          "sha256": "bae8fc0f5b1161959c840bc687a9eb8b349013e30364a6b9f528cd2ae89dc3a7",
+          "bytes": 55339,
+          "cues": 612,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai.json"
 }

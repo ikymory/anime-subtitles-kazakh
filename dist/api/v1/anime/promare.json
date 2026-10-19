@@ -13,28 +13,58 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99425-CQ500X23zp4i.png",
+  "averageScore": 78,
+  "popularity": 52985,
+  "color": "#e43586",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n99425-GgPoElhysW3D.jpg",
+  "catalog_id": "promare",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "promare-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/promare/promare-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/promare/promare-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/promare/promare-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/promare/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/promare/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/promare/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/promare/ep_01.kk.srt",
+          "sha256": "d299bd590d364d4c21c3a6283ffb69ffe7df6250c422d6a1a3dec9dd547a0b76",
+          "bytes": 133418,
+          "cues": 1493,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/promare/ep_01.kk.vtt",
+          "sha256": "a2e569774dbaac6585f19a00b1017a425c79e4c37ac38db515d84dbd280faaa9",
+          "bytes": 133515,
+          "cues": 1493,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/promare/ep_01.kk.ass",
+          "sha256": "dde05ec3e129a51a8b18aae88c81a7af45143fd419661b571d54fb60ed0d53d3",
+          "bytes": 156134,
+          "cues": 1493,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e43586",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 78,
-  "popularity": 52985,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/promare.json"
 }

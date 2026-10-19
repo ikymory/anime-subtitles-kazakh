@@ -16,28 +16,59 @@
     "Horror",
     "Supernatural"
   ],
-  "description": "Hellsing, a secret organization of the British government, has long been battling supernatural threats to keep the people safe from creatures of the night. The current leader, Integra Wingates Hellsing controls her own personal army to eliminate the undead beings, but even her highly trained soldiers pale in comparison to her most trusted vampire exterminator, a man by the name of Alucard, who is actually a powerful vampire himself. Along with Integra's mysterious butler and Alucard's new vampire minion, Seras Victoria, The Hellsing Organization must face not only regular ghouls and vampires, but a rivaling secret organization from the Vatican, and Millennium, an enigmatic group of madmen spawned by a certain war over 50 years ago...<br>\nA bloody battle between monsters is about to begin, the dead are dancing, and all hell is singing...",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx777-F6547pSAR2Zd.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/777-XzPjBZdSRtDT.jpg",
+  "description": "Hellsing, a secret organization of the British government, has long been battling supernatural threats to keep the people safe from creatures of the night. The current leader, Integra Wingates Hellsing controls her own personal army to eliminate the undead beings, but even her highly trained soldiers pale in comparison to her most trusted vampire exterminator, a man by the name of Alucard, who is actually a powerful vampire himself. Along with Integra's mysterious butler and Alucard's new vampire minion, Seras Victoria, The Hellsing Organization must face not only regular ghouls and vampires, but a rivaling secret organization from the Vatican, and Millennium, an enigmatic group of madmen spawned by a certain war over 50 years ago...\nA bloody battle between monsters is about to begin, the dead are dancing, and all hell is singing...",
+  "averageScore": 78,
+  "popularity": 65935,
+  "color": "#e4431a",
+  "duration": 50,
+  "studio": "MADHOUSE",
+  "catalog_id": "hellsing-ultimate",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hellsing-ultimate-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hellsing-ultimate/hellsing-ultimate-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hellsing-ultimate/hellsing-ultimate-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hellsing-ultimate/hellsing-ultimate-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hellsing-ultimate/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hellsing-ultimate/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hellsing-ultimate/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hellsing-ultimate/ep_01.kk.srt",
+          "sha256": "c28bb460fa174cd6c4536a549cd11fde2ea57b484c9fa3df46e4bb3001e4fdd5",
+          "bytes": 51077,
+          "cues": 598,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hellsing-ultimate/ep_01.kk.vtt",
+          "sha256": "e0541741ae6178503eb550ebc80293d4fe0580d238d239682d12f908126ff3ba",
+          "bytes": 51174,
+          "cues": 598,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hellsing-ultimate/ep_01.kk.ass",
+          "sha256": "61315fe21ae463f87b4dc9dbce6400a81cc995989ab5d33502b4766076cb332a",
+          "bytes": 60872,
+          "cues": 598,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e4431a",
-  "studio": "MADHOUSE",
-  "duration": 50,
-  "averageScore": 78,
-  "popularity": 65935,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hellsing-ultimate.json"
 }

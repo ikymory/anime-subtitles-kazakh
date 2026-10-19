@@ -16,24 +16,56 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "Classmates - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doukyuusei-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doukyuusei-movie.jpg",
+  "description": "Classmates - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "doukyuusei-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doukyuusei-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doukyuusei-movie/doukyuusei-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doukyuusei-movie/doukyuusei-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doukyuusei-movie/doukyuusei-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doukyuusei-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doukyuusei-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doukyuusei-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doukyuusei-movie/ep_01.kk.srt",
+          "sha256": "239eee16f1c8153fae5381ba2baace4396c38d7413c026596b315cc1eb5b8e3d",
+          "bytes": 72037,
+          "cues": 832,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doukyuusei-movie/ep_01.kk.vtt",
+          "sha256": "53c69b1d120f759ef9621b30a987cba454a34ed4afb48b3c5013200e950142c7",
+          "bytes": 72134,
+          "cues": 832,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doukyuusei-movie/ep_01.kk.ass",
+          "sha256": "ebe4dd5305ad240dda9330269c8c2ffce5d6ee6c2fde8a2235b56d2c8d6cbbff",
+          "bytes": 85577,
+          "cues": 832,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doukyuusei-movie.json"
 }

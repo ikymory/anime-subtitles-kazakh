@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dragon Ball. Makafushigi Daibouken - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-makafushigi-daibouken.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-makafushigi-daibouken.jpg",
+  "description": "Dragon Ball. Makafushigi Daibouken - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dragon-ball-makafushigi-daibouken",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-makafushigi-daibouken-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-makafushigi-daibouken/dragon-ball-makafushigi-daibouken-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-makafushigi-daibouken/dragon-ball-makafushigi-daibouken-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-makafushigi-daibouken/dragon-ball-makafushigi-daibouken-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-makafushigi-daibouken/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-makafushigi-daibouken/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-makafushigi-daibouken/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-makafushigi-daibouken/ep_01.kk.srt",
+          "sha256": "4a9ce5e9fd3542b6efe06b40c6787f568910d41414605baa8f28b570f78988a6",
+          "bytes": 66806,
+          "cues": 808,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-makafushigi-daibouken/ep_01.kk.vtt",
+          "sha256": "a2c81f33c466f2c89a71a2dac709b0f8d1b26e1424c753cf97876bb8ffd3860f",
+          "bytes": 66903,
+          "cues": 808,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-makafushigi-daibouken/ep_01.kk.ass",
+          "sha256": "bafc9a2788ae2aee73ed33de808daaec1fa0648452c5efe0ed59d2052ee55334",
+          "bytes": 79804,
+          "cues": 808,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-makafushigi-daibouken.json"
 }

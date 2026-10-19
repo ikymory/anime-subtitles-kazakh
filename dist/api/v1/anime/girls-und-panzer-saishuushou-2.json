@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Girls und Panzer. Saishuushou 2 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/girls-und-panzer-saishuushou-2.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/girls-und-panzer-saishuushou-2.jpg",
+  "description": "Girls und Panzer. Saishuushou 2 - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "girls-und-panzer-saishuushou-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "girls-und-panzer-saishuushou-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/girls-und-panzer-saishuushou-2/girls-und-panzer-saishuushou-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/girls-und-panzer-saishuushou-2/girls-und-panzer-saishuushou-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/girls-und-panzer-saishuushou-2/girls-und-panzer-saishuushou-2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/girls-und-panzer-saishuushou-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/girls-und-panzer-saishuushou-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/girls-und-panzer-saishuushou-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/girls-und-panzer-saishuushou-2/ep_01.kk.srt",
+          "sha256": "e9fcff90255490e727902ff7109df1648f55c93c501cf3484c3aea07ed843e05",
+          "bytes": 87820,
+          "cues": 992,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/girls-und-panzer-saishuushou-2/ep_01.kk.vtt",
+          "sha256": "c5eda9f85902f3b54efc133e1d201969d0f65854368f7c97ad82ade5f686b681",
+          "bytes": 87917,
+          "cues": 992,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/girls-und-panzer-saishuushou-2/ep_01.kk.ass",
+          "sha256": "2c07e98ead051b00885533a6dd5b6f9cd2e44737cc465fa91d191684c0d3fe8a",
+          "bytes": 103579,
+          "cues": 992,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/girls-und-panzer-saishuushou-2.json"
 }

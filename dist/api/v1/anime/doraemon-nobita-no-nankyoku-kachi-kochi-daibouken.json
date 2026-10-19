@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita no Nankyoku Kachi Kochi Daibouken - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken.jpg",
+  "description": "Doraemon. Nobita no Nankyoku Kachi Kochi Daibouken - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-no-nankyoku-kachi-kochi-daibouken",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-no-nankyoku-kachi-kochi-daibouken-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/ep_01.kk.srt",
+          "sha256": "7edf7b879a901af783fc9ba6ef6a454ac75570de0799d42ca429a6804a48b27e",
+          "bytes": 134192,
+          "cues": 1643,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/ep_01.kk.vtt",
+          "sha256": "9559773641609fd24e351a02bb221f3bc31cda318992d05227bd2d1b87cbac92",
+          "bytes": 134289,
+          "cues": 1643,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken/ep_01.kk.ass",
+          "sha256": "041744ced81cfe60db62a2d30360d0f93f7376c1e7f308b5c4a2880f29bc8263",
+          "bytes": 159071,
+          "cues": 1643,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-no-nankyoku-kachi-kochi-daibouken.json"
 }

@@ -15,24 +15,56 @@
     "Action",
     "Sci-Fi"
   ],
-  "description": "Date A Bullet: Nightmare or Queen - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/date-a-bullet-nightmare-or-queen.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/date-a-bullet-nightmare-or-queen.jpg",
+  "description": "Date A Bullet: Nightmare or Queen - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 98400,
+  "catalog_id": "date-a-bullet-nightmare-or-queen",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "date-a-bullet-nightmare-or-queen-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/date-a-bullet-nightmare-or-queen/date-a-bullet-nightmare-or-queen-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/date-a-bullet-nightmare-or-queen/date-a-bullet-nightmare-or-queen-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/date-a-bullet-nightmare-or-queen/date-a-bullet-nightmare-or-queen-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/date-a-bullet-nightmare-or-queen/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/date-a-bullet-nightmare-or-queen/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/date-a-bullet-nightmare-or-queen/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/date-a-bullet-nightmare-or-queen/ep_01.kk.srt",
+          "sha256": "c89de3f765b2750bea0d7694d7d61208b04f954fb0ae26d763a561f68e869405",
+          "bytes": 32907,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/date-a-bullet-nightmare-or-queen/ep_01.kk.vtt",
+          "sha256": "04cbd902a5d6f098886b880147db18d550a440f9678ac8a4c462926e9fb83be9",
+          "bytes": 33004,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/date-a-bullet-nightmare-or-queen/ep_01.kk.ass",
+          "sha256": "72c8a07c65e34cb9753074034c0610fbe744e1b6ab84fbb7b69e843b5a45cac4",
+          "bytes": 39952,
+          "cues": 399,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/date-a-bullet-nightmare-or-queen.json"
 }

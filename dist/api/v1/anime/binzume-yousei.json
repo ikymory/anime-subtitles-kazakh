@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Binzume Yousei - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/binzume-yousei.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/binzume-yousei.jpg",
+  "description": "Binzume Yousei - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "binzume-yousei",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +41,439 @@
     12,
     13
   ],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "binzume-yousei-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_01.kk.srt",
+          "sha256": "d4518f6840ed604f8e2411cd2fcd54c2eaeebe2bbc7d1ac958ce5c21b2d8481a",
+          "bytes": 15486,
+          "cues": 221,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_01.kk.vtt",
+          "sha256": "aa9a840622a35b33b4cb0c388cdd6290a585094c4f6502840f31f6e3b36d0808",
+          "bytes": 15583,
+          "cues": 221,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_01.kk.ass",
+          "sha256": "c96f157efcf7feff38fdc5404bec77ef1256635f3067aee3698cdda3afa844ca",
+          "bytes": 19679,
+          "cues": 221,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "binzume-yousei-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_02.kk.srt",
+          "sha256": "09ed430573fcad603e2adfc90a722ffe6f9030ea217e1731926816549b8e9001",
+          "bytes": 14340,
+          "cues": 196,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_02.kk.vtt",
+          "sha256": "b7738c7812544d2b1074be7a1ac0502fa8ba128167d4dc67296316001992a671",
+          "bytes": 14437,
+          "cues": 196,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_02.kk.ass",
+          "sha256": "ea6978c1e34cc24f4e018fa2c781fa98dbfda264c1fb130c17bcae0723612a1b",
+          "bytes": 18158,
+          "cues": 196,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "binzume-yousei-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_03.kk.srt",
+          "sha256": "a9ab8fa2fb97636e7f56ff062ecc3d0c6c567b62c5e436f67ef522b402ae2298",
+          "bytes": 13972,
+          "cues": 172,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_03.kk.vtt",
+          "sha256": "78496e35b6b3713238262798773558377a5328d3ed7bc1d5c095ff4460889d60",
+          "bytes": 14069,
+          "cues": 172,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_03.kk.ass",
+          "sha256": "160e9a12cf0f3f6cdc42763fef59cefd96cf9762599bf90d8ae1d57a6786fc6e",
+          "bytes": 17430,
+          "cues": 172,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "binzume-yousei-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_04.kk.srt",
+          "sha256": "0e78f30ec0cf6d4938725f66e797ffc4c753b005f9f0e30268c840b4f5900a7c",
+          "bytes": 12344,
+          "cues": 152,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_04.kk.vtt",
+          "sha256": "efb4b0ed91230ae6d4edb615480092ea6e54bbc2bd6e277e9869d9cfd4a3960b",
+          "bytes": 12441,
+          "cues": 152,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_04.kk.ass",
+          "sha256": "92420aa93dacf77c12d2ab938fae50485d732cac0df0095ae13ce59459f4b177",
+          "bytes": 15502,
+          "cues": 152,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "binzume-yousei-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_05.kk.srt",
+          "sha256": "faa59c66af5b1062d3009d770e4724b8ba10ab697c66cfaa3f6e65d28dc7090e",
+          "bytes": 12858,
+          "cues": 183,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_05.kk.vtt",
+          "sha256": "cfe30fb6b2887b3dc928d7f663d1c81517fb1abbc5bbcbc5e89d348e99db3561",
+          "bytes": 12955,
+          "cues": 183,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_05.kk.ass",
+          "sha256": "d211167a942700209b1f0819096aeb370f39417d47e1acf46e3ab4c01529068e",
+          "bytes": 16481,
+          "cues": 183,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "binzume-yousei-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_06.kk.srt",
+          "sha256": "e1d7f55576bce704ed96f4ea6b8fb4787eb7786a67d2f6093260b4f88197ce89",
+          "bytes": 15679,
+          "cues": 205,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_06.kk.vtt",
+          "sha256": "ed764d52c25bea5fa32a6fed1d8f8cac992d5b1753b507b3eecd01aab89f78c4",
+          "bytes": 15776,
+          "cues": 205,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_06.kk.ass",
+          "sha256": "6325023d2868c3d15e92ce0182501f342bca5c1f85ba994db15bff2a4691cba7",
+          "bytes": 19632,
+          "cues": 205,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "binzume-yousei-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_07.kk.srt",
+          "sha256": "5d7a2342bf2a0f81f1479b00a43315490d292230ec19d8905f2ecbf47348c234",
+          "bytes": 13751,
+          "cues": 169,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_07.kk.vtt",
+          "sha256": "58230acb88f898e8e072b168dc97732c0e1fe0bba08cc2bb08e2da3682a6806d",
+          "bytes": 13848,
+          "cues": 169,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_07.kk.ass",
+          "sha256": "6f74be9abeee6a6f9bb5e54a4d690a0640a6ec4fae74014309c1e0fd5d734004",
+          "bytes": 17164,
+          "cues": 169,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "binzume-yousei-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_08.kk.srt",
+          "sha256": "a679f038630ff0a7fb8f41f57db592860b493df0fc34505de782905714b15537",
+          "bytes": 15256,
+          "cues": 219,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_08.kk.vtt",
+          "sha256": "5e4f4f31bb5cde1bb6a6c76138234e8550bd7d864289f40df964c8cc057ae287",
+          "bytes": 15353,
+          "cues": 219,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_08.kk.ass",
+          "sha256": "4ef4e00c623bf5e13817cb9e5cfe4b434d091de13ec42af11c1dea604f403feb",
+          "bytes": 19419,
+          "cues": 219,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "binzume-yousei-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_09.kk.srt",
+          "sha256": "201d857cfde111becdfd98085ecb7f0facaf64c1bc915e434f4309e7588092c2",
+          "bytes": 17007,
+          "cues": 248,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_09.kk.vtt",
+          "sha256": "1857ece4cd7324a132c5e980833a9f30bf9edceb8ad05e3d59a52255f8157b59",
+          "bytes": 17104,
+          "cues": 248,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_09.kk.ass",
+          "sha256": "12a6a1602529190b64b97018033b17b865802120583c7e25f5c24ffa6290a2dd",
+          "bytes": 21605,
+          "cues": 248,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "binzume-yousei-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_10.kk.srt",
+          "sha256": "02176ae347b1886188dfeb5209681e0d1394bc0ea98ec86acac0f930dbd68fa7",
+          "bytes": 18198,
+          "cues": 264,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_10.kk.vtt",
+          "sha256": "70dd37535491ae7793f15cb5dafc4670ea60f5f5d948ed217c6ceff630ab4efd",
+          "bytes": 18295,
+          "cues": 264,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_10.kk.ass",
+          "sha256": "ef68b6a8082a54da32927ce789e8ffc6424de88e3b5e90ac38d1377c9e6a0358",
+          "bytes": 23036,
+          "cues": 264,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "binzume-yousei-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_11.kk.srt",
+          "sha256": "95d2f0a50778129ff6b802704f3e69df20a8979f4e7d78e199f966a3ec74c093",
+          "bytes": 17325,
+          "cues": 236,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_11.kk.vtt",
+          "sha256": "e1687523d460889b2c04b9fff23f5247a1f0cc32cf11c238322381a20955a327",
+          "bytes": 17422,
+          "cues": 236,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_11.kk.ass",
+          "sha256": "5adc71322708cb324aac226b40ec263198b09cc76b978dc8dfd5b0abfd4d801a",
+          "bytes": 21743,
+          "cues": 236,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "binzume-yousei-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_12.kk.srt",
+          "sha256": "10e8ad91568b40b719d93e545d4b09e95619135c300106ed3f75b9c1f0b0248e",
+          "bytes": 16686,
+          "cues": 198,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_12.kk.vtt",
+          "sha256": "cad2f43f34e9d8f68e8288e9db1303a282617904bea95d0e3653d5823211dcb1",
+          "bytes": 16783,
+          "cues": 198,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_12.kk.ass",
+          "sha256": "7f83dbfa73b6428591e6eebaa6da4fbf2968d74b0e2aa4eecaf3a7103d2a01df",
+          "bytes": 20534,
+          "cues": 198,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "binzume-yousei-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/binzume-yousei/binzume-yousei-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/binzume-yousei/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/binzume-yousei/ep_13.kk.srt",
+          "sha256": "5a0728fc22e7a09aa36504903cd9f4405a0912f4960537da786ac337474928be",
+          "bytes": 14352,
+          "cues": 182,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/binzume-yousei/ep_13.kk.vtt",
+          "sha256": "6809d1b1bd2707ab9f4d1e760f995f00c2b32228ba7ff8f9e547ff40b9e9ce1a",
+          "bytes": 14449,
+          "cues": 182,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/binzume-yousei/ep_13.kk.ass",
+          "sha256": "77c5629a9e270888367745efe0e6f88699a4827fded5ff6b76a6d3db8836c51b",
+          "bytes": 17960,
+          "cues": 182,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/binzume-yousei.json"
 }

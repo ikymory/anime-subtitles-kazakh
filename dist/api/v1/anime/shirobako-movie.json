@@ -15,24 +15,56 @@
     "Comedy",
     "Drama"
   ],
-  "description": "Shirobako Movie - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/shirobako-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/shirobako-movie.jpg",
+  "description": "Shirobako Movie - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "shirobako-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "shirobako-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shirobako-movie/shirobako-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shirobako-movie/shirobako-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shirobako-movie/shirobako-movie-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shirobako-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shirobako-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shirobako-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/shirobako-movie/ep_01.kk.srt",
+          "sha256": "5070d82aed490336ef3876e76801799a0df8e3f354fcbb6ae267121d6372a36d",
+          "bytes": 238888,
+          "cues": 2578,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/shirobako-movie/ep_01.kk.vtt",
+          "sha256": "8b17519d78399165cd7615f7a135ec9dc0f50a7ca0be0ee03b87ab73ec5c2a09",
+          "bytes": 238985,
+          "cues": 2578,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/shirobako-movie/ep_01.kk.ass",
+          "sha256": "8c1b9bf35fcb017a1429f3d258826cbe7afa34a6f18d35b2e44f00ca774ca660",
+          "bytes": 277039,
+          "cues": 2578,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/shirobako-movie.json"
 }

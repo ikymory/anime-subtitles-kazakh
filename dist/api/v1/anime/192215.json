@@ -3,17 +3,28 @@
   "slug": "mononoke-tv",
   "title": {
     "romaji": "Mononoke Tv",
-    "english": "Mononoke Tv"
+    "english": "Mononoke Tv",
+    "kazakh": "Мононоке",
+    "kk": "Мононоке"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 12,
+  "seasonYear": 2007,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2246-WHkSkgyuxfgD.jpg",
+  "averageScore": 82,
+  "popularity": 56741,
+  "color": "#e44350",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2246-8DKsjLTMEFJq.png",
+  "catalog_id": "mononoke-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -28,126 +39,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mononoke-tv-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_01.kk.srt",
+          "sha256": "5c9a3112b79ce01fc08782916c2b8441231ce0a6c430ded9cf0b7d072600a123",
+          "bytes": 19093,
+          "cues": 216,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_01.kk.vtt",
+          "sha256": "1d6df1bbabf53819b06ed903342b17a9e8f1d2ae80c706cd8b85b742f6251757",
+          "bytes": 19190,
+          "cues": 216,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_01.kk.ass",
+          "sha256": "bd36ee2d14224c70ee33748c737bad3394f4ed7b80f97b7d07b49accbb52cb8f",
+          "bytes": 23152,
+          "cues": 216,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "mononoke-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_02.kk.srt",
+          "sha256": "e622baa2ed3b230d3ed53c65ec9e93847e65649c299d712d7000140fc3590816",
+          "bytes": 15475,
+          "cues": 192,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_02.kk.vtt",
+          "sha256": "3e2a2e2ee8646d78dfcf6d6adea5f44d54a3d6f7c8192480fb4384bbeba4a9d1",
+          "bytes": 15572,
+          "cues": 192,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_02.kk.ass",
+          "sha256": "d3cf91f43373263707accd67ce89eb66513f46e13c4f8fb648936d73d175250d",
+          "bytes": 19174,
+          "cues": 192,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "mononoke-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_03.kk.srt",
+          "sha256": "89137b1d6a7eaae7bbbbc79fa3ce8818e8526edd7d3c8eada24e0ecdff6a41ae",
+          "bytes": 24663,
+          "cues": 245,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_03.kk.vtt",
+          "sha256": "88692286ceb2ef02f39ba06010ba349faa6750ce9a9b2d5c43e4a504d86a6a34",
+          "bytes": 24760,
+          "cues": 245,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_03.kk.ass",
+          "sha256": "65c21eeaf7ac884921480e0c8185d033e84d617d709b500ce8c664af7f9b8b1f",
+          "bytes": 29157,
+          "cues": 245,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "mononoke-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_04.kk.srt",
+          "sha256": "608556ddc169964c7ffc11e5c28a107b8b1bc6c8e7a74aee8bfbdee311cd4381",
+          "bytes": 25088,
+          "cues": 279,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_04.kk.vtt",
+          "sha256": "5c7dbf1a8ba6496a23eefc176449a9bfc4319de86902408bfc6d11ca9d846c90",
+          "bytes": 25185,
+          "cues": 279,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_04.kk.ass",
+          "sha256": "9c05811aa010d2b3d9253f17b1826fa7880028849fd8244500a38a4f133b436a",
+          "bytes": 30092,
+          "cues": 279,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "mononoke-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_05.kk.srt",
+          "sha256": "98774222a70855dfca74e1a6ab3d14891618c0a3f9ea0e4864000f1e9796627a",
+          "bytes": 24712,
+          "cues": 241,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_05.kk.vtt",
+          "sha256": "db0e960dc327234e3393b3f92a23dd765defc7074ed3c00728ebe19ab23eb044",
+          "bytes": 24809,
+          "cues": 241,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_05.kk.ass",
+          "sha256": "efbf2aceaf04f765f36acded0078f4ad08172c3636b9e47539fc0d6d9c58cbf2",
+          "bytes": 29146,
+          "cues": 241,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "mononoke-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_06.kk.srt",
+          "sha256": "aae56a19e9a9db7aa45f6995cf750b190cd87284eab84a975efcd19bc4c7e56b",
+          "bytes": 24294,
+          "cues": 280,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_06.kk.vtt",
+          "sha256": "028d64ce5207745b9c94c8a57e8eb628218fb2710debe636d085d022e965d981",
+          "bytes": 24391,
+          "cues": 280,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_06.kk.ass",
+          "sha256": "3e200804d9dfd64f8cae3aae5e3dbda5e25dc143a40f8cc1fa11fcbf8797d62b",
+          "bytes": 29313,
+          "cues": 280,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "mononoke-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_07.kk.srt",
+          "sha256": "1822302510ec7ee75134f4d05a6bd5107159c507f1c3157d1e9aa46c611420dc",
+          "bytes": 21358,
+          "cues": 237,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_07.kk.vtt",
+          "sha256": "366d3354a1de6e3728851d2a0412d7813cfd109c1eaae908e127666d23a68eb0",
+          "bytes": 21455,
+          "cues": 237,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_07.kk.ass",
+          "sha256": "1bfc45677271e584cfff64acc86b460b038a8e66009510c59e4db4d82b3e616c",
+          "bytes": 25732,
+          "cues": 237,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "mononoke-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_08.kk.srt",
+          "sha256": "5f90dc5cdcc3a47cac909aa6e45e4be1962b89fda9c6f843aec43cdcd13ee1db",
+          "bytes": 25923,
+          "cues": 275,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_08.kk.vtt",
+          "sha256": "889ecb581a088fc05c601194f4d17dfe41cb3a93260f3e4e251b5f6df7e8c2aa",
+          "bytes": 26020,
+          "cues": 275,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_08.kk.ass",
+          "sha256": "ebba57dbde8752fb268083f81749bfaa8445eddfaab4b3f76d4f98ab1250a874",
+          "bytes": 30867,
+          "cues": 275,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "mononoke-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_09.kk.srt",
+          "sha256": "80c81e3ec3ca5ea2d8c00d422da0605b1c40f00f0e6eb0df1cdd39172ad738ad",
+          "bytes": 22221,
+          "cues": 235,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_09.kk.vtt",
+          "sha256": "c000683fd986613db96ed2c8b743bfd3b784bfdea30f720515c95ab58a5213ec",
+          "bytes": 22318,
+          "cues": 235,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_09.kk.ass",
+          "sha256": "4f244cbc8274caec1531de9962f09af4918186f0cd8d009e9e305205cb5167dc",
+          "bytes": 26565,
+          "cues": 235,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "mononoke-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_10.kk.srt",
+          "sha256": "54a33ff7e444df3d30eb673ed7c10410dc3df5a6c1428b4852bb390a9ddeaac8",
+          "bytes": 24015,
+          "cues": 264,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_10.kk.vtt",
+          "sha256": "c3dc8679ae2fefb9d2035495f56247615679e376dacbfa5c8fe2e9dba8491242",
+          "bytes": 24112,
+          "cues": 264,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_10.kk.ass",
+          "sha256": "4edd54690e66516a645740c28e76d0c9c1ba2db07418c0ec43f983d5bc4a425a",
+          "bytes": 28794,
+          "cues": 264,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "mononoke-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_11.kk.srt",
+          "sha256": "a80494ee9f7950c1c57c858c4aef31767c9b5e6d05f1cd8c01991bc7d0596579",
+          "bytes": 26402,
+          "cues": 277,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_11.kk.vtt",
+          "sha256": "9bd31bce66ee91b858162edba3a05c31523c132aab6c6931fef6f1d7aa0ac0f3",
+          "bytes": 26499,
+          "cues": 277,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_11.kk.ass",
+          "sha256": "6a1a17ecd4f0537dfd150e525ad4d2503645cab5920d18464d3ee9a0349df016",
+          "bytes": 31376,
+          "cues": 277,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "mononoke-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mononoke-tv/mononoke-tv-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mononoke-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mononoke-tv/ep_12.kk.srt",
+          "sha256": "359683f184883abcbc70d232b24d9b7c27ba6129e603ca6dd4e941ef0a7283a8",
+          "bytes": 21880,
+          "cues": 247,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mononoke-tv/ep_12.kk.vtt",
+          "sha256": "d95ba4817a021b3a4372d366cd7533639b672d70b7d473b74fbcaf488559a257",
+          "bytes": 21977,
+          "cues": 247,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mononoke-tv/ep_12.kk.ass",
+          "sha256": "ae9cfa57e8124d5ce9e3f60518476e9f5e42b7be9e52f042f7cdf360370e05b1",
+          "bytes": 26404,
+          "cues": 247,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mononoke-tv.json"
 }

@@ -15,24 +15,56 @@
     "Drama",
     "Slice of Life"
   ],
-  "description": "Komada: A Whisky Family - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/komada-jouryuusho-e-youkoso.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/komada-jouryuusho-e-youkoso.jpg",
+  "description": "Komada: A Whisky Family - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "komada-jouryuusho-e-youkoso",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "komada-jouryuusho-e-youkoso-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/komada-jouryuusho-e-youkoso/komada-jouryuusho-e-youkoso-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/komada-jouryuusho-e-youkoso/komada-jouryuusho-e-youkoso-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/komada-jouryuusho-e-youkoso/komada-jouryuusho-e-youkoso-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/komada-jouryuusho-e-youkoso/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/komada-jouryuusho-e-youkoso/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/komada-jouryuusho-e-youkoso/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/komada-jouryuusho-e-youkoso/ep_01.kk.ass",
+          "sha256": "6fd755e113b0bbaaa25beb70488c7c2f5fb39b3057f904f8068f039a7661dfe0",
+          "bytes": 162537,
+          "cues": 1506,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/komada-jouryuusho-e-youkoso/ep_01.kk.srt",
+          "sha256": "1c9d2d75c6c512b3492fae6212a9aa3ce7dbab2b10ce6ccfa1b9633d5591f8c4",
+          "bytes": 139283,
+          "cues": 1503,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/komada-jouryuusho-e-youkoso/ep_01.kk.vtt",
+          "sha256": "2336566b3af27eaf4a1aced3e7feee80fa7baab8ec2e439b63c6570e6a300d36",
+          "bytes": 139291,
+          "cues": 1503,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/komada-jouryuusho-e-youkoso.json"
 }

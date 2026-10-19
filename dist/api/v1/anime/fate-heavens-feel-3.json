@@ -15,28 +15,59 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Fate/stay night Movie: Heaven's Feel - III. Spring Song.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21719-MSdTlkno0Z0u.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21719-D361L20cvUXL.jpg",
+  "description": "Kazakh subtitles for Fate/stay night Movie: Heaven's Feel - III. Spring Song.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "fate-heavens-feel-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fate-heavens-feel-3-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-heavens-feel-3/fate-heavens-feel-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-heavens-feel-3/fate-heavens-feel-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-heavens-feel-3/fate-heavens-feel-3-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-heavens-feel-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-heavens-feel-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-heavens-feel-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/fate-heavens-feel-3/ep_01.kk.ass",
+          "sha256": "3bdf768b7992e2d7cc46595dcf7bb19d4792765d659c7ecff3ccf3e58321de93",
+          "bytes": 156396,
+          "cues": 1515,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/fate-heavens-feel-3/ep_01.kk.srt",
+          "sha256": "d8dd7d69dcf7cab82ad8401ba0d9d95ae6141a0a3a3b847e0de47a59d266e199",
+          "bytes": 119607,
+          "cues": 1514,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/fate-heavens-feel-3/ep_01.kk.vtt",
+          "sha256": "8b49472bfdcf42b8d9b30dd0ee2926c77a29cfa8d03ef5bcfdc30774c721012d",
+          "bytes": 119615,
+          "cues": 1514,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-heavens-feel-3.json"
 }

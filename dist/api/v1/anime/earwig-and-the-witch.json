@@ -14,28 +14,59 @@
   "genres": [
     "Fantasy"
   ],
-  "description": "Not every orphan would love living at St. Morwald's Home for Children, but Earwig does. She gets whatever she wants, whenever she wants it, and it's been that way since she was dropped on the orphanage doorstep as a baby. But all that changes the day Bella Yaga and the Mandrake come to St. Morwald's, disguised as foster parents. Earwig is whisked off to their mysterious house full of invisible rooms, potions, and spell books, with magic around every corner. Most children would run in terror from a house like that...but not Earwig. Using her own cleverness—with a lot of help from a talking cat—she decides to show the witch who's boss.<br>\n<br>\n(Source: HarperCollins Publishers)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119321-Gc4A3x0vNgWH.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119321-dW8t32VfKviE.jpg",
+  "description": "Not every orphan would love living at St. Morwald's Home for Children, but Earwig does. She gets whatever she wants, whenever she wants it, and it's been that way since she was dropped on the orphanage doorstep as a baby. But all that changes the day Bella Yaga and the Mandrake come to St. Morwald's, disguised as foster parents. Earwig is whisked off to their mysterious house full of invisible rooms, potions, and spell books, with magic around every corner. Most children would run in terror from a house like that...but not Earwig. Using her own cleverness—with a lot of help from a talking cat—she decides to show the witch who's boss.<br>\n<br>\n(Source: HarperCollins Publishers)",
   "averageScore": 51,
   "popularity": 8241,
+  "color": "#e45de4",
+  "duration": 82,
+  "studio": "Studio Ghibli",
+  "catalog_id": "earwig-and-the-witch",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "earwig-and-the-witch-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-the-witch/earwig-and-the-witch-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-the-witch/earwig-and-the-witch-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/earwig-and-the-witch/earwig-and-the-witch-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-the-witch/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-the-witch/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/earwig-and-the-witch/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/earwig-and-the-witch/ep_01.kk.srt",
+          "sha256": "7f18c61da56ad68eea002de0045c047992f0d8ba57dabcf77f83b76b624b4805",
+          "bytes": 101304,
+          "cues": 1291,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/earwig-and-the-witch/ep_01.kk.vtt",
+          "sha256": "6f5e94fb4cea45ce2923f8a01cfbdd79a25fa1a45ae818d3cbc5304681b29274",
+          "bytes": 101401,
+          "cues": 1291,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/earwig-and-the-witch/ep_01.kk.ass",
+          "sha256": "dfbd6a0a143e1992a9cdf6ff4f385a6f0c54b5c9d15acb8f88a063e7b3d84a7b",
+          "bytes": 121436,
+          "cues": 1291,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#e45de4",
-  "studio": "Studio Ghibli",
-  "duration": 82,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/earwig-and-the-witch.json"
 }

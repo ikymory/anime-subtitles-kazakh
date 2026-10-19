@@ -16,24 +16,56 @@
     "Fantasy",
     "Supernatural"
   ],
-  "description": "Fate/stay night: Heaven's Feel II. lost butterfly - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fate-stay-night-heavens-feel-2.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fate-stay-night-heavens-feel-2.jpg",
+  "description": "Fate/stay night: Heaven's Feel II. lost butterfly - official Kazakh translation archive by ikymory.",
   "averageScore": 90,
   "popularity": 108000,
+  "catalog_id": "fate-stay-night-heavens-feel-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fate-stay-night-heavens-feel-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-heavens-feel-2/fate-stay-night-heavens-feel-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-heavens-feel-2/fate-stay-night-heavens-feel-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fate-stay-night-heavens-feel-2/fate-stay-night-heavens-feel-2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-heavens-feel-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-heavens-feel-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fate-stay-night-heavens-feel-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fate-stay-night-heavens-feel-2/ep_01.kk.srt",
+          "sha256": "37827e4ee39351c9e53f0679f76700842fa3049f26224545b5475b24f41415fa",
+          "bytes": 101598,
+          "cues": 1277,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fate-stay-night-heavens-feel-2/ep_01.kk.vtt",
+          "sha256": "1369d08ac16a626185e657bd182f2b810e365cf50eb5d92980e1393777adb49c",
+          "bytes": 101695,
+          "cues": 1277,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fate-stay-night-heavens-feel-2/ep_01.kk.ass",
+          "sha256": "4048876689ef3ceb8f96d2f1716c8de069c1294343a54d0bff60ecf00b2d9c82",
+          "bytes": 121535,
+          "cues": 1277,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-stay-night-heavens-feel-2.json"
 }

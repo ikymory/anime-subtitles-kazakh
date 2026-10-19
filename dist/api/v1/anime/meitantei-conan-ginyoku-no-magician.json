@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Meitantei Conan. Ginyoku no Magician - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-ginyoku-no-magician.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-ginyoku-no-magician.jpg",
+  "description": "Meitantei Conan. Ginyoku no Magician - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "meitantei-conan-ginyoku-no-magician",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "meitantei-conan-ginyoku-no-magician-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-ginyoku-no-magician/meitantei-conan-ginyoku-no-magician-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-ginyoku-no-magician/meitantei-conan-ginyoku-no-magician-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-ginyoku-no-magician/meitantei-conan-ginyoku-no-magician-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-ginyoku-no-magician/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-ginyoku-no-magician/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-ginyoku-no-magician/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/meitantei-conan-ginyoku-no-magician/ep_01.kk.srt",
+          "sha256": "ae5ea270d2d161ec816ea91bcb74dbb3d08e420b4a88141c79dc010acbf39b4e",
+          "bytes": 165680,
+          "cues": 1996,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/meitantei-conan-ginyoku-no-magician/ep_01.kk.vtt",
+          "sha256": "04a998e6980a36602c4816c959ad7ec2ef26e0a2d00cfd1d4c33695d8070e155",
+          "bytes": 165777,
+          "cues": 1996,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/meitantei-conan-ginyoku-no-magician/ep_01.kk.ass",
+          "sha256": "d6282a2c534d3e6e09a7425107090d6522621969df1aecf0ddc829d83d834a5a",
+          "bytes": 195682,
+          "cues": 1996,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-ginyoku-no-magician.json"
 }

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Heartcatch Precure! Hana no Miyako de Fashion Show... Desu ka!？ - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka.jpg",
+  "description": "Heartcatch Precure! Hana no Miyako de Fashion Show... Desu ka!？ - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/ep_01.kk.srt",
+          "sha256": "611165aeaab50223179d30f38d334ba7141c743f5d2d9d997e0437af795eab3c",
+          "bytes": 81658,
+          "cues": 1005,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/ep_01.kk.vtt",
+          "sha256": "a4cb3f2d0a7a2c75a780a3c84b8781136d3ff3e35c8164ba6d034d29082bd4df",
+          "bytes": 81755,
+          "cues": 1005,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka/ep_01.kk.ass",
+          "sha256": "3c40cb25e937e10a672f139c46a558000df34f28d9bcaea11ed0010285d36821",
+          "bytes": 97605,
+          "cues": 1005,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/heartcatch-precure-hana-no-miyako-de-fashion-show-desu-ka.json"
 }

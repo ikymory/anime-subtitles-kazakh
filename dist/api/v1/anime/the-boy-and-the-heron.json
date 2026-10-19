@@ -13,39 +13,92 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109979-BRHXpBkCw4oc.jpg",
+  "averageScore": 79,
+  "popularity": 72264,
+  "color": "hsl(144, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109979-eeUPfBXMEflG.jpg",
+  "catalog_id": "the-boy-and-the-heron",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     265
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "the-boy-and-the-heron-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-boy-and-the-heron/the-boy-and-the-heron-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-boy-and-the-heron/the-boy-and-the-heron-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-boy-and-the-heron/the-boy-and-the-heron-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-boy-and-the-heron/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-boy-and-the-heron/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-boy-and-the-heron/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/the-boy-and-the-heron/ep_01.kk.srt",
+          "sha256": "20dfba8a695308f045baf1d87b353a97fd48acf51222ac0103aeeb866c80362a",
+          "bytes": 84479,
+          "cues": 1089,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/the-boy-and-the-heron/ep_01.kk.vtt",
+          "sha256": "c6585062156cf21d781744dd646144fb354c55aa4f5e41fb347389a2ecf12f87",
+          "bytes": 84576,
+          "cues": 1089,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/the-boy-and-the-heron/ep_01.kk.ass",
+          "sha256": "11591bf04d92d7162d36419a307953049358e4c2fc357c7e2b540cd8dc7487c9",
+          "bytes": 101553,
+          "cues": 1089,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 265,
       "language": "kk",
-      "filename": "the-boy-and-the-heron-265ep.srt",
+      "filename": "ep_265.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-boy-and-the-heron/the-boy-and-the-heron-265ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-boy-and-the-heron/the-boy-and-the-heron-265ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-boy-and-the-heron/the-boy-and-the-heron-265ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-boy-and-the-heron/ep_265.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-boy-and-the-heron/ep_265.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-boy-and-the-heron/ep_265.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/the-boy-and-the-heron/ep_265.kk.srt",
+          "sha256": "2c45a7ad606f523c24dd8b2d64b064bb4a7f04980e5484f13817f7665a97ab3a",
+          "bytes": 107054,
+          "cues": 1249,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/the-boy-and-the-heron/ep_265.kk.vtt",
+          "sha256": "1f7493d220d65d860af45f94db5ba323f0db7f66de77dab610db341e39a1f2e1",
+          "bytes": 107151,
+          "cues": 1249,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/the-boy-and-the-heron/ep_265.kk.ass",
+          "sha256": "45bbddf756619a4f6c7a5f0549d2b68d3f7ebdd91b3d14f1a73bafac3dd199a8",
+          "bytes": 126368,
+          "cues": 1249,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(144, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 79,
-  "popularity": 72264,
-  "translated_episodes_count": 2
+  "quality_issues_count": 9,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/the-boy-and-the-heron.json"
 }

@@ -1,10 +1,12 @@
 {
   "id": 512,
-  "slug": "kiki-s-delivery",
+  "slug": "majo-no-takkyuubin",
   "title": {
     "romaji": "Majo no Takkyuubin",
     "english": "Kiki's Delivery Service",
-    "native": "魔女の宅急便"
+    "native": "魔女の宅急便",
+    "kazakh": "Кикидің жеткізу қызметі",
+    "kk": "Кикидің жеткізу қызметі"
   },
   "format": "MOVIE",
   "episodes": 1,
@@ -15,9 +17,56 @@
     "Fantasy",
     "Slice of Life"
   ],
-  "description": "Kiki is an enterprising young girl who must follow tradition to become a full-fledged witch. Venturing out with only her chatty black cat, Jiji, Kiki flies off for the adventure of a lifetime. Landing in a far-off city, she sets up a high-flying delivery service and begins a wonderful experience of independence and responsibility as she finds her place in the world.<br><br>\n(Source: Disney)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx512-UwP8X4BR8YoM.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx512-UwP8X4BR8YoM.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/512-Ssp3EE2NdeoA.jpg",
-  "translated_episodes": [],
-  "subtitles": []
+  "description": "Kiki is an enterprising young girl who must follow tradition to become a full-fledged witch. Venturing out with only her chatty black cat, Jiji, Kiki flies off for the adventure of a lifetime. Landing in a far-off city, she sets up a high-flying delivery service and begins a wonderful experience of independence and responsibility as she finds her place in the world.<br><br>\n(Source: Disney)",
+  "averageScore": 81,
+  "popularity": 188064,
+  "catalog_id": "majo-no-takkyuubin",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translated_episodes": [
+    1
+  ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.ass",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/majo-no-takkyuubin/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/majo-no-takkyuubin/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/majo-no-takkyuubin/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/majo-no-takkyuubin/ep_01.kk.ass",
+          "sha256": "d89b1c55adfccbed0d3dd30681b0a4c75d7f1126f6d1838c0035c0860fc2e61d",
+          "bytes": 130399,
+          "cues": 1355,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/majo-no-takkyuubin/ep_01.kk.srt",
+          "sha256": "36435a9363b1432e873685a4c99cd6bc93787cd373c182dc077b6d767e776608",
+          "bytes": 109000,
+          "cues": 1345,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/majo-no-takkyuubin/ep_01.kk.vtt",
+          "sha256": "67b0aa2592267186de809e9ef47f8795475f09d15a21827681295b1649e84f78",
+          "bytes": 109008,
+          "cues": 1345,
+          "origin": "derived"
+        }
+      }
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/majo-no-takkyuubin.json"
 }

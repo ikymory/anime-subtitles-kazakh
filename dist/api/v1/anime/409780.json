@@ -3,22 +3,30 @@
   "slug": "chuunibyou-s2",
   "title": {
     "romaji": "Chuunibyou S2",
-    "english": "Chuunibyou S2"
+    "english": "Chuunibyou S2",
+    "kazakh": "Өспірім қиялы 2-маусым",
+    "kk": "Өспірім қиялы 2-маусым"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 12,
+  "seasonYear": 2012,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14741-CGXEIeUe2roA.jpg",
+  "averageScore": 77,
+  "popularity": 58654,
+  "color": "hsl(175, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14741-7RMdUd7tVfSu.jpg",
+  "catalog_id": "chuunibyou-s2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
-    10,
-    11,
-    12,
     2,
     3,
     4,
@@ -26,128 +34,411 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "chuunibyou-s2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-1ep.ass"
-      }
-    },
-    {
-      "episode": 10,
-      "language": "kk",
-      "filename": "chuunibyou-s2-10ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-10ep.ass"
-      }
-    },
-    {
-      "episode": 11,
-      "language": "kk",
-      "filename": "chuunibyou-s2-11ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-11ep.ass"
-      }
-    },
-    {
-      "episode": 12,
-      "language": "kk",
-      "filename": "chuunibyou-s2-12ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_01.kk.srt",
+          "sha256": "da6606a6b203ac2fbe87983413d725d4aad7f139f74ac68c0a63bde1034f23c8",
+          "bytes": 40300,
+          "cues": 419,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_01.kk.vtt",
+          "sha256": "446adf7bc50b761f269fbe69d90544c068dcc0cefc5fb74302d2ca927ff5d03b",
+          "bytes": 40397,
+          "cues": 419,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_01.kk.ass",
+          "sha256": "4b7b5125d968d8e6942998f97b3649bde39c479674a244a92b0668b1390bbf68",
+          "bytes": 47406,
+          "cues": 419,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "chuunibyou-s2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_02.kk.srt",
+          "sha256": "6494097f1c92f3a028fd38a85bbe80c5ff2d551123dc98a8691b5dea589c40d8",
+          "bytes": 40847,
+          "cues": 434,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_02.kk.vtt",
+          "sha256": "fed455261dfb8774fcede235f423e99a7814f279af339ce2911f2519f9e6c124",
+          "bytes": 40944,
+          "cues": 434,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_02.kk.ass",
+          "sha256": "a29146fb8ec9636a9b5c06bbe651e0e7338462cf72fbafdccc6a2961b5b0209a",
+          "bytes": 48178,
+          "cues": 434,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "chuunibyou-s2-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_03.kk.srt",
+          "sha256": "64055629a041c86285665e7df7142827d20121a8d7797b75d624fd7cc1a3dffa",
+          "bytes": 44281,
+          "cues": 492,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_03.kk.vtt",
+          "sha256": "3b18e4556c00f1163c769122f6c1f28896502e5765cc8aea4d1d892e825e2248",
+          "bytes": 44378,
+          "cues": 492,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_03.kk.ass",
+          "sha256": "10febe5d2ee75c74fdc5721e008be5a0c72384af0280d28805e145883e4c3e26",
+          "bytes": 52482,
+          "cues": 492,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "chuunibyou-s2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_04.kk.srt",
+          "sha256": "812787f943a97d785786fd2f40afa52147672c11ed60632980049b0b88b722ea",
+          "bytes": 62968,
+          "cues": 457,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_04.kk.vtt",
+          "sha256": "afd8c5c553a1eb4811d5572167e5941afab70534e2ff99dce00239679fe6003d",
+          "bytes": 63065,
+          "cues": 457,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_04.kk.ass",
+          "sha256": "a996232aae2e895a9005ac4744e327558b5a4f7216dcc7e3b5bd5a7d96498645",
+          "bytes": 70644,
+          "cues": 457,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "chuunibyou-s2-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_05.kk.srt",
+          "sha256": "e877481819ad8a8829818f0e43cbafb5d8d7006e4f4c6ad4d197f26ea4ae5547",
+          "bytes": 40474,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_05.kk.vtt",
+          "sha256": "936ee942f014e6992a34a9a6325b4acb35bf62eb67414da227f4a71264fc8dba",
+          "bytes": 40571,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_05.kk.ass",
+          "sha256": "3ff807005fdf0b77dc1060c29ce31bcf265a3ef930b0ad419145704622484b4a",
+          "bytes": 47850,
+          "cues": 437,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "chuunibyou-s2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_06.kk.srt",
+          "sha256": "2546c3b767e31463786b09aa34e9218a5f54d2ac31185fd036d3fe7a06bda764",
+          "bytes": 32023,
+          "cues": 352,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_06.kk.vtt",
+          "sha256": "ca5a78212c7a6f9b5169ee18dabc98a81ed1719429dcc7c64400d07e97fea6f2",
+          "bytes": 32120,
+          "cues": 352,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_06.kk.ass",
+          "sha256": "19d00725b06cf7a9b4774b06f065c6e9ea815f7c3e22a57c2d8e64bcf19ba3a5",
+          "bytes": 38124,
+          "cues": 352,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "chuunibyou-s2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_07.kk.srt",
+          "sha256": "b599d83faa761bb64c6bb992fd32a554558e3dff99041387925d02d0e02730d0",
+          "bytes": 33534,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_07.kk.vtt",
+          "sha256": "f5318bcae356d269c81219c5757c384f45b8e4b8a26c18584d6d2b001d9dcec6",
+          "bytes": 33631,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_07.kk.ass",
+          "sha256": "3f8ffd7ec19c8ae88a7021b1031fa3a410de0b9c7417e1faaa960dc6020c32fe",
+          "bytes": 39740,
+          "cues": 359,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "chuunibyou-s2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_08.kk.srt",
+          "sha256": "68cba3b6f8606deff286c8271cb519124ab12b726901dcb3c43c5602ec90bcd7",
+          "bytes": 39324,
+          "cues": 444,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_08.kk.vtt",
+          "sha256": "20974423353dc594cae9644df473d08693c9f652e5cf70d191461cf62fc5f95d",
+          "bytes": 39421,
+          "cues": 444,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_08.kk.ass",
+          "sha256": "996ff0a70d71523d31c8aa9fed4a1e26e8b72b8deac36da01e4520737fd7a1dd",
+          "bytes": 46805,
+          "cues": 444,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "chuunibyou-s2-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chuunibyou-s2/chuunibyou-s2-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_09.kk.srt",
+          "sha256": "8ac66a3e5bbc94363fe49d084e1c76fec18a6bc544f0ebb7538bf4f05c4676b8",
+          "bytes": 58197,
+          "cues": 452,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_09.kk.vtt",
+          "sha256": "44f4af32bc85ac7131451fd69cd90d2af38208fdee04b0afb93ad6e1ed461b28",
+          "bytes": 58294,
+          "cues": 452,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_09.kk.ass",
+          "sha256": "31a1a5fa0347ae7e78a650dcd9724428bc10da68d05485175bae796eef432f33",
+          "bytes": 65798,
+          "cues": 452,
+          "origin": "source"
+        }
+      }
+    },
+    {
+      "episode": 10,
+      "language": "kk",
+      "filename": "ep_10.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_10.kk.srt",
+          "sha256": "026fa9adad69ebccd802c6bfdb04098a5fe3119cc89ad07f8bcdbdfa31a093eb",
+          "bytes": 35739,
+          "cues": 396,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_10.kk.vtt",
+          "sha256": "4bb8a830ea5e81dedb40a5acc71103a27501e5bd1db0e49714e13688eb00cec3",
+          "bytes": 35836,
+          "cues": 396,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_10.kk.ass",
+          "sha256": "9454b5587e1647dd0ab8388641832b8a43ea97de9da223370ca79ab5e04b0231",
+          "bytes": 42500,
+          "cues": 396,
+          "origin": "source"
+        }
+      }
+    },
+    {
+      "episode": 11,
+      "language": "kk",
+      "filename": "ep_11.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_11.kk.srt",
+          "sha256": "64bd8335dedd20c616c3bc17dba5e3968b276a8d68da719280c75861f571e68f",
+          "bytes": 36085,
+          "cues": 385,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_11.kk.vtt",
+          "sha256": "75d809d221fe14de80f6b4dbf52d1edca21e1f05281f4baddefbc56083811b20",
+          "bytes": 36182,
+          "cues": 385,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_11.kk.ass",
+          "sha256": "d00de951e78ec5580da79a9c0cddde092dad320a20c5c0619e9f345a5eca47c0",
+          "bytes": 42681,
+          "cues": 385,
+          "origin": "source"
+        }
+      }
+    },
+    {
+      "episode": 12,
+      "language": "kk",
+      "filename": "ep_12.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chuunibyou-s2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chuunibyou-s2/ep_12.kk.srt",
+          "sha256": "a05c082bb8528d8c6314b55a57a8327438bec13710a401dcb7579f64d53609c2",
+          "bytes": 34866,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chuunibyou-s2/ep_12.kk.vtt",
+          "sha256": "29d64ef92689ecd5745ed9ebb991a58a8a5a958be4ab1f4cf0207daed3d25585",
+          "bytes": 34963,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chuunibyou-s2/ep_12.kk.ass",
+          "sha256": "27054b56b0f7a2f89f5dcfb08ffd3543e476caa2714c31333529b3d612888b51",
+          "bytes": 41807,
+          "cues": 408,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuunibyou-s2.json"
 }

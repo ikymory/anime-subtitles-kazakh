@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
     "english": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
-    "native": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～"
+    "native": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～",
+    "kazakh": "Жын әміршісі академиясының біліксізі",
+    "kk": "Жын әміршісі академиясының біліксізі"
   },
   "format": "TV",
   "episodes": 13,
@@ -14,22 +16,59 @@
     "Comedy",
     "Fantasy"
   ],
-  "description": "Anos, the Demon King of Tyranny, has defeated humans, spirits, and gods alike. But even demon kings get tired of all the fighting sometimes! Hoping for a more peaceful life, Anos decides to reincarnate himself. When he wakes two thousand years later, though, he finds the world has become too peaceful--his descendants have grown weak and magic is in serious decline. Intending to reclaim his rightful place, he enrolls in Demon King Academy, where he finds that his magical power is off the charts. Literally. And because they can't measure his power, the faculty and other students regard Anos as a misfit. With the support of Misha, the one student he manages to befriend, the misfit (Demon King) begins his climb up the demon ranks!\n<br><br>\n(Source: Square Enix)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112301-f88Fs2es4pSr.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112301-e50SRjhGDGUu.jpg",
+  "description": "Anos, the Demon King of Tyranny, has defeated humans, spirits, and gods alike. But even demon kings get tired of all the fighting sometimes! Hoping for a more peaceful life, Anos decides to reincarnate himself. When he wakes two thousand years later, though, he finds the world has become too peaceful--his descendants have grown weak and magic is in serious decline. Intending to reclaim his rightful place, he enrolls in Demon King Academy, where he finds that his magical power is off the charts. Literally. And because they can't measure his power, the faculty and other students regard Anos as a misfit. With the support of Misha, the one student he manages to befriend, the misfit (Demon King) begins his climb up the demon ranks!\n\n(Source: Square Enix)",
+  "averageScore": 86,
+  "popularity": 65117,
+  "color": "#865de4",
+  "duration": 24,
+  "studio": "SILVER LINK.",
+  "catalog_id": "misfit-demon-king",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "misfit-demon-king-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/misfit-demon-king/misfit-demon-king-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/misfit-demon-king/misfit-demon-king-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/misfit-demon-king/misfit-demon-king-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/misfit-demon-king/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/misfit-demon-king/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/misfit-demon-king/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/misfit-demon-king/ep_01.kk.srt",
+          "sha256": "b4190ef793d4d3e228a2e5a808b7a2fe75d3ed2b6ec17018ba98757f9a472eb1",
+          "bytes": 41968,
+          "cues": 485,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/misfit-demon-king/ep_01.kk.vtt",
+          "sha256": "85c54ad164589c7d5d5540eaf494f4fd6b24258969e20f57bd8816c6d1aae797",
+          "bytes": 42065,
+          "cues": 485,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/misfit-demon-king/ep_01.kk.ass",
+          "sha256": "d557ef914391c95559adef754f7edb46ed4d4c80c3d2347e23f40b342413df93",
+          "bytes": 50068,
+          "cues": 485,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/misfit-demon-king.json"
 }

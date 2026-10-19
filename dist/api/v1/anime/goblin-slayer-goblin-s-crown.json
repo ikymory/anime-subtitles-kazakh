@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Goblin Slayer. GOBLIN’S CROWN - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/goblin-slayer-goblin-s-crown.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/goblin-slayer-goblin-s-crown.jpg",
+  "description": "Goblin Slayer. GOBLIN’S CROWN - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "goblin-slayer-goblin-s-crown",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "goblin-slayer-goblin-s-crown-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer-goblin-s-crown/goblin-slayer-goblin-s-crown-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer-goblin-s-crown/goblin-slayer-goblin-s-crown-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer-goblin-s-crown/goblin-slayer-goblin-s-crown-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer-goblin-s-crown/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer-goblin-s-crown/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer-goblin-s-crown/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer-goblin-s-crown/ep_01.kk.srt",
+          "sha256": "fed1b5bdd7aacf31af013fe70a7db58adbad168f130f1edc82fe6d618e197c49",
+          "bytes": 83575,
+          "cues": 1032,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer-goblin-s-crown/ep_01.kk.vtt",
+          "sha256": "3ecb69787e30241934950bcd9bccc53ef255dea0f577c37ff097e506228b70fe",
+          "bytes": 83672,
+          "cues": 1032,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer-goblin-s-crown/ep_01.kk.ass",
+          "sha256": "aad78688cdb168382384efb686e13a50b0e64032c2a1fd4a9025a1d4af6f1a54",
+          "bytes": 99900,
+          "cues": 1032,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/goblin-slayer-goblin-s-crown.json"
 }

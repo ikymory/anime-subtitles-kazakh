@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Kill la Kill",
     "english": "Kill la Kill",
-    "native": "キルラキル"
+    "native": "キルラキル",
+    "kazakh": "Өлтір не өл!",
+    "kk": "Өлтір не өл!"
   },
   "format": "TV",
   "episodes": 24,
@@ -14,9 +16,19 @@
     "Comedy",
     "Ecchi"
   ],
-  "description": "After the murder of her father, Ryuuko Matoi has been wandering the land in search of his killer. Following her only lead—the missing half of his invention, the Scissor Blade—she arrives at the prestigious Honnouji Academy, a high school unlike any other. The academy is ruled by the imposing and cold-hearted student council president Satsuki Kiryuuin alongside her powerful underlings, the Elite Four. In the school's brutally competitive hierarchy, Satsuki bestows upon those at the top special clothes called \"Goku Uniforms,\" which grant the wearer unique superhuman abilities.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b18679-lbkq7iYESoFW.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/18679-rpC99hxBxaMn.jpg",
+  "description": "After the murder of her father, Ryuuko Matoi has been wandering the land in search of his killer. Following her only lead—the missing half of his invention, the Scissor Blade—she arrives at the prestigious Honnouji Academy, a high school unlike any other. The academy is ruled by the imposing and cold-hearted student council president Satsuki Kiryuuin alongside her powerful underlings, the Elite Four. In the school's brutally competitive hierarchy, Satsuki bestows upon those at the top special clothes called \"Goku Uniforms,\" which grant the wearer unique superhuman abilities.",
+  "averageScore": 81,
+  "popularity": 57482,
+  "color": "#e40d0d",
+  "duration": 24,
+  "studio": "TRIGGER",
+  "catalog_id": "kill-la-kill",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -43,246 +55,802 @@
     23,
     24
   ],
+  "translated_episodes_count": 24,
+  "available_episodes_count": 24,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kill-la-kill-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_01.kk.srt",
+          "sha256": "a1d7e8274bb7b08a9da363a79f9264e4a8661e2baa022c3a9092b5a9a36f4186",
+          "bytes": 39301,
+          "cues": 422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_01.kk.vtt",
+          "sha256": "11638efc9e26ac521254a5ed38d40f9eb4e4757e07e3434c652cb179257350b9",
+          "bytes": 39398,
+          "cues": 422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_01.kk.ass",
+          "sha256": "ec70dc7d2706e59fc87f8713bf35149fcaca849970c49896767e5ad8f3cc3879",
+          "bytes": 46451,
+          "cues": 422,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "kill-la-kill-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_02.kk.srt",
+          "sha256": "191daeb6fe5232307867c851b34ca123be92e86df6e2a6480757d48a80665ceb",
+          "bytes": 37572,
+          "cues": 393,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_02.kk.vtt",
+          "sha256": "c4b8eba670893710f4a38a8396edac9efc71850976b92a4d0248efa8d1f7adbd",
+          "bytes": 37669,
+          "cues": 393,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_02.kk.ass",
+          "sha256": "67755924bbc02bcd43fb9f7eb751b944c6ed416273c956af1ec76ce2e7ec7359",
+          "bytes": 44287,
+          "cues": 393,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "kill-la-kill-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_03.kk.srt",
+          "sha256": "94e805f5b68e98d25255ee1af5bcf462c22a064f1b2a17398f283a46eda3531b",
+          "bytes": 34702,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_03.kk.vtt",
+          "sha256": "853892300f5a0996698dcdd7c558457b21980c9bb36be14f74aad78b2febe8bd",
+          "bytes": 34799,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_03.kk.ass",
+          "sha256": "94cbb16b63b75fa5643c9fab869b8ccfe16781593367d14fcd8e13b4ff5a5843",
+          "bytes": 40922,
+          "cues": 360,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "kill-la-kill-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_04.kk.srt",
+          "sha256": "3a4d0bb6ff32ed577d406e9d0cff608463e329ab377d5bf2d808cf941f32da5f",
+          "bytes": 42220,
+          "cues": 447,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_04.kk.vtt",
+          "sha256": "b6fbd1f7d575adc012f6268cedbf7d7299686ab773873be6edceac58f3e17b55",
+          "bytes": 42317,
+          "cues": 447,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_04.kk.ass",
+          "sha256": "8fd7f905f062f66dc8fff6a2162425b833b17aa67fff038c2a2a62ea667be686",
+          "bytes": 49745,
+          "cues": 447,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "kill-la-kill-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_05.kk.srt",
+          "sha256": "8a17ccb94d4197e488bb893d9b1ecfc45454840f27391ee97f05986d53c3d94d",
+          "bytes": 34627,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_05.kk.vtt",
+          "sha256": "7be555d7e64fa63bc5f9ffefc08a37285da47448bd5a30347e6c47d4cd1f0932",
+          "bytes": 34724,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_05.kk.ass",
+          "sha256": "abfd63c0324453edbffd70db9fc1dae6e80f14246cc73981f7bbd5dac4a968c7",
+          "bytes": 40442,
+          "cues": 333,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "kill-la-kill-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_06.kk.srt",
+          "sha256": "6050aaddfcca7f5c97bdde6016619c1810560e710e57a12c84a7568de1c3277c",
+          "bytes": 33847,
+          "cues": 339,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_06.kk.vtt",
+          "sha256": "7bef7606433e4c51c4ddceacea111894804773b579e39bc18e18835f5704cab6",
+          "bytes": 33944,
+          "cues": 339,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_06.kk.ass",
+          "sha256": "54c64a491627ed4a5d743bff2985b5876f02c9f45328619b71fd02556f3fa4c4",
+          "bytes": 39752,
+          "cues": 339,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "kill-la-kill-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_07.kk.srt",
+          "sha256": "58eb2bc958a29a6c38ed4d8406d619d6c8aaefff480a0ce76dc4f0bbfd06e6c9",
+          "bytes": 39383,
+          "cues": 435,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_07.kk.vtt",
+          "sha256": "2b288404b88b971a34d1e89e9048921c5eed0c618eff14db525a22e635795f1a",
+          "bytes": 39480,
+          "cues": 435,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_07.kk.ass",
+          "sha256": "a1278982f3d425c0a5f966da566239773626241750e0c644f173f7e3f1bdd227",
+          "bytes": 46728,
+          "cues": 435,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "kill-la-kill-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_08.kk.srt",
+          "sha256": "7f82b667db1da192bb12c8a7b994816b14fa7d4947908c15260254c50ae4e67b",
+          "bytes": 37030,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_08.kk.vtt",
+          "sha256": "fd9fb64268e2b4e9b391a91a7a43bbc9a2455cbb7ec0432034d67800069afd19",
+          "bytes": 37127,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_08.kk.ass",
+          "sha256": "38e19aa397f319205f5a7b6a52a7ec6e5d0d5048818c6db9b2a2a62032cf62c8",
+          "bytes": 43355,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "kill-la-kill-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_09.kk.srt",
+          "sha256": "73ab320631d9182e4f0c112cbdf1865f946f363a118ea449b3c7bd65de797bba",
+          "bytes": 35503,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_09.kk.vtt",
+          "sha256": "44de2669885d30528c6494099a9a39a59c2d04cc81f95022e3d87c199b093aa2",
+          "bytes": 35600,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_09.kk.ass",
+          "sha256": "6aa098917dee81e016f58d3016a463a9618b73cd81fc12f856f6949dce9e0caf",
+          "bytes": 41693,
+          "cues": 358,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "kill-la-kill-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_10.kk.srt",
+          "sha256": "4eb6f05286201214480ea8bbdc1f3d7057e7495139989ef95588144cbd6fd9d7",
+          "bytes": 32841,
+          "cues": 332,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_10.kk.vtt",
+          "sha256": "d7af6064044e739956e6b07473bdc4e4d3c1cae376305af86eb9b2af4515bc32",
+          "bytes": 32938,
+          "cues": 332,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_10.kk.ass",
+          "sha256": "7cd44c22228535c510b9188f2b69af89e816bfca819692b0777d2b9a057da7f0",
+          "bytes": 38641,
+          "cues": 332,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "kill-la-kill-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_11.kk.srt",
+          "sha256": "333e6ba89a3fa1dbdbae02e23a257daa1b2ce3cbfa39913d9a1f75641e125fae",
+          "bytes": 34114,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_11.kk.vtt",
+          "sha256": "83594f1bb666ca0352f15e8eb43b65a2d26e97e2750e434a08cc9fbf898d0d59",
+          "bytes": 34211,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_11.kk.ass",
+          "sha256": "acb4beeab67610a4674c4685be64a9bbcfde592f15eb135018bd8b1da886984f",
+          "bytes": 40409,
+          "cues": 365,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "kill-la-kill-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_12.kk.srt",
+          "sha256": "02721e347faf256866622ab4141528297dd8144d217db7fd099a1884350de885",
+          "bytes": 35319,
+          "cues": 397,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_12.kk.vtt",
+          "sha256": "4e756283993bb052f44b2a91e532750658180b7366814b99baf8322b8bd1f302",
+          "bytes": 35416,
+          "cues": 397,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_12.kk.ass",
+          "sha256": "813fbb7b5f64a163818e56d5fecb45da073f771c1c4c19bf0b6ba144ded9e4fb",
+          "bytes": 42094,
+          "cues": 397,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "kill-la-kill-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_13.kk.srt",
+          "sha256": "c71a1a3fc0929c3a8698320740af66a8123d6ef3ce1999ff2704c32edb88a6b4",
+          "bytes": 38262,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_13.kk.vtt",
+          "sha256": "e501990a7b4f41d4aec7ec4123ca9872cfb9a8ee5af63b09b076570c92d6f09e",
+          "bytes": 38359,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_13.kk.ass",
+          "sha256": "26e802142672ea81aeba7d7cb72a2453de8b0efb8e12fe235c5a4c7fcac5aefb",
+          "bytes": 44737,
+          "cues": 377,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "kill-la-kill-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_14.kk.srt",
+          "sha256": "0f07558289fe02e2241ce926400446e10f81feabfe6e7122853729198d8b7785",
+          "bytes": 40750,
+          "cues": 396,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_14.kk.vtt",
+          "sha256": "cf2909077f3a48f3574ef1c664878f97a0cfe256252cc289d4bf9aa8f536b0f9",
+          "bytes": 40847,
+          "cues": 396,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_14.kk.ass",
+          "sha256": "cf0d540d4462d669577ef8331cd6286b6c7a93927bb527fe0bb2873b06f6affe",
+          "bytes": 47510,
+          "cues": 396,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "kill-la-kill-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-15ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_15.kk.srt",
+          "sha256": "aa412f8b52b7a17330a4f35572ada954a0df2cb6a997d8e7d9d4555093f6610c",
+          "bytes": 37943,
+          "cues": 376,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_15.kk.vtt",
+          "sha256": "e69d90af42512c38dd33d0634b0bf6fa6d9b324891b67dba8d209646b5d78cdd",
+          "bytes": 38040,
+          "cues": 376,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_15.kk.ass",
+          "sha256": "359e8be211af81d130d4de412077dc480712cbf5af3e1fb576be7a682eae6f61",
+          "bytes": 44403,
+          "cues": 376,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "kill-la-kill-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-16ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_16.kk.srt",
+          "sha256": "6108535ecd3da64f070a598629758280e98cc07c2d7f35fae77e6c7b91ecd01a",
+          "bytes": 37717,
+          "cues": 370,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_16.kk.vtt",
+          "sha256": "ab87f5cf3cf8d91c96f325e22ee3563a8f7156879a5c2a14a9bb56ca7d1f1de4",
+          "bytes": 37814,
+          "cues": 370,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_16.kk.ass",
+          "sha256": "7772fb924514fe3ee136ebaefad6886303a91c6507d7748d6f55200da8d09c18",
+          "bytes": 44087,
+          "cues": 370,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "kill-la-kill-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_17.kk.srt",
+          "sha256": "6b7123541cbdac31a2a9c619eb828dc0264f47457f23ba75a166f866518e1d2c",
+          "bytes": 37955,
+          "cues": 375,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_17.kk.vtt",
+          "sha256": "d7b17edf5c487811c868fc7b09b7797e793044c7edef2e43beebbcc5edc9c7d6",
+          "bytes": 38052,
+          "cues": 375,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_17.kk.ass",
+          "sha256": "dc1d5ac4630fea200f759b00c08e9c8a3dd280deb4adfee3767c1578005fd313",
+          "bytes": 44400,
+          "cues": 375,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "kill-la-kill-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-18ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_18.kk.srt",
+          "sha256": "480cf09d35585b924e39df3ceebff5aee595ad4270c7ad17c76681ee5a391be1",
+          "bytes": 32897,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_18.kk.vtt",
+          "sha256": "e0146e69ad443d735d22468674fe2327954bc74dc286ba2166413983b9b712fb",
+          "bytes": 32994,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_18.kk.ass",
+          "sha256": "407435ee6c55058e38314a52181ddf5a283e764732b9b00be948f5fa16dde2e5",
+          "bytes": 39027,
+          "cues": 354,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "kill-la-kill-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-19ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_19.kk.srt",
+          "sha256": "b2cba5e1ed0fe066713ec2e22ab367ba812aea920ac254e8726d1fef1290dac0",
+          "bytes": 36265,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_19.kk.vtt",
+          "sha256": "c6ea0a2b9e48baba5346b941568d49a2e8c9ee859ab423058680f6f67cac4cc4",
+          "bytes": 36362,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_19.kk.ass",
+          "sha256": "489ccd443d6d6ae29e237b5dfc7773b641bc0d25e5646301f96e015bc98a0b20",
+          "bytes": 42770,
+          "cues": 379,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "kill-la-kill-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-20ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_20.kk.srt",
+          "sha256": "2d84fa465dd77b1c3acc6329ced6e793296c52d996a86b391a77eb8dbb515eb5",
+          "bytes": 31906,
+          "cues": 344,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_20.kk.vtt",
+          "sha256": "6138c2025e325625ea693d40b577dc6f2643ad983c3abb912e9e0193af5a3acd",
+          "bytes": 32003,
+          "cues": 344,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_20.kk.ass",
+          "sha256": "1fbc143c0a36cd2d72fc11291720d3ab3ae0edca2ab703e2c590b8024c646373",
+          "bytes": 37886,
+          "cues": 344,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "kill-la-kill-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-21ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_21.kk.srt",
+          "sha256": "531c02b7241dc5636afe55d46a55e95a849a0ee25dfa759b771510e373f0bc60",
+          "bytes": 35974,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_21.kk.vtt",
+          "sha256": "aebc02e295790c5db054f8b166c1a0107f327cf9f2421286feec20b882f80dc1",
+          "bytes": 36071,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_21.kk.ass",
+          "sha256": "a89f96915cee083583dc9a4ab35a9327af5a465b2af879087d5b6c421e3075cd",
+          "bytes": 42269,
+          "cues": 365,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "kill-la-kill-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-22ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_22.kk.srt",
+          "sha256": "9c268b9a63e71aab0395e720b4d5ab1b3b8fcc40d3d09b40b0c5e74094f67119",
+          "bytes": 36465,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_22.kk.vtt",
+          "sha256": "7b7966eeec275626c5dd1a060ed53e4508f79b5de339b5a218e496ba64bb04da",
+          "bytes": 36562,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_22.kk.ass",
+          "sha256": "ecd2fa3310749de12fabc79290f87fe2b4639c7c9f178c10285cccca4d31d1f6",
+          "bytes": 42595,
+          "cues": 354,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "kill-la-kill-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-23ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_23.kk.srt",
+          "sha256": "cc6edde307d4d64fd1834b41068ecea344ada35332ea80edef9a3bb0bb112564",
+          "bytes": 34231,
+          "cues": 362,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_23.kk.vtt",
+          "sha256": "860633d27fd8097c51064f1e05b8882985de8e762abc2c1adeba1c7215bbbf98",
+          "bytes": 34328,
+          "cues": 362,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_23.kk.ass",
+          "sha256": "8a47c272147fa8c963b10b9dd8f077bd5f1694e09637a1dbf1d74e88be202773",
+          "bytes": 40481,
+          "cues": 362,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "kill-la-kill-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kill-la-kill/kill-la-kill-24ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kill-la-kill/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kill-la-kill/ep_24.kk.srt",
+          "sha256": "767c6074dda2fd36512647f4fe4ed9625bc1b66d35956f2a646488ad2659d71e",
+          "bytes": 35694,
+          "cues": 388,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kill-la-kill/ep_24.kk.vtt",
+          "sha256": "2fe48220b8ca1df8623841788362efc7cb7d55925c989055ecf565f05da522bc",
+          "bytes": 35791,
+          "cues": 388,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kill-la-kill/ep_24.kk.ass",
+          "sha256": "21c88df25e822ec86205ddec57d781f353a1cde6ea37d9c96b8f959a63020137",
+          "bytes": 42334,
+          "cues": 388,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 114,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kill-la-kill.json"
 }

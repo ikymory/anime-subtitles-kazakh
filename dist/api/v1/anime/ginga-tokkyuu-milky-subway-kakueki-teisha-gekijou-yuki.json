@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Ginga Tokkyuu Milky☆Subway. Kakueki Teisha Gekijou Yuki - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki.jpg",
+  "description": "Ginga Tokkyuu Milky☆Subway. Kakueki Teisha Gekijou Yuki - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ep_01.kk.srt",
+          "sha256": "fa8923d93ec9b07760699e06f276e1e041ed6821157f706588a5402c754ea796",
+          "bytes": 123754,
+          "cues": 1354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ep_01.kk.vtt",
+          "sha256": "39ccc8d17365d038d7fd5fbfc3a5523f73b71b35dbf310e4fb5999df63394998",
+          "bytes": 123851,
+          "cues": 1354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki/ep_01.kk.ass",
+          "sha256": "caf59f613571a037f224245e7315b274fc15f44df3cc1b56ce8ea2a8cf00e76f",
+          "bytes": 144587,
+          "cues": 1354,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ginga-tokkyuu-milky-subway-kakueki-teisha-gekijou-yuki.json"
 }

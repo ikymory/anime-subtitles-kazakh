@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kidou Senshi Z Gundam. A New Translation - Hoshi wo Tsugu Mono - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono.jpg",
+  "description": "Kidou Senshi Z Gundam. A New Translation - Hoshi wo Tsugu Mono - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/ep_01.kk.srt",
+          "sha256": "30525354771b15aaf8f3beeeec3796bb19c6a63f25f4dd0e76ed84047ce7d1eb",
+          "bytes": 142745,
+          "cues": 1710,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/ep_01.kk.vtt",
+          "sha256": "c6b4c3be1b472d7948f9152ae7c9c02e5710fa84a58a3dbee2ea1589463825b8",
+          "bytes": 142842,
+          "cues": 1710,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono/ep_01.kk.ass",
+          "sha256": "56765e4aabeacfec3895fea5aa849ed385ef66e0ec10e5e96f32cd5920c424f2",
+          "bytes": 168743,
+          "cues": 1710,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kidou-senshi-z-gundam-a-new-translation-hoshi-wo-tsugu-mono.json"
 }

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kimagure Orange☆Road. Ano Hi ni Kaeritai - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kimagure-orange-road-ano-hi-ni-kaeritai.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kimagure-orange-road-ano-hi-ni-kaeritai.jpg",
+  "description": "Kimagure Orange☆Road. Ano Hi ni Kaeritai - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kimagure-orange-road-ano-hi-ni-kaeritai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kimagure-orange-road-ano-hi-ni-kaeritai-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/kimagure-orange-road-ano-hi-ni-kaeritai-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/kimagure-orange-road-ano-hi-ni-kaeritai-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/kimagure-orange-road-ano-hi-ni-kaeritai-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/ep_01.kk.srt",
+          "sha256": "c6ddd258d7ecace129eb856c1a0eee68530ccd7ca78904de897f68c79f84b67e",
+          "bytes": 71398,
+          "cues": 811,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/ep_01.kk.vtt",
+          "sha256": "d4dc3221819aed98f7c9e465b142bac01d5f48032ba103f80d570e4bbd07aa3c",
+          "bytes": 71495,
+          "cues": 811,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kimagure-orange-road-ano-hi-ni-kaeritai/ep_01.kk.ass",
+          "sha256": "44fff3e208cc7e2791b44656e82dbb3ae23f5941ef918d4f1c22cf4c5b976ef1",
+          "bytes": 84623,
+          "cues": 811,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kimagure-orange-road-ano-hi-ni-kaeritai.json"
 }

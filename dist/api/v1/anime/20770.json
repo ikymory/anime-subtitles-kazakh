@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Akatsuki no Yona",
     "english": "Yona of the Dawn",
-    "native": "暁のヨナ"
+    "native": "暁のヨナ",
+    "kazakh": "Таң шапағындағы Йона",
+    "kk": "Таң шапағындағы Йона"
   },
   "format": "TV",
   "episodes": 24,
@@ -17,9 +19,19 @@
     "Fantasy",
     "Romance"
   ],
-  "description": "Since Yona is the only princess of a grand kingdom, she has been raised with great care by her doting father and protected by her childhood friend/guard Hak and others. However, her fate changes on her 16th birthday, when her beloved cousin Soo-won murders her father to claim the throne. She flees the castle to Hak's hometown and begins her new life.<br>\n<br>\n(Source: Anime News Network)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20770-brCDvhTXlums.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20770-brCDvhTXlums.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20770-tZZMsglzAUAe.jpg",
+  "description": "Since Yona is the only princess of a grand kingdom, she has been raised with great care by her doting father and protected by her childhood friend/guard Hak and others. However, her fate changes on her 16th birthday, when her beloved cousin Soo-won murders her father to claim the throne. She flees the castle to Hak's hometown and begins her new life.\n\n(Source: Anime News Network)",
+  "averageScore": 88,
+  "popularity": 54507,
+  "color": "#f1bb50",
+  "duration": 24,
+  "studio": "Studio Pierrot",
+  "catalog_id": "yona-dawn",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -46,246 +58,802 @@
     23,
     24
   ],
+  "translated_episodes_count": 24,
+  "available_episodes_count": 24,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "yona-dawn-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_01.kk.srt",
+          "sha256": "f90ea347babdb6588f992ac5d92d2a72a02ca37008a56ba500aeccd96a2421d7",
+          "bytes": 29928,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_01.kk.vtt",
+          "sha256": "76a15a43240cb314f8e8e2e1511c36139f31bdcf31a2e87fcbd55165c84df098",
+          "bytes": 30025,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_01.kk.ass",
+          "sha256": "0bc6e34dd8e19c65fbdee8d3de8a64e5c44f31adfb79aad8c4f0a097ce6dbe42",
+          "bytes": 35560,
+          "cues": 321,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "yona-dawn-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_02.kk.srt",
+          "sha256": "87227fb629635ec1cc5381e6a53b60166d812f88a137e32c39da6da1a12ce1a4",
+          "bytes": 22272,
+          "cues": 245,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_02.kk.vtt",
+          "sha256": "20ec9b73edd771156f8c6c218dec1b648259e6e2bcb1b1e4301e922b6ccf4034",
+          "bytes": 22369,
+          "cues": 245,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_02.kk.ass",
+          "sha256": "c9a9f3f32093cd2a9c3275f15195a63f67002d025bb296ca4e099b49ce5a6fb1",
+          "bytes": 26764,
+          "cues": 245,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "yona-dawn-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_03.kk.srt",
+          "sha256": "cbff062083f113e342fbf0d4cedaba4160a4a272d63828122e38500d7ebf7714",
+          "bytes": 31114,
+          "cues": 342,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_03.kk.vtt",
+          "sha256": "9feb0972a4fb43636efdd85af07ef9b2aca87e3146b477c9b839fbc499f18a84",
+          "bytes": 31211,
+          "cues": 342,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_03.kk.ass",
+          "sha256": "ea352a3c14058156c88cb186443dd594600f3d502e660646391d5b17b417d3c3",
+          "bytes": 37061,
+          "cues": 342,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "yona-dawn-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_04.kk.srt",
+          "sha256": "99b739e949eac17d86cd3a7e95e496ea3a79d1a1390839622be4812e20a907ac",
+          "bytes": 35271,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_04.kk.vtt",
+          "sha256": "909383aad88920db43632accd267d6890f04ed1d08b03499668ab7edc6fb4711",
+          "bytes": 35368,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_04.kk.ass",
+          "sha256": "03a7f6ad977b15fc85ccc53d46986e925130c900fd93b150415b239b576297a3",
+          "bytes": 41428,
+          "cues": 356,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "yona-dawn-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_05.kk.srt",
+          "sha256": "6426ad6e62b743e6919d7bea18eb2b8469bb92f95230f4ab3ebe28469b7b4dbc",
+          "bytes": 29412,
+          "cues": 320,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_05.kk.vtt",
+          "sha256": "f3351c5bf6ed191efac133316b66dcf13188c4aa961bf2778ef4294f43aa2d15",
+          "bytes": 29509,
+          "cues": 320,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_05.kk.ass",
+          "sha256": "ed3977160089e57de7ae82d9ddb4b4911a1514317f60b7a940aac00e32c6dd22",
+          "bytes": 35029,
+          "cues": 320,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "yona-dawn-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_06.kk.srt",
+          "sha256": "0ea2a8853301667bd95bb4519d96c17aa90c29f6459a6561b48144cfad22a097",
+          "bytes": 23344,
+          "cues": 258,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_06.kk.vtt",
+          "sha256": "fbc0b75f281148fe119f85dc549cd069a8dec5ceaffa0953d12a629f90a3ef60",
+          "bytes": 23441,
+          "cues": 258,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_06.kk.ass",
+          "sha256": "35ab036c25fefbe3894ea0e6b3efc0b544da1cac924757049b9606a730ede31d",
+          "bytes": 28031,
+          "cues": 258,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "yona-dawn-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_07.kk.srt",
+          "sha256": "57c556a25cf5411c2c50416005abfa393235deaab6c69ded55550f63f4bf08c5",
+          "bytes": 27588,
+          "cues": 281,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_07.kk.vtt",
+          "sha256": "9f63f06d66c89b45170a63d4c0c8cfa1e9a811818d132b60aa84a609daac9bcc",
+          "bytes": 27685,
+          "cues": 281,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_07.kk.ass",
+          "sha256": "03ed435b47f519f25ad6969eed34f651dc1ed14037c421d8a5bdfd6532680a31",
+          "bytes": 32620,
+          "cues": 281,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "yona-dawn-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_08.kk.srt",
+          "sha256": "c84b4550311a83eee586ee23b474404ac3762b86b13dae98302ba68ac34cbfa5",
+          "bytes": 26859,
+          "cues": 297,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_08.kk.vtt",
+          "sha256": "4d0598c6e1f2df091da17a33c414f42130c6c9b1023dd6cbaa3224f5a259606b",
+          "bytes": 26956,
+          "cues": 297,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_08.kk.ass",
+          "sha256": "399bbda090ce972535e9055889da96532f79fde286dd30167c3634b97d8d7726",
+          "bytes": 32131,
+          "cues": 297,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "yona-dawn-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_09.kk.srt",
+          "sha256": "0abcd102d73268147c0e0231fc40ba29b9f499dd4a7233e2929dec01a6ca0c80",
+          "bytes": 28645,
+          "cues": 309,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_09.kk.vtt",
+          "sha256": "0c068cbc1d5ae9b7295d12f4559f0ff24ab98c44923891b2dd224a445f48a2f2",
+          "bytes": 28742,
+          "cues": 309,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_09.kk.ass",
+          "sha256": "f7db85808e5e65309a6c0c02bacb1b2984788dafe2ba87c22c4edfaeeeabdd7d",
+          "bytes": 34097,
+          "cues": 309,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "yona-dawn-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_10.kk.srt",
+          "sha256": "07bdeb453ef9f958585ab93bbc18e4737a556fcb8d9742ae99873b35b1520fae",
+          "bytes": 32286,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_10.kk.vtt",
+          "sha256": "cab21a2b8052cab4bd9c72e1f05192112c7227a7250a241141d5b9f24b2d45a4",
+          "bytes": 32383,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_10.kk.ass",
+          "sha256": "efbdd765163e414473225727586d2b333fbe22b659f4e43024c97017565246d5",
+          "bytes": 38068,
+          "cues": 331,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "yona-dawn-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_11.kk.srt",
+          "sha256": "82cc503618c827820df8732ec8d7ca74fc0782f4a90656e6f7b62de558a91704",
+          "bytes": 32760,
+          "cues": 350,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_11.kk.vtt",
+          "sha256": "5ec7dc99df08074d9c99ac3e6d5843beca37b1aaabda9940001ad09da023d9f7",
+          "bytes": 32857,
+          "cues": 350,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_11.kk.ass",
+          "sha256": "35cddee3147404cd431d2cf901655ec28cc678cc033b04abeb2cb0f00bf6e910",
+          "bytes": 38827,
+          "cues": 350,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "yona-dawn-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_12.kk.srt",
+          "sha256": "32dec54b00e5d5881ef6b83a16bd85d169cc64cabd75a76cb2253b319b6da0cc",
+          "bytes": 24681,
+          "cues": 297,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_12.kk.vtt",
+          "sha256": "bb1f989e74bf471ae8fcd8018567f795f72e26dc516ae097676ed43a5d7aa919",
+          "bytes": 24778,
+          "cues": 297,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_12.kk.ass",
+          "sha256": "30e1d56e474eb3640c41a753b78885466cbc0c78167e4cede878666af1e58f4b",
+          "bytes": 29953,
+          "cues": 297,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "yona-dawn-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-13ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_13.kk.srt",
+          "sha256": "e2cb248bd89256e35173aa440b6504e056d93365338c2d5a412b1174bdab8c3d",
+          "bytes": 28759,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_13.kk.vtt",
+          "sha256": "efe03ffb341b86cfe1001835f9b04fe78519873952f1ada10b9a62d45e25f7a0",
+          "bytes": 28856,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_13.kk.ass",
+          "sha256": "4a11d7035b63f933eee6a33b15da7b33be6d199520a14da765ac55848711e167",
+          "bytes": 34541,
+          "cues": 331,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "yona-dawn-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-14ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_14.kk.srt",
+          "sha256": "8dedb9f75673ac15fe4f619a00f2272b24c938acdf65add362356ef958be58bd",
+          "bytes": 24683,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_14.kk.vtt",
+          "sha256": "d70ac49134ca83b562b3213c6dc999690359d32e035d00453f8ced50e074693f",
+          "bytes": 24780,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_14.kk.ass",
+          "sha256": "e3b64c485c5f45249a4ffe9218dc7cd0be14c2a1ded514f4049d47787c2e49de",
+          "bytes": 29760,
+          "cues": 284,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "yona-dawn-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-15ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_15.kk.srt",
+          "sha256": "5e98a53b8ab5bcca136e65fb78b27f4151f15c514c521ad02010a0beb908f3bd",
+          "bytes": 31342,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_15.kk.vtt",
+          "sha256": "9d0c1cbda3b06fceaa890b83d4022e23beb1503a9785d4b555fea26b956e2c88",
+          "bytes": 31439,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_15.kk.ass",
+          "sha256": "d8f1386c543f9912e9d32228d6a20a7e51336b03e85f645ea752708d7ad377a2",
+          "bytes": 36899,
+          "cues": 316,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "yona-dawn-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-16ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_16.kk.srt",
+          "sha256": "3b588885d64c96e07044d9f733992f0421bb60d5ce14076c55646743bc18ddf7",
+          "bytes": 37668,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_16.kk.vtt",
+          "sha256": "75ebaabd9aff68fdd7f6cc2e9962b7e0b3d5ace8b3388d99ccabcb0279f773f4",
+          "bytes": 37765,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_16.kk.ass",
+          "sha256": "99fe4bcc1ce075ec603f133dabe4c5445bee1bda2d3ee364167859b205a56b9f",
+          "bytes": 43960,
+          "cues": 365,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "yona-dawn-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_17.kk.srt",
+          "sha256": "7ecddecb1a304005ca82fbba16590119db7b941288ea4a50617099bbe7363a46",
+          "bytes": 35024,
+          "cues": 371,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_17.kk.vtt",
+          "sha256": "e0ffe311fe31a214010ce4cae9cb4d175f28efaac69bfe7274c95bc94a4fe5f1",
+          "bytes": 35121,
+          "cues": 371,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_17.kk.ass",
+          "sha256": "76ea652707e88638d26663e17fba2831d53bfd212eaab7513203339084417c64",
+          "bytes": 41406,
+          "cues": 371,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "yona-dawn-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-18ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_18.kk.srt",
+          "sha256": "593709232f4c3afef0dfc9663440b79007ed2ec52fe0f4a3771f1276aab89878",
+          "bytes": 31202,
+          "cues": 340,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_18.kk.vtt",
+          "sha256": "0e629eb14c9ca8d4146a0f93d56e346c9f72bd6c073389caf4abc73bc317c945",
+          "bytes": 31299,
+          "cues": 340,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_18.kk.ass",
+          "sha256": "714a16bb810e7c6de8fdcb349ae7717f2e0331e73e502723b28ff88a56e141f9",
+          "bytes": 37119,
+          "cues": 340,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "yona-dawn-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-19ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_19.kk.srt",
+          "sha256": "71fbe82f32c4565dac209c1424df8f7d5225ae987238a771a99a957229eaaabf",
+          "bytes": 31951,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_19.kk.vtt",
+          "sha256": "2fe6e2fd221ee648fc4a10ca1287ace44d9e8bac6081f6b77d88aee764f80288",
+          "bytes": 32048,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_19.kk.ass",
+          "sha256": "0c43f4a23f2b3c856b9fecd27e367a1227ea6018c7aa00deaa4554db76d41fde",
+          "bytes": 38153,
+          "cues": 359,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "yona-dawn-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-20ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_20.kk.srt",
+          "sha256": "07b0d3d613bd25cd47b6a4339693b198714f32f865ee94c316205cdcb96345ba",
+          "bytes": 29385,
+          "cues": 302,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_20.kk.vtt",
+          "sha256": "129c6bfb497241cc87645334cb26e1fc0f2687cdb91c15e5a531d39696531237",
+          "bytes": 29482,
+          "cues": 302,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_20.kk.ass",
+          "sha256": "49d7e077a089221dce05dc3dbb9d248d52e833d88f13d8463abc3f561c0fa245",
+          "bytes": 34732,
+          "cues": 302,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "yona-dawn-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-21ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_21.kk.srt",
+          "sha256": "621a1a196cdbad9910607a74d644971c8182eb3b24ea8d5110d8a2d900014191",
+          "bytes": 29090,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_21.kk.vtt",
+          "sha256": "65439dec5b61404bd40b7d9bfa06c6df6d523831fd48275317703db2ccb61d37",
+          "bytes": 29187,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_21.kk.ass",
+          "sha256": "c36e79a56c0889d40dbab3a40cbe3fe23359e71c40db1c0c7b64bd60709c4ae7",
+          "bytes": 34647,
+          "cues": 316,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "yona-dawn-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-22ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_22.kk.srt",
+          "sha256": "5e9220b28450a4aaec740a6cb3eb95d04d4da3741c3edd6b1b7052685a70fdcc",
+          "bytes": 22532,
+          "cues": 269,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_22.kk.vtt",
+          "sha256": "e83481bc1763e0592eac9a3aa57fadab58593d9686f13b13b4c4d5545b20558f",
+          "bytes": 22629,
+          "cues": 269,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_22.kk.ass",
+          "sha256": "bb787196157bb4b502236f8c80a88754772ef115c4c5425b153833f091c04c0b",
+          "bytes": 27384,
+          "cues": 269,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "yona-dawn-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-23ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_23.kk.srt",
+          "sha256": "578f180dfa4fd10ed1730690a8521baf9a3aa1e630e25855326cd788a75f8665",
+          "bytes": 27791,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_23.kk.vtt",
+          "sha256": "f00cc2ebc9166e25d3e665dd5b17b6d9b568927e72a012bd2c01d5ffff6ab56f",
+          "bytes": 27888,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_23.kk.ass",
+          "sha256": "3d89bad1c5afd7988f5d61742209fa6f1423d34638953633e36f18c0dfe7278f",
+          "bytes": 33483,
+          "cues": 325,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "yona-dawn-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yona-dawn/yona-dawn-24ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yona-dawn/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yona-dawn/ep_24.kk.srt",
+          "sha256": "b51fad6f447904b18e8847dd290e47b0d32b63396a47063e94c4e09c42623b83",
+          "bytes": 35773,
+          "cues": 380,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yona-dawn/ep_24.kk.vtt",
+          "sha256": "599301377cce1e6d6b0ee159988366a28a16c65f6ccbd0ede0dfd76330185d53",
+          "bytes": 35870,
+          "cues": 380,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yona-dawn/ep_24.kk.ass",
+          "sha256": "f32212457a0989e6723861da4a8b765a1b32a8ecc0d9f85dd08e80a08bb14c35",
+          "bytes": 42290,
+          "cues": 380,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 72,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/yona-dawn.json"
 }

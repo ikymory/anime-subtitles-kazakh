@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka. Orion no Ya - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya.jpg",
+  "description": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka. Orion no Ya - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/ep_01.kk.srt",
+          "sha256": "06525f422a1589308bdc9a0cd8cc35f601a32eebb69075543a0ed02cc1082a63",
+          "bytes": 98322,
+          "cues": 1196,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/ep_01.kk.vtt",
+          "sha256": "f387046712a5c6e836ad3f8539d07b12d06d1acea8e6e9eb805185b3c788f671",
+          "bytes": 98419,
+          "cues": 1196,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya/ep_01.kk.ass",
+          "sha256": "7c39a59e0c7984a0ce6d4cd4ac4ee749d4290198761910694b372650398f5a48",
+          "bytes": 116943,
+          "cues": 1196,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-orion-no-ya.json"
 }

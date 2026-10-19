@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "hotarubi-no-mori-e",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hotarubi-no-mori-e.json"
+    },
+    {
+      "slug": "lupin-cagliostro",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/lupin-cagliostro.json"
+    }
+  ]
+}

@@ -13,39 +13,92 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14807-R4SzEi0zRDl4.jpg",
+  "averageScore": 77,
+  "popularity": 63862,
+  "color": "hsl(176, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/14807-akf1tV84ANqN.jpg",
+  "catalog_id": "knk-mirai-fukuin",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     9,
     264
   ],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 9,
       "language": "kk",
-      "filename": "knk-mirai-fukuin-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/knk-mirai-fukuin/knk-mirai-fukuin-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/knk-mirai-fukuin/knk-mirai-fukuin-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/knk-mirai-fukuin/knk-mirai-fukuin-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/knk-mirai-fukuin/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/knk-mirai-fukuin/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/knk-mirai-fukuin/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/knk-mirai-fukuin/ep_09.kk.srt",
+          "sha256": "647d678698495c0c5c71bbef6c8a86470f5c6ce25fce1cbc75fc71333d4d78a3",
+          "bytes": 87897,
+          "cues": 948,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/knk-mirai-fukuin/ep_09.kk.vtt",
+          "sha256": "b084307481b3a4bada34c80bbd9d9055c59d490a0a9e198c4cc9b5c9dc3965c7",
+          "bytes": 87994,
+          "cues": 948,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/knk-mirai-fukuin/ep_09.kk.ass",
+          "sha256": "12777b8c0aa345de3f527edc10f2ed4aa74b2c0f4a23145f24033748a754a5a5",
+          "bytes": 102941,
+          "cues": 948,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 264,
       "language": "kk",
-      "filename": "knk-mirai-fukuin-264ep.srt",
+      "filename": "ep_264.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/knk-mirai-fukuin/knk-mirai-fukuin-264ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/knk-mirai-fukuin/knk-mirai-fukuin-264ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/knk-mirai-fukuin/knk-mirai-fukuin-264ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/knk-mirai-fukuin/ep_264.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/knk-mirai-fukuin/ep_264.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/knk-mirai-fukuin/ep_264.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/knk-mirai-fukuin/ep_264.kk.srt",
+          "sha256": "5a234e8c015dd3d70b7be7a662b5c365a467b01edb5f0e07d26b57ebcb24241a",
+          "bytes": 88664,
+          "cues": 957,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/knk-mirai-fukuin/ep_264.kk.vtt",
+          "sha256": "47949e3ab53dede52a81c88002ef1f2e9db7a0de315bf6d5e20854763d6463e6",
+          "bytes": 88761,
+          "cues": 957,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/knk-mirai-fukuin/ep_264.kk.ass",
+          "sha256": "54095315ab7721ad46758c5a9814de6510e00c0dce767945d0b917dd1d9b2465",
+          "bytes": 103843,
+          "cues": 957,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "hsl(176, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 77,
-  "popularity": 63862,
-  "translated_episodes_count": 2
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/knk-mirai-fukuin.json"
 }

@@ -16,28 +16,59 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "A Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.<br><br>\nAfter becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136-gj0bbCpDNrKG.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/11061-8WkkTZ6duKpq.jpg",
+  "description": "A Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.\nAfter becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.",
+  "averageScore": 94,
+  "popularity": 98000,
+  "color": "#f1d65d",
+  "duration": 24,
+  "studio": "MADHOUSE",
+  "catalog_id": "hxh",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hxh-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hxh/hxh-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hxh/hxh-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hxh/hxh-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hxh/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hxh/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hxh/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hxh/ep_01.kk.srt",
+          "sha256": "a67f00b43beeacb8fc24b0b51ed5fb3a6ecfd948fdd71080e4198408f4c120ed",
+          "bytes": 28174,
+          "cues": 336,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hxh/ep_01.kk.vtt",
+          "sha256": "9c3d5df35c5b3696d5e53ca9172d43b93855d2618458a3c9af80cf49df8dcc9f",
+          "bytes": 28271,
+          "cues": 336,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hxh/ep_01.kk.ass",
+          "sha256": "b4350bfa9a27beefa86fd23b5252ae5ced2d899ea224e7ae76cbdf85247eb910",
+          "bytes": 34025,
+          "cues": 336,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#f1d65d",
-  "studio": "MADHOUSE",
-  "duration": 24,
-  "averageScore": 94,
-  "popularity": 98000,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hxh.json"
 }

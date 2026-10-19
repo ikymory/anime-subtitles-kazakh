@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Higashi no Eden Movie I. The King of Eden - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/higashi-no-eden-movie-i-the-king-of-eden.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/higashi-no-eden-movie-i-the-king-of-eden.jpg",
+  "description": "Higashi no Eden Movie I. The King of Eden - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "higashi-no-eden-movie-i-the-king-of-eden",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "higashi-no-eden-movie-i-the-king-of-eden-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/higashi-no-eden-movie-i-the-king-of-eden/higashi-no-eden-movie-i-the-king-of-eden-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/higashi-no-eden-movie-i-the-king-of-eden/higashi-no-eden-movie-i-the-king-of-eden-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/higashi-no-eden-movie-i-the-king-of-eden/higashi-no-eden-movie-i-the-king-of-eden-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/higashi-no-eden-movie-i-the-king-of-eden/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/higashi-no-eden-movie-i-the-king-of-eden/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/higashi-no-eden-movie-i-the-king-of-eden/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/higashi-no-eden-movie-i-the-king-of-eden/ep_01.kk.srt",
+          "sha256": "a8543bc7cd04f7eea3e97f659a4b9ef70836a26193ce175ffffce4a75173f157",
+          "bytes": 101629,
+          "cues": 1110,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/higashi-no-eden-movie-i-the-king-of-eden/ep_01.kk.vtt",
+          "sha256": "5c146ef01455c6d521d318345a6c0407d51031a6ed79a1a7b266a1febd2f79f1",
+          "bytes": 101726,
+          "cues": 1110,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/higashi-no-eden-movie-i-the-king-of-eden/ep_01.kk.ass",
+          "sha256": "f28619e74cf9ba219274e8482110c44646dfea1bbdd06207c5da7761b445b348",
+          "bytes": 119046,
+          "cues": 1110,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/higashi-no-eden-movie-i-the-king-of-eden.json"
 }

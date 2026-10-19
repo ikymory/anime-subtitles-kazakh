@@ -15,28 +15,59 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Lupin III: Castle of Cagliostro.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1430-aHneeSPBCeHR.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1430-QnrZxbYONXfh.jpg",
+  "description": "Kazakh subtitles for Lupin III: Castle of Cagliostro.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "lupin-cagliostro",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "lupin-cagliostro-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-cagliostro/lupin-cagliostro-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-cagliostro/lupin-cagliostro-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-cagliostro/lupin-cagliostro-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-cagliostro/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-cagliostro/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-cagliostro/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/lupin-cagliostro/ep_01.kk.ass",
+          "sha256": "091ebfa308339ac3eb62950fa221b405e69f152b30a443e3e4a50c72cef6150c",
+          "bytes": 117915,
+          "cues": 1198,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/lupin-cagliostro/ep_01.kk.srt",
+          "sha256": "cc7973becf9a8a455ed3b1d15eb991ee37f0c52f35e88d4e2aed42f9de2a8b0a",
+          "bytes": 98802,
+          "cues": 1190,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/lupin-cagliostro/ep_01.kk.vtt",
+          "sha256": "1a502108cbef36740f13eefca0563e8b25ea64848498c8da1ab617c15c0ad14d",
+          "bytes": 98810,
+          "cues": 1190,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/lupin-cagliostro.json"
 }

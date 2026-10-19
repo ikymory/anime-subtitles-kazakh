@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Boku no Tsuma wa Kanjou ga Nai - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-no-tsuma-wa-kanjou-ga-nai.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-no-tsuma-wa-kanjou-ga-nai.jpg",
+  "description": "Boku no Tsuma wa Kanjou ga Nai - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "boku-no-tsuma-wa-kanjou-ga-nai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +40,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_01.kk.srt",
+          "sha256": "6224b242cb719a050709f3d45b50bf0a7a46746ea6fc33eb159a770e8d7ee378",
+          "bytes": 26769,
+          "cues": 350,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_01.kk.vtt",
+          "sha256": "eea7184e00560ed2fdebaa2f40ee986f3678136bafc1dd0954d3c2464d6cf70a",
+          "bytes": 26866,
+          "cues": 350,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_01.kk.ass",
+          "sha256": "f155d034318b0ce50f6c25f1c9d6df7b898711f6febb99929a51ab9aa7bf0355",
+          "bytes": 32897,
+          "cues": 350,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_02.kk.srt",
+          "sha256": "c561f904c8c240447971770b080f45775744f7b75d5dbdcde4ab07754f725b13",
+          "bytes": 31752,
+          "cues": 386,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_02.kk.vtt",
+          "sha256": "70bb8f4fea9bdc75287d01042e11ff84872713692686932b6cffe34834c61e2e",
+          "bytes": 31849,
+          "cues": 386,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_02.kk.ass",
+          "sha256": "8b46c63d96d32da5de019496145d1fbe65c3845a657809d11af87483ebcdd84b",
+          "bytes": 38420,
+          "cues": 386,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_03.kk.srt",
+          "sha256": "8677a7a2a467c934e85d13d9b98a1d0b8322a91ce90debd887fdaa1080f87ccd",
+          "bytes": 38739,
+          "cues": 458,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_03.kk.vtt",
+          "sha256": "e762bbdba98a8e7b5424ca92563e3472f388c56f3e1c79fba1f2597c8a61f2fd",
+          "bytes": 38836,
+          "cues": 458,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_03.kk.ass",
+          "sha256": "ea90856a647f72c0c2bf5b0fd101a8becc0f1da15a015c61d4e1917ffe5918f2",
+          "bytes": 46487,
+          "cues": 458,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_04.kk.srt",
+          "sha256": "d62c81f89e686f27fb5e9caaec8666c7a440e07b2be46f9935c656fb53c69874",
+          "bytes": 33709,
+          "cues": 431,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_04.kk.vtt",
+          "sha256": "244e28904658c7fce68c5590c27131b0c38dbfc568ab9e17c42acc921e5bd2b5",
+          "bytes": 33806,
+          "cues": 431,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_04.kk.ass",
+          "sha256": "95531688d896900efd9dc18de0555f98bcf2a1e7cdedc246d1e080892af35638",
+          "bytes": 41052,
+          "cues": 431,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_05.kk.srt",
+          "sha256": "b70ff5a978101ab96ef68517334827349fd17e3f1843e9e2ed1faaeab791fe92",
+          "bytes": 35062,
+          "cues": 438,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_05.kk.vtt",
+          "sha256": "a477125733b81c04b35fea3388d287a21e780393ea1cd4fe92947a9a5256dbee",
+          "bytes": 35159,
+          "cues": 438,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_05.kk.ass",
+          "sha256": "97af944f31f08faafa0be14f1b6cffdf7600cf940d4ba66601d8ff9c06e13b03",
+          "bytes": 42510,
+          "cues": 438,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_06.kk.srt",
+          "sha256": "bcc33836593e1fb4c05e8e8b5e3cb33612837d6f5521f538d3dffbae522e928a",
+          "bytes": 35944,
+          "cues": 434,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_06.kk.vtt",
+          "sha256": "248e9c39c52c9db0e3228942c6e2043f0b0d64394e070c69ccaa2a2b7ef26302",
+          "bytes": 36041,
+          "cues": 434,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_06.kk.ass",
+          "sha256": "3cfad4f64a499ad25a031effef1d7e65383a28d4094829a52ed1b2a727b1f7c5",
+          "bytes": 43332,
+          "cues": 434,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_07.kk.srt",
+          "sha256": "5947c6b0b2821ecbc252d811307902d8298fc57ff4ac2e612e9b85188925a7d3",
+          "bytes": 33011,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_07.kk.vtt",
+          "sha256": "95055a57cb7edd57e556228af19e7bdee91c9dbe4445105c98759f6d468f5c7b",
+          "bytes": 33108,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_07.kk.ass",
+          "sha256": "3e8a492d30892957de9207dd07bc8450f0f45161b20f68a9bee5934ee61e94c7",
+          "bytes": 39889,
+          "cues": 400,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_08.kk.srt",
+          "sha256": "4d2105660c01695bdf8aab1f1f173081e0a14526c8af11592ef0b748eb04ded9",
+          "bytes": 38311,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_08.kk.vtt",
+          "sha256": "7145f1c980f29fd21937ad1ca74d02bb8386bb2d639f8cd49b3048377102d753",
+          "bytes": 38408,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_08.kk.ass",
+          "sha256": "b1dfbdf96448b57831735cb00d8517b6f9908f64a038b9a9afed0c7d3107c284",
+          "bytes": 45774,
+          "cues": 439,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_09.kk.srt",
+          "sha256": "46d01089f7db14e59891769116c10a8434bab34f36634357e42fab55df1a4792",
+          "bytes": 33714,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_09.kk.vtt",
+          "sha256": "634b38575a3f3fd99d8bcb5bbdb6244fad5ebc23819d8b46f32944cda9e2ba1a",
+          "bytes": 33811,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_09.kk.ass",
+          "sha256": "66357c0d2e50cdadbbd90511a914f6ded7918ed69a9cc68d6f923674044866a8",
+          "bytes": 40817,
+          "cues": 415,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_10.kk.srt",
+          "sha256": "c305df74697d0830d90738552f31c672f46660961b8b002c35c9c9b3038e9504",
+          "bytes": 32822,
+          "cues": 411,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_10.kk.vtt",
+          "sha256": "a08ff659d45f65438f659a74c9dd5e46d9e8341a5740cb8a8770a005007312b9",
+          "bytes": 32919,
+          "cues": 411,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_10.kk.ass",
+          "sha256": "ec3e379e6d73a15a8cfd025a33b558baca22e932df6e4eaf665393936bde9162",
+          "bytes": 39865,
+          "cues": 411,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_11.kk.srt",
+          "sha256": "a40f651234c7972393f405a475ad60a532dbe9695fc97629e80c3030a5372c66",
+          "bytes": 34850,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_11.kk.vtt",
+          "sha256": "1e06b65e48823182c6ed8bc8abeb19816095b7d3912054f342a0b381ec239282",
+          "bytes": 34947,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_11.kk.ass",
+          "sha256": "47af61676e56d5e0b07b6adf789a8b2d1aeb6c93d17695c5365d50e6f8946bbe",
+          "bytes": 41968,
+          "cues": 416,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "boku-no-tsuma-wa-kanjou-ga-nai-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/boku-no-tsuma-wa-kanjou-ga-nai-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_12.kk.srt",
+          "sha256": "475000c8866d9273a13ffa762c540af3b7e1448f18aaf86d2791d9dd7c30e286",
+          "bytes": 32100,
+          "cues": 382,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_12.kk.vtt",
+          "sha256": "0f4f595fd705a41aca57481d59069c2873f4a7963f30303bfc07912b6540ec6f",
+          "bytes": 32197,
+          "cues": 382,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-tsuma-wa-kanjou-ga-nai/ep_12.kk.ass",
+          "sha256": "aa1dbf0aefef0ccef2e1b7c36402a0a2e49b225192ea889e9106fcba4b15ae29",
+          "bytes": 38708,
+          "cues": 382,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boku-no-tsuma-wa-kanjou-ga-nai.json"
 }

@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Chi’s Sweet Home - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chi-s-sweet-home.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chi-s-sweet-home.jpg",
+  "description": "Chi’s Sweet Home - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "chi-s-sweet-home",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -34,116 +39,373 @@
     81,
     93
   ],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "chi-s-sweet-home-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_01.kk.srt",
+          "sha256": "900b6efe2cdb889a591b6fbc565bf72ebe53f06aca6feee0ea67280fab5f0651",
+          "bytes": 52734,
+          "cues": 705,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_01.kk.vtt",
+          "sha256": "435cc8e9ccb923d5e689b7b9a39f46b7f484dcd3f7238e69bbf94b4d6fcc13f7",
+          "bytes": 52831,
+          "cues": 705,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_01.kk.ass",
+          "sha256": "74e25bfbd54ca2ee19373773c6073e073582762685b4a78502d2821f9e1c2caf",
+          "bytes": 63932,
+          "cues": 705,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "chi-s-sweet-home-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_02.kk.srt",
+          "sha256": "8df9fa76579ee3ce106d651210ff188de993a4e26118a738277b77ecbf2a6e41",
+          "bytes": 2357,
+          "cues": 29,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_02.kk.vtt",
+          "sha256": "f09d88aae293f502f7b3c9df2d2ae73a1972d0b2ca9058ef136ed8809b611dce",
+          "bytes": 2454,
+          "cues": 29,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_02.kk.ass",
+          "sha256": "ce929621c828461de7af69de70af9f0341d5076c5ac565ab090e23e6bfef947e",
+          "bytes": 3659,
+          "cues": 29,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "chi-s-sweet-home-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_03.kk.srt",
+          "sha256": "e49f8e918eaec76b6aa59fa9da513d9d5ba8cf37c8db1f79cd827d66d85ee98d",
+          "bytes": 2440,
+          "cues": 33,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_03.kk.vtt",
+          "sha256": "bd8533ba72e56c3fb919a342d3e2c476723c5367e17d1ecc97098976eb79bdae",
+          "bytes": 2537,
+          "cues": 33,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_03.kk.ass",
+          "sha256": "ad1d016001b6ce18c806a01e79228fb3ad2e0f36a7b17449d1f05cb9487ebf32",
+          "bytes": 3925,
+          "cues": 33,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "chi-s-sweet-home-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_04.kk.srt",
+          "sha256": "f636b0894acaec0504a87ab04d8dded99596e5ec6045ac8c23fcb185412fbd47",
+          "bytes": 1517,
+          "cues": 19,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_04.kk.vtt",
+          "sha256": "dc19151a46cca2f1b983e1c607c680daf442f7d04c56332267b9b02aa7f96918",
+          "bytes": 1614,
+          "cues": 19,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_04.kk.ass",
+          "sha256": "f68720eaab94e36da2db8722fb4bf6fa703da5d3f68816d2243f3c18bc737f78",
+          "bytes": 2952,
+          "cues": 19,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "chi-s-sweet-home-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-17ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_17.kk.srt",
+          "sha256": "278a228bbc3f5eb172e94a096d4c1136ff55b7f377ec855c3addad5c219a6e71",
+          "bytes": 49420,
+          "cues": 637,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_17.kk.vtt",
+          "sha256": "d898b1eeac8c6f4f639a1d90d5b3543abb402166f52b713d252b1f9854824680",
+          "bytes": 49517,
+          "cues": 637,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_17.kk.ass",
+          "sha256": "3556fa84ccc95a3a48306a9ffbaa445070d1dbdb63577dcae400121effe1462c",
+          "bytes": 59598,
+          "cues": 637,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 33,
       "language": "kk",
-      "filename": "chi-s-sweet-home-33ep.srt",
+      "filename": "ep_33.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-33ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-33ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-33ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_33.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_33.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_33.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_33.kk.srt",
+          "sha256": "5335e2f25c2c55fa487cafcbb86e558737f7b1fb0f25eb52593b2950dd2fb236",
+          "bytes": 36152,
+          "cues": 486,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_33.kk.vtt",
+          "sha256": "969b64f562bd17b82f9c7619ca7d0af5c315b133ec553dd88cd2e4e407be6513",
+          "bytes": 36249,
+          "cues": 486,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_33.kk.ass",
+          "sha256": "82422a75aa1eecf92d41116153884a15fe7ed3d4b2051d2d845bbbfcf64578df",
+          "bytes": 44065,
+          "cues": 486,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 45,
       "language": "kk",
-      "filename": "chi-s-sweet-home-45ep.srt",
+      "filename": "ep_45.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-45ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-45ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-45ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_45.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_45.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_45.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_45.kk.srt",
+          "sha256": "18181f82bbb65d4b15808f56cc3fde777dc556d1824841f1a0bd1579aed8bc9b",
+          "bytes": 37132,
+          "cues": 531,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_45.kk.vtt",
+          "sha256": "0f888168cca6fa7e1ffec4157462caad25b080059ae7614825483fae5eea51da",
+          "bytes": 37229,
+          "cues": 531,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_45.kk.ass",
+          "sha256": "6e1199b4bf334872424acc00d82b6a9033e5b36a24a73a6ee086891743496ba7",
+          "bytes": 45720,
+          "cues": 531,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 57,
       "language": "kk",
-      "filename": "chi-s-sweet-home-57ep.srt",
+      "filename": "ep_57.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-57ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-57ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-57ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_57.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_57.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_57.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_57.kk.srt",
+          "sha256": "ac15fe9813e517013db51717f7c9e550e0d29e10e4b1b2c88f6d4d3792542cf6",
+          "bytes": 32922,
+          "cues": 467,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_57.kk.vtt",
+          "sha256": "70a29495bc9f42b5c1f05d9b624b24a5910d64ec711ec68f1da8111bf254c305",
+          "bytes": 33019,
+          "cues": 467,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_57.kk.ass",
+          "sha256": "194dd48972a55a87d79e5753df31639f84ad6742a62b550b2d02d3cc19b86c22",
+          "bytes": 40550,
+          "cues": 467,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 69,
       "language": "kk",
-      "filename": "chi-s-sweet-home-69ep.srt",
+      "filename": "ep_69.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-69ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-69ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-69ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_69.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_69.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_69.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_69.kk.srt",
+          "sha256": "b6d38d20d17a4daa9a03387d88dd56406c433fce50b2c8cb3cbc17e001b25fa4",
+          "bytes": 35342,
+          "cues": 484,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_69.kk.vtt",
+          "sha256": "a86ac326af87144e8343d33ef6f9bae6e3a3b8bb0e97ecf53d6f6e73d1d19146",
+          "bytes": 35439,
+          "cues": 484,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_69.kk.ass",
+          "sha256": "776d895714ecee849eccbcb26d3606dc191b714ed34d56f28dca83fd60e91587",
+          "bytes": 43225,
+          "cues": 484,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 81,
       "language": "kk",
-      "filename": "chi-s-sweet-home-81ep.srt",
+      "filename": "ep_81.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-81ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-81ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-81ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_81.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_81.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_81.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_81.kk.srt",
+          "sha256": "13a11e1124d688e8bab54ea04e92538c3b5951eb99f580a8e0843171dcc669d1",
+          "bytes": 37499,
+          "cues": 481,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_81.kk.vtt",
+          "sha256": "1fdaebd010dea395ca3c7e61ab6e520a25b7461eec96ed1b9468f4d13ae00ca5",
+          "bytes": 37596,
+          "cues": 481,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_81.kk.ass",
+          "sha256": "282c74be918735b9f3214da99df5cb6df5ca7283153c5a3cc1c11d917c7ef180",
+          "bytes": 45337,
+          "cues": 481,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 93,
       "language": "kk",
-      "filename": "chi-s-sweet-home-93ep.srt",
+      "filename": "ep_93.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-93ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-93ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chi-s-sweet-home/chi-s-sweet-home-93ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_93.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_93.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chi-s-sweet-home/ep_93.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chi-s-sweet-home/ep_93.kk.srt",
+          "sha256": "0ddd74b78783f2250ab5cfc2780053a7993c475816a9638cd07b5624abaa79c1",
+          "bytes": 31955,
+          "cues": 418,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chi-s-sweet-home/ep_93.kk.vtt",
+          "sha256": "dc93506a85338b2fee6197e0237b5b4680741b3c13d2402344eae707906ec800",
+          "bytes": 32052,
+          "cues": 418,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chi-s-sweet-home/ep_93.kk.ass",
+          "sha256": "ae20cb49aea9b761cf5a311a186fff4f6bab2cf6e9026d511418f289bb2364ea",
+          "bytes": 38848,
+          "cues": 418,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 42,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chi-s-sweet-home.json"
 }

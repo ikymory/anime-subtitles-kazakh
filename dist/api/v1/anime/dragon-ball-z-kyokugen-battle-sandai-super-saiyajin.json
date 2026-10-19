@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dragon Ball Z. Kyokugen Battle!! Sandai Super Saiyajin - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin.jpg",
+  "description": "Dragon Ball Z. Kyokugen Battle!! Sandai Super Saiyajin - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dragon-ball-z-kyokugen-battle-sandai-super-saiyajin",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-z-kyokugen-battle-sandai-super-saiyajin-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/ep_01.kk.srt",
+          "sha256": "55ad281c17da6ce01dcdb5f08cf44b29a8f3c24140ee4998b0307f9be8ac5164",
+          "bytes": 36285,
+          "cues": 485,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/ep_01.kk.vtt",
+          "sha256": "6676e3787968f02c76d5913419565ad6f1de48dad9547dbf7e13285f8ab07567",
+          "bytes": 36382,
+          "cues": 485,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin/ep_01.kk.ass",
+          "sha256": "aae65ce09d1f6d584f5654e80077c94c67b9e34e1866de94f9fb6e780562a1b9",
+          "bytes": 44438,
+          "cues": 485,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-kyokugen-battle-sandai-super-saiyajin.json"
 }

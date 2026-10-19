@@ -16,16 +16,19 @@
     "Mystery",
     "Romance"
   ],
-  "description": "Amnesia - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/amnesia.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/amnesia.jpg",
+  "description": "Amnesia - official Kazakh translation archive by ikymory.",
   "averageScore": 75,
   "popularity": 90000,
+  "catalog_id": "amnesia",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
-    3,
-    4,
     5,
     6,
     7,
@@ -35,126 +38,340 @@
     11,
     12
   ],
+  "translated_episodes_count": 10,
+  "available_episodes_count": 10,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "amnesia-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/amnesia/ep_01.kk.ass",
+          "sha256": "bb4eb929d3f88298ecf2b03da5e4472accf33b4343ea7faab84208884f3357f9",
+          "bytes": 45988,
+          "cues": 392,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/amnesia/ep_01.kk.srt",
+          "sha256": "afb4a93a6a8dc91692d7531b72a7740fd68c39fc940e28d4c2c1c6a8cc324074",
+          "bytes": 36906,
+          "cues": 391,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_01.kk.vtt",
+          "sha256": "4f5f0b2f54273f7d197ff5440acc5af652cc05169d69f751bd85889c1dd2431e",
+          "bytes": 36914,
+          "cues": 391,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "amnesia-2ep.srt",
+      "filename": "ep_02.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-2ep.ass"
-      }
-    },
-    {
-      "episode": 3,
-      "language": "kk",
-      "filename": "amnesia-3ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-3ep.ass"
-      }
-    },
-    {
-      "episode": 4,
-      "language": "kk",
-      "filename": "amnesia-4ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_02.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/amnesia/ep_02.kk.ass",
+          "sha256": "f81b9cd311d4772c2e5afbdde223cc3a483c2beae953a1988da3cb3d35602f37",
+          "bytes": 33094,
+          "cues": 337,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/amnesia/ep_02.kk.srt",
+          "sha256": "399ebe6b36237aadd145ab956f4cb08f670d39acd8dea1803d7937dcbafa8f14",
+          "bytes": 25024,
+          "cues": 330,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_02.kk.vtt",
+          "sha256": "ef3fd58b48a308df39db15bf0627097c99fee8932cc089aef844506e505dd87f",
+          "bytes": 25032,
+          "cues": 330,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "amnesia-5ep.srt",
+      "filename": "ep_05.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_05.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/amnesia/ep_05.kk.ass",
+          "sha256": "83b52271f17c564b7a63c861923ba7b61d0a4cee47a034bd6f70c595dc935bcf",
+          "bytes": 51382,
+          "cues": 444,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/amnesia/ep_05.kk.srt",
+          "sha256": "d47c2a7658c86066e1d9a22ff492180af9fcd18a702b4238b0db6b05e355e686",
+          "bytes": 41730,
+          "cues": 443,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_05.kk.vtt",
+          "sha256": "c5ea08c2ad812b33b951bfc853f0c346696441f206570ce94b134b585e70720e",
+          "bytes": 41738,
+          "cues": 443,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "amnesia-6ep.srt",
+      "filename": "ep_06.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_06.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/amnesia/ep_06.kk.ass",
+          "sha256": "d45e6adb3a7418ef7a6ec7749a78712a93b77ecae59402e71c00ae6616f658ca",
+          "bytes": 52746,
+          "cues": 425,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/amnesia/ep_06.kk.srt",
+          "sha256": "4c3bd6021f1650d0c46867e86e313f3de85be2d8d86227b1c053a41d713aba96",
+          "bytes": 43423,
+          "cues": 424,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_06.kk.vtt",
+          "sha256": "0db7fa85d541e0c89d0331cc6d0e5b057e66dab8d13d70cdd0ac0285c4045f18",
+          "bytes": 43431,
+          "cues": 424,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "amnesia-7ep.srt",
+      "filename": "ep_07.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_07.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/amnesia/ep_07.kk.ass",
+          "sha256": "2a88108e2ffac49583be4c811b69ff48c563c5f8d644cb9800d2a6a6dd26e0b2",
+          "bytes": 45287,
+          "cues": 349,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/amnesia/ep_07.kk.srt",
+          "sha256": "5a0f5196278e4e6125dfb8519452006210a752cd4bc6ade4708516729a5eb466",
+          "bytes": 37063,
+          "cues": 348,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_07.kk.vtt",
+          "sha256": "c82a44b0e7e6eef8046fc324486399bfb88e768eba7aea9143ab62281f822f2e",
+          "bytes": 37071,
+          "cues": 348,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "amnesia-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/amnesia/ep_08.kk.srt",
+          "sha256": "4a5347b717d01a9626eded09b2f05c254fb6257fdbaf5454acf3d06f39064650",
+          "bytes": 37806,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_08.kk.vtt",
+          "sha256": "0f28f3eb62c7eb8917854e396f5f9c30692fe379e07cf08f07c3a4b0ebcf4a68",
+          "bytes": 37903,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/amnesia/ep_08.kk.ass",
+          "sha256": "89a2b997c581693c82b60121f530708d273e8bbcd63cf42f203cf318583bd18f",
+          "bytes": 46830,
+          "cues": 394,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "amnesia-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/amnesia/ep_09.kk.srt",
+          "sha256": "cf0558f5c369270c3ddb2c14815a8bdd17a8d20606a3c0d7070d35697b7fdcf9",
+          "bytes": 37636,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_09.kk.vtt",
+          "sha256": "7d91780fab97b24e4cc002b6986b764f56bb020c60587f65a5fcb21a64886f17",
+          "bytes": 37733,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/amnesia/ep_09.kk.ass",
+          "sha256": "cbddba320c7812f96121887cdc0e55c9462670eb9fb6d1079e8b5bc503ab5653",
+          "bytes": 45822,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "amnesia-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/amnesia/ep_10.kk.srt",
+          "sha256": "00756d8e7b35be0c709da9af7790b0a58f824f3633060ce0a587b7e4ae60766e",
+          "bytes": 31723,
+          "cues": 342,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_10.kk.vtt",
+          "sha256": "d542a19c021c2d8f2a1c069f5128c55d03d4c6ce16f31fdf95496305aca338bd",
+          "bytes": 31820,
+          "cues": 342,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/amnesia/ep_10.kk.ass",
+          "sha256": "418d7c901bb4d74bdf8d3593f1efa970254c4c09fb61c2bd1f3f66b4f9130864",
+          "bytes": 37476,
+          "cues": 342,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "amnesia-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/amnesia/ep_11.kk.srt",
+          "sha256": "57fcd30d0b048f7e4dbb77748a13f6f0a1e92e759584b1d94403ee5ed5fd2573",
+          "bytes": 35892,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_11.kk.vtt",
+          "sha256": "074b72cacef51e51395ddf1a8a1b494e50d7da42f55ec5baf92a8349829e524c",
+          "bytes": 35989,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/amnesia/ep_11.kk.ass",
+          "sha256": "51d7ffb1aa8bf47763826befc6bd1899f56a242cd0c0b06238b1264ac5525d1d",
+          "bytes": 41915,
+          "cues": 360,
+          "origin": "derived"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "amnesia-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/amnesia/amnesia-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/amnesia/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/amnesia/ep_12.kk.srt",
+          "sha256": "5c3bec6b0ee0aaac8dda9721dd116af80afce562078c34943089e76ff62ef4eb",
+          "bytes": 26070,
+          "cues": 290,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/amnesia/ep_12.kk.vtt",
+          "sha256": "93e0605e8dcacffa2f7e2b73b06d84769b0bfc8b897e736530226b5ffa71cb85",
+          "bytes": 26167,
+          "cues": 290,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/amnesia/ep_12.kk.ass",
+          "sha256": "58de74560c59ef48f201d8b9fd1d1ed8ae8f776197bf5d6dce6e669023fc5802",
+          "bytes": 32816,
+          "cues": 290,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 50,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/amnesia.json"
 }

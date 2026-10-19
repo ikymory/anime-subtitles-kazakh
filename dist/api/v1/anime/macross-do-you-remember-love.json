@@ -18,24 +18,56 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "The Super Dimension Fortress Macross: Do You Remember Love? - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-do-you-remember-love.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-do-you-remember-love.jpg",
+  "description": "The Super Dimension Fortress Macross: Do You Remember Love? - official Kazakh translation archive by ikymory.",
   "averageScore": 92,
   "popularity": 110400,
+  "catalog_id": "macross-do-you-remember-love",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "macross-do-you-remember-love-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-do-you-remember-love/macross-do-you-remember-love-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-do-you-remember-love/macross-do-you-remember-love-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-do-you-remember-love/macross-do-you-remember-love-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-do-you-remember-love/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-do-you-remember-love/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-do-you-remember-love/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/macross-do-you-remember-love/ep_01.kk.srt",
+          "sha256": "0a2d776fd210e7865209b18ed7080e3d21cece8d93e8bfff9bb8e1690030fe6d",
+          "bytes": 99822,
+          "cues": 1187,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/macross-do-you-remember-love/ep_01.kk.vtt",
+          "sha256": "ec66b41891076f8058419e982a839842038f694208ab66fb27379a482f745be1",
+          "bytes": 99919,
+          "cues": 1187,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/macross-do-you-remember-love/ep_01.kk.ass",
+          "sha256": "56b7917ad8b656cd7a62268756c6ecad42745d5938f4e0a6cb63aef0e5012ee3",
+          "bytes": 118499,
+          "cues": 1187,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/macross-do-you-remember-love.json"
 }

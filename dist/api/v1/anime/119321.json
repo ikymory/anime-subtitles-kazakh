@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "aya-to-majo",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aya-to-majo.json"
+    },
+    {
+      "slug": "earwig-and-the-witch",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/earwig-and-the-witch.json"
+    }
+  ]
+}

@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Goblin Slayer",
     "english": "GOBLIN SLAYER",
-    "native": "ゴブリンスレイヤー"
+    "native": "ゴブリンスレイヤー",
+    "kazakh": "Гоблин аулаушысы",
+    "kk": "Гоблин аулаушысы"
   },
   "format": "TV",
   "episodes": 12,
@@ -14,9 +16,19 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress. It's the Goblin Slayer who comes to their rescue--a man who's dedicated his life to the extermination of all goblins, by any means necessary. And when rumors of his feats begin to circulate, there's no telling who might come calling next...<br><br>\n\n(Source: Yen Press)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101165-v5NwPXWPFDuD.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101165-v5NwPXWPFDuD.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101165-bXPZrNiQGPHd.jpg",
+  "description": "A young priestess has formed her first adventuring party, but almost immediately they find themselves in distress. It's the Goblin Slayer who comes to their rescue--a man who's dedicated his life to the extermination of all goblins, by any means necessary. And when rumors of his feats begin to circulate, there's no telling who might come calling next...\n\n(Source: Yen Press)",
+  "averageScore": 77,
+  "popularity": 59438,
+  "color": "#5d93e4",
+  "duration": 24,
+  "studio": "WHITE FOX",
+  "catalog_id": "goblin-slayer",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -31,126 +43,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "goblin-slayer-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_01.kk.srt",
+          "sha256": "bb3f35a2bec26b661f7ce447ce96171126b7bb93b96761e55f0932b85a172e25",
+          "bytes": 31573,
+          "cues": 409,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_01.kk.vtt",
+          "sha256": "8d9ef50acb5d2113cd2aac09e410a1297d73ead56ba032ac19b3029e90b8d391",
+          "bytes": 31670,
+          "cues": 409,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_01.kk.ass",
+          "sha256": "08429e086c0fef92d39eaa806e9e602ce846bb66dc4f290e4f7828082cab4469",
+          "bytes": 38529,
+          "cues": 409,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "goblin-slayer-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_02.kk.srt",
+          "sha256": "7078dd475ee2076a8ed3895960d255c56288c6adc476e61b7ba06acd7a9c83ee",
+          "bytes": 35546,
+          "cues": 402,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_02.kk.vtt",
+          "sha256": "5836dcad81463ef200538f05820ca26c655ffe90654c046dc906cfd1ba1aa7e1",
+          "bytes": 35643,
+          "cues": 402,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_02.kk.ass",
+          "sha256": "be25edbbaa7ffb7304045d0f22d991a79222a27c8e5cb1f37e084c31ea518d91",
+          "bytes": 42397,
+          "cues": 402,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "goblin-slayer-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_03.kk.srt",
+          "sha256": "a04fcf60af4d62e00362d7c9440b9ad356677ca15abc8d5441afdb03066790af",
+          "bytes": 35139,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_03.kk.vtt",
+          "sha256": "fd2b8143486aff3c8d04374ac231eccd231eb68c76dcc86f963c392a14474d00",
+          "bytes": 35236,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_03.kk.ass",
+          "sha256": "89c7892e33b546f849129929d632d89062c31eaaf7c535327c92ad8440220a0d",
+          "bytes": 41870,
+          "cues": 394,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "goblin-slayer-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_04.kk.srt",
+          "sha256": "676da41a210e8c91d18dc5d2d452ea1152cd0dd7eefadc886a5e9652050a1e19",
+          "bytes": 30640,
+          "cues": 351,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_04.kk.vtt",
+          "sha256": "e1eab85fdf58c5223a617677d4db00ad288ea287a4139353819345769e51ecae",
+          "bytes": 30737,
+          "cues": 351,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_04.kk.ass",
+          "sha256": "6ad9e22882fb895ce63f515b7e1ca2e57fae47bec2b615c613cb687dc57e2f22",
+          "bytes": 36726,
+          "cues": 351,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "goblin-slayer-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_05.kk.srt",
+          "sha256": "e1f9b88a71b2f5ebaeedfe6c6f5233eaf85d81c815dddc8edab02a6ce058d683",
+          "bytes": 40300,
+          "cues": 454,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_05.kk.vtt",
+          "sha256": "a4ec02184b165e91e19f54f3e14f02b1d0458b537adb162c42d204a519a89a65",
+          "bytes": 40397,
+          "cues": 454,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_05.kk.ass",
+          "sha256": "e0d5780763906223db51933d777817d762115154afe0a77fb905289977f78d32",
+          "bytes": 47931,
+          "cues": 454,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "goblin-slayer-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_06.kk.srt",
+          "sha256": "a3999392cf05f710d42202a7552607dc2bdf98cf1d3e8b3b05c964076f16fcd8",
+          "bytes": 36652,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_06.kk.vtt",
+          "sha256": "c887f6d826d931ea64966f3f8e87f22c22f6c831d71cee0bba2f3cabd8f5a99a",
+          "bytes": 36749,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_06.kk.ass",
+          "sha256": "8e6fe74fc1c157e4b8f4e8f5e20572205dec0491707eade8f93dbf345255fa41",
+          "bytes": 43668,
+          "cues": 413,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "goblin-slayer-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_07.kk.srt",
+          "sha256": "d728a0f6597c276489cf5d6e964b8c9815d36edda43e9b25e9bd6f1ac1c52c4f",
+          "bytes": 29448,
+          "cues": 363,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_07.kk.vtt",
+          "sha256": "df62d4807a5a6a4bc510b63639389e812f75794afdc4ae5e396d8e57071a55b0",
+          "bytes": 29545,
+          "cues": 363,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_07.kk.ass",
+          "sha256": "e98871a93ec2700f113b20cd1f601f7e7f39800011b6ce0149fd018ac0a29353",
+          "bytes": 35714,
+          "cues": 363,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "goblin-slayer-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_08.kk.srt",
+          "sha256": "bd68dafdad7b4c32b177472ef06a2dda37a20342fb2841a6859b13501ab6600d",
+          "bytes": 34724,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_08.kk.vtt",
+          "sha256": "7d9680707cf1501a22ba4a1ea6f0c90497128d873ad7998d3a382889439bfc40",
+          "bytes": 34821,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_08.kk.ass",
+          "sha256": "2d868de512c9c7eb3349fa224e1ca2eacca000287b669f348aeba899fe3182c1",
+          "bytes": 41530,
+          "cues": 399,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "goblin-slayer-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_09.kk.srt",
+          "sha256": "3b2a70c7a6abfc0d28b7898ca6bf1662d166e6d662c7b0b8fe6986227bd69c30",
+          "bytes": 31504,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_09.kk.vtt",
+          "sha256": "f4cf2c468cc3a20e6b7af5175c8cdbf440c03376c1b410be93e771550a986b00",
+          "bytes": 31601,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_09.kk.ass",
+          "sha256": "245adaa58682b31d7ca8f3856e8e5320cd3dd450695ee407144365ed60c8b999",
+          "bytes": 37800,
+          "cues": 365,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "goblin-slayer-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_10.kk.srt",
+          "sha256": "9de3838958141544e0c20884587f6015fcfdcb40b0685b76bcc9ec0052583378",
+          "bytes": 35971,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_10.kk.vtt",
+          "sha256": "427e61aa901310fd9771989695b2cec4d3fcf97d9788ff2d6a201acab2d299c8",
+          "bytes": 36068,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_10.kk.ass",
+          "sha256": "66e071d94bfb459047699a1f709a50df9f0c207c85c038efe41c21a3280d8a90",
+          "bytes": 42867,
+          "cues": 405,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "goblin-slayer-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_11.kk.srt",
+          "sha256": "de626ef797393f96ba9473600df2edb4cb6f944b29551b2378206ce4b11471e7",
+          "bytes": 32147,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_11.kk.vtt",
+          "sha256": "a31e9644fda8aaa8a749bd92a03e2d0e82d7826d96517582d4b713c6450d1e77",
+          "bytes": 32244,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_11.kk.ass",
+          "sha256": "559363749810b0e1e5f292ede5382f13122e4b5635dc57df6fc3a2466657728e",
+          "bytes": 38878,
+          "cues": 394,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "goblin-slayer-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/goblin-slayer/goblin-slayer-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/goblin-slayer/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/goblin-slayer/ep_12.kk.srt",
+          "sha256": "27a90a5921f8904329027d94ba9350db93eb91c094a1eb903d0ac5a5b5c0f336",
+          "bytes": 28269,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/goblin-slayer/ep_12.kk.vtt",
+          "sha256": "622545f819732ad559d60e67cbbb82c4189dbc9c329276b16d8ca89663e7fbad",
+          "bytes": 28366,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/goblin-slayer/ep_12.kk.ass",
+          "sha256": "70b6cd96c8ce12e161445dc79fadc7e9d3051d6121885440426dbb050cd8bca1",
+          "bytes": 34505,
+          "cues": 361,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 71,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/goblin-slayer.json"
 }

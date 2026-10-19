@@ -3,17 +3,28 @@
   "slug": "sonny-boy",
   "title": {
     "romaji": "Sonny Boy",
-    "english": "Sonny Boy"
+    "english": "Sonny Boy",
+    "kazakh": "Сонни Бой",
+    "kk": "Сонни Бой"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 12,
+  "seasonYear": 2021,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132126-4ugVjXMQLAps.png",
+  "averageScore": 86,
+  "popularity": 54645,
+  "color": "hsl(351, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/132126-urIgfuSxmxza.jpg",
+  "catalog_id": "sonny-boy",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -28,126 +39,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "sonny-boy-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_01.kk.srt",
+          "sha256": "27d46a7c527a05923047d290a31a4127703d0da25817151ad2d2e8151bf8afeb",
+          "bytes": 33722,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_01.kk.vtt",
+          "sha256": "803f9aa04c6e2d29f4d4b5e769399b9528c7bc12494c3a0f10e9668d2a8e04fe",
+          "bytes": 33819,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_01.kk.ass",
+          "sha256": "84787207718264b45173731c1a35528872569ef2756727bbc0481881450504a7",
+          "bytes": 40194,
+          "cues": 377,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "sonny-boy-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_02.kk.srt",
+          "sha256": "de1ecf27a70ca4f0add205c4844d07b59f53a7d56910b6fe10643e8e206f0502",
+          "bytes": 32346,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_02.kk.vtt",
+          "sha256": "095edf02072f7bf8634a70bf954742c5baa165abe80bdf06d3d4872f85527c34",
+          "bytes": 32443,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_02.kk.ass",
+          "sha256": "e0d6834fe826ba55b23727c671f36994664b728589aae08052f4546bdff49143",
+          "bytes": 38668,
+          "cues": 367,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "sonny-boy-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_03.kk.srt",
+          "sha256": "c8c1186a7abf02f5c33f70920afa35e8b6d3ed66555bff33741253514ea5eac3",
+          "bytes": 33481,
+          "cues": 364,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_03.kk.vtt",
+          "sha256": "4f0e477876070111feb60501fe97703861f6253587b92e02b1eb16d03eb9f4fe",
+          "bytes": 33578,
+          "cues": 364,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_03.kk.ass",
+          "sha256": "056985ade9f6a2843b956edd534357fa0637bf4db4a892b022a4ce8a8953143c",
+          "bytes": 39758,
+          "cues": 364,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "sonny-boy-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_04.kk.srt",
+          "sha256": "fdb08137593ff38e0e91a369940cc5995c81f4380811f45b9818bfefbb520fd4",
+          "bytes": 41281,
+          "cues": 432,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_04.kk.vtt",
+          "sha256": "63fd8300895a3cf692452cbbe7cae41594cbe1e67e5fa9c696a0d9bad7f161be",
+          "bytes": 41378,
+          "cues": 432,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_04.kk.ass",
+          "sha256": "719bae758278e6ce23c27c576c0a44ab5cd062bb4de81d010c19e212135ab002",
+          "bytes": 48578,
+          "cues": 432,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "sonny-boy-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_05.kk.srt",
+          "sha256": "3b8b5fbf4d6f79b56bb7309e0acb3986e9792336efaaf618a84e86e7a0a69275",
+          "bytes": 34590,
+          "cues": 378,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_05.kk.vtt",
+          "sha256": "8d237065a42396b1b38c4f78634ee2488dbe4bc09a47408966a54ad79a9fabd0",
+          "bytes": 34687,
+          "cues": 378,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_05.kk.ass",
+          "sha256": "2d950834c8c901d56c875f1e83803891d790abc2c732804346082f33d3c3e15b",
+          "bytes": 41077,
+          "cues": 378,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "sonny-boy-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_06.kk.srt",
+          "sha256": "e879e07b9cb7a81d58bd13227cdb375aaf8caae2146168a2df22ec1d3108941d",
+          "bytes": 35798,
+          "cues": 388,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_06.kk.vtt",
+          "sha256": "e67132b3b857bc1007d41201ce8ef83fcdb30b0d2819faac31c1f96a68e4c12c",
+          "bytes": 35895,
+          "cues": 388,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_06.kk.ass",
+          "sha256": "cb8328d0602c2a56af36e7dc3f6dc711ebd14016c5ff3a336bd131cbcb4e1f94",
+          "bytes": 42435,
+          "cues": 388,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "sonny-boy-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_07.kk.srt",
+          "sha256": "3a25b051d4fb25d02039cc233537da87cde13ea2abeaadc68012e59ecc62c55a",
+          "bytes": 36876,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_07.kk.vtt",
+          "sha256": "915fa78720c5713c77b99c8710c178ba05cc054c14ccb605f61acfc6a83da73b",
+          "bytes": 36973,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_07.kk.ass",
+          "sha256": "da0d421c017e4724b3e77ef7619196d225fea64504b21a7910d25d13d05f802d",
+          "bytes": 43918,
+          "cues": 415,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "sonny-boy-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_08.kk.srt",
+          "sha256": "ee7a2f00c74808cebb93daab47ff39420ab7e81d702bd4c44542a0b12fef4173",
+          "bytes": 30920,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_08.kk.vtt",
+          "sha256": "9edcb8242cb5c67f85430afe7e3cd14a0fc9b49f0b84ed4ede576daf394084b1",
+          "bytes": 31017,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_08.kk.ass",
+          "sha256": "1e5e4eecafdf929a7bed17a2e7d94b5caa4319e3d4783820c548f2415820826b",
+          "bytes": 37317,
+          "cues": 372,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "sonny-boy-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_09.kk.srt",
+          "sha256": "fcd85fb48a86ef4f7dcef514debabc4101b3b389a6cb447dbe32d322646d7905",
+          "bytes": 33288,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_09.kk.vtt",
+          "sha256": "507264091de307750864694f3c831977af5d76ee73554add52c5df03d83c095e",
+          "bytes": 33385,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_09.kk.ass",
+          "sha256": "e3c352bd2e12fce415d39d34f8ed513e726a54ad79f9cc8a4da6a1b5b185289c",
+          "bytes": 39490,
+          "cues": 359,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "sonny-boy-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_10.kk.srt",
+          "sha256": "97e9ab17fdce28fdb41f3856b69f51a35d589e719b492b105ea85fc5ff545ec1",
+          "bytes": 31478,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_10.kk.vtt",
+          "sha256": "ead1d04f1220486ef36ccedf496a40d5eb4c5a693ec8d82f40ba46ef0fb4e1b8",
+          "bytes": 31575,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_10.kk.ass",
+          "sha256": "85d697753f768956b0cffad34fefa23f58defe6b0ba379ee51e62d9d389b7b95",
+          "bytes": 37200,
+          "cues": 327,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "sonny-boy-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_11.kk.srt",
+          "sha256": "4978ad00132895a0ec49fdc82fce76c5de75ac31ca43ec684be8ea0943266c96",
+          "bytes": 29887,
+          "cues": 323,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_11.kk.vtt",
+          "sha256": "226f46f1da58bae48826a54cc9098d34419d25d3f4dee901ac09c7a33b02b843",
+          "bytes": 29984,
+          "cues": 323,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_11.kk.ass",
+          "sha256": "f5d7b555fce68ae46d0ba34bb95460aa3aaf6b95964d6564cc76c7e6a5aa7dec",
+          "bytes": 35549,
+          "cues": 323,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "sonny-boy-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sonny-boy/sonny-boy-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sonny-boy/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sonny-boy/ep_12.kk.srt",
+          "sha256": "d3b5b940a4edc1aa5e39f5c3a61404d9cb7566278220c083a7c20659262151a9",
+          "bytes": 17530,
+          "cues": 198,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sonny-boy/ep_12.kk.vtt",
+          "sha256": "ae0b1196fdb639188cb2f92923e40f1a3047e4ab60e14a2d75f9a2bae414f7ef",
+          "bytes": 17627,
+          "cues": 198,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sonny-boy/ep_12.kk.ass",
+          "sha256": "22975f5d246b434189a8e587f2436d11d9eb1a12bae110295e636b30372bd65e",
+          "bytes": 21317,
+          "cues": 198,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 38,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sonny-boy.json"
 }

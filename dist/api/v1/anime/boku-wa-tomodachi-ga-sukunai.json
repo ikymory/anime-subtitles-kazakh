@@ -16,11 +16,16 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Boku wa Tomodachi ga Sukunai - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-wa-tomodachi-ga-sukunai.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-wa-tomodachi-ga-sukunai.jpg",
+  "description": "Boku wa Tomodachi ga Sukunai - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "boku-wa-tomodachi-ga-sukunai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +40,406 @@
     11,
     12
   ],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_01.kk.srt",
+          "sha256": "73b312dacfb69b8e8d76e2387c95c9db769fca8eb449503d0cc4a6084c836407",
+          "bytes": 41014,
+          "cues": 463,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_01.kk.vtt",
+          "sha256": "c89f3916c568efb42afa90894f702b03be0fc1684bc05454512a108c23f6a5c2",
+          "bytes": 41111,
+          "cues": 463,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_01.kk.ass",
+          "sha256": "9d6aa9fa8501369d9ee1de854029ba4ca46934186c82793fea1463c0d9f05721",
+          "bytes": 48837,
+          "cues": 463,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-2ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_02.kk.srt",
+          "sha256": "152785da1c229c096c3864a139fc9960a0286cdfa0513bfe57337cdb7170c747",
+          "bytes": 38510,
+          "cues": 435,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_02.kk.vtt",
+          "sha256": "ac8a441e403848d7942f9b0858238379943403c0f6c0eb823544ec966ee29614",
+          "bytes": 38607,
+          "cues": 435,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_02.kk.ass",
+          "sha256": "3e0fcb5f5b24ca529e9a5a78839c65255624e3ad1beb1becea8297478476552f",
+          "bytes": 45914,
+          "cues": 435,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-3ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_03.kk.srt",
+          "sha256": "1fa21b983a5ddcc7033c1403036e411284db8c08ba3309e26242d31b4e5a32ab",
+          "bytes": 37369,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_03.kk.vtt",
+          "sha256": "de6b284ae7370bf5ed19cbd79045bae62fc02fcb9d0c150faea4f3aeb8f5a611",
+          "bytes": 37466,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_03.kk.ass",
+          "sha256": "8935a10e177155a794a344eff8d820ec97448012b6b1b428213eb0b677548f21",
+          "bytes": 44832,
+          "cues": 439,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-4ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_04.kk.srt",
+          "sha256": "64c8bf7ead6b2e90232464def328cf638e0c44388abea1deccfad4e187d1cdfd",
+          "bytes": 43067,
+          "cues": 477,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_04.kk.vtt",
+          "sha256": "ba330e61bf3668fa0125df3cb1c8b9dea4c26a3c4ebe77463f66f3de11beb177",
+          "bytes": 43164,
+          "cues": 477,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_04.kk.ass",
+          "sha256": "315a4d5463cad84eff6eb49ba90960db51db33b963fa9559d67836a9dd81d43c",
+          "bytes": 51100,
+          "cues": 477,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-5ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_05.kk.srt",
+          "sha256": "6cfddf00fb023bd8a72e05076b67ec902a8ce1248f4db1e71d13685c8bec0316",
+          "bytes": 41148,
+          "cues": 472,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_05.kk.vtt",
+          "sha256": "71c8e22a32e6826dca92b18e7ec1d0947ac2b8ed94834f86482b76163a68520e",
+          "bytes": 41245,
+          "cues": 472,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_05.kk.ass",
+          "sha256": "f4c9464eede90bd1872d052ff525ee06947e1959cf9fc18b41823a4fdce867bf",
+          "bytes": 49107,
+          "cues": 472,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-6ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_06.kk.srt",
+          "sha256": "07321414b998d2be3ec109317c9814777f7e678f5c4b9c1747c3129bb9a16b9a",
+          "bytes": 43406,
+          "cues": 501,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_06.kk.vtt",
+          "sha256": "7d4027e3c8c8ffd3488b1aacca95553225ab2f4791416eccde7a7ca5da846d9b",
+          "bytes": 43503,
+          "cues": 501,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_06.kk.ass",
+          "sha256": "e9154efc5899cf2ef9028a81528a717ae6511227719c6f0d5ce71579bbc351ce",
+          "bytes": 51799,
+          "cues": 501,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-7ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_07.kk.srt",
+          "sha256": "dbc0f27712079dd5e48bca4ed3a87bc8eca6f8e30d7540e8243b1f572ae2235c",
+          "bytes": 41302,
+          "cues": 443,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_07.kk.vtt",
+          "sha256": "139ca24fdf06d988465e758f903ee512636a74a6aa1473c38537de972a38a141",
+          "bytes": 41399,
+          "cues": 443,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_07.kk.ass",
+          "sha256": "0a8bd46865383666c1ab98dca58f09effa32e17876b257bceff37f5ffcf71b61",
+          "bytes": 48825,
+          "cues": 443,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-8ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_08.kk.srt",
+          "sha256": "91eccf542da8be607ca3642bd1d6dc0495f87d68607fcf59441ba50bb63cd447",
+          "bytes": 37658,
+          "cues": 449,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_08.kk.vtt",
+          "sha256": "a43f30d92bd2a9ebdb6cd0105c09c94bfdb1d963db1c682445b9546c35338e56",
+          "bytes": 37755,
+          "cues": 449,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_08.kk.ass",
+          "sha256": "85c47c805f8fbdd3e1b93c654a24c6507b834043aa3ccad817550eb241dd2abf",
+          "bytes": 45271,
+          "cues": 449,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-9ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_09.kk.srt",
+          "sha256": "12914463b708de4c31a02d705a209bbc5ba983a6cb9f23a6ca2853d704f8226f",
+          "bytes": 39609,
+          "cues": 495,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_09.kk.vtt",
+          "sha256": "cc51e44f6830c65998e71199b6b09c24ea4b41aa9e233fb2ba540a55b5719768",
+          "bytes": 39706,
+          "cues": 495,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_09.kk.ass",
+          "sha256": "633505336039d9a9f0cf8f5d0b123e2def92a3054fc20c712c4736038afaaab5",
+          "bytes": 47913,
+          "cues": 495,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-10ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_10.kk.srt",
+          "sha256": "36aa80fa6ea1726ee791edd7d97f981dc1aa822c9f229315474fdea1dfd65d41",
+          "bytes": 36696,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_10.kk.vtt",
+          "sha256": "c5a9040447dc14563898527a87dd583b903b9fd27fcc6ee8afb6cabcb474047c",
+          "bytes": 36793,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_10.kk.ass",
+          "sha256": "3de9398540cd72ed143b448ec07d453f3aab390f31984062afa1dca42509f988",
+          "bytes": 43694,
+          "cues": 408,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-11ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_11.kk.srt",
+          "sha256": "4ea0718813cc5dc1baf39d59dfcb1691ed3d9b1e734a76c6df7ebee708ea0381",
+          "bytes": 36791,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_11.kk.vtt",
+          "sha256": "0e3d8f9879889796dd4a3feb3d75e5b5c898a6a1227dcced0c3d104a4968dc11",
+          "bytes": 36888,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_11.kk.ass",
+          "sha256": "1f8e0ebc19231b48beccd7c7ed5fb471c4cf8a29138cd16d0386def7b08226f9",
+          "bytes": 43654,
+          "cues": 399,
+          "origin": "source"
+        }
       }
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "boku-wa-tomodachi-ga-sukunai-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-wa-tomodachi-ga-sukunai/boku-wa-tomodachi-ga-sukunai-12ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-wa-tomodachi-ga-sukunai/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_12.kk.srt",
+          "sha256": "839cdac7d8e480678b5bd1e4d77bc89add78d3e716c9af0f0c266a90597295dd",
+          "bytes": 33878,
+          "cues": 390,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_12.kk.vtt",
+          "sha256": "8fa5278c3622610b06bcf3db02df049ebdcfecae866f6ef3addaf7e13f4311ea",
+          "bytes": 33975,
+          "cues": 390,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-wa-tomodachi-ga-sukunai/ep_12.kk.ass",
+          "sha256": "b5927d5e1763c98a13ed77fa87e233ebf525595285e32f030b2fee8f098536c8",
+          "bytes": 40606,
+          "cues": 390,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boku-wa-tomodachi-ga-sukunai.json"
 }

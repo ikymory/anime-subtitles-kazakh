@@ -16,24 +16,56 @@
     "Fantasy",
     "Comedy"
   ],
-  "description": "Doraemon: Nobita's Dorabian Nights - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-dorabian-nights.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-dorabian-nights.jpg",
+  "description": "Doraemon: Nobita's Dorabian Nights - official Kazakh translation archive by ikymory.",
   "averageScore": 81,
   "popularity": 97200,
+  "catalog_id": "doraemon-dorabian-nights",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-dorabian-nights-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-dorabian-nights/doraemon-dorabian-nights-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-dorabian-nights/doraemon-dorabian-nights-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-dorabian-nights/doraemon-dorabian-nights-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-dorabian-nights/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-dorabian-nights/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-dorabian-nights/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-dorabian-nights/ep_01.kk.srt",
+          "sha256": "b603e4ac51d073f92f5782e6a6eb147a97eef13ffb7a6793123b28e5cbbbb916",
+          "bytes": 160022,
+          "cues": 1952,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-dorabian-nights/ep_01.kk.vtt",
+          "sha256": "af6e3c4293928871edf857ccdf310a29d4d51e52726777abc7ab393d1cdfab31",
+          "bytes": 160119,
+          "cues": 1952,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-dorabian-nights/ep_01.kk.ass",
+          "sha256": "b0dfd6df346ecf6a4714d7353795d71f3a6ed924694af4059ebb2e03f2e210f5",
+          "bytes": 189408,
+          "cues": 1952,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-dorabian-nights.json"
 }

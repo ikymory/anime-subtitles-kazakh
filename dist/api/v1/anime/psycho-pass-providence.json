@@ -15,28 +15,59 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Psycho-Pass: Providence.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153687-xB2x4toOz5MB.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153687-zzGUxK9faG7O.jpg",
+  "description": "Kazakh subtitles for Psycho-Pass: Providence.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "psycho-pass-providence",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "psycho-pass-providence-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/psycho-pass-providence/psycho-pass-providence-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/psycho-pass-providence/psycho-pass-providence-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/psycho-pass-providence/psycho-pass-providence-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/psycho-pass-providence/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/psycho-pass-providence/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/psycho-pass-providence/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/psycho-pass-providence/ep_01.kk.srt",
+          "sha256": "20957d1fbc1896b63ded0fe22405de3107b9575c3641cd353a3ccbf046361726",
+          "bytes": 132041,
+          "cues": 1345,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/psycho-pass-providence/ep_01.kk.vtt",
+          "sha256": "a7804cb14756dc0d7ae0e6ebaf89e9c6ea64f70906588615e4f611c246ab1324",
+          "bytes": 132138,
+          "cues": 1345,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/psycho-pass-providence/ep_01.kk.ass",
+          "sha256": "dd70b9d2757e7a39f47e41da673a3014b6ed2a669bf6000d9c8075ae1594d888",
+          "bytes": 154401,
+          "cues": 1345,
+          "origin": "source"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/psycho-pass-providence.json"
 }

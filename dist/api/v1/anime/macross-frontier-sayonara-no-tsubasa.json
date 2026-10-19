@@ -18,24 +18,56 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "Macross Frontier: The Wings of Farewell - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-frontier-sayonara-no-tsubasa.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-frontier-sayonara-no-tsubasa.jpg",
+  "description": "Macross Frontier: The Wings of Farewell - official Kazakh translation archive by ikymory.",
   "averageScore": 90,
   "popularity": 108000,
+  "catalog_id": "macross-frontier-sayonara-no-tsubasa",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "macross-frontier-sayonara-no-tsubasa-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-frontier-sayonara-no-tsubasa/macross-frontier-sayonara-no-tsubasa-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-frontier-sayonara-no-tsubasa/macross-frontier-sayonara-no-tsubasa-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-frontier-sayonara-no-tsubasa/macross-frontier-sayonara-no-tsubasa-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-frontier-sayonara-no-tsubasa/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-frontier-sayonara-no-tsubasa/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-frontier-sayonara-no-tsubasa/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/macross-frontier-sayonara-no-tsubasa/ep_01.kk.srt",
+          "sha256": "bd4d7a49d35f7d732757f19f471267dfcf11eb1849aaeaee65b457dde780c3a4",
+          "bytes": 133732,
+          "cues": 1558,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/macross-frontier-sayonara-no-tsubasa/ep_01.kk.vtt",
+          "sha256": "53be461eb0e9b500e73131b38e251ec17f08ee0c1612346bbae390172915e288",
+          "bytes": 133829,
+          "cues": 1558,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/macross-frontier-sayonara-no-tsubasa/ep_01.kk.ass",
+          "sha256": "63dc3594b033cd98f481799024649ffea84c69c19dc4f6e32bf84a50eefbd6a7",
+          "bytes": 157605,
+          "cues": 1558,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/macross-frontier-sayonara-no-tsubasa.json"
 }

@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "FAIRY TAIL Movie. Houou no Miko - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fairy-tail-movie-houou-no-miko.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fairy-tail-movie-houou-no-miko.jpg",
+  "description": "FAIRY TAIL Movie. Houou no Miko - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "fairy-tail-movie-houou-no-miko",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fairy-tail-movie-houou-no-miko-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fairy-tail-movie-houou-no-miko/fairy-tail-movie-houou-no-miko-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fairy-tail-movie-houou-no-miko/fairy-tail-movie-houou-no-miko-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fairy-tail-movie-houou-no-miko/fairy-tail-movie-houou-no-miko-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fairy-tail-movie-houou-no-miko/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fairy-tail-movie-houou-no-miko/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fairy-tail-movie-houou-no-miko/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fairy-tail-movie-houou-no-miko/ep_01.kk.srt",
+          "sha256": "69b1a9e215221901662127e39385c477fdbd1dddead574a00a37e7de1351f3fb",
+          "bytes": 99399,
+          "cues": 1241,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fairy-tail-movie-houou-no-miko/ep_01.kk.vtt",
+          "sha256": "c100ad47e2d118674e8dce19a982245e9e5fe92c9a9f3b38258b23caadc40a44",
+          "bytes": 99496,
+          "cues": 1241,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fairy-tail-movie-houou-no-miko/ep_01.kk.ass",
+          "sha256": "f29b4673e479cefc681deac20d72a5713b53329985c49ee6c56fdd4ac3dd3601",
+          "bytes": 118650,
+          "cues": 1241,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fairy-tail-movie-houou-no-miko.json"
 }

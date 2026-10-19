@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Mahou Shoujo Madoka☆Magica. Eien no Monogatari - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahou-shoujo-madoka-magica-eien-no-monogatari.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahou-shoujo-madoka-magica-eien-no-monogatari.jpg",
+  "description": "Mahou Shoujo Madoka☆Magica. Eien no Monogatari - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "mahou-shoujo-madoka-magica-eien-no-monogatari",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mahou-shoujo-madoka-magica-eien-no-monogatari-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/mahou-shoujo-madoka-magica-eien-no-monogatari-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/mahou-shoujo-madoka-magica-eien-no-monogatari-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/mahou-shoujo-madoka-magica-eien-no-monogatari-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/ep_01.kk.srt",
+          "sha256": "9e7b58fb7afd776aabac208ac85e672e7e2b6645774cafc00dbfbc31a81d205f",
+          "bytes": 116442,
+          "cues": 1211,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/ep_01.kk.vtt",
+          "sha256": "f5101cc51133dca0ebbba9518863ec258fca0a57e10c45c90e722e25db3d775c",
+          "bytes": 116539,
+          "cues": 1211,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-eien-no-monogatari/ep_01.kk.ass",
+          "sha256": "7bd789ab9c68f16264cdfa8224a23a15dbac72bd5083df55fcf8ce010afe940a",
+          "bytes": 135455,
+          "cues": 1211,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mahou-shoujo-madoka-magica-eien-no-monogatari.json"
 }

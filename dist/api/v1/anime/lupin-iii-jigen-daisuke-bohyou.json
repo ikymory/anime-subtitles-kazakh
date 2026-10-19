@@ -15,24 +15,56 @@
     "Action",
     "Adventure"
   ],
-  "description": "Lupin the IIIrd: Jigen's Gravestone - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/lupin-iii-jigen-daisuke-bohyou.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/lupin-iii-jigen-daisuke-bohyou.jpg",
+  "description": "Lupin the IIIrd: Jigen's Gravestone - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "lupin-iii-jigen-daisuke-bohyou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "lupin-iii-jigen-daisuke-bohyou-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-iii-jigen-daisuke-bohyou/lupin-iii-jigen-daisuke-bohyou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-iii-jigen-daisuke-bohyou/lupin-iii-jigen-daisuke-bohyou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-iii-jigen-daisuke-bohyou/lupin-iii-jigen-daisuke-bohyou-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-iii-jigen-daisuke-bohyou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-iii-jigen-daisuke-bohyou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-iii-jigen-daisuke-bohyou/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/lupin-iii-jigen-daisuke-bohyou/ep_01.kk.ass",
+          "sha256": "199788e27c1a2cb70e2d7fa7331eef3753fbf8cc1fdd79e9d7869416e3e5c095",
+          "bytes": 42624,
+          "cues": 407,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/lupin-iii-jigen-daisuke-bohyou/ep_01.kk.srt",
+          "sha256": "0f1de2b0745f10577bedf775abd2c2487fef42e85d72cd107914c7e4d1a9278c",
+          "bytes": 35388,
+          "cues": 405,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/lupin-iii-jigen-daisuke-bohyou/ep_01.kk.vtt",
+          "sha256": "9fe3e95a40646d06c79cc3ba4ea5bd427e6dc6860253b0f40c2d95650e8606da",
+          "bytes": 35396,
+          "cues": 405,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/lupin-iii-jigen-daisuke-bohyou.json"
 }

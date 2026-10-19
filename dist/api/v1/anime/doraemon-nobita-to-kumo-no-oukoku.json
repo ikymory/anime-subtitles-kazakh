@@ -16,24 +16,56 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita to Kumo no Oukoku - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-kumo-no-oukoku.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-to-kumo-no-oukoku.jpg",
+  "description": "Doraemon. Nobita to Kumo no Oukoku - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-to-kumo-no-oukoku",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-to-kumo-no-oukoku-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-kumo-no-oukoku/doraemon-nobita-to-kumo-no-oukoku-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-kumo-no-oukoku/doraemon-nobita-to-kumo-no-oukoku-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-to-kumo-no-oukoku/doraemon-nobita-to-kumo-no-oukoku-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-kumo-no-oukoku/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-kumo-no-oukoku/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-to-kumo-no-oukoku/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-to-kumo-no-oukoku/ep_01.kk.srt",
+          "sha256": "41e30a40b16d0b370a1b2882cd6a98539c5041947aba6d7c7f48ad9f2f9cc76f",
+          "bytes": 152615,
+          "cues": 1700,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-to-kumo-no-oukoku/ep_01.kk.vtt",
+          "sha256": "e346ce586257fa010ec0a80bd2ed3e1a41949290983964b34eb0d2d1708a1c3e",
+          "bytes": 152712,
+          "cues": 1700,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-to-kumo-no-oukoku/ep_01.kk.ass",
+          "sha256": "2cf11adbf994a8efadf97777007bb6dd061d95f87e52983af7868cedacdb956b",
+          "bytes": 178292,
+          "cues": 1700,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-to-kumo-no-oukoku.json"
 }

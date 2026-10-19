@@ -4,10 +4,12 @@
   "title": {
     "romaji": "Bungou Stray Dogs 2nd Season",
     "english": "Bungo Stray Dogs 2",
-    "native": "文豪ストレイドッグス 第2シーズン"
+    "native": "文豪ストレイドッグス 第2シーズン",
+    "kazakh": "Адасқан иттер 2",
+    "kk": "Адасқан иттер 2"
   },
-  "format": "TV",
-  "episodes": 12,
+  "format": "ONA",
+  "episodes": 8,
   "seasonYear": 2016,
   "genres": [
     "Action",
@@ -15,22 +17,59 @@
     "Mystery",
     "Supernatural"
   ],
-  "description": "Despite their differences in position, three men—the youngest senior executive of the Port Mafia, Osamu Dazai, the lowest ranking member, Sakunosuke Oda, and the intelligence agent, Angou Sakaguchi—gather at the Lupin Bar at the end of the day to relax and take delight in the company of friends.\n<br><br>\nHowever, one night, Angou disappears. A photograph taken at the bar is all that is left of the three together.\n<br><br>\nFast forward to the present, and Dazai is now a member of the Armed Detective Agency. The Guild, an American gifted organization, has entered the fray and is intent on taking the Agency's work permit. They must now divide their attention between the two groups, the Guild and the Port Mafia, who oppose their very existence.",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21679-9MKdz1A7YLV7.jpg",
-  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21679-cOXDcrmMGXBy.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21678-wD5U0J6wHyJX.jpg",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21678-HRhRWI3qctsh.jpg",
+  "description": "Despite their differences in position, three men—the youngest senior executive of the Port Mafia, Osamu Dazai, the lowest ranking member, Sakunosuke Oda, and the intelligence agent, Angou Sakaguchi—gather at the Lupin Bar at the end of the day to relax and take delight in the company of friends.\n\nHowever, one night, Angou disappears. A photograph taken at the bar is all that is left of the three together.\n\nFast forward to the present, and Dazai is now a member of the Armed Detective Agency. The Guild, an American gifted organization, has entered the fray and is intent on taking the Agency's work permit. They must now divide their attention between the two groups, the Guild and the Port Mafia, who oppose their very existence.",
+  "averageScore": 84,
+  "popularity": 67523,
+  "color": "#f1e4ae",
+  "duration": 24,
+  "studio": "bones",
+  "catalog_id": "bungo-stray-dogs-s2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bungo-stray-dogs-s2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungo-stray-dogs-s2/bungo-stray-dogs-s2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungo-stray-dogs-s2/bungo-stray-dogs-s2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungo-stray-dogs-s2/bungo-stray-dogs-s2-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungo-stray-dogs-s2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungo-stray-dogs-s2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungo-stray-dogs-s2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungo-stray-dogs-s2/ep_01.kk.srt",
+          "sha256": "b6a2674f1f61920cc141e1652f8b32ab6b7cd43fac482dca90ff2f72112bc130",
+          "bytes": 42330,
+          "cues": 458,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungo-stray-dogs-s2/ep_01.kk.vtt",
+          "sha256": "b32a3ec5e30437d23ae0f303cd5bef5f572fa98c2533e9a791d7cfb5de2e689e",
+          "bytes": 42427,
+          "cues": 458,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungo-stray-dogs-s2/ep_01.kk.ass",
+          "sha256": "3428cca5ae31e38c98d37fad3482efeef4ddbf7038e0d9d2f9b1f7feb6c3a990",
+          "bytes": 50027,
+          "cues": 458,
+          "origin": "source"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bungo-stray-dogs-s2.json"
 }

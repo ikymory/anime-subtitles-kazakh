@@ -24,10 +24,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Test API and portal logic
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/portal.test.cjs
+
+      - name: Build measured catalog
+        run: python -m subtitle_api.build --output .build/catalog --no-copy-subtitles
+
+      - name: Stage canonical downloads within Pages size budget
+        run: python -m subtitle_api.stage --catalog .build/catalog --output .build/pages
+
+      - name: Verify every advertised download
+        run: python -m subtitle_api.validate --directory .build/pages
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist"
+          path: "./.build/pages"
 
       - name: Deploy to GitHub Pages
         id: deployment

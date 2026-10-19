@@ -16,24 +16,56 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Pokémon Heroes: Latios and Latias - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-heroes-latios-latias.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-heroes-latios-latias.jpg",
+  "description": "Pokémon Heroes: Latios and Latias - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "pokemon-heroes-latios-latias",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "pokemon-heroes-latios-latias-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-heroes-latios-latias/pokemon-heroes-latios-latias-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-heroes-latios-latias/pokemon-heroes-latios-latias-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-heroes-latios-latias/pokemon-heroes-latios-latias-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-heroes-latios-latias/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-heroes-latios-latias/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-heroes-latios-latias/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/pokemon-heroes-latios-latias/ep_01.kk.ass",
+          "sha256": "8963fb8bd16858c3dafe4d2a824460a4698a751870d2502ddad8cdff391a219d",
+          "bytes": 76206,
+          "cues": 861,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/pokemon-heroes-latios-latias/ep_01.kk.srt",
+          "sha256": "e96da668168988a7fef77a60c6df4bf57dfcf8534ebf4fb3cb6210418a33c7ba",
+          "bytes": 62087,
+          "cues": 857,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/pokemon-heroes-latios-latias/ep_01.kk.vtt",
+          "sha256": "25d1ab4e3e4a3b863b7ec5ac59335287d815c2d56868f551b21fc6867557c77f",
+          "bytes": 62095,
+          "cues": 857,
+          "origin": "derived"
+        }
       }
     }
-  ]
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/pokemon-heroes-latios-latias.json"
 }

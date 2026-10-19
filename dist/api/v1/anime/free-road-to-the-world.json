@@ -17,28 +17,59 @@
     "Slice of Life",
     "Sports"
   ],
-  "description": "The film will be a \"reconstruction\" of the Free! Dive to the Future television anime series, but with an added \"new episode.\"<br></br>(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107202-jjp0XqcywCfa.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107202-jjp0XqcywCfa.jpg",
+  "description": "The film will be a \"reconstruction\" of the Free! Dive to the Future television anime series, but with an added \"new episode.\"<br></br>(Source: Anime News Network)",
   "averageScore": 77,
   "popularity": 12185,
+  "color": "#43a1ff",
+  "duration": 99,
+  "studio": "Kyoto Animation",
+  "catalog_id": "free-road-to-the-world",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "free-road-to-the-world-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-road-to-the-world/free-road-to-the-world-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-road-to-the-world/free-road-to-the-world-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/free-road-to-the-world/free-road-to-the-world-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-road-to-the-world/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-road-to-the-world/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/free-road-to-the-world/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/free-road-to-the-world/ep_01.kk.ass",
+          "sha256": "259769842328ca5b72514654a91091f202d8681f98a2a1aeda7d9e5cfffbfa49",
+          "bytes": 155698,
+          "cues": 1441,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/free-road-to-the-world/ep_01.kk.srt",
+          "sha256": "87956fcbd1c8791d3a6c5c51c69259657f62e33540b0674f3ef19f2731abd762",
+          "bytes": 133428,
+          "cues": 1440,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/free-road-to-the-world/ep_01.kk.vtt",
+          "sha256": "3309b72e8e94e6adfa7c947f9da60123b88b68366cbe1ef741191b95dadab29b",
+          "bytes": 133436,
+          "cues": 1440,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#43a1ff",
-  "studio": "Kyoto Animation",
-  "duration": 99,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/free-road-to-the-world.json"
 }

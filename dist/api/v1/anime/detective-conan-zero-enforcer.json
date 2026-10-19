@@ -15,28 +15,59 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Detective Conan: Zero the Enforcer.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100653-keuPmvVKDkhx.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n100653-zxyI1eDBJjJz.jpg",
+  "description": "Kazakh subtitles for Detective Conan: Zero the Enforcer.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "detective-conan-zero-enforcer",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
   "translated_episodes": [
     1
   ],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "detective-conan-zero-enforcer-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/detective-conan-zero-enforcer/detective-conan-zero-enforcer-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/detective-conan-zero-enforcer/detective-conan-zero-enforcer-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/detective-conan-zero-enforcer/detective-conan-zero-enforcer-1ep.ass"
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/detective-conan-zero-enforcer/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/detective-conan-zero-enforcer/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/detective-conan-zero-enforcer/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/detective-conan-zero-enforcer/ep_01.kk.ass",
+          "sha256": "bfc99581d423c8db56ea9ff188cc0699bd926658b8b24c423ccaf524382a1ee7",
+          "bytes": 210989,
+          "cues": 1800,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/detective-conan-zero-enforcer/ep_01.kk.srt",
+          "sha256": "4a3a86baaaf25264e870d7c4644c3cd932623731562fdece78b17b6d78deb57a",
+          "bytes": 183657,
+          "cues": 1798,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/detective-conan-zero-enforcer/ep_01.kk.vtt",
+          "sha256": "3d462eb3153bd65fc08e61190aeea8b6c9a935a14a9681a26faa7f119102e9a3",
+          "bytes": 183665,
+          "cues": 1798,
+          "origin": "derived"
+        }
       }
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/detective-conan-zero-enforcer.json"
 }
