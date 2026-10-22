@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Aoi Hana - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aoi-hana.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aoi-hana.jpg",
+  "description": "Aoi Hana - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "aoi-hana",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,116 +40,410 @@
     10,
     11
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "aoi-hana-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_01.kk.srt",
+          "sha256": "b54b0caec48314d6ab24f0aba2c7983862d68343fcec89cfb9169ff7b4c7ea4a",
+          "bytes": 32959,
+          "cues": 466,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_01.kk.vtt",
+          "sha256": "3c75edba036c11cefddef047776cf37b33607db9fefa2d12ef855447f3fdc5f6",
+          "bytes": 33056,
+          "cues": 466,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_01.kk.ass",
+          "sha256": "d48de6d2c34e5417b0d496b6079204fad1b373429135b872ffee6ef94c23ada6",
+          "bytes": 40828,
+          "cues": 466,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "aoi-hana-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_02.kk.srt",
+          "sha256": "e5c5cf4b2d03715b8cc805e4a9e731dffa3814097447bd2a52b222a62d3594fd",
+          "bytes": 34138,
+          "cues": 469,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_02.kk.vtt",
+          "sha256": "78f7b88f35d93d0dbea6c004bba6f5f83976a399c0e79712e99ed4b28835590a",
+          "bytes": 34235,
+          "cues": 469,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_02.kk.ass",
+          "sha256": "4c625f61b58e2f818328bf3aa060d91feaa7f06cdc074555cc63046ee9fe0ffc",
+          "bytes": 42051,
+          "cues": 469,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "aoi-hana-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_03.kk.srt",
+          "sha256": "2d23785a7bb08885f41d97e0d9ec9f93f426f95ae8d581123c75468db30cbb91",
+          "bytes": 33423,
+          "cues": 449,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_03.kk.vtt",
+          "sha256": "b0f44d444b2c0623f06e4c6147d3c8594ed2c9b0e2e741124400747133f14586",
+          "bytes": 33520,
+          "cues": 449,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_03.kk.ass",
+          "sha256": "b9b1013232efc20527c677ee88d7eada952652375c68e11b2c6a060824a321d5",
+          "bytes": 41036,
+          "cues": 449,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "aoi-hana-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_04.kk.srt",
+          "sha256": "11567557d610c6edc2fb0167881d76d5d552d6395c94ded3c517dee6e90e1706",
+          "bytes": 34994,
+          "cues": 496,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_04.kk.vtt",
+          "sha256": "db22ed15471ced8c2ac3234e424a6dd3ef5631b5e9f87e6a5289f5268c327dc2",
+          "bytes": 35091,
+          "cues": 496,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_04.kk.ass",
+          "sha256": "c322ee7059f67fe13f81ed1ed0e917c6b320138f92890aeca90a054e7319620a",
+          "bytes": 43312,
+          "cues": 496,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "aoi-hana-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_05.kk.srt",
+          "sha256": "38db16cd19a3a19cb288481b77461d37c7c91399e18e28c8d2b4abe67a7a5f70",
+          "bytes": 31201,
+          "cues": 440,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_05.kk.vtt",
+          "sha256": "8849f8fe0d221a9bfd730a98093a7a191ae190adef8273d4d666740863ff36f2",
+          "bytes": 31298,
+          "cues": 440,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_05.kk.ass",
+          "sha256": "46cde5488896279f7f69b03af90fb3685316bb1a7765d0c73e713f7661ead611",
+          "bytes": 38679,
+          "cues": 440,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "aoi-hana-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_06.kk.srt",
+          "sha256": "e1fb53348e75537cbbdf3a34ca17a176982f9a92fb57d7d30a628e18703b7100",
+          "bytes": 34162,
+          "cues": 481,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_06.kk.vtt",
+          "sha256": "2e1100431279e6cb82e04ec333a94cb62510318ecee88a0c21751a5f2f5d562f",
+          "bytes": 34259,
+          "cues": 481,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_06.kk.ass",
+          "sha256": "a15871ad4b8f92172fc1b437057402e03cdbdd7768ba1a018b733f6ba2a7da5b",
+          "bytes": 42255,
+          "cues": 481,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "aoi-hana-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_07.kk.srt",
+          "sha256": "90d7cdba963cef9c3213e88e2a5f48357dd881baafdf6307bfeeb4515e41b8af",
+          "bytes": 29672,
+          "cues": 421,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_07.kk.vtt",
+          "sha256": "f786140279ad12ea69c8e5c1217f6a3143969788d0c6d37fa3d9054537cca1be",
+          "bytes": 29769,
+          "cues": 421,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_07.kk.ass",
+          "sha256": "0ee4f7ed38a34cd190634850ee592cbd7357bdd2968b81d37d397a83b8fa3201",
+          "bytes": 36865,
+          "cues": 421,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "aoi-hana-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_08.kk.srt",
+          "sha256": "7031d0a161a1047d2cc96c63db6513efa9b91fc8e93d09d20876c535ed7ab491",
+          "bytes": 28722,
+          "cues": 406,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_08.kk.vtt",
+          "sha256": "bf8499aff894846907b721c724c49c54b91686c1d1c1b6e57a76819e15adcabe",
+          "bytes": 28819,
+          "cues": 406,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_08.kk.ass",
+          "sha256": "eec2097b5f300d2c772c62f36038b5448b5a66557bdc30042c4c3eb170956032",
+          "bytes": 35690,
+          "cues": 406,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "aoi-hana-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_09.kk.srt",
+          "sha256": "dbe189ddc8cd0ff7a34c5046e41da3d21e998207b08d5887392bb9ead373de4f",
+          "bytes": 30450,
+          "cues": 442,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_09.kk.vtt",
+          "sha256": "32d9d31072cdc7a6378251e0d0ee2b280998492f57d8c7435aeddcfa84734338",
+          "bytes": 30547,
+          "cues": 442,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_09.kk.ass",
+          "sha256": "1f43a5cf539c40555803f3a0632fc2fe9fc8b4ccbd0a27f01ae00c90f3465904",
+          "bytes": 37959,
+          "cues": 442,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "aoi-hana-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_10.kk.srt",
+          "sha256": "27327d4016f3931d415f70cb96e305d63b0d0a648d0f48c20b99574e06dab028",
+          "bytes": 30748,
+          "cues": 426,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_10.kk.vtt",
+          "sha256": "bf8b4248505e449b4ec30ae052f7ae70778c6e39f822e68194c49fd03fbdde42",
+          "bytes": 30845,
+          "cues": 426,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_10.kk.ass",
+          "sha256": "2e72ddb816f157956749b332deb2c383b62d2b5bbcf4777f498fea5a14f8f43f",
+          "bytes": 38016,
+          "cues": 426,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "aoi-hana-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aoi-hana/aoi-hana-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aoi-hana/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aoi-hana/ep_11.kk.srt",
+          "sha256": "05237b649069f9c8ca29d219044e94ffe978d66abfd79db562cf75a8c243e81d",
+          "bytes": 33644,
+          "cues": 472,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aoi-hana/ep_11.kk.vtt",
+          "sha256": "79213a0e7810492710d76bf18e1b2dd6d110082699154eeef7431612224e52b0",
+          "bytes": 33741,
+          "cues": 472,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aoi-hana/ep_11.kk.ass",
+          "sha256": "358230ba967ba439b124159c34871a0bd0956607fd1a8cebfad235ceb28c6437",
+          "bytes": 41602,
+          "cues": 472,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 33,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aoi-hana.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Gekijouban Aquarion - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gekijouban-aquarion.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gekijouban-aquarion.jpg",
+  "description": "Gekijouban Aquarion - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "gekijouban-aquarion",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gekijouban-aquarion-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gekijouban-aquarion/gekijouban-aquarion-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gekijouban-aquarion/gekijouban-aquarion-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gekijouban-aquarion/gekijouban-aquarion-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gekijouban-aquarion/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gekijouban-aquarion/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gekijouban-aquarion/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gekijouban-aquarion/ep_01.kk.srt",
+          "sha256": "7ebaa401f56caa40e2d4c184c4e41a5f621c73557984fc63e2f70ccbe7578e67",
+          "bytes": 113670,
+          "cues": 1287,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gekijouban-aquarion/ep_01.kk.vtt",
+          "sha256": "666c716703c767773c36a28f7aeca017d0c7a9b1677cde981330fc89859b48b1",
+          "bytes": 113767,
+          "cues": 1287,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gekijouban-aquarion/ep_01.kk.ass",
+          "sha256": "24f2c3de640dc3b29ca9978804da19dfaf2c6f2572cdc6fd2721a1f72bdb9651",
+          "bytes": 133565,
+          "cues": 1287,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gekijouban-aquarion.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

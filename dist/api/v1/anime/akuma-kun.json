@@ -16,11 +16,17 @@
     "Supernatural",
     "Mystery"
   ],
-  "description": "Akuma Kun - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/akuma-kun.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/akuma-kun.jpg",
+  "description": "Akuma Kun - official Kazakh translation archive by ikymory.",
   "averageScore": 79,
   "popularity": 94800,
+  "catalog_id": "akuma-kun",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,450 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "akuma-kun-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_01.kk.srt",
+          "sha256": "dd9c5bdb231576f16c74ebbfd73d86a4aab0244088713ebe7569b21cc7c6dab0",
+          "bytes": 35945,
+          "cues": 448,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_01.kk.vtt",
+          "sha256": "e6643d1cc2d3afe412eb7cf1942bd2626bc5ee35df5f5501d177f8c88c100e59",
+          "bytes": 36042,
+          "cues": 448,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_01.kk.ass",
+          "sha256": "31ddea1d8e0142d322e307e8ffc68cad0d047985ab26263e679c6dd42c6c12d3",
+          "bytes": 43654,
+          "cues": 448,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "akuma-kun-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_02.kk.srt",
+          "sha256": "663451832b964782076b0086ae6337a8710d53d297c6aaeb4f44204ca1fceabc",
+          "bytes": 34987,
+          "cues": 432,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_02.kk.vtt",
+          "sha256": "785f9fa7977e7aa65b77e864cc674f92e290b5f88231c26907b8e9887be5e9ae",
+          "bytes": 35084,
+          "cues": 432,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_02.kk.ass",
+          "sha256": "c8b2c67d283a8eac0b85ae1b65bbb54660372381e769cd2a06e3b37dae04129d",
+          "bytes": 42456,
+          "cues": 432,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "akuma-kun-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_03.kk.srt",
+          "sha256": "3a0d360e38c3063ff03fa331771e4bd01246afc3e39aa09c06068bdd5501fb96",
+          "bytes": 35687,
+          "cues": 447,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_03.kk.vtt",
+          "sha256": "447f8c4ecfcea603fe0b09ffcc8fdf31928be283d2d6dd98379b9d0cb5a3e363",
+          "bytes": 35784,
+          "cues": 447,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_03.kk.ass",
+          "sha256": "f5e31c4b6329b65490b484c91e024d260f42855974a4a2d56c63c4e7e017ca4b",
+          "bytes": 43381,
+          "cues": 447,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "akuma-kun-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_04.kk.srt",
+          "sha256": "7323737e9586115a7614cfe590b08b77b070e11239e28083cdf27e747ff63678",
+          "bytes": 39415,
+          "cues": 460,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_04.kk.vtt",
+          "sha256": "d202746e75a60ca887e7ac77787eec46031a376332d586ab82dc876d065aafb9",
+          "bytes": 39512,
+          "cues": 460,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_04.kk.ass",
+          "sha256": "8fec42f0ec4a29d5908535b0d239b5400a6792d8ca2ad5e98b8f17399a9a2430",
+          "bytes": 46939,
+          "cues": 460,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "akuma-kun-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_05.kk.srt",
+          "sha256": "5860c7b7eae0bfb38bdd9fbce9ac2704820ed8dc84726fb90824bc751a92304f",
+          "bytes": 33083,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_05.kk.vtt",
+          "sha256": "9aedaaddd4c68ebfa2afb0e9474c17378f6a221603e80f9950f8eb3bf664a72c",
+          "bytes": 33180,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_05.kk.ass",
+          "sha256": "d360361052fa32c3df987a9e1a7d662530abed9dc980b237cf6aa713b809763c",
+          "bytes": 39982,
+          "cues": 394,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "akuma-kun-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_06.kk.srt",
+          "sha256": "ad94e69ce2bc78bc456f838f50da28349c517b14028bba5ac133ac674705bf79",
+          "bytes": 39801,
+          "cues": 491,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_06.kk.vtt",
+          "sha256": "cbb62bae34231ea1b6ea32e679507e0ea970252f6c7476a7550134653b867ceb",
+          "bytes": 39898,
+          "cues": 491,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_06.kk.ass",
+          "sha256": "9f6c5100b6c02883bc182bc4f82eddffbbf7164ede55d59e996d12014f10efdb",
+          "bytes": 48155,
+          "cues": 491,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "akuma-kun-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_07.kk.srt",
+          "sha256": "ba2613991c1c5f722da5fb3ec0cc63d19c217d2d2164206fe0e43b9ea3e3a3cc",
+          "bytes": 43132,
+          "cues": 512,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_07.kk.vtt",
+          "sha256": "5f778a8ba29580a18824bc08207f0d2b62727eb25fdf68b731bc28a13264f080",
+          "bytes": 43229,
+          "cues": 512,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_07.kk.ass",
+          "sha256": "0dfd8e46015a2e4c49baffd6f435b85e05dbd922e850b524e505e25a6bbbd2cb",
+          "bytes": 51801,
+          "cues": 512,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "akuma-kun-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_08.kk.srt",
+          "sha256": "64b3bb44bb70a1f6d68493b29a63768eda6ea44c0eef08e26760ab8e3f193797",
+          "bytes": 37814,
+          "cues": 483,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_08.kk.vtt",
+          "sha256": "a1775ff67dbce0806d10ae67ffa763db20c76589f0e3ada6f5b64965c14b1b37",
+          "bytes": 37911,
+          "cues": 483,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_08.kk.ass",
+          "sha256": "afc2d769071cacffe97b255bc1cc8049cf0a0d642a1647bb0c764e860172a9d7",
+          "bytes": 46048,
+          "cues": 483,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "akuma-kun-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_09.kk.srt",
+          "sha256": "c6edb86520fbdebf7c1043ab3141fdd23a987f324a30ca14e6afbb1472dc7f7f",
+          "bytes": 31278,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_09.kk.vtt",
+          "sha256": "0eb06f3b0e9d9699df23f75f5488caf4ea58df7e63491e6e83201f25f98c89bc",
+          "bytes": 31375,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_09.kk.ass",
+          "sha256": "6c04233963351ea2baa84054ec8ec60cb2a51cefc4cbbc1f32f23c0c1ddab0de",
+          "bytes": 38372,
+          "cues": 407,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "akuma-kun-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_10.kk.srt",
+          "sha256": "752d2bcf27ed3f2d0713ccef0a62cc461ec656014fb6f9da9b1e90b5b0566fdf",
+          "bytes": 34118,
+          "cues": 432,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_10.kk.vtt",
+          "sha256": "8f3d160473e1856a5096fd8c923b09109b6a608b517c339b5eaab20c2869d8df",
+          "bytes": 34215,
+          "cues": 432,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_10.kk.ass",
+          "sha256": "5449c812a6790a5d0bf582f1903c0bde857659f05dd535bc51f52c6adc24ec05",
+          "bytes": 41587,
+          "cues": 432,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "akuma-kun-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_11.kk.srt",
+          "sha256": "a7befe2137070e02c0172a4de5951d14552e5765a31559789d9ec851b2038545",
+          "bytes": 34424,
+          "cues": 459,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_11.kk.vtt",
+          "sha256": "ddb5872d3c87db3889778696eb69ba2a7ab385a17b7c4db6fe957a96ae0dfa23",
+          "bytes": 34521,
+          "cues": 459,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_11.kk.ass",
+          "sha256": "9bca95be48d18f60d8ec186024b83053f8c359d7db7b34283f55697dc3c655d0",
+          "bytes": 42298,
+          "cues": 459,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "akuma-kun-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akuma-kun/akuma-kun-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akuma-kun/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akuma-kun/ep_12.kk.srt",
+          "sha256": "ea28d1f962bc44bfd6344bd6676ebc409d28dc1bef0394c6988b2d4804f80a86",
+          "bytes": 34254,
+          "cues": 479,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akuma-kun/ep_12.kk.vtt",
+          "sha256": "287a32a62f1e7e5af55991e6b00fdadd7408a149b58a544a9842a36822833539",
+          "bytes": 34351,
+          "cues": 479,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akuma-kun/ep_12.kk.ass",
+          "sha256": "701f3fd0f5294d9f2292982afdf899495678032710a8a7b6c96348cfdad73fc2",
+          "bytes": 42428,
+          "cues": 479,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 38,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/akuma-kun.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
     "english": "Classroom of the Elite",
-    "native": "ようこそ実力至上主義の教室へ"
+    "native": "ようこそ実力至上主義の教室へ",
+    "kazakh": "Таңдаулылар сыныбы",
+    "kk": "Таңдаулылар сыныбы"
   },
   "format": "TV",
   "episodes": 12,
@@ -13,22 +15,67 @@
     "Drama",
     "Psychological"
   ],
-  "description": "Koudo Ikusei Senior High School is a leading school with state-of-the-art facilities. The students there have the freedom to wear any hairstyle and bring any personal effects they desire. Koudo Ikusei is like a utopia, but the truth is that only the most superior students receive favorable treatment.<br><br>\n\nKiyotaka Ayanokouji is a student of D-class, which is where the school dumps its \"inferior\" students in order to ridicule them. For a certain reason, Kiyotaka was careless on his entrance examination, and was put in D-class. After meeting Suzune Horikita and Kikyou Kushida, two other students in his class, Kiyotaka's situation begins to change. <br><br>\n(Source: Anime News Network, edited)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98659-WNyPLIZDpGGY.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98659-WNyPLIZDpGGY.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98659-u46B5RCNl9il.jpg",
+  "description": "Koudo Ikusei Senior High School is a leading school with state-of-the-art facilities. The students there have the freedom to wear any hairstyle and bring any personal effects they desire. Koudo Ikusei is like a utopia, but the truth is that only the most superior students receive favorable treatment.\n\nKiyotaka Ayanokouji is a student of D-class, which is where the school dumps its \"inferior\" students in order to ridicule them. For a certain reason, Kiyotaka was careless on his entrance examination, and was put in D-class. After meeting Suzune Horikita and Kikyou Kushida, two other students in his class, Kiyotaka's situation begins to change. \n(Source: Anime News Network, edited)",
+  "averageScore": 87,
+  "popularity": 62332,
+  "color": "#bbf1a1",
+  "duration": 24,
+  "studio": "Lerche",
+  "catalog_id": "classroom-elite",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "classroom-elite-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/classroom-elite/classroom-elite-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/classroom-elite/classroom-elite-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/classroom-elite/classroom-elite-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/classroom-elite/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/classroom-elite/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/classroom-elite/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/classroom-elite/ep_01.kk.srt",
+          "sha256": "ad5c6ca13ca7dd5ea25fedd8bcf4cdff27d117bf48da90b0a5213f386f22f669",
+          "bytes": 37587,
+          "cues": 373,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/classroom-elite/ep_01.kk.vtt",
+          "sha256": "b02eeb4e29fc9532af1bf4a18f8d950e19a0d62a9fbebd6ac39421050b4952b6",
+          "bytes": 37684,
+          "cues": 373,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/classroom-elite/ep_01.kk.ass",
+          "sha256": "4d5e38b9f2111b4f72d97425359394e6b7134dfbe0c6a6284a0ac8bc2243d657",
+          "bytes": 44005,
+          "cues": 373,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/classroom-elite.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

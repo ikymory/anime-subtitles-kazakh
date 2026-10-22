@@ -4,18 +4,31 @@
   "title": {
     "romaji": "Jujutsu Kaisen 0",
     "english": "JUJUTSU KAISEN 0",
-    "native": "呪術廻戦 0"
+    "native": "呪術廻戦 0",
+    "kazakh": "Сиқырлы шайқас 0",
+    "kk": "Сиқырлы шайқас 0"
   },
   "format": "MOVIE",
-  "episodes": 1,
+  "episodes": 25,
   "seasonYear": 2021,
   "genres": [
     "Action",
     "Supernatural"
   ],
-  "description": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?\n<br><br>\n(Source: VIZ Media)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131573-rpl82vDEDRm6.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131573-3veuVz5p0z2I.jpg",
+  "description": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?\n\n(Source: VIZ Media)",
+  "averageScore": 89,
+  "popularity": 97000,
+  "color": "#f1c95d",
+  "duration": 105,
+  "studio": "MAPPA",
+  "catalog_id": "jjk",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     0,
     1,
@@ -43,256 +56,940 @@
     23,
     24
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 25,
+  "available_episodes_count": 25,
   "subtitles": [
     {
       "episode": 0,
       "language": "kk",
-      "filename": "jjk-0ep.srt",
+      "filename": "ep_00.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-0ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-0ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-0ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_00.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_00.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_00.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_00.kk.srt",
+          "sha256": "80051437234043751f4dccd8b42ed923109a30c7c2ad65ed7ac841bc6bc9dd16",
+          "bytes": 137065,
+          "cues": 1461,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_00.kk.vtt",
+          "sha256": "5ae1aae4ebd473b07377fd764db3e0edcfbd975bd3e768d625f5424da9b11335",
+          "bytes": 137162,
+          "cues": 1461,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_00.kk.ass",
+          "sha256": "3225f517fadb7885dc44e795678285eb6c1313dfc79e1119f64934f3a033f264",
+          "bytes": 159329,
+          "cues": 1461,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 1,
       "language": "kk",
-      "filename": "jjk-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_01.kk.srt",
+          "sha256": "e0ab9b73fcee038c5d4bef2bc05368ca99daa0637c17a82f57c9175fbc18714a",
+          "bytes": 37035,
+          "cues": 427,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_01.kk.vtt",
+          "sha256": "81a761bc062495bf3e1e575db1472751d6b9890e55804186f07f77730cf27f66",
+          "bytes": 37132,
+          "cues": 427,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_01.kk.ass",
+          "sha256": "43569dedefd9d17cdd308289ab400201f83f9eee2c231f82b8c36f06eb34470a",
+          "bytes": 44251,
+          "cues": 427,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "jjk-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_02.kk.srt",
+          "sha256": "d6a4ea1af9227c71ddf8b76a68c7bbf76373a731f4f027364a8de6e39a4abb01",
+          "bytes": 36119,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_02.kk.vtt",
+          "sha256": "1be9f158ecf7fc13110784992831dfad11ddb04f62311a9a06c4fcf5e1af9cea",
+          "bytes": 36216,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_02.kk.ass",
+          "sha256": "9715382c8bb5a2ecd85c4688d492dbc0635a12c3e578e60ff2369c7eb0bdcc96",
+          "bytes": 42765,
+          "cues": 389,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "jjk-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_03.kk.srt",
+          "sha256": "6db752da5b5bc5bdfd22817d63f9be370af29826f2537520c8f22c0f5b35ca1f",
+          "bytes": 35874,
+          "cues": 368,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_03.kk.vtt",
+          "sha256": "440ce3fb3bb9155c52c2c86b3c43e2d135f5720798f32921ca8b0da3a13aed9a",
+          "bytes": 35971,
+          "cues": 368,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_03.kk.ass",
+          "sha256": "2f131804bc7afc1eb0876640bb31fd6682a1f9cd4239611d7c8dfd7948eae0b6",
+          "bytes": 42205,
+          "cues": 368,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "jjk-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_04.kk.srt",
+          "sha256": "1b88cd51775f4ee5444c7c9e285ea3373ad978c252d320735eaa6063f7d720ec",
+          "bytes": 39657,
+          "cues": 376,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_04.kk.vtt",
+          "sha256": "6103735799d3354576c9de91e3ec4fe3e0d7a55bf340802c6c0d2acb460ee6ad",
+          "bytes": 39754,
+          "cues": 376,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_04.kk.ass",
+          "sha256": "5d7519cce9f3695f3ea27e60a76160e41f1805389007cab3f19964dea3682c35",
+          "bytes": 46108,
+          "cues": 376,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "jjk-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_05.kk.srt",
+          "sha256": "d92591b88deddbf147378749b9d8f688148ecf251052f1c9e8ece3a6a7ccce3b",
+          "bytes": 30231,
+          "cues": 336,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_05.kk.vtt",
+          "sha256": "a80ef421beaca03283acbc2ce053779ce8383ec9785857783cf263341ab797e8",
+          "bytes": 30328,
+          "cues": 336,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_05.kk.ass",
+          "sha256": "def0eb94941351977d245cfa0eb6f63d965f8cf1a7bbf1a291b19e2282eee208",
+          "bytes": 36082,
+          "cues": 336,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "jjk-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_06.kk.srt",
+          "sha256": "f62892fca1934618c6c18498218b96cdbc8c43a121ca1f80cdffb0890b2dd18b",
+          "bytes": 38979,
+          "cues": 403,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_06.kk.vtt",
+          "sha256": "e3de0577a180703cc7dbcdb2558d75fe96a44dd0f56a54cfe2228a1bf7a90e6e",
+          "bytes": 39076,
+          "cues": 403,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_06.kk.ass",
+          "sha256": "500188f3338c46ead8e15d3b190e9ab01bc5529aaa95666ab939b6f338433a22",
+          "bytes": 45835,
+          "cues": 403,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "jjk-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_07.kk.srt",
+          "sha256": "af3df3d5ea10a985cca22e6410257dccf4bfbbcb7fb6b70bd69e343f803ea5c6",
+          "bytes": 39400,
+          "cues": 346,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_07.kk.vtt",
+          "sha256": "9048bc0579b4fe7376ea9cfef427216d134f8046e3aa1155ad50628d96e588a6",
+          "bytes": 39497,
+          "cues": 346,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_07.kk.ass",
+          "sha256": "894f4536e14f9f1fcb90e036a0119371508262d62b23cb4f54fe6c24ab8f16e1",
+          "bytes": 45401,
+          "cues": 346,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "jjk-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_08.kk.srt",
+          "sha256": "3ed8ce55333273f218aaa72876628b5304c7ce02163775f1c6acc526a4a65ac8",
+          "bytes": 39557,
+          "cues": 364,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_08.kk.vtt",
+          "sha256": "392a2f7254aef57cadf35321781627899cd7f596904ce8a2e948e367056b4376",
+          "bytes": 39654,
+          "cues": 364,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_08.kk.ass",
+          "sha256": "850b9bd81a716a0ca796a22765d31a5d77932f436862e2f29b8b2e9949c98d80",
+          "bytes": 45828,
+          "cues": 364,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "jjk-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_09.kk.srt",
+          "sha256": "3bb7b6ba7a9bc04de4edf189b2792af8e06bab5575f3fe043e4d89569f7a37c2",
+          "bytes": 36883,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_09.kk.vtt",
+          "sha256": "a3e66b0700e4d6ee374a261d639f4de85eade4dc279ffd6f4035720841f2984b",
+          "bytes": 36980,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_09.kk.ass",
+          "sha256": "46a4bc67c572417a5eac6b7a8ea0c39c67897be32cf139cdd72b032618602929",
+          "bytes": 43094,
+          "cues": 360,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "jjk-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_10.kk.srt",
+          "sha256": "6fd35a6c574eb8db7c5aae1d3dad64ad9026d19d705770679d4a3f478f0ec5e1",
+          "bytes": 34644,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_10.kk.vtt",
+          "sha256": "8ef2d12ce08f6983f2ff019033c0f932b8110d5a45cc2f7af738a31a36d90b7f",
+          "bytes": 34741,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_10.kk.ass",
+          "sha256": "7a6460b08d28f8b60f2944e698bd2ae8d9ecf13efb461eb0a56055c0306aa3b5",
+          "bytes": 40840,
+          "cues": 359,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "jjk-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_11.kk.srt",
+          "sha256": "417ed8bf3c4bd77038f140401fae6d41b939340e46cbf24385f33adb04a749ce",
+          "bytes": 44243,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_11.kk.vtt",
+          "sha256": "c3c46bcd92c08a811e6ea2db0390db3c919d8fb7261cf12e0c852e1b30a2e6e7",
+          "bytes": 44340,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_11.kk.ass",
+          "sha256": "9869b2d4e4e2b936883f7ebba31f2862cca2da4091da1f7c7d61bb589523411d",
+          "bytes": 51039,
+          "cues": 399,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "jjk-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_12.kk.srt",
+          "sha256": "a2d38655aa4f11bfc2d4baa2950a793618a3ecd5cd52fde4009ef39f89674b9b",
+          "bytes": 29558,
+          "cues": 320,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_12.kk.vtt",
+          "sha256": "358eb60065129b7ca18e0a29a388f9b64e51df3f070722bc5af136ada10c5318",
+          "bytes": 29655,
+          "cues": 320,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_12.kk.ass",
+          "sha256": "7fa9e5e5dcee7d6fc6652a22542927e925f838a8a0ffb4c1857e0622322496d7",
+          "bytes": 35169,
+          "cues": 320,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "jjk-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_13.kk.srt",
+          "sha256": "f49103794ad64a6a3276472d2c0d7076153967bc11f0ad0e9cba684ed90a9481",
+          "bytes": 32145,
+          "cues": 340,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_13.kk.vtt",
+          "sha256": "cc4bc0da6677475a716ba3fe31cb4af279a20996c16c03025c35640044d14ffb",
+          "bytes": 32242,
+          "cues": 340,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_13.kk.ass",
+          "sha256": "7aa1e809e5152163b25dcc8d748419a6ede080a5aafbc2ebdb6ee4b863458bb6",
+          "bytes": 38056,
+          "cues": 340,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "jjk-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_14.kk.srt",
+          "sha256": "0797b9d8a72f3880cb81e66d23a5134f0e0a6fd6d5b8da9326d30bdd62f7fc1b",
+          "bytes": 42781,
+          "cues": 422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_14.kk.vtt",
+          "sha256": "7d3b5eea64abfb8092a4ce8505d8e650dc8c24d2ec8a890fa34e6caa9fd6f53f",
+          "bytes": 42878,
+          "cues": 422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_14.kk.ass",
+          "sha256": "528a63651ce917e1ebf5dff44c07181d58dbadb43e11056070f8a7d7e9a58275",
+          "bytes": 49922,
+          "cues": 422,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "jjk-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_15.kk.srt",
+          "sha256": "0230c997b0199b07396b69f481809c754cc7b7d475b665fc85fe501fc0e2f4a0",
+          "bytes": 30322,
+          "cues": 337,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_15.kk.vtt",
+          "sha256": "c5c482b853009edd4933588af6fb5fd3a2854ee273e251a59b6a3f1c59e0276d",
+          "bytes": 30419,
+          "cues": 337,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_15.kk.ass",
+          "sha256": "8ed956f6edb63b87c0488d6ce31162ee2c685aba16eff9127055338d8d95c72d",
+          "bytes": 36188,
+          "cues": 337,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "jjk-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_16.kk.srt",
+          "sha256": "4c474b37435fc8794b991b8f80151a7a024516aacc55ceca45a76b646acc5704",
+          "bytes": 34437,
+          "cues": 332,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_16.kk.vtt",
+          "sha256": "35123ee9c21d4690df707d8fdf5501e77971acf80ba0c266dc6cc4b9968487c7",
+          "bytes": 34534,
+          "cues": 332,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_16.kk.ass",
+          "sha256": "7d0b8225db3324d9f539eda29ab4ebbe0684d1de7a33f1ff767045170f960b1f",
+          "bytes": 40228,
+          "cues": 332,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "jjk-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_17.kk.srt",
+          "sha256": "e8fab2d3b578060bcbc517a17b0849ccfd501a4d321afa1ee54af46967c12763",
+          "bytes": 35283,
+          "cues": 368,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_17.kk.vtt",
+          "sha256": "ba594334e0b26f9a182aa156874fd9c1b753fc188ddccdc70b1c6c8951c0b97a",
+          "bytes": 35380,
+          "cues": 368,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_17.kk.ass",
+          "sha256": "df9297bd036434a44b91719a506c034a72718e9080e54cab4acca666b1b0e180",
+          "bytes": 41614,
+          "cues": 368,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "jjk-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_18.kk.srt",
+          "sha256": "b879b7e92d5593ed522b0a9b7e270bd90860ffb4fdaec36d94e7dddc9090236d",
+          "bytes": 32024,
+          "cues": 300,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_18.kk.vtt",
+          "sha256": "291a903b1f1b0c3fe080bd637f2474fbab0bd653016d9c88a60c99256245eb8b",
+          "bytes": 32121,
+          "cues": 300,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_18.kk.ass",
+          "sha256": "32162b3a47c1cbf1cfd4cf6fe686f8e6baa7a6422f4de311281fc95cccf9b6e1",
+          "bytes": 37335,
+          "cues": 300,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "jjk-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_19.kk.srt",
+          "sha256": "5a2c042219c59238356f6948ae45b9e42b22146666c5db9fa11d8077ac8f254a",
+          "bytes": 30869,
+          "cues": 312,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_19.kk.vtt",
+          "sha256": "7c29b9f39560018310aa43c47a507d2b436de803cea6cd47136339f81f80d210",
+          "bytes": 30966,
+          "cues": 312,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_19.kk.ass",
+          "sha256": "9dccee4751a65819b3346b4741eeb7d347f4c113b1e2025bb06ed4bfd5b30b0d",
+          "bytes": 36360,
+          "cues": 312,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "jjk-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_20.kk.srt",
+          "sha256": "4e29001f96e9544be9bee42e2994417aae6bdc02eb2adb309bdc54d6d5f7e16b",
+          "bytes": 32725,
+          "cues": 337,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_20.kk.vtt",
+          "sha256": "db02776d4c1d5bbd646ffe1bea8f38c22406205b030c827aced022df4f93aec5",
+          "bytes": 32822,
+          "cues": 337,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_20.kk.ass",
+          "sha256": "9ff9cfc4b7ce7e85d0c1a3ca352625db27235822dbe1562e83cd4a05e7befdc5",
+          "bytes": 38591,
+          "cues": 337,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "jjk-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_21.kk.srt",
+          "sha256": "0b4d1f0e2bf04893ffcd2755028a0cdef31bbbb3733df0944e4d1155ce8f0810",
+          "bytes": 41289,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_21.kk.vtt",
+          "sha256": "c78668f31a4b6e9768e320e75ea5f86b1548a2074ab250cace8e08d9c14bd5d7",
+          "bytes": 41386,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_21.kk.ass",
+          "sha256": "687f7c89ff9336b2db19a27fc3d28413014d848da46569937bb6c4b8288f2c90",
+          "bytes": 47320,
+          "cues": 348,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "jjk-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_22.kk.srt",
+          "sha256": "edb138a7ca4093702eafc4473347adefff2dac986f310afb94823f9024b49637",
+          "bytes": 42658,
+          "cues": 369,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_22.kk.vtt",
+          "sha256": "25cb19e7f5a90143cd2c83e6f3ab49bc609296fc1b94b495da254bf43cb9ec4e",
+          "bytes": 42755,
+          "cues": 369,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_22.kk.ass",
+          "sha256": "9136b243c2bcb3ade850a44d03eae6ea9cdac77291ad7b042930805bbe4c9d57",
+          "bytes": 49004,
+          "cues": 369,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "jjk-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_23.kk.srt",
+          "sha256": "44cb33c5dba098cf3943bcbc01ec2a2455a8040d5f187b4b14c6c94f2d709235",
+          "bytes": 28417,
+          "cues": 344,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_23.kk.vtt",
+          "sha256": "b7b29046f678fc167ed05ee79aadb6077cb7ad07faf45023066fb4511e401437",
+          "bytes": 28514,
+          "cues": 344,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_23.kk.ass",
+          "sha256": "59e36799340630302699e8f0567c7eb61b1c17464c00c91222a626c4be6a6b37",
+          "bytes": 34388,
+          "cues": 344,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "jjk-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jjk/jjk-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jjk/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jjk/ep_24.kk.srt",
+          "sha256": "4ea5a0af99f352dffc983c32077f27ccef244dbc9284cb07a9e7d3525626a443",
+          "bytes": 33628,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jjk/ep_24.kk.vtt",
+          "sha256": "893ac6bef4c59ebce67f12383a1d2367acb2735ff2dc304823943bc184873454",
+          "bytes": 33725,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jjk/ep_24.kk.ass",
+          "sha256": "c25ca5f07985cdb7da2a94f9db70d21e18e6c556e9bb9e5d640c0c5e81c079a1",
+          "bytes": 40499,
+          "cues": 404,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 125,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jjk.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

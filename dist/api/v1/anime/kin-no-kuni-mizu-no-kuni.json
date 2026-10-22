@@ -16,24 +16,69 @@
     "Fantasy",
     "Romance"
   ],
-  "description": "Gold Kingdom and Water Kingdom - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kin-no-kuni-mizu-no-kuni.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kin-no-kuni-mizu-no-kuni.jpg",
+  "description": "Gold Kingdom and Water Kingdom - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "kin-no-kuni-mizu-no-kuni",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kin-no-kuni-mizu-no-kuni-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kin-no-kuni-mizu-no-kuni/kin-no-kuni-mizu-no-kuni-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kin-no-kuni-mizu-no-kuni/kin-no-kuni-mizu-no-kuni-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kin-no-kuni-mizu-no-kuni/kin-no-kuni-mizu-no-kuni-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kin-no-kuni-mizu-no-kuni/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kin-no-kuni-mizu-no-kuni/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kin-no-kuni-mizu-no-kuni/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/kin-no-kuni-mizu-no-kuni/ep_01.kk.ass",
+          "sha256": "a3cdf5070b3395bab0a41345950a511d0ff819991f7a434f150e5f28db11d3b6",
+          "bytes": 190195,
+          "cues": 1765,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/kin-no-kuni-mizu-no-kuni/ep_01.kk.srt",
+          "sha256": "0a21242d1f20768af295ac7633b469608c5f3dbadc1317ecd362bdcc96889a7a",
+          "bytes": 163167,
+          "cues": 1758,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/kin-no-kuni-mizu-no-kuni/ep_01.kk.vtt",
+          "sha256": "ba86f63c2253db38526f87b6e65cfae4c69e234cc6bed4c5e08d25a5886505c2",
+          "bytes": 163175,
+          "cues": 1758,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kin-no-kuni-mizu-no-kuni.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

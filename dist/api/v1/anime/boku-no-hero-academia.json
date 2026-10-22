@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Boku no Hero Academia - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-no-hero-academia.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-no-hero-academia.jpg",
+  "description": "Boku no Hero Academia - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "boku-no-hero-academia",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +42,482 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boku-no-hero-academia-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_01.kk.srt",
+          "sha256": "596b043edc097747ecce4d672a939a7a861bee7971884c37950a99b3742270dc",
+          "bytes": 31230,
+          "cues": 352,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_01.kk.vtt",
+          "sha256": "efe4612597bf13aab45dfba674a9dc3b640074df80375c10548436870ff94424",
+          "bytes": 31327,
+          "cues": 352,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_01.kk.ass",
+          "sha256": "94b67419d3bb5400f5d57d6cdc8795c84b694ba32b29836855249cba7d5ff30b",
+          "bytes": 37388,
+          "cues": 352,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "boku-no-hero-academia-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_02.kk.srt",
+          "sha256": "af55a99b687560924464f611a62d7f4c979f1129c6c0b04f8e01bc967a2b4bc9",
+          "bytes": 31713,
+          "cues": 378,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_02.kk.vtt",
+          "sha256": "2c0782a38cdc3ea37740567feff858cc3bbe782b11ae4f9e9e71f7b5e97aec28",
+          "bytes": 31810,
+          "cues": 378,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_02.kk.ass",
+          "sha256": "8ccc848e22c8b6f997b1474c9f159d12814563ed0d67fc7a063e3456b9f57e9a",
+          "bytes": 38261,
+          "cues": 378,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "boku-no-hero-academia-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_03.kk.srt",
+          "sha256": "8c6bbfdf7402856c69ce1b15bb8e718f367d52e745c6fbd73f33f45b6220f659",
+          "bytes": 37815,
+          "cues": 411,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_03.kk.vtt",
+          "sha256": "0ca6e4d7c405e8decd95b754c278bd92da991d4adac28372c53ee6935ef849d7",
+          "bytes": 37912,
+          "cues": 411,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_03.kk.ass",
+          "sha256": "2d0e608e265b238086f5891a973ee37ca99bd0712e41b31ee69f2d4572d28439",
+          "bytes": 44858,
+          "cues": 411,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "boku-no-hero-academia-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_04.kk.srt",
+          "sha256": "1babd0733930c75913d3eadcacf84af33c617232c4fbc70cbb93c3f4af2d9185",
+          "bytes": 31355,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_04.kk.vtt",
+          "sha256": "b6cbc9b246caef084cdf1ba58ecbe8f9b819c26f0b84daa06407073df9f9cfcb",
+          "bytes": 31452,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_04.kk.ass",
+          "sha256": "c303d93b3b37642c6e3048dffb7bc236f23c331b7c46acb25aec8dbdcfda28c0",
+          "bytes": 37813,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "boku-no-hero-academia-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_05.kk.srt",
+          "sha256": "f987e9e8b9fee9e9daa65912db4f9937dcef8df5dc182078be9cca670f280c1b",
+          "bytes": 39861,
+          "cues": 447,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_05.kk.vtt",
+          "sha256": "6fc6bc8de01cf12604ab341c7f3bd639e9a9550530eaee050275b5c1bc6af6e7",
+          "bytes": 39958,
+          "cues": 447,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_05.kk.ass",
+          "sha256": "3b2f0b2e545fabc13158ba7c5d8ea658fe50f59c3a8691c40744c21ea6fa4413",
+          "bytes": 47444,
+          "cues": 447,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "boku-no-hero-academia-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_06.kk.srt",
+          "sha256": "e50c3f5f7c2f6d114ae2c9b0c0337c0639cd8db2406665e44c527d60000ba41e",
+          "bytes": 38729,
+          "cues": 421,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_06.kk.vtt",
+          "sha256": "a83b2fa1633555556f51eebf504ff956cabe0a5c1222291428f4d5185833e3a2",
+          "bytes": 38826,
+          "cues": 421,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_06.kk.ass",
+          "sha256": "c996bc9707df027949c8921e01915d35644dcfcdead08820038c78c344b96cae",
+          "bytes": 45922,
+          "cues": 421,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "boku-no-hero-academia-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_07.kk.srt",
+          "sha256": "4b676c2f90b26112a6f828ef556a169795fbacc9fd1a5d2a3ea30f3c1f8c0150",
+          "bytes": 34663,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_07.kk.vtt",
+          "sha256": "cc84045f2295114df33d5e20095107526bf015c41da7234d500ac07734717645",
+          "bytes": 34760,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_07.kk.ass",
+          "sha256": "092c00c6b369f28c260f87815ed5cd155ba957bdfcc4abb84f2ce73149c8e382",
+          "bytes": 41736,
+          "cues": 413,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "boku-no-hero-academia-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_08.kk.srt",
+          "sha256": "9568b326dc38173aaa5f2d3e1c32ccfeee11c1138d05242d4c377d788c8bc502",
+          "bytes": 33694,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_08.kk.vtt",
+          "sha256": "ec4912e5e0e138d27bcf3ee4b57f301c5ce873752e758e68eb074e74b908313d",
+          "bytes": 33791,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_08.kk.ass",
+          "sha256": "756d11f2be000b7da794e57f35732c0e3014c9a06af14c0706c515a1c894d75c",
+          "bytes": 40227,
+          "cues": 377,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "boku-no-hero-academia-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_09.kk.srt",
+          "sha256": "27af3b8bdd608c7371322a1340baa78d05587caa8a797ad9f7aefa2b29119872",
+          "bytes": 44279,
+          "cues": 465,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_09.kk.vtt",
+          "sha256": "b647e336f1e985102682bfae362d722212770c6fcb5c96b80397652bae5089f0",
+          "bytes": 44376,
+          "cues": 465,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_09.kk.ass",
+          "sha256": "3748a985a0850785b1b421bcb34bcf694c2b1e63b498613840721ab2ae963203",
+          "bytes": 52132,
+          "cues": 465,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "boku-no-hero-academia-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_10.kk.srt",
+          "sha256": "03c922ef69cfa3b02c03ffff8f4adac6b5ec4a2e5d9e12b2c0166c1bc4e36a39",
+          "bytes": 37862,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_10.kk.vtt",
+          "sha256": "b713ee65c8d289678e00f9693fc76378739461b009eff914275d29d5e7dce030",
+          "bytes": 37959,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_10.kk.ass",
+          "sha256": "5725046865a3b4f209ecd4ecc56c5c3476b59eee6552c0d99c6daa570c317c7d",
+          "bytes": 44845,
+          "cues": 407,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "boku-no-hero-academia-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_11.kk.srt",
+          "sha256": "02cc5a7c7c977c59d0a01fa97341cf9babce20b33f3fa96c6a57c2352f2522ff",
+          "bytes": 33383,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_11.kk.vtt",
+          "sha256": "95751f976936aa4c728eb338a7f0e727fb42d8c1a18344dacf4394b95ea6a3cb",
+          "bytes": 33480,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_11.kk.ass",
+          "sha256": "763e5cb1eb4197ce4a777c6c980fcfeac165491fd99058df006f3723202e0b17",
+          "bytes": 40126,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "boku-no-hero-academia-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_12.kk.srt",
+          "sha256": "f630bee61b92a93f5abd5a3b95f854b056663a94a5e4ffc69bd93bc72aa13c49",
+          "bytes": 28342,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_12.kk.vtt",
+          "sha256": "a8a2093cbc01346673f600493a11706e1bcb6edec70f031bdc56fedf5c54d9e0",
+          "bytes": 28439,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_12.kk.ass",
+          "sha256": "60b633ad14ddb77615af520e815cb8178928be7cb4fe95d985a687b9a6e30ec6",
+          "bytes": 34440,
+          "cues": 348,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "boku-no-hero-academia-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-no-hero-academia/boku-no-hero-academia-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-no-hero-academia/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boku-no-hero-academia/ep_13.kk.srt",
+          "sha256": "e66a636ba8f751160fb4647396d6c99892199f2ac9eb5a557e24eda4eefab414",
+          "bytes": 31457,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boku-no-hero-academia/ep_13.kk.vtt",
+          "sha256": "5f5db7480b8f83c90356776c9198b44f33d298b381bba4919ab8a009ee19e78a",
+          "bytes": 31554,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boku-no-hero-academia/ep_13.kk.ass",
+          "sha256": "d649686ddf08361bbadc9e00b65b2243d4948e325821f38d382d4cec8a27f63c",
+          "bytes": 37645,
+          "cues": 354,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boku-no-hero-academia.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Buddy Daddies - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/buddy-daddies.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/buddy-daddies.jpg",
+  "description": "Buddy Daddies - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "buddy-daddies",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +42,484 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "buddy-daddies-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_01.kk.srt",
+          "sha256": "417bdec4de58657f3b6ee05be5cf5cc5df8ea0856fa22e83d1c8479fe5222c92",
+          "bytes": 25339,
+          "cues": 326,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_01.kk.vtt",
+          "sha256": "17e75ad5998a178fdb4fa244ff35baab1ed03f08b2c369c4dcd82b77a9ef7e05",
+          "bytes": 25436,
+          "cues": 326,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_01.kk.ass",
+          "sha256": "da8512c9c2adeb9d159b73b4c1a5d1f4bd58377da0514379c81b4acc971dac15",
+          "bytes": 31288,
+          "cues": 326,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "buddy-daddies-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_02.kk.srt",
+          "sha256": "a37c7aeafd8a32c168668c9fb8a3a82e1292531ce7e3885927cb6b4ba7daab72",
+          "bytes": 34342,
+          "cues": 465,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_02.kk.vtt",
+          "sha256": "bb25e523e602eab9b1a7f846ce161523e3815430093f3655788b63da32629e3f",
+          "bytes": 34439,
+          "cues": 465,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_02.kk.ass",
+          "sha256": "d249124ddf5d75c651335f27509ee906e4537ab004e5c67570afaa3b77d30ad9",
+          "bytes": 42376,
+          "cues": 465,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "buddy-daddies-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_03.kk.srt",
+          "sha256": "db5d76c0d7a175064ad9e45a5806153509af37cd50b5af9622b96a5c8d83e61a",
+          "bytes": 28808,
+          "cues": 384,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_03.kk.vtt",
+          "sha256": "233bd9b4e42df6e2b55a127ce07ea883b53e59ca512e4084f3cd74f6d793b838",
+          "bytes": 28905,
+          "cues": 384,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_03.kk.ass",
+          "sha256": "988021d5744fb287326a7d38e5adb604a006a06d0590328b129906ccd06d25f9",
+          "bytes": 35627,
+          "cues": 384,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "buddy-daddies-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_04.kk.srt",
+          "sha256": "13047c1378bbc889193b2ad79881ba1b796b355226c26f2295e4a052020a0327",
+          "bytes": 34440,
+          "cues": 430,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_04.kk.vtt",
+          "sha256": "9b2a2702ced533acb81c3b66093ebbafdda010fedeb9845d0dc7f360cd045e33",
+          "bytes": 34537,
+          "cues": 430,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_04.kk.ass",
+          "sha256": "9e218fca471e69d2ba1f21fb55757b6de26934cc03e9d83d8c12a4648b7d63a4",
+          "bytes": 41949,
+          "cues": 430,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "buddy-daddies-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_05.kk.srt",
+          "sha256": "b01c21717d5b67cfdb30833daa24a643c04d716618767b6f92dfc6c6cadd127e",
+          "bytes": 33195,
+          "cues": 424,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_05.kk.vtt",
+          "sha256": "16969c1e7d1d25658c7f3919630f8fb10311f8a3bf14f6996142279fb98bcbb7",
+          "bytes": 33292,
+          "cues": 424,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_05.kk.ass",
+          "sha256": "e60d7fe7751b56702289eca4d510fad447eef6506126fa3589b59b0087014ae9",
+          "bytes": 40614,
+          "cues": 424,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "buddy-daddies-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_06.kk.srt",
+          "sha256": "3a47ed759d6bad60f80b7b4ed8277dc4f39eaabdcba3b13b637baf6ad3958491",
+          "bytes": 39408,
+          "cues": 517,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_06.kk.vtt",
+          "sha256": "668a79904b21f4f8079fc43cf82c9fdbfc8e1cf940a42e7093bff06e899f5795",
+          "bytes": 39505,
+          "cues": 517,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_06.kk.ass",
+          "sha256": "100aecfdcae8acc1defa55a6c4a764ceb2443823421e38f32c2f7a8957b84152",
+          "bytes": 48222,
+          "cues": 517,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "buddy-daddies-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_07.kk.srt",
+          "sha256": "a8a6a9bc06ffb06a70caef80fcc981f70c2073ed9a085a64a8cd131c030ade88",
+          "bytes": 26072,
+          "cues": 342,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_07.kk.vtt",
+          "sha256": "a2fd188c703cbf39f7e8653227bdf7d72741bff5a339591a60efad72ec92e3b4",
+          "bytes": 26169,
+          "cues": 342,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_07.kk.ass",
+          "sha256": "06d1f7aa8cf864b270053b883a388b6e9c32921068106ee4365b3fee30dd994e",
+          "bytes": 32262,
+          "cues": 342,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "buddy-daddies-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_08.kk.srt",
+          "sha256": "a31c9b341f80f82744ce30a66165c8e85d73df7a437b5a53e9437f5984fe638a",
+          "bytes": 25474,
+          "cues": 318,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_08.kk.vtt",
+          "sha256": "10a5308e3b021af83a5eb5658a189d082bca503f37ce878906241a106f1bef80",
+          "bytes": 25571,
+          "cues": 318,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_08.kk.ass",
+          "sha256": "3044953e56dfe1a7ce35f21ffd37d0d1eaef5670579c39efe0518bdae0056e83",
+          "bytes": 31303,
+          "cues": 318,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "buddy-daddies-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_09.kk.srt",
+          "sha256": "58c17d2c31b03e31905a8e816e0e1e04009d4a58a8340fd9e383496114fee270",
+          "bytes": 34696,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_09.kk.vtt",
+          "sha256": "c5e7944b312b9483ad7cb6d53255b34f6f4d6f6927c771ee9eacf74d0b6dc363",
+          "bytes": 34793,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_09.kk.ass",
+          "sha256": "c5d312a96bf67176c4eb45a8935312d0c8200f28370dd73852b2a29b386489c9",
+          "bytes": 42340,
+          "cues": 439,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "buddy-daddies-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_10.kk.srt",
+          "sha256": "33efcf1e13783e1773ad32d745d8fcd5650881230f3834d02c3a1da841131607",
+          "bytes": 30648,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_10.kk.vtt",
+          "sha256": "7d91085edb4287e58308526a48f032bcffd10b0af53cd06a77d1f3eb681edf45",
+          "bytes": 30745,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_10.kk.ass",
+          "sha256": "61f37fd333aa90c63ff395a7b606e8b76840b4a3d64ffc14a0b648371805dc83",
+          "bytes": 37617,
+          "cues": 394,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "buddy-daddies-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_11.kk.srt",
+          "sha256": "3f6319966fbe7c03e5b902e478231ada83f3fb7065565bf60c6da245fe5062f7",
+          "bytes": 30051,
+          "cues": 384,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_11.kk.vtt",
+          "sha256": "97e081a9b9bf6b87e8c20d836a166274d3485e62a976a7b94aa04c954d1eac7e",
+          "bytes": 30148,
+          "cues": 384,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_11.kk.ass",
+          "sha256": "924e88c56f45bd1ad26ea46cb78c42b148b7d62af8b7a79094a553f0af2c29aa",
+          "bytes": 36870,
+          "cues": 384,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "buddy-daddies-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_12.kk.srt",
+          "sha256": "25f4659f0477d348f558c599c969cae40adf0d4af3b2f2440e92f9355ac7d352",
+          "bytes": 33760,
+          "cues": 433,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_12.kk.vtt",
+          "sha256": "d63821c0e529730fe1d334fd7bbad532e1598e5a27f5f13bda14ce5850325a92",
+          "bytes": 33857,
+          "cues": 433,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_12.kk.ass",
+          "sha256": "9673ccb2e0b6cd2e07e7046fb951fff9d71f61e81e890c645e18825d498d414a",
+          "bytes": 41314,
+          "cues": 433,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "buddy-daddies-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buddy-daddies/buddy-daddies-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buddy-daddies/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buddy-daddies/ep_13.kk.srt",
+          "sha256": "d96e1642b336e825990496d22889949c64e5dc12f7b2d1da92fe58274b45b482",
+          "bytes": 35258,
+          "cues": 474,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buddy-daddies/ep_13.kk.vtt",
+          "sha256": "be6478645711034febaa7350cef934620bb691aa9d8d448a3b72d93b39c1017c",
+          "bytes": 35355,
+          "cues": 474,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buddy-daddies/ep_13.kk.ass",
+          "sha256": "4adc17e61fb215cce1b7a1565747e56a50e6912e2685a979f6fbbc9130fbae93",
+          "bytes": 43427,
+          "cues": 474,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/buddy-daddies.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

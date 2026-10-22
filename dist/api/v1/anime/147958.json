@@ -3,52 +3,155 @@
   "slug": "in-this-corner-of-the-world",
   "title": {
     "romaji": "In This Corner Of The World",
-    "english": "In This Corner Of The World"
+    "english": "In This Corner Of The World",
+    "kazakh": "Әлемнің бұл бұрышында",
+    "kk": "Әлемнің бұл бұрышында"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 3,
+  "seasonYear": 2016,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15227-1tG3lhprG0A9.jpg",
+  "averageScore": 85,
+  "popularity": 51872,
+  "color": "#e4bb43",
+  "duration": 2,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/15227-yQXL90tfOpRO.jpg",
+  "catalog_id": "in-this-corner-of-the-world",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     264,
     265
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 3,
+  "available_episodes_count": 3,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "in-this-corner-of-the-world-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_01.kk.srt",
+          "sha256": "f1300794ff27171a9d99c8fd87e1df0225419631f521a56eeec48a94f5c6b730",
+          "bytes": 170631,
+          "cues": 1973,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_01.kk.vtt",
+          "sha256": "841ddea5d79ebb810204860b1506f387e63b6dbae4fdf460b3134ce38f6abd07",
+          "bytes": 170728,
+          "cues": 1973,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_01.kk.ass",
+          "sha256": "fa9063faac8147dcae9ad3da3698bb4c2b8ce76af6533901df272ec18752494a",
+          "bytes": 200087,
+          "cues": 1973,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 264,
       "language": "kk",
-      "filename": "in-this-corner-of-the-world-264ep.srt",
+      "filename": "ep_264.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-264ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-264ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-264ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_264.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_264.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_264.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_264.kk.srt",
+          "sha256": "6e82416b0621c910c611ca3ed47ff18523284d3d2204cfa18f5229b4e19dcf42",
+          "bytes": 166318,
+          "cues": 1904,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_264.kk.vtt",
+          "sha256": "ce543faa9c937b8139693324d8b85c3316b081e7b1eaf74d38abea09415fda40",
+          "bytes": 166415,
+          "cues": 1904,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_264.kk.ass",
+          "sha256": "f36ebba6f3a9d68cea4c2204115fd3e1efbc10d23e02d60a798bc0f0cd5526ab",
+          "bytes": 194808,
+          "cues": 1904,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 265,
       "language": "kk",
-      "filename": "in-this-corner-of-the-world-265ep.srt",
+      "filename": "ep_265.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-265ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-265ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/in-this-corner-of-the-world/in-this-corner-of-the-world-265ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_265.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_265.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/in-this-corner-of-the-world/ep_265.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_265.kk.srt",
+          "sha256": "459e53b606a7a16285bb9354ec2b444c7af28727dccd03fbb84672bcc691d2b9",
+          "bytes": 171079,
+          "cues": 1973,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_265.kk.vtt",
+          "sha256": "c36c39ba35043c48233bdbdd0a2eca007fb9589434f0ed921891a29f41b81b98",
+          "bytes": 171176,
+          "cues": 1973,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/in-this-corner-of-the-world/ep_265.kk.ass",
+          "sha256": "5ffa34cd61aea75bf423a6583e2346f2be0f185d3b69524554cbfac0082cc31a",
+          "bytes": 200535,
+          "cues": 1973,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 13,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/in-this-corner-of-the-world.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

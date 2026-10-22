@@ -13,28 +13,66 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101302-7L0lcwYeFQQM.jpg",
+  "averageScore": 78,
+  "popularity": 77835,
+  "color": "#f1280d",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101302-2ix6Nti3Y11Q.jpg",
+  "catalog_id": "dragon-ball-super-broly",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-super-broly-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-super-broly/dragon-ball-super-broly-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-super-broly/dragon-ball-super-broly-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-super-broly/dragon-ball-super-broly-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-super-broly/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-super-broly/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-super-broly/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-super-broly/ep_01.kk.srt",
+          "sha256": "aaf2ab987a6d07f7602256af76e0ddc01c62a9e2ea0790f3159bd4faca92f581",
+          "bytes": 144946,
+          "cues": 1893,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-super-broly/ep_01.kk.vtt",
+          "sha256": "8b257508c92636e6483711330f84d6068d39389f33f5de7a95efd692575fa66c",
+          "bytes": 145043,
+          "cues": 1893,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-super-broly/ep_01.kk.ass",
+          "sha256": "7fe1ea3ecd5a8815c3f992a7660d785a95a80bad11b922fbba7ec2b3f344f9b6",
+          "bytes": 173278,
+          "cues": 1893,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#f1280d",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 78,
-  "popularity": 77835,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-super-broly.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

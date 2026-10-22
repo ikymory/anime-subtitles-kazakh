@@ -16,24 +16,65 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Ghost in the Shell: Arise - Border:4 Ghost Stands Alone - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ghost-in-the-shell-arise-border-4.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ghost-in-the-shell-arise-border-4.jpg",
+  "description": "Ghost in the Shell: Arise - Border:4 Ghost Stands Alone - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "ghost-in-the-shell-arise-border-4",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ghost-in-the-shell-arise-border-4-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-4/ghost-in-the-shell-arise-border-4-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-4/ghost-in-the-shell-arise-border-4-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-border-4/ghost-in-the-shell-arise-border-4-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-4/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-4/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-border-4/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-4/ep_01.kk.srt",
+          "sha256": "2caf855c539f46f858db9e8c884c748e828aa1d2709a80b756bc893861f16539",
+          "bytes": 81331,
+          "cues": 820,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-4/ep_01.kk.vtt",
+          "sha256": "4780c5be8e8a73adb78787846a83309915bfbeaee8c04ba02834aeb0d7fd903e",
+          "bytes": 81428,
+          "cues": 820,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ghost-in-the-shell-arise-border-4/ep_01.kk.ass",
+          "sha256": "a374140034e70359652a84c0c5cc5facdaebe09721230eb36c347946f133192d",
+          "bytes": 94690,
+          "cues": 820,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-arise-border-4.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

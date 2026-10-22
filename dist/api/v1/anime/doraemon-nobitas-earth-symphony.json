@@ -17,28 +17,72 @@
     "Music",
     "Sci-Fi"
   ],
-  "description": "Music exists in our daily lives for granted. But what would happen if music disappeared from the earth? This is a completely original story about Doraemon and his friends who are trying to save the earth from a crisis with the familiar theme of music! <br><br>\n\n(Source: Crunchyroll News)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166976-oq43bwzCtPZO.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166976-oq43bwzCtPZO.jpg",
+  "description": "Music exists in our daily lives for granted. But what would happen if music disappeared from the earth? This is a completely original story about Doraemon and his friends who are trying to save the earth from a crisis with the familiar theme of music! <br><br>\n\n(Source: Crunchyroll News)",
   "averageScore": 69,
   "popularity": 1694,
+  "color": "#0dbbe4",
+  "duration": 115,
+  "studio": "Shin-Ei Animation",
+  "catalog_id": "doraemon-nobitas-earth-symphony",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobitas-earth-symphony-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-earth-symphony/doraemon-nobitas-earth-symphony-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-earth-symphony/doraemon-nobitas-earth-symphony-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-earth-symphony/doraemon-nobitas-earth-symphony-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-earth-symphony/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-earth-symphony/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-earth-symphony/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/doraemon-nobitas-earth-symphony/ep_01.kk.ass",
+          "sha256": "1732073cbf0661f30cf70906ba49e3027c2b8bc2d359ba9d0bc1f9be0c2e5dc3",
+          "bytes": 297835,
+          "cues": 3024,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/doraemon-nobitas-earth-symphony/ep_01.kk.srt",
+          "sha256": "283e36a7d5ee74b561f4e1fccb448c39c932854625b2436f498e9435c600da78",
+          "bytes": 224822,
+          "cues": 2982,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobitas-earth-symphony/ep_01.kk.vtt",
+          "sha256": "07d48f0f8d000f778259588887fad2e5ca41e6679b4e606d01b523dcd613309d",
+          "bytes": 224830,
+          "cues": 2982,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#0dbbe4",
-  "studio": "Shin-Ei Animation",
-  "duration": 115,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobitas-earth-symphony.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

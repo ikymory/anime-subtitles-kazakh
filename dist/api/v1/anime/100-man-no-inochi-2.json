@@ -16,11 +16,17 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "I'm Standing on a Million Lives Season 2 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/100-man-no-inochi-2.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/100-man-no-inochi-2.jpg",
+  "description": "I'm Standing on a Million Lives Season 2 - official Kazakh translation archive by ikymory.",
   "averageScore": 78,
   "popularity": 93600,
+  "catalog_id": "100-man-no-inochi-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_01.kk.srt",
+          "sha256": "0ba6a54263f59307b2a35e1b29b89de98e9ab5ae20d0cffee3e456d95ba08447",
+          "bytes": 32428,
+          "cues": 398,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_01.kk.vtt",
+          "sha256": "856767216c21f7d7b1261190492b6da7466c04117f14cbf1ca87f7df71ea9572",
+          "bytes": 32525,
+          "cues": 398,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_01.kk.ass",
+          "sha256": "bd58828eeefdb2266fb2cfb67da5f24e276e304b21078e78af9ffcf68954e041",
+          "bytes": 39457,
+          "cues": 398,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_02.kk.srt",
+          "sha256": "1faa9515fc8894ee213833a85ec4489ce009ceaaed915811fbc974fb2c8cb591",
+          "bytes": 39699,
+          "cues": 466,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_02.kk.vtt",
+          "sha256": "4e8cef8c0f254a7b1fe5ec9254f45004870bb8b5d45bdab4c111a5e4c5861f6c",
+          "bytes": 39796,
+          "cues": 466,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_02.kk.ass",
+          "sha256": "42a9831a8cbe82620b3ade3764fb4fe45f2260f032c1e72bf5a616cf3cad7379",
+          "bytes": 47748,
+          "cues": 466,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_03.kk.srt",
+          "sha256": "a345bd11028532c665b514d23362d711bd52bddec9b6615bbbfdd9f3e4b8eb26",
+          "bytes": 28575,
+          "cues": 385,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_03.kk.vtt",
+          "sha256": "adc2a25705141c5e152030554f957bd7e136e93ada4f08e1de7381035e455c47",
+          "bytes": 28672,
+          "cues": 385,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_03.kk.ass",
+          "sha256": "0f73db07b5ebf69a4e55163049cb195c53c1da4628f5ad526714741ac99c90c0",
+          "bytes": 35409,
+          "cues": 385,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_04.kk.srt",
+          "sha256": "4eab60ea382022f2f5080544784c419cb38eb9512188a4da7d5017bfa306bef9",
+          "bytes": 31420,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_04.kk.vtt",
+          "sha256": "f166e15058742f837338dc8b39eac27ea8f0c6a2c3178749957befd18d032b9b",
+          "bytes": 31517,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_04.kk.ass",
+          "sha256": "900e98c684acec02d42d5ef6c0fee3bb673984f2e8aebb9d87898c1797dde11a",
+          "bytes": 38389,
+          "cues": 394,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_05.kk.srt",
+          "sha256": "731a6003546d17535b114459ebc10ed37905ef63c873bcda9991fdee26f2b53a",
+          "bytes": 28711,
+          "cues": 390,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_05.kk.vtt",
+          "sha256": "4fe7808b7355cbdc5df32b96af30ea2dca7bf455280661549b0f9dab5f28d450",
+          "bytes": 28808,
+          "cues": 390,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_05.kk.ass",
+          "sha256": "34b6b3864cb63ebf2c20179b18ea74698e0dea747b9d3857466438a0271612c2",
+          "bytes": 35620,
+          "cues": 390,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_06.kk.srt",
+          "sha256": "c8085d469a7e3dfee313b0ed96b98510deee33baceabb6051eb97b1c3739a27d",
+          "bytes": 33999,
+          "cues": 425,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_06.kk.vtt",
+          "sha256": "f14fadea4407ac26a8b7e547e145348df0c5609bfbcd1eabcba8c04c0fb91146",
+          "bytes": 34096,
+          "cues": 425,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_06.kk.ass",
+          "sha256": "66dd0c5118e61014e1c476ed81a1bdb023179bc9ccd2ac8d9a32362f49ee9bc3",
+          "bytes": 41433,
+          "cues": 425,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_07.kk.srt",
+          "sha256": "e2cbe39e39e2f0c81ee92cbc128d2a89b2069ffe7e25d33f157e40698b8b0673",
+          "bytes": 37214,
+          "cues": 450,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_07.kk.vtt",
+          "sha256": "78f2dba5ce7e0291c495ad4e808a3717fa96c97a64c7594843a5b7e487c58362",
+          "bytes": 37311,
+          "cues": 450,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_07.kk.ass",
+          "sha256": "bf7d252c0d020bb706df6dabee8d3928642d4882291ef24c2667b7b8d602164b",
+          "bytes": 45023,
+          "cues": 450,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_08.kk.srt",
+          "sha256": "fd0b7fcfd15ea736ca24a1a1816461e5a6ad728126f011be16d215d7c7ac556a",
+          "bytes": 38605,
+          "cues": 468,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_08.kk.vtt",
+          "sha256": "8a5d0afc3c2afcea70c56fdb9146e6d94b9a81e434a0b7bbd7d11a5636dc33f3",
+          "bytes": 38702,
+          "cues": 468,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_08.kk.ass",
+          "sha256": "b67402b588add4e41537f3bdaf499058a0247f90c2464dd681de7a0d581482d8",
+          "bytes": 46684,
+          "cues": 468,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_09.kk.srt",
+          "sha256": "40ba743d153a31933a524286c56191e4f26e258008552658bbc633dadfd40a3f",
+          "bytes": 39904,
+          "cues": 501,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_09.kk.vtt",
+          "sha256": "632ad62c96d28ef1567cbd023e9e5be6f47721ddf837e62651c72f0b07ccfbf9",
+          "bytes": 40001,
+          "cues": 501,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_09.kk.ass",
+          "sha256": "c3efe9d4b000be4687c3bc2daa6324adf0234e6ee9e0cb512607961aadee3b5e",
+          "bytes": 48478,
+          "cues": 501,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_10.kk.srt",
+          "sha256": "45ec33efe8cc5269e48b5778634dfa468fac7a690ea9ba054dbcbf00248fffbc",
+          "bytes": 39192,
+          "cues": 479,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_10.kk.vtt",
+          "sha256": "3fc378dcc3a677d846175cd65e9871b868541c143c5ffdeae4542cfbc630c252",
+          "bytes": 39289,
+          "cues": 479,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_10.kk.ass",
+          "sha256": "0883baf4cba6f8faa197603d6f2989da3bba8d4b3e61b01ba5f81a1099ddc79e",
+          "bytes": 47436,
+          "cues": 479,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_11.kk.srt",
+          "sha256": "50f6ffe53bb59d6705b64624edda3f52022b57db323d48e0357a2b2fa2975af5",
+          "bytes": 36981,
+          "cues": 482,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_11.kk.vtt",
+          "sha256": "4c59db37c6f51432f5bea46665820ed07bf3a27fb3f02668e3f2024eeb0509c3",
+          "bytes": 37078,
+          "cues": 482,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_11.kk.ass",
+          "sha256": "01fc87c3e48366914ae69a5c977017eeb27c355212d03278c814e1550855690b",
+          "bytes": 45271,
+          "cues": 482,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "100-man-no-inochi-2-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/100-man-no-inochi-2/100-man-no-inochi-2-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/100-man-no-inochi-2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_12.kk.srt",
+          "sha256": "4a0043087e57704ea78bf20673656c50dd2513665be154f7f75017c7a1c7ff5b",
+          "bytes": 39263,
+          "cues": 482,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/100-man-no-inochi-2/ep_12.kk.vtt",
+          "sha256": "e5a82360675646f2fe7cebaa8aea544a9bd3aa73c00d95b63c8451b624c7163b",
+          "bytes": 39360,
+          "cues": 482,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/100-man-no-inochi-2/ep_12.kk.ass",
+          "sha256": "a3bd7f3741019eafd3891a767bd1f5f4a182a0126edc7f48a4b402beda0a14dd",
+          "bytes": 47553,
+          "cues": 482,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/100-man-no-inochi-2.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

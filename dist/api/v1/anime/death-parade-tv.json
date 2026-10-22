@@ -15,11 +15,20 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Death Parade.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20931-bktYqOcxPERi.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20931-xDhiTPZmtS3u.jpg",
+  "description": "Kazakh subtitles for Death Parade.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "death-parade-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,130 +43,462 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "death-parade-tv-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_01.kk.ass",
+          "sha256": "6603ec3d0feaf9d2c61612f951458c5e6e30df4f189eb0cde42f4731234cbfa2",
+          "bytes": 32388,
+          "cues": 329,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_01.kk.srt",
+          "sha256": "ad4d5b1eca743040673a89e751554598c1080cde552e8cd58652b43231fe3187",
+          "bytes": 26358,
+          "cues": 328,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_01.kk.vtt",
+          "sha256": "10c5f84b7f68d9a360a5e12137663a6e493d4c123f2331a3403028a214b26448",
+          "bytes": 26366,
+          "cues": 328,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "death-parade-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_02.kk.srt",
+          "sha256": "aefa09ba48dd1e68075293b35cacd2caeba4b381d2bd23478ea511f40a7bce69",
+          "bytes": 27600,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_02.kk.vtt",
+          "sha256": "60a460742d93781415419c547d26eb642e3925bda6d7fa25dd46998d723ef624",
+          "bytes": 27697,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_02.kk.ass",
+          "sha256": "d5e76120c8dae9128186929a771f4dbfa6fb2e6372202d3fa041cef9581d0508",
+          "bytes": 33624,
+          "cues": 331,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "death-parade-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_03.kk.srt",
+          "sha256": "e13f0e5f6919f3a57fc7a7edfa6fa70fda7d83fd2ef1a9225142d9daf66d84fc",
+          "bytes": 26627,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_03.kk.vtt",
+          "sha256": "6fb5fee7b502e39bf191c4b8a0fc37bd902b1de037e0b51362b331449fccd5ef",
+          "bytes": 26724,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_03.kk.ass",
+          "sha256": "e2825f7ea4b6e4a9691f01c49083ee627f481a9a91452e898cc1c2b9466b5ec1",
+          "bytes": 32561,
+          "cues": 325,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "death-parade-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_04.kk.srt",
+          "sha256": "162225413cef3a0c2988068dd068461620880c4f322b44cbf1fd1dd4a1ce70ae",
+          "bytes": 27207,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_04.kk.vtt",
+          "sha256": "0aa769bd9ffdbde73dd74f982011e59c30f62d2d4f53bc4089776c15799d07bc",
+          "bytes": 27304,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_04.kk.ass",
+          "sha256": "7434483b7e3dd9ec1f3b0c297240b415928315f170b58e08317d05d65a39ca9e",
+          "bytes": 33411,
+          "cues": 343,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "death-parade-tv-5ep.srt",
+      "filename": "ep_05.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_05.kk.ass",
+          "sha256": "d2e1d70385074d6d3747cfa549e44bec711bb8f7d1c979f0fabfab3d367e3249",
+          "bytes": 33258,
+          "cues": 334,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_05.kk.srt",
+          "sha256": "7d5aa97b60f4b5828dcf9a18b97fdc239550334fc720a2cc5d3bba9c92a55d61",
+          "bytes": 27117,
+          "cues": 332,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_05.kk.vtt",
+          "sha256": "f4ca10e456c79f6dd418649bb0052c8043fd2400853f8cb98e918cffba294b20",
+          "bytes": 27125,
+          "cues": 332,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "death-parade-tv-6ep.srt",
+      "filename": "ep_06.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_06.kk.ass",
+          "sha256": "622c8ce19a9e169c18f8df8ca64f82f96c4572475fe1172e95b1bf3491ec580a",
+          "bytes": 34932,
+          "cues": 369,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_06.kk.srt",
+          "sha256": "4208a0d93834269f2daad2cea7bd5dc2ac7f1f0fd8c40406844755700771b8aa",
+          "bytes": 28302,
+          "cues": 368,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_06.kk.vtt",
+          "sha256": "da6ad080a657fde34dd131b3726ca108a08c44423c193187482cb5775b0b2906",
+          "bytes": 28310,
+          "cues": 368,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "death-parade-tv-7ep.srt",
+      "filename": "ep_07.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_07.kk.ass",
+          "sha256": "8b013846e31cf160ce700954282f08290c21e7f4e2d807d1d57ec0ea1cd7bc47",
+          "bytes": 30745,
+          "cues": 301,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_07.kk.srt",
+          "sha256": "7005772b3936f4d58b6cf54bc32041d50e0246d9edde8a1068be1b66b55ffbad",
+          "bytes": 25135,
+          "cues": 300,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_07.kk.vtt",
+          "sha256": "7ccfb30f4289d82ffee23cb10014bbffa5aab8dea69a365ddfd7ab4bd972ef36",
+          "bytes": 25143,
+          "cues": 300,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "death-parade-tv-8ep.srt",
+      "filename": "ep_08.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_08.kk.ass",
+          "sha256": "44c9548064ff9077233813133fb8ba7dbe2bed1375c76eb28b17033e2165d811",
+          "bytes": 31383,
+          "cues": 313,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_08.kk.srt",
+          "sha256": "b621a1ddad95b748f248f85b701dbc1189604b3775b396ff48e72b25537aadd4",
+          "bytes": 25593,
+          "cues": 312,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_08.kk.vtt",
+          "sha256": "bad72f955bf6b1820dae36f365d603bc9cb8ca3da45b154a9627f6c968c8fbdb",
+          "bytes": 25601,
+          "cues": 312,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "death-parade-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_09.kk.srt",
+          "sha256": "f5c9c7ed53425b014ccec29965fb7da5990d81ebdb7b8f983f19f2b50e257df7",
+          "bytes": 26263,
+          "cues": 318,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_09.kk.vtt",
+          "sha256": "56c0293cba6db793656a0308dbab087e7c929afc63f7ce09556215f45d547193",
+          "bytes": 26360,
+          "cues": 318,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_09.kk.ass",
+          "sha256": "ca9e724863db697565705bc5031b8585bf2ee9358bb874be4848d104db9c8723",
+          "bytes": 32093,
+          "cues": 318,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "death-parade-tv-10ep.srt",
+      "filename": "ep_10.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_10.kk.ass",
+          "sha256": "daa605a324a1664d74d01e55d746835e173eb6aae24bd36d2a13fe50cfe26e87",
+          "bytes": 31387,
+          "cues": 322,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_10.kk.srt",
+          "sha256": "863d0a625c1aea82dcdcace839af1895b78dcf83ede826c6f9b746f7929a08e0",
+          "bytes": 25354,
+          "cues": 318,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_10.kk.vtt",
+          "sha256": "3c9d3969631787c944b9002dd09aba8124d3bec63dbdd594a7d899c3d5c46794",
+          "bytes": 25362,
+          "cues": 318,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "death-parade-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_11.kk.srt",
+          "sha256": "e1d27f549811d321ec32e340308886319958c1a1cf9702f3ae77ef8b24ec8083",
+          "bytes": 17525,
+          "cues": 219,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_11.kk.vtt",
+          "sha256": "475f915692c80fc795fc935c6bd7bfd063f43ca1516b32bf59ba8b5dd9b78f3a",
+          "bytes": 17622,
+          "cues": 219,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_11.kk.ass",
+          "sha256": "013d03d74f98856299903f432ec025d4681b235ee014aa9834a1814c42ac388a",
+          "bytes": 21869,
+          "cues": 219,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "death-parade-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade-tv/death-parade-tv-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/death-parade-tv/ep_12.kk.srt",
+          "sha256": "b3dd4556d31d3792b89e1d9462ee3fa873d49198f71a2fcd6cc9d7697a7a213b",
+          "bytes": 25291,
+          "cues": 308,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade-tv/ep_12.kk.vtt",
+          "sha256": "5fed4ed0b46881561c8d667d491f4c9033d9394eb32baa92e196e450da2648a1",
+          "bytes": 25388,
+          "cues": 308,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/death-parade-tv/ep_12.kk.ass",
+          "sha256": "33b12277318362191a1ec54376b5aa98533335f2c36d115d5159253259d0aac7",
+          "bytes": 30970,
+          "cues": 308,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 12
+  "quality_issues_count": 50,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/death-parade-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

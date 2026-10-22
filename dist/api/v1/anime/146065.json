@@ -4,10 +4,12 @@
   "title": {
     "romaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
     "english": "Mushoku Tensei: Jobless Reincarnation Season 2",
-    "native": "無職転生Ⅱ ～異世界行ったら本気だす～"
+    "native": "無職転生Ⅱ ～異世界行ったら本気だす～",
+    "kazakh": "Жұмыссыздың қайта жаралуы 2-маусым",
+    "kk": "Жұмыссыздың қайта жаралуы 2-маусым"
   },
   "format": "TV",
-  "episodes": 13,
+  "episodes": 23,
   "seasonYear": 2023,
   "genres": [
     "Adventure",
@@ -15,9 +17,20 @@
     "Ecchi",
     "Fantasy"
   ],
-  "description": "After his relationship with Eris Boreas Greyrat reaches new heights, Rudeus Greyrat is ecstatic. Unfortunately, his joy is short-lived, as Eris suddenly abandons him to embark on her own journey. Believing that Eris has lost all interest in him, a heartbroken and depressed Rudeus sets forth to the Northern Territories. With his sole goal being to locate his mother on the vast continent, Rudeus wonders if persisting through daily life is worth the pain, falling into a robotic routine as he endlessly ruminates on his lost love.\n<br><br>\nHowever, the dangers of the North soon prove that one cannot survive with a dulled mind. While on a quest with the party Counter Arrow, with whom he recently became acquainted, Rudeus has a brush with death—an experience that forces him to finally snap out of his despair. With his newfound teammates, Rudeus rediscovers the pleasure of daily adventuring and moves forward with his original goal of living his second lease on life to the fullest.\n<br><br>\n(Source: MAL Rewrite)\n<br><br>\n<i>Note: Includes episode 0, Shugo Jutsushi Fitz.</i>",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx146065-IjirxRK26O03.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-1ANspF1EWyFx.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146065-33RDijfuxLLk.jpg",
+  "description": "After his relationship with Eris Boreas Greyrat reaches new heights, Rudeus Greyrat is ecstatic. Unfortunately, his joy is short-lived, as Eris suddenly abandons him to embark on her own journey. Believing that Eris has lost all interest in him, a heartbroken and depressed Rudeus sets forth to the Northern Territories. With his sole goal being to locate his mother on the vast continent, Rudeus wonders if persisting through daily life is worth the pain, falling into a robotic routine as he endlessly ruminates on his lost love.\n\nHowever, the dangers of the North soon prove that one cannot survive with a dulled mind. While on a quest with the party Counter Arrow, with whom he recently became acquainted, Rudeus has a brush with death—an experience that forces him to finally snap out of his despair. With his newfound teammates, Rudeus rediscovers the pleasure of daily adventuring and moves forward with his original goal of living his second lease on life to the fullest.\n\n(Source: MAL Rewrite)\n\nNote: Includes episode 0, Shugo Jutsushi Fitz.",
+  "averageScore": 82,
+  "popularity": 64272,
+  "color": "#35aee4",
+  "duration": 24,
+  "studio": "Studio Bind",
+  "catalog_id": "mushoku-tensei-s2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     0,
     1,
@@ -43,236 +56,874 @@
     22,
     23
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 23,
+  "available_episodes_count": 23,
   "subtitles": [
     {
       "episode": 0,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-0ep.srt",
+      "filename": "ep_00.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-0ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-0ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-0ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_00.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_00.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_00.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_00.kk.srt",
+          "sha256": "b50c0549658743ba710edeba878eb204366b9b71034b18375ad4308bace30022",
+          "bytes": 27954,
+          "cues": 289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_00.kk.vtt",
+          "sha256": "ddce01de0c9ad749a7a5408357843a764f057ac5f9238ff788c3394736e38db1",
+          "bytes": 28051,
+          "cues": 289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_00.kk.ass",
+          "sha256": "e36b3571d3e4c544fd1c7a04eadca5867e7af8895c4e21bf67b2394e277eaadd",
+          "bytes": 33114,
+          "cues": 289,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_01.kk.srt",
+          "sha256": "f597c698e852cf2dbb0b27c066d2a6592de5217958194bf281d3be7b3ec13934",
+          "bytes": 31139,
+          "cues": 336,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_01.kk.vtt",
+          "sha256": "5444b53c4fe1cb19e6dfc707da8d4b1918ad285a48cb632e787db322f4798bdf",
+          "bytes": 31236,
+          "cues": 336,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_01.kk.ass",
+          "sha256": "366bee9190b789a4266e165adc4638f0e6f529372778f608021cb2af7dd9d025",
+          "bytes": 37004,
+          "cues": 336,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_02.kk.srt",
+          "sha256": "9657797c5e9578de2e96249bd540b7006f1933f3e79049b0d14546385a32a945",
+          "bytes": 27954,
+          "cues": 289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_02.kk.vtt",
+          "sha256": "651df68ee7bf9a41042f565fd53a3c8f7844d7e077fd3ad42256a60eb0a0623b",
+          "bytes": 28051,
+          "cues": 289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_02.kk.ass",
+          "sha256": "40418ce5a0b2bd9aa9894d5590903b4cbbf92c052d60b6b25f5458fafc9926c8",
+          "bytes": 33114,
+          "cues": 289,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_03.kk.srt",
+          "sha256": "c4047743aa3dfc75639f2013e36eecfad5313b372338b990fb4c6c8b0cec7813",
+          "bytes": 29473,
+          "cues": 291,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_03.kk.vtt",
+          "sha256": "e4dc7587d5912b4ec64d89465d737ced0d1a7dfcccc832b9d22b72ca491c5c23",
+          "bytes": 29570,
+          "cues": 291,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_03.kk.ass",
+          "sha256": "290fd12e8552ae4d286ee6e1266a6e0a06d6fbf7f7463c89e91a10686ff91790",
+          "bytes": 34663,
+          "cues": 291,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_04.kk.srt",
+          "sha256": "bef091b7d191ed10a7bb4de4c3a156de3cc80ac64693cf79e8f0d5f27efcf7cc",
+          "bytes": 34022,
+          "cues": 314,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_04.kk.vtt",
+          "sha256": "1c46e04cdcdb88714bdd916ad487fa3392aaf2f0fdc4f846db0c82c4431341b0",
+          "bytes": 34119,
+          "cues": 314,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_04.kk.ass",
+          "sha256": "dcb03ec456099080c5559e22f5f15b18736d6ac036d1034af29521d477b4a1d5",
+          "bytes": 39557,
+          "cues": 314,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_06.kk.srt",
+          "sha256": "d80f0e7f00870dde28a9258fe8794b9795c334f88ad062e471b0a6f583fe02a1",
+          "bytes": 28663,
+          "cues": 274,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_06.kk.vtt",
+          "sha256": "8048dedcbac8c679b3db9893d67d9e9ded6a9f714249c117d67546d3d632f789",
+          "bytes": 28760,
+          "cues": 274,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_06.kk.ass",
+          "sha256": "2e2c54c8e84340124261cf99da6b0cde304978d564efa65bd4bbd1e26a48bed7",
+          "bytes": 33598,
+          "cues": 274,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_07.kk.srt",
+          "sha256": "f494bdb6b29518e1d83c19f8342675b449ed41c922baa6d367bbd73829e0aeb9",
+          "bytes": 34197,
+          "cues": 349,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_07.kk.vtt",
+          "sha256": "bfa2f38a3a903347d937269ccf80fbe601c07c17a3be134c35e1a975445e45f3",
+          "bytes": 34294,
+          "cues": 349,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_07.kk.ass",
+          "sha256": "5dc588a42f23ae5b0be172f050d33c91ba99937dcb278df5364a1fca89e69ed9",
+          "bytes": 40257,
+          "cues": 349,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_08.kk.srt",
+          "sha256": "826f97d6806a2796e7e2eb173057103d3fff1db8f8afd9c3d36710f783adfd3b",
+          "bytes": 31480,
+          "cues": 320,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_08.kk.vtt",
+          "sha256": "49c246134d99ed1713598d1e585729493535c96632e2f2c5f0915521d76b2cf2",
+          "bytes": 31577,
+          "cues": 320,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_08.kk.ass",
+          "sha256": "314f76c676fcb1a8ad425d2fa47f93d66e323b84f1fb9758761e0577f8c6468d",
+          "bytes": 37105,
+          "cues": 320,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_09.kk.srt",
+          "sha256": "a3c4afe69587e30cee32cf8cb382570b6c10baa08b2cb061a465a02d831371d1",
+          "bytes": 26901,
+          "cues": 262,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_09.kk.vtt",
+          "sha256": "e64f4787949b15cdb958536fb940c61965fa038f671e3322f02e29bd0b7ede8a",
+          "bytes": 26998,
+          "cues": 262,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_09.kk.ass",
+          "sha256": "413de64de0f06a7e7ffd28066948a01d8455edc2e7316368e2ee1bd2e40df680",
+          "bytes": 31656,
+          "cues": 262,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_10.kk.srt",
+          "sha256": "9e8c358e6a817b34d0259ddc319a4c14d5680ea2d8b2c42cb694b16e29447a81",
+          "bytes": 32869,
+          "cues": 320,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_10.kk.vtt",
+          "sha256": "b25f334f3df7f3e6825ec7645a2a840ac53824195de8b4020d7b161024361f06",
+          "bytes": 32966,
+          "cues": 320,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_10.kk.ass",
+          "sha256": "0945ae8ac7c8932f9dddc59573f857651d71131c623831ee02a2b0884f63416e",
+          "bytes": 38494,
+          "cues": 320,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_11.kk.srt",
+          "sha256": "023a8b637fe7f0ceac1e4a4cf8ec946a420aaf8bcf4edceaad7ae181d8d9fc58",
+          "bytes": 25824,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_11.kk.vtt",
+          "sha256": "4a0cd494b4b8de61604377b2b688b76fbdea569f0346e7065b95ba101218b60d",
+          "bytes": 25921,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_11.kk.ass",
+          "sha256": "4c7067c9d4d990f6c31f43a11a240847264979dcc824204bcb847c78157b3c11",
+          "bytes": 30624,
+          "cues": 265,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_12.kk.srt",
+          "sha256": "7e0d3f7b15bbad66ad868b6664dd5c68c4d08995226372ee3037dd2427985249",
+          "bytes": 31139,
+          "cues": 336,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_12.kk.vtt",
+          "sha256": "cd7543ff001ec90f1d8f15fa29e00b2e880fc55b01a25c836a9228718896b2d1",
+          "bytes": 31236,
+          "cues": 336,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_12.kk.ass",
+          "sha256": "bbf89456ffa8a56cd758f19be2e8343c8a2716dd8804e2cc0b8b69b627ad34d5",
+          "bytes": 37004,
+          "cues": 336,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_13.kk.srt",
+          "sha256": "c6e0de33d4a63e874263b4092e8ae3a23043ea7fc9937a890a026d43eb46df3a",
+          "bytes": 22897,
+          "cues": 230,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_13.kk.vtt",
+          "sha256": "86609a0dc800e2496cf5862530dd3f0121465c9f2620b8eb2773280f1331aba2",
+          "bytes": 22994,
+          "cues": 230,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_13.kk.ass",
+          "sha256": "0f1c0882aa054dad63f804e09bb27d3f8364bb6f54bfb2c1ee04891f259d38d4",
+          "bytes": 27172,
+          "cues": 230,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_14.kk.srt",
+          "sha256": "26074fe9eb821d38d4fbedf7c8642e0d224eeb054ffaef01516f64f3b4894173",
+          "bytes": 29203,
+          "cues": 318,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_14.kk.vtt",
+          "sha256": "b5d1fbf888fc1d148e088a4fb2c6a7b4c8b7252301fbde2f308ce2db0f911107",
+          "bytes": 29300,
+          "cues": 318,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_14.kk.ass",
+          "sha256": "62181bd43bb9caaec4ff7ebb08a393118650a906c21c2b317c64a8a975fc8f28",
+          "bytes": 34798,
+          "cues": 318,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_15.kk.srt",
+          "sha256": "1cc042681312d18d6edb435e62a26c6b1a90b70715f6943707483907edb5a718",
+          "bytes": 23533,
+          "cues": 266,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_15.kk.vtt",
+          "sha256": "1c6e20d376de3be93cc289759e3eb748e86921eb63baafa36bea5eef8fabeb3d",
+          "bytes": 23630,
+          "cues": 266,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_15.kk.ass",
+          "sha256": "c8d639fac3a5b032e2c5f6b2cb3f03603488ff97ab70ba1fdd556a4764ebd0dd",
+          "bytes": 28348,
+          "cues": 266,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_16.kk.srt",
+          "sha256": "ea862a72fd5df2987c2b77cadde66015b78279546d66f6aad6b035bd9196f5e1",
+          "bytes": 32585,
+          "cues": 353,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_16.kk.vtt",
+          "sha256": "fafb0168fe07b42bc8bb6d3fbe4c210ca466f73823b3205b262d7bf7f053ffe1",
+          "bytes": 32682,
+          "cues": 353,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_16.kk.ass",
+          "sha256": "d0b6b91bb67abb805eba805621baf320c0673679cf9411fe0d6c0d9fda3c0724",
+          "bytes": 38705,
+          "cues": 353,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_17.kk.srt",
+          "sha256": "90d9c066d9fc31fc8e553cba10f5852317202f2574e0177d15077b063edcf706",
+          "bytes": 28984,
+          "cues": 330,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_17.kk.vtt",
+          "sha256": "ad13ce44475c6fa589e422435dfa93859ad689ba6d7a6a3fb6b5f36421fd8be5",
+          "bytes": 29081,
+          "cues": 330,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_17.kk.ass",
+          "sha256": "f36fe54200ff82c35219940c2f50a3a891a2105ebb2b17931b3f428b8f80775e",
+          "bytes": 34759,
+          "cues": 330,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_18.kk.srt",
+          "sha256": "4a41cb8fdefabea8dbacbd9b47d4f7fe61bf164d1cb3577d360add7a361ad46e",
+          "bytes": 28721,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_18.kk.vtt",
+          "sha256": "1cb4f33a9d3e0f24fb32b4fc960976993bceabd995a07127e669d7c6a1415df0",
+          "bytes": 28818,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_18.kk.ass",
+          "sha256": "e396eea6cb1d9bc8fbda6768dbc656953f023c18dae933dbf4c534da366bc505",
+          "bytes": 34451,
+          "cues": 327,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_19.kk.srt",
+          "sha256": "2d87132203e63011b1714b68a4f4258bccbb3b0778e2705fea62ef1835867dcc",
+          "bytes": 33359,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_19.kk.vtt",
+          "sha256": "aa0cabc0d2a656afa7ba1c09cba01936cda23ea5b21d521a3cd4b4ae9c8f0d36",
+          "bytes": 33456,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_19.kk.ass",
+          "sha256": "a3cf85ac2d72e90757b30b6652563d8434dabd84e0656fbf1380f9129b7c99d5",
+          "bytes": 39839,
+          "cues": 377,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_20.kk.srt",
+          "sha256": "c566fc7ccb2ed2c28f9fa388bf50fce8256758ab4d69bf89e24753946430d907",
+          "bytes": 31983,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_20.kk.vtt",
+          "sha256": "3c667b7948fcee2d252a418fce009f0b5d31d9fb495b17af7af35e07bd2eb4a6",
+          "bytes": 32080,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_20.kk.ass",
+          "sha256": "a8cd13a009856136b7fb315ebc7ea9591d5ad7501037c49f901f88f8c8c9a9f0",
+          "bytes": 38223,
+          "cues": 361,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_21.kk.srt",
+          "sha256": "0781553f69774ba697cff382d158dd7e729df145008295b73cbc5de1328620cb",
+          "bytes": 29277,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_21.kk.vtt",
+          "sha256": "d31ecdedc253cc589c86b8fab1ed9df31f490fbd1f5e5ef752c2da9a79fe7972",
+          "bytes": 29374,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_21.kk.ass",
+          "sha256": "33be91c83b9cde09d55614baeff0ce351c85d3a61af06fb3ed841420459d6284",
+          "bytes": 35307,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_22.kk.srt",
+          "sha256": "b52c0be29e4740bbe27c80696f82f1ce7e179aad65bd6f7bbd849dd482eeb78d",
+          "bytes": 21027,
+          "cues": 268,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_22.kk.vtt",
+          "sha256": "ff2158512b3b33fd85ef83cd37afab8522fb152a0ce2a4e63a5a6c87faeed8df",
+          "bytes": 21124,
+          "cues": 268,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_22.kk.ass",
+          "sha256": "7d573fab6e10a5b7704b08bfb92340d826749220fae32ada0401fe483300c2ac",
+          "bytes": 25872,
+          "cues": 268,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "mushoku-tensei-s2-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mushoku-tensei-s2/mushoku-tensei-s2-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mushoku-tensei-s2/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_23.kk.srt",
+          "sha256": "c6ad2ed6c954c41d5e15e082e855950c74ef5c5ef5228129ad24d008e35c3da8",
+          "bytes": 27233,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mushoku-tensei-s2/ep_23.kk.vtt",
+          "sha256": "241aecbfa31c0482d81bfe2ffde609ef4ae6e501e4383f3ae460c3d19ba6ca43",
+          "bytes": 27330,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mushoku-tensei-s2/ep_23.kk.ass",
+          "sha256": "63241fd57bbe9b43798b5a232cdd61eb89ca9ab81b1368e3067d0043a7dd2776",
+          "bytes": 32798,
+          "cues": 316,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 118,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mushoku-tensei-s2.json",
+  "quality_flags": [
+    "duplicate_dialogue_content",
+    "english_dialogue_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

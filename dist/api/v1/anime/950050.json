@@ -1,0 +1,80 @@
+{
+  "id": 950050,
+  "slug": "given-movie",
+  "title": {
+    "romaji": "Given The Movie",
+    "english": "Given The Movie",
+    "native": "Given Movie",
+    "kazakh": "Берілген: Фильм",
+    "kk": "Берілген: Фильм"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2020,
+  "genres": [
+    "Drama",
+    "Music",
+    "Romance"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/given-movie.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/given-movie.jpg",
+  "description": "Given The Movie - official Kazakh translation archive by ikymory.",
+  "averageScore": 86,
+  "popularity": 103200,
+  "catalog_id": "given-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/given-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/given-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/given-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/given-movie/ep_01.kk.srt",
+          "sha256": "90c9c0ca9ea038b50506cb456b8c6d1fd75cafc12e19fc8a7737a0e96576e760",
+          "bytes": 73620,
+          "cues": 813,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/given-movie/ep_01.kk.vtt",
+          "sha256": "e3581f146a183a198b81a31d94d06e12b6fa7f31b1643ced10126b8d6b911152",
+          "bytes": 73717,
+          "cues": 813,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/given-movie/ep_01.kk.ass",
+          "sha256": "a5db101332d1797cf4e700a2d90fba9c56509b96384f3395fe5059b1e90e3f0a",
+          "bytes": 86874,
+          "cues": 813,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/given-movie.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
+}

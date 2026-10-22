@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Golgo 13 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/golgo-13.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/golgo-13.jpg",
+  "description": "Golgo 13 - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "golgo-13",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "golgo-13-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golgo-13/golgo-13-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golgo-13/golgo-13-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golgo-13/golgo-13-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golgo-13/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golgo-13/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golgo-13/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/golgo-13/ep_01.kk.srt",
+          "sha256": "3de8a08a8a2482fd74b2eb2be499ad3bac353d5784e5eebf783644bd9844826f",
+          "bytes": 26440,
+          "cues": 303,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/golgo-13/ep_01.kk.vtt",
+          "sha256": "eb405a584799441ad6cea3f2c65c7b6306ebbf808dac36ac331fc13fa93f35ac",
+          "bytes": 26537,
+          "cues": 303,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/golgo-13/ep_01.kk.ass",
+          "sha256": "7e30802cf6b11c9652821e477cb1ffd609373890b5188099bcb18ca5e0f8c0a6",
+          "bytes": 31863,
+          "cues": 303,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/golgo-13.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

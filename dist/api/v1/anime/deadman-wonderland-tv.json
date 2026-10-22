@@ -15,11 +15,20 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Deadman Wonderland.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx6880-qZ1jIqIYpST2.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/6880-eq4JajOW0HOd.jpg",
+  "description": "Kazakh subtitles for Deadman Wonderland.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "deadman-wonderland-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -33,12 +42,14 @@
     10,
     11,
     12,
+    18
+  ],
+  "quarantined_episodes": [
     13,
     14,
     15,
     16,
     17,
-    18,
     19,
     20,
     21,
@@ -46,250 +57,500 @@
     23,
     24
   ],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_01.kk.ass",
+          "sha256": "90a9c805710fb6eb640b7fe7561bb0a384614b905660761173587c437b3a4443",
+          "bytes": 39785,
+          "cues": 387,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_01.kk.srt",
+          "sha256": "228127c51379145a94e06906fa483374af1ce913ac649c3811ced08b9b34ead6",
+          "bytes": 32813,
+          "cues": 384,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_01.kk.vtt",
+          "sha256": "835ab04f779e5a29d61a3609533556267c1d04d964217e9e3a5fc83a712cfb82",
+          "bytes": 32821,
+          "cues": 384,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-2ep.srt",
+      "filename": "ep_02.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_02.kk.ass",
+          "sha256": "022af2eadfbb1fe6daddae2e749790f86f8660cb6eae59e0c3bc3623ee738bc3",
+          "bytes": 45122,
+          "cues": 427,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_02.kk.srt",
+          "sha256": "f3320a2683775430930c22f01fe90b22991f07e2afa8d8ce433da09ecc92d3d5",
+          "bytes": 37622,
+          "cues": 426,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_02.kk.vtt",
+          "sha256": "1e059966674e47bde6191d213a03bf844449619ec5bcc565c11296555c2f4b5a",
+          "bytes": 37630,
+          "cues": 426,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_03.kk.srt",
+          "sha256": "58ff5ab9e409186cb2becb1d9bcf6d6a6e1d06cded6fa0a6c692739e39e7597e",
+          "bytes": 32640,
+          "cues": 383,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_03.kk.vtt",
+          "sha256": "6c915820488feca410fd27f3ffdfa8fdde3d533da5a6d6061972da61711c3d9d",
+          "bytes": 32737,
+          "cues": 383,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_03.kk.ass",
+          "sha256": "d6a02304264630c4e1a1eede22352099115bfe59576173f2459df785340f336a",
+          "bytes": 39444,
+          "cues": 383,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_04.kk.srt",
+          "sha256": "e8fee55bbd1723d3ec7d5d1e0ac963219ac9be86b16112f9fd2c885e1171f07b",
+          "bytes": 32423,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_04.kk.vtt",
+          "sha256": "a818ad5d484a86d7f04ce2c89513e8ed7ab0e20e630c44bc8c7e64f7a997642e",
+          "bytes": 32520,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_04.kk.ass",
+          "sha256": "2bb36f9f09ab6dd67baea6e0f0583f8f6ae7fdd739fcf4861b6e57d807b31a46",
+          "bytes": 39347,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_05.kk.srt",
+          "sha256": "6e4d132e6e62f07b893ecd04de90f6e15c53243de64b6e28653949b971429742",
+          "bytes": 28161,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_05.kk.vtt",
+          "sha256": "8fa454af7c176fd1941d2098786830bfbd0b197b6b3c57ba87a412aa813ca514",
+          "bytes": 28258,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_05.kk.ass",
+          "sha256": "fa935f5362d3d69ccd990c7a999157da95e92deef50bffc64cb63e3ef1aa2a4b",
+          "bytes": 34440,
+          "cues": 348,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-6ep.srt",
+      "filename": "ep_06.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_06.kk.ass",
+          "sha256": "f23691d053cc2b25938f124b1c31a5b8ecfbb0a6d910a5b08f476e6d3049b046",
+          "bytes": 44708,
+          "cues": 433,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_06.kk.srt",
+          "sha256": "c1f4a1b8175b4d11fb037d52522f6ff41182b43877f5ee8ae1233727eedd2d8d",
+          "bytes": 37117,
+          "cues": 432,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_06.kk.vtt",
+          "sha256": "e2bb1d7fda9ff5213bc578d1bdfebd9a52be906051a55ea25a0c565051d37606",
+          "bytes": 37125,
+          "cues": 432,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-7ep.srt",
+      "filename": "ep_07.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_07.kk.ass",
+          "sha256": "09fd379bdafae34d2597baf67a27e856b9f36d39156563aa93d44f264fec98a2",
+          "bytes": 43643,
+          "cues": 408,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_07.kk.srt",
+          "sha256": "7ae7bbdb262b19ba2e021a1c98da2c2e47b03d7b5461436a16021603677078d6",
+          "bytes": 36428,
+          "cues": 407,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_07.kk.vtt",
+          "sha256": "7874c460777a35ff5af01e5853cb1a28e7299f41ac94674181eeb29b3024428f",
+          "bytes": 36436,
+          "cues": 407,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_08.kk.srt",
+          "sha256": "81be9453a56efe44809c00274429ffe720fd26404d8fe2d1e5992aeba83df2e6",
+          "bytes": 38866,
+          "cues": 443,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_08.kk.vtt",
+          "sha256": "0c0e4c14c6c254b988a1cb2d834509369b289462bae8218d40d6197fbb51fb7b",
+          "bytes": 38963,
+          "cues": 443,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_08.kk.ass",
+          "sha256": "7ba253d1ec9b57e92c31f204e9338d397c8a7df11012d7e71bcff7af9f60e25c",
+          "bytes": 46570,
+          "cues": 443,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-9ep.srt",
+      "filename": "ep_09.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_09.kk.ass",
+          "sha256": "5d6e977b35da9d7a07f0d0bb96e8bd5c9bee85797f26a7a8b5200fe1873fef72",
+          "bytes": 39329,
+          "cues": 419,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_09.kk.srt",
+          "sha256": "a89eec62d57cf7a8a3c96871a227347b8b6337af923622d933700f1a283b1745",
+          "bytes": 31949,
+          "cues": 418,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_09.kk.vtt",
+          "sha256": "2e28502e920efd5fa7c1e3980e0fcdb12d3571c5a27ec6ec0eb57bc54c81e94b",
+          "bytes": 31957,
+          "cues": 418,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_10.kk.srt",
+          "sha256": "0421adc75e0766fff1647377b1d140b711c77183aebb4db789c82e70a944bbfc",
+          "bytes": 42180,
+          "cues": 502,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_10.kk.vtt",
+          "sha256": "be75235871eafb9e9b95a751cd696be864ca916e2076d22d1b0e956200cef4ac",
+          "bytes": 42277,
+          "cues": 502,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_10.kk.ass",
+          "sha256": "880b7aab042fbf10e376c76239e298cb88c47c97703e6594e1b4b76c28fa7487",
+          "bytes": 50769,
+          "cues": 502,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_11.kk.srt",
+          "sha256": "9c42f7a583abd944d9ccdc141484bec959b04bee9147c249845a21611d70df47",
+          "bytes": 36002,
+          "cues": 451,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_11.kk.vtt",
+          "sha256": "c28add539886f13922746fe1f490e3f59ebf80f17262cf4a7c59d6a6bbb6b2e2",
+          "bytes": 36099,
+          "cues": 451,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_11.kk.ass",
+          "sha256": "eca9729dd6dfdacfee9c5244b80995cd8398fbaac14362d56dfc4e4dff7928c2",
+          "bytes": 43826,
+          "cues": 451,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-12ep.ass"
-      }
-    },
-    {
-      "episode": 13,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-13ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-13ep.ass"
-      }
-    },
-    {
-      "episode": 14,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-14ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-14ep.ass"
-      }
-    },
-    {
-      "episode": 15,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-15ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-15ep.ass"
-      }
-    },
-    {
-      "episode": 16,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-16ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-16ep.ass"
-      }
-    },
-    {
-      "episode": 17,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-17ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_12.kk.srt",
+          "sha256": "b458a22f6cc546d4d2e6c80e6644bfb1568117d24f8321bfdc0614531646e3ba",
+          "bytes": 33294,
+          "cues": 442,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_12.kk.vtt",
+          "sha256": "0b10a19a07b7299b6d7f1b93745615b913df20a71554876d6e75f2a3365bf55b",
+          "bytes": 33391,
+          "cues": 442,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_12.kk.ass",
+          "sha256": "d2e7a3f3af1317b55239fa933cdd1527b244db20976ae8edce43993151519cea",
+          "bytes": 40983,
+          "cues": 442,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "deadman-wonderland-tv-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-18ep.ass"
-      }
-    },
-    {
-      "episode": 19,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-19ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-19ep.ass"
-      }
-    },
-    {
-      "episode": 20,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-20ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-20ep.ass"
-      }
-    },
-    {
-      "episode": 21,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-21ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-21ep.ass"
-      }
-    },
-    {
-      "episode": 22,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-22ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-22ep.ass"
-      }
-    },
-    {
-      "episode": 23,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-23ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-23ep.ass"
-      }
-    },
-    {
-      "episode": 24,
-      "language": "kk",
-      "filename": "deadman-wonderland-tv-24ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/deadman-wonderland-tv/deadman-wonderland-tv-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/deadman-wonderland-tv/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_18.kk.srt",
+          "sha256": "c3e8b70272928d857a44e8457be03a0df935fe680cf44b4cd388f5bd6cbd4736",
+          "bytes": 30575,
+          "cues": 352,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/deadman-wonderland-tv/ep_18.kk.vtt",
+          "sha256": "0739bdb1ad26f96fb17acc845690a4958758df535277e01ef33ca75dce21397b",
+          "bytes": 30672,
+          "cues": 352,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/deadman-wonderland-tv/ep_18.kk.ass",
+          "sha256": "85d9581d4828b2e2511f34ff45d31dfa71ae8f00cd2f8b7ba1d93a87dc28ad30",
+          "bytes": 36478,
+          "cues": 352,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 24
+  "quality_issues_count": 97,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deadman-wonderland-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization",
+    "unusable_episode"
+  ]
 }

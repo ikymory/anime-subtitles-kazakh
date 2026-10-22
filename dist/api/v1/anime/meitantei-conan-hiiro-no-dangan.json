@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Meitantei Conan. Hiiro no Dangan - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-hiiro-no-dangan.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-hiiro-no-dangan.jpg",
+  "description": "Meitantei Conan. Hiiro no Dangan - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "meitantei-conan-hiiro-no-dangan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "meitantei-conan-hiiro-no-dangan-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-hiiro-no-dangan/meitantei-conan-hiiro-no-dangan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-hiiro-no-dangan/meitantei-conan-hiiro-no-dangan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-hiiro-no-dangan/meitantei-conan-hiiro-no-dangan-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-hiiro-no-dangan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-hiiro-no-dangan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-hiiro-no-dangan/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/meitantei-conan-hiiro-no-dangan/ep_01.kk.srt",
+          "sha256": "bb536aad7c107e5bafc7ce49b4a6071bd82993299ce1db64124085f5550c1ca5",
+          "bytes": 233497,
+          "cues": 2651,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/meitantei-conan-hiiro-no-dangan/ep_01.kk.vtt",
+          "sha256": "8439c42e2d41db6adb4f4c1047da672a404fad23034e4050235176dd63463091",
+          "bytes": 233594,
+          "cues": 2651,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/meitantei-conan-hiiro-no-dangan/ep_01.kk.ass",
+          "sha256": "e42bf6cd30dd80144547250e79ff0a5ec2af226c366818f4aead9c72e6d6e7b5",
+          "bytes": 272669,
+          "cues": 2651,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-hiiro-no-dangan.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

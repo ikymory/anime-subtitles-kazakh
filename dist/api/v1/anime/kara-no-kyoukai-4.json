@@ -13,28 +13,66 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4282-R19YmET0glSZ.jpg",
+  "averageScore": 78,
+  "popularity": 63779,
+  "color": "hsl(290, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4282-2UcZq3DUNH9G.jpg",
+  "catalog_id": "kara-no-kyoukai-4",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     4
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 4,
       "language": "kk",
-      "filename": "kara-no-kyoukai-4-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-4/kara-no-kyoukai-4-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-4/kara-no-kyoukai-4-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-4/kara-no-kyoukai-4-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-4/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-4/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-4/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kara-no-kyoukai-4/ep_04.kk.srt",
+          "sha256": "01f62fb08a860420fbfed25d05f9c3eb7e1719a4bbfda6d6af45003294483a47",
+          "bytes": 52025,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kara-no-kyoukai-4/ep_04.kk.vtt",
+          "sha256": "9019c7ce22c840e1400f2a9fb3d2c662785d1e17e5c0692f4ca4be0eeb231260",
+          "bytes": 52122,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kara-no-kyoukai-4/ep_04.kk.ass",
+          "sha256": "54976b236fedefd3d5ad3f64dff556154dd21c5b6afef3e9e2162ba3a84d5601",
+          "bytes": 58685,
+          "cues": 389,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(290, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 78,
-  "popularity": 63779,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-4.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

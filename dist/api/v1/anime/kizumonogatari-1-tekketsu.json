@@ -16,24 +16,64 @@
     "Mystery",
     "Supernatural"
   ],
-  "description": "Kizumonogatari Part 1: Iron-Blooded - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kizumonogatari-1-tekketsu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kizumonogatari-1-tekketsu.jpg",
+  "description": "Kizumonogatari Part 1: Iron-Blooded - official Kazakh translation archive by ikymory.",
   "averageScore": 89,
   "popularity": 106800,
+  "catalog_id": "kizumonogatari-1-tekketsu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kizumonogatari-1-tekketsu-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-1-tekketsu/kizumonogatari-1-tekketsu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-1-tekketsu/kizumonogatari-1-tekketsu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-1-tekketsu/kizumonogatari-1-tekketsu-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-1-tekketsu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-1-tekketsu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-1-tekketsu/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kizumonogatari-1-tekketsu/ep_01.kk.srt",
+          "sha256": "4074b9c819bb673c5be088edd0d70097bb98e56840c884b3af39d7a40ce0a482",
+          "bytes": 42228,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kizumonogatari-1-tekketsu/ep_01.kk.vtt",
+          "sha256": "5b53db0736ac711e2ca211d1bd8aabde55256550cf7eeac389b1b47d6d3672cd",
+          "bytes": 42325,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kizumonogatari-1-tekketsu/ep_01.kk.ass",
+          "sha256": "8cab2bd76ca151cc1af53cc51d3e2d60712c0d267d2414a80e4c825ce92b8dc8",
+          "bytes": 50113,
+          "cues": 455,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kizumonogatari-1-tekketsu.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

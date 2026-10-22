@@ -16,24 +16,68 @@
     "Fantasy",
     "Psychological"
   ],
-  "description": "Revolutionary Girl Utena: The Movie - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/utena-adolescence-mokushiroku.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/utena-adolescence-mokushiroku.jpg",
+  "description": "Revolutionary Girl Utena: The Movie - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "utena-adolescence-mokushiroku",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "utena-adolescence-mokushiroku-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/utena-adolescence-mokushiroku/utena-adolescence-mokushiroku-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/utena-adolescence-mokushiroku/utena-adolescence-mokushiroku-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/utena-adolescence-mokushiroku/utena-adolescence-mokushiroku-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/utena-adolescence-mokushiroku/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/utena-adolescence-mokushiroku/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/utena-adolescence-mokushiroku/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/utena-adolescence-mokushiroku/ep_01.kk.ass",
+          "sha256": "a9bd4acafa746609d857e4b99f95ac72b0d5662bb2424b3b75a4d3882d0cc973",
+          "bytes": 109183,
+          "cues": 899,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/utena-adolescence-mokushiroku/ep_01.kk.srt",
+          "sha256": "43d4ff264331eb639db6765f9c90c188ff0964cbe7872cc68fe29e97a4d9ec7b",
+          "bytes": 75425,
+          "cues": 897,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/utena-adolescence-mokushiroku/ep_01.kk.vtt",
+          "sha256": "5f6dac248dd5756c978139c9bf5566026751d00ada6e027ae127c6f93557dec6",
+          "bytes": 75433,
+          "cues": 897,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/utena-adolescence-mokushiroku.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

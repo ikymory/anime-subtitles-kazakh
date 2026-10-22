@@ -3,11 +3,13 @@
   "slug": "steins-gate",
   "title": {
     "romaji": "Steins;Gate 0",
-    "english": "Steins;Gate 0",
-    "native": "シュタインズ・ゲート ゼロ"
+    "english": "Steins;Gate",
+    "native": "シュタインズ・ゲート ゼロ",
+    "kazakh": "Штейнс қақпасы (Steins;Gate)",
+    "kk": "Штейнс қақпасы (Steins;Gate)"
   },
   "format": "TV",
-  "episodes": 23,
+  "episodes": 24,
   "seasonYear": 2018,
   "genres": [
     "Drama",
@@ -15,9 +17,20 @@
     "Sci-Fi",
     "Thriller"
   ],
-  "description": "The eccentric, self-proclaimed mad scientist Rintarou Okabe has become a shell of his former self. Depressed and traumatized after failing to rescue his friend, he has decided to forsake his mad scientist alter ego and live as an ordinary college student. Surrounded by friends who know little of his time travel experiences, Okabe spends his days trying to forget the horrors of his adventures alone.<br>\n<br>\nWhile working as a receptionist at a college technology forum, Okabe meets the short, spunky Maho Hiyajo, who\nlater turns out to be the interpreter at the forum's presentation, conducted by Professor Alexis Leskinen. In front of a stunned crowd, Alexis and Maho unveil Amadeus—a revolutionary AI capable of storing a person's memories and creating a perfect simulation of that person complete with their personality and quirks. Meeting with Maho and Alexis after the presentation, Okabe learns that the two were Kurisu's colleagues in university, and that they have simulated her in Amadeus. Hired by Alexis to research the simulation's behavior, Okabe is given the chance to interact with the shadow of a long-lost dear friend. Dangerously tangled in the past, Okabe must face the harsh reality and carefully maneuver around the disastrous consequences that come with disturbing the natural flow of time.\n",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21127-7ARWZkDXKiiD.jpg",
-  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21127-6jTjz7ndTHOi.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n9253-JIhmKgBKsWUN.jpg",
+  "description": "The eccentric, self-proclaimed mad scientist Rintarou Okabe has become a shell of his former self. Depressed and traumatized after failing to rescue his friend, he has decided to forsake his mad scientist alter ego and live as an ordinary college student. Surrounded by friends who know little of his time travel experiences, Okabe spends his days trying to forget the horrors of his adventures alone.\n\nWhile working as a receptionist at a college technology forum, Okabe meets the short, spunky Maho Hiyajo, who\nlater turns out to be the interpreter at the forum's presentation, conducted by Professor Alexis Leskinen. In front of a stunned crowd, Alexis and Maho unveil Amadeus—a revolutionary AI capable of storing a person's memories and creating a perfect simulation of that person complete with their personality and quirks. Meeting with Maho and Alexis after the presentation, Okabe learns that the two were Kurisu's colleagues in university, and that they have simulated her in Amadeus. Hired by Alexis to research the simulation's behavior, Okabe is given the chance to interact with the shadow of a long-lost dear friend. Dangerously tangled in the past, Okabe must face the harsh reality and carefully maneuver around the disastrous consequences that come with disturbing the natural flow of time.",
+  "averageScore": 93,
+  "popularity": 97000,
+  "color": "#f1d6bb",
+  "duration": 24,
+  "studio": "WHITE FOX",
+  "catalog_id": "steins-gate",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -44,246 +57,903 @@
     23,
     24
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 24,
+  "available_episodes_count": 24,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "steins-gate-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_01.kk.srt",
+          "sha256": "4ac0836b6bfeb42c3c6e0cdb2992345bd5404c6d6c5fdaabbf1a231fa18aec45",
+          "bytes": 33207,
+          "cues": 368,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_01.kk.vtt",
+          "sha256": "1b3e7fb8fdc13018a8081a1584208aded927f277e366027871e9ac0709f24e72",
+          "bytes": 33304,
+          "cues": 368,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_01.kk.ass",
+          "sha256": "6279f16ba93ef485ddfe747f96c53549b2a6baf314640d287690606a110b5fcb",
+          "bytes": 39546,
+          "cues": 368,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "steins-gate-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_02.kk.srt",
+          "sha256": "bd4ab964f69f5b4969fef7d480f4720e89e08ac1cbd42482f02594353ec11818",
+          "bytes": 38846,
+          "cues": 388,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_02.kk.vtt",
+          "sha256": "454e2d1716f55705b8d4e856d67c9adc9b8246f794e69a0598662fe2eca3da96",
+          "bytes": 38943,
+          "cues": 388,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_02.kk.ass",
+          "sha256": "46ee3d96a212f3bc5ac9ae165480cbe2361a786401038f6d0a8283af196a63ba",
+          "bytes": 45485,
+          "cues": 388,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "steins-gate-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_03.kk.srt",
+          "sha256": "4f2c63d20b0e7f8f00e0220f6fda01634dba3a04e94a0079b9f68cc4b30fc04a",
+          "bytes": 20829,
+          "cues": 216,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_03.kk.vtt",
+          "sha256": "dfb54f4daaeee1203aa034ddc52f1cbdf4d889f9cb276a0bb0b10c51f159f15c",
+          "bytes": 20926,
+          "cues": 216,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_03.kk.ass",
+          "sha256": "3ecd62d0ef69a13770cf3e0a021a9dde31f347be2d6839b57ee906a2b200128f",
+          "bytes": 24888,
+          "cues": 216,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "steins-gate-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_04.kk.srt",
+          "sha256": "700f438c6aa1a5d5405bda5a67962b8d7bc9fb7923c2e92bc591a179d0593a00",
+          "bytes": 47857,
+          "cues": 492,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_04.kk.vtt",
+          "sha256": "8471211cfdd61d4c0e83b64b2860df41fd269756e2cb097dc3e3c5413f7fc8b6",
+          "bytes": 47954,
+          "cues": 492,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_04.kk.ass",
+          "sha256": "cc65aa1e4a1f2a32ea6cb6ec7b80d62d9959283f033eeee2ab2b3054fdbe6f51",
+          "bytes": 56056,
+          "cues": 492,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "steins-gate-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_05.kk.srt",
+          "sha256": "1204bd663c5d63208fe7ed9d5c38ca1aa548974e2c17c7cddaf8fe2a1f39ea87",
+          "bytes": 42687,
+          "cues": 426,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_05.kk.vtt",
+          "sha256": "4522b97ff8b87c842bf55986ec2eb97f84af84adf8d06d2ebd4fa314ac76e61b",
+          "bytes": 42784,
+          "cues": 426,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_05.kk.ass",
+          "sha256": "72d8a228b35f3e43a9b498a952929b5be80215e06953af9f4aaaba9232c10b0b",
+          "bytes": 49896,
+          "cues": 426,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "steins-gate-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_06.kk.srt",
+          "sha256": "12f2a39c0271eb3aba3443d5bfe54cd03f4f829add1ae455f8d50892363d3730",
+          "bytes": 39251,
+          "cues": 368,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_06.kk.vtt",
+          "sha256": "fc7d35ed7140a27e0ceb26eaac36a41b1e19d727f899468ed5d1582538e78a68",
+          "bytes": 39348,
+          "cues": 368,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_06.kk.ass",
+          "sha256": "4d615161eb1ee83572805c03a0dbc8f6680464088991a7d56942322c94103fb6",
+          "bytes": 45590,
+          "cues": 368,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "steins-gate-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_07.kk.srt",
+          "sha256": "b562729f06b57d31eb7b7071c109ceabb3c31c29453f2a33022c129b2d41c627",
+          "bytes": 40150,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_07.kk.vtt",
+          "sha256": "7477fa6299134a72cdef1ae67ebbaedf05547087fea764baf26c1b7b9d4759f3",
+          "bytes": 40247,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_07.kk.ass",
+          "sha256": "71c9cdaaa77a8f6ddcb36aff94d0c85e47f256491885b3110037e8381dae5c9a",
+          "bytes": 46579,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "steins-gate-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_08.kk.srt",
+          "sha256": "91076eebc93f7197c4753b547d7acd65e11bdf99cc3dac82ec00cc06b0e0beb9",
+          "bytes": 33994,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_08.kk.vtt",
+          "sha256": "ce8abdef18ed4edb02637f9bfaa5d61d5b7bd5afaa54c68d55e76e3110188378",
+          "bytes": 34091,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_08.kk.ass",
+          "sha256": "ec085ed0eab3397c143c977a1f8833672f747ede4c5591d80706a53b899633b4",
+          "bytes": 40393,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "steins-gate-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_09.kk.srt",
+          "sha256": "26b42bcc312eb28cd102ac9b653074ebeb8ed77e17f6f3aa7712fbb7928055a1",
+          "bytes": 45297,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_09.kk.vtt",
+          "sha256": "0d955d8b756d7c2c557be353e85b3fd4caa987a3231186cb95c78573acb744c0",
+          "bytes": 45394,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_09.kk.ass",
+          "sha256": "1d4d1d7ae41e632ee64f6224c961e6f6ea2a915f04e3c670cc6e3fff2437d0ab",
+          "bytes": 52026,
+          "cues": 394,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "steins-gate-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_10.kk.srt",
+          "sha256": "83e665e5506ebb0e5727265ff75e61785fcbacf4fc391bb999d5728f09ed0048",
+          "bytes": 36240,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_10.kk.vtt",
+          "sha256": "ba8ed85546f08209b06a3c05d1e03bab1f0d2c821bbb1b811c63289cb731e32d",
+          "bytes": 36337,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_10.kk.ass",
+          "sha256": "730064f21994ee915260d75b336838306d066e08259cb5e1d6d95ccab6b4e937",
+          "bytes": 42744,
+          "cues": 379,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "steins-gate-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_11.kk.srt",
+          "sha256": "b6718434d532a39cb56283b99850981ec96446d8c0abb2893c6daa66dd836ca2",
+          "bytes": 39425,
+          "cues": 363,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_11.kk.vtt",
+          "sha256": "71250453b7f9d3eb7525fb5ab5ef8f74ee3b1b2d3532c3998b214483091292ab",
+          "bytes": 39522,
+          "cues": 363,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_11.kk.ass",
+          "sha256": "9dad71b094bcd01fc58798a7872ea2b603da75bd4248fd4f4032a12598b93f3b",
+          "bytes": 45689,
+          "cues": 363,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "steins-gate-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_12.kk.srt",
+          "sha256": "a0e484b85b80d20ec4c4f0dd20da3d9454842f850e2bcd13c7948b89fdc33cbb",
+          "bytes": 34922,
+          "cues": 362,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_12.kk.vtt",
+          "sha256": "622f5a9ffccf971e54c6d6ad3288b12ab8927dbb894e0a94a639caf3cc69a4be",
+          "bytes": 35019,
+          "cues": 362,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_12.kk.ass",
+          "sha256": "a442b0fbfc0274ba66ffa3f3fe3cb9a3673ec64fdbca406ba23566d06db4bb90",
+          "bytes": 41171,
+          "cues": 362,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "steins-gate-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_13.kk.srt",
+          "sha256": "d99360fc1e63204f21bb7c018a2fab4ca9309de4a43185e35e7fe03eeea153f7",
+          "bytes": 24592,
+          "cues": 314,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_13.kk.vtt",
+          "sha256": "de7270bf8fd2708bd10c6485c9afcc907985948ea9762c70fdb005261c5a58fe",
+          "bytes": 24689,
+          "cues": 314,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_13.kk.ass",
+          "sha256": "bf8f2aa2bcfa634ec88961bf3dc1f620f6e099c49881026807586100b7677916",
+          "bytes": 30121,
+          "cues": 314,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "steins-gate-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_14.kk.srt",
+          "sha256": "bb39b6d795bbfe45432a3ffd29eecea10ad12eca3e16fb072d1b5f92cbe82cb0",
+          "bytes": 31187,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_14.kk.vtt",
+          "sha256": "fa573888c888764b297b3d8c13a6ee7a449c94bd35b18dfe2b2a6cc4feb6c79d",
+          "bytes": 31284,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_14.kk.ass",
+          "sha256": "59f4baa79eab1701041a963c42ac1657759e81e1464857fe7d4bb78f0cae5211",
+          "bytes": 37616,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "steins-gate-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_15.kk.srt",
+          "sha256": "c5c3b682431f26f982e770f6ec297cccbac4024f90aeca7d92611666a5e6b2eb",
+          "bytes": 36607,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_15.kk.vtt",
+          "sha256": "ddfc0c98846586c9c547be0f33115556f40f036e00e060dbd9bf2f2521d7274a",
+          "bytes": 36704,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_15.kk.ass",
+          "sha256": "a3d61edd71c432a1834d90b6f26ca5e7a847fb03a6a4c5d7cf5d2b512a80fd6d",
+          "bytes": 42931,
+          "cues": 367,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "steins-gate-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_16.kk.srt",
+          "sha256": "95443f51f517bc3fd50a707231e7c7a0b372479ef7f996f1a1551b31867cd055",
+          "bytes": 30487,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_16.kk.vtt",
+          "sha256": "fb4d5ae47cc7058d3dc81b55348b33447b515cf9e84cc3afe6a8f60477f9d28b",
+          "bytes": 30584,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_16.kk.ass",
+          "sha256": "33bd78f153f2d6850be7019125a3422f4f3136fa50df737d5f26e8afc59c73b3",
+          "bytes": 36721,
+          "cues": 361,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "steins-gate-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_17.kk.srt",
+          "sha256": "4054a80b06ee1b0c634c9f121572299c847396354381f6eed416c3632b199b71",
+          "bytes": 34000,
+          "cues": 353,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_17.kk.vtt",
+          "sha256": "14575f41d5aa67a757c1fce1407098577c3fd6fe2cdc7591cf1a53968d6a640f",
+          "bytes": 34097,
+          "cues": 353,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_17.kk.ass",
+          "sha256": "c17661522b2bdd83c650a2c3228cc9bdee013099b313fc380ae8ad0d78fae43b",
+          "bytes": 40114,
+          "cues": 353,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "steins-gate-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_18.kk.srt",
+          "sha256": "b7478ed78ef4a2554e5b15ebe15d5c3dbcc1abfab463aa5091be9a63e9ced6b8",
+          "bytes": 40347,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_18.kk.vtt",
+          "sha256": "d415e82bf34f60a05d74845c31369a81cbbf80e0a85a7d685b0e3fbdb211e497",
+          "bytes": 40444,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_18.kk.ass",
+          "sha256": "e832993d59f7486ba3095cffee04fa21a09356e72eb6c22e30b7104e8d1d00f5",
+          "bytes": 47286,
+          "cues": 408,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "steins-gate-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_19.kk.srt",
+          "sha256": "ee6fee1e9204219d7536bf99d15189bebe6478f16a93a940ca6bac8fabe884ca",
+          "bytes": 31578,
+          "cues": 350,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_19.kk.vtt",
+          "sha256": "a841354f961125b0669cb72f4d381d1e2dd2d19bc6721d2cf4fa8feb1268cad3",
+          "bytes": 31675,
+          "cues": 350,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_19.kk.ass",
+          "sha256": "3a3ab0711515f5f30ea44ceb661d7445f3c3cdd74989d743ce552377dd96bd69",
+          "bytes": 37647,
+          "cues": 350,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "steins-gate-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_20.kk.srt",
+          "sha256": "d34c9cbe17c36562581be5cd14f7feb4a6bf9a9f744c3941409eb8d4cfab04e9",
+          "bytes": 25406,
+          "cues": 296,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_20.kk.vtt",
+          "sha256": "29d6666f50cacc8ea78e5b20eae7f4928d7579f47a72f8d179e334ac052ff5ce",
+          "bytes": 25503,
+          "cues": 296,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_20.kk.ass",
+          "sha256": "57f3dd03fb85aeb7198931e1d8fd6b4136edea327600e4eb9413f85e3d94e991",
+          "bytes": 30665,
+          "cues": 296,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "steins-gate-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_21.kk.srt",
+          "sha256": "26beb4a6ef3300253abc8407075e53427cce501accf9655367e617886383e56c",
+          "bytes": 29858,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_21.kk.vtt",
+          "sha256": "2fcf1e8035f3a2a50b3baf5d34e65d1479ccb7a1f68ded6aa1c6823827b48a44",
+          "bytes": 29955,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_21.kk.ass",
+          "sha256": "c7054c74dc51a2adaf37d1b61738a4798efe1e22e4eddd775d52a27d41834e7a",
+          "bytes": 35507,
+          "cues": 322,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "steins-gate-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_22.kk.srt",
+          "sha256": "8e7a64aec7844677af1ee830e95d6388e72a277f9467b9fe15438931a9bddbc3",
+          "bytes": 31576,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_22.kk.vtt",
+          "sha256": "0328a2c9083c708eb3ca7df2c1f137c3eccf05da0bb2a7f11644ee0d0c620dcc",
+          "bytes": 31673,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_22.kk.ass",
+          "sha256": "b139b6e712b9a1339de5abd82bc737ba1e228d0e8e238096df5e5e6b00008995",
+          "bytes": 37540,
+          "cues": 343,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "steins-gate-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_23.kk.srt",
+          "sha256": "475632f8b91e55736be99c46c64b0a1d7b904aad757b13dbf2dd78293816cf58",
+          "bytes": 38780,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_23.kk.vtt",
+          "sha256": "33e9fb21d8f10a92356d4ec38dcf866b5e1d8f201ce76ade56d72221425c3528",
+          "bytes": 38877,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_23.kk.ass",
+          "sha256": "e0bd71af87ca5591701346b997d54a0beeba7abbccc4daf3168ae97b879222fe",
+          "bytes": 45674,
+          "cues": 405,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "steins-gate-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/steins-gate/steins-gate-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/steins-gate/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/steins-gate/ep_24.kk.srt",
+          "sha256": "90ebfe1bfee91e471e4c855fdad9022f075569ac034c08ad345cb27a3fc86124",
+          "bytes": 36381,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/steins-gate/ep_24.kk.vtt",
+          "sha256": "8a3575008860bb75635b6826be37dc07c8c7d1621fc2697809359879bca96392",
+          "bytes": 36478,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/steins-gate/ep_24.kk.ass",
+          "sha256": "0a8c54e1a3768f5eb9012e50383751791dcd0ef4dcac5a281248fbf9cfc4b078",
+          "bytes": 42570,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 120,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/steins-gate.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

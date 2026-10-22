@@ -15,28 +15,67 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for Fairy Tail the Movie: Phoenix Priestess.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12049-FIx0K2s81SPa.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n12049-kyR6RCH0IAgo.jpg",
+  "description": "Kazakh subtitles for Fairy Tail the Movie: Phoenix Priestess.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "fairy-tail-phoenix-priestess",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fairy-tail-phoenix-priestess-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fairy-tail-phoenix-priestess/fairy-tail-phoenix-priestess-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fairy-tail-phoenix-priestess/fairy-tail-phoenix-priestess-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fairy-tail-phoenix-priestess/fairy-tail-phoenix-priestess-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fairy-tail-phoenix-priestess/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fairy-tail-phoenix-priestess/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fairy-tail-phoenix-priestess/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fairy-tail-phoenix-priestess/ep_01.kk.srt",
+          "sha256": "5ee31420bda15fda26cbd14da39b966355fabe63aa41ff53d8b1f8940b548c2b",
+          "bytes": 78952,
+          "cues": 909,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fairy-tail-phoenix-priestess/ep_01.kk.vtt",
+          "sha256": "84ae57acfab3a3a48b95b04f056fa32bb79cfadd95402fd7677d79ce7366a389",
+          "bytes": 79049,
+          "cues": 909,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fairy-tail-phoenix-priestess/ep_01.kk.ass",
+          "sha256": "ebecf816bdbb6b42a7d60b501570c47f1eee1eb4b66d6ab22f201b186e1bbafd",
+          "bytes": 93648,
+          "cues": 909,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fairy-tail-phoenix-priestess.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

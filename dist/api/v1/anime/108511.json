@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Tensei Shitara Slime Datta Ken 2nd Season",
     "english": "That Time I Got Reincarnated as a Slime Season 2",
-    "native": "転生したらスライムだった件 第2期"
+    "native": "転生したらスライムだった件 第2期",
+    "kazakh": "Шырыш болып қайта жаралғаным туралы 2-маусым",
+    "kk": "Шырыш болып қайта жаралғаным туралы 2-маусым"
   },
   "format": "TV",
   "episodes": 12,
@@ -15,22 +17,67 @@
     "Comedy",
     "Fantasy"
   ],
-  "description": "Now that the Jura Tempest Alliance is growing even further, they will now be meeting the animal kingdom of Eurazania, reuniting with King Gazel, rising tensions between monsters and humans, and Rimuru encountering the strongest enemy he’s ever faced.<br>\n<br>\n(Source: Funimation)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108511-PufFordLNyIb.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108511-PufFordLNyIb.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108511-lcP2j3XlKERG.jpg",
+  "description": "Now that the Jura Tempest Alliance is growing even further, they will now be meeting the animal kingdom of Eurazania, reuniting with King Gazel, rising tensions between monsters and humans, and Rimuru encountering the strongest enemy he’s ever faced.\n\n(Source: Funimation)",
+  "averageScore": 83,
+  "popularity": 58856,
+  "color": "#f16b50",
+  "duration": 24,
+  "studio": "8-bit",
+  "catalog_id": "that-time-i-s2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "that-time-i-s2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/that-time-i-s2/that-time-i-s2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/that-time-i-s2/that-time-i-s2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/that-time-i-s2/that-time-i-s2-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/that-time-i-s2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/that-time-i-s2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/that-time-i-s2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/that-time-i-s2/ep_01.kk.srt",
+          "sha256": "507b7603655d245739257cb7f49121bbf4d6f655405400b7ea18bb96c4fa8385",
+          "bytes": 29417,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/that-time-i-s2/ep_01.kk.vtt",
+          "sha256": "6dfa16a75574fcc92fd0f230b78f9662fa911a16547adea153170f749442b790",
+          "bytes": 29514,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/that-time-i-s2/ep_01.kk.ass",
+          "sha256": "864d6fd9fcfd16a154abbc003d4b41e0e5d43602937762d0d54244dca49b0c21",
+          "bytes": 35174,
+          "cues": 329,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/that-time-i-s2.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

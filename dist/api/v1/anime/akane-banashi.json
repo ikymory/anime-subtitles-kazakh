@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Akane-banashi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/akane-banashi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/akane-banashi.jpg",
+  "description": "Akane-banashi - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "akane-banashi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "akane-banashi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_01.kk.srt",
+          "sha256": "bf00ebd1fb5ed1f6af0a36363e67636781e0a0e2ba4968048077f12ebecb800f",
+          "bytes": 38849,
+          "cues": 441,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_01.kk.vtt",
+          "sha256": "39d372b9b031b8eb56d3b471357e6ddc13059aa0f541409805e04cdce39458ae",
+          "bytes": 38946,
+          "cues": 441,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_01.kk.ass",
+          "sha256": "7e89ec8bea0ae1ee7cf3317a3b57143335e1a1a27ee97e389b4cf7c398702cec",
+          "bytes": 46342,
+          "cues": 441,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "akane-banashi-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_02.kk.srt",
+          "sha256": "991464284c26c5d6dd23349a80e0b033bf120b82ece0e6290f79bd8abf64d917",
+          "bytes": 40091,
+          "cues": 463,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_02.kk.vtt",
+          "sha256": "da3989647dfd30352bf597bd6bf6ab8e519992f72a63bad6a3b059591de516dd",
+          "bytes": 40188,
+          "cues": 463,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_02.kk.ass",
+          "sha256": "648f22e38986e93839b85259a3bb7c26176ec5617a327fa1aed9b1a526d6b7d3",
+          "bytes": 47914,
+          "cues": 463,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "akane-banashi-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_03.kk.srt",
+          "sha256": "c70ba4f2659db6741145314f6bdfef9108f3ab5ab2e478d66320702846667b25",
+          "bytes": 47521,
+          "cues": 511,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_03.kk.vtt",
+          "sha256": "e9faea13ef1edcac94c7874c03bad9c7a5738804cc1ee65ba2e74ab300e4e513",
+          "bytes": 47618,
+          "cues": 511,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_03.kk.ass",
+          "sha256": "2425fc448cf482129b4e947fbbb8404d92195367df9511fda5c938b6881324ec",
+          "bytes": 56064,
+          "cues": 511,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "akane-banashi-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_04.kk.srt",
+          "sha256": "9930870742fd065d354474ad2fa0d38eef937f4faa773ca24c63aa571b564325",
+          "bytes": 45024,
+          "cues": 496,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_04.kk.vtt",
+          "sha256": "329ed757a6157a8922111addf09e20000bfd7e890e5e8cb39212622a1ab71d55",
+          "bytes": 45121,
+          "cues": 496,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_04.kk.ass",
+          "sha256": "f54b1c43dbf04879155f3e5e1668f13acdcb8cb8cb1de0ecfc0083bea72b44c8",
+          "bytes": 53342,
+          "cues": 496,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "akane-banashi-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_05.kk.srt",
+          "sha256": "a9466cdb2f38525f07f4871886ae15114de23e1edb4933befcb32bc2ecc36fcf",
+          "bytes": 44382,
+          "cues": 476,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_05.kk.vtt",
+          "sha256": "bdcfffe8a58849e8eed54c1fa9333d85c923de5701986d51377004be166a3d7d",
+          "bytes": 44479,
+          "cues": 476,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_05.kk.ass",
+          "sha256": "4a8383335d7e265c5cfda6571a941a40a520c1868f766cb544deb23dc76ca23b",
+          "bytes": 52401,
+          "cues": 476,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "akane-banashi-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_06.kk.srt",
+          "sha256": "6b8230af98425f1932974960e3f3883cdc8b966199a36640a6feeb4d14daca4e",
+          "bytes": 47000,
+          "cues": 479,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_06.kk.vtt",
+          "sha256": "2e4a91e9d58f430b449cc14cf9bbc7e1bd2c4af671b59aacd7acee29a20d89ef",
+          "bytes": 47097,
+          "cues": 479,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_06.kk.ass",
+          "sha256": "c786351813d3eea6e368e84eb4ed30ebb7d6068c0aab0fb35e85eba01cb38d5a",
+          "bytes": 55063,
+          "cues": 479,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "akane-banashi-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_07.kk.srt",
+          "sha256": "12e5afafc38f9ceadc2b057c2284ff0af13ae560cfe03b3f86668242a22879ab",
+          "bytes": 45637,
+          "cues": 505,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_07.kk.vtt",
+          "sha256": "fd810257baf9119e18d25363af4d38235136978c9ab4eb07d8247de79933c87b",
+          "bytes": 45734,
+          "cues": 505,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_07.kk.ass",
+          "sha256": "b92a9f480efe00e65aba1b434f199cebd89dd9c6323d41fad748ea1b78b7369c",
+          "bytes": 54090,
+          "cues": 505,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "akane-banashi-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_08.kk.srt",
+          "sha256": "f606695f07945f5dc8ca36f90943bcafd5d50da892eba9f52247ea9fd7fefb84",
+          "bytes": 45454,
+          "cues": 494,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_08.kk.vtt",
+          "sha256": "bc8b802e7d715fe7e799a50a044f2d34b5e23d9fd25cfd8a40cfed802d6f5049",
+          "bytes": 45551,
+          "cues": 494,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_08.kk.ass",
+          "sha256": "12f296d0f90bac54da8a18982d41959833fb05ad4981489940a7dcf9bb682b19",
+          "bytes": 53742,
+          "cues": 494,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "akane-banashi-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_09.kk.srt",
+          "sha256": "fc206261064a61c943ce938364be0ee3467b70798f0e107fb4e46f0545e861d5",
+          "bytes": 41393,
+          "cues": 451,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_09.kk.vtt",
+          "sha256": "790b8c3e778a89de9646488c9fe304d014f0e121a214a88ec796e36224e2c1f9",
+          "bytes": 41490,
+          "cues": 451,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_09.kk.ass",
+          "sha256": "aa8a26e3109f02a6cb485dc4f6f8fc77c920bf9b1163504d98d9ae7c1292fd6c",
+          "bytes": 49036,
+          "cues": 451,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "akane-banashi-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_10.kk.srt",
+          "sha256": "77d7512d23f88d6e2df756ebb96b4a10a9508940fa5248522a200659d0293b3c",
+          "bytes": 40994,
+          "cues": 428,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_10.kk.vtt",
+          "sha256": "9859c9c755d2985aa01f4ebc1ef863212c3b23540d9a55cb9f4151804dd2f7f5",
+          "bytes": 41091,
+          "cues": 428,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_10.kk.ass",
+          "sha256": "2f1b6792e8af25e4aac128f2f891fbe2e2335c7ec1f090f391c5324e666fece4",
+          "bytes": 48292,
+          "cues": 428,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "akane-banashi-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_11.kk.srt",
+          "sha256": "05886ab0e4c093f03bd8296a0815de0155f28b87d812873844f0e29fdd1c3f51",
+          "bytes": 36955,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_11.kk.vtt",
+          "sha256": "5087dc0e57ed92809798c6d7c593502bdd0177db7bc5b7e29425b209164854f3",
+          "bytes": 37052,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_11.kk.ass",
+          "sha256": "54abc0d8805c6cf41fa762aa483952dd8368cace61da2880f049c47814e9acf9",
+          "bytes": 43908,
+          "cues": 405,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "akane-banashi-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/akane-banashi/akane-banashi-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/akane-banashi/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/akane-banashi/ep_12.kk.srt",
+          "sha256": "22acf89f662d47ff7c971f5ccebfe08a0742bf44354daf83c62c4bf41835aabd",
+          "bytes": 37785,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/akane-banashi/ep_12.kk.vtt",
+          "sha256": "bf6e804349687e48eb4b54a64c270250f07e09be0d602051e56366877bfd2723",
+          "bytes": 37882,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/akane-banashi/ep_12.kk.ass",
+          "sha256": "51db5c2cd1f9a36561e5e9546f2b478e2514545010246d8aab28df41390b812b",
+          "bytes": 45218,
+          "cues": 437,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/akane-banashi.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

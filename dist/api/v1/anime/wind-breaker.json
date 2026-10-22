@@ -16,9 +16,20 @@
     "Comedy",
     "Drama"
   ],
-  "description": "Where the average scores are the lowest, but the fights are the strongest. Furin High School is renowned as a super school of delinquents. Haruka Sakura, a first-year student, came from outside the city to fight to the top. However, Furin High School has become a group that protects the town called the “Chime of the Wind Breaker” – Bofurin. The heroic legend of high school delinquent Sakura begins here!\n<br><br>\n(Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163270-wboZJp0ybwVK.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163270-fcjrqp3iKWdb.jpg",
+  "description": "Where the average scores are the lowest, but the fights are the strongest. Furin High School is renowned as a super school of delinquents. Haruka Sakura, a first-year student, came from outside the city to fight to the top. However, Furin High School has become a group that protects the town called the “Chime of the Wind Breaker” – Bofurin. The heroic legend of high school delinquent Sakura begins here!\n\n(Source: Crunchyroll)",
+  "averageScore": 80,
+  "popularity": 57900,
+  "color": "#288643",
+  "duration": 24,
+  "studio": "CloverWorks",
+  "catalog_id": "wind-breaker",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,142 +45,484 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "wind-breaker-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_01.kk.srt",
+          "sha256": "45bfcea750433072f328b0ee2908a7bb1aacb7d5e0620ecfa6421f354c2842bb",
+          "bytes": 34263,
+          "cues": 349,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_01.kk.vtt",
+          "sha256": "6177973fc4a5d043c74dc90a4e996c3d36e83d32e0313183a2d3479c6d9dd7ed",
+          "bytes": 34360,
+          "cues": 349,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_01.kk.ass",
+          "sha256": "d70e3504562de2fd2e33a4103db03e2e9591f021a5c0b8f5a4d1e349e19fc602",
+          "bytes": 40318,
+          "cues": 349,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "wind-breaker-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_02.kk.srt",
+          "sha256": "c7fcca99aacfecbc90d680f458ac25a9e6332fcd388883249f44abc9a89bdd44",
+          "bytes": 39338,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_02.kk.vtt",
+          "sha256": "ce25b73412a00fc8d55e5bc1252dcd8279019e917e31b37d33d7a710f0d34187",
+          "bytes": 39435,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_02.kk.ass",
+          "sha256": "d66a1edbc27313014a977147da87770fd08260648e399112a9b65a65fb1f227a",
+          "bytes": 46143,
+          "cues": 399,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "wind-breaker-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_03.kk.srt",
+          "sha256": "8b8874a0c977b440d588357024a08d120a5d53fa32f27dd6239cd3b1fa30aa53",
+          "bytes": 37172,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_03.kk.vtt",
+          "sha256": "31d6277fa166a41603cb6ad800488ba2f6a1c6049de50354fe858f27d21116ca",
+          "bytes": 37269,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_03.kk.ass",
+          "sha256": "4a3845dd54c7c81a1bfa3b3b65ee4fe9233aca22fb1e797872e25485fc7a477c",
+          "bytes": 43707,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "wind-breaker-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_04.kk.srt",
+          "sha256": "bc6fd52a2f02a01ed4c8ab0d32b4ffa1e398d7bd622f18bf2cb8cdd95951b890",
+          "bytes": 35863,
+          "cues": 362,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_04.kk.vtt",
+          "sha256": "4236c49794f096eda6a10bf222467e2882449dbd6c61752afe128c685f724a86",
+          "bytes": 35960,
+          "cues": 362,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_04.kk.ass",
+          "sha256": "185a1bb10ad4856a05a70b21a305e9f12f8155cf08c527bfbf4765354b1fff56",
+          "bytes": 42113,
+          "cues": 362,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "wind-breaker-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_05.kk.srt",
+          "sha256": "2a56fdb3be5547e17db49235b138a14cbf67dc5f55f8ebe5ee6f5dbe78707fd9",
+          "bytes": 33704,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_05.kk.vtt",
+          "sha256": "31f2b1004e83e6e865845c4eacac34d5de3e77f67da425b6cda742084ea9660a",
+          "bytes": 33801,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_05.kk.ass",
+          "sha256": "8b637d0db2c0ec6fe2516bf89e8108abf4faa088581e773bb635fb2df0ef73cb",
+          "bytes": 39849,
+          "cues": 355,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "wind-breaker-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_06.kk.srt",
+          "sha256": "fdcc2100203b616bb49de9fc740cbc1082c7248d34e87a7f6a09f7d87dccd91b",
+          "bytes": 33910,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_06.kk.vtt",
+          "sha256": "b29ef0d330674c121d53493fbdb10384a7d163c727661115465689d163e874d2",
+          "bytes": 34007,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_06.kk.ass",
+          "sha256": "833f36cf7d3fa15835d33c4dcb130ef29bcb630ca46a7fdbe0e033240c65f9df",
+          "bytes": 39935,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "wind-breaker-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_07.kk.srt",
+          "sha256": "c6b7cdbe83a570a59f16c7d3f9be010f182dc9fbd182617fda9f41ceee5baa5f",
+          "bytes": 29527,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_07.kk.vtt",
+          "sha256": "998aa689567d43cb5566fe216b1431a50e6f1b1802b03d501df965c85f26a60a",
+          "bytes": 29624,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_07.kk.ass",
+          "sha256": "28f6199128b77fd69074a23ae25e4cb53c604a431a83fb070a47e913ded6f5d3",
+          "bytes": 35177,
+          "cues": 322,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "wind-breaker-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_08.kk.srt",
+          "sha256": "235fa1d9dddb65c2e7279293a51aafa2ccc25b6851684dea40290054e611a38c",
+          "bytes": 28799,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_08.kk.vtt",
+          "sha256": "a2a7fc7ddf4f6ba3956cc96480d753a40a0a830823b0da194a35cf7ac5e63e44",
+          "bytes": 28896,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_08.kk.ass",
+          "sha256": "f23d9b7b857119a90f6b78090c2c7dd4e479e4911fac5694c4add73f5b67307f",
+          "bytes": 34359,
+          "cues": 316,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization",
+        "repeated_dialogue_requires_review"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "wind-breaker-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_09.kk.srt",
+          "sha256": "1515e85ad377eb16073c01ed30710d65ed3f024af47ef42a24b378119b058cb9",
+          "bytes": 29020,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_09.kk.vtt",
+          "sha256": "e87da31e6813071bb691f8188170b0e2f8913d650ab2a5982ecb5501ac220870",
+          "bytes": 29117,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_09.kk.ass",
+          "sha256": "61ad25be51811c1d3fed278b9ea48bad20fb48b15f039947ef5d8df008e28447",
+          "bytes": 34655,
+          "cues": 321,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "wind-breaker-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_10.kk.srt",
+          "sha256": "6f935c1862d248e5d5a4ab7457fd335f593e6163002bfeceb8bd4e146688fcef",
+          "bytes": 34074,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_10.kk.vtt",
+          "sha256": "619eb99dc1ba9d5e1c4ba99fde15bc66d98adef8861d2b01bb903562b1b94584",
+          "bytes": 34171,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_10.kk.ass",
+          "sha256": "8280039f00fa19a7b63aca53e965a140095f5d74f8ecf12a243a737c44ecc072",
+          "bytes": 40219,
+          "cues": 355,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "wind-breaker-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_11.kk.srt",
+          "sha256": "151b2843eab560fe0793e055f2e1f6d742ffc8e8ca41f5fda2be6730c7d5d2ac",
+          "bytes": 39764,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_11.kk.vtt",
+          "sha256": "308473742edfc330936f92501605fe9863b7c1c99ece59109f34273b26a194ca",
+          "bytes": 39861,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_11.kk.ass",
+          "sha256": "421a7ef9c783641caf9904b420ba301b0d6c6e9013dc5e7fd8a2fe7efc302bc0",
+          "bytes": 46644,
+          "cues": 404,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "wind-breaker-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_12.kk.srt",
+          "sha256": "bedcde4c618846a5414ce283c0d1f497a0276012d2e7128d9bb5bb996521e05f",
+          "bytes": 37820,
+          "cues": 383,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_12.kk.vtt",
+          "sha256": "c6bfde078d77ce01b0cd938ec1539fd73caf9a8a603614aeeecaca7a9d42340a",
+          "bytes": 37917,
+          "cues": 383,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_12.kk.ass",
+          "sha256": "4e430006fc7d0418eb865517889f0be579c6a066fa0020237326bef03854fd82",
+          "bytes": 44385,
+          "cues": 383,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "wind-breaker-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wind-breaker/wind-breaker-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wind-breaker/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wind-breaker/ep_13.kk.srt",
+          "sha256": "53408af8d11a4e0a02d56c0a56d49cb08bcfa86c3a7b7720f31db7b1a963434c",
+          "bytes": 40329,
+          "cues": 420,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wind-breaker/ep_13.kk.vtt",
+          "sha256": "ef13e91bb7364243aca58773636b7045faa6327140d2184ad3aea01901af7d7f",
+          "bytes": 40426,
+          "cues": 420,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wind-breaker/ep_13.kk.ass",
+          "sha256": "79a68e8c41cea4f1a55ebe44a90a023696a77cfdb55a426148052f672bde06d9",
+          "bytes": 47449,
+          "cues": 420,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#288643",
-  "studio": "CloverWorks",
-  "duration": 24,
-  "averageScore": 80,
-  "popularity": 57900,
-  "translated_episodes_count": 13
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/wind-breaker.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization",
+    "repeated_dialogue_requires_review"
+  ]
 }

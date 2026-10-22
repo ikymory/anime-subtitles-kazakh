@@ -15,11 +15,17 @@
     "Comedy",
     "Drama"
   ],
-  "description": "A3! Season Spring & Summer - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/a3-spring-summer.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/a3-spring-summer.jpg",
+  "description": "A3! Season Spring & Summer - official Kazakh translation archive by ikymory.",
   "averageScore": 78,
   "popularity": 93600,
+  "catalog_id": "a3-spring-summer",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,126 +40,466 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "a3-spring-summer-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_01.kk.srt",
+          "sha256": "a4ff8feb15b065bb5132835cc292d893dff6351cdad2518dfef3bd8a339f82d7",
+          "bytes": 74166,
+          "cues": 878,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_01.kk.vtt",
+          "sha256": "ff142e5798dba2225128af13f08bdaa14bb5a2c24b09e98ae9642021d321f2a2",
+          "bytes": 74263,
+          "cues": 878,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_01.kk.ass",
+          "sha256": "971f41e89731154f330f051980fa77823f610da295ba92d54a0476457076730b",
+          "bytes": 87960,
+          "cues": 878,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "a3-spring-summer-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_02.kk.srt",
+          "sha256": "08d7cebfb8d7dfee25d502e775001fbbf73d5dc89eb28ba818bb8377f359660d",
+          "bytes": 73956,
+          "cues": 883,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_02.kk.vtt",
+          "sha256": "81adc92a142a19421140168fe42760873095dc4914b2cbe7267ea5c814a79056",
+          "bytes": 74053,
+          "cues": 883,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_02.kk.ass",
+          "sha256": "b6c52a2c508eb20dfe99ff7cb85c806b16edb070f0e735463ffe02c58d150cc2",
+          "bytes": 87978,
+          "cues": 904,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "a3-spring-summer-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_03.kk.srt",
+          "sha256": "4696303cceb1930af70674ff5cecba6fd684a13ea88009e989c5b534c1d506ed",
+          "bytes": 64076,
+          "cues": 746,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_03.kk.vtt",
+          "sha256": "6430e0a226cec879163b9fb57d7ef57f171737f91f44fbd3b64e3eae18b326e6",
+          "bytes": 64173,
+          "cues": 746,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_03.kk.ass",
+          "sha256": "1040a8b81b2c7b4df5b297fb4317d7652d6cc9c2ecff663016d012fe3959391b",
+          "bytes": 75890,
+          "cues": 746,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "a3-spring-summer-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_04.kk.srt",
+          "sha256": "a07ef13cb037bcbd5ba9cf9670a77e239d6b4ca5cd96302a0fce76e880476be1",
+          "bytes": 71593,
+          "cues": 846,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_04.kk.vtt",
+          "sha256": "831f9b012858b76609a54a3bd6943720b01deb50b2db6159934f4d0c18a8436e",
+          "bytes": 71690,
+          "cues": 846,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_04.kk.ass",
+          "sha256": "a140b04d3b119a027b8a0195bccce47d60cf8e1970deaffb2830750605a5c303",
+          "bytes": 85985,
+          "cues": 880,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "a3-spring-summer-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_05.kk.srt",
+          "sha256": "1a426b03b018242aa3efb9b1628597a6cbc795281931cba9f5b7dbf465a82046",
+          "bytes": 66362,
+          "cues": 821,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_05.kk.vtt",
+          "sha256": "a76c7e036b38d4682c2c67e59dc7a53c6b196e1511a2d663a8ba19611f2c45f8",
+          "bytes": 66459,
+          "cues": 821,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_05.kk.ass",
+          "sha256": "8f80c986adda359edf9847c56afb4aac4bd25c7cdaa72ecbbd9bff4fbeab3f4d",
+          "bytes": 79300,
+          "cues": 821,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "a3-spring-summer-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_06.kk.srt",
+          "sha256": "f11a25838e56e99f933818bb47ea779a31143b25144cba4ff61b4c80f2919261",
+          "bytes": 51900,
+          "cues": 626,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_06.kk.vtt",
+          "sha256": "7f318c9a8a673e661b8dd1b51cb7754f99a7537208de3b1c8cc8f10fbeec2ec9",
+          "bytes": 51997,
+          "cues": 626,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_06.kk.ass",
+          "sha256": "9b0cdb08f63874609f4cb51bbd7e4e507903fcf9b994e1e978aaf9f8c33c58a8",
+          "bytes": 64096,
+          "cues": 660,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "a3-spring-summer-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_07.kk.srt",
+          "sha256": "d0a5b82053edafd0b8cb5bc51bc9714ef18c60d9a3f2c50f01b8f22c1487c6c0",
+          "bytes": 75599,
+          "cues": 890,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_07.kk.vtt",
+          "sha256": "60ebcefc07d62c02612eb4e284683379e00b96ec8700b4d7e2653efc7bb84a54",
+          "bytes": 75696,
+          "cues": 890,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_07.kk.ass",
+          "sha256": "9d0d2e81f3d08da8653687aa30ca1edab7e9de27b82eb49e51236de25ff277e0",
+          "bytes": 89572,
+          "cues": 890,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "a3-spring-summer-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_08.kk.srt",
+          "sha256": "5809e7a72315e12db95783f4780ac9183c2ae226f16216b9f4358a467a9a2cb7",
+          "bytes": 76964,
+          "cues": 921,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_08.kk.vtt",
+          "sha256": "096a5513c9752c753c94da127f9d2624941a20b50d36d1629c0653fc2edcf3e6",
+          "bytes": 77061,
+          "cues": 921,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_08.kk.ass",
+          "sha256": "76740bae20e253ee83c719e85bfe63c71b81961ed8263cca8bae95123fcf2203",
+          "bytes": 91402,
+          "cues": 921,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "a3-spring-summer-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_09.kk.srt",
+          "sha256": "45ac85f0433faf8af551ce8cea68c0de2d1b0236b1027a17ddecec329f189746",
+          "bytes": 70926,
+          "cues": 848,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_09.kk.vtt",
+          "sha256": "8ba79796c6dced640918593c36b9b22816dbcf04ee2a724227d4e0bbfb9b0eab",
+          "bytes": 71023,
+          "cues": 848,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_09.kk.ass",
+          "sha256": "e11c5e21e4cf87f1ab069d30a315ae72fbb5a992b3bc02b34ef242abfb48677a",
+          "bytes": 84269,
+          "cues": 848,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "a3-spring-summer-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_10.kk.srt",
+          "sha256": "abb919e5ada0356da9387acbe406607269c3bf48cc07d7d787bfaa71b55e40c9",
+          "bytes": 73951,
+          "cues": 863,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_10.kk.vtt",
+          "sha256": "095605fdb120faa65523e4b2fe086be6589bbdb2cfd6add9e0e5741e02d88951",
+          "bytes": 74048,
+          "cues": 863,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_10.kk.ass",
+          "sha256": "81d1a7a350ef2d5403a467b1696631c5de238880583b2fa797569c608a04c11b",
+          "bytes": 87519,
+          "cues": 863,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "a3-spring-summer-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_11.kk.srt",
+          "sha256": "c83c490a46f9918c921aed5b8ea529fce1b65ded65c51c71ef52b17ea9c32d54",
+          "bytes": 65540,
+          "cues": 757,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_11.kk.vtt",
+          "sha256": "dd1a4f2f3462c922c182058dbbb1f2834edd25a100243e05ce9d479980f79d56",
+          "bytes": 65637,
+          "cues": 757,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_11.kk.ass",
+          "sha256": "58ce67213546aa2fe964afc79de43d75c741460eacdcd1f13aabb542fa1838f7",
+          "bytes": 77518,
+          "cues": 757,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "a3-spring-summer-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/a3-spring-summer/a3-spring-summer-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/a3-spring-summer/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/a3-spring-summer/ep_12.kk.srt",
+          "sha256": "73d93c6511c6c582aec3e305e409addebda44c24976b93d7684ab1180985fc84",
+          "bytes": 72629,
+          "cues": 847,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/a3-spring-summer/ep_12.kk.vtt",
+          "sha256": "a6bf17059641c7c78fb676ab81e8a4805f3d98e36c53e6bc82004c0010f09800",
+          "bytes": 72726,
+          "cues": 847,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/a3-spring-summer/ep_12.kk.ass",
+          "sha256": "c32d6ffed69943ed44826713ba049a282108e818697ef874d5768e052c5059cf",
+          "bytes": 85958,
+          "cues": 847,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 54,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/a3-spring-summer.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

@@ -4,32 +4,79 @@
   "title": {
     "romaji": "Kiznaiver",
     "english": "Kiznaiver",
-    "native": "キズナイーバー"
+    "native": "キズナイーバー",
+    "kazakh": "Кизнайвер",
+    "kk": "Кизнайвер"
   },
-  "format": "TV",
-  "episodes": 12,
+  "format": "SPECIAL",
+  "episodes": 6,
   "seasonYear": 2016,
   "genres": [
     "Drama",
     "Romance",
     "Sci-Fi"
   ],
-  "description": "The fictional Japanese city named Sugomori City is built on reclaimed land. But as the years go by, the city's population is decreasing. One day, Sonozaki tells her classmate Katsuhira: \"You have been selected to be a Kiznaiver.\" The Kizuna System, which allows Katsuhira to share his wounds, connects him to the classmates whose lives and personalities completely differ from his. The Kizuna System is an incomplete system for the implementation of world peace that connects people through wounds. All those who are connected to this system are called Kiznaivers. When one Kiznaiver is wounded, the system divides and transmits the wound among the other Kiznaivers.\n<br><br>\n(Source: Anime News Network)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21421-5y8ryXsMB7aJ.jpg",
-  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21421-FmiHiyoRPDOp.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21492-qHfRpI71Sv6x.jpg",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21492-qHfRpI71Sv6x.jpg",
+  "description": "The fictional Japanese city named Sugomori City is built on reclaimed land. But as the years go by, the city's population is decreasing. One day, Sonozaki tells her classmate Katsuhira: \"You have been selected to be a Kiznaiver.\" The Kizuna System, which allows Katsuhira to share his wounds, connects him to the classmates whose lives and personalities completely differ from his. The Kizuna System is an incomplete system for the implementation of world peace that connects people through wounds. All those who are connected to this system are called Kiznaivers. When one Kiznaiver is wounded, the system divides and transmits the wound among the other Kiznaivers.\n\n(Source: Anime News Network)",
+  "averageScore": 87,
+  "popularity": 54898,
+  "color": "#e4e45d",
+  "duration": 24,
+  "studio": "TRIGGER",
+  "catalog_id": "kiznaiver",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kiznaiver-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kiznaiver/kiznaiver-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kiznaiver/kiznaiver-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kiznaiver/kiznaiver-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kiznaiver/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kiznaiver/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kiznaiver/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kiznaiver/ep_01.kk.srt",
+          "sha256": "5ddec1c8175d139bee301d4ee51c55b651c03171f897bb831b9ca8ea5ba2bebb",
+          "bytes": 34922,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kiznaiver/ep_01.kk.vtt",
+          "sha256": "b16e6bedde9cf1969399660843165acaac6e0410c872492c68b420b2e53572cb",
+          "bytes": 35019,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kiznaiver/ep_01.kk.ass",
+          "sha256": "66a0a8e3eec58909810e4b574e0f4b206b13715bcdfab8321cdc426873274f5a",
+          "bytes": 41664,
+          "cues": 395,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kiznaiver.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

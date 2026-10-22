@@ -13,9 +13,19 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151040-9QXRpaprfNmL.png",
+  "averageScore": 77,
+  "popularity": 62336,
+  "color": "hsl(77, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151040-1auPdaGqDGYd.jpg",
+  "catalog_id": "trigun-stampede",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -30,132 +40,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "trigun-stampede-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_01.kk.srt",
+          "sha256": "46b9a562a9f80865e33c4b8cb1639afa421b3a875b8de595e53d524bea10c50a",
+          "bytes": 33564,
+          "cues": 401,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_01.kk.vtt",
+          "sha256": "db8fe51b3ba0934831a6acb4c49882f964483ee007720bd58ababa1373d26d21",
+          "bytes": 33661,
+          "cues": 401,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_01.kk.ass",
+          "sha256": "21fdeaf2c92ce9f288286e69bda8775a2d338cf21f1a06499c3e661898a82ab8",
+          "bytes": 40402,
+          "cues": 401,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "trigun-stampede-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_02.kk.srt",
+          "sha256": "13234424227c2b51fb610f7ed75807f8dd39d78213163cb4722ad4569e0be119",
+          "bytes": 26725,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_02.kk.vtt",
+          "sha256": "fa0e62dd232f6ad4119826bd6e839e4b5db06777084f91cf4450c93a9e5f00a4",
+          "bytes": 26822,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_02.kk.ass",
+          "sha256": "3d28023d7d03961caf40e605430a9aa261bcb6ecc05cccf2da7e6b6b74d7ef96",
+          "bytes": 32543,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "trigun-stampede-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_03.kk.srt",
+          "sha256": "1521d5b337d3c97e6a3389675efd3cfa70a51203fae83b94f66b7a773194551f",
+          "bytes": 22709,
+          "cues": 278,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_03.kk.vtt",
+          "sha256": "da5bd40bfebc5fe6531913eae5ab863a875452c95d00dd93e23893536d531a0e",
+          "bytes": 22806,
+          "cues": 278,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_03.kk.ass",
+          "sha256": "63b32d9feeb657f98f4fa68d1df60423649e86ce9d7e9465f563c8a3f08eb9e9",
+          "bytes": 27702,
+          "cues": 278,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "trigun-stampede-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_04.kk.srt",
+          "sha256": "743f98f61a3947e4d7921cae6ff289c5ef17fc4e5a9b2dbcb62081b5a106b91e",
+          "bytes": 28646,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_04.kk.vtt",
+          "sha256": "f436d8ff06c257a176350050b5a90a32f39d053be8bbffa67a152fab2014a1ef",
+          "bytes": 28743,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_04.kk.ass",
+          "sha256": "c9b338d8ccd52424c700cd8d897d81fb8861254fe9c5e828ea76fe381060f399",
+          "bytes": 34284,
+          "cues": 321,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "trigun-stampede-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_05.kk.srt",
+          "sha256": "a3f97932743a58be351f5d7224d4e0f2f0a5c66edce2ea9d526c67da3a146eef",
+          "bytes": 22559,
+          "cues": 275,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_05.kk.vtt",
+          "sha256": "02e2a1d8d4caa9ce7322e60198718a53470a58dc4fbe4aae8a8832d1d2a827ab",
+          "bytes": 22656,
+          "cues": 275,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_05.kk.ass",
+          "sha256": "adbe01a8ba1e420d6b304484c607b2baafdf88f5de20c8a5ad6762c0f7314ca2",
+          "bytes": 27507,
+          "cues": 275,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "trigun-stampede-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_06.kk.srt",
+          "sha256": "1f718e89308cc94f11ddda2dc734451bc6625e4b5c2d699fdd6930c2970e3c9e",
+          "bytes": 22985,
+          "cues": 253,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_06.kk.vtt",
+          "sha256": "f69c6ecfa2086bf1a5b803a5b19f81f26e8df58e9d124671bae12a35e891e5b9",
+          "bytes": 23082,
+          "cues": 253,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_06.kk.ass",
+          "sha256": "dcdd7d78d8b29d32a8593d5bae9b3ab9ea7603d049a61f4793ca1c8dd07ffe86",
+          "bytes": 27603,
+          "cues": 253,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "trigun-stampede-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_07.kk.srt",
+          "sha256": "1f71422490f71729198f6c091193658babc47eaa817e491edbba53ed44439893",
+          "bytes": 24234,
+          "cues": 285,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_07.kk.vtt",
+          "sha256": "b25d09d411422ce9f1c5b07962f4935c08bf1895a98b26295aa10500a02b0fbc",
+          "bytes": 24331,
+          "cues": 285,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_07.kk.ass",
+          "sha256": "fcace0fdd21a294eb62ded29e941ee98effe5d95e590ee94ba1f6b4af877ec60",
+          "bytes": 29332,
+          "cues": 285,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "trigun-stampede-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_08.kk.srt",
+          "sha256": "d5785d14e7e9344ff022cb607165b18e4da6dc5d2b9df36115e9085dea544ab4",
+          "bytes": 28776,
+          "cues": 296,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_08.kk.vtt",
+          "sha256": "29ea08cda29e0422c772ecc71621e600dd3d1d34c75068607a9ff65cf65902b6",
+          "bytes": 28873,
+          "cues": 296,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_08.kk.ass",
+          "sha256": "7bd9a5a058c9924fb0510a5edb9758be6301641933bbdb905eb017d7995a9c8f",
+          "bytes": 34039,
+          "cues": 296,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "trigun-stampede-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_09.kk.srt",
+          "sha256": "7fd78f31e83473fc577255c7ecbeb951265d925bb3e183fe15657d2a4959bdc6",
+          "bytes": 26020,
+          "cues": 298,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_09.kk.vtt",
+          "sha256": "1f5ef3f9c250f46b702b0100a28166964d37a016efa1844f92734518917d08b7",
+          "bytes": 26117,
+          "cues": 298,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_09.kk.ass",
+          "sha256": "2f7e35c73453d46be0055f78381db7eaa58db4a7b601dd0ba3ea8528897daca3",
+          "bytes": 31313,
+          "cues": 298,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "trigun-stampede-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_10.kk.srt",
+          "sha256": "91d86f67c6873717f08c5cf746ab297498ca753f76a21cc8c5bf83299aa9d669",
+          "bytes": 28555,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_10.kk.vtt",
+          "sha256": "019d5b65f4bf4ebc25b0c751764d1f1d9f9c8b764290bd591c15272b61524231",
+          "bytes": 28652,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_10.kk.ass",
+          "sha256": "4fa340c6ae66582e4a454c0be4231d1006574a993b653719f01a52c77f632eab",
+          "bytes": 34238,
+          "cues": 324,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "trigun-stampede-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_11.kk.srt",
+          "sha256": "a4de286787894b89684862ccf79b096e0be3a68078ae20a715af4a1d7c382f24",
+          "bytes": 24741,
+          "cues": 275,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_11.kk.vtt",
+          "sha256": "df189a75e345066a302c7f4e97b308f0b67c430ee682a60c9ce5026a8c87fe38",
+          "bytes": 24838,
+          "cues": 275,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_11.kk.ass",
+          "sha256": "69ef7d78b56331dfb3ab15f818daddb7365a1e9311eea27fcbc9c522407bab74",
+          "bytes": 29689,
+          "cues": 275,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "trigun-stampede-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/trigun-stampede/trigun-stampede-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/trigun-stampede/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/trigun-stampede/ep_12.kk.srt",
+          "sha256": "9b39a9f1d82b36f9c31fcb4ac23efba32299cafaf98e093750459dfd39480c2c",
+          "bytes": 27453,
+          "cues": 304,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/trigun-stampede/ep_12.kk.vtt",
+          "sha256": "18cbf7324314aa24a8e1758c2da2b932cb27f014592717e8dc3b6773b85873ae",
+          "bytes": 27550,
+          "cues": 304,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/trigun-stampede/ep_12.kk.ass",
+          "sha256": "985c08c4907b40de28d3f0005e50b15e53680256e32605285971c08ca30aa53e",
+          "bytes": 32836,
+          "cues": 304,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(77, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 77,
-  "popularity": 62336,
-  "translated_episodes_count": 12
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/trigun-stampede.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

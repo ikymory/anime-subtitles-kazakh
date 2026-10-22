@@ -1,0 +1,80 @@
+{
+  "id": 1100092,
+  "slug": "evangelion-shin-movie-ha",
+  "title": {
+    "romaji": "Evangelion Shin Movie. Ha",
+    "english": "Evangelion Shin Movie. Ha",
+    "native": "Evangelion Shin Movie. Ha",
+    "kazakh": "Эванжелион Шин фильмі. Ха",
+    "kk": "Эванжелион Шин фильмі. Ха"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2018,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/evangelion-shin-movie-ha.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/evangelion-shin-movie-ha.jpg",
+  "description": "Evangelion Shin Movie. Ha - official Kazakh translation archive by ikymory.",
+  "averageScore": 82,
+  "popularity": 75000,
+  "catalog_id": "evangelion-shin-movie-ha",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-ha/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-ha/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-ha/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/evangelion-shin-movie-ha/ep_01.kk.srt",
+          "sha256": "7566950a43de1d1bbed5e8357457e7ac7728dc82bc49585dad54500d462797e1",
+          "bytes": 175000,
+          "cues": 1999,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/evangelion-shin-movie-ha/ep_01.kk.vtt",
+          "sha256": "eae468f717d15f48dd9ddf8afd977c88f2ebc8a7921c76419f4a37e0d8990c7e",
+          "bytes": 175097,
+          "cues": 1999,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/evangelion-shin-movie-ha/ep_01.kk.ass",
+          "sha256": "2f47681eb44a84d927199b91077725b595e4189b2cf207fbf6f8b62ad85d4a30",
+          "bytes": 204863,
+          "cues": 1999,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/evangelion-shin-movie-ha.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
+}

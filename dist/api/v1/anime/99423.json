@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Darling in the Franxx",
     "english": "DARLING in the FRANXX",
-    "native": "ダーリン・イン・ザ・フランキス"
+    "native": "ダーリン・イン・ザ・フランキス",
+    "kazakh": "Франкстегі сүйіктім",
+    "kk": "Франкстегі сүйіктім"
   },
   "format": "TV",
   "episodes": 24,
@@ -17,14 +19,22 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "The distant future: Humanity established the mobile fort city, Plantation, upon the ruined wasteland. Within the city were pilot quarters, Mistilteinn, otherwise known as the “Birdcage.” That is where the children live... Their only mission in life was the fight. Their enemies are the mysterious giant organisms known as Kyoryu. The children operate robots known as FRANXX in order to face these still unseen enemies. Among them was a boy who was once called a child prodigy: Code number 016, Hiro. One day, a mysterious girl called Zero Two appears in front of Hiro. “I’ve found you, my Darling.”\n<br><br>\n(Source: Crunchyroll)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx99423-8MBxtwCeHf8B.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99423-8MBxtwCeHf8B.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99423-OQfem628gdxD.jpg",
+  "description": "The distant future: Humanity established the mobile fort city, Plantation, upon the ruined wasteland. Within the city were pilot quarters, Mistilteinn, otherwise known as the “Birdcage.” That is where the children live... Their only mission in life was the fight. Their enemies are the mysterious giant organisms known as Kyoryu. The children operate robots known as FRANXX in order to face these still unseen enemies. Among them was a boy who was once called a child prodigy: Code number 016, Hiro. One day, a mysterious girl called Zero Two appears in front of Hiro. “I’ve found you, my Darling.”\n\n(Source: Crunchyroll)",
+  "averageScore": 76,
+  "popularity": 61019,
+  "color": "#f15043",
+  "duration": 24,
+  "studio": "TRIGGER",
+  "catalog_id": "darling-franxx",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
-    10,
-    11,
-    12,
     2,
     3,
     4,
@@ -32,128 +42,464 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "darling-franxx-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-1ep.ass"
-      }
-    },
-    {
-      "episode": 10,
-      "language": "kk",
-      "filename": "darling-franxx-10ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-10ep.ass"
-      }
-    },
-    {
-      "episode": 11,
-      "language": "kk",
-      "filename": "darling-franxx-11ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-11ep.ass"
-      }
-    },
-    {
-      "episode": 12,
-      "language": "kk",
-      "filename": "darling-franxx-12ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_01.kk.srt",
+          "sha256": "485b75bc3f22a06acfce25d95cb33badef3c3841d4f3235b242770238b86a373",
+          "bytes": 34972,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_01.kk.vtt",
+          "sha256": "23d2d8094445198c054839de94082c7309a9f20cbf08f449cedeaeb2fda77fdf",
+          "bytes": 35069,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_01.kk.ass",
+          "sha256": "fdf6d64ec4130b582697f5f419996b96bd0ae9756c55daab9d707511f6b73fcd",
+          "bytes": 41779,
+          "cues": 399,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "darling-franxx-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_02.kk.srt",
+          "sha256": "cd83f0176abf772c8937c246ad3ecfe38fdda66246f613db133939d6186f986a",
+          "bytes": 55882,
+          "cues": 393,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_02.kk.vtt",
+          "sha256": "14c24a5a6671ba03375e12ebc863db9d050a13b99e878decae76b0ebe9c0e574",
+          "bytes": 55979,
+          "cues": 393,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_02.kk.ass",
+          "sha256": "11485e5acb46015302654249c20e790c36ebb9ac4c9680614a5d3b4c55d0bb04",
+          "bytes": 62599,
+          "cues": 393,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "darling-franxx-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_03.kk.srt",
+          "sha256": "3af128ca2d5ebdad193339c4081aad152f9c6630ffbc5160fca8096140eb51ca",
+          "bytes": 46855,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_03.kk.vtt",
+          "sha256": "22a7964361ec1abad472e59a814a122871629b703845f43ef444648eb4773c48",
+          "bytes": 46952,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_03.kk.ass",
+          "sha256": "d7dffa8cf0300f64af5ce8352071035d0390cedc65129ee65125462cfb050a81",
+          "bytes": 52537,
+          "cues": 324,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "darling-franxx-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_04.kk.srt",
+          "sha256": "f0298dcc5825851c9a4d8b9d855525e495678981ea0a50695647305a0ab0efda",
+          "bytes": 41251,
+          "cues": 289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_04.kk.vtt",
+          "sha256": "702007a7bddd7bab9a1d8368033922d1038bfcc74a3c5cb3b1f9b4daf6526210",
+          "bytes": 41348,
+          "cues": 289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_04.kk.ass",
+          "sha256": "4ad4c924a0dfe16cd689a54e6ca197ffe43597dd3da95b426ed522228c48216c",
+          "bytes": 46408,
+          "cues": 289,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "darling-franxx-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_05.kk.srt",
+          "sha256": "a0fba7daf62e818c7a475e2196b0fdeb3a4e6a311f2e1e4086af1ec21006cd5a",
+          "bytes": 51058,
+          "cues": 337,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_05.kk.vtt",
+          "sha256": "a8fdfc531d199dfaf52716a57a54edaf259c63b9a50f946bde5ac75d929954a6",
+          "bytes": 51155,
+          "cues": 337,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_05.kk.ass",
+          "sha256": "f701bd7f8f82bbaada3a64bd98063526241a957ad49e7cf01462c06618f1e9fe",
+          "bytes": 56935,
+          "cues": 337,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "darling-franxx-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_06.kk.srt",
+          "sha256": "90e01fca63e32341e46887e7f8bee5705a879810572a9ac560d2ba6817990b74",
+          "bytes": 39666,
+          "cues": 296,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_06.kk.vtt",
+          "sha256": "5bad6c0559d89935746250529affcd735f47a82862ae45701f9c7f22e6ab7568",
+          "bytes": 39763,
+          "cues": 296,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_06.kk.ass",
+          "sha256": "303713ac82ad74c0abbcda37150fbc749e821ce4c394417493a41ab428046e31",
+          "bytes": 44928,
+          "cues": 296,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "darling-franxx-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_07.kk.srt",
+          "sha256": "80884fde0916495f1ec7abf2b1f578c058830770f2e55de4d2e48b093d9e1f58",
+          "bytes": 50709,
+          "cues": 345,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_07.kk.vtt",
+          "sha256": "f78a1a9067d8d594afbebc23cad6cba7d0ee50a15144f68cbe666fced1855ff8",
+          "bytes": 50806,
+          "cues": 345,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_07.kk.ass",
+          "sha256": "6ac5c90f2c500ba75755db5783b3bdd668c22dd0fcacee108ef25497b0fc26b0",
+          "bytes": 56706,
+          "cues": 345,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "darling-franxx-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_08.kk.srt",
+          "sha256": "daac299f333c214bb8357c6c9d9fa12860ce2d3fd526fa4900cb5d359796a2a4",
+          "bytes": 43225,
+          "cues": 292,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_08.kk.vtt",
+          "sha256": "e42c7269c0aaaf61cd8083ab517abbf0fb8346164538a1aae033296bfa55bea7",
+          "bytes": 43322,
+          "cues": 292,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_08.kk.ass",
+          "sha256": "e49b89573b8acc12c6716fda2243074ec8b1e121b7ec59dc71f4f2287a6edbd0",
+          "bytes": 48427,
+          "cues": 292,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "darling-franxx-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darling-franxx/darling-franxx-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_09.kk.srt",
+          "sha256": "275ccdad56b38d9d75bb824f045dd618805ac16d848cb9b864950520461f4a6a",
+          "bytes": 45702,
+          "cues": 298,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_09.kk.vtt",
+          "sha256": "04dda62db8e42c4d55ca8954f4aecd929ab0d4c5f1ff65354914488727d2063a",
+          "bytes": 45799,
+          "cues": 298,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_09.kk.ass",
+          "sha256": "0476524b5f6b54939c3f7625f20fca1d4a79767c9f148013897191e1ddfb49dc",
+          "bytes": 50994,
+          "cues": 298,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 10,
+      "language": "kk",
+      "filename": "ep_10.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_10.kk.srt",
+          "sha256": "4501784eaa26046d977207a49f33b279f1ee5d23bbbfd3ad3dfad0e84e628939",
+          "bytes": 46160,
+          "cues": 301,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_10.kk.vtt",
+          "sha256": "c3b518da7dcdf70ae7b7298090d25f3f5f0129099c5d9b7d53ce7b97c015ccc7",
+          "bytes": 46257,
+          "cues": 301,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_10.kk.ass",
+          "sha256": "4f1ebb1f022fac924536813ba85b098f24c3c2379fb0e8eb8601a0b565d80070",
+          "bytes": 51497,
+          "cues": 301,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 11,
+      "language": "kk",
+      "filename": "ep_11.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_11.kk.srt",
+          "sha256": "3ae632fa1d9b6bc01021d53f120d473f3160f9872d63ddb24e4b5c6c748ad8c0",
+          "bytes": 48451,
+          "cues": 312,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_11.kk.vtt",
+          "sha256": "0849f463f9dcf3227915be3c6f5cf62649a3c61309aa84be9604afd4ffb6b8b7",
+          "bytes": 48548,
+          "cues": 312,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_11.kk.ass",
+          "sha256": "0acde576d9dd45f7f37eca939f20a1e2daf73f3c7f260b581ccb11345935526a",
+          "bytes": 53953,
+          "cues": 312,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 12,
+      "language": "kk",
+      "filename": "ep_12.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darling-franxx/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darling-franxx/ep_12.kk.srt",
+          "sha256": "534055ff941ca03e1d01e6119e4fcdfa825fa548ab3049c68ddd43cf11268031",
+          "bytes": 41243,
+          "cues": 280,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darling-franxx/ep_12.kk.vtt",
+          "sha256": "06efe61697168963dd637eba1d1593861aa448db534e80a3f8870da8777d1038",
+          "bytes": 41340,
+          "cues": 280,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darling-franxx/ep_12.kk.ass",
+          "sha256": "7f70dc152e909b92b0a086ef7ca4a296e7242babcfb741c02d13419a8a4ef1d2",
+          "bytes": 46265,
+          "cues": 280,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 71,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/darling-franxx.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

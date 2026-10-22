@@ -16,11 +16,17 @@
     "Fantasy",
     "Supernatural"
   ],
-  "description": "Blue Exorcist: Shimane Illuminati Saga - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ao-no-exorcist-shimane.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ao-no-exorcist-shimane.jpg",
+  "description": "Blue Exorcist: Shimane Illuminati Saga - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "ao-no-exorcist-shimane",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_01.kk.srt",
+          "sha256": "b45599ebba27eec1109b7fad4ac7eb93b91c902491deae7104b8bcfabaae6b36",
+          "bytes": 43286,
+          "cues": 491,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_01.kk.vtt",
+          "sha256": "90c822ba0ca3ac77dc8b808e85b54bd5f7bf8ba7044c1f886ee008e8646f1702",
+          "bytes": 43383,
+          "cues": 491,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_01.kk.ass",
+          "sha256": "e0cf6c670497f44574a0885980df72303004c8e01db5840140a93be8e39e7eed",
+          "bytes": 51710,
+          "cues": 491,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_02.kk.srt",
+          "sha256": "10e90b9c9c44aa26385cf978598ceffc01d02e06d6a146084509fbb3986a57a1",
+          "bytes": 35723,
+          "cues": 396,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_02.kk.vtt",
+          "sha256": "bc427a771fb6c36925b10f68d85ac95fd68e053b5e889d2a99f7841b4570ff41",
+          "bytes": 35820,
+          "cues": 396,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_02.kk.ass",
+          "sha256": "0329cffc4be7ca37b3c6bcb78d5cad48b7d29af5d5472c4b4ec392f005d0bf2f",
+          "bytes": 42722,
+          "cues": 396,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_03.kk.srt",
+          "sha256": "4a1118f35fc0324d91b96e13585c3aa91c0a664a600b36bb7932222389c00d93",
+          "bytes": 37799,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_03.kk.vtt",
+          "sha256": "379d786812137d54027e72b0057d4d748cf0e35d3de4c54a8314dfe11bea2f27",
+          "bytes": 37896,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_03.kk.ass",
+          "sha256": "37b22f1ac96e952b69a32ab266b4a293b760dfbf5afcf2725700475f7af224ab",
+          "bytes": 45293,
+          "cues": 429,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_04.kk.srt",
+          "sha256": "b64bc5812a3ae5335a370c6e86a4900ce239b9ddddbc8235293d8e908c856c9e",
+          "bytes": 35090,
+          "cues": 398,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_04.kk.vtt",
+          "sha256": "1bd74bd667bd6c267c12133efdfddca1e88e9a3fa36dfafe83258b4aef626441",
+          "bytes": 35187,
+          "cues": 398,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_04.kk.ass",
+          "sha256": "8ed99b690dc25d0084a5bff426420846f5dd9fa68a5ede9108e6c61cd548ebfe",
+          "bytes": 42119,
+          "cues": 398,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_05.kk.srt",
+          "sha256": "7631d373ef3d8b65b46598aef8a174a3ce7a7e24e4fc6038c8f84bb8a772f590",
+          "bytes": 36307,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_05.kk.vtt",
+          "sha256": "cae7504d6a5bd2ea599149f767336b5323d54ddd89840fff07d79d0d7205e89a",
+          "bytes": 36404,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_05.kk.ass",
+          "sha256": "1611ce00003639cbeaf566f6ba14009c9949a55d032a28592329809026bbc847",
+          "bytes": 43366,
+          "cues": 400,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_06.kk.srt",
+          "sha256": "814ab90801d95390eaad25965d467e131a0781defae7b49901deb1c6b0b973b7",
+          "bytes": 34025,
+          "cues": 371,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_06.kk.vtt",
+          "sha256": "e097993836f76d694295a99a9be16893dd0d7e4b35f34ce8314939438ed11fad",
+          "bytes": 34122,
+          "cues": 371,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_06.kk.ass",
+          "sha256": "abce3de81d094fd2fb192f73c285cf78939db19c6921263f3d9fcb29566567fd",
+          "bytes": 40649,
+          "cues": 371,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_07.kk.srt",
+          "sha256": "322e5969dbfb7064d1f0d9031390745bab888bf83050c078e5270ceed441caa4",
+          "bytes": 32449,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_07.kk.vtt",
+          "sha256": "38528eef27d14cab7480282845b01548b0e7821b2258fb3b554daf8e5279582a",
+          "bytes": 32546,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_07.kk.ass",
+          "sha256": "01004278923fa1f609f272d04376adca471838b1ab59c5b1fa5fe55a183b679c",
+          "bytes": 39088,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_08.kk.srt",
+          "sha256": "76ad36b8aeed40c09106b4e4ac15bea92989ef031ba87473d0208bfc43a6d8d2",
+          "bytes": 34710,
+          "cues": 401,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_08.kk.vtt",
+          "sha256": "5c97dfa1dcf4ffd2458efb4f0f5c4ac2d33c33f7ca91bb7d839cb93a687bb131",
+          "bytes": 34807,
+          "cues": 401,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_08.kk.ass",
+          "sha256": "237e2cce1ca0394fad26e1553ad377a5a3fb2ca3e2ce5229a9e1e77a696fcd1b",
+          "bytes": 41784,
+          "cues": 401,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_09.kk.srt",
+          "sha256": "f4bfd4d46a5eaf5df909d5c1d6260d910d040e61d9cec65aa25d3a5498f3f2e9",
+          "bytes": 31254,
+          "cues": 363,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_09.kk.vtt",
+          "sha256": "4b3eff865136682a9220f77efcf4bf91c4ab242bf113e7b6ceb60d3fdd5a363b",
+          "bytes": 31351,
+          "cues": 363,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_09.kk.ass",
+          "sha256": "335218c070f1473c09b5cf688bfcfb107a3e476b4c57bd41f06903fa07771668",
+          "bytes": 37758,
+          "cues": 363,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_10.kk.srt",
+          "sha256": "31184a2bda4bfa84f8e521619119b0f1eb8ef2e7eb68aba732ed3f8db0d09934",
+          "bytes": 28285,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_10.kk.vtt",
+          "sha256": "d5cdc52484b26a00cb8b33a772f19f0445e7a130fdb56880d1ec4170d953e434",
+          "bytes": 28382,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_10.kk.ass",
+          "sha256": "9caa2957eae75f33d576413ca1855e45457c82d971b13c6286e7fbf2ec2693b4",
+          "bytes": 34549,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_11.kk.srt",
+          "sha256": "3e5f477576bcfdbc0e97bc09f67f0c1e51ea3931210f9066f8a846c3cce2a6cf",
+          "bytes": 39750,
+          "cues": 433,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_11.kk.vtt",
+          "sha256": "136e9d96276c685c7fec77cc9fcd6d99b57c16dba78821fbe594533058aa8f6c",
+          "bytes": 39847,
+          "cues": 433,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_11.kk.ass",
+          "sha256": "3e1631409e6be95fa832c4d471c002275e7e01f19c424fee85c6567067f18519",
+          "bytes": 47304,
+          "cues": 433,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "ao-no-exorcist-shimane-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ao-no-exorcist-shimane/ao-no-exorcist-shimane-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ao-no-exorcist-shimane/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_12.kk.srt",
+          "sha256": "b0cc341463565e8be9a28372df5f3b1027c300adcb98f73101d7cd0b6c02e841",
+          "bytes": 34916,
+          "cues": 402,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_12.kk.vtt",
+          "sha256": "37ffe2e61a320802a99cab3fc42932769d6f320850ad65c7039803fb813bbad6",
+          "bytes": 35013,
+          "cues": 402,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ao-no-exorcist-shimane/ep_12.kk.ass",
+          "sha256": "df9061a264062adf1ecfa694dd3b11a62b5ab0a12120527af4542d1d2ae71276",
+          "bytes": 42005,
+          "cues": 402,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ao-no-exorcist-shimane.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

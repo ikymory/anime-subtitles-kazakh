@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Death Parade",
     "english": "Death Parade",
-    "native": "デス・パレード"
+    "native": "デス・パレード",
+    "kazakh": "Өлім шеруі",
+    "kk": "Өлім шеруі"
   },
   "format": "TV",
   "episodes": 12,
@@ -16,22 +18,68 @@
     "Supernatural",
     "Thriller"
   ],
-  "description": "When two people die at the same time, they’re sent to a place that’s neither heaven nor hell—a lavish bar between worlds where the stakes are high and the rules are simple: if you win you live again, if you die… you’re gone for good.<br>\n<br>\nDecim is the bartender charged with serving the souls who enter Quindecim. He may make a mean cocktail, but his true profession is to play the role of arbiter—a judge who determines whether or not a soul is worthy of reincarnation. To aid in his judgment, the bar’s patrons are forced to play simple games laced with sadistic twists designed to bring their true natures to light. To Decim, judgment has always been black and white—that is—until he meets a mysterious young woman whose fate seems impossible to decide. His indecision shakes the very foundation of the games and raises the biggest question of all: Who is fit to judge the dead?<br>\n<br>\n(Source: Funimation)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20931-bktYqOcxPERi.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20931-bktYqOcxPERi.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20931-xDhiTPZmtS3u.jpg",
+  "description": "When two people die at the same time, they’re sent to a place that’s neither heaven nor hell—a lavish bar between worlds where the stakes are high and the rules are simple: if you win you live again, if you die… you’re gone for good.\n\nDecim is the bartender charged with serving the souls who enter Quindecim. He may make a mean cocktail, but his true profession is to play the role of arbiter—a judge who determines whether or not a soul is worthy of reincarnation. To aid in his judgment, the bar’s patrons are forced to play simple games laced with sadistic twists designed to bring their true natures to light. To Decim, judgment has always been black and white—that is—until he meets a mysterious young woman whose fate seems impossible to decide. His indecision shakes the very foundation of the games and raises the biggest question of all: Who is fit to judge the dead?\n\n(Source: Funimation)",
+  "averageScore": 76,
+  "popularity": 57715,
+  "color": "#35a1f1",
+  "duration": 23,
+  "studio": "MADHOUSE",
+  "catalog_id": "death-parade",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "death-parade-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade/death-parade-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade/death-parade-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/death-parade/death-parade-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/death-parade/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/death-parade/ep_01.kk.srt",
+          "sha256": "6832f1782d90e345d88f0ebbdd315955aeb8b813ccec860fc77d4d7df1a7c154",
+          "bytes": 26355,
+          "cues": 328,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/death-parade/ep_01.kk.vtt",
+          "sha256": "ab96bb1c137e631a86d14aa6395af73683bd71d92c1f26e989314407aca88f5a",
+          "bytes": 26452,
+          "cues": 328,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/death-parade/ep_01.kk.ass",
+          "sha256": "65ae770dc6544269d068f89bc0745ab916d692c1fc85d447f5fa6ee453a926aa",
+          "bytes": 32095,
+          "cues": 328,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/death-parade.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

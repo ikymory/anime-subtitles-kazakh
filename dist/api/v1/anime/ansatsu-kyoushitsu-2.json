@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Ansatsu Kyoushitsu 2 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ansatsu-kyoushitsu-2.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ansatsu-kyoushitsu-2.jpg",
+  "description": "Ansatsu Kyoushitsu 2 - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "ansatsu-kyoushitsu-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -48,256 +54,914 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 25,
+  "available_episodes_count": 25,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_01.kk.srt",
+          "sha256": "4022a1a1cf56d570be3f1689ac6465c7d86fcb6a7005d1b6b3f8e5e9a58c3835",
+          "bytes": 37337,
+          "cues": 386,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_01.kk.vtt",
+          "sha256": "c9a24fbe1ac0b795a8774ecd0fbbcdcc661a613cc23b4481f0e82024e7c4c7e5",
+          "bytes": 37434,
+          "cues": 386,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_01.kk.ass",
+          "sha256": "6759cf36095a5efe0ff790f238078a8ad1ba494d7159bce338fecdb6b99cc7fb",
+          "bytes": 44005,
+          "cues": 386,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_02.kk.srt",
+          "sha256": "d83b701e08577c441f350454478edb1517af23901f2331c8d0ee71507f36a43a",
+          "bytes": 43084,
+          "cues": 452,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_02.kk.vtt",
+          "sha256": "721c5285b25a629972e44ad2cfea2ad8315caa521f12815a37828d189b298ebb",
+          "bytes": 43181,
+          "cues": 452,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_02.kk.ass",
+          "sha256": "539774673531ceffd7de1da2eefeb13e1af5a9380941f29724fe01712e77693b",
+          "bytes": 50743,
+          "cues": 452,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_03.kk.srt",
+          "sha256": "f0efbd6ec0a12c8189f598f8eb6333379502a9b60e0dd9ef42c6998aef1e3c01",
+          "bytes": 38311,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_03.kk.vtt",
+          "sha256": "bfa95367057c6a64eb4266b5cc4bf69ff8970245d5223d78b3eb3d9a52e1b204",
+          "bytes": 38408,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_03.kk.ass",
+          "sha256": "2ce86743538b122d334a46f1a1e9be84b21ebc0a46660263c648717be4d25c13",
+          "bytes": 45429,
+          "cues": 416,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_04.kk.srt",
+          "sha256": "f483ad6bd1f1dd7df26f03cd08b2a50f5df556fe864ffe8462ef642d75481b0b",
+          "bytes": 40374,
+          "cues": 446,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_04.kk.vtt",
+          "sha256": "5c0a981af843734f0893c4314e0034c1ddc3c66c973696b8867f77db89c70341",
+          "bytes": 40471,
+          "cues": 446,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_04.kk.ass",
+          "sha256": "e3017d36fa5633f84430c96a0efa1859457d865f3e5a5c1f7ee58074bd486f81",
+          "bytes": 47942,
+          "cues": 446,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_05.kk.srt",
+          "sha256": "ea3cd3c5e8490cf8e6a576fff284e911a97aa924be788edf26f4fd2fa928274b",
+          "bytes": 40159,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_05.kk.vtt",
+          "sha256": "37a368fc3df7243c8d157d234ed42072a18f116596f21134241210dc5bfe5ef6",
+          "bytes": 40256,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_05.kk.ass",
+          "sha256": "4e2e9e2e1ff430e029f155aab21f1b363b3dae4da6386bccf08fd6b64ec0918f",
+          "bytes": 47622,
+          "cues": 439,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_06.kk.srt",
+          "sha256": "db2c5eec22f0815d9ac18396e67c874233cab4c06143804a55ab7dee130d804f",
+          "bytes": 39277,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_06.kk.vtt",
+          "sha256": "f76d139c147b244eb6ca819618e07b0f2a4cbcbdb904565e783622c2049c8e41",
+          "bytes": 39374,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_06.kk.ass",
+          "sha256": "ea6342b5455804917971c46a5311f8c0dfc202117d21da15a611871c883c6f33",
+          "bytes": 46081,
+          "cues": 395,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_07.kk.srt",
+          "sha256": "c78e604b16a927fa1373333a896c9065d4560bb8e39911ccbc83ff24bcbda692",
+          "bytes": 38021,
+          "cues": 432,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_07.kk.vtt",
+          "sha256": "3e4dbbd2966b7f92be864a7e379d261ab9f67c55b95119747ee5ec406439dacd",
+          "bytes": 38118,
+          "cues": 432,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_07.kk.ass",
+          "sha256": "9ea6a3416c91d48d1375aa33c4c9752472fb64cad3a23ff6d0236381b4125178",
+          "bytes": 45379,
+          "cues": 432,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_08.kk.srt",
+          "sha256": "36df5413506277ce2d8768770241fbf533eba94477ca1d448ba10ed4006d5e07",
+          "bytes": 36891,
+          "cues": 403,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_08.kk.vtt",
+          "sha256": "66b959a72e68d3543d8aebfffb868221aac1280bd5df7e17c49112646ba4b7a7",
+          "bytes": 36988,
+          "cues": 403,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_08.kk.ass",
+          "sha256": "4a914358b61720a5f0f6e567ec54ece3c2439d18f47fd1b0d30c30dfa1951bd3",
+          "bytes": 43814,
+          "cues": 403,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_09.kk.srt",
+          "sha256": "d14afef501731fc800bf19a7971c47b4e0cd0109f26bbed9eea1f848324dd69b",
+          "bytes": 40335,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_09.kk.vtt",
+          "sha256": "bc4a0863c82d35709fb6c8f1c2d5d86ff2bfc0e0666018b3ef15f5d47e5d3699",
+          "bytes": 40432,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_09.kk.ass",
+          "sha256": "822e3b4bab44649239c38ecf61e070f809b0117cf1128b824edb4570b7003534",
+          "bytes": 47273,
+          "cues": 404,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_10.kk.srt",
+          "sha256": "b7bfa3c40bef4fef12dce5c71f238bfbbb4a3e1cdaab2088248b91826053c4d5",
+          "bytes": 45159,
+          "cues": 471,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_10.kk.vtt",
+          "sha256": "1f77344bd3b5d4898954d5450ab931bfae857b03801ff2e0c06d476a80f7ea6d",
+          "bytes": 45256,
+          "cues": 471,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_10.kk.ass",
+          "sha256": "c9f6028ba3e3f3083181198e7fae2dc030cc24bc86c00526a57b4e3099740ae1",
+          "bytes": 53102,
+          "cues": 471,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_11.kk.srt",
+          "sha256": "4c3266435a828e7a4010d704fd021f2fbb2fe077ddd35966c4e8ab26be1e58e1",
+          "bytes": 37723,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_11.kk.vtt",
+          "sha256": "ec6513b18eb68cafe03d23ae039dd094dd408c8d2ef0c3baf5fb8052d6de3768",
+          "bytes": 37820,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_11.kk.ass",
+          "sha256": "06fec4a5d53a96d60f85af8c6407857c69d4b2213355a019486d94198add8b05",
+          "bytes": 44316,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_12.kk.srt",
+          "sha256": "5f843bce1d4b619a532d9846406f528bd4f406d6095972f3bf3cbc4f8bfdc2d3",
+          "bytes": 36041,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_12.kk.vtt",
+          "sha256": "780edaee88c4ed71e0b51930dc612a1c2dac067bc87ac78782d98753a69182dc",
+          "bytes": 36138,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_12.kk.ass",
+          "sha256": "922e39edf3bdec91d3c04caba7683bdc2adc58cb563f1d1de1e492ba6c847050",
+          "bytes": 42529,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_13.kk.srt",
+          "sha256": "68dcdeb55b63ee497026f364c5913a398f3cef7c4fcac37a0e0fcf86f251a863",
+          "bytes": 39715,
+          "cues": 402,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_13.kk.vtt",
+          "sha256": "20cf21b91a10d23f1545dbfd8872e8e022adc3877988167ffc41aca2053a1218",
+          "bytes": 39812,
+          "cues": 402,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_13.kk.ass",
+          "sha256": "fe70f7a546a94218e69db0a4ebd02354ed6a48bfd4a5f3bcb6db655ecefdb3c1",
+          "bytes": 46623,
+          "cues": 402,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_14.kk.srt",
+          "sha256": "321e11a51e0aaacb69aaf065140cc7cce9506f1acde2bb039cf8f6995ad3f7f8",
+          "bytes": 33701,
+          "cues": 352,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_14.kk.vtt",
+          "sha256": "72434e6e1fe0a0f3b4a2cf052a1c46bab06d1abe8178233e3186c910b6bc51ad",
+          "bytes": 33798,
+          "cues": 352,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_14.kk.ass",
+          "sha256": "fd717387035a8ae19f841b268f7ccbff68caa28ba658eecb8f95d0e763640c20",
+          "bytes": 39859,
+          "cues": 352,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_15.kk.srt",
+          "sha256": "7e32883c5821fe565ec1af9033f81bbd86a4f83b1de005ee9836f2734a00911d",
+          "bytes": 36124,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_15.kk.vtt",
+          "sha256": "4edaecb84e6911d17130cd9dfd2d208a1309df6c7bc082349d7f20755af132a6",
+          "bytes": 36221,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_15.kk.ass",
+          "sha256": "289654cef58d890bbddc13b0a0128b25daf9c94bb65110a004c900090abe3581",
+          "bytes": 42717,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_16.kk.srt",
+          "sha256": "ecd42c436e8971fdb7888fd9a140782e0905568e7ddbe51cf96f8232e7479b92",
+          "bytes": 38436,
+          "cues": 428,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_16.kk.vtt",
+          "sha256": "99e26fb17349c425ac792fb98f2bbf41741f510ad0347a6c85609703e7e850f5",
+          "bytes": 38533,
+          "cues": 428,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_16.kk.ass",
+          "sha256": "21dc5ad40fa9baaf2e5954c5f415d31a48c5969ab0aeeaf6e54ca9c7843fbe00",
+          "bytes": 45734,
+          "cues": 428,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_17.kk.srt",
+          "sha256": "501afd99bb69a75582fd05e21195bbb39714aae0c515bc5fdeca9c5e1d30a2f8",
+          "bytes": 39187,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_17.kk.vtt",
+          "sha256": "91cc81baa44810b911c552709a576e238a89dcb906d0e5b2e5e285160a834395",
+          "bytes": 39284,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_17.kk.ass",
+          "sha256": "764281807d3afdab5d7ac949b47597db73d352416fdc11326df9f9bc456ab64a",
+          "bytes": 46321,
+          "cues": 417,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_18.kk.srt",
+          "sha256": "b5b41a56cfe0186ea6539af6dfd53b74ec84147fc578f011372352337c378a60",
+          "bytes": 36400,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_18.kk.vtt",
+          "sha256": "f5e9644051432cefa7fb87713908ed1c1d366e0c537780abdc36f9249b91350c",
+          "bytes": 36497,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_18.kk.ass",
+          "sha256": "c96d14468648d2caef114165c8758454442b87a26677c5c96d7a10674d76f80a",
+          "bytes": 43083,
+          "cues": 387,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_19.kk.srt",
+          "sha256": "0ddc5b79625549656ed83f84e2700ec845a7f64e5ae0e18e651419ebde96b0a7",
+          "bytes": 33041,
+          "cues": 335,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_19.kk.vtt",
+          "sha256": "2e83ce82fe13a83898d7ef1039ab8994ce543ea752ed4a6f7e66ae83fac63c18",
+          "bytes": 33138,
+          "cues": 335,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_19.kk.ass",
+          "sha256": "77a32b267d7cb3a1681f9106cd207624ac362ebe79fc48c6c64f8f4969b9d11b",
+          "bytes": 38944,
+          "cues": 335,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_20.kk.srt",
+          "sha256": "20adde74182324edff95e41e62bf7981c937efe47352c86af676182085c79871",
+          "bytes": 43276,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_20.kk.vtt",
+          "sha256": "d386a6c2df91113a4e2325049450abdd3ec6bc8c1fdc1a990c3e52dd3da4e70d",
+          "bytes": 43373,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_20.kk.ass",
+          "sha256": "f299035b9a91dd37b44caf2394717886c62b59319c349fdd56fa36dde1c3dc83",
+          "bytes": 50709,
+          "cues": 437,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_21.kk.srt",
+          "sha256": "9f03c5f841c8d31bf43abef74dbdac3dfce63629248c244d1e0f70dac8ea95a6",
+          "bytes": 36406,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_21.kk.vtt",
+          "sha256": "9f889e29f8d7a908a06f3ae7464d4a917205040f527f7f741526998ac8f7371b",
+          "bytes": 36503,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_21.kk.ass",
+          "sha256": "42ea43dbc1b6b930aeea6b4acf3793f45f0998d7da71d1e344213f1227e73d4e",
+          "bytes": 43149,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_22.kk.srt",
+          "sha256": "6b80cd4fb43daa78bef3b9f333b265695e04632edbdefc0d808b0424b1d13704",
+          "bytes": 37694,
+          "cues": 414,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_22.kk.vtt",
+          "sha256": "6d6ad33f64d9873adfc15908d75fec91710eddf9157943556ccf028d27757221",
+          "bytes": 37791,
+          "cues": 414,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_22.kk.ass",
+          "sha256": "01dfbaf4b0b3c9e55451cbede41690252f0eb56d85bfa5e82e8a1cde77ab905d",
+          "bytes": 44782,
+          "cues": 414,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_23.kk.srt",
+          "sha256": "c9d78d14c9eff32832cc43a8a94c9f13c5855f28f1bb9fbb153fcdee4ab67747",
+          "bytes": 28542,
+          "cues": 337,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_23.kk.vtt",
+          "sha256": "10846c7df173978fafe32e42cbebabb31bd10b30eb1d16619da2ce32e5ea5d3e",
+          "bytes": 28639,
+          "cues": 337,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_23.kk.ass",
+          "sha256": "05bbcf360135eaaebb80656acf31a9d077429926353567fc7c5f85973c9737c9",
+          "bytes": 34475,
+          "cues": 337,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_24.kk.srt",
+          "sha256": "280bca2999d5d958bc207265ffe7c7f447a7cd7e620ea3058f19fb3825039b25",
+          "bytes": 21450,
+          "cues": 278,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_24.kk.vtt",
+          "sha256": "5f558f786e436417e527147b57f3df586374967500afb6387a56f9fb331193fd",
+          "bytes": 21547,
+          "cues": 278,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_24.kk.ass",
+          "sha256": "612d8b743df4f8e3abad694a0d0061b059b03a84d399b94a6fa732425c96d6ef",
+          "bytes": 26498,
+          "cues": 278,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "ansatsu-kyoushitsu-2-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ansatsu-kyoushitsu-2/ansatsu-kyoushitsu-2-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ansatsu-kyoushitsu-2/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_25.kk.srt",
+          "sha256": "7352bf9d63432e481ec824df970bbf6e57ac5c6db992a2c0aa663dcdbf9398b2",
+          "bytes": 40127,
+          "cues": 426,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_25.kk.vtt",
+          "sha256": "f2c3daf6d01c5b8db8b7b3e171e3bde68167e4ad51cc6ec02e3fc63eddb7ca42",
+          "bytes": 40224,
+          "cues": 426,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ansatsu-kyoushitsu-2/ep_25.kk.ass",
+          "sha256": "25add60da60a645c06151e374180d861601e97ad97fc5f192c8eb582b370d097",
+          "bytes": 47395,
+          "cues": 426,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 75,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ansatsu-kyoushitsu-2.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

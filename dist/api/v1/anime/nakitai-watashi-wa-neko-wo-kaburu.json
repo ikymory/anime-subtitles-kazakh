@@ -17,24 +17,68 @@
     "Fantasy",
     "Romance"
   ],
-  "description": "A Whisker Away - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nakitai-watashi-wa-neko-wo-kaburu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nakitai-watashi-wa-neko-wo-kaburu.jpg",
+  "description": "A Whisker Away - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "nakitai-watashi-wa-neko-wo-kaburu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "nakitai-watashi-wa-neko-wo-kaburu-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nakitai-watashi-wa-neko-wo-kaburu/nakitai-watashi-wa-neko-wo-kaburu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nakitai-watashi-wa-neko-wo-kaburu/nakitai-watashi-wa-neko-wo-kaburu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nakitai-watashi-wa-neko-wo-kaburu/nakitai-watashi-wa-neko-wo-kaburu-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nakitai-watashi-wa-neko-wo-kaburu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nakitai-watashi-wa-neko-wo-kaburu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nakitai-watashi-wa-neko-wo-kaburu/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/nakitai-watashi-wa-neko-wo-kaburu/ep_01.kk.ass",
+          "sha256": "64dcfc612a5488332715bc899e441f1e507321825f9b03e94f833d88883826df",
+          "bytes": 169400,
+          "cues": 1740,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/nakitai-watashi-wa-neko-wo-kaburu/ep_01.kk.srt",
+          "sha256": "8445077adf4796fd2559c2af98a15ecd2cf0b81bd902b61e07689ba6957fffc4",
+          "bytes": 142870,
+          "cues": 1737,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/nakitai-watashi-wa-neko-wo-kaburu/ep_01.kk.vtt",
+          "sha256": "64921a797fe613c7c47633245c6dc5b7931fc115225d438bb299a8aeb8f6fecd",
+          "bytes": 142878,
+          "cues": 1737,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nakitai-watashi-wa-neko-wo-kaburu.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

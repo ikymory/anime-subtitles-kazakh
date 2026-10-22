@@ -3,17 +3,29 @@
   "slug": "tamako-market",
   "title": {
     "romaji": "Tamako Market",
-    "english": "Tamako Market"
+    "english": "Tamako Market",
+    "kazakh": "Тамако базары",
+    "kk": "Тамако базары"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 13,
+  "seasonYear": 2013,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx16417-r8Njy5UnwvDE.png",
+  "averageScore": 88,
+  "popularity": 59323,
+  "color": "hsl(304, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16417.jpg",
+  "catalog_id": "tamako-market",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -29,136 +41,483 @@
     12,
     264
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tamako-market-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_01.kk.srt",
+          "sha256": "5d0bc63a20763c4481110f4abffb9445d2a4f501414bf39e5b7fcf6951d3e80c",
+          "bytes": 39944,
+          "cues": 525,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_01.kk.vtt",
+          "sha256": "cf3195b0846dd7220727d005a930e68d9ac2f2357d51b176bd067e8f85e22b3b",
+          "bytes": 40041,
+          "cues": 525,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_01.kk.ass",
+          "sha256": "5060d0021a5550fae78b824de9641fb8f673177e54adfa110fc376532cdaa1bd",
+          "bytes": 48640,
+          "cues": 525,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "tamako-market-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_02.kk.srt",
+          "sha256": "04ef2635ebb5eec54754582d697db1dc9afe304d1eed207a9e8fe27683370601",
+          "bytes": 34361,
+          "cues": 426,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_02.kk.vtt",
+          "sha256": "0b69cc897f90c2738fd40bbbdcf98152d4d426441a022bdb8d75b2a02ca2b9e9",
+          "bytes": 34458,
+          "cues": 426,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_02.kk.ass",
+          "sha256": "7a6202a80d44b5edc4610e93274a05595abed912b737625767611907a45432a0",
+          "bytes": 41572,
+          "cues": 426,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "tamako-market-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_03.kk.srt",
+          "sha256": "3bb9bfa3da5552c2158b0321b170b39c4aee2ad01b7c943cdf27a9855047e732",
+          "bytes": 47508,
+          "cues": 421,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_03.kk.vtt",
+          "sha256": "06dd8f07267dbc3b628d70b3c88325992906568a6a4942653cd3762c54897eb9",
+          "bytes": 47605,
+          "cues": 421,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_03.kk.ass",
+          "sha256": "6cacd6619fa8afa5111334bcd587f61ac736851d252fa9c1b409891385ae6a42",
+          "bytes": 54644,
+          "cues": 421,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "tamako-market-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_04.kk.srt",
+          "sha256": "67a3f04fddbf2136a4e1d1d7b4748848d62e7653e3b0877f9ec05aadb7de87ea",
+          "bytes": 52017,
+          "cues": 434,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_04.kk.vtt",
+          "sha256": "e1836872634c9494d91e34707550ef379bb45f334b2319c5ef63f6612eec39ba",
+          "bytes": 52114,
+          "cues": 434,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_04.kk.ass",
+          "sha256": "89a6b4acb11e9f63e7cbf4f1e6d7acec047fe65f588776ecdb416801b65080c0",
+          "bytes": 59348,
+          "cues": 434,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "tamako-market-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_05.kk.srt",
+          "sha256": "4caab26d658f2d20e9319470d1314f7dc40b8b55f4cb30aa08a21ca77e06a4c6",
+          "bytes": 51621,
+          "cues": 462,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_05.kk.vtt",
+          "sha256": "481fa8e2a6aad2415723c4e63a062a596082a93397401c7c5ca5d10ecc448a18",
+          "bytes": 51718,
+          "cues": 462,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_05.kk.ass",
+          "sha256": "2f1fc4f8abd4d4f53398d0889ded4d58993ea5e4054be8376a52bb04d9d6cbd5",
+          "bytes": 59372,
+          "cues": 462,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "tamako-market-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_06.kk.srt",
+          "sha256": "8f156b7599932c7459a68ec4309d048e235f1b723799ea3c6b0d99229fc2b99f",
+          "bytes": 60207,
+          "cues": 510,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_06.kk.vtt",
+          "sha256": "6f2f24291b10c5e3afa399191358eb28ccbfdf298a058d5fbc3f33a0e879d7c1",
+          "bytes": 60304,
+          "cues": 510,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_06.kk.ass",
+          "sha256": "c4b9c0a7e1e2b68e50ab6e3b0665f85ac2b7a6b56d80ac63bb752954fd13621a",
+          "bytes": 68678,
+          "cues": 510,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "tamako-market-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_07.kk.srt",
+          "sha256": "f4afea792d470ae98553609ecde728ade553a46926fc551ddf587ece8f5390ba",
+          "bytes": 52606,
+          "cues": 445,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_07.kk.vtt",
+          "sha256": "585b8c7ca01bdd7a120155a4dc5903136f35862704a09500b11d1c13f9df1f00",
+          "bytes": 52703,
+          "cues": 445,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_07.kk.ass",
+          "sha256": "1bd1c9bd6f53c0a9024bf843fc4f27786f9de0a797c15f2d4bce348b9db3286f",
+          "bytes": 60102,
+          "cues": 445,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "tamako-market-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_08.kk.srt",
+          "sha256": "0af5b39c5509dae36c4afde70b6253cdac465922e55f904c50953ce92d8e5398",
+          "bytes": 53200,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_08.kk.vtt",
+          "sha256": "b6aa3e83d12d44d63296d85e0b9374cf0aebef34b4c5ec720070c313dccf2cc5",
+          "bytes": 53297,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_08.kk.ass",
+          "sha256": "dd65eb3d0ac481a91b66ce4f17c804587f2e3f25f6b63099df56ecbdd065b02e",
+          "bytes": 60606,
+          "cues": 439,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "tamako-market-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_09.kk.srt",
+          "sha256": "d6d4671b7eca54ae264d551fdb2f27723b198c02074dbc05a0dee36c7dacc898",
+          "bytes": 47432,
+          "cues": 414,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_09.kk.vtt",
+          "sha256": "67ae8702cf6b008d3537e3b64e565f939c807785a09e148cace2095955456bb5",
+          "bytes": 47529,
+          "cues": 414,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_09.kk.ass",
+          "sha256": "ef67569cf5669dc8cadf18f0737311b4268315e5aa6e61f52c56456b75a9fef4",
+          "bytes": 54463,
+          "cues": 414,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "tamako-market-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_10.kk.srt",
+          "sha256": "7bf3d2d762449aaabc2fc418cc3330bb0176f4193dca79c9c9f8a1a4beffa4f1",
+          "bytes": 51543,
+          "cues": 428,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_10.kk.vtt",
+          "sha256": "1654117a42e242386fc9c1391abb2422ddbb3e6cd6942849635d58404f9bdfc1",
+          "bytes": 51640,
+          "cues": 428,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_10.kk.ass",
+          "sha256": "d24462c567e5398da10521a90f13c426c67f3d38744866d691c21799029e7a82",
+          "bytes": 58784,
+          "cues": 428,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "tamako-market-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_11.kk.srt",
+          "sha256": "edb5c042a4ef31dc01fe33bf8b1d762a546a4f97e32681e9d65860adc191f02b",
+          "bytes": 50048,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_11.kk.vtt",
+          "sha256": "7f2d7447d89987f3dad781785cf82a866c1954e93d342cb435f6f7cd985f67c0",
+          "bytes": 50145,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_11.kk.ass",
+          "sha256": "c636680bd8cef71f0498f709d62970ddda63b99d60a03403d6f19d1e2996f47c",
+          "bytes": 57094,
+          "cues": 415,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "tamako-market-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_12.kk.srt",
+          "sha256": "f3129e60834eb40c81d0ded61135579dac778c5c3fd1b43a3eb6da7f83d8554e",
+          "bytes": 45856,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_12.kk.vtt",
+          "sha256": "38723ec72adab3437daca12afb49e93cef7c4b720399a017c00d62f6e82a52d4",
+          "bytes": 45953,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_12.kk.ass",
+          "sha256": "d0d9a90f744036050bd166312cb47d00f91015b14f85f6db2738d9145b04a0ab",
+          "bytes": 52392,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 264,
       "language": "kk",
-      "filename": "tamako-market-264ep.srt",
+      "filename": "ep_264.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-264ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-264ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tamako-market/tamako-market-264ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_264.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_264.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tamako-market/ep_264.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tamako-market/ep_264.kk.srt",
+          "sha256": "635969fed115cdee276b4e9faa7c7986525d01b11af1d6fd63a01460b1d927a3",
+          "bytes": 50268,
+          "cues": 431,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tamako-market/ep_264.kk.vtt",
+          "sha256": "445f2b3d934ee320f5e249ac7ec309fb16185ae9a0560268c53c64fc6a4fd9f2",
+          "bytes": 50365,
+          "cues": 431,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tamako-market/ep_264.kk.ass",
+          "sha256": "6ec618b1399a904e1c43392faa853249201778578dc3818315d0d96cfc35ad98",
+          "bytes": 57554,
+          "cues": 431,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tamako-market.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

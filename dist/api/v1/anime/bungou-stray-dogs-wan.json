@@ -15,11 +15,17 @@
     "Comedy",
     "Slice of Life"
   ],
-  "description": "Bungo Stray Dogs WAN! - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bungou-stray-dogs-wan.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bungou-stray-dogs-wan.jpg",
+  "description": "Bungo Stray Dogs WAN! - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 98400,
+  "catalog_id": "bungou-stray-dogs-wan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,126 +40,456 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_01.kk.srt",
+          "sha256": "3136174cf1d2a41a54829377348b697848529b1734a3de2b62f58b9847bcc41f",
+          "bytes": 18815,
+          "cues": 211,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_01.kk.vtt",
+          "sha256": "28c8532d9b21a339cb8dc33518cceb89c3c35aac892d3d666d3f65943067d754",
+          "bytes": 18912,
+          "cues": 211,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_01.kk.ass",
+          "sha256": "cfaea3fea90e3e90dee3c5500e3a4f9550a1354205f4932c1690bb075ac139a3",
+          "bytes": 23677,
+          "cues": 211,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_02.kk.srt",
+          "sha256": "c518992c68ece80ece34fb17c97f99ffa939dee335dc541e877b67ef296c5749",
+          "bytes": 20954,
+          "cues": 222,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_02.kk.vtt",
+          "sha256": "b64c06b38453afc3851cb78a30023009e295f2b89cca58bb16afdbecd181b823",
+          "bytes": 21051,
+          "cues": 222,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_02.kk.ass",
+          "sha256": "ec65a2e1f267db7cbe390236d3faedce9f45a200465c6f2c1ef85a1baa39e999",
+          "bytes": 25981,
+          "cues": 222,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_03.kk.srt",
+          "sha256": "21943f80f2551b2640599561137d32dfd54204115fb809fa4de0683218d88649",
+          "bytes": 18520,
+          "cues": 206,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_03.kk.vtt",
+          "sha256": "78bf1258053d4249f65a2e45ab276a8c045210b1acdd85a4462e085dedb0ce06",
+          "bytes": 18617,
+          "cues": 206,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_03.kk.ass",
+          "sha256": "260601cb57df10f978c871f218aca170cfbcc07e4eec393a6f6780eb06c3314e",
+          "bytes": 23114,
+          "cues": 206,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_04.kk.srt",
+          "sha256": "4989df652c24a8bbb2b219de1feadba02447c8095e087c5a73da14ad39ec2fd1",
+          "bytes": 18970,
+          "cues": 214,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_04.kk.vtt",
+          "sha256": "c335f482a2538be4c823068c01c773fd47e999444b203a3ecb558f708017caba",
+          "bytes": 19067,
+          "cues": 214,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_04.kk.ass",
+          "sha256": "16616271ea6b7c1ea6b9e6ea53f6357c9603cda034e9c99eb38c698e3d0f17a0",
+          "bytes": 23867,
+          "cues": 214,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_05.kk.srt",
+          "sha256": "085d3b688bd7a3e5e7699da130f7f06eb8d4cde2df70c1965b6f0924aa2a415e",
+          "bytes": 21639,
+          "cues": 221,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_05.kk.vtt",
+          "sha256": "d9007b5b9c4861d3f6fad74ec327c3e50c8eac5d1fc0861fcc669b46397f40ce",
+          "bytes": 21736,
+          "cues": 221,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_05.kk.ass",
+          "sha256": "4e5d3ef8576a0e3cb18d7a85992aac148d8abca29b1e366402146360cfa78a96",
+          "bytes": 26613,
+          "cues": 221,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_06.kk.srt",
+          "sha256": "a3581bf94323635acb0ad07f9b70a46e04b5aca9204d5d2cc8cbae68b545173a",
+          "bytes": 19408,
+          "cues": 218,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_06.kk.vtt",
+          "sha256": "8580719f0b6313ba35d98b4c95d95185e0b150b3cdcf04e2e45891082888d842",
+          "bytes": 19505,
+          "cues": 218,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_06.kk.ass",
+          "sha256": "5022e129293bd480c97eb0f5fc1a672b6263b73374d4b7b990a53fb68c584b8e",
+          "bytes": 24170,
+          "cues": 218,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_07.kk.srt",
+          "sha256": "0b98c6c826fc2c004e673505393115413c516dc5a8112e6e8ce1ff74e1240345",
+          "bytes": 19145,
+          "cues": 226,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_07.kk.vtt",
+          "sha256": "e6094f45dd9fe005dfec531acc976aa7ecbd6d33bf4c87aa63db0e35c1b7d00f",
+          "bytes": 19242,
+          "cues": 226,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_07.kk.ass",
+          "sha256": "1d02517e4c148338bca552188744f901494360d32b7fa56c81e2631d41f3f6a0",
+          "bytes": 24172,
+          "cues": 226,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_08.kk.srt",
+          "sha256": "39eb1dc0d2adb9afbca2cd5e820022092327ec4545dd4f2fc67e1013b8872863",
+          "bytes": 18771,
+          "cues": 202,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_08.kk.vtt",
+          "sha256": "b541bc39782ee9263cbfe00880666094b68aa043e2bf695e22ff37828f816703",
+          "bytes": 18868,
+          "cues": 202,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_08.kk.ass",
+          "sha256": "32afa3bcf9e7a8de19291de76af303fcba422f30e7b11a506f821441a8718f67",
+          "bytes": 23305,
+          "cues": 202,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_09.kk.srt",
+          "sha256": "6be8c6ac1c4d42e72405f410248aa838e574a1f581906132543ac1f1df9cd678",
+          "bytes": 21675,
+          "cues": 229,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_09.kk.vtt",
+          "sha256": "af51c9c9b59d1610a5effb310f23f109c31f8652f107e840800fe4e5815a80cf",
+          "bytes": 21772,
+          "cues": 229,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_09.kk.ass",
+          "sha256": "4bfcad7b2f037308766eb6f14f35746f35bd4018947c28d74e3a6ea2a8051bf5",
+          "bytes": 26748,
+          "cues": 229,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_10.kk.srt",
+          "sha256": "3e60e625a88510d794962bc54af4aedd82c202a07f88033d3fb95bc21aad0ccc",
+          "bytes": 19928,
+          "cues": 227,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_10.kk.vtt",
+          "sha256": "2d9f06e985bd44df6855a568a4ff2e5b0875d693728a7f193ec1bd4f08386283",
+          "bytes": 20025,
+          "cues": 227,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_10.kk.ass",
+          "sha256": "c5fc070f763f7e33269ffd5016fe7f3158589a35faff73b990ae8ac1b8e3095b",
+          "bytes": 23957,
+          "cues": 227,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_11.kk.srt",
+          "sha256": "555219a1e8fd911dc90b2313de05cd80ae565af0d73e8b017e5c08e223ec04f2",
+          "bytes": 23688,
+          "cues": 257,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_11.kk.vtt",
+          "sha256": "2aa0d6571989f826b7d9bc68a37b5314fe1c1de3c922d56b4b504da97a55ffe7",
+          "bytes": 23785,
+          "cues": 257,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_11.kk.ass",
+          "sha256": "9c135ec285c05f9dec6a24b94c80bb3c92c2e21d89f8358185e935ce563f179e",
+          "bytes": 29157,
+          "cues": 257,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "bungou-stray-dogs-wan-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungou-stray-dogs-wan/bungou-stray-dogs-wan-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungou-stray-dogs-wan/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_12.kk.srt",
+          "sha256": "8bbf26551ebff2d63c5f047ae7c184f0c67b17ba6a33b46479c7521a7b7d60f0",
+          "bytes": 21072,
+          "cues": 239,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_12.kk.vtt",
+          "sha256": "ac930de4641f9d3c4d1e09e1d8102cd114465af232e487f445a4f7c27630e7b4",
+          "bytes": 21169,
+          "cues": 239,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungou-stray-dogs-wan/ep_12.kk.ass",
+          "sha256": "4d5dadc0e7c4fd3f0237ab787f81381792264975dde44ace3949004d8468bf92",
+          "bytes": 26385,
+          "cues": 239,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 43,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bungou-stray-dogs-wan.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

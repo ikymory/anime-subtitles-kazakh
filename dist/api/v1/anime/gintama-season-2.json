@@ -15,11 +15,20 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for Gintama'.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9969-0GaRABYVdUcH.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9969-pxE6nSzGGyUB.jpg",
+  "description": "Kazakh subtitles for Gintama'.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "gintama-season-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -48,270 +57,981 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gintama-season-2-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_01.kk.ass",
+          "sha256": "21aec5989ccd0e3fa72d3bcb7ee1e6ca6adec92082dc4fdc2152b987d23b4a2e",
+          "bytes": 51802,
+          "cues": 439,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_01.kk.srt",
+          "sha256": "6ffff44da66c6908a6fa8fdad1ee03abb7c1fe40e9427cf028d237ad02b60ceb",
+          "bytes": 44086,
+          "cues": 437,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_01.kk.vtt",
+          "sha256": "4aa1f072b2bb4bd28a7e81e5ef2005534980daaa19e1672151b0d8b024fc764b",
+          "bytes": 44094,
+          "cues": 437,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "gintama-season-2-2ep.srt",
+      "filename": "ep_02.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_02.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_02.kk.ass",
+          "sha256": "27392fa9338dbc0b2d429629454b5079df2f90700330f3552c6c13e5f3cafdcd",
+          "bytes": 52406,
+          "cues": 430,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_02.kk.srt",
+          "sha256": "02619605a3fbac5391617584a935d0b5a4234522daffbd3684d7b81fe0b9438b",
+          "bytes": 44861,
+          "cues": 429,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_02.kk.vtt",
+          "sha256": "2e8a5d8d01c4606032a1a8ab83c07d1cbf993b32a19198667899121f1b235d3d",
+          "bytes": 44869,
+          "cues": 429,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "gintama-season-2-3ep.srt",
+      "filename": "ep_03.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_03.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_03.kk.ass",
+          "sha256": "ba3bbe144274f75f66a649e86c843535cb6b6efdd193d68a94fb2c39304d5fa5",
+          "bytes": 55375,
+          "cues": 476,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_03.kk.srt",
+          "sha256": "ac0a678ec6ada0c4f3950f88902851107f6f4a44dfb2f5c73e9c16b3f7dc9dbe",
+          "bytes": 47140,
+          "cues": 475,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_03.kk.vtt",
+          "sha256": "011969b4b1d53e4660035d7280fc9b8ae8fdd68e15ee945789d5e2baaea4928e",
+          "bytes": 47148,
+          "cues": 475,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "gintama-season-2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_04.kk.srt",
+          "sha256": "c977be8e8b58ccd8ad7254e2e2276f3dd4151f296515145cd7e180b17622063c",
+          "bytes": 45179,
+          "cues": 451,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_04.kk.vtt",
+          "sha256": "2b0d2c103455b68b43e1f091c6a04e1be4e1b5b92e8fbe0e09502d4a8b9b5204",
+          "bytes": 45276,
+          "cues": 451,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_04.kk.ass",
+          "sha256": "d9385f60161410053984a0e1e864e585f86ce09dfb4367a66fb227174053e282",
+          "bytes": 53003,
+          "cues": 451,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "gintama-season-2-5ep.srt",
+      "filename": "ep_05.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_05.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_05.kk.ass",
+          "sha256": "712f22092f19dd844a6a63b5d0979ba3aab1a16f89c0600c83ffd2d04434ec22",
+          "bytes": 41419,
+          "cues": 364,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_05.kk.srt",
+          "sha256": "d19c7bac5413cd0665391cd8964d7f3d8384722f44f27f3ecef52ed8b63da2a8",
+          "bytes": 34863,
+          "cues": 363,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_05.kk.vtt",
+          "sha256": "ce862e84cffa44cf9ebeeee3040df7ed117721bd923c2ca8318a088c1093d091",
+          "bytes": 34871,
+          "cues": 363,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "gintama-season-2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_06.kk.srt",
+          "sha256": "d8b8fdcfdb6c4570e8f401c0cb15c66a109a4e491cff4f74329e9f989c9d4a8e",
+          "bytes": 41396,
+          "cues": 422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_06.kk.vtt",
+          "sha256": "ff5c9aa978282ddd5e459e35ab7c7666a80f76a85f61d5e179e6e9ceea7afcc0",
+          "bytes": 41493,
+          "cues": 422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_06.kk.ass",
+          "sha256": "acee7c05e702e80366e880928f392fd122e9d3abafb5ced0e41aed92f12b49a5",
+          "bytes": 48785,
+          "cues": 422,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "gintama-season-2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_07.kk.srt",
+          "sha256": "62ec821744037dfcdcd7c1452b6d27de81b1eddfa3da78fb66eed2f8b04bcef2",
+          "bytes": 41163,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_07.kk.vtt",
+          "sha256": "7adace9bc4bd8e0919cd2a923040eda518169d47f016498b16c11e239ab732ac",
+          "bytes": 41260,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_07.kk.ass",
+          "sha256": "fc63b4aedc27b944611b9ebb7e0025a97ddfa2803d697c0c228ff38ac55b74cb",
+          "bytes": 48777,
+          "cues": 437,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "gintama-season-2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_08.kk.srt",
+          "sha256": "8515b2a78d0eb2d9ed08e7e29f79d5979ed02f8fc4d0f59cea9f4b56cbc91f08",
+          "bytes": 31133,
+          "cues": 317,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_08.kk.vtt",
+          "sha256": "6d45c6683a88a0b26c3fe84d52446eadbc10889a0ddebfc71086c0ced86c0a16",
+          "bytes": 31230,
+          "cues": 317,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_08.kk.ass",
+          "sha256": "e745c8a7a28bf1f5a9e72be317ed1a133c01da4cd8c759ed7b002cd8caebca6d",
+          "bytes": 36947,
+          "cues": 317,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "gintama-season-2-9ep.srt",
+      "filename": "ep_09.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_09.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_09.kk.ass",
+          "sha256": "d88c181b8162bcab601d47983ffe9d610c2208ae62d9f87bc7014bb7a546b7e6",
+          "bytes": 50745,
+          "cues": 434,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_09.kk.srt",
+          "sha256": "b9a7829c3ea5e06f33c683ac15150c18428f8b855e3bfbdebdb7e5b6ac524d7c",
+          "bytes": 43140,
+          "cues": 433,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_09.kk.vtt",
+          "sha256": "f6ccaf73d732d69608f60c56a6556f2899a80de723cbf39d2e8739f6d75c3aee",
+          "bytes": 43148,
+          "cues": 433,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "gintama-season-2-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_10.kk.srt",
+          "sha256": "ce9f6080bc62b7cfa9a36063242bcfdef3f5c80d85fa81c180a0ca199520984d",
+          "bytes": 35130,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_10.kk.vtt",
+          "sha256": "31bbdd60e12c641df81839ec39c982971a83010003e756b830b4630edc694391",
+          "bytes": 35227,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_10.kk.ass",
+          "sha256": "f58fce461da0cb9b89693776362521de5e584065a70bb968b8346724136cc7aa",
+          "bytes": 41529,
+          "cues": 356,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "gintama-season-2-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_11.kk.srt",
+          "sha256": "8397b7d27135bb172cd5ee41da21a75f091383f303171821125ce62b73393247",
+          "bytes": 37085,
+          "cues": 376,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_11.kk.vtt",
+          "sha256": "b0c8d755f84855b640692297fa7f8dc439bae56b288c58edc92e20202ab8b690",
+          "bytes": 37182,
+          "cues": 376,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_11.kk.ass",
+          "sha256": "8cd5e65b54f20731f176e552a2fd3108ea754c1658695a4095fe33dc86f5cab0",
+          "bytes": 43784,
+          "cues": 376,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "gintama-season-2-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_12.kk.srt",
+          "sha256": "50efb7c1d0c2f3c5a21195c001cb4f10f4133ace94e460d7772fab53a5d4a68d",
+          "bytes": 39100,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_12.kk.vtt",
+          "sha256": "41dc6c8173be754ff29a77f679e04ecc144136cc360232af518299a5f8b61dc0",
+          "bytes": 39197,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_12.kk.ass",
+          "sha256": "bf15cd166e85bcfb99e94008a4c0777150fc56b7810a473eb47e32db0fcb6db7",
+          "bytes": 46264,
+          "cues": 407,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "gintama-season-2-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_13.kk.srt",
+          "sha256": "243bdfe3c813df683ad5f46342e7a9e4cf96add40ee27cefe43417eb44a5577e",
+          "bytes": 33030,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_13.kk.vtt",
+          "sha256": "13f6720c19290c262d296d62a4b24fdd7f7907a251a143a3c509cc158a836d26",
+          "bytes": 33127,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_13.kk.ass",
+          "sha256": "00b52e8b6d023dcc62c6008ac803bd7660d491624de5e0d846bb32f5e5f7e2f5",
+          "bytes": 39474,
+          "cues": 359,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "gintama-season-2-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_14.kk.srt",
+          "sha256": "3c9795471f71bb14863e4411ebff73a80a5a6508cda8065210adde169868a489",
+          "bytes": 40898,
+          "cues": 401,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_14.kk.vtt",
+          "sha256": "aeaa4592438d33f48f453790238c58ec5abae1edfedd285b3325ae5f71696bbe",
+          "bytes": 40995,
+          "cues": 401,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_14.kk.ass",
+          "sha256": "cfc8e19f6c591863e0884b1ff785b0e56c1690021e0f8444997254016ebad4c2",
+          "bytes": 47972,
+          "cues": 401,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "gintama-season-2-15ep.srt",
+      "filename": "ep_15.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_15.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_15.kk.ass",
+          "sha256": "028133ece6a6f2d76de1f908348f6616b72b957aed0227a041d557cd4b333959",
+          "bytes": 57512,
+          "cues": 502,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_15.kk.srt",
+          "sha256": "cc34e543d125abc89ed26a8125c69a44a8084e3eeb7623f773aff3cac01281ea",
+          "bytes": 48851,
+          "cues": 500,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_15.kk.vtt",
+          "sha256": "bf5859b8be31092a48ad90b7777c0d4819195fb99de394bc661bca5e206d8ef3",
+          "bytes": 48859,
+          "cues": 500,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "gintama-season-2-16ep.srt",
+      "filename": "ep_16.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_16.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_16.kk.ass",
+          "sha256": "cfb4eefa47b226add6905f7d4f60b0e31da3753d3894c4ac19654259fab015d8",
+          "bytes": 56093,
+          "cues": 489,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_16.kk.srt",
+          "sha256": "1f27d6127c16d3f994bd86852f995c142c3c443e99f2b4af93b33763bd55a77a",
+          "bytes": 47663,
+          "cues": 488,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_16.kk.vtt",
+          "sha256": "bb3ae81dabe3641db63e1aff1a8e01bfdf50b06a78e252984b64a5bb5ddd955d",
+          "bytes": 47671,
+          "cues": 488,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "gintama-season-2-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_17.kk.srt",
+          "sha256": "c5cd53b220b359f91a488bf25a43cafe7679b3138ec45e77ef057551f66e18fb",
+          "bytes": 44048,
+          "cues": 431,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_17.kk.vtt",
+          "sha256": "62e3d7bd14adaa95d55af0941c41940c4fffaef0f18213f4162b0dfc41b3944a",
+          "bytes": 44145,
+          "cues": 431,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_17.kk.ass",
+          "sha256": "cb81d4c1d610534e32234662106d43c8cdc01f3df7de4e89d76bd2ebe2d4f74d",
+          "bytes": 51572,
+          "cues": 431,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "gintama-season-2-18ep.srt",
+      "filename": "ep_18.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_18.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_18.kk.ass",
+          "sha256": "f7602b559a5dcc20575284884f464b1b9f9f8b631c0b9d792eb3925eca3524ee",
+          "bytes": 54257,
+          "cues": 458,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_18.kk.srt",
+          "sha256": "1171f99a2e75d8c25b1b9ca04f36099d9464c3f1141462140745be69da23ee66",
+          "bytes": 46256,
+          "cues": 456,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_18.kk.vtt",
+          "sha256": "da703c491548a40b10a81dddfe96330c74aca4f81f975d9e04d29d8e3306edce",
+          "bytes": 46264,
+          "cues": 456,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "gintama-season-2-19ep.srt",
+      "filename": "ep_19.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_19.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_19.kk.ass",
+          "sha256": "db1c5c3abcfdec6f34d93dd1d70e63dd52edbfec0d86a4cbc31964230104b77a",
+          "bytes": 52052,
+          "cues": 460,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_19.kk.srt",
+          "sha256": "8effa676724c8fe2642148b2848c14ce2fca035d206ced9fc13d2dd8d3a43bd0",
+          "bytes": 44057,
+          "cues": 459,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_19.kk.vtt",
+          "sha256": "eabf07119bca9dc27319fccdb97273a3af24c312fc98350568fb86afa6ad8339",
+          "bytes": 44065,
+          "cues": 459,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "gintama-season-2-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_20.kk.srt",
+          "sha256": "7d83ad885dd73f78947d6f7ca7083313c669209708843abdec114284234dbde3",
+          "bytes": 32977,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_20.kk.vtt",
+          "sha256": "94fa99829b89c70f5b2e5b50039fe115b655e071350f898c9a7795c5e877b873",
+          "bytes": 33074,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_20.kk.ass",
+          "sha256": "06355a11954626519c6b96c1d0dc81b6cc3790982aa81f7a846c38f45f6db1dc",
+          "bytes": 38941,
+          "cues": 327,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "gintama-season-2-21ep.srt",
+      "filename": "ep_21.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_21.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_21.kk.ass",
+          "sha256": "50fcbef109a6fc09ce5b48c65a553e5e69b1105d1305f589e0b70f9a623e8607",
+          "bytes": 44627,
+          "cues": 418,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_21.kk.srt",
+          "sha256": "2ef193b3d42d4991cd63d14de0df896a29be1cdc7fe02f31f6e193d8f495a036",
+          "bytes": 37226,
+          "cues": 416,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_21.kk.vtt",
+          "sha256": "a9c2bbbae6bf821f26ae0a975c64ffd479e8fcb3259c225d2c897f3d9eb8070a",
+          "bytes": 37234,
+          "cues": 416,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "gintama-season-2-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_22.kk.srt",
+          "sha256": "3ddabeed35aa555cde05d6fe3f89a86c1f2ab55e11eeb5b35ba4cdb33402dc50",
+          "bytes": 43430,
+          "cues": 449,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_22.kk.vtt",
+          "sha256": "0fb9c0da364c3e1b4bd1693f03b4fa00a6a737bd5f791b52e68b23d1e973f3af",
+          "bytes": 43527,
+          "cues": 449,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_22.kk.ass",
+          "sha256": "0946f8c61aae4f167e6eb4dcdd5bf88f1c0e7d2626d232be0b34af75b17d7015",
+          "bytes": 51224,
+          "cues": 449,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "gintama-season-2-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_23.kk.srt",
+          "sha256": "726ed689e35df2026b9bec8344d628811f783565fabcd3ff8fa76ebace4b2aa5",
+          "bytes": 47639,
+          "cues": 480,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_23.kk.vtt",
+          "sha256": "7beeba4b7e15e3a0ce04c96a5874d63a1e0ceb7571f1597bab4462ea10ca24f6",
+          "bytes": 47736,
+          "cues": 480,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_23.kk.ass",
+          "sha256": "ad27bc91c2c5039a94d3f25323b16bed958a8783a4902d4d24db77569dd1e6ac",
+          "bytes": 55898,
+          "cues": 480,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "gintama-season-2-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_24.kk.srt",
+          "sha256": "1b8de98fde68fef3c0e8de055abf562d872f8c4c31065b021cfc309b525b3b78",
+          "bytes": 42988,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_24.kk.vtt",
+          "sha256": "9c9cf1961ccc8b02c79f3d36d274fadbea8c26fcd406640426d1366edde779a8",
+          "bytes": 43085,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_24.kk.ass",
+          "sha256": "5401819a7aea0d35ece645206330de8f409044bf371192b73657f1f818c38ae4",
+          "bytes": 50482,
+          "cues": 429,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "gintama-season-2-25ep.srt",
+      "filename": "ep_25.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_25.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_25.kk.ass",
+          "sha256": "c5c1105853f38ecac6abad96df5b651cd7a6b71c40874559461078415b3aae14",
+          "bytes": 48191,
+          "cues": 399,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_25.kk.srt",
+          "sha256": "8fd89e04f6928568daaad3d77b585be02bdeaadd60412c8b7e5c685c9f609213",
+          "bytes": 41111,
+          "cues": 398,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_25.kk.vtt",
+          "sha256": "ba3da591db6963324b4e60d064743198fbe5f6b6253969c85fd797c303455416",
+          "bytes": 41119,
+          "cues": 398,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "gintama-season-2-26ep.srt",
+      "filename": "ep_26.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-2/gintama-season-2-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-2/ep_26.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-2/ep_26.kk.ass",
+          "sha256": "58e4dd16fdffa9d4d478c818d60374a7a03fbfe63c605e888efd6c8239c60109",
+          "bytes": 55715,
+          "cues": 472,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-2/ep_26.kk.srt",
+          "sha256": "f10e65eaed64b336c1754bf9c5512aad6c4e91f0ada59ce6a641223bc9f273d2",
+          "bytes": 47503,
+          "cues": 470,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-2/ep_26.kk.vtt",
+          "sha256": "8652cce80a09208b0f8670f52712abe42a6ef174aafeac740d4ff6747d0cb54d",
+          "bytes": 47511,
+          "cues": 470,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 26
+  "quality_issues_count": 106,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-season-2.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

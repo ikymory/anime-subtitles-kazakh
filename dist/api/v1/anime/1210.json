@@ -4,7 +4,9 @@
   "title": {
     "romaji": "NHK ni Youkoso!",
     "english": "Welcome to the N-H-K",
-    "native": "N・H・Kにようこそ！"
+    "native": "N・H・Kにようこそ！",
+    "kazakh": "NHK-ге қош келдіңіз!",
+    "kk": "NHK-ге қош келдіңіз!"
   },
   "format": "TV",
   "episodes": 24,
@@ -16,22 +18,69 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "Satou’s life – or what’s left of it – is a paranoid mess of conspiracy theories and social anxieties. He’s terrified of the outside world; his apartment is overflowing with the remnants of cheap take-out food; and his retinas have been permanently scarred by a steady diet of internet porn. But maybe it’s not all his fault. After all, the nefarious N-H-K is out there, and they’re determined to turn society’s fringe-dwellers into a brainwashed lot of jobless, hopeless, futureless recluses.<br>\n<br>\nEnter Misaki – a mysterious girl-next-door type who is Satou’s last chance to beat down his inner demons and venture out into the light of day. She’s ready to help him overcome his crippling phobias, but Satou would rather cower in his existential foxhole and pretend to work on the demo for his virtual sex game.<br>\n<br>\nHe’s afraid to face the world. She’s strangely desperate to fix a total stranger. Maybe together they can be normal.<br>\n<br>\n(Source: Funimation)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1210-2XotjcgqdcaX.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1210-2XotjcgqdcaX.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1210-M5oFyKfKm2zT.jpg",
+  "description": "Satou’s life – or what’s left of it – is a paranoid mess of conspiracy theories and social anxieties. He’s terrified of the outside world; his apartment is overflowing with the remnants of cheap take-out food; and his retinas have been permanently scarred by a steady diet of internet porn. But maybe it’s not all his fault. After all, the nefarious N-H-K is out there, and they’re determined to turn society’s fringe-dwellers into a brainwashed lot of jobless, hopeless, futureless recluses.\n\nEnter Misaki – a mysterious girl-next-door type who is Satou’s last chance to beat down his inner demons and venture out into the light of day. She’s ready to help him overcome his crippling phobias, but Satou would rather cower in his existential foxhole and pretend to work on the demo for his virtual sex game.\n\nHe’s afraid to face the world. She’s strangely desperate to fix a total stranger. Maybe together they can be normal.\n\n(Source: Funimation)",
+  "averageScore": 82,
+  "popularity": 55901,
+  "color": "#5dd6e4",
+  "duration": 24,
+  "studio": "GONZO",
+  "catalog_id": "welcome-n-h",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "welcome-n-h-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/welcome-n-h/welcome-n-h-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/welcome-n-h/welcome-n-h-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/welcome-n-h/welcome-n-h-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/welcome-n-h/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/welcome-n-h/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/welcome-n-h/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/welcome-n-h/ep_01.kk.srt",
+          "sha256": "7383f7a45a7321a141f8c57a722ccba8e3609ef9be86998b64e7e3feba5f06f3",
+          "bytes": 28161,
+          "cues": 307,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/welcome-n-h/ep_01.kk.vtt",
+          "sha256": "ee0051679e74d24a23f75496124ab71dad24b85afee45e24eed1fcf772a149ed",
+          "bytes": 28258,
+          "cues": 307,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/welcome-n-h/ep_01.kk.ass",
+          "sha256": "0d5cbb83793e49b0520dfe8203fba2ed026455329213fb2f976c54e661ab9b10",
+          "bytes": 33585,
+          "cues": 307,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/welcome-n-h.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

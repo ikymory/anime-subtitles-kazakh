@@ -3,17 +3,29 @@
   "slug": "yuru-camp",
   "title": {
     "romaji": "Yuru Camp",
-    "english": "Yuru Camp"
+    "english": "Yuru Camp",
+    "kazakh": "Жайлы лагерь",
+    "kk": "Жайлы лагерь"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 12,
+  "seasonYear": 2018,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98444-Vzysp1EsrzgD.jpg",
+  "averageScore": 82,
+  "popularity": 54543,
+  "color": "hsl(294, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98444-FpH9lzLiafe9.jpg",
+  "catalog_id": "yuru-camp",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -28,126 +40,449 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "yuru-camp-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_01.kk.srt",
+          "sha256": "23082b4513386b08339900554e33f058c538fd3af39fbe97976230cb641988f3",
+          "bytes": 23432,
+          "cues": 298,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_01.kk.vtt",
+          "sha256": "baf541b0a86ac481bbb5099af4476e040ac6f189bc8dded874294e6907712c7c",
+          "bytes": 23529,
+          "cues": 298,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_01.kk.ass",
+          "sha256": "c9462c59b7da643356e816a03e852ae1bd20492301262d246cda9ef0cfe77272",
+          "bytes": 28719,
+          "cues": 298,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "yuru-camp-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_02.kk.srt",
+          "sha256": "16e69352da5b2c5aa1760a152fdd4e7e845377e411924fb6fd3a2111b16b38af",
+          "bytes": 26499,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_02.kk.vtt",
+          "sha256": "297d6571af02ee41ed797bdde8d7362967c3702c2c7ac81ee56976f1be95337c",
+          "bytes": 26596,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_02.kk.ass",
+          "sha256": "8e420d22ec99c31502a5a9fe262bd60c1f80f41e45c272cb9263d4f85d2ba552",
+          "bytes": 32221,
+          "cues": 327,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "yuru-camp-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_03.kk.srt",
+          "sha256": "fde7514383d4147129f3ba5d266f57d822c38c5fce102ca6dd1aeed147a9a1d1",
+          "bytes": 22097,
+          "cues": 276,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_03.kk.vtt",
+          "sha256": "a237209d97a020292f1c05c2b94a1967332f86a346a49fd3412d2a110f11cd5f",
+          "bytes": 22194,
+          "cues": 276,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_03.kk.ass",
+          "sha256": "6ad2e8d36b519289d8952cb869a0997373d7fd652c80561bde34d57d0a297237",
+          "bytes": 27054,
+          "cues": 276,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "yuru-camp-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_04.kk.srt",
+          "sha256": "a9df5128cd96460275d6935bee3a1a260778933df53a31949bf1b3833aedb10c",
+          "bytes": 26497,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_04.kk.vtt",
+          "sha256": "f79c2c6cdece65feca930e9636527daacc098a8e3b09e6098c6d9eb635c792cd",
+          "bytes": 26594,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_04.kk.ass",
+          "sha256": "5a7c211873a6fac0a02d0ee3167df0bff3460f873523328c2fcafca51d710719",
+          "bytes": 32054,
+          "cues": 316,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "yuru-camp-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_05.kk.srt",
+          "sha256": "360d7d823206f560b10484ae12b7b09e5027e4594fc819cb4dc5988002f03d91",
+          "bytes": 25895,
+          "cues": 308,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_05.kk.vtt",
+          "sha256": "22b28d20cb1d09e51a6d9553e1ce18cc43bff193d4fbd9053d4e646013b55772",
+          "bytes": 25992,
+          "cues": 308,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_05.kk.ass",
+          "sha256": "1c8f3279f0143f94dde447dedb65025dc3f1e01495913017225fc22598838139",
+          "bytes": 31332,
+          "cues": 308,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "yuru-camp-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_06.kk.srt",
+          "sha256": "f1ce50dfbab0cf5b662e6b8d7ab6266ecd948dda5b13804503a748b2c518d32d",
+          "bytes": 32025,
+          "cues": 393,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_06.kk.vtt",
+          "sha256": "db2607be38c11dfad55a7c85a5d3d423ef300df067273ae7248f0cf7cdd2e2b8",
+          "bytes": 32122,
+          "cues": 393,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_06.kk.ass",
+          "sha256": "6a33e115d74c313fbf70a529d557eaf0ec66375d4edcbafcd4ce887f0d049fde",
+          "bytes": 38737,
+          "cues": 393,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "yuru-camp-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_07.kk.srt",
+          "sha256": "836ae065e189c7c99a6087aaa76d67d852f3a3ee0cdb90d3794c52c4a191db0c",
+          "bytes": 32855,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_07.kk.vtt",
+          "sha256": "9ee4885536f0b8283c8ff4765203c5e334d1f04f0b5da1d6b3021e797984a090",
+          "bytes": 32952,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_07.kk.ass",
+          "sha256": "e5f95f2757524cd6cb266e4d38f2f102218e41b0701b2c296dff189cd8f45f03",
+          "bytes": 39507,
+          "cues": 389,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "yuru-camp-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_08.kk.srt",
+          "sha256": "0d3fba10bd81b67a1d8a530d84a635b04c048ea55d41c431ea41295614b191dc",
+          "bytes": 34613,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_08.kk.vtt",
+          "sha256": "c6f4ddb8dbf59d7ddb4c935762aeaff57b3820dfcccf9b798157641a11e0c87e",
+          "bytes": 34710,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_08.kk.ass",
+          "sha256": "1f3c4ed6f5390306eb2a9b59ffff061ea552378c2939b7754bfc7d3d49146313",
+          "bytes": 41295,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "yuru-camp-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_09.kk.srt",
+          "sha256": "256d113b07fea3ce2abf0fa911ada3ecc5ba279d654327d2cacd5c41f2ded0cf",
+          "bytes": 28501,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_09.kk.vtt",
+          "sha256": "2af70f095b19aa1f460d72c865cde3460e8554bf629ceebc6b5c47834c35eece",
+          "bytes": 28598,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_09.kk.ass",
+          "sha256": "ba4ee182659a5bf5d23f4872253fb062ecaa5119d66b2af63dd47b13739cbc79",
+          "bytes": 34313,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "yuru-camp-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_10.kk.srt",
+          "sha256": "a98d7822a8f035836890eae9c3afa8059d2edbc117f1f42f6373a528559684cb",
+          "bytes": 29697,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_10.kk.vtt",
+          "sha256": "0d744e3a602da65bf2cccec3b4d12413a455427954776a2c284b0eab3a413141",
+          "bytes": 29794,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_10.kk.ass",
+          "sha256": "3c4ca1ec3c2f7158df3ca97a3579d184a39c4cbd402f905df23fd71bd4bbb66a",
+          "bytes": 35869,
+          "cues": 357,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "yuru-camp-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_11.kk.srt",
+          "sha256": "c77486ebe338846262d8a52cea1e085317eca31dc7fb06a1047bb3061a078dd8",
+          "bytes": 34884,
+          "cues": 409,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_11.kk.vtt",
+          "sha256": "2aa749fc2d9652044b1378b2e058eed5d3c2351817d443cb55b12cc20848bc33",
+          "bytes": 34981,
+          "cues": 409,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_11.kk.ass",
+          "sha256": "de32a072fe4b9c7ef87ee118882c14f20644e02e2206c9f54099a7cd5aee395a",
+          "bytes": 41836,
+          "cues": 409,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "yuru-camp-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/yuru-camp/yuru-camp-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/yuru-camp/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/yuru-camp/ep_12.kk.srt",
+          "sha256": "af6d09ab60cb9043eed3681a8bb68eb15417ce3d232c167d7cc555c3a6e4620a",
+          "bytes": 25916,
+          "cues": 320,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/yuru-camp/ep_12.kk.vtt",
+          "sha256": "8d17b43d7fb1631dec1c05e302bed965bcf9a4a585f2a0e95afb5ef08cdc9297",
+          "bytes": 26013,
+          "cues": 320,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/yuru-camp/ep_12.kk.ass",
+          "sha256": "d8d8ff75608d1d15297d04467ed6333c8db5f779ecf877111446cc1eead97538",
+          "bytes": 31533,
+          "cues": 320,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 38,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/yuru-camp.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

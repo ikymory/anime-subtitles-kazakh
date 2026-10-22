@@ -13,28 +13,67 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107625-2UIAI4TRwXz0.jpg",
+  "averageScore": 84,
+  "popularity": 56617,
+  "color": "hsl(295, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107625-hwUyT33A6UK9.jpg",
+  "catalog_id": "words-bubble-up-like-soda-pop",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "words-bubble-up-like-soda-pop-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/words-bubble-up-like-soda-pop/words-bubble-up-like-soda-pop-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/words-bubble-up-like-soda-pop/words-bubble-up-like-soda-pop-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/words-bubble-up-like-soda-pop/words-bubble-up-like-soda-pop-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/words-bubble-up-like-soda-pop/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/words-bubble-up-like-soda-pop/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/words-bubble-up-like-soda-pop/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/words-bubble-up-like-soda-pop/ep_01.kk.srt",
+          "sha256": "5bd24b94006d0c1a467c9e8b2e6c57d0564289f7f6d726fdb4dedeae05a26d09",
+          "bytes": 81274,
+          "cues": 1076,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/words-bubble-up-like-soda-pop/ep_01.kk.vtt",
+          "sha256": "0096a5b6c70b3e44c2130a7a79d5cc7b74296a2a31d76ac99e4edd267b50079d",
+          "bytes": 81371,
+          "cues": 1076,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/words-bubble-up-like-soda-pop/ep_01.kk.ass",
+          "sha256": "3ae1b094128b2bbabcd3e39028e6eba4f7ffcc7cc474bdb4d6a4ea18d0cf3136",
+          "bytes": 98174,
+          "cues": 1076,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(295, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 84,
-  "popularity": 56617,
-  "translated_episodes_count": 1
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/words-bubble-up-like-soda-pop.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
 }

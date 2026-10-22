@@ -18,28 +18,69 @@
     "Sci-Fi",
     "Thriller"
   ],
-  "description": "Third and final part of the three part theatrical film remake of Code Geass: Lelouch of the Rebellion and Code Geass: Lelouch of the Rebellion R2.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101813-ckCNyMkU2Kkc.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101813-dZkqZAD4FOoO.jpg",
+  "description": "Third and final part of the three part theatrical film remake of Code Geass: Lelouch of the Rebellion and Code Geass: Lelouch of the Rebellion R2.",
   "averageScore": 78,
   "popularity": 29704,
+  "color": "#f1e435",
+  "duration": 141,
+  "studio": "Sunrise",
+  "catalog_id": "code-geass-movie-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "code-geass-movie-3-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-movie-3/code-geass-movie-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-movie-3/code-geass-movie-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-movie-3/code-geass-movie-3-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-movie-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-movie-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-movie-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-movie-3/ep_01.kk.srt",
+          "sha256": "b7b6be13836f75b010ab892f9e8a5db0edfd2082f6888eaf2d51b921b6b68c39",
+          "bytes": 233136,
+          "cues": 2604,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-movie-3/ep_01.kk.vtt",
+          "sha256": "142d2a53a3c5cbe9d8a98918989b0bf54c263142183a455461733746951127a6",
+          "bytes": 233233,
+          "cues": 2604,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-movie-3/ep_01.kk.ass",
+          "sha256": "7c7aaede268238f84d67bd9795ea3ee08a060bc59622566d2dcc08be5dabc9d1",
+          "bytes": 271651,
+          "cues": 2604,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#f1e435",
-  "studio": "Sunrise",
-  "duration": 141,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/code-geass-movie-3.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
 }

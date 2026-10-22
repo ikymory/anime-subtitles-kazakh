@@ -13,28 +13,66 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16782-qpFGk18UqaHn.jpg",
+  "averageScore": 86,
+  "popularity": 62023,
+  "color": "hsl(2, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16782.jpg",
+  "catalog_id": "garden-of-words",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "garden-of-words-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/garden-of-words/garden-of-words-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/garden-of-words/garden-of-words-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/garden-of-words/garden-of-words-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/garden-of-words/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/garden-of-words/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/garden-of-words/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/garden-of-words/ep_01.kk.srt",
+          "sha256": "4c311e95b0bc06f0de62889b896ab81618c59eebdc41c492a304fd827a6e4b3b",
+          "bytes": 43977,
+          "cues": 495,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/garden-of-words/ep_01.kk.vtt",
+          "sha256": "09eea58f97eda4eae450f5e14fc6fbeda4e967870e24d6bf6a3a6805c384451b",
+          "bytes": 44074,
+          "cues": 495,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/garden-of-words/ep_01.kk.ass",
+          "sha256": "24faacbedfd926809c5643b8a7c15d813a1b4197f49e06183be9c522f99f7597",
+          "bytes": 52225,
+          "cues": 495,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(2, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 86,
-  "popularity": 62023,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/garden-of-words.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

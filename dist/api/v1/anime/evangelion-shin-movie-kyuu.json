@@ -16,24 +16,65 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Evangelion Shin Movie. Kyuu - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/evangelion-shin-movie-kyuu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/evangelion-shin-movie-kyuu.jpg",
+  "description": "Evangelion Shin Movie. Kyuu - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "evangelion-shin-movie-kyuu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "evangelion-shin-movie-kyuu-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/evangelion-shin-movie-kyuu/evangelion-shin-movie-kyuu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/evangelion-shin-movie-kyuu/evangelion-shin-movie-kyuu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/evangelion-shin-movie-kyuu/evangelion-shin-movie-kyuu-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-kyuu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-kyuu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-kyuu/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/evangelion-shin-movie-kyuu/ep_01.kk.srt",
+          "sha256": "c1d1d3dfa55509bf6798a4764688b53c97ddf9bfce7a6da5629ab23f9746cc96",
+          "bytes": 133039,
+          "cues": 1484,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/evangelion-shin-movie-kyuu/ep_01.kk.vtt",
+          "sha256": "505cdb8e25269c64696e29038fba5f886dbe67625de3bd57963f4a98a1ae11cf",
+          "bytes": 133136,
+          "cues": 1484,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/evangelion-shin-movie-kyuu/ep_01.kk.ass",
+          "sha256": "550a0e535202aa45801f38fae7e58d8e1db6eee2e2b446e3d2557c25a4d6ffa1",
+          "bytes": 155692,
+          "cues": 1484,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/evangelion-shin-movie-kyuu.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

@@ -1,0 +1,83 @@
+{
+  "id": 800062,
+  "slug": "digimon-adventure-tri-3",
+  "title": {
+    "romaji": "Digimon Adventure tri. 3: Confession",
+    "english": "Digimon Adventure tri. 3: Confession",
+    "native": "Digimon Adventure tri. 3. Kokuhaku",
+    "kazakh": "Дигимон tri 3: Ағынан жарылу",
+    "kk": "Дигимон tri 3: Ағынан жарылу"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2016,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-tri-3.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-tri-3.jpg",
+  "description": "Digimon Adventure tri. 3: Confession - official Kazakh translation archive by ikymory.",
+  "averageScore": 82,
+  "popularity": 98400,
+  "catalog_id": "digimon-adventure-tri-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.ass",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/digimon-adventure-tri-3/ep_01.kk.ass",
+          "sha256": "90414b30c4bff202d5a1055f5388521a9e47dff1495d146d92cb369d4ebfbadb",
+          "bytes": 150560,
+          "cues": 1460,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/digimon-adventure-tri-3/ep_01.kk.srt",
+          "sha256": "022f3b11c6afe686b80fed5fb82692993f3cf423c233fb453e316a728a93a80c",
+          "bytes": 127470,
+          "cues": 1444,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/digimon-adventure-tri-3/ep_01.kk.vtt",
+          "sha256": "a30edb754dfcf74d3d738dee4cde86b570f3a16cf59f792608de226f193bdbf7",
+          "bytes": 127478,
+          "cues": 1444,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/digimon-adventure-tri-3.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
+}

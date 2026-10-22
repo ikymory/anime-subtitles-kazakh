@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Fuse Teppou Musume no Torimonochou - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fuse-teppou-musume-no-torimonochou.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fuse-teppou-musume-no-torimonochou.jpg",
+  "description": "Fuse Teppou Musume no Torimonochou - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "fuse-teppou-musume-no-torimonochou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fuse-teppou-musume-no-torimonochou-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fuse-teppou-musume-no-torimonochou/fuse-teppou-musume-no-torimonochou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fuse-teppou-musume-no-torimonochou/fuse-teppou-musume-no-torimonochou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fuse-teppou-musume-no-torimonochou/fuse-teppou-musume-no-torimonochou-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fuse-teppou-musume-no-torimonochou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fuse-teppou-musume-no-torimonochou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fuse-teppou-musume-no-torimonochou/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fuse-teppou-musume-no-torimonochou/ep_01.kk.srt",
+          "sha256": "a1fea45c9f315feb62f7b6d52f28fe18f6230099383fabaa1d248c661e9a1351",
+          "bytes": 123956,
+          "cues": 1400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fuse-teppou-musume-no-torimonochou/ep_01.kk.vtt",
+          "sha256": "24fe4b2f775c0990fbbabe4b3da3c6c38e97c276d8a233495198a8c63e4d1fd3",
+          "bytes": 124053,
+          "cues": 1400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fuse-teppou-musume-no-torimonochou/ep_01.kk.ass",
+          "sha256": "a4f6b80cf864aa96492f2925e97fcd2c518d9d4c15d3dd26be19e7421e1e2347",
+          "bytes": 145434,
+          "cues": 1400,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fuse-teppou-musume-no-torimonochou.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

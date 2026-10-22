@@ -17,9 +17,20 @@
     "Sci-Fi",
     "Thriller"
   ],
-  "description": "In the year 2024, the world has collapsed. Grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko, an odd-job girl in Nakano, accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.<br>\n<br>\n(Source: Disney+, edited)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx155783-YosKbsmZzuDE.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155783-MXHfdquIBoHA.jpg",
+  "description": "In the year 2024, the world has collapsed. Grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko, an odd-job girl in Nakano, accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.\n\n(Source: Disney+, edited)",
+  "averageScore": 83,
+  "popularity": 64119,
+  "color": "#286bbb",
+  "duration": 24,
+  "studio": "Production I.G",
+  "catalog_id": "tengoku-daimakyo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,142 +46,482 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tengoku-daimakyo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_01.kk.srt",
+          "sha256": "d80dde63a4045e78496367895a67c5247c0b25a41f148dc69ecab8a568c09060",
+          "bytes": 35644,
+          "cues": 427,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_01.kk.vtt",
+          "sha256": "12bc3cd4cfb8733165611120e8a0f9eb7e1172d297b8b177a8622cb0eb3922dd",
+          "bytes": 35741,
+          "cues": 427,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_01.kk.ass",
+          "sha256": "f506586a665e375f60554a5eac09edfa6c0899e736ade4fd93d86cea7c06bd00",
+          "bytes": 42873,
+          "cues": 427,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "tengoku-daimakyo-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_02.kk.srt",
+          "sha256": "b7f61b499e55696c8534d7561230c9c0c45431e13e2e41085753369ab0ce3448",
+          "bytes": 34657,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_02.kk.vtt",
+          "sha256": "a59b70c5e15f6a31895feeba81100511ec05296c6d56d630cdf108465ec8f13e",
+          "bytes": 34754,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_02.kk.ass",
+          "sha256": "49e1b8be285dd6cb67659d7e790f7b381a45710989abe6c9ffbadb4cbf8e800c",
+          "bytes": 41541,
+          "cues": 404,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "tengoku-daimakyo-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_03.kk.srt",
+          "sha256": "929e8ef487f2304535930cfe19063681af2fd1255898d4cbdb32f0234ce90c1a",
+          "bytes": 29688,
+          "cues": 363,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_03.kk.vtt",
+          "sha256": "59cb9be7243af0ea0dffe2f221b44a1c05db1478f3a6a65bfed810227b8b024a",
+          "bytes": 29785,
+          "cues": 363,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_03.kk.ass",
+          "sha256": "3629585a683de979a6857782dd86bc4d90ddfb010ccceda9bde8275c177c4961",
+          "bytes": 35957,
+          "cues": 363,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "tengoku-daimakyo-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_04.kk.srt",
+          "sha256": "9815002c74a1a8b7c837c93e9801fb797bccabb18b3a015ea57332465989982f",
+          "bytes": 33553,
+          "cues": 436,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_04.kk.vtt",
+          "sha256": "d10095c44c240086a383622f98316a3574024f1ae8b87b132b6b182c8f3f7e9a",
+          "bytes": 33650,
+          "cues": 436,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_04.kk.ass",
+          "sha256": "47f092324af8c77d803f59cb8fa90959370ec31169283b721e5b8bf364c90179",
+          "bytes": 40917,
+          "cues": 436,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "tengoku-daimakyo-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_05.kk.srt",
+          "sha256": "95e1da3b7c6c987832c1c4f7aefabcb8623eb7d255d1cb84026cc5595d71fac4",
+          "bytes": 34277,
+          "cues": 385,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_05.kk.vtt",
+          "sha256": "d67bd8f96c8ed1ea6f60fc1705871f30f782dcc9cca7dcf59146ac6614e85512",
+          "bytes": 34374,
+          "cues": 385,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_05.kk.ass",
+          "sha256": "fd45d1fa3c74d705d3181b7bb0b77527159561655fffb640d006719dd761d84f",
+          "bytes": 40876,
+          "cues": 385,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "tengoku-daimakyo-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_06.kk.srt",
+          "sha256": "82a03c6d0968babfe8bb5afa67ccca65c9acd080f1521df9c64508a83024dd11",
+          "bytes": 31051,
+          "cues": 380,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_06.kk.vtt",
+          "sha256": "5c5d757c7135e6edf9341f950e4a643ae7e0c3b1d5f56215d107d6502ab876a7",
+          "bytes": 31148,
+          "cues": 380,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_06.kk.ass",
+          "sha256": "3a3c76d9469a372356a63abfc903348ea846e718152a6efc40632d957fd9ea7f",
+          "bytes": 37575,
+          "cues": 380,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "tengoku-daimakyo-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_07.kk.srt",
+          "sha256": "c8e8cdf8679f0d9830ec864c6cc08c8ec09d488b046c9fbbd9af996be058ebe3",
+          "bytes": 32518,
+          "cues": 371,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_07.kk.vtt",
+          "sha256": "350d79d1949ab7d1daa2bca522a8cf0f462caf1a13fbc19463d125d53dc9163e",
+          "bytes": 32615,
+          "cues": 371,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_07.kk.ass",
+          "sha256": "f6add4503ae38047061c58fddf6760eedce5b1d57143de793132d6795e5071b5",
+          "bytes": 38907,
+          "cues": 371,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "tengoku-daimakyo-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_08.kk.srt",
+          "sha256": "4e014e3ebba0983e972a1befa31b8aff2e989af1eb9019658d8b6e498bc67a13",
+          "bytes": 24004,
+          "cues": 298,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_08.kk.vtt",
+          "sha256": "cf6d3b57413a2f3515dc67993244c591441760e84ce9bc8c02f57f22d762a782",
+          "bytes": 24101,
+          "cues": 298,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_08.kk.ass",
+          "sha256": "d2dc0daf36869131290ffc50512ce177b47416a163d6c1f8c0dcffe7480b5f53",
+          "bytes": 29298,
+          "cues": 298,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "tengoku-daimakyo-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_09.kk.srt",
+          "sha256": "98e36ce5c8f9e91cd771d60e98ab394673d3ac75ad0ecd2ffaae0130110ee02d",
+          "bytes": 36403,
+          "cues": 403,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_09.kk.vtt",
+          "sha256": "59c7068ba0891eecd981519bdf1097205f07a961e4c089090ec3b89f3bfcff97",
+          "bytes": 36500,
+          "cues": 403,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_09.kk.ass",
+          "sha256": "59a1700499aa436d8ad8d4edcb82f7184e56af64658caa1b5b531978ea648540",
+          "bytes": 43272,
+          "cues": 403,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "tengoku-daimakyo-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_10.kk.srt",
+          "sha256": "6645ee758082c666f35b664c52a53b489e486229e65c7fef279da973d8980457",
+          "bytes": 34320,
+          "cues": 422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_10.kk.vtt",
+          "sha256": "e3ef98dad91e61c4d68ebdd20578cc61c1e2a5898e809074d7b7485453bb9531",
+          "bytes": 34417,
+          "cues": 422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_10.kk.ass",
+          "sha256": "bfcb047bed6835728b7b59eb62cba638c3cb7a1de6a7d9566d1645592700cae3",
+          "bytes": 41474,
+          "cues": 422,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "tengoku-daimakyo-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_11.kk.srt",
+          "sha256": "5066dca31cedaf61bee96c8ad65c89519c5b5dda3428d4d1b05b8622b17cb080",
+          "bytes": 31838,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_11.kk.vtt",
+          "sha256": "dde601f3df604b68e0d3b153054e2ff33db8c4f9f5466153960b8a03c777318e",
+          "bytes": 31935,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_11.kk.ass",
+          "sha256": "f0ba8a4fd9d01068d2ffe38c6c09ab33babd1b3ed69efdcb3e7bfdff1c011e43",
+          "bytes": 38317,
+          "cues": 377,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "tengoku-daimakyo-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_12.kk.srt",
+          "sha256": "03e0f0a520c181633449f32686cfd0387a3dbfa46f3ffcd8b27cccb190ed66c3",
+          "bytes": 31529,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_12.kk.vtt",
+          "sha256": "f1662c82220e255ceda40376a9aced13d3ea2035e9e8c12a870ea23e2d9d9ac6",
+          "bytes": 31626,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_12.kk.ass",
+          "sha256": "e4a0019931ef05fcbf2c740c693d6c5d84ef25763bacd34cde522d1c1f99a22b",
+          "bytes": 37933,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "tengoku-daimakyo-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tengoku-daimakyo/tengoku-daimakyo-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tengoku-daimakyo/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tengoku-daimakyo/ep_13.kk.srt",
+          "sha256": "3495af3b314d97ef433c7796f0d205cab4f6809ea9af2339d1846616a445ec1a",
+          "bytes": 28944,
+          "cues": 350,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tengoku-daimakyo/ep_13.kk.vtt",
+          "sha256": "76563924eba4d408277221e038bb66f7e974324c539ca554c877b4f5bb69a2f3",
+          "bytes": 29041,
+          "cues": 350,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tengoku-daimakyo/ep_13.kk.ass",
+          "sha256": "28767f99978434f70f6f71423b553cc4c5787f8f8b2dc7c3ed7645f12df130cf",
+          "bytes": 35018,
+          "cues": 350,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#286bbb",
-  "studio": "Production I.G",
-  "duration": 24,
-  "averageScore": 83,
-  "popularity": 64119,
-  "translated_episodes_count": 13
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tengoku-daimakyo.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

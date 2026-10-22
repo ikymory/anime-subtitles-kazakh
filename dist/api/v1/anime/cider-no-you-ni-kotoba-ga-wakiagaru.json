@@ -17,24 +17,70 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "Words Bubble Up Like Soda Pop - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cider-no-you-ni-kotoba-ga-wakiagaru.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cider-no-you-ni-kotoba-ga-wakiagaru.jpg",
+  "description": "Words Bubble Up Like Soda Pop - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "cider-no-you-ni-kotoba-ga-wakiagaru",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "cider-no-you-ni-kotoba-ga-wakiagaru-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/cider-no-you-ni-kotoba-ga-wakiagaru-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/cider-no-you-ni-kotoba-ga-wakiagaru-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/cider-no-you-ni-kotoba-ga-wakiagaru-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/ep_01.kk.ass",
+          "sha256": "aabaf7a2e5dd22b02cb9c85b17985465dec7760b5c09381b4fa74602f369dedd",
+          "bytes": 97246,
+          "cues": 1079,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/ep_01.kk.srt",
+          "sha256": "d1bbd2c70b193bf7a929a1d2c189150ebccdf4ff09df4a4f35aa0c9f61cddf31",
+          "bytes": 80044,
+          "cues": 1078,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/cider-no-you-ni-kotoba-ga-wakiagaru/ep_01.kk.vtt",
+          "sha256": "46e9d7b9794439899071b5cafc721e099eab024a861ef3b3972d565054043dae",
+          "bytes": 80052,
+          "cues": 1078,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cider-no-you-ni-kotoba-ga-wakiagaru.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

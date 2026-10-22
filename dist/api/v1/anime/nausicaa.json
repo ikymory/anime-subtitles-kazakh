@@ -13,28 +13,66 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx572-ZE3kHBA6U0X1.jpg",
+  "averageScore": 82,
+  "popularity": 53689,
+  "color": "hsl(57, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/572-8Lz6Wwy3ySHE.jpg",
+  "catalog_id": "nausicaa",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "nausicaa-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nausicaa/nausicaa-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nausicaa/nausicaa-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nausicaa/nausicaa-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nausicaa/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nausicaa/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nausicaa/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/nausicaa/ep_01.kk.srt",
+          "sha256": "32b142c6c41cccc1adb8593e4c3f9d9866d6fea11a92e8506d895862e2f32c92",
+          "bytes": 105961,
+          "cues": 1197,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/nausicaa/ep_01.kk.vtt",
+          "sha256": "a4f07502f44487a79979d6e46ee77a97fe639be172e8584066d4b337b846a7b7",
+          "bytes": 106058,
+          "cues": 1197,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/nausicaa/ep_01.kk.ass",
+          "sha256": "92d83e2ad97547cb0261901197b03dcf7efc00a280b8ccbac597c0afa0d35e92",
+          "bytes": 124534,
+          "cues": 1197,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(57, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 82,
-  "popularity": 53689,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nausicaa.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

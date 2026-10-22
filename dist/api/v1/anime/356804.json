@@ -3,41 +3,114 @@
   "slug": "paprika",
   "title": {
     "romaji": "Paprika",
-    "english": "Paprika"
+    "english": "Paprika",
+    "kazakh": "Паприка",
+    "kk": "Паприка"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 2,
+  "seasonYear": 2006,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1943-jMCEYL1Ixmgc.png",
+  "averageScore": 79,
+  "popularity": 52944,
+  "color": "hsl(32, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1943.jpg",
+  "catalog_id": "paprika",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     265
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "paprika-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/paprika/paprika-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/paprika/paprika-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/paprika/paprika-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/paprika/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/paprika/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/paprika/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/paprika/ep_01.kk.srt",
+          "sha256": "f9e216ec32099ffc3157b58abb08566d12ef5ae5ed9ec5a9b5a89ed36637242a",
+          "bytes": 81201,
+          "cues": 889,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/paprika/ep_01.kk.vtt",
+          "sha256": "08e541096b795593f3c161b745a7258fee71ab4b77a3475d1b04068541f4e61c",
+          "bytes": 81298,
+          "cues": 889,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/paprika/ep_01.kk.ass",
+          "sha256": "ddcdf59e67b212f042be189704a6c12d3738ce1bbf009bde8fa793f54f692182",
+          "bytes": 95351,
+          "cues": 889,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 265,
       "language": "kk",
-      "filename": "paprika-265ep.srt",
+      "filename": "ep_265.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/paprika/paprika-265ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/paprika/paprika-265ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/paprika/paprika-265ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/paprika/ep_265.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/paprika/ep_265.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/paprika/ep_265.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/paprika/ep_265.kk.srt",
+          "sha256": "ec62449033a14bb648b664a23cb801807106a14961b9de859df1d549c2765fe7",
+          "bytes": 81635,
+          "cues": 889,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/paprika/ep_265.kk.vtt",
+          "sha256": "04215f9c266a6dae7119907e2baa5e92af3c3dd05797d10908243317c67b8b86",
+          "bytes": 81732,
+          "cues": 889,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/paprika/ep_265.kk.ass",
+          "sha256": "9f4c3b98449ac07681184ec9200a47c76c442e2a0cd702ceb9c2073cfe7f2f7b",
+          "bytes": 95785,
+          "cues": 889,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/paprika.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

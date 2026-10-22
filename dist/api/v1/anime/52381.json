@@ -3,30 +3,78 @@
   "slug": "the-tale-of-princess-kaguya",
   "title": {
     "romaji": "The Tale Of Princess Kaguya",
-    "english": "The Tale Of Princess Kaguya"
+    "english": "The Tale Of Princess Kaguya",
+    "kazakh": "Кагуя ханшайымы туралы ертегі",
+    "kk": "Кагуя ханшайымы туралы ертегі"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2013,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/16664-Wakrc8rbBkor.jpg",
+  "averageScore": 78,
+  "popularity": 52775,
+  "color": "#e4a15d",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16664-mVEK3raMgD9Z.jpg",
+  "catalog_id": "the-tale-of-princess-kaguya",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "the-tale-of-princess-kaguya-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-tale-of-princess-kaguya/the-tale-of-princess-kaguya-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-tale-of-princess-kaguya/the-tale-of-princess-kaguya-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-tale-of-princess-kaguya/the-tale-of-princess-kaguya-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-tale-of-princess-kaguya/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-tale-of-princess-kaguya/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-tale-of-princess-kaguya/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/the-tale-of-princess-kaguya/ep_01.kk.srt",
+          "sha256": "d64415ab1f4fcb49b170ce82d6b1d2f71f485fd20fbf171a6d03762eb4ca068e",
+          "bytes": 119149,
+          "cues": 1452,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/the-tale-of-princess-kaguya/ep_01.kk.vtt",
+          "sha256": "22fa061f16d32298021a1289debdd6891bb2fdab2e80bac9885326428a8f0e00",
+          "bytes": 119246,
+          "cues": 1452,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/the-tale-of-princess-kaguya/ep_01.kk.ass",
+          "sha256": "077c7d0a6c3545970aa9cfe1515ebe28df67ac08a94369ece77eea4cd9a1b1a8",
+          "bytes": 141311,
+          "cues": 1452,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/the-tale-of-princess-kaguya.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

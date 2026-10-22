@@ -15,24 +15,64 @@
     "Fantasy",
     "Mahou Shoujo"
   ],
-  "description": "The story of the new film is set in Sweetsland, a country next to Jewelland. Ruby and the other Jewelpets are celebrating the birthday of the princess with dancing. However, during the preparations for the birthday party, a mysterious object appears from the skies. In the object is a Sweetspet boy, whose identity is unknown. <br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12965.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12965.jpg",
+  "description": "The story of the new film is set in Sweetsland, a country next to Jewelland. Ruby and the other Jewelpets are celebrating the birthday of the princess with dancing. However, during the preparations for the birthday party, a mysterious object appears from the skies. In the object is a Sweetspet boy, whose identity is unknown. <br><br>\n(Source: Anime News Network)",
   "averageScore": 58,
   "popularity": 723,
+  "catalog_id": "jewelpet-movie-sweets-dance-princess",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "jewelpet-movie-sweets-dance-princess-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jewelpet-movie-sweets-dance-princess/jewelpet-movie-sweets-dance-princess-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jewelpet-movie-sweets-dance-princess/jewelpet-movie-sweets-dance-princess-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jewelpet-movie-sweets-dance-princess/jewelpet-movie-sweets-dance-princess-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jewelpet-movie-sweets-dance-princess/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jewelpet-movie-sweets-dance-princess/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jewelpet-movie-sweets-dance-princess/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jewelpet-movie-sweets-dance-princess/ep_01.kk.srt",
+          "sha256": "f5eb4ba239dc73944dd94e1b94cff7cad61e1683e19ffadd1f93084d127d4359",
+          "bytes": 119510,
+          "cues": 1267,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jewelpet-movie-sweets-dance-princess/ep_01.kk.vtt",
+          "sha256": "f5306f9a474fbf5d238c866e2d195c727b4da18c4a92c7e7a7080803c270e8b5",
+          "bytes": 119607,
+          "cues": 1267,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jewelpet-movie-sweets-dance-princess/ep_01.kk.ass",
+          "sha256": "3d5c18dc9f65173254930e05c8f4c439e996254197d5a4e218eac5a3be9310c9",
+          "bytes": 139306,
+          "cues": 1267,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jewelpet-movie-sweets-dance-princess.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

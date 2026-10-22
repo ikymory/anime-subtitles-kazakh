@@ -15,24 +15,64 @@
     "Comedy",
     "Slice of Life"
   ],
-  "description": "Aiura - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aiura.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aiura.jpg",
+  "description": "Aiura - official Kazakh translation archive by ikymory.",
   "averageScore": 75,
   "popularity": 90000,
+  "catalog_id": "aiura",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "aiura-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aiura/aiura-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aiura/aiura-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aiura/aiura-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aiura/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aiura/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aiura/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aiura/ep_01.kk.srt",
+          "sha256": "9e3ccd021e0976966dfae43d9163db51fffdcc1755bac8ab64c453c6ba6eae53",
+          "bytes": 1741,
+          "cues": 19,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aiura/ep_01.kk.vtt",
+          "sha256": "e918da67ee0973f347bfb78119feef901887c5f9ec6ac3487dfee2ccff3ff3f1",
+          "bytes": 1838,
+          "cues": 19,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aiura/ep_01.kk.ass",
+          "sha256": "ae9411e40e37a9783ff60fa47afe71496dfa5da125e9c6c504ffa34740be480a",
+          "bytes": 3726,
+          "cues": 19,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aiura.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

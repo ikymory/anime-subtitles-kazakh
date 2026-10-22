@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Macross 7. Ginga ga Ore wo Yonde Iru - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-7-ginga-ga-ore-wo-yonde-iru.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/macross-7-ginga-ga-ore-wo-yonde-iru.jpg",
+  "description": "Macross 7. Ginga ga Ore wo Yonde Iru - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "macross-7-ginga-ga-ore-wo-yonde-iru",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "macross-7-ginga-ga-ore-wo-yonde-iru-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/macross-7-ginga-ga-ore-wo-yonde-iru-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/macross-7-ginga-ga-ore-wo-yonde-iru-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/macross-7-ginga-ga-ore-wo-yonde-iru-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/ep_01.kk.srt",
+          "sha256": "6525a0ba272de3638127babd7e7d8e1693c8e8396c635d36a0f91ab8f8f0442c",
+          "bytes": 39819,
+          "cues": 527,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/ep_01.kk.vtt",
+          "sha256": "9afe8ce347ca5b48c9cde52d80bd2dd94b5c7f085ef1593a5a6de1fc75d172e9",
+          "bytes": 39916,
+          "cues": 527,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/macross-7-ginga-ga-ore-wo-yonde-iru/ep_01.kk.ass",
+          "sha256": "5efbb4156618929f8bd5cd46ece96aaf88bc66a0c9907725b759efa1a7ffe1e9",
+          "bytes": 48783,
+          "cues": 527,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/macross-7-ginga-ga-ore-wo-yonde-iru.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

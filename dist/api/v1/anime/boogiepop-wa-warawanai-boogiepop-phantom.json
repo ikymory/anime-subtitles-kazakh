@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Boogiepop wa Warawanai. Boogiepop Phantom - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boogiepop-wa-warawanai-boogiepop-phantom.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boogiepop-wa-warawanai-boogiepop-phantom.jpg",
+  "description": "Boogiepop wa Warawanai. Boogiepop Phantom - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "boogiepop-wa-warawanai-boogiepop-phantom",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,451 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_01.kk.srt",
+          "sha256": "3b261062db4a300ee927c83aa3d55a5c50228ea48235c231d818ab6cc0206327",
+          "bytes": 25792,
+          "cues": 314,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_01.kk.vtt",
+          "sha256": "20953d9375ceeac7a6641f6263cb7a041f178f2df84a0e5a385fe320ff84f66a",
+          "bytes": 25889,
+          "cues": 314,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_01.kk.ass",
+          "sha256": "6c327e696cfc5989aab8e73b6753add4e9162b5b4a115d79d6a7f5888dbdf10f",
+          "bytes": 31561,
+          "cues": 314,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_02.kk.srt",
+          "sha256": "9c3db06625a703b7899db8103cfb8f4014078ba878e7792b8eb6c06d62a1c55b",
+          "bytes": 24480,
+          "cues": 307,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_02.kk.vtt",
+          "sha256": "f3773833f2b9c4e0c96c6f68adf31d8971ed975d05c4acd28bd7b0e5a4010783",
+          "bytes": 24577,
+          "cues": 307,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_02.kk.ass",
+          "sha256": "1e0bab94ff417fc89dd1273769e3b379914432bc98ee9c7e90a6ec036ce05774",
+          "bytes": 30144,
+          "cues": 307,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_03.kk.srt",
+          "sha256": "4d57746e7ab82671a5e1f939890bd3308e649cf67e85dbde25eb39ef6b8df991",
+          "bytes": 31089,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_03.kk.vtt",
+          "sha256": "3ba405c119b507c8683ad3edd46eefbc5ea0d7a4e839e0443c1825d23f041cf3",
+          "bytes": 31186,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_03.kk.ass",
+          "sha256": "748e24cadcf8f77e4517926178b7d1ce45128ed223e187aefc18d7ff611bfadc",
+          "bytes": 37728,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_04.kk.srt",
+          "sha256": "adab2db6c12cd61ebbe4ec45aa12c4279a0f4def935fe0276b4e99d270d1e93c",
+          "bytes": 30605,
+          "cues": 392,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_04.kk.vtt",
+          "sha256": "907419553edfb8554ec0fe31d80ea8068ae049fd235bc0aff4ecf392fef2f0f8",
+          "bytes": 30702,
+          "cues": 392,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_04.kk.ass",
+          "sha256": "cf17465c53c0a41e96e8bbd3f224db144cfe1665ea7f0aa218e4966ce501a71f",
+          "bytes": 37544,
+          "cues": 392,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_05.kk.srt",
+          "sha256": "3abbdb00b1878e1c4060e2868cd3c2a57393fab2b331b2d0925f19d3fdde0673",
+          "bytes": 33775,
+          "cues": 386,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_05.kk.vtt",
+          "sha256": "a841ce219914f5ac1f7a8adbbabd41553d985a4a74c95a9c7f3ead5971823094",
+          "bytes": 33872,
+          "cues": 386,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_05.kk.ass",
+          "sha256": "74ef4b8bc70031502444b6877ce2458a2e8d5e5b894dd01c55f089d3493bc0b2",
+          "bytes": 40625,
+          "cues": 386,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_06.kk.srt",
+          "sha256": "79b506ef81bad9a44418048e5d8587ea53172c88e107a5a5d6be543b7c7b520a",
+          "bytes": 31410,
+          "cues": 362,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_06.kk.vtt",
+          "sha256": "1dce369eca36bffb1970314278a7f640cd1867db2f98f13cf8bd6f26b496803f",
+          "bytes": 31507,
+          "cues": 362,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_06.kk.ass",
+          "sha256": "e42e3682e5d9a65e8b68d8b2db0c7e12512141bd1fc2e77f3895786107e1da52",
+          "bytes": 37899,
+          "cues": 362,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_07.kk.srt",
+          "sha256": "789a02c8c9ea28c6e9211dd00ae457aaa4a4b9cda5e28b92445a49baba57d6f2",
+          "bytes": 29028,
+          "cues": 352,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_07.kk.vtt",
+          "sha256": "b49f1ff39d498e7696fe9cbf7e5c9b5f1afa7877923b2dded58e4709ae8d687e",
+          "bytes": 29125,
+          "cues": 352,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_07.kk.ass",
+          "sha256": "8210dce30e03564c9118f7cc8ba416b3ea991d53b29b1a612265b41377dcffef",
+          "bytes": 35367,
+          "cues": 352,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_08.kk.srt",
+          "sha256": "af6e6ae042e06e1b6678661625f4bb93c77cd6af505d9a1bd58320946ed44dc7",
+          "bytes": 30679,
+          "cues": 346,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_08.kk.vtt",
+          "sha256": "dfe0957b2fd535b551a70781a34be68fd1fb965dc56668fa435709e90b575933",
+          "bytes": 30776,
+          "cues": 346,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_08.kk.ass",
+          "sha256": "f939259da25959a47b4ec6edeb51ecdf345e3c5a142ec79a6e2b48f88c2280f4",
+          "bytes": 36928,
+          "cues": 346,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_09.kk.srt",
+          "sha256": "211e7427c6f8940028d79147bee8467ca387857a1ce84dbd0925a9c3a8c0e079",
+          "bytes": 36648,
+          "cues": 460,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_09.kk.vtt",
+          "sha256": "30ced7db5dd64bf01b0e53bbced5d0b25b57225bff115bc29ddbfa5f630ef47b",
+          "bytes": 36745,
+          "cues": 460,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_09.kk.ass",
+          "sha256": "fab90512b5a606147f77af21bb61f10807e7987af4eaafc7a52bd35f9485d519",
+          "bytes": 44607,
+          "cues": 460,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_10.kk.srt",
+          "sha256": "b3d9a34850bf3fc86c9218404fa5c394a36a97f716cd2fb3b71a95cd4ad267e7",
+          "bytes": 28817,
+          "cues": 349,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_10.kk.vtt",
+          "sha256": "0cdfb932d58a3b9b8a644b327ea56384e22449fce84fe1f3940b9283b23cd3ef",
+          "bytes": 28914,
+          "cues": 349,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_10.kk.ass",
+          "sha256": "15d92cec8f4aabbb9144e5790c0b2058f8122191ca3c780bea5b6cda6c3e8426",
+          "bytes": 35111,
+          "cues": 349,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_11.kk.srt",
+          "sha256": "5ae97c563a9c59574c3ae7ea980f8da0652446d420efbfd73b6ae68a3cdf560c",
+          "bytes": 30438,
+          "cues": 353,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_11.kk.vtt",
+          "sha256": "c6e84cf4039f5552f4a19efd3071211816de8005fd93a2c7ecbe975029aa0939",
+          "bytes": 30535,
+          "cues": 353,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_11.kk.ass",
+          "sha256": "666522ba47e74bcd56bdb15f71f7758b6c5b48c9308b5d571312591c9f0e1813",
+          "bytes": 36792,
+          "cues": 353,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "boogiepop-wa-warawanai-boogiepop-phantom-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/boogiepop-wa-warawanai-boogiepop-phantom-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_12.kk.srt",
+          "sha256": "32eb1a5b3c6c913e94cd9e8caf3321afd8b565940d73669a263cd241fb98d62c",
+          "bytes": 26765,
+          "cues": 328,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_12.kk.vtt",
+          "sha256": "97b8e87da7e057b42b3a64983071a4910f6cf9a308a5c3b1d57ba09b907b5311",
+          "bytes": 26862,
+          "cues": 328,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boogiepop-wa-warawanai-boogiepop-phantom/ep_12.kk.ass",
+          "sha256": "f6184d8e6594825a3799f8835fe28857cfc5b8a3dd920a6582d5378317620083",
+          "bytes": 32745,
+          "cues": 328,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boogiepop-wa-warawanai-boogiepop-phantom.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

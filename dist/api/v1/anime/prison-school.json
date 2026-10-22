@@ -15,28 +15,67 @@
     "Comedy",
     "Ecchi"
   ],
-  "description": "Hachimitsu Private Academy was a revered and elite all-girls' boarding school on the outskirts of Tokyo...once upon a time. But with the new school year comes a revision to school policy: Boys are to be admitted into the student body for the first time ever. But on his first day at Hachimitsu, Kiyoshi Fujino discovers that he's one of only five boys enrolled at the school. Their numbers overwhelmed by the thousand girls in the student body, is it heaven or hell that awaits these five (un)fortunates?!.<br>\n<br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20807-8nFoO0AUdGsy.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20807-IHYC4Qby3dkT.jpg",
+  "description": "Hachimitsu Private Academy was a revered and elite all-girls' boarding school on the outskirts of Tokyo...once upon a time. But with the new school year comes a revision to school policy: Boys are to be admitted into the student body for the first time ever. But on his first day at Hachimitsu, Kiyoshi Fujino discovers that he's one of only five boys enrolled at the school. Their numbers overwhelmed by the thousand girls in the student body, is it heaven or hell that awaits these five (un)fortunates?!.\n\n(Source: Anime News Network)",
+  "averageScore": 78,
+  "popularity": 59453,
+  "color": "#f59e0b",
+  "duration": 24,
+  "studio": "J.C.STAFF",
+  "catalog_id": "prison-school",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "prison-school-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/prison-school/prison-school-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/prison-school/prison-school-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/prison-school/prison-school-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/prison-school/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/prison-school/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/prison-school/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/prison-school/ep_01.kk.srt",
+          "sha256": "bf8890fe151c58e49a3ef8b5335ed54c8746b1c6372572d19a1657bfd89af966",
+          "bytes": 43148,
+          "cues": 500,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/prison-school/ep_01.kk.vtt",
+          "sha256": "60c233ad354c4e78f5e869fe2dcedb1d1c08c97f4990a27e1217dc9861675866",
+          "bytes": 43245,
+          "cues": 500,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/prison-school/ep_01.kk.ass",
+          "sha256": "b91307baa748210a1e00746065ef41181235347c9cbf4bea3ad27be7632fe89c",
+          "bytes": 51469,
+          "cues": 500,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#f59e0b",
-  "studio": "J.C.STAFF",
-  "duration": 24,
-  "averageScore": 78,
-  "popularity": 59453,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/prison-school.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

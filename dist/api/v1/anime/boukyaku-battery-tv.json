@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Boukyaku Battery (TV) - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boukyaku-battery-tv.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boukyaku-battery-tv.jpg",
+  "description": "Boukyaku Battery (TV) - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "boukyaku-battery-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,448 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_01.kk.srt",
+          "sha256": "e1de0ef7419bb8d7239a85031ed485b1a443addacb8561ca1651ef2018854589",
+          "bytes": 35370,
+          "cues": 418,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_01.kk.vtt",
+          "sha256": "86bdd0728ff4ac04f289d307953527440d1656034a993f6d11558608cc65589e",
+          "bytes": 35467,
+          "cues": 418,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_01.kk.ass",
+          "sha256": "f4e8ae2c5d60f95616199d8a10a51f15b02d8ad3640302fd5858ce1ab931568f",
+          "bytes": 42699,
+          "cues": 418,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_02.kk.srt",
+          "sha256": "3c647cb33419fdd34e6100498f3b25704a48d4daec32ba2fff56e5f062deee44",
+          "bytes": 42089,
+          "cues": 488,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_02.kk.vtt",
+          "sha256": "3629bee99250c075c2e85000a160caa0c281c4e1e4142b465ee4e89e1f06cf9c",
+          "bytes": 42186,
+          "cues": 488,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_02.kk.ass",
+          "sha256": "2e85cd4689618a29a94e8bc7d7742e336c9232eb684ad87e6926dfc3c8819b90",
+          "bytes": 50468,
+          "cues": 488,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_03.kk.srt",
+          "sha256": "fd8990cb08d755afc964c7cc39bb106228f885db9fa2cc92213c23234b37214c",
+          "bytes": 40318,
+          "cues": 449,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_03.kk.vtt",
+          "sha256": "3a0da797fce33b8c6eeed83cc92ba7c7ebad2a89c5b312290c137c31439368b1",
+          "bytes": 40415,
+          "cues": 449,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_03.kk.ass",
+          "sha256": "bdcdfe7be1f772551a2fbff9d50c4f6746833b9453b5219853beee34344e2cdb",
+          "bytes": 48112,
+          "cues": 449,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_04.kk.srt",
+          "sha256": "b78c9c5743909140d897d336aaaec4c7a87535ee1c0b7a6989181ec451d07976",
+          "bytes": 36692,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_04.kk.vtt",
+          "sha256": "9aba1f252a968e6ea7a1955d03d0f3061dc1663d4e9bf92a8681e8f9fb1262bc",
+          "bytes": 36789,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_04.kk.ass",
+          "sha256": "3da52d0a7585d1cff08c552b189e4b636ba3ba012a186998f9a6db5a4846ef36",
+          "bytes": 43976,
+          "cues": 415,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_05.kk.srt",
+          "sha256": "403c9a197a7dc8234b50975812724b9975153cf18363ca97b2c87af9db6235cc",
+          "bytes": 39896,
+          "cues": 462,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_05.kk.vtt",
+          "sha256": "7708087e9378edb34a5ddee3dd256613def2694181ef63226bfbb957475551b2",
+          "bytes": 39993,
+          "cues": 462,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_05.kk.ass",
+          "sha256": "edecac112bce2b2331023257568bdfabefaf8e18fb6cc63a61b26079f6297511",
+          "bytes": 47885,
+          "cues": 462,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_06.kk.srt",
+          "sha256": "6681a9396a64d116389e52915e9fc27778629861fd4b5c61ccc42ab0b418304a",
+          "bytes": 39847,
+          "cues": 444,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_06.kk.vtt",
+          "sha256": "500d2507c914a3a759d7cef13de1d1917c446e14e885cc4de328a146f8b761be",
+          "bytes": 39944,
+          "cues": 444,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_06.kk.ass",
+          "sha256": "3df715b5c7276cc7266ca363c2c110de1b96ab0f2d7c1b99956e24ffd251c055",
+          "bytes": 47566,
+          "cues": 444,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_07.kk.srt",
+          "sha256": "8d832ac092eb6b6cd34ac82824ff9e34c7262589dbda2a705f22e1a2156e0bfa",
+          "bytes": 38664,
+          "cues": 470,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_07.kk.vtt",
+          "sha256": "b386c684336bd7ba4f4f5652d7daa91433b8c80a8a181ee4f8144c4b7a9cd5f1",
+          "bytes": 38761,
+          "cues": 470,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_07.kk.ass",
+          "sha256": "1e8037dd0166a500f17ebe935918c70c1041d0a9e32dd615c1ae34ce6cf72a99",
+          "bytes": 46773,
+          "cues": 470,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_08.kk.srt",
+          "sha256": "36736411ce930b0691f20b069d7fe6db564222d73bdda5ffe460ed608dcab3f5",
+          "bytes": 46003,
+          "cues": 535,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_08.kk.vtt",
+          "sha256": "28db1c537317fb39f6234dcd81f938bfbb49e45756fad31af8c0145516879883",
+          "bytes": 46100,
+          "cues": 535,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_08.kk.ass",
+          "sha256": "9aca1e7dab3f20729736ce7aedb6ba54564a4b35a2acc4a748b39335eea982da",
+          "bytes": 55089,
+          "cues": 535,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_09.kk.srt",
+          "sha256": "cd14a8fce03cef7b394e5c1b84cf697c5872697d14a5b18d1b98baf9185f0a36",
+          "bytes": 39207,
+          "cues": 461,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_09.kk.vtt",
+          "sha256": "dda8f177ef51f7827b2a78581145a6c1547461fd3dc10e945f9768e5a8adf460",
+          "bytes": 39304,
+          "cues": 461,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_09.kk.ass",
+          "sha256": "20086cf5987ebd409379a1606c17f4d7c3a194e74cd4abfca198b81d52723c3c",
+          "bytes": 47181,
+          "cues": 461,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_10.kk.srt",
+          "sha256": "09f784248081ab822fcd8660c2a751775e0f4ff83c59b13789c83f9352d281dc",
+          "bytes": 37988,
+          "cues": 456,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_10.kk.vtt",
+          "sha256": "4fea0e27573a73159dc4a3b41a66c4e1ff9fd258d2881e938bfeabd571c49396",
+          "bytes": 38085,
+          "cues": 456,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_10.kk.ass",
+          "sha256": "468f68e54099d759b8299d8c0483f95dbccfb56e313d4f3a402f2bfc9a839465",
+          "bytes": 45887,
+          "cues": 456,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_11.kk.srt",
+          "sha256": "d66d9997f6b8e5d7e40ab7363e33e434fb10b1b2cd03a811b26a8dc98ac1ddbd",
+          "bytes": 36810,
+          "cues": 428,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_11.kk.vtt",
+          "sha256": "45cbf5161ba57a7824b0507e1935f9422b560730707f83e244cf2bc36d58abaf",
+          "bytes": 36907,
+          "cues": 428,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_11.kk.ass",
+          "sha256": "ab1b807b63f3f9b8f29fb47ca5d47500b7f2f72c12a19f28ccf413758e882f2e",
+          "bytes": 44289,
+          "cues": 428,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "boukyaku-battery-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boukyaku-battery-tv/boukyaku-battery-tv-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boukyaku-battery-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_12.kk.srt",
+          "sha256": "0589d740d3ba07eaa5add519b9a32fbdac122aa5b403d73c3e944d05cf354aa5",
+          "bytes": 37574,
+          "cues": 448,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/boukyaku-battery-tv/ep_12.kk.vtt",
+          "sha256": "56ebffe57b5ac8a2815112f85bb84ebaeb901f4847053d9433413f9daa875146",
+          "bytes": 37671,
+          "cues": 448,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/boukyaku-battery-tv/ep_12.kk.ass",
+          "sha256": "8622c682924c4dd5f8fc6eec56d35440fc42300b81a104a53b811c3276fc1e8d",
+          "bytes": 45353,
+          "cues": 448,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 37,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boukyaku-battery-tv.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

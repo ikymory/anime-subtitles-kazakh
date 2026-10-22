@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "ARIA The NATURAL - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aria-the-natural.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aria-the-natural.jpg",
+  "description": "ARIA The NATURAL - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "aria-the-natural",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     2,
     3,
@@ -42,196 +48,698 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 19,
+  "available_episodes_count": 19,
   "subtitles": [
     {
       "episode": 2,
       "language": "kk",
-      "filename": "aria-the-natural-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_02.kk.srt",
+          "sha256": "1a1c3829a5a83cba92d7cfb34346f85e4f905bc22a0b05ff7e1dab72c29897fe",
+          "bytes": 30569,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_02.kk.vtt",
+          "sha256": "4de1cfba726bbd139cbffd2836defe1d8175ccbe0cdbe1538c3d1c82221909a0",
+          "bytes": 30666,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_02.kk.ass",
+          "sha256": "3643c826adb7c54fac1c541d44038a9456e14e8f4684b95ba08ae1050f8ce6a0",
+          "bytes": 36847,
+          "cues": 360,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "aria-the-natural-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_03.kk.srt",
+          "sha256": "357fe550da97369827a4baf4b27ce5c6afc9e86a0265086469be84ec087b3a6e",
+          "bytes": 32240,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_03.kk.vtt",
+          "sha256": "ebe4f65cd2ca613f2d06faa4d14137f5e79d5df61196f2c9029d3f1017853b84",
+          "bytes": 32337,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_03.kk.ass",
+          "sha256": "c9129067974ca62071840470ac80c25620e8b6939696c4d90de66be461ba8bcd",
+          "bytes": 38518,
+          "cues": 360,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "aria-the-natural-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_04.kk.srt",
+          "sha256": "ea7941ee13c9d03c8280ea279cef37b7bd80f8b99b1984e654de048f27a22a2e",
+          "bytes": 28351,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_04.kk.vtt",
+          "sha256": "fb91b2cf1e41448ef479071080d29672bf086c94a0892527f5759563b46d2390",
+          "bytes": 28448,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_04.kk.ass",
+          "sha256": "62655ba8dd0fbfe973dfca5f0caa74b6239b9677e4123ec3898b5d4ea6d08398",
+          "bytes": 34599,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "aria-the-natural-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_06.kk.srt",
+          "sha256": "9ba5b29a4c2f47852430f36f82148b029388d02641dfdfc63d847e9db27079bf",
+          "bytes": 23254,
+          "cues": 306,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_06.kk.vtt",
+          "sha256": "6732fe940357f3c9373c887f3b82adda9b8eaad1b8cadeda09dbc019d395441e",
+          "bytes": 23351,
+          "cues": 306,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_06.kk.ass",
+          "sha256": "d27714144fc7e50ba67f5196b6ff5af68d732342f28c3544384851e0b8108e12",
+          "bytes": 28722,
+          "cues": 306,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "aria-the-natural-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_07.kk.srt",
+          "sha256": "01efdc15145b6a48cd4a82b98a4276f8b2367e8d58bf519b13ea2a2a703d32f4",
+          "bytes": 25568,
+          "cues": 317,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_07.kk.vtt",
+          "sha256": "517ad0f952d18b6fad25b6e53345240e3674c74cc10b8f6f4f09f898dbd3b819",
+          "bytes": 25665,
+          "cues": 317,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_07.kk.ass",
+          "sha256": "f917ad0ecefddc2de0f467b270081884523c6018a9ab41215c077c969459cc81",
+          "bytes": 31201,
+          "cues": 317,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "aria-the-natural-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_09.kk.srt",
+          "sha256": "de89559e6d0e1ffa294bf0d114a1ae8d32f2bb8b64a749c635d1b7b4bde4ddf6",
+          "bytes": 28781,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_09.kk.vtt",
+          "sha256": "62b793fdaa145995114deead4fb6e927f2027fcbb2498f596e5215b80a8b843d",
+          "bytes": 28878,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_09.kk.ass",
+          "sha256": "8a52ce4e5c6b7d78775996b14ea373c63d8b62a887fdbe558079f52f3a0d7003",
+          "bytes": 34984,
+          "cues": 355,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "aria-the-natural-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_12.kk.srt",
+          "sha256": "934ee6db8b199012a09b0646da9b41d0c257a9c2db8abfda4ad474ee5872a53e",
+          "bytes": 23558,
+          "cues": 304,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_12.kk.vtt",
+          "sha256": "d02ffafbe4528420d6ca4cad12a058a5e246ae3fc4eaec3d91d10c1bc0e2ca48",
+          "bytes": 23655,
+          "cues": 304,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_12.kk.ass",
+          "sha256": "8c31243a48df833e4f5a39c834ce3f7b28a9c95742c1dad4a7d95bb9a4d84986",
+          "bytes": 28996,
+          "cues": 304,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "aria-the-natural-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_15.kk.srt",
+          "sha256": "e52f92203ae12e5a867d8c4df273670ab90386fb9636165536d3010ac0c503b5",
+          "bytes": 27061,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_15.kk.vtt",
+          "sha256": "e625926bb473cd67f48ac438b3f1fb72f01cd46957b67dbb84c5ca38ff8b9b5f",
+          "bytes": 27158,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_15.kk.ass",
+          "sha256": "5e5e2f2ebabc3cb5738e15a1269fbf18463ac0d743d993e6ae9fbdcf3edf74c5",
+          "bytes": 32844,
+          "cues": 327,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "aria-the-natural-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_16.kk.srt",
+          "sha256": "f870bb0df448642c947d80266c63b14cee1ea387ca46994fe80b504814b4bf72",
+          "bytes": 21963,
+          "cues": 271,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_16.kk.vtt",
+          "sha256": "635a2f5e76d62b7d9f09d9f4076c4395f7df544b8169da75a153e9807d16e562",
+          "bytes": 22060,
+          "cues": 271,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_16.kk.ass",
+          "sha256": "77f1fa8f106410898c77fba591c7b2cfcecac1fccbee082a314b20b31ed0eecc",
+          "bytes": 26906,
+          "cues": 271,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "aria-the-natural-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_17.kk.srt",
+          "sha256": "5e9c8466d7bf2278cbee8899f65fe2d14ab663fbf8e32d2c215168f7befc654f",
+          "bytes": 21810,
+          "cues": 285,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_17.kk.vtt",
+          "sha256": "d2354d432272a050f05a83b6bfe4899fad405d0282bfdf25c215963d229d3dc8",
+          "bytes": 21907,
+          "cues": 285,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_17.kk.ass",
+          "sha256": "8d13bbb64f8fda3e5924138038ade6b414cd599395793efe5f5bf4600e4ba8dd",
+          "bytes": 26963,
+          "cues": 285,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "aria-the-natural-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_18.kk.srt",
+          "sha256": "bed69f2c6fc56ac8d90e7dbe2f6d880af93d8b3f08a0b5e6ef7baf11069b21e5",
+          "bytes": 26172,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_18.kk.vtt",
+          "sha256": "7a5516fd69e01560f3d73f56154f2d57befa399ca02352935f4e39f0cadc5397",
+          "bytes": 26269,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_18.kk.ass",
+          "sha256": "eed246a9aee1a8ab882b2d1d2f2e57e6b13c027a6a96ee2095435da2a9a67968",
+          "bytes": 31880,
+          "cues": 322,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "aria-the-natural-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_19.kk.srt",
+          "sha256": "08caaec1cb4b503b5299ac83cc933745f5499cfab471844f6dd759888c268d5d",
+          "bytes": 27449,
+          "cues": 318,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_19.kk.vtt",
+          "sha256": "f1ab5097d9b44fba40a00dfe201bcaf859295d158203c4db12be12765787b93e",
+          "bytes": 27546,
+          "cues": 318,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_19.kk.ass",
+          "sha256": "e6c53fc555baf09337f41af353f2559532419e5fbaa082ad9f42831b1d79f7f7",
+          "bytes": 33097,
+          "cues": 318,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "aria-the-natural-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_20.kk.srt",
+          "sha256": "301f56f72c2cc293e010e333b775e224c0261bb0d1f4de7ff39f898571c91293",
+          "bytes": 21237,
+          "cues": 244,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_20.kk.vtt",
+          "sha256": "db9b5ac7ea19b020394e372eca5b82a38b7529812bdda38243d22bcf35f1db75",
+          "bytes": 21334,
+          "cues": 244,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_20.kk.ass",
+          "sha256": "175232020361ad8db8485bf89628cac59cc1b9929edf649f6e30c39994c026a1",
+          "bytes": 25775,
+          "cues": 244,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "aria-the-natural-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_21.kk.srt",
+          "sha256": "8d75b982f0284f8a9099dd394655399006efeac933a73944fab7acbd7606fa48",
+          "bytes": 20598,
+          "cues": 259,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_21.kk.vtt",
+          "sha256": "73dccae2261732b362de2383cfbfcf1e094529fd5332dfdf2a2cd1484a8286e4",
+          "bytes": 20695,
+          "cues": 259,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_21.kk.ass",
+          "sha256": "6a2182b2320f2ceb315f0aec9fce117366311029909f147d4a23deb81d729296",
+          "bytes": 25361,
+          "cues": 259,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "aria-the-natural-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_22.kk.srt",
+          "sha256": "2ff77d650db2b4467acecd54a2f7a36b31d7d916b38b4f2dadc8ccc2fcfb8a82",
+          "bytes": 27878,
+          "cues": 353,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_22.kk.vtt",
+          "sha256": "b1eb43308e9f55442f0b4347835a0ded821e4f0178fbc4bbd29186196bc82e46",
+          "bytes": 27975,
+          "cues": 353,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_22.kk.ass",
+          "sha256": "72383a4b8d631ef2726e575f7807d4f54f2954fb5a0ea0c882192efed7d26a7e",
+          "bytes": 34051,
+          "cues": 353,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "aria-the-natural-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_23.kk.srt",
+          "sha256": "db1285e00b4ae38c63ce2b38f3050053f8b77496e0007b0c1f718deed476ef63",
+          "bytes": 25123,
+          "cues": 309,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_23.kk.vtt",
+          "sha256": "65018679f9b6b7381860859b3527c1c64b9afb4e7143e5929252405ecdf6aa80",
+          "bytes": 25220,
+          "cues": 309,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_23.kk.ass",
+          "sha256": "ce12e1abeab606c558ca9ca0b671b4e5c912ca8b2d811481e76bc69dc446adb5",
+          "bytes": 30636,
+          "cues": 309,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "aria-the-natural-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_24.kk.srt",
+          "sha256": "94e29280c227dc3438960edefd3007809aee71aa021482eca1eefcccb360730e",
+          "bytes": 28291,
+          "cues": 320,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_24.kk.vtt",
+          "sha256": "63d1b53db3ae2a55b84e68410e9e64a4b141e40fafff03a96e0885a35dcde9ee",
+          "bytes": 28388,
+          "cues": 320,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_24.kk.ass",
+          "sha256": "e870937253c97e931a7e381d3749b4a2e3d3db9bba53e2f3a5406ffef5781d5a",
+          "bytes": 33969,
+          "cues": 320,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "aria-the-natural-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_25.kk.srt",
+          "sha256": "1aa8e0cfba2308f3cb7dc6a07b07b4c25fd5aa6a9b2f1ceedc2ac2ce72effba6",
+          "bytes": 27960,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_25.kk.vtt",
+          "sha256": "b7be61ef8e93380ca9436f58f5d7219255a1fa7990d55170bb685ed90baf7402",
+          "bytes": 28057,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_25.kk.ass",
+          "sha256": "b06c5e827bcd625c7951f8334c512ac321f1d069af3d727dc31b5a8f045b37d1",
+          "bytes": 33668,
+          "cues": 322,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "aria-the-natural-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aria-the-natural/aria-the-natural-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-natural/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aria-the-natural/ep_26.kk.srt",
+          "sha256": "9ad4cbdc205fdf0eafdaa051de43992d534648b707bbaf619f424e2f6dee15a6",
+          "bytes": 22826,
+          "cues": 294,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-natural/ep_26.kk.vtt",
+          "sha256": "047f6c1871562d3f088954ed25266267c7aef82db0bc9c6297a30b529f73e4b2",
+          "bytes": 22923,
+          "cues": 294,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aria-the-natural/ep_26.kk.ass",
+          "sha256": "52886028de7609548a0dd438140334ce76589171930080ceae7976835e8a8d33",
+          "bytes": 28114,
+          "cues": 294,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 57,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aria-the-natural.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

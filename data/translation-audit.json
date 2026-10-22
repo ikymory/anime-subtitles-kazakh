@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-22",
+  "scope": "Read-only audit of tracked release content, original local authoring pipeline and two read-only legacy translation caches.",
+  "translation_accuracy": "not_human_verified",
+  "verified_original_provider": {
+    "misleading_class_name": "DeepLTranslator",
+    "actual_endpoint": "https://translate.google.com/translate_a/single",
+    "official_deepl_api": false,
+    "failure_modes": [
+      "Failed or missing translations can strip Japanese/Chinese characters or return literal ellipsis.",
+      "Browser fallback can return untranslated source text on failure.",
+      "One original cache keys only source text; other caches record languages but neither records provider, model, work/episode identity or source hash.",
+      "CJK text was classified as Japanese regardless of country or actual source language."
+    ],
+    "evidence": [
+      {
+        "original_local_source_path": "scratch/engine/core/deepl_translator.py",
+        "source_file_sha256": "8da3c965e0f54e29519c1d673818cebb6b00a9752541b95e184d7355cc794f21",
+        "lines": [
+          108,
+          139
+        ],
+        "finding": "Misnamed Google mobile endpoint; request/parser failures strip CJK or substitute literal ellipsis.",
+        "availability": "Inspected in original local authoring workspace; not tracked in this public repository."
+      },
+      {
+        "original_local_source_path": "scratch/engine/core/deepl_translator.py",
+        "source_file_sha256": "8da3c965e0f54e29519c1d673818cebb6b00a9752541b95e184d7355cc794f21",
+        "lines": [
+          58,
+          64
+        ],
+        "finding": "Cache primary key is source_text only, without language pair/provider/revision identity.",
+        "availability": "Inspected in original local authoring workspace; not tracked in this public repository."
+      },
+      {
+        "original_local_source_path": "scratch/engine/core/translator.py",
+        "source_file_sha256": "923088b731b4bed893fb3ea16479b1bd840dcc78380c0939ce9aaa631bc9e904",
+        "lines": [
+          7,
+          19
+        ],
+        "finding": "engine=deepl selects Google-backed class.",
+        "availability": "Inspected in original local authoring workspace; not tracked in this public repository."
+      },
+      {
+        "original_local_source_path": "scratch/engine/core/browser_translator.py",
+        "source_file_sha256": "be0f099abe9bf740a972d784ed1b37e3994e1b0337806228a44a6265c036f8fc",
+        "lines": [
+          127,
+          176
+        ],
+        "finding": "Google browser fallback returns untranslated original on failure.",
+        "availability": "Inspected in original local authoring workspace; not tracked in this public repository."
+      },
+      {
+        "original_local_source_path": "scratch/batch_translate_batch13.py",
+        "source_file_sha256": "f33fa8b167f084fc74cf2276c8c3bd9e6a3e2b0f9e2c2a0bb50ba7f507198c30",
+        "lines": [
+          196,
+          231
+        ],
+        "finding": "CJK assigned to Japanese regardless of country/language; empty cleanup becomes ellipsis.",
+        "availability": "Inspected in original local authoring workspace; not tracked in this public repository."
+      }
+    ]
+  },
+  "baseline_content_measurements": {
+    "catalog_release_entries": 1400,
+    "canonical_tracks_scanned": 9788,
+    "canonical_parse_failures": [],
+    "tracked_raw_subtitle_files": 88375,
+    "human_verified_translations_claimed_by_existing_stats": 0,
+    "complete_series_verified_claimed_by_existing_stats": 0,
+    "exact_normalized_dialogue_duplicate_groups": 113,
+    "exact_normalized_timed_duplicate_groups": 75,
+    "tracks_in_exact_dialogue_duplicate_groups": 269,
+    "distinct_slugs_in_exact_dialogue_duplicate_groups": 46,
+    "extreme_repeat_tracks_over_50_percent_long_single_line": 0,
+    "repeated_long_line_tracks_over_10_percent": 39,
+    "low_variation_tracks_under_30_percent_unique": 581,
+    "reused_12cue_block_groups_across_at_least_3_slugs": 2042,
+    "kazakh_specific_letter_absent_tracks": 0,
+    "zero_cyrillic_tracks": 0,
+    "tracks_with_at_least_20_cjk_characters": 182,
+    "tracks_with_ass_drawing_text": 47,
+    "numerically_complete_against_unverified_legacy_metadata": 1154,
+    "metadata_title_duplicate_group_counts": {
+      "english": 126,
+      "romaji": 114,
+      "native": 57
+    },
+    "untranslated_list_index_titles": 1000,
+    "untranslated_list_exact_existing_title_overlap": 9
+  },
+  "legacy_cache_measurements": [
+    {
+      "original_local_source_path": "data/translations_cache.sqlite",
+      "rows": 467430,
+      "language_pairs": [
+        {
+          "source_language": "ja",
+          "target_language": "kk",
+          "rows": 467430
+        }
+      ],
+      "literal_placeholder_rows": 423,
+      "placeholder_source_content_metrics": {
+        "source_has_letters_or_cjk": 423,
+        "source_has_at_least_10_letters_or_cjk": 142,
+        "source_has_at_least_20_letters_or_cjk": 21
+      },
+      "provider_or_model_provenance": false,
+      "work_episode_source_hash_provenance": false
+    },
+    {
+      "original_local_source_path": "scratch/engine/data/translations_cache.sqlite",
+      "rows": 3643666,
+      "language_pairs": [
+        {
+          "source_language": "en",
+          "target_language": "kk",
+          "rows": 19492
+        },
+        {
+          "source_language": "ja",
+          "target_language": "kk",
+          "rows": 3624174
+        }
+      ],
+      "literal_placeholder_rows": 22221,
+      "placeholder_source_content_metrics": {
+        "source_has_letters_or_cjk": 22220,
+        "source_has_at_least_10_letters_or_cjk": 10933,
+        "source_has_at_least_20_letters_or_cjk": 2014
+      },
+      "provider_or_model_provenance": false,
+      "work_episode_source_hash_provenance": false
+    }
+  ],
+  "original_source_probe": {
+    "source_files_requested": 6,
+    "http_200_files": 6,
+    "strictly_valid_originals": 5,
+    "translation_service_calls": 0,
+    "scope": "Six representative source files; entire-title completeness and all 427 source manifests remain unverified",
+    "unique_source_phrases_for_strictly_valid_originals": 3543,
+    "source_phrase_cache_hits": 3138,
+    "cache_hits_with_placeholder_outputs": 49,
+    "cached_nonplaceholder_hits": 3089
+  },
+  "confirmed_synthetic_tracks": {
+    "count": 2,
+    "policy_file": "data/quarantine.json",
+    "raw_sources_preserved": true
+  },
+  "interpretation_limits": [
+    "Duplicate dialogue is a review signal, not sufficient evidence to merge anime identities or determine which episode is correct.",
+    "Standalone ellipses can be real dialogue; arbitrary removal would corrupt subtitles. Cache failures are confirmed by meaningful source text mapping to placeholder output.",
+    "Scores, inherited IDs, release episode totals and linguistic accuracy are not independently verified by structural parsing.",
+    "The original unpublished batch is preserved and not automatically promoted to published or verified content.",
+    "A ranked candidate plan is not a translation result; 500 requested additional works remain untranslated by this update."
+  ],
+  "replacement": {
+    "entrypoint": "python -m subtitle_api.translate",
+    "provider": "official DeepL API",
+    "status": "implemented_offline_tests_only",
+    "credential_variable": "DEEPL_AUTH_KEY",
+    "requires": [
+      "valid provider account supporting KK",
+      "verified original subtitle tracks and work identities",
+      "explicit character budget",
+      "episode completeness and linguistic review before complete-anime claims"
+    ],
+    "legacy_cache_imported": false
+  }
+}

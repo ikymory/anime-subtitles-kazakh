@@ -3,41 +3,115 @@
   "slug": "only-yesterday",
   "title": {
     "romaji": "Only Yesterday",
-    "english": "Only Yesterday"
+    "english": "Only Yesterday",
+    "kazakh": "Тек кеше ғана",
+    "kk": "Тек кеше ғана"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 2,
+  "seasonYear": 1991,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx1029-Ch9LIVLFnssA.jpg",
+  "averageScore": 83,
+  "popularity": 61180,
+  "color": "hsl(91, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1029-rl9EFlXhQ3YH.jpg",
+  "catalog_id": "only-yesterday",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     264
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "only-yesterday-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/only-yesterday/only-yesterday-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/only-yesterday/only-yesterday-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/only-yesterday/only-yesterday-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/only-yesterday/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/only-yesterday/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/only-yesterday/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/only-yesterday/ep_01.kk.srt",
+          "sha256": "f5d321cf89a955136988e42e1146af18ac4943f14e48bac5ac4639fa1f2dbaea",
+          "bytes": 148037,
+          "cues": 1570,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/only-yesterday/ep_01.kk.vtt",
+          "sha256": "ed9dd22aa5aab8584dd1fe7aacba623f9bcf2dd322475a68799dfa71d7558ceb",
+          "bytes": 148134,
+          "cues": 1570,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/only-yesterday/ep_01.kk.ass",
+          "sha256": "6a06e0fb09980cbde8fb56e625a74d7f1a8447447b92517fa0fd95fbeaac72f7",
+          "bytes": 171838,
+          "cues": 1570,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 264,
       "language": "kk",
-      "filename": "only-yesterday-264ep.srt",
+      "filename": "ep_264.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/only-yesterday/only-yesterday-264ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/only-yesterday/only-yesterday-264ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/only-yesterday/only-yesterday-264ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/only-yesterday/ep_264.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/only-yesterday/ep_264.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/only-yesterday/ep_264.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/only-yesterday/ep_264.kk.srt",
+          "sha256": "f19c12698cf7a1ed56bec6a259b9d50fd203de52f641301642986a86180e41cb",
+          "bytes": 239495,
+          "cues": 2136,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/only-yesterday/ep_264.kk.vtt",
+          "sha256": "542bce563cd09bdaec2cc98c40a1e5d4de13324987cfbb5eeee662ae3bc46226",
+          "bytes": 239592,
+          "cues": 2136,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/only-yesterday/ep_264.kk.ass",
+          "sha256": "0a6e52010d86bb376c58cbe23d8ba2a0d7d1bb83efc70e59089993544eb225e8",
+          "bytes": 271220,
+          "cues": 2136,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/only-yesterday.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

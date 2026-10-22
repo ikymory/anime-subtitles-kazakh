@@ -16,24 +16,65 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Faced with the destruction of their habitat due to the growth of Tokyo, a group of tanuki try to defend their homes. They decide to use their transforming talents to try to hold back the new development. Two of them, especially skilled at transforming, are sent to Shikoku to enlist the help of three sages. Meanwhile, the rest of them do their best to disrupt the construction site, at first causing accidents, and then actually haunting the site. However, the humans are very persistent, and soon the tanuki are forced to use more and more extreme measures to save their home.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1030-epXaUwnycmQE.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1030-wnxJEkttJqgs.jpg",
+  "description": "Faced with the destruction of their habitat due to the growth of Tokyo, a group of tanuki try to defend their homes. They decide to use their transforming talents to try to hold back the new development. Two of them, especially skilled at transforming, are sent to Shikoku to enlist the help of three sages. Meanwhile, the rest of them do their best to disrupt the construction site, at first causing accidents, and then actually haunting the site. However, the humans are very persistent, and soon the tanuki are forced to use more and more extreme measures to save their home.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 71,
   "popularity": 32774,
+  "catalog_id": "heisei-tanuki-gassen-ponpoko",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "heisei-tanuki-gassen-ponpoko-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/heisei-tanuki-gassen-ponpoko/heisei-tanuki-gassen-ponpoko-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/heisei-tanuki-gassen-ponpoko/heisei-tanuki-gassen-ponpoko-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/heisei-tanuki-gassen-ponpoko/heisei-tanuki-gassen-ponpoko-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/heisei-tanuki-gassen-ponpoko/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/heisei-tanuki-gassen-ponpoko/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/heisei-tanuki-gassen-ponpoko/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/heisei-tanuki-gassen-ponpoko/ep_01.kk.srt",
+          "sha256": "53c7eebe4365be417491ce6b765fc65772c045109ece03a20e9276975de27fd5",
+          "bytes": 182349,
+          "cues": 1973,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/heisei-tanuki-gassen-ponpoko/ep_01.kk.vtt",
+          "sha256": "d05919c459ab376c47d89ae3fac25bb6a43cbdf770d038fce749de5b27ff1aac",
+          "bytes": 182446,
+          "cues": 1973,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/heisei-tanuki-gassen-ponpoko/ep_01.kk.ass",
+          "sha256": "18e27f667f1911e09b635230a78b95c18b8814c785f6d571c546db78eb41dc91",
+          "bytes": 212031,
+          "cues": 1973,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/heisei-tanuki-gassen-ponpoko.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

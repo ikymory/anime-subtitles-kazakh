@@ -15,28 +15,69 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Stand by Me Doraemon 2.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122575-ONoFsuxiBlcI.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122575-ONoFsuxiBlcI.jpg",
+  "description": "Kazakh subtitles for Stand by Me Doraemon 2.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "stand-by-me-doraemon-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "stand-by-me-doraemon-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/stand-by-me-doraemon-2/stand-by-me-doraemon-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/stand-by-me-doraemon-2/stand-by-me-doraemon-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/stand-by-me-doraemon-2/stand-by-me-doraemon-2-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/stand-by-me-doraemon-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/stand-by-me-doraemon-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/stand-by-me-doraemon-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/stand-by-me-doraemon-2/ep_01.kk.srt",
+          "sha256": "d6c9dc9557bcadc836ec5158f578c50b45bf545aec98c251b29a650a6d3bb685",
+          "bytes": 138725,
+          "cues": 1807,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/stand-by-me-doraemon-2/ep_01.kk.vtt",
+          "sha256": "06b93034febffd3e83034f04ee6e94ad80525d3909239f4fed7c1eb191a3fbe6",
+          "bytes": 138822,
+          "cues": 1807,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/stand-by-me-doraemon-2/ep_01.kk.ass",
+          "sha256": "86d2a59bfe782b384e021ea03dc58f4e16bf827f3683222b8cee1626f3b49406",
+          "bytes": 166004,
+          "cues": 1807,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/stand-by-me-doraemon-2.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
 }

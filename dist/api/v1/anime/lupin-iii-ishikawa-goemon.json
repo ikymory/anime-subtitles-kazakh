@@ -15,24 +15,68 @@
     "Action",
     "Adventure"
   ],
-  "description": "Lupin the IIIrd: Goemon Ishikawa's Spray of Blood - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/lupin-iii-ishikawa-goemon.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/lupin-iii-ishikawa-goemon.jpg",
+  "description": "Lupin the IIIrd: Goemon Ishikawa's Spray of Blood - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "lupin-iii-ishikawa-goemon",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "lupin-iii-ishikawa-goemon-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-iii-ishikawa-goemon/lupin-iii-ishikawa-goemon-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-iii-ishikawa-goemon/lupin-iii-ishikawa-goemon-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/lupin-iii-ishikawa-goemon/lupin-iii-ishikawa-goemon-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-iii-ishikawa-goemon/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-iii-ishikawa-goemon/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/lupin-iii-ishikawa-goemon/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/lupin-iii-ishikawa-goemon/ep_01.kk.ass",
+          "sha256": "677670547309022f0e6c815053d7d3e5a2af42cadafe4f2f72c5401ae8a5ac67",
+          "bytes": 41971,
+          "cues": 425,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/lupin-iii-ishikawa-goemon/ep_01.kk.srt",
+          "sha256": "90a296e6e0d7c3fd688ca035144132ac11cea9ab459d5f02b77fcdf70d37e75b",
+          "bytes": 34501,
+          "cues": 424,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/lupin-iii-ishikawa-goemon/ep_01.kk.vtt",
+          "sha256": "82bbd9e8747d690e42a60941de383e5772f9ba8e2b341942fb6cbf63f47b5809",
+          "bytes": 34509,
+          "cues": 424,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/lupin-iii-ishikawa-goemon.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

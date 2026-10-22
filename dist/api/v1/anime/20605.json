@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Tokyo Ghoul",
     "english": "Tokyo Ghoul",
-    "native": "東京喰種 トーキョーグール"
+    "native": "東京喰種 トーキョーグール",
+    "kazakh": "Токио гулі",
+    "kk": "Токио гулі"
   },
   "format": "TV",
   "episodes": 12,
@@ -17,9 +19,20 @@
     "Psychological",
     "Supernatural"
   ],
-  "description": "The suspense horror/dark fantasy story is set in Tokyo, which is haunted by mysterious \"ghouls\" who are devouring humans. People are gripped by the fear of these ghouls whose identities are masked in mystery. An ordinary college student named Kaneki encounters Rize, a girl who is an avid reader like him, at the café he frequents. Little does he realize that his fate will change overnight.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b20605-k665mVkSug8D.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20605-RCJ7M71zLmrh.jpg",
+  "description": "The suspense horror/dark fantasy story is set in Tokyo, which is haunted by mysterious \"ghouls\" who are devouring humans. People are gripped by the fear of these ghouls whose identities are masked in mystery. An ordinary college student named Kaneki encounters Rize, a girl who is an avid reader like him, at the café he frequents. Little does he realize that his fate will change overnight.\n\n(Source: Anime News Network)",
+  "averageScore": 79,
+  "popularity": 56878,
+  "color": "#ff6b35",
+  "duration": 24,
+  "studio": "Studio Pierrot",
+  "catalog_id": "tokyo-ghoul",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,126 +47,461 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tokyo-ghoul-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_01.kk.srt",
+          "sha256": "fe41feb0852ea66276c7fd4a139a9425f2ee7a15628186ba4dd7cf8b863cd507",
+          "bytes": 28164,
+          "cues": 303,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_01.kk.vtt",
+          "sha256": "a22ab6406dc96d6aeb9a992bee068aa2277f63d801d71efbf094fa3960c0bd74",
+          "bytes": 28261,
+          "cues": 303,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_01.kk.ass",
+          "sha256": "0849d51caece1f90836c33edb1d1d6d769d493af7e9982eccfb8ee4f116f9461",
+          "bytes": 33528,
+          "cues": 303,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "tokyo-ghoul-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_02.kk.srt",
+          "sha256": "38a5b950d9538ea7dba620018e5f941da55f62b3b7681e02e47900590175e3ab",
+          "bytes": 29209,
+          "cues": 315,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_02.kk.vtt",
+          "sha256": "e64c339d3927b6257649ef4279811011fe57139e1bc823bb64d2173d2c08560a",
+          "bytes": 29306,
+          "cues": 315,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_02.kk.ass",
+          "sha256": "23df27b4cb2b35469b4992ca83eace0e6170fdd843e69501e34156875a05d322",
+          "bytes": 34753,
+          "cues": 315,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "tokyo-ghoul-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_03.kk.srt",
+          "sha256": "921d18024335ed9d9897a49231ff5894af187b01d5c25920c4621c2edc5d4679",
+          "bytes": 34305,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_03.kk.vtt",
+          "sha256": "4f7a2218f626f16f403739e4ce9c80dfe3d26d53612ee1210c9f04e35ede0ad3",
+          "bytes": 34402,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_03.kk.ass",
+          "sha256": "bf8a92a54109ec6278706a423795dead84e3606cc3c8fe688aa0dcc5645dc61c",
+          "bytes": 40614,
+          "cues": 366,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "tokyo-ghoul-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_04.kk.srt",
+          "sha256": "f90092e1c387fa0b08d9c0e36c88bd8793e20ebd02bbbed927cbf597423d881c",
+          "bytes": 29163,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_04.kk.vtt",
+          "sha256": "8a44b4c410ebd0fedf2702779aeda13f351d57b7db72df14a4a3c0856862e1c9",
+          "bytes": 29260,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_04.kk.ass",
+          "sha256": "f6592a54794eb23076a098d6cc5a5a948ff619d6a9a7a42af6df6e5eb176a17e",
+          "bytes": 34842,
+          "cues": 324,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "tokyo-ghoul-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_05.kk.srt",
+          "sha256": "28b8adfcf89840daa2dd8ca38d9320901a531d3725b2241e6f52f61bade83438",
+          "bytes": 26590,
+          "cues": 293,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_05.kk.vtt",
+          "sha256": "9114e9f2085e5548cb024a1f0bbdd121ac1d710b8210e434562bffdf0ace4b38",
+          "bytes": 26687,
+          "cues": 293,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_05.kk.ass",
+          "sha256": "165250808b27808c89c7f3c8ae7d24c43ea96bb849783e4939dac36c11db9f8b",
+          "bytes": 31804,
+          "cues": 293,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "tokyo-ghoul-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_06.kk.srt",
+          "sha256": "42f9e162b43ab588b170572457805e75e12b5ce25bd3e6015955c829f6354fc5",
+          "bytes": 24670,
+          "cues": 277,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_06.kk.vtt",
+          "sha256": "380666858224f2662e821a3062d3d626a12150dedde8251b8bfe7931c4d411f0",
+          "bytes": 24767,
+          "cues": 277,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_06.kk.ass",
+          "sha256": "9ea4780930a53d3ba62ae194646bef577a1279b616ea8516f9c87f0b959c3810",
+          "bytes": 29644,
+          "cues": 277,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "tokyo-ghoul-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_07.kk.srt",
+          "sha256": "c0b106ea0f5d6769edde17f5d2fc7651a735f6f06a6166f0e884e05d988a3c32",
+          "bytes": 27944,
+          "cues": 302,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_07.kk.vtt",
+          "sha256": "b651acebf3ecc28f4a2880ee1ffd07c6541c940c558d85c372adbc520aa65419",
+          "bytes": 28041,
+          "cues": 302,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_07.kk.ass",
+          "sha256": "de159be097637e08be45d07d2a5924d26bd2c758a77794fa62e9d474d9f0ef5b",
+          "bytes": 33293,
+          "cues": 302,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "tokyo-ghoul-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_08.kk.srt",
+          "sha256": "1a83cc979122e1633be4dfc9ac90f4b356da6b60fdd682b9111ba0b0fae6b0a4",
+          "bytes": 19241,
+          "cues": 243,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_08.kk.vtt",
+          "sha256": "fc1a74c7235dda306696a5b6a483431b6017969ec5c05b8e8b1099e34fbdcc1c",
+          "bytes": 19338,
+          "cues": 243,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_08.kk.ass",
+          "sha256": "afe07dbd8dead73535e344535c3ab48282b5c060906562b0a7d70123e74ead1f",
+          "bytes": 23705,
+          "cues": 243,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "tokyo-ghoul-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_09.kk.srt",
+          "sha256": "8a1f57f40505400ee13828a4d4277df56a10575d80c97f35199e29e311e214fc",
+          "bytes": 32201,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_09.kk.vtt",
+          "sha256": "f9139304b20e6e96d72e50b0b7a89a237d4b2969365e6f1721e6901b9c49f6b3",
+          "bytes": 32298,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_09.kk.ass",
+          "sha256": "0e8a9fdc989be0ed9e7321a4891526dd8c090c0bb12de260a209fd6db96aad0b",
+          "bytes": 38015,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "tokyo-ghoul-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_10.kk.srt",
+          "sha256": "5f446cb76591b781bd19d6894fecc851de3c5892096f673177d9d4e4464357b7",
+          "bytes": 29114,
+          "cues": 306,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_10.kk.vtt",
+          "sha256": "c4ffc788aa6991edb253710f9e360443be96bcf3b1b445d6a56d8b545cfceb44",
+          "bytes": 29211,
+          "cues": 306,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_10.kk.ass",
+          "sha256": "dbdccb691b9d1196594f3ae00a8b147eb52f0a06db61ddc69abfa2a434ff5f36",
+          "bytes": 34523,
+          "cues": 306,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "tokyo-ghoul-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_11.kk.srt",
+          "sha256": "034c96863eb2a3848ecfe8b6eb8cd2c33e8f84902689393c8d495a09d745325e",
+          "bytes": 23308,
+          "cues": 258,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_11.kk.vtt",
+          "sha256": "7f6f170f0ccc15fcc420c6914cd1afdd20274ee4bda77f38c156697c44fe21ab",
+          "bytes": 23405,
+          "cues": 258,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_11.kk.ass",
+          "sha256": "29bcacae84324665a73d204fccfce4beaeabfca26d506b8fc08b71f9cd009424",
+          "bytes": 27997,
+          "cues": 258,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "tokyo-ghoul-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-ghoul/tokyo-ghoul-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-ghoul/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-ghoul/ep_12.kk.srt",
+          "sha256": "d3bcfc7b928a9fd904e2a168cf3f29955e296662fc6ced7ee2b5f3bc28e29289",
+          "bytes": 25953,
+          "cues": 291,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-ghoul/ep_12.kk.vtt",
+          "sha256": "ea619815e9e92ca82fbac1a244a36a6a8b257b2a61d199fc7e0a171c588cc703",
+          "bytes": 26050,
+          "cues": 291,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-ghoul/ep_12.kk.ass",
+          "sha256": "5e8af258af920b36f381f8862cd38b11f4337e396bff15d58b38dedd6d81767d",
+          "bytes": 31137,
+          "cues": 291,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 61,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tokyo-ghoul.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

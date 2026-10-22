@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Mononoke-hime",
     "english": "Princess Mononoke",
-    "native": "もののけ姫"
+    "native": "もののけ姫",
+    "kazakh": "Мононоке ханшайымы",
+    "kk": "Мононоке ханшайымы"
   },
   "format": "MOVIE",
   "episodes": 1,
@@ -15,22 +17,69 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "A calm village residing in the mountains comes under attack from a demon-possessed boar one day.<br><br>\nAshitaka, a young man and prince of the tribe, engages the creature in an attempt to save his village. During the battle, the boar bites him on the arm, leaving it blackened and cursed. Following his village's traditions, Ashitaka is exiled and becomes a wanderer, looking for a solution to the curse before it engulfs him.<br><br>\nIron Town is a fortress under the leadership of Lady Eboshi. Through the clearing of the surrounding forests, Iron Town produces large amounts of Ironsand, used for gunpowder and other machinery. However, because of the forests destruction, nearby animal clans seek revenge led by a human girl of the Wolf clan called San.<br><br>\nWhen Ashitaka comes to Iron Town, he discovers the area consumed in battle. Horrified, he attempts to create peace and befriend the Wolf Clan. However, after the forest's eradication and the ongoing war between Human and Beast, will the Spirit of the Forest be forgiving and accept Ashitaka's request to expel his curse?<br><br>\n[Written by MAL Rewrite]",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx164-ySuGzCWVw2cL.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx164-ySuGzCWVw2cL.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/164-Aj6MINy7VTfs.jpg",
+  "description": "A calm village residing in the mountains comes under attack from a demon-possessed boar one day.\nAshitaka, a young man and prince of the tribe, engages the creature in an attempt to save his village. During the battle, the boar bites him on the arm, leaving it blackened and cursed. Following his village's traditions, Ashitaka is exiled and becomes a wanderer, looking for a solution to the curse before it engulfs him.\nIron Town is a fortress under the leadership of Lady Eboshi. Through the clearing of the surrounding forests, Iron Town produces large amounts of Ironsand, used for gunpowder and other machinery. However, because of the forests destruction, nearby animal clans seek revenge led by a human girl of the Wolf clan called San.\nWhen Ashitaka comes to Iron Town, he discovers the area consumed in battle. Horrified, he attempts to create peace and befriend the Wolf Clan. However, after the forest's eradication and the ongoing war between Human and Beast, will the Spirit of the Forest be forgiving and accept Ashitaka's request to expel his curse?\n[Written by MAL Rewrite]",
+  "averageScore": 90,
+  "popularity": 93000,
+  "color": "#ff6b6b",
+  "duration": 134,
+  "studio": "Studio Ghibli",
+  "catalog_id": "princess-mononoke",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "princess-mononoke-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/princess-mononoke/princess-mononoke-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/princess-mononoke/princess-mononoke-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/princess-mononoke/princess-mononoke-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/princess-mononoke/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/princess-mononoke/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/princess-mononoke/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/princess-mononoke/ep_01.kk.srt",
+          "sha256": "bf44daa6388b0c2300cc8cb7246243e70632ea87b8185e2f899f44d70516d050",
+          "bytes": 123028,
+          "cues": 1334,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/princess-mononoke/ep_01.kk.vtt",
+          "sha256": "084e4c96a9a184d51c0911ef05ec3dc784be8b97a17d48cd4104d35f1f6558dc",
+          "bytes": 123125,
+          "cues": 1334,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/princess-mononoke/ep_01.kk.ass",
+          "sha256": "489f021230d995a436c75737091eca56937a584f7cbc02bfe73964e5ccab320c",
+          "bytes": 143528,
+          "cues": 1334,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/princess-mononoke.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

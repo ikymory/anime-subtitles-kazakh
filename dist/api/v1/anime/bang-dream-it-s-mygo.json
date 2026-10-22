@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "BanG Dream! It’s MyGO!!!!! - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bang-dream-it-s-mygo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bang-dream-it-s-mygo.jpg",
+  "description": "BanG Dream! It’s MyGO!!!!! - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "bang-dream-it-s-mygo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +42,482 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_01.kk.srt",
+          "sha256": "b626002a40046cd52464a67c15717261c445b239c520219b194b7903cc3ce382",
+          "bytes": 33159,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_01.kk.vtt",
+          "sha256": "65851bfaf5e592a34dbdb3d9ad41b5fde3deb7e56cb753f2cbd22c0345854433",
+          "bytes": 33256,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_01.kk.ass",
+          "sha256": "faaf6bb97d077ff6b5f6838d890095d5684e569c69af3cbfb93eb541d8acddfd",
+          "bytes": 39617,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_02.kk.srt",
+          "sha256": "014a643630d829ed3a9ba74fd077e33a2b4cf3ccac42f7ba3fade8d500d297f0",
+          "bytes": 29375,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_02.kk.vtt",
+          "sha256": "c83bd2fb7b2faa04247d67271b519bdf3fdd82a0cac7d1b00c7ac124134452a0",
+          "bytes": 29472,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_02.kk.ass",
+          "sha256": "64b4840dcca7be030369251c5186742c556369691b7f94d9bd7f934eb89c8222",
+          "bytes": 35128,
+          "cues": 325,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_03.kk.srt",
+          "sha256": "77747b2c97630bb72db10b453ee2c71b05e3a92e0ff22b2c863a10ecc81f6a74",
+          "bytes": 31738,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_03.kk.vtt",
+          "sha256": "608924da535f687ccfd38a50f7b270da8796cc0f6968eab212805f9184acffa6",
+          "bytes": 31835,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_03.kk.ass",
+          "sha256": "696ccd67da18421c21bb291be518d2fea9721e5c5776a6a440ad9eb867d02a74",
+          "bytes": 38031,
+          "cues": 361,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_04.kk.srt",
+          "sha256": "5bded57ab7ffbfdc07756717735da3bbc565ceefceaba3325343c7c4d666d242",
+          "bytes": 29015,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_04.kk.vtt",
+          "sha256": "9f3f92f69fd74e32f1e4a26358a702de8d72e198073ce8354798ec1b887dc991",
+          "bytes": 29112,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_04.kk.ass",
+          "sha256": "fbcee3128a93cff6893c40f633ea31dc5840aaf8657a5fb93b90f5cca96779be",
+          "bytes": 35293,
+          "cues": 360,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_05.kk.srt",
+          "sha256": "16d3f79cf5855b598cc4b6808c64ccd9b16bd5b28cd34eac9f0b47b8ab40542b",
+          "bytes": 30115,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_05.kk.vtt",
+          "sha256": "9e3d23fbcd1d45e9150614ca0e58a06ab8a5ea8fdf39750e9546069a37cd06e7",
+          "bytes": 30212,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_05.kk.ass",
+          "sha256": "e0fab627446e0c31e56ec64797d44b12411b25964ec9469836d958f2dc320ab9",
+          "bytes": 36213,
+          "cues": 348,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_06.kk.srt",
+          "sha256": "4189a8c85308045f7685de24eebc5218a99a64f52f0232135c06f92282c077de",
+          "bytes": 26959,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_06.kk.vtt",
+          "sha256": "e0c6a75ad72375257590295b90543c313fd489618516f89178060ba7223f822a",
+          "bytes": 27056,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_06.kk.ass",
+          "sha256": "9f798a4eeed76cf97e1d2c6c4afb57c593d9b5c2c34db211f066fc7379399b92",
+          "bytes": 32652,
+          "cues": 321,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_07.kk.srt",
+          "sha256": "67f388c93048b821c7b24a27e2367b1febe40dbba8987883aac7ab02df57df71",
+          "bytes": 29555,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_07.kk.vtt",
+          "sha256": "ccaefd4e694f0ba45a8240a27d668f2743b88e2f10ee07ba5396b1088f8fe38b",
+          "bytes": 29652,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_07.kk.ass",
+          "sha256": "9fde6017f46cda10fdf1eff3d4348c6acfbbc6045a9eb16ae6fa49cd14011bc0",
+          "bytes": 35173,
+          "cues": 316,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_08.kk.srt",
+          "sha256": "5f896dab177d37c053fe6b75cc12721531d149c8b32aedd02e81efba8425123b",
+          "bytes": 27130,
+          "cues": 326,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_08.kk.vtt",
+          "sha256": "bba80f33bd4da5240dcdb5acf80e47f50c69067fef8790811ac0dd4d3f58ac7d",
+          "bytes": 27227,
+          "cues": 326,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_08.kk.ass",
+          "sha256": "7a9d497ed2f94cb1b6eed74890ab790f5542033768ed5ae522e1bb93e7f46b97",
+          "bytes": 32898,
+          "cues": 326,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_09.kk.srt",
+          "sha256": "8cee8a26bff26ea4e2e96432799134bef116c1442947a74edd6d6c58e37e6a85",
+          "bytes": 29201,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_09.kk.vtt",
+          "sha256": "6d945dfbec5b41fdcfe7585804e31e6767040b23ccc4f9ab10b02e94d16c12b8",
+          "bytes": 29298,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_09.kk.ass",
+          "sha256": "08f54739dd8f689432aa0b24801d75644874ce84bb557169b3ae28156c87a2a7",
+          "bytes": 35299,
+          "cues": 348,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_10.kk.srt",
+          "sha256": "f9a718bb46a7aba58fd92cbeda52031771010fd262eaae640225491f8d4eef9e",
+          "bytes": 27579,
+          "cues": 339,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_10.kk.vtt",
+          "sha256": "f7d6d0ba89284dc701aacdf23055017ee155e2b2f56432876587844cc811be68",
+          "bytes": 27676,
+          "cues": 339,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_10.kk.ass",
+          "sha256": "017807f1ea2cab948486b6e2784bdc06d3d353d2ca108cfc1e82aa2cdb7b880b",
+          "bytes": 33542,
+          "cues": 339,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_11.kk.srt",
+          "sha256": "13312b87c886cd12ac2dbf4b392fc38f09350c816094ac7d895632386860feca",
+          "bytes": 29313,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_11.kk.vtt",
+          "sha256": "450fa429720a5009b9f241c685e86b52ea96d45ece8f80610329688b42dd6929",
+          "bytes": 29410,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_11.kk.ass",
+          "sha256": "cf4e7c9a7ce5f1df5ad13233042afd488d8a2832734b15f24a910e42967b47f4",
+          "bytes": 35186,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_12.kk.srt",
+          "sha256": "b88d99ea9278b6e18177374dbf91cc2aeb884e1df2f657d875326d8a27feccc9",
+          "bytes": 29307,
+          "cues": 334,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_12.kk.vtt",
+          "sha256": "e30b0e4ffd5d0583c55fc4c11313eab279ca885c5be85ed1e6426be3e98cdc8f",
+          "bytes": 29404,
+          "cues": 334,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_12.kk.ass",
+          "sha256": "d452fa7e0498c930e3b9b8150a2b0488df3727fa47428109bb951aa1a76252d3",
+          "bytes": 35195,
+          "cues": 334,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "bang-dream-it-s-mygo-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bang-dream-it-s-mygo/bang-dream-it-s-mygo-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bang-dream-it-s-mygo/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_13.kk.srt",
+          "sha256": "ef5d0d3dc4d1de4d92dd518e554629fd7d9b06473e263e1de03d5ce503de2ee4",
+          "bytes": 33297,
+          "cues": 375,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_13.kk.vtt",
+          "sha256": "a4372bc27fcaa3f37f866ae533a5a1de84d0d00d6f9af18714f89f35318a74eb",
+          "bytes": 33394,
+          "cues": 375,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bang-dream-it-s-mygo/ep_13.kk.ass",
+          "sha256": "adfac1b438a55e16862907484012c10a05d1e151cafa2366d5b2cf888934149f",
+          "bytes": 39800,
+          "cues": 375,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bang-dream-it-s-mygo.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

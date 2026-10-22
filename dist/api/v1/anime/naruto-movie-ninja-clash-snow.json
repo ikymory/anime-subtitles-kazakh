@@ -18,28 +18,71 @@
     "Drama",
     "Supernatural"
   ],
-  "description": "Kakashi orders Naruto, Sasuke, and Sakura to watch a movie before their next mission. Naruto is a big fan of the lead actress. After the movie, they see the heroine in person and being chased. They help her and Naruto asks for an autograph but she wouldn't give him one. When the three returns, Kakashi tells them about their mission: to escort the actress to the Snow Country to film a new movie.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx442-VJbmIVTgmne3.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/442-Mi9O1QwTaXqQ.jpg",
+  "description": "Kakashi orders Naruto, Sasuke, and Sakura to watch a movie before their next mission. Naruto is a big fan of the lead actress. After the movie, they see the heroine in person and being chased. They help her and Naruto asks for an autograph but she wouldn't give him one. When the three returns, Kakashi tells them about their mission: to escort the actress to the Snow Country to film a new movie.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 68,
   "popularity": 52471,
+  "color": "#e46b50",
+  "duration": 90,
+  "studio": "Studio Pierrot",
+  "catalog_id": "naruto-movie-ninja-clash-snow",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "naruto-movie-ninja-clash-snow-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-movie-ninja-clash-snow/naruto-movie-ninja-clash-snow-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-movie-ninja-clash-snow/naruto-movie-ninja-clash-snow-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-movie-ninja-clash-snow/naruto-movie-ninja-clash-snow-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-movie-ninja-clash-snow/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-movie-ninja-clash-snow/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-movie-ninja-clash-snow/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/naruto-movie-ninja-clash-snow/ep_01.kk.ass",
+          "sha256": "49fbac4820f249d1decc1a2da1b6d9e175437c9c4367c2ce55b58d94cc117a36",
+          "bytes": 98163,
+          "cues": 966,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/naruto-movie-ninja-clash-snow/ep_01.kk.srt",
+          "sha256": "e43240af18adae851ce261409140068508184ec7322979c28a74409fe174bdbe",
+          "bytes": 82578,
+          "cues": 965,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/naruto-movie-ninja-clash-snow/ep_01.kk.vtt",
+          "sha256": "a02a003549fd73238cd21f09515ea6b09e140717aa4b40da7e7fc20efba1b84f",
+          "bytes": 82586,
+          "cues": 965,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#e46b50",
-  "studio": "Studio Pierrot",
-  "duration": 90,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/naruto-movie-ninja-clash-snow.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

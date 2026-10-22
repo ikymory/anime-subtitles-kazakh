@@ -15,24 +15,68 @@
     "Action",
     "Sci-Fi"
   ],
-  "description": "Arpeggio of Blue Steel: Ars Nova DC - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arpeggio-ars-nova-dc.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arpeggio-ars-nova-dc.jpg",
+  "description": "Arpeggio of Blue Steel: Ars Nova DC - official Kazakh translation archive by ikymory.",
   "averageScore": 81,
   "popularity": 97200,
+  "catalog_id": "arpeggio-ars-nova-dc",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "arpeggio-ars-nova-dc-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arpeggio-ars-nova-dc/arpeggio-ars-nova-dc-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arpeggio-ars-nova-dc/arpeggio-ars-nova-dc-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arpeggio-ars-nova-dc/arpeggio-ars-nova-dc-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arpeggio-ars-nova-dc/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arpeggio-ars-nova-dc/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arpeggio-ars-nova-dc/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/arpeggio-ars-nova-dc/ep_01.kk.ass",
+          "sha256": "d33eaa10dd75bb6ffc534640f32a792c61a5b6520cf6f552cccfabe242f30d6f",
+          "bytes": 140460,
+          "cues": 1484,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/arpeggio-ars-nova-dc/ep_01.kk.srt",
+          "sha256": "66c448f48de64b2ff1e94cc9cf5fedd9390af120a2f15c1bfab093a08deae5c6",
+          "bytes": 117551,
+          "cues": 1482,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/arpeggio-ars-nova-dc/ep_01.kk.vtt",
+          "sha256": "9b7fcd95a5ad8410f07ee987e8161990a96e13880736e9b14d82e4d50dba353b",
+          "bytes": 117559,
+          "cues": 1482,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/arpeggio-ars-nova-dc.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

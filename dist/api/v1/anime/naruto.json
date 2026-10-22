@@ -16,28 +16,71 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Naruto was a young shinobi with an incorrigible knack for mischief. He achieved his dream to become the greatest ninja in the village and his face sits atop the Hokage monument. But this is not his story... A new generation of ninja are ready to take the stage, led by Naruto's own son, Boruto!<br><br>\n\n(Source: VIZ Media)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97938-BnF6M5yTaNB1.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/97938-cT6wkSRifTEC.jpg",
+  "description": "Naruto was a young shinobi with an incorrigible knack for mischief. He achieved his dream to become the greatest ninja in the village and his face sits atop the Hokage monument. But this is not his story... A new generation of ninja are ready to take the stage, led by Naruto's own son, Boruto!\n\n(Source: VIZ Media)",
+  "averageScore": 85,
+  "popularity": 96000,
+  "color": "#00c9ff",
+  "duration": 24,
+  "studio": "Studio Pierrot",
+  "catalog_id": "naruto",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "naruto-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto/naruto-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto/naruto-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto/naruto-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/naruto/ep_01.kk.srt",
+          "sha256": "42cb63fb4ba6eab108d22ba84c6ed8ca1035f01433371e09438d4f395357dec1",
+          "bytes": 31826,
+          "cues": 388,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/naruto/ep_01.kk.vtt",
+          "sha256": "31c9231207b4d1ad4a25d1012b2e919f34a52adfb763e5218243126c52589b1f",
+          "bytes": 31923,
+          "cues": 388,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/naruto/ep_01.kk.ass",
+          "sha256": "8791b6c524f507523d2a69ae0bba16cf56e6fa02063234db8c431e1800eae1de",
+          "bytes": 38460,
+          "cues": 388,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#00c9ff",
-  "studio": "Studio Pierrot",
-  "duration": 24,
-  "averageScore": 85,
-  "popularity": 96000,
-  "translated_episodes_count": 1
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/naruto.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

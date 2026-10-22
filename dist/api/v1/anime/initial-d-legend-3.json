@@ -15,28 +15,72 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for New Initial D Movie: Legend 3 - Dream.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21289-I7nSDuCtf8gE.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21289-VXmHJdFix1DN.jpg",
+  "description": "Kazakh subtitles for New Initial D Movie: Legend 3 - Dream.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "initial-d-legend-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "initial-d-legend-3-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-legend-3/initial-d-legend-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-legend-3/initial-d-legend-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-legend-3/initial-d-legend-3-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-legend-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-legend-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-legend-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/initial-d-legend-3/ep_01.kk.ass",
+          "sha256": "fc6896cdc8c0074d6252aa1e1b15bc9eb33ac697dd21adbae159bea945538ecc",
+          "bytes": 103318,
+          "cues": 905,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/initial-d-legend-3/ep_01.kk.srt",
+          "sha256": "1454064dc440625821b8160ef61aceb8e312d0314891813af70138717a453bbc",
+          "bytes": 88576,
+          "cues": 902,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/initial-d-legend-3/ep_01.kk.vtt",
+          "sha256": "79cfe3329f8f3d5a7be78811dffa5c28695405977662fb9dd6d9deeaf86a7b2e",
+          "bytes": 88584,
+          "cues": 902,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/initial-d-legend-3.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

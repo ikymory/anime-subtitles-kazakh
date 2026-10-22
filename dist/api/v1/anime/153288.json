@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Kaijuu 8-gou",
     "english": "Kaiju No. 8",
-    "native": "怪獣８号"
+    "native": "怪獣８号",
+    "kazakh": "Кайджу №8",
+    "kk": "Кайджу №8"
   },
   "format": "TV",
   "episodes": 12,
@@ -13,33 +15,104 @@
     "Action",
     "Sci-Fi"
   ],
-  "description": "With the highest kaiju-emergence rates in the world, Japan is no stranger to attack by deadly monsters. Enter the Japan Defense Force, a military organization tasked with the neutralization of kaiju. Kafka Hibino, a kaiju-corpse cleanup man, has always dreamed of joining the force. But when he gets another shot at achieving his childhood dream, he undergoes an unexpected transformation. How can he fight kaiju now that he’s become one himself?!<br>\n<br>\n(Source: VIZ Media)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153288-25FBfFJzEQ5O.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153288-JNsWuMPMAuJL.jpg",
+  "description": "With the highest kaiju-emergence rates in the world, Japan is no stranger to attack by deadly monsters. Enter the Japan Defense Force, a military organization tasked with the neutralization of kaiju. Kafka Hibino, a kaiju-corpse cleanup man, has always dreamed of joining the force. But when he gets another shot at achieving his childhood dream, he undergoes an unexpected transformation. How can he fight kaiju now that he’s become one himself?!\n\n(Source: VIZ Media)",
+  "averageScore": 88,
+  "popularity": 53148,
+  "color": "#f1e4ae",
+  "duration": 24,
+  "studio": "Production I.G",
+  "catalog_id": "kaiju-s8",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     8
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kaiju-s8-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaiju-s8/kaiju-s8-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaiju-s8/kaiju-s8-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaiju-s8/kaiju-s8-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaiju-s8/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaiju-s8/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaiju-s8/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kaiju-s8/ep_01.kk.srt",
+          "sha256": "71ffc5e76f865786a2a5b416363f839258bb694cde677297e234b8e713f9e8b9",
+          "bytes": 2554,
+          "cues": 26,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kaiju-s8/ep_01.kk.vtt",
+          "sha256": "c66fa4d00cd52d8bf2113b364cf6888c10d0586946fecf40ae0a0d8c7f39e798",
+          "bytes": 2651,
+          "cues": 26,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kaiju-s8/ep_01.kk.ass",
+          "sha256": "85f65ad760ca7c703e0dd44f7bbeca22d8e7d12f5b09cecb24428e3bd07f59bd",
+          "bytes": 3687,
+          "cues": 26,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "kaiju-s8-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaiju-s8/kaiju-s8-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaiju-s8/kaiju-s8-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaiju-s8/kaiju-s8-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaiju-s8/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaiju-s8/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaiju-s8/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kaiju-s8/ep_08.kk.srt",
+          "sha256": "ce350893a1d15894efe18d19854087721d5402dddfdcbfbf667ec44491158460",
+          "bytes": 26179,
+          "cues": 281,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kaiju-s8/ep_08.kk.vtt",
+          "sha256": "4ecf3de1186bd84834dfc272feca9fda180c7371f4ca2c5cb0e4ba573a3cb5f1",
+          "bytes": 26276,
+          "cues": 281,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kaiju-s8/ep_08.kk.ass",
+          "sha256": "6a3cb81a5f52fe5f70fdf6075d51047f2a98c3b5d1c3af1d1ee2cca99afde355",
+          "bytes": 31210,
+          "cues": 281,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kaiju-s8.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

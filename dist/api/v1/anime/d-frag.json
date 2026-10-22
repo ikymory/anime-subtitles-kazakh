@@ -13,28 +13,66 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20031-WOR6bly9HOr1.jpg",
+  "averageScore": 86,
+  "popularity": 52055,
+  "color": "hsl(101, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20031-fpW87JXEFUGZ.jpg",
+  "catalog_id": "d-frag",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "d-frag-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-frag/d-frag-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-frag/d-frag-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-frag/d-frag-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-frag/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-frag/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-frag/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/d-frag/ep_01.kk.srt",
+          "sha256": "bf6c5f5c9b8ab1979869a6e4828036b73707c7499b169cbfd3ebd104af8fc926",
+          "bytes": 44368,
+          "cues": 474,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/d-frag/ep_01.kk.vtt",
+          "sha256": "738c7eb645fbe0aaefc81d2a68203057d68d02beaa7b68c88c0650aa115946cb",
+          "bytes": 44465,
+          "cues": 474,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/d-frag/ep_01.kk.ass",
+          "sha256": "13fed263fa25e0cf5b113147131098dd30a9d966e6a5f2ee0a4df1536cdfdd83",
+          "bytes": 52292,
+          "cues": 474,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(101, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 86,
-  "popularity": 52055,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/d-frag.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

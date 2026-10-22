@@ -3,30 +3,76 @@
   "slug": "tokyo-godfathers",
   "title": {
     "romaji": "Tokyo Godfathers",
-    "english": "Tokyo Godfathers"
+    "english": "Tokyo Godfathers",
+    "kazakh": "Токио өкіл әкелері",
+    "kk": "Токио өкіл әкелері"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2003,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx759-XSKBju6xutdR.jpg",
+  "averageScore": 81,
+  "popularity": 64272,
+  "color": "hsl(258, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/759-WE1Y5uCZ3Vv7.jpg",
+  "catalog_id": "tokyo-godfathers",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tokyo-godfathers-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-godfathers/tokyo-godfathers-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-godfathers/tokyo-godfathers-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tokyo-godfathers/tokyo-godfathers-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-godfathers/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-godfathers/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tokyo-godfathers/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tokyo-godfathers/ep_01.kk.srt",
+          "sha256": "37ed49229d689b7508d0a959f0b93ad90c69c96e2f70e5dfcb46723b80f06654",
+          "bytes": 101450,
+          "cues": 1100,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tokyo-godfathers/ep_01.kk.vtt",
+          "sha256": "dd2b18ff4bb1b32143be1237285de76247f831a667f3366c1f37fb1b20c596d4",
+          "bytes": 101547,
+          "cues": 1100,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tokyo-godfathers/ep_01.kk.ass",
+          "sha256": "2db49fc53083e2efd7ed8cd86d18a75abb8f98e8f5ac67a3c57873eac317dfa6",
+          "bytes": 118673,
+          "cues": 1100,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tokyo-godfathers.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

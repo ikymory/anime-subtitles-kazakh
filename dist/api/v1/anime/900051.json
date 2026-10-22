@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "doraemon-nobitas-treasure-island",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobitas-treasure-island.json"
+    },
+    {
+      "slug": "natsu-e-no-tunnel-sayonara-no-deguchi",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/natsu-e-no-tunnel-sayonara-no-deguchi.json"
+    }
+  ]
+}

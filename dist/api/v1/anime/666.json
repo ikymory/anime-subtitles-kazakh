@@ -3,15 +3,27 @@
   "slug": "jojo-ova",
   "title": {
     "romaji": "JoJo no Kimyou na Bouken: Adventure",
-    "english": "JoJo's Bizarre Adventure (1993)"
+    "english": "JoJo's Bizarre Adventure (1993)",
+    "kazakh": "ДжоДжоның таңғажайып оқиғалары (1993)",
+    "kk": "ДжоДжоның таңғажайып оқиғалары (1993)"
   },
-  "format": null,
-  "episodes": 6,
-  "seasonYear": null,
+  "format": "OVA",
+  "episodes": 26,
+  "seasonYear": 2000,
   "genres": [],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": null,
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx665-216kNqSxrQhN.jpg",
+  "averageScore": 88,
+  "popularity": 53583,
+  "color": "#e4d635",
+  "duration": 35,
+  "studio": "APPP",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/665-wdqJrmtsM4Mb.jpg",
+  "catalog_id": "jojo-ova",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -40,266 +52,977 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "jojo-ova-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_01.kk.srt",
+          "sha256": "999a6f0498e8404e38fa98e0bdc6b78eebc89fccc28d057e0d1cbadfe366c038",
+          "bytes": 476342,
+          "cues": 4643,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_01.kk.vtt",
+          "sha256": "7d1ea8ce60ba1d72f63c31c4dedcac68d3597f08447cd5d0577c047a47956b90",
+          "bytes": 476439,
+          "cues": 4643,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_01.kk.ass",
+          "sha256": "d0fdf8fb4de3b93506a2eb75db08253da6d0c2ec8d3dba750c853ec82f135253",
+          "bytes": 543159,
+          "cues": 4643,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "jojo-ova-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_02.kk.srt",
+          "sha256": "fe7cf08d5b55543539790e0fd2fa94a5d8295f6e94c26ea994973a7941fe4b2e",
+          "bytes": 34881,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_02.kk.vtt",
+          "sha256": "b2b8061fbfc7fba5d00ef5780d6068ba44f6ab8adeb48431d5249d1b47e4db5c",
+          "bytes": 34978,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_02.kk.ass",
+          "sha256": "f278c1a3f1f77f5e4df34b9660eb7d56ce0bf568f78151321ab1782798cee388",
+          "bytes": 41892,
+          "cues": 413,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "jojo-ova-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_03.kk.srt",
+          "sha256": "591dd669fe70aa00ab9c953886b631aebda468e14c4ec36fbb8b3d3f6132be27",
+          "bytes": 38304,
+          "cues": 406,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_03.kk.vtt",
+          "sha256": "04f7917fe2c78927452f7d572855a8c1e1aee0a9fe33648a3fe5342e9e7b0a7c",
+          "bytes": 38401,
+          "cues": 406,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_03.kk.ass",
+          "sha256": "600629a7753dcb9e799f0b0dca1d54fb20303486415431f9be6debec114fa6d6",
+          "bytes": 45210,
+          "cues": 406,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "jojo-ova-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_04.kk.srt",
+          "sha256": "3c4f8edd6555731d55553cd9344da4323e14bab7ce1cdfde665a800de19d27e0",
+          "bytes": 36808,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_04.kk.vtt",
+          "sha256": "51deba40ac3b95f0f4a316087e374642a68f8917b5d9a91bf6b71b111e32f91b",
+          "bytes": 36905,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_04.kk.ass",
+          "sha256": "c5e6495f6b2e1a7615512ffd2cae516ded03818dabe71220754dede91556281b",
+          "bytes": 44059,
+          "cues": 429,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "jojo-ova-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_05.kk.srt",
+          "sha256": "6dc7127f6f77df85bbe3fb343405085f2a3a2633d06d2c31ba6e4f862048edf3",
+          "bytes": 41182,
+          "cues": 440,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_05.kk.vtt",
+          "sha256": "c2105bf4cedd74067d940d35cb8e1bd007aeb33364700ce5ce28a45333275497",
+          "bytes": 41279,
+          "cues": 440,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_05.kk.ass",
+          "sha256": "63e38da878f2c9c30018d38978600086a9f82c62423d07f8d62a55cfd5890bab",
+          "bytes": 48598,
+          "cues": 440,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "jojo-ova-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_06.kk.srt",
+          "sha256": "69b7efb5cfb2f50bb0bdf20acd0f79c40bc3aa6df069f425934f48c6dbbe978c",
+          "bytes": 38711,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_06.kk.vtt",
+          "sha256": "f2b1fe9da51c2af7fb66f555c134bc89e0d6213ee9293f192011dd835d99951c",
+          "bytes": 38808,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_06.kk.ass",
+          "sha256": "e125bea8b27185a1f109d78a7897d612190c7b77c98d809abba7b6d363775d64",
+          "bytes": 44897,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "jojo-ova-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_07.kk.srt",
+          "sha256": "e2e16c1591bbd1c2155a5aeca447f9dc6673b73b387be008427612568687bc2a",
+          "bytes": 25044,
+          "cues": 307,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_07.kk.vtt",
+          "sha256": "8ff097c83c89d76377be26e4601b46f3f25d29add927186af78af0f3b964736e",
+          "bytes": 25141,
+          "cues": 307,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_07.kk.ass",
+          "sha256": "9dbfdf9a84cd965bc554e5343e7d71bb52aa097ae4bbc73c726d0fb7d1aa3de9",
+          "bytes": 30465,
+          "cues": 307,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "jojo-ova-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_08.kk.srt",
+          "sha256": "73bb3dce64d68ceb61ad0f6d37ed68e40c6f418053858446f083f32abed28871",
+          "bytes": 34910,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_08.kk.vtt",
+          "sha256": "e41af0c26da57275864f4d4718812dcb97853c5ee1a336bf064774d325651339",
+          "bytes": 35007,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_08.kk.ass",
+          "sha256": "071dce9d1ab5a7a42657b2d734a383d6065d88621ccdff5717c446f99ade9b4d",
+          "bytes": 41651,
+          "cues": 395,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "jojo-ova-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_09.kk.srt",
+          "sha256": "33d05384af5be1365cfd0bbd47decd0423ab3e30d723487b07f9779e72681841",
+          "bytes": 34500,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_09.kk.vtt",
+          "sha256": "b6c3d7cab357b972fb5bd6c5f740a088c64c53992b0effac80dbbd230ab4eb47",
+          "bytes": 34597,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_09.kk.ass",
+          "sha256": "70da10479183b3770b3b917eca3dfbb2cb4079e5cfc94bf317b383a2a4b2a186",
+          "bytes": 41391,
+          "cues": 405,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "jojo-ova-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_10.kk.srt",
+          "sha256": "017dbd4c1045be40aec7967ea10c96e2df0d3b471cee6973e2bef77b310e3ce4",
+          "bytes": 43437,
+          "cues": 484,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_10.kk.vtt",
+          "sha256": "4c048aed7b7860640627e45061036151868ef60b877d91230dba7c5dd1af4f36",
+          "bytes": 43534,
+          "cues": 484,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_10.kk.ass",
+          "sha256": "da666e126d6db7e7abd6548259b3efaab96c8f568d4912e3b5f570926f62803e",
+          "bytes": 51513,
+          "cues": 484,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "jojo-ova-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_11.kk.srt",
+          "sha256": "5882a9602903cf466b546491f0cb9934b57a84ba4e6702f34ba1f1be0901c9e4",
+          "bytes": 34540,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_11.kk.vtt",
+          "sha256": "c307addc26bd837f7f7170a22ca0267b3b4b19270d406831601541d1a71f5e08",
+          "bytes": 34637,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_11.kk.ass",
+          "sha256": "7f26e7f6e8a8fa76a3339030f1d98a9b463593f011aa46a3d0bbad4fedfeecb7",
+          "bytes": 40861,
+          "cues": 367,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "jojo-ova-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_12.kk.srt",
+          "sha256": "aff079b4c9e68975be518c07e5be8bca8de893f68ef43ee0016e26080f1c90aa",
+          "bytes": 33034,
+          "cues": 341,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_12.kk.vtt",
+          "sha256": "5dd965f5f771088f54af6df4008f5d1c04be551014cbc84c3daf7f2c1c412dd6",
+          "bytes": 33131,
+          "cues": 341,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_12.kk.ass",
+          "sha256": "7e19a62fc5e4fb7eb4123135b89bfd0ac0982b8c9a2ef5b5a3ebb243b90964f9",
+          "bytes": 38965,
+          "cues": 341,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "jojo-ova-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_13.kk.srt",
+          "sha256": "954b085755b653ffedaa0d98fc8c78ca3c25f183a7b7d407828d1ffe180f0048",
+          "bytes": 37858,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_13.kk.vtt",
+          "sha256": "54af21575d95df6c16611b0871ba299a76b45ad8e0ed780d2013e75a69098464",
+          "bytes": 37955,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_13.kk.ass",
+          "sha256": "c0a18370f8fbc38a9efe0d60997a6f083593c8937c98adc827643d16f54344a0",
+          "bytes": 44059,
+          "cues": 359,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "jojo-ova-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_14.kk.srt",
+          "sha256": "88fc313ffdf159e7e434c1ec16d47dcc49c1c3357072d4af3f0968be679f5c98",
+          "bytes": 511233,
+          "cues": 5077,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_14.kk.vtt",
+          "sha256": "3ae07ecf5a85c6135e93d3139f71e3c09a768b27d113bc06b5a88f5247dceb46",
+          "bytes": 511330,
+          "cues": 5077,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_14.kk.ass",
+          "sha256": "223a183cc1ed6e86dfbfa20af52dc4e997e7eb07423faef05c7469209b8e1e99",
+          "bytes": 584126,
+          "cues": 5077,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "jojo-ova-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_15.kk.srt",
+          "sha256": "d0c7a953831df6b045ad2ef31161cd6747f9287a54b61d80e559da89425871ae",
+          "bytes": 41067,
+          "cues": 458,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_15.kk.vtt",
+          "sha256": "65f3cd473f6b837500463181582081ef3984b44f353c8dae4e5ed2aedc01d4d1",
+          "bytes": 41164,
+          "cues": 458,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_15.kk.ass",
+          "sha256": "a6b6a81bc76fc427138299a8f6b49ebfa0667ccc7223c0b2c443e574649e6155",
+          "bytes": 48753,
+          "cues": 458,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "jojo-ova-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_16.kk.srt",
+          "sha256": "3705e7c3e3ef75f9ba0f542cbe2016a476f5849c07a46cbf69995ae44bd59dd1",
+          "bytes": 40558,
+          "cues": 469,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_16.kk.vtt",
+          "sha256": "753507273b9441a485d492900a55a44c8a593c3a3482787691a58b61d0dd3e95",
+          "bytes": 40655,
+          "cues": 469,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_16.kk.ass",
+          "sha256": "f2a60259b07ba40cd0d57964ad8047bb992d27a0517831f34dbc694cb85e0926",
+          "bytes": 48409,
+          "cues": 469,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "jojo-ova-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_17.kk.srt",
+          "sha256": "d0bca7c1409786ee5aa2690ad224834514758c296c03320dbc37d5d72c0b336c",
+          "bytes": 42952,
+          "cues": 402,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_17.kk.vtt",
+          "sha256": "204cc74ec1c9a751d9b56d3b008a632bbc7b4533c8878889de903dceb2e00540",
+          "bytes": 43049,
+          "cues": 402,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_17.kk.ass",
+          "sha256": "6226620010d24e01c0c961a9baba8a8911a29f57f5050985ce0b874a17582613",
+          "bytes": 49798,
+          "cues": 402,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "jojo-ova-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_18.kk.srt",
+          "sha256": "2ffdeb8f3323b7b6f70909825923e76699b79f305ad3c632f7412aa2ac92775a",
+          "bytes": 37407,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_18.kk.vtt",
+          "sha256": "8cc3841b3aa229001d00248a24bdb4ac9541de54c3a4167415c1cba3d517b241",
+          "bytes": 37504,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_18.kk.ass",
+          "sha256": "c991dd6ff6c7c66b2acbd04c8833c8447665eff6af8a08faf58ba918fc38705a",
+          "bytes": 44328,
+          "cues": 407,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "jojo-ova-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_19.kk.srt",
+          "sha256": "4140f160c38ef9059c35e9a0884848b7db661c24e32bd579affff680405ff06b",
+          "bytes": 48072,
+          "cues": 479,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_19.kk.vtt",
+          "sha256": "fbfc2dcee281ae03eb3600a0c0cb71511130aef134e32cf4f707919de24b49cd",
+          "bytes": 48169,
+          "cues": 479,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_19.kk.ass",
+          "sha256": "46fa7d5723851dacd882330d98d9d9e5fa65a7488fcdeb55b8f46f442706e63e",
+          "bytes": 56073,
+          "cues": 479,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "jojo-ova-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_20.kk.srt",
+          "sha256": "38920770aaf5ddea560d4ed6113d98005c679dd2e468352b8d4bbb4e926222d1",
+          "bytes": 48597,
+          "cues": 475,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_20.kk.vtt",
+          "sha256": "bc37de6f4daa7a04f632a0a2834cd19ef3e95a3180edf13303a1a0d6fa85de95",
+          "bytes": 48694,
+          "cues": 475,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_20.kk.ass",
+          "sha256": "d33b58f20a70fa89aaa5881cde82b5afc8b302c4e78e4da26606119f6c9a8feb",
+          "bytes": 56538,
+          "cues": 475,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "jojo-ova-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_21.kk.srt",
+          "sha256": "57f10786cc6a58a50ca32a144bff5d46f17d7a289cd938447948ddeaa15615ef",
+          "bytes": 40112,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_21.kk.vtt",
+          "sha256": "3a53c85d860488e040d7d77ddda3c119287f4186dd00df58e4572cd1f5fcc342",
+          "bytes": 40209,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_21.kk.ass",
+          "sha256": "46f112b2fd158e7ebffae9a7e7d0503c8157145560b7d8336f580f76523791b6",
+          "bytes": 46853,
+          "cues": 395,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "jojo-ova-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_22.kk.srt",
+          "sha256": "67a1d084a962a35385401fdca77d058428f7dc0b54cf98612a75d3f23aab7b8b",
+          "bytes": 42309,
+          "cues": 423,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_22.kk.vtt",
+          "sha256": "ffdae0ca00bff353e9659771e29e24eca8206409b9b8ac3dfb2e3662d4aaa410",
+          "bytes": 42406,
+          "cues": 423,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_22.kk.ass",
+          "sha256": "c57ff93a716f9258dbd8e66ec9228307757a76789c219c0c0606c9916274bca6",
+          "bytes": 49470,
+          "cues": 423,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "jojo-ova-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_23.kk.srt",
+          "sha256": "69dfc90c5f12396a2aa7101c107f7850f4438a4ff6b4478f0b1ff53aed878a08",
+          "bytes": 40650,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_23.kk.vtt",
+          "sha256": "1c0815922418fa6e302c1787f30ca9bb0d96c1273b23fa616473271de03ce548",
+          "bytes": 40747,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_23.kk.ass",
+          "sha256": "c5ac9e877b205f6e6292e510d7c22b9d0f5fcff74c32ce3d808a634736e854aa",
+          "bytes": 47151,
+          "cues": 379,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "jojo-ova-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_24.kk.srt",
+          "sha256": "4c49688657e6264bd6780b64ccbdb158944e416199fd8fca12fed1d01dc3308f",
+          "bytes": 31938,
+          "cues": 330,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_24.kk.vtt",
+          "sha256": "4e439aebf5442b25797ee0475b7a7e372539ca86d85fe217fe8bd14e68d2c995",
+          "bytes": 32035,
+          "cues": 330,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_24.kk.ass",
+          "sha256": "320d3e6de3ee49b6b7756e24a0cbe7bb746f00cd8de4a20340c6f3dc5d211714",
+          "bytes": 37704,
+          "cues": 330,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "jojo-ova-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_25.kk.srt",
+          "sha256": "3358186e3538dbad201bdddc6b91f901bc62add684d29bdcd41f4c750dc0d92d",
+          "bytes": 31965,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_25.kk.vtt",
+          "sha256": "13704c166cca5d7f98c7255bc7f6c047441e69f0480ee81e59e06d691e52544f",
+          "bytes": 32062,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_25.kk.ass",
+          "sha256": "83056ec8adb1fa191c522ebae68e9e2de42c7d04c7949dd83855aa9972edd47d",
+          "bytes": 38286,
+          "cues": 367,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "jojo-ova-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/jojo-ova/jojo-ova-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-ova/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/jojo-ova/ep_26.kk.srt",
+          "sha256": "fcd07bd66296547c8c0ec8d25161864bb3249e9a3c02ad0ccd0428531fdf198b",
+          "bytes": 30163,
+          "cues": 389,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/jojo-ova/ep_26.kk.vtt",
+          "sha256": "1e546b104c610c125e1b7d86176e74b0a8f298885773dc6d13ce194b05ba3d71",
+          "bytes": 30260,
+          "cues": 389,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/jojo-ova/ep_26.kk.ass",
+          "sha256": "b0bd4538c51d32401b26d9fb4f9b9eb80501cd5318ec5247ac3907b7066cd5e5",
+          "bytes": 36814,
+          "cues": 389,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 130,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jojo-ova.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

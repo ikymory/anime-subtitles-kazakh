@@ -16,57 +16,175 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Bokusatsu Tenshi Dokuro-chan - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bokusatsu-tenshi-dokuro-chan.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bokusatsu-tenshi-dokuro-chan.jpg",
+  "description": "Bokusatsu Tenshi Dokuro-chan - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "bokusatsu-tenshi-dokuro-chan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
     3,
     4
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 4,
+  "available_episodes_count": 4,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bokusatsu-tenshi-dokuro-chan-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_01.kk.srt",
+          "sha256": "1defcf3c496aca7f798e1f8cd3e52e033cc5799568492782c369c7a1a322a26a",
+          "bytes": 37630,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_01.kk.vtt",
+          "sha256": "8cde0dd4b2c63c14685285a75776e3a5d08199d777cc3e9c7596a1e709457491",
+          "bytes": 37727,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_01.kk.ass",
+          "sha256": "ad0052785bc53ff29ab68ac99b72b9477e127f18bf75627d7a5329fc47261671",
+          "bytes": 44118,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "bokusatsu-tenshi-dokuro-chan-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_02.kk.srt",
+          "sha256": "5cca64dfdded4a1667fe14296b8fb4d262514c9709abd8e3826903e25db8326f",
+          "bytes": 39245,
+          "cues": 478,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_02.kk.vtt",
+          "sha256": "a17aebb18da8fb6fc59d9c292f4f7721331eb20e9b45316e1619e65a3d866e3b",
+          "bytes": 39342,
+          "cues": 478,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_02.kk.ass",
+          "sha256": "af3eaac025224891d68567719731aeabf70f6d8f8a39f8e46f7aaa0acc68e291",
+          "bytes": 47293,
+          "cues": 478,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "bokusatsu-tenshi-dokuro-chan-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_03.kk.srt",
+          "sha256": "94d34f389f7fd23af124f063c3629acd2444753e57c57826d31cb7b7601d9927",
+          "bytes": 31902,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_03.kk.vtt",
+          "sha256": "3eba5cc19a3303874cc47731132894c461c825a08a832de0caf84896c3dfcbad",
+          "bytes": 31999,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_03.kk.ass",
+          "sha256": "ea67e84ad5a303e89309a828bf575e9d5c088f7d712d7db12d67d2e19a3494f8",
+          "bytes": 38120,
+          "cues": 356,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "bokusatsu-tenshi-dokuro-chan-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokusatsu-tenshi-dokuro-chan/bokusatsu-tenshi-dokuro-chan-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokusatsu-tenshi-dokuro-chan/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_04.kk.srt",
+          "sha256": "f0f8b5694ecc5cf22656bd76d476ac98497c32b9f3d5726496062858e99b54b2",
+          "bytes": 32254,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_04.kk.vtt",
+          "sha256": "1891d5dbc4c6158a0643b47c5b9fe5f74f790ff95e47cad772e32ca643d671c8",
+          "bytes": 32351,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokusatsu-tenshi-dokuro-chan/ep_04.kk.ass",
+          "sha256": "612b9101b89d5ebb6916250fdf6e9d739ce89961b37d52cd71bf44139425d41e",
+          "bytes": 38352,
+          "cues": 348,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 12,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bokusatsu-tenshi-dokuro-chan.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -17,24 +17,64 @@
     "Comedy",
     "Psychological"
   ],
-  "description": "One Piece: Baron Omatsuri and the Secret Island - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/one-piece-omatsuri.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/one-piece-omatsuri.jpg",
+  "description": "One Piece: Baron Omatsuri and the Secret Island - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "one-piece-omatsuri",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "one-piece-omatsuri-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-omatsuri/one-piece-omatsuri-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-omatsuri/one-piece-omatsuri-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-omatsuri/one-piece-omatsuri-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-omatsuri/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-omatsuri/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-omatsuri/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/one-piece-omatsuri/ep_01.kk.srt",
+          "sha256": "2fcf80e08b54d49ebf4ca2f367a9cc98ba68101c7b5febb96f5e99405bdf6fed",
+          "bytes": 127854,
+          "cues": 1451,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/one-piece-omatsuri/ep_01.kk.vtt",
+          "sha256": "517d84f286cf0b35a780f7d256a8f3312da40deb543ca6172343312d0b11bcba",
+          "bytes": 127951,
+          "cues": 1451,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/one-piece-omatsuri/ep_01.kk.ass",
+          "sha256": "4411c73ae9fdb27911bdc33cb9083ad98e333b188a2dd8a9546a518416d0996d",
+          "bytes": 150227,
+          "cues": 1451,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-omatsuri.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -16,24 +16,68 @@
     "Psychological",
     "Sci-Fi"
   ],
-  "description": "The war on terror exploded, literally, the day Sarajevo was destroyed by a homemade nuclear device. The leading democracies have transformed into total surveillance states, and the developing world has drowned under a wave of genocides. The mysterious American John Paul seems to be behind the collapse of the world system, and it’s up to intelligence agent Clavis Shepherd to track John Paul across the wreckage of civilizations and to find the true heart of darkness—a genocidal organ.\n<br><br>\n(Source: VIZ Media)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20919-2gAgdEKPWl6E.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n20919-DtSU5heNhEey.jpg",
+  "description": "The war on terror exploded, literally, the day Sarajevo was destroyed by a homemade nuclear device. The leading democracies have transformed into total surveillance states, and the developing world has drowned under a wave of genocides. The mysterious American John Paul seems to be behind the collapse of the world system, and it’s up to intelligence agent Clavis Shepherd to track John Paul across the wreckage of civilizations and to find the true heart of darkness—a genocidal organ.\n<br><br>\n(Source: VIZ Media)",
   "averageScore": 68,
   "popularity": 16245,
+  "catalog_id": "gyakusatsu-kikan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gyakusatsu-kikan-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gyakusatsu-kikan/gyakusatsu-kikan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gyakusatsu-kikan/gyakusatsu-kikan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gyakusatsu-kikan/gyakusatsu-kikan-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gyakusatsu-kikan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gyakusatsu-kikan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gyakusatsu-kikan/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gyakusatsu-kikan/ep_01.kk.ass",
+          "sha256": "0bf055894a3aa6b85dea1491cec9b5f8511b15045acb0533658f7cc4179e3fba",
+          "bytes": 184068,
+          "cues": 1697,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gyakusatsu-kikan/ep_01.kk.srt",
+          "sha256": "84a69e34e14e3cc60e156fbb4e0d30778af0a7edcac0de6ed6df80f894a6a1b1",
+          "bytes": 158177,
+          "cues": 1695,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gyakusatsu-kikan/ep_01.kk.vtt",
+          "sha256": "093967002280a8ba5ec526e3572daaea0dca15702194034f845055f22b4693d4",
+          "bytes": 158185,
+          "cues": 1695,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gyakusatsu-kikan.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

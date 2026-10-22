@@ -13,9 +13,19 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2025-ZKVteVzUyFLH.png",
+  "averageScore": 87,
+  "popularity": 64796,
+  "color": "hsl(165, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2025-Fx3ALDmrOulv.jpg",
+  "catalog_id": "darker-than-black",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -30,132 +40,457 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "darker-than-black-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-1ep.ass"
-      }
-    },
-    {
-      "episode": 10,
-      "language": "kk",
-      "filename": "darker-than-black-10ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-10ep.ass"
-      }
-    },
-    {
-      "episode": 17,
-      "language": "kk",
-      "filename": "darker-than-black-17ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_01.kk.srt",
+          "sha256": "42c177ef0fe07f8811e21afabdc3f7cad7ed82f234974a1973f89e1e43d3de57",
+          "bytes": 21366,
+          "cues": 233,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_01.kk.vtt",
+          "sha256": "affb993f88164d7addf60199b08f8773e74554966c862a094fcc0c1af914a160",
+          "bytes": 21463,
+          "cues": 233,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_01.kk.ass",
+          "sha256": "76043d0e791e55fb55e6fec4fb272baaeb344a72338df9c89be2d6817cc802f2",
+          "bytes": 25686,
+          "cues": 233,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "darker-than-black-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-2ep.ass"
-      }
-    },
-    {
-      "episode": 21,
-      "language": "kk",
-      "filename": "darker-than-black-21ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-21ep.ass"
-      }
-    },
-    {
-      "episode": 22,
-      "language": "kk",
-      "filename": "darker-than-black-22ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-22ep.ass"
-      }
-    },
-    {
-      "episode": 24,
-      "language": "kk",
-      "filename": "darker-than-black-24ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-24ep.ass"
-      }
-    },
-    {
-      "episode": 25,
-      "language": "kk",
-      "filename": "darker-than-black-25ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_02.kk.srt",
+          "sha256": "f13cf7017f859e5ae3b879a3eb013a5302ab422b8061c75fe3a6837355ac432f",
+          "bytes": 22709,
+          "cues": 233,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_02.kk.vtt",
+          "sha256": "fd4a62d42b98f4defc06d3ca29ac7970afc2c5e44538c020287a3e0ffef60eab",
+          "bytes": 22806,
+          "cues": 233,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_02.kk.ass",
+          "sha256": "cca9b069c12c38298a03ddb3d9cf3200336900c44e0aa0f690b1356d3750a7b7",
+          "bytes": 27029,
+          "cues": 233,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "darker-than-black-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_03.kk.srt",
+          "sha256": "36a56242d1242fb8cd1a1692a6b1703570bf204beac3fb4ebc5a48ab9d584318",
+          "bytes": 20864,
+          "cues": 245,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_03.kk.vtt",
+          "sha256": "1731910c2fbf5d9cca3d1627fb170b7cefae8e93954248204f8eebfcca79666d",
+          "bytes": 20961,
+          "cues": 245,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_03.kk.ass",
+          "sha256": "36362fb3c2057ab19523bdd321382cb9923ac73b5011c987a54a7b9ee9fbe257",
+          "bytes": 25364,
+          "cues": 245,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "darker-than-black-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_04.kk.srt",
+          "sha256": "6c70f8a08b2aa9e764ab09c55bf1be6c35ba09df3a298dff6f72ea47fcbea740",
+          "bytes": 20987,
+          "cues": 225,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_04.kk.vtt",
+          "sha256": "95bc3dc2e106f96b1fe877a6e7311b8fae0fe11f37e56447944a49150961abb9",
+          "bytes": 21084,
+          "cues": 225,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_04.kk.ass",
+          "sha256": "636d8809d397f42f5f0b8d6b9dd711ceeb6aae5e7629f3bb2f50c545c76b8483",
+          "bytes": 25187,
+          "cues": 225,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "darker-than-black-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_05.kk.srt",
+          "sha256": "fbd66d94869877749bcbbd0a9b46900b632fcd2fff619a3dda8db903d4de0823",
+          "bytes": 21901,
+          "cues": 235,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_05.kk.vtt",
+          "sha256": "16d41148d50d53be1bd845612622a7ee4f76ed8107cf72edbcafbce92bfab110",
+          "bytes": 21998,
+          "cues": 235,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_05.kk.ass",
+          "sha256": "635589a7c254c0a23546db4eebc3fc74a2b4affe74e8a271072097347d2aeb63",
+          "bytes": 26251,
+          "cues": 235,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "darker-than-black-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black/darker-than-black-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_09.kk.srt",
+          "sha256": "cbfab526291ce42fd95f7f2bf441e4bd186b098762d609cbc39ff5f7e6a09c20",
+          "bytes": 25412,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_09.kk.vtt",
+          "sha256": "c99b833efbdffd0b8b7aada8e7523f22cacbe688973922df8c80592279d1f3ee",
+          "bytes": 25509,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_09.kk.ass",
+          "sha256": "c819ebb1a101f87aac2ca9069e414b11d30792130e8cf3803af0a8d85ca7c3ee",
+          "bytes": 30497,
+          "cues": 284,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 10,
+      "language": "kk",
+      "filename": "ep_10.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_10.kk.srt",
+          "sha256": "0d317f33147cc6acbb43d2d05d596e168aa666b472c4a61e8885f4aff41c4efc",
+          "bytes": 26306,
+          "cues": 297,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_10.kk.vtt",
+          "sha256": "f0c1f6e8515a729aecb57bdb35918dc3d41f44ca5eda122b8c571e9700052670",
+          "bytes": 26403,
+          "cues": 297,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_10.kk.ass",
+          "sha256": "925317ab6dbf88fe6af5c8571f61a5dbcb7d2d84993f6caa5ba1e28c1dcc2cb5",
+          "bytes": 31586,
+          "cues": 297,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 17,
+      "language": "kk",
+      "filename": "ep_17.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_17.kk.srt",
+          "sha256": "cc7d0455157fc70526eeda7fdb3b29fec6440fbc0ea842a45c616fdb21e1aa5a",
+          "bytes": 30683,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_17.kk.vtt",
+          "sha256": "31fc62876f046e28e9d772299a5d3e47560567ca806d53d6b4c32faeab691974",
+          "bytes": 30780,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_17.kk.ass",
+          "sha256": "0c5e07f5a9ac20e3d7b4f49cad0b34f396b11b6181a87e56c549982eb4fb6478",
+          "bytes": 36818,
+          "cues": 354,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 21,
+      "language": "kk",
+      "filename": "ep_21.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_21.kk.srt",
+          "sha256": "0cee1f5148b99269234d9245dff31cdf758e548c503ad0e0374956af1f1b4ea7",
+          "bytes": 25959,
+          "cues": 261,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_21.kk.vtt",
+          "sha256": "ec5dc5dec639ee433674f664ca690020580a20eb979bf0895858c8eb634b11ed",
+          "bytes": 26056,
+          "cues": 261,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_21.kk.ass",
+          "sha256": "91977388c496c369652bdbc05d9aabca0488d86a7ab95f4a78ad3bd46dda764d",
+          "bytes": 30699,
+          "cues": 261,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 22,
+      "language": "kk",
+      "filename": "ep_22.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_22.kk.srt",
+          "sha256": "62e3f4175c1701219eac9731bddf052556516637dc8fdf6c4c165aafa1142f91",
+          "bytes": 26636,
+          "cues": 295,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_22.kk.vtt",
+          "sha256": "2f5e49ede7b291a9be0e9b80cff73b3f44d8bc71ae12c4d6fe9c82b2eaf1c869",
+          "bytes": 26733,
+          "cues": 295,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_22.kk.ass",
+          "sha256": "a55896555095c4e646b4d5e243fe5c125814d5d6f080731ad55adeabe3616ff2",
+          "bytes": 31886,
+          "cues": 295,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 24,
+      "language": "kk",
+      "filename": "ep_24.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_24.kk.srt",
+          "sha256": "203d630d5d3e9d4d9b9b2067de348eb971ad6c447c153cdfbaf0d15ef2560b56",
+          "bytes": 29854,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_24.kk.vtt",
+          "sha256": "29c153748142678257f0ee378cdbd80e26a85f760fa47b63207db899996d1ef2",
+          "bytes": 29951,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_24.kk.ass",
+          "sha256": "e96cad46ef082db6bbc2368ae63ad3c6ed4b9d71b04b260c112da6c5a026291f",
+          "bytes": 35614,
+          "cues": 329,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 25,
+      "language": "kk",
+      "filename": "ep_25.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black/ep_25.kk.srt",
+          "sha256": "0bf8c9152a826a65a478527118db9c685225ca733a20e8f0f10f66f8cebe8113",
+          "bytes": 30738,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black/ep_25.kk.vtt",
+          "sha256": "5be054b5318f2d4d1fb8fb42870d24426ee5b485b64811a25a725b208292a53f",
+          "bytes": 30835,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black/ep_25.kk.ass",
+          "sha256": "1263e3be9efd2b078ccb9de2a42903cbe30c18b6020f2244cc4c1f26fa32201e",
+          "bytes": 36438,
+          "cues": 325,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(165, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 64796,
-  "translated_episodes_count": 12
+  "quality_issues_count": 45,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/darker-than-black.json",
+  "quality_flags": [
+    "duplicate_dialogue_content",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

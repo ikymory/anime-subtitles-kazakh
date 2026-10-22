@@ -16,24 +16,69 @@
     "Psychological",
     "Sci-Fi"
   ],
-  "description": "When the riot squad starts shooting citizens during the holiday season, the Major and her team must track down a terrorist hacker who operates under the name Fire-Starter. <br><br> (Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19195-649F6wuytP5T.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/19195-Od0LAvOCcljp.jpg",
+  "description": "When the riot squad starts shooting citizens during the holiday season, the Major and her team must track down a terrorist hacker who operates under the name Fire-Starter. <br><br> (Source: Crunchyroll)",
   "averageScore": 70,
   "popularity": 10745,
+  "catalog_id": "ghost-in-the-shell-arise-4",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ghost-in-the-shell-arise-4-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-4/ghost-in-the-shell-arise-4-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-4/ghost-in-the-shell-arise-4-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ghost-in-the-shell-arise-4/ghost-in-the-shell-arise-4-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-4/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-4/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-arise-4/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ghost-in-the-shell-arise-4/ep_01.kk.srt",
+          "sha256": "badc2036d13a45a28f902a36abd0d32fbf1c646f38071f5fa8014a02009100d7",
+          "bytes": 151871,
+          "cues": 1378,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ghost-in-the-shell-arise-4/ep_01.kk.vtt",
+          "sha256": "ed67243b1bd4a35e099d6cbf50b9a49d69ddd5b4974c4e76cd384c5c087c2495",
+          "bytes": 151968,
+          "cues": 1378,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ghost-in-the-shell-arise-4/ep_01.kk.ass",
+          "sha256": "51f37bcfae8d8f1a7cd28a669d9a73596b6389396b862a72d5fc9eb5db70ac60",
+          "bytes": 172786,
+          "cues": 1378,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-arise-4.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

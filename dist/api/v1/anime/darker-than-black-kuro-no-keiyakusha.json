@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "DARKER THAN BLACK. Kuro no Keiyakusha - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/darker-than-black-kuro-no-keiyakusha.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/darker-than-black-kuro-no-keiyakusha.jpg",
+  "description": "DARKER THAN BLACK. Kuro no Keiyakusha - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "darker-than-black-kuro-no-keiyakusha",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,456 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_01.kk.srt",
+          "sha256": "d02cb6ed37136127291e9678e835b6b141547c95fb00753dd13685abb5834147",
+          "bytes": 21736,
+          "cues": 233,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_01.kk.vtt",
+          "sha256": "7a5efdaeb49ea7c2ab4096ddea2ba09fcf42428195277f8b0fbf591a158c4677",
+          "bytes": 21833,
+          "cues": 233,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_01.kk.ass",
+          "sha256": "3a7428bb11837c1a79bb59bd68d69ecad10db305ad491077d21a19ad434e1d4d",
+          "bytes": 26492,
+          "cues": 234,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.srt",
+          "sha256": "8c13b16b5cd5e915f3fe0f7362926e688362243b03b6bce9b077a9d44fa93963",
+          "bytes": 23267,
+          "cues": 234,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.vtt",
+          "sha256": "def415c2bc51d415f707a58b28c92df3a4b811dea547c29ebd147aabac1becb9",
+          "bytes": 23364,
+          "cues": 234,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.ass",
+          "sha256": "41666d4665814bb78095a9f7a1d5b5f6d457392853aa65ab79c72b1ba917005c",
+          "bytes": 28169,
+          "cues": 235,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.srt",
+          "sha256": "1610204540a215fcb4551c7c30836a700408cdcf47eb3720281e003b36eb954e",
+          "bytes": 21693,
+          "cues": 246,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.vtt",
+          "sha256": "50e41be547f44dd75dd43b163f382c167a26f7077c9cba7e09eb93a8ec6e6fc3",
+          "bytes": 21790,
+          "cues": 246,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.ass",
+          "sha256": "bd39dc3928041020945477e07181d55bea3958b2cb31355af494fdb1bc8428c9",
+          "bytes": 26784,
+          "cues": 247,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_04.kk.srt",
+          "sha256": "4024a00ef8f3bbb02c55b46b7b02ba62868171dc4620e9365cb4dda4d5697bd9",
+          "bytes": 22836,
+          "cues": 225,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_04.kk.vtt",
+          "sha256": "fbff725b2cf2efb5af2c7e13d58443f2afc547af446b5003e703680e7679dd32",
+          "bytes": 22933,
+          "cues": 225,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_04.kk.ass",
+          "sha256": "05209eff3164f5b31a61f8802141fa21b0597f417e850e3c4ed89b07801aef47",
+          "bytes": 27566,
+          "cues": 225,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_05.kk.srt",
+          "sha256": "c7dd191dd9c8a0596071277fae6245d3872a89e87fe1bc5b946628513a7b8891",
+          "bytes": 21971,
+          "cues": 235,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_05.kk.vtt",
+          "sha256": "f586933586c92b8801ebbf5ee9c749161c4ed5d2ecf48b88af54d5f400451661",
+          "bytes": 22068,
+          "cues": 235,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_05.kk.ass",
+          "sha256": "b643b7b3b35195b670f70f7b7852c2954b6347abc83a560e1457fa9a77389725",
+          "bytes": 26846,
+          "cues": 235,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_09.kk.srt",
+          "sha256": "c12827b0d525e8f9047cbdf63eb892f73d5e8eb1dee7249565a9a83d095965de",
+          "bytes": 25540,
+          "cues": 285,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_09.kk.vtt",
+          "sha256": "a1a0861fed03b0d3364bb58fa4936407f3504cc5505698e5b474d2c6c9d91932",
+          "bytes": 25637,
+          "cues": 285,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_09.kk.ass",
+          "sha256": "fd68ee9ce1dcb1d4986253db230b1e107323307f0bbc30c7053067261a78b9a4",
+          "bytes": 31219,
+          "cues": 286,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.srt",
+          "sha256": "798482e3bdae2085b8f2253206fe8d8e40d61b438cf89fce9b767943a6dbf8ed",
+          "bytes": 26310,
+          "cues": 297,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.vtt",
+          "sha256": "0cecb070fe7a41bfb3ed90cec7135e32d5b409c000b6ddc3de42c8a08f497c83",
+          "bytes": 26407,
+          "cues": 297,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.ass",
+          "sha256": "ad91368ffe1e0dca8fa557bbefb611be8cf77ac349da6da339e08a95c09c2c57",
+          "bytes": 32157,
+          "cues": 298,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.srt",
+          "sha256": "993c999d737c88350a7721a5dd7ce000d6b184f9d6474b9f0035dde63087ff78",
+          "bytes": 30775,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.vtt",
+          "sha256": "9e1b4fe0207d2647b0046c03d4c8d180c794a19017c9b60bc4b809de267fbc4a",
+          "bytes": 30872,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.ass",
+          "sha256": "4b4da54cb8d36161870098570a2a7650a2b6cb0532cdf92db0181e24509edfb9",
+          "bytes": 37518,
+          "cues": 357,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_21.kk.srt",
+          "sha256": "461bfa44b495c05fdbca9e629c484e418350c439f547609a49385f094c1ea6c7",
+          "bytes": 25959,
+          "cues": 261,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_21.kk.vtt",
+          "sha256": "e49218bae34287178b6a360eafc4841729460e13d66ed6e59ca5979a91fde21a",
+          "bytes": 26056,
+          "cues": 261,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_21.kk.ass",
+          "sha256": "282d16e8b9ca70182abcd9b6de1c1c7c38b11ee7da8c4a3b4c5db004bfa06247",
+          "bytes": 31225,
+          "cues": 261,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_22.kk.srt",
+          "sha256": "51c406ac85a9159b3845aac66e50a04cd8ffac0027350566aac9bf57760536ab",
+          "bytes": 26747,
+          "cues": 296,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_22.kk.vtt",
+          "sha256": "6235e7cac6ac53970b40c5b31abacb387e53e825f56c6e2371e06d1852210115",
+          "bytes": 26844,
+          "cues": 296,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_22.kk.ass",
+          "sha256": "5413c0737bd2ec2ffa1daf320e452c959357fcc0faa2dce9be4655353d5315ae",
+          "bytes": 32582,
+          "cues": 297,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.srt",
+          "sha256": "87d1dc91e5cc3b6c78843dbde35e06545c2de8805d3ac5b6e9d826a5f36019ab",
+          "bytes": 29854,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.vtt",
+          "sha256": "e662a695a2649efb9c890ee66878769bf0b47b6cba91ffdc86b885aac29967b6",
+          "bytes": 29951,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.ass",
+          "sha256": "b9bce80c214503ca95739933d28eb6931076f61bfccb9fe760f7e08a53d6a070",
+          "bytes": 36223,
+          "cues": 330,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "darker-than-black-kuro-no-keiyakusha-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/darker-than-black-kuro-no-keiyakusha/darker-than-black-kuro-no-keiyakusha-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/darker-than-black-kuro-no-keiyakusha/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_25.kk.srt",
+          "sha256": "e1d12fc7139bc2122a71d08a0c90ca07711f8949c5cdcda2f93fdc1093e5073d",
+          "bytes": 30938,
+          "cues": 330,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_25.kk.vtt",
+          "sha256": "baf0f9121585c2229f14cf0b3f61ff3ce3137904992ed14cca098089a8bbdcc7",
+          "bytes": 31035,
+          "cues": 330,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_25.kk.ass",
+          "sha256": "b49c8a420339b1474a1036bf826693b6fe7ac4adfff6b2d9024e1b168249ee8a",
+          "bytes": 37271,
+          "cues": 330,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 44,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/darker-than-black-kuro-no-keiyakusha.json",
+  "quality_flags": [
+    "duplicate_dialogue_content",
+    "duplicate_episode_content",
+    "normalized_subtitle_serialization"
   ]
 }

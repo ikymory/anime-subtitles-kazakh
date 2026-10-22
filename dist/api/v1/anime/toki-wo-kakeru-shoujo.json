@@ -17,24 +17,69 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "The Girl Who Leapt Through Time - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/toki-wo-kakeru-shoujo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/toki-wo-kakeru-shoujo.jpg",
+  "description": "The Girl Who Leapt Through Time - official Kazakh translation archive by ikymory.",
   "averageScore": 91,
   "popularity": 109200,
+  "catalog_id": "toki-wo-kakeru-shoujo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "toki-wo-kakeru-shoujo-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/toki-wo-kakeru-shoujo/toki-wo-kakeru-shoujo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/toki-wo-kakeru-shoujo/toki-wo-kakeru-shoujo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/toki-wo-kakeru-shoujo/toki-wo-kakeru-shoujo-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/toki-wo-kakeru-shoujo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/toki-wo-kakeru-shoujo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/toki-wo-kakeru-shoujo/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/toki-wo-kakeru-shoujo/ep_01.kk.ass",
+          "sha256": "fc02cbbbc4d1d5aab051e225c289886300791957992eae0d5a3c087c6f3758b7",
+          "bytes": 145095,
+          "cues": 1520,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/toki-wo-kakeru-shoujo/ep_01.kk.srt",
+          "sha256": "86430d948461a56fcf1e5631d3b675dabc29e7ca42c9f8b7dc18b342db26e1f4",
+          "bytes": 121645,
+          "cues": 1517,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/toki-wo-kakeru-shoujo/ep_01.kk.vtt",
+          "sha256": "0b8816c509dd331da31d39baf15e0d524ba8602e865d828a44beb8906935f7ca",
+          "bytes": 121653,
+          "cues": 1517,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/toki-wo-kakeru-shoujo.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

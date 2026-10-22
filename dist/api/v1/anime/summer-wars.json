@@ -13,39 +13,103 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5681-3DmxUVn3grD0.jpg",
+  "averageScore": 75,
+  "popularity": 56846,
+  "color": "hsl(347, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/5681-M15hrscD9QHN.jpg",
+  "catalog_id": "summer-wars",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "summer-wars-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/summer-wars/summer-wars-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/summer-wars/summer-wars-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/summer-wars/summer-wars-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/summer-wars/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/summer-wars/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/summer-wars/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/summer-wars/ep_01.kk.srt",
+          "sha256": "4440d467c7570f65dd33f7ba894118de95f10ed57bd6a5bbaba5c00febae05ab",
+          "bytes": 167874,
+          "cues": 1881,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/summer-wars/ep_01.kk.vtt",
+          "sha256": "aaaa9bfa4870f10c1c38f405b1b2ce745e08d39c23ad43a6ef5ebfea1db28d50",
+          "bytes": 167971,
+          "cues": 1881,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/summer-wars/ep_01.kk.ass",
+          "sha256": "dc596608f6d795eed21bd4a06ba241cd296a67c71591680087f0f8fbd1c96010",
+          "bytes": 196026,
+          "cues": 1881,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "summer-wars-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/summer-wars/summer-wars-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/summer-wars/summer-wars-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/summer-wars/summer-wars-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/summer-wars/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/summer-wars/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/summer-wars/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/summer-wars/ep_02.kk.srt",
+          "sha256": "bdb99358a2df4a83d5de32bc89c9222e1e8ee5bdd73dc2b928a3fd0256873e75",
+          "bytes": 162386,
+          "cues": 1574,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/summer-wars/ep_02.kk.vtt",
+          "sha256": "33d0debcd070f77ea13fd97ffa4bc2fa6fdd13d8ccf4318fdf82474eb0acea99",
+          "bytes": 162483,
+          "cues": 1574,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/summer-wars/ep_02.kk.ass",
+          "sha256": "130983562e31e99e09d3bb86f12de092e1097cdd422ea12869bebe46f3bf87a1",
+          "bytes": 186240,
+          "cues": 1574,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(347, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 75,
-  "popularity": 56846,
-  "translated_episodes_count": 2
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/summer-wars.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

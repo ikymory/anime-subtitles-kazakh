@@ -16,24 +16,68 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Pokémon: Lucario and the Mystery of Mew - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-lucario-mystery-mew.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-lucario-mystery-mew.jpg",
+  "description": "Pokémon: Lucario and the Mystery of Mew - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "pokemon-lucario-mystery-mew",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "pokemon-lucario-mystery-mew-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-lucario-mystery-mew/pokemon-lucario-mystery-mew-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-lucario-mystery-mew/pokemon-lucario-mystery-mew-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-lucario-mystery-mew/pokemon-lucario-mystery-mew-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-lucario-mystery-mew/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-lucario-mystery-mew/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-lucario-mystery-mew/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/pokemon-lucario-mystery-mew/ep_01.kk.ass",
+          "sha256": "5487fdb399bcbc55fa31e3ca33c99ad326fe004a3896834db2ae59082b5dccc7",
+          "bytes": 124642,
+          "cues": 1407,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/pokemon-lucario-mystery-mew/ep_01.kk.srt",
+          "sha256": "0f966e2bb6fa7f7b9bc286e22ec17b217d0474f013b9cd46b9567c8dd3e29a6d",
+          "bytes": 102774,
+          "cues": 1404,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/pokemon-lucario-mystery-mew/ep_01.kk.vtt",
+          "sha256": "b1adf4007ecfed56c798bf9a5b39993403fe7a4b0cd9771a1f64d781f8f99bd1",
+          "bytes": 102782,
+          "cues": 1404,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/pokemon-lucario-mystery-mew.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

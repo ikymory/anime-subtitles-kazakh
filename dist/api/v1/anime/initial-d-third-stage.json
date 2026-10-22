@@ -17,28 +17,71 @@
     "Romance",
     "Sports"
   ],
-  "description": "Takumi is approached by RedSuns leader Ryosuke Takahashi and offered to join him in forming a professional racing team. Before coming up with an answer to the proposal, Takumi seeks retribution by issuing a rematch to Emperor leader Kyouichi Sudou, who previously defeated him due to an engine failure. He is also challenged by Kai Kogashiwa, a second-generation street racer whose father was once a fierce rival of Takumi's father Bunta. <br>",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx187-QyCAlBGY3EWw.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187-EPd7ahDZZHyg.jpg",
+  "description": "Takumi is approached by RedSuns leader Ryosuke Takahashi and offered to join him in forming a professional racing team. Before coming up with an answer to the proposal, Takumi seeks retribution by issuing a rematch to Emperor leader Kyouichi Sudou, who previously defeated him due to an engine failure. He is also challenged by Kai Kogashiwa, a second-generation street racer whose father was once a fierce rival of Takumi's father Bunta. <br>",
   "averageScore": 78,
   "popularity": 51073,
+  "color": "#e4ae1a",
+  "duration": 104,
+  "studio": "Studio DEEN",
+  "catalog_id": "initial-d-third-stage",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "initial-d-third-stage-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-third-stage/initial-d-third-stage-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-third-stage/initial-d-third-stage-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/initial-d-third-stage/initial-d-third-stage-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-third-stage/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-third-stage/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/initial-d-third-stage/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/initial-d-third-stage/ep_01.kk.ass",
+          "sha256": "067a1228d188d6e650729155d1ed27f54990fd2ce3432adb78e3d0a804b687e0",
+          "bytes": 162322,
+          "cues": 1379,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/initial-d-third-stage/ep_01.kk.srt",
+          "sha256": "c799c5f77c68a9917dc93a3799f2975dc5e853042f8d2130d26cc72618ed3f73",
+          "bytes": 140884,
+          "cues": 1377,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/initial-d-third-stage/ep_01.kk.vtt",
+          "sha256": "16f8d08fe7076bbf445d8ae6d4321b2520af3e6bb9c021d2065fa476be769425",
+          "bytes": 140892,
+          "cues": 1377,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#e4ae1a",
-  "studio": "Studio DEEN",
-  "duration": 104,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/initial-d-third-stage.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

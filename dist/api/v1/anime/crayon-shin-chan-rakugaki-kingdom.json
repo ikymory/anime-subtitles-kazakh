@@ -15,24 +15,64 @@
     "Comedy",
     "Fantasy"
   ],
-  "description": "Crayon Shin-chan the Movie: Crash! Rakuga-Kingdom and Almost Four Heroes - official Kazakh translation archive by ikymory.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111312-kK2XqCwTn7zK.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111312-kK2XqCwTn7zK.jpg",
+  "description": "Crayon Shin-chan the Movie: Crash! Rakuga-Kingdom and Almost Four Heroes - official Kazakh translation archive by ikymory.",
   "averageScore": 68,
   "popularity": 1273,
+  "catalog_id": "crayon-shin-chan-rakugaki-kingdom",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "crayon-shin-chan-rakugaki-kingdom-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-rakugaki-kingdom/crayon-shin-chan-rakugaki-kingdom-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-rakugaki-kingdom/crayon-shin-chan-rakugaki-kingdom-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-rakugaki-kingdom/crayon-shin-chan-rakugaki-kingdom-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-rakugaki-kingdom/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-rakugaki-kingdom/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-rakugaki-kingdom/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/crayon-shin-chan-rakugaki-kingdom/ep_01.kk.srt",
+          "sha256": "526692302adb2938d561b91a3ab2e5e956d1dd8c010a8a543f873ceba645e332",
+          "bytes": 145165,
+          "cues": 1788,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/crayon-shin-chan-rakugaki-kingdom/ep_01.kk.vtt",
+          "sha256": "c6327b365625558705c7099423cca0a04e18f318fc54c2aab84abca858f0c714",
+          "bytes": 145262,
+          "cues": 1788,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/crayon-shin-chan-rakugaki-kingdom/ep_01.kk.ass",
+          "sha256": "3870d49f37d6169604bca14e6f1460f9e4afa92d63547c86aa48c0064e5b3817",
+          "bytes": 172255,
+          "cues": 1788,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/crayon-shin-chan-rakugaki-kingdom.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

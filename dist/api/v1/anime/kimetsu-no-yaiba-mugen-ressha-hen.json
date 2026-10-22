@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kimetsu no Yaiba. Mugen Ressha-hen - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kimetsu-no-yaiba-mugen-ressha-hen.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kimetsu-no-yaiba-mugen-ressha-hen.jpg",
+  "description": "Kimetsu no Yaiba. Mugen Ressha-hen - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kimetsu-no-yaiba-mugen-ressha-hen",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kimetsu-no-yaiba-mugen-ressha-hen-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimetsu-no-yaiba-mugen-ressha-hen/kimetsu-no-yaiba-mugen-ressha-hen-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimetsu-no-yaiba-mugen-ressha-hen/kimetsu-no-yaiba-mugen-ressha-hen-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kimetsu-no-yaiba-mugen-ressha-hen/kimetsu-no-yaiba-mugen-ressha-hen-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimetsu-no-yaiba-mugen-ressha-hen/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimetsu-no-yaiba-mugen-ressha-hen/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kimetsu-no-yaiba-mugen-ressha-hen/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kimetsu-no-yaiba-mugen-ressha-hen/ep_01.kk.srt",
+          "sha256": "e3d44ee55ff56460e7804c4462435a6793ec5a7b9824b4e73228d2e30256d998",
+          "bytes": 122296,
+          "cues": 1577,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kimetsu-no-yaiba-mugen-ressha-hen/ep_01.kk.vtt",
+          "sha256": "28144a68c4eb595785f404a47abbc95142ec91861152ef5864070f50313ba138",
+          "bytes": 122393,
+          "cues": 1577,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kimetsu-no-yaiba-mugen-ressha-hen/ep_01.kk.ass",
+          "sha256": "168e75b1294976e76e26e59239bb01d3479cc9dcf28ca05a30004b93c244c27f",
+          "bytes": 146432,
+          "cues": 1577,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kimetsu-no-yaiba-mugen-ressha-hen.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -15,24 +15,65 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Doraemon: Nobita and the Haunts of Evil - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-daimakyou.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-daimakyou.jpg",
+  "description": "Doraemon: Nobita and the Haunts of Evil - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 96000,
+  "catalog_id": "doraemon-daimakyou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-daimakyou-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-daimakyou/doraemon-daimakyou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-daimakyou/doraemon-daimakyou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-daimakyou/doraemon-daimakyou-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-daimakyou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-daimakyou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-daimakyou/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-daimakyou/ep_01.kk.srt",
+          "sha256": "3db6aa84f275b36440810fa19cc4eb05734dcf4d66e806b42b941c1325f2123a",
+          "bytes": 133343,
+          "cues": 1551,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-daimakyou/ep_01.kk.vtt",
+          "sha256": "ac994c13027f1c1d07c9c2a416fc98eefb9f7b1e126a083d460100b70a0d1b35",
+          "bytes": 133440,
+          "cues": 1551,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-daimakyou/ep_01.kk.ass",
+          "sha256": "59a3c4fed499a5221e0a6fc181a38ca48ea3a28728b902832c38663df3d63108",
+          "bytes": 157115,
+          "cues": 1551,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-daimakyou.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "normalized_subtitle_serialization"
   ]
 }

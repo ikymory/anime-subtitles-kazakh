@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Hokkyoku Hyakkaten no Concierge-san - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokkyoku-hyakkaten-no-concierge-san.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokkyoku-hyakkaten-no-concierge-san.jpg",
+  "description": "Hokkyoku Hyakkaten no Concierge-san - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hokkyoku-hyakkaten-no-concierge-san",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hokkyoku-hyakkaten-no-concierge-san-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokkyoku-hyakkaten-no-concierge-san/hokkyoku-hyakkaten-no-concierge-san-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokkyoku-hyakkaten-no-concierge-san/hokkyoku-hyakkaten-no-concierge-san-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokkyoku-hyakkaten-no-concierge-san/hokkyoku-hyakkaten-no-concierge-san-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokkyoku-hyakkaten-no-concierge-san/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokkyoku-hyakkaten-no-concierge-san/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokkyoku-hyakkaten-no-concierge-san/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hokkyoku-hyakkaten-no-concierge-san/ep_01.kk.srt",
+          "sha256": "fc13330b3891b84fd50f5a3ded90ed04e4d11cfcda9403e238178947045d360f",
+          "bytes": 102934,
+          "cues": 1200,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hokkyoku-hyakkaten-no-concierge-san/ep_01.kk.vtt",
+          "sha256": "680a5b19f7448920035ce3b89612baecd63f5bb3215111cf96420bdcc4a1122c",
+          "bytes": 103031,
+          "cues": 1200,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hokkyoku-hyakkaten-no-concierge-san/ep_01.kk.ass",
+          "sha256": "b4925391c6fe5703adb21834c31bd9b55e1abdc7cf2ceb9063b6a817c5d8c542",
+          "bytes": 121611,
+          "cues": 1200,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hokkyoku-hyakkaten-no-concierge-san.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -15,24 +15,64 @@
     "Action",
     "Sci-Fi"
   ],
-  "description": "Godzilla: The Planet Eater - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/godzilla-planet-eater.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/godzilla-planet-eater.jpg",
+  "description": "Godzilla: The Planet Eater - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 98400,
+  "catalog_id": "godzilla-planet-eater",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "godzilla-planet-eater-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/godzilla-planet-eater/godzilla-planet-eater-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/godzilla-planet-eater/godzilla-planet-eater-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/godzilla-planet-eater/godzilla-planet-eater-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/godzilla-planet-eater/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/godzilla-planet-eater/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/godzilla-planet-eater/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/godzilla-planet-eater/ep_01.kk.srt",
+          "sha256": "4945ca406871ddc19467920046720a7362e452706f6ba66c7a7a40bdcf18dcf0",
+          "bytes": 120029,
+          "cues": 1352,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/godzilla-planet-eater/ep_01.kk.vtt",
+          "sha256": "a7a3ec7bf76274b9d013b9b174bbe0d8cff0663218c6e520c43a8e1a68b0904c",
+          "bytes": 120126,
+          "cues": 1352,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/godzilla-planet-eater/ep_01.kk.ass",
+          "sha256": "49eef44eafcae711ddf3d1d203c3e2193d3872d9e280e61b002f7ba576e28595",
+          "bytes": 141016,
+          "cues": 1352,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/godzilla-planet-eater.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

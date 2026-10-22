@@ -16,35 +16,101 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "21 Emon - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/21-emon.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/21-emon.jpg",
+  "description": "21 Emon - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "21-emon",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     22,
     36
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 22,
       "language": "kk",
-      "filename": "21-emon-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/21-emon/21-emon-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/21-emon/21-emon-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/21-emon/21-emon-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/21-emon/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/21-emon/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/21-emon/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/21-emon/ep_22.kk.srt",
+          "sha256": "cac7979b9c982748374fa889902d526746ece41f69ad45aee286a30d94ec6239",
+          "bytes": 32281,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/21-emon/ep_22.kk.vtt",
+          "sha256": "bdd060acf59d3f6d1acc8ff78d263c6bdb6d14f6dc71e92854e03a086439f0e2",
+          "bytes": 32378,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/21-emon/ep_22.kk.ass",
+          "sha256": "38113bb4f7570d6d5619334ffd65a1453b3992792989f7d095c72ed4f8072d35",
+          "bytes": 38649,
+          "cues": 366,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 36,
       "language": "kk",
-      "filename": "21-emon-36ep.srt",
+      "filename": "ep_36.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/21-emon/21-emon-36ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/21-emon/21-emon-36ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/21-emon/21-emon-36ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/21-emon/ep_36.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/21-emon/ep_36.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/21-emon/ep_36.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/21-emon/ep_36.kk.srt",
+          "sha256": "14cfa6621ad0245c671a959c50f081392fc2e9f09b3d106690531ce2ae08becb",
+          "bytes": 30907,
+          "cues": 344,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/21-emon/ep_36.kk.vtt",
+          "sha256": "83ecc3c779024ea0bcc4fb897d970bd43e87977b58364897885687603e7f5720",
+          "bytes": 31004,
+          "cues": 344,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/21-emon/ep_36.kk.ass",
+          "sha256": "9a3dcf67e46054c309f4a077ae0d341f3dcbbc22804cc69220899d20deb926f8",
+          "bytes": 36945,
+          "cues": 344,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/21-emon.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

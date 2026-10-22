@@ -19,24 +19,68 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "This is the story of a man who has yet to realize what destiny holds in store for him….\n\nIn the distant future, mankind has lived quietly and restlessly underground for hundreds of years, subject to earthquakes and cave-ins.  Living in one such village are 2 young men: one named Simon who is shy and naïve, and the other named Kamina who believes in the existence of a “surface” world above their heads. The destiny of these two starts moving drastically when the ceiling of their village falls in, and a gigantic “Gunmen” and a beautiful girl named Yoko, wielding a superconductive rifle, come from the surface. Together, Kamina, Simon and Yoko ride the mecha “Lagann” that Simon digs out of the ground, and fly up to the surface!\n\nHowever, the surface is not the dreamland that Kamina envisioned. This world is ruled by the Spiral King and his army of beastmen. Kamina and Simon, along with their comrades, challenge the Spiral King in an attempt to change a desperate world to one full of hope for the future with Gurren Lagann!",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4107-WaS60WNsKZuu.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4107-AEaJQo7InYJ1.png",
+  "description": "This is the story of a man who has yet to realize what destiny holds in store for him….\n\nIn the distant future, mankind has lived quietly and restlessly underground for hundreds of years, subject to earthquakes and cave-ins.  Living in one such village are 2 young men: one named Simon who is shy and naïve, and the other named Kamina who believes in the existence of a “surface” world above their heads. The destiny of these two starts moving drastically when the ceiling of their village falls in, and a gigantic “Gunmen” and a beautiful girl named Yoko, wielding a superconductive rifle, come from the surface. Together, Kamina, Simon and Yoko ride the mecha “Lagann” that Simon digs out of the ground, and fly up to the surface!\n\nHowever, the surface is not the dreamland that Kamina envisioned. This world is ruled by the Spiral King and his army of beastmen. Kamina and Simon, along with their comrades, challenge the Spiral King in an attempt to change a desperate world to one full of hope for the future with Gurren Lagann!",
   "averageScore": 79,
   "popularity": 43938,
+  "catalog_id": "gurren-lagann-movie-childhoods-end",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gurren-lagann-movie-childhoods-end-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gurren-lagann-movie-childhoods-end/gurren-lagann-movie-childhoods-end-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gurren-lagann-movie-childhoods-end/gurren-lagann-movie-childhoods-end-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gurren-lagann-movie-childhoods-end/gurren-lagann-movie-childhoods-end-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gurren-lagann-movie-childhoods-end/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gurren-lagann-movie-childhoods-end/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gurren-lagann-movie-childhoods-end/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gurren-lagann-movie-childhoods-end/ep_01.kk.ass",
+          "sha256": "da6c4b8d695e899155ca9db159fe3060f015edd8442fbb3922a9f92811b45c55",
+          "bytes": 185698,
+          "cues": 1985,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gurren-lagann-movie-childhoods-end/ep_01.kk.srt",
+          "sha256": "1a566bcbb9c863a318929e7ca391909d00a42f9b2e3a1b55057c790436af2208",
+          "bytes": 155737,
+          "cues": 1982,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gurren-lagann-movie-childhoods-end/ep_01.kk.vtt",
+          "sha256": "9ad1beba30846eb483536afac6b9af86ee334776f22fcbcc945028caf4b8e215",
+          "bytes": 155745,
+          "cues": 1982,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gurren-lagann-movie-childhoods-end.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

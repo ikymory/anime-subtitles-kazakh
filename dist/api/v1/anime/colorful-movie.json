@@ -16,24 +16,68 @@
     "Psychological",
     "Supernatural"
   ],
-  "description": "Colorful - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/colorful-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/colorful-movie.jpg",
+  "description": "Colorful - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "colorful-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "colorful-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/colorful-movie/colorful-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/colorful-movie/colorful-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/colorful-movie/colorful-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/colorful-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/colorful-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/colorful-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/colorful-movie/ep_01.kk.srt",
+          "sha256": "a5893bf3faf8e6577bc135e95ebc6a024fd0b58343e996d6d2e2df91e2c139c9",
+          "bytes": 111328,
+          "cues": 1306,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/colorful-movie/ep_01.kk.vtt",
+          "sha256": "6ccc7a5c0a9e1e1caed0bf7e3a8adf2197e2f7046c8dbad28b7d23f9296887a1",
+          "bytes": 111425,
+          "cues": 1306,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/colorful-movie/ep_01.kk.ass",
+          "sha256": "41ea4e6ba6629b16b76a7a2b8ccfcc94c1309aca767f38b2f092d31f2378a7fb",
+          "bytes": 131234,
+          "cues": 1306,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/colorful-movie.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

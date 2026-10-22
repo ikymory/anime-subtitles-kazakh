@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Black★Rock Shooter (TV) - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/black-rock-shooter-tv.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/black-rock-shooter-tv.jpg",
+  "description": "Black★Rock Shooter (TV) - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "black-rock-shooter-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -31,86 +37,302 @@
     7,
     8
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 8,
+  "available_episodes_count": 8,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_01.kk.srt",
+          "sha256": "29d1efce6d8a7fa2004c2da6447d7ea0a5113b6d3287150ab665a843079e06da",
+          "bytes": 23004,
+          "cues": 281,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_01.kk.vtt",
+          "sha256": "e93edd765fbb34ae10d5dbf3197d9ced241f8e56fa809e89ab6245132b2712f5",
+          "bytes": 23101,
+          "cues": 281,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_01.kk.ass",
+          "sha256": "e440330b3316401d506ee80e5d2ac2e4a6dfbf6659cbb10e0519882e54df7741",
+          "bytes": 28098,
+          "cues": 281,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_02.kk.srt",
+          "sha256": "031485acef5d858af93cbe31cbfe98324b4264d2c2071ed2636b49da0ae8222e",
+          "bytes": 20893,
+          "cues": 239,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_02.kk.vtt",
+          "sha256": "32bb19e865004827e14d820f1ce53196e95cc0d4c6753f7b01578e4d1eb4c561",
+          "bytes": 20990,
+          "cues": 239,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_02.kk.ass",
+          "sha256": "97b48f6768be78431107bb3b4cd0242327ec1b4d37d418e41cebfe4dfe8c565d",
+          "bytes": 25356,
+          "cues": 239,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_03.kk.srt",
+          "sha256": "13ee7482dc0ec0510fc0e4ab80eb650618ad8b6879b6f0868db0d85bae384016",
+          "bytes": 24458,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_03.kk.vtt",
+          "sha256": "b2fd4a12de9f0622316ac73716ed0ff3bf31f9b53644780070239900dc475d2e",
+          "bytes": 24555,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_03.kk.ass",
+          "sha256": "ea3680a84eb8b6e2ea7276409c0a344f0cf4b491cb4f0eb9849523d07707b70b",
+          "bytes": 29596,
+          "cues": 284,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_04.kk.srt",
+          "sha256": "ccd807e9811497eaa0760592420ff91df8a770cc046cf3aa976ee81ed727dc6d",
+          "bytes": 24207,
+          "cues": 289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_04.kk.vtt",
+          "sha256": "005e533a3a8965b01754f53ab4bfe60606de1614b8fa89e275d63296ba1e0cd4",
+          "bytes": 24304,
+          "cues": 289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_04.kk.ass",
+          "sha256": "0df74f75fc7b9a5fdd5e4e573d121a5bc11f8077662ee81a56a3ecc30258552d",
+          "bytes": 29420,
+          "cues": 289,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_05.kk.srt",
+          "sha256": "d4fdfff9d141b63e65aac000c503823229a345ea0e9d24d3296290c80286a33d",
+          "bytes": 20179,
+          "cues": 243,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_05.kk.vtt",
+          "sha256": "4c5e0c39e43ac97668e04cad1a9fbf6a6e6603e100310809851a344137ca709b",
+          "bytes": 20276,
+          "cues": 243,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_05.kk.ass",
+          "sha256": "789ded2cdeb8b2e5d88575f89a460247b54904a9dd89bf3cd74ff62096b49761",
+          "bytes": 24702,
+          "cues": 243,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_06.kk.srt",
+          "sha256": "5b4c295ab66145b83b13e137fb3e2eacea0ba4059659a6236b13f7bacca49f0e",
+          "bytes": 17585,
+          "cues": 229,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_06.kk.vtt",
+          "sha256": "513dbd0a1434f3914cd7f680775541efa3c74c04ae6c900fab66ad50ace1a8f8",
+          "bytes": 17682,
+          "cues": 229,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_06.kk.ass",
+          "sha256": "6e1ae12154a8d962924508fab0afaf5e6369a79ecb126ebbedf6dd391b487c44",
+          "bytes": 21898,
+          "cues": 229,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_07.kk.srt",
+          "sha256": "e6007e0d9a2b351fc74cb959d0743600c95a6edd7301f4f7cf94a7644cc6203f",
+          "bytes": 22280,
+          "cues": 264,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_07.kk.vtt",
+          "sha256": "36a9d470474a0046cd0e1dff5e7952eceae7b5fd0988b030755d6d2bb8594d42",
+          "bytes": 22377,
+          "cues": 264,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_07.kk.ass",
+          "sha256": "852ae6fc0e462a177fa57a341992ea5ab59766b6bde2bbbce2ce5385a437ae2e",
+          "bytes": 27118,
+          "cues": 264,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "black-rock-shooter-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/black-rock-shooter-tv/black-rock-shooter-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/black-rock-shooter-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_08.kk.srt",
+          "sha256": "b4178df856b7a53fdcb9d2cf2d52538a13743562a1e8f928965a68dd19df020e",
+          "bytes": 18525,
+          "cues": 235,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/black-rock-shooter-tv/ep_08.kk.vtt",
+          "sha256": "1c544402f63426e53d9d2001aaeb39e1f1317ee9f0bc5ca97723705f7117015c",
+          "bytes": 18622,
+          "cues": 235,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/black-rock-shooter-tv/ep_08.kk.ass",
+          "sha256": "bf932ddebcf7072b1ab9fb2adccba22536777a5fff148a9d9a92671b6fa11014",
+          "bytes": 22928,
+          "cues": 235,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 24,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/black-rock-shooter-tv.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

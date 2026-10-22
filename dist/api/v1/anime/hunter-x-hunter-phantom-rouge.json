@@ -15,28 +15,68 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for Hunter x Hunter: Phantom Rouge.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx13271-jBxQFqHCpb2K.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/13271-JeaNxflV2oOy.jpg",
+  "description": "Kazakh subtitles for Hunter x Hunter: Phantom Rouge.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "hunter-x-hunter-phantom-rouge",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hunter-x-hunter-phantom-rouge-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hunter-x-hunter-phantom-rouge/hunter-x-hunter-phantom-rouge-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hunter-x-hunter-phantom-rouge/hunter-x-hunter-phantom-rouge-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hunter-x-hunter-phantom-rouge/hunter-x-hunter-phantom-rouge-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hunter-x-hunter-phantom-rouge/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hunter-x-hunter-phantom-rouge/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hunter-x-hunter-phantom-rouge/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hunter-x-hunter-phantom-rouge/ep_01.kk.srt",
+          "sha256": "fa39c1d2d0196ebd3d5e38ac1d2fe4420f265b25a8beeacb56bb9c28d5769c7f",
+          "bytes": 72713,
+          "cues": 734,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hunter-x-hunter-phantom-rouge/ep_01.kk.vtt",
+          "sha256": "8111f5d7ddb967639a79482ec4c6eb3c95a91eecdf61a37326c7652c8119c31c",
+          "bytes": 72810,
+          "cues": 734,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hunter-x-hunter-phantom-rouge/ep_01.kk.ass",
+          "sha256": "d77360b768595894a9862480e320c783c07676ea6102aa6c91ea25a3f23cea48",
+          "bytes": 84783,
+          "cues": 734,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hunter-x-hunter-phantom-rouge.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "normalized_subtitle_serialization"
+  ]
 }

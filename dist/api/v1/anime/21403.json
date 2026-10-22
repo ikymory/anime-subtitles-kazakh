@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Sword Art Online: Ordinal Scale",
     "english": "Sword Art Online the Movie: Ordinal Scale",
-    "native": "ソードアート・オンライン -オーディナル・スケール-"
+    "native": "ソードアート・オンライン -オーディナル・スケール-",
+    "kazakh": "Қылыш өнері онлайн: Реттік шкала",
+    "kk": "Қылыш өнері онлайн: Реттік шкала"
   },
   "format": "MOVIE",
   "episodes": 1,
@@ -16,22 +18,69 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "In 2022, the world of virtual reality was upended by the arrival of a new invention from a genius programmer, Akihiko Kayaba. Called NerveGear, it was the first full-dive system and with it, came endless possibilities to VRMMORPGs.<br><br>\n\nIn 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is “Ordinal Scale” (aka: OS), an ARMMORPG developed exclusively for the Augma.<br><br>\n\nAsuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They’re about to find out that Ordinal Scale isn’t all fun and games…<br><br>\n\n(Source: Official website)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21403-k8DZhZ3x1BCO.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21403-3CvHjmnIays3.jpg",
+  "description": "In 2022, the world of virtual reality was upended by the arrival of a new invention from a genius programmer, Akihiko Kayaba. Called NerveGear, it was the first full-dive system and with it, came endless possibilities to VRMMORPGs.\n\nIn 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is “Ordinal Scale” (aka: OS), an ARMMORPG developed exclusively for the Augma.\n\nAsuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They’re about to find out that Ordinal Scale isn’t all fun and games…\n\n(Source: Official website)",
+  "averageScore": 87,
+  "popularity": 50642,
+  "color": "#ff6b6b",
+  "duration": 119,
+  "studio": "A-1 Pictures",
+  "catalog_id": "sao",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "sao-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sao/sao-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sao/sao-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sao/sao-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sao/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sao/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sao/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sao/ep_01.kk.srt",
+          "sha256": "35b5eee77608238107834affb00c5770465eef2217167c3db612a4096af5cb00",
+          "bytes": 33114,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sao/ep_01.kk.vtt",
+          "sha256": "b5a30a92a77e8af3538049f2f23ec22d84c84b9a7e8840ae194e394bf744a002",
+          "bytes": 33211,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sao/ep_01.kk.ass",
+          "sha256": "2a5c99ecfe2aba30f72194f952287700f17d49eac06894c5afec64f9a95480b5",
+          "bytes": 38920,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sao.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

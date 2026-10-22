@@ -17,24 +17,68 @@
     "Slice of Life",
     "Supernatural"
   ],
-  "description": "Natsume's Book of Friends Movie: Ephemeral Bond - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/natsume-yuujinchou-utsusemi-ni-musubu.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/natsume-yuujinchou-utsusemi-ni-musubu.jpg",
+  "description": "Natsume's Book of Friends Movie: Ephemeral Bond - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "natsume-yuujinchou-utsusemi-ni-musubu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "natsume-yuujinchou-utsusemi-ni-musubu-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/natsume-yuujinchou-utsusemi-ni-musubu/natsume-yuujinchou-utsusemi-ni-musubu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/natsume-yuujinchou-utsusemi-ni-musubu/natsume-yuujinchou-utsusemi-ni-musubu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/natsume-yuujinchou-utsusemi-ni-musubu/natsume-yuujinchou-utsusemi-ni-musubu-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/natsume-yuujinchou-utsusemi-ni-musubu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/natsume-yuujinchou-utsusemi-ni-musubu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/natsume-yuujinchou-utsusemi-ni-musubu/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/natsume-yuujinchou-utsusemi-ni-musubu/ep_01.kk.ass",
+          "sha256": "ede047e60157ffc6a0478af65978f629a967ed5a3770bd946d04dc1552d93fa5",
+          "bytes": 169209,
+          "cues": 1767,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/natsume-yuujinchou-utsusemi-ni-musubu/ep_01.kk.srt",
+          "sha256": "74762a1e6b9eded68ea48872fd0e5879784a36b4968775376307e48f0539c587",
+          "bytes": 142339,
+          "cues": 1765,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/natsume-yuujinchou-utsusemi-ni-musubu/ep_01.kk.vtt",
+          "sha256": "9c23367592f259ab65538ea8e3aaf86e1813f5780a2a1198e31ad5786f48d4e5",
+          "bytes": 142347,
+          "cues": 1765,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/natsume-yuujinchou-utsusemi-ni-musubu.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

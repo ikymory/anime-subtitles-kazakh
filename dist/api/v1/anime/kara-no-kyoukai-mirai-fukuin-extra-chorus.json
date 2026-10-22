@@ -16,24 +16,64 @@
     "Mystery",
     "Supernatural"
   ],
-  "description": "Shiki ends up keeping a black cat while Mikiya Kokutou is out of town. Meanwhile, Risu Miyazuki, a student of Reien Girls’ Academy, suffers from the loss of her best friend who committed suicide by jumping off the Fujou Building. When she tries to kill herself, she encounters her classmate Asagami Fujino, who has psychokinetic power.<br>\n<br>\n(Source: Aniplex USA)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20697-ALO3Ek7gHvX9.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20697-I0sA9zDTEAUA.jpg",
+  "description": "Shiki ends up keeping a black cat while Mikiya Kokutou is out of town. Meanwhile, Risu Miyazuki, a student of Reien Girls’ Academy, suffers from the loss of her best friend who committed suicide by jumping off the Fujou Building. When she tries to kill herself, she encounters her classmate Asagami Fujino, who has psychokinetic power.<br>\n<br>\n(Source: Aniplex USA)",
   "averageScore": 72,
   "popularity": 18707,
+  "catalog_id": "kara-no-kyoukai-mirai-fukuin-extra-chorus",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kara-no-kyoukai-mirai-fukuin-extra-chorus-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/kara-no-kyoukai-mirai-fukuin-extra-chorus-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/kara-no-kyoukai-mirai-fukuin-extra-chorus-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/kara-no-kyoukai-mirai-fukuin-extra-chorus-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.srt",
+          "sha256": "d3ea8d684d0b87472e2f47533acb1139227db1dae9120535d4ac8cc35ec8f4be",
+          "bytes": 28196,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.vtt",
+          "sha256": "068afdd5cf31acfeb709adc0cd0c7c4758407088bd3e281b10ed5c37dd167ca8",
+          "bytes": 28293,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.ass",
+          "sha256": "02ec2a8e63d62523c0e1c3c8cf87857dccf6c0f7c6d5a4027c299bb05b5d0e59",
+          "bytes": 37907,
+          "cues": 336,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-mirai-fukuin-extra-chorus.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

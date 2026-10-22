@@ -16,28 +16,73 @@
     "Comedy",
     "Drama"
   ],
-  "description": "A movie project to commemorate the 35th anniversary of the <i>City Hunter</i> TV anime.\n<br><br>\nRyou Saeba is known as City Hunter, the top 'sweeper' within the underworld. Based in Shinjuku as a private detective, he and his partner Kaoru Makimura take on a variety of clients. Their latest case is provided by Angie, a filmmaker, with a simple request - to find her missing cat. Ryou is thrilled by Angie's beautiful looks while Kaori is thrilled by the hefty reward...<br><br>\n\nMeanwhile, Saeko Nogami of the Metropolitan Police investigates an invention of the biotech company Zoltech - a dark technology that turns soldiers on the battlefield into superhumans. Created at the request of a mysterious underworld organization, this invention is the newest version of Angel Dust, which once almost destroyed Ryou and sent his partner Hideyuki Makimura to his death.<br><br>\n\nCan these two cases possibly be linked? There's clearly more to Angie's request than she's willing to share, and the truth around Angel Dust is about to launch Ryou into a fateful showdown with links to Ryou's very origin as a sweeper...<br><br>\n\n<i>The Final Chapter Begins</i>.\n<br><br>\n(Source: Shout! Studios, edited)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147189-mvBrZ3HP6paT.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/147189-urQxv1xTRClM.jpg",
+  "description": "A movie project to commemorate the 35th anniversary of the <i>City Hunter</i> TV anime.\n<br><br>\nRyou Saeba is known as City Hunter, the top 'sweeper' within the underworld. Based in Shinjuku as a private detective, he and his partner Kaoru Makimura take on a variety of clients. Their latest case is provided by Angie, a filmmaker, with a simple request - to find her missing cat. Ryou is thrilled by Angie's beautiful looks while Kaori is thrilled by the hefty reward...<br><br>\n\nMeanwhile, Saeko Nogami of the Metropolitan Police investigates an invention of the biotech company Zoltech - a dark technology that turns soldiers on the battlefield into superhumans. Created at the request of a mysterious underworld organization, this invention is the newest version of Angel Dust, which once almost destroyed Ryou and sent his partner Hideyuki Makimura to his death.<br><br>\n\nCan these two cases possibly be linked? There's clearly more to Angie's request than she's willing to share, and the truth around Angel Dust is about to launch Ryou into a fateful showdown with links to Ryou's very origin as a sweeper...<br><br>\n\n<i>The Final Chapter Begins</i>.\n<br><br>\n(Source: Shout! Studios, edited)",
   "averageScore": 68,
   "popularity": 2894,
+  "color": "#ff4393",
+  "duration": 93,
+  "studio": "Sunrise",
+  "catalog_id": "city-hunter-angel-dust",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "city-hunter-angel-dust-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/city-hunter-angel-dust/city-hunter-angel-dust-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/city-hunter-angel-dust/city-hunter-angel-dust-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/city-hunter-angel-dust/city-hunter-angel-dust-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/city-hunter-angel-dust/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/city-hunter-angel-dust/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/city-hunter-angel-dust/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/city-hunter-angel-dust/ep_01.kk.ass",
+          "sha256": "ae9683e4a7b8cc80563acd9116c8f0cccc3f8acb42fdb91e0567088c5221694d",
+          "bytes": 142154,
+          "cues": 1606,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/city-hunter-angel-dust/ep_01.kk.srt",
+          "sha256": "ffbb02a4147f37f5242f9cbe8b02096239585248f7cd90aafd68b5dfabe4832c",
+          "bytes": 117575,
+          "cues": 1605,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/city-hunter-angel-dust/ep_01.kk.vtt",
+          "sha256": "8fdec28278b3978e6bcd52c8cc9c7f1d30afe168c6e16e5091f9913c1de9446c",
+          "bytes": 117583,
+          "cues": 1605,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff4393",
-  "studio": "Sunrise",
-  "duration": 93,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/city-hunter-angel-dust.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

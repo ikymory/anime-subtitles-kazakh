@@ -15,11 +15,20 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Cyberpunk: Edgerunners.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-ayZPoxiWt4Li.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120377-c15oLS8CA31s.jpg",
+  "description": "Kazakh subtitles for Cyberpunk: Edgerunners.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "cyberpunk-edgerunners",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -42,210 +51,758 @@
     19,
     20
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 20,
+  "available_episodes_count": 20,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_01.kk.srt",
+          "sha256": "bc896ac498bd90c9a170df89388b2a044970cd859db6f9bf2c73b9d345464070",
+          "bytes": 64825,
+          "cues": 659,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_01.kk.vtt",
+          "sha256": "334dc633da4158b60034eba12c97f67fed3a1337448010480dc56bc162121475",
+          "bytes": 64922,
+          "cues": 659,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_01.kk.ass",
+          "sha256": "fa83688bcebc068a2c67ebe858789b3c2dba8cf34b2420f4d5a3eb213408610c",
+          "bytes": 79991,
+          "cues": 659,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_02.kk.srt",
+          "sha256": "96c71327c2559acc4d77af9818ce7c040189b03997d4c5150b9ff530925112bc",
+          "bytes": 59477,
+          "cues": 644,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_02.kk.vtt",
+          "sha256": "baf28fb4d360441f387aee5f71f4a1cdd626ecc46e8ef3c71fb049f5cd2f9b58",
+          "bytes": 59574,
+          "cues": 644,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_02.kk.ass",
+          "sha256": "9452bb661b4a79a8a179b5259c2db6f498bb751ee1f626bb5d8f55d0b8897980",
+          "bytes": 74388,
+          "cues": 644,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_03.kk.srt",
+          "sha256": "19ceecd08684e02986233ba0795696283cba142f0882775c32ebad3a59a1f6bb",
+          "bytes": 79166,
+          "cues": 811,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_03.kk.vtt",
+          "sha256": "cdf64850d7d0b0958158d9693094d33694ed9f620eaa2d273aa2df3bc21ab12f",
+          "bytes": 79263,
+          "cues": 811,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_03.kk.ass",
+          "sha256": "5312d74f9e4d10d5c904c480d17a833ae1a5c57e8ac49d328891c8b5bc1b05b9",
+          "bytes": 97663,
+          "cues": 811,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_04.kk.srt",
+          "sha256": "a15aee5341c163fe07f2fe2e5bcd1c3f17466d596e5d132ef0cb9883ed42a540",
+          "bytes": 55573,
+          "cues": 645,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_04.kk.vtt",
+          "sha256": "76dd0e28ae0406f4670bec5250ba72741caab12493e3787925925cfdc4b42ad9",
+          "bytes": 55670,
+          "cues": 645,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_04.kk.ass",
+          "sha256": "57f8b3f860bafbfc803243114af12a3e8c2736a69b1835791f49b70f2c11a53f",
+          "bytes": 70480,
+          "cues": 645,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_05.kk.srt",
+          "sha256": "70c38425eb9f0f2fba2a0907b179c8c538d3a1c86c91ad713a9c5cfb7dcb4469",
+          "bytes": 65898,
+          "cues": 735,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_05.kk.vtt",
+          "sha256": "369bd1d430f74a9b22da36edb83a716ad76765673a05e1195f3beec825dc0df7",
+          "bytes": 65995,
+          "cues": 735,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_05.kk.ass",
+          "sha256": "0624200b3a9fea78cc835fda4d2fe930bb3c3293a8f55bf8b5cc5909a266df79",
+          "bytes": 82740,
+          "cues": 735,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_06.kk.srt",
+          "sha256": "e2c04817649cf6b5f7a0074e9587800ef8ce7c307870f7a2d4a2292a2cfa0fa8",
+          "bytes": 65822,
+          "cues": 772,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_06.kk.vtt",
+          "sha256": "82635d0b83074befa1c9723b7dbbfd088f9d3cb3cd74c799f57810e847db857b",
+          "bytes": 65919,
+          "cues": 772,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_06.kk.ass",
+          "sha256": "b41b53785984befaaefe8cb4787af37d589a4f9859c78cc45ded980eb3bf9c36",
+          "bytes": 83407,
+          "cues": 772,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_07.kk.srt",
+          "sha256": "01d13d77ef01841c92a3ce85da84f8de67cd2530c84153019916dae43d8213ed",
+          "bytes": 71594,
+          "cues": 735,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_07.kk.vtt",
+          "sha256": "80a64f835c3d9569f74ed14f536d3c2d4a9d8a4f9886c95ffaba6cc492016a90",
+          "bytes": 71691,
+          "cues": 735,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_07.kk.ass",
+          "sha256": "40d97f0c21cea6ef90260de60b753a5f492536e64126bfa0de6e241434baf3ce",
+          "bytes": 88454,
+          "cues": 735,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_08.kk.srt",
+          "sha256": "1ae97b2fbe430e938deeb915aa6c144c10f516152c6e8cbb7f63f8dbd4a9e78f",
+          "bytes": 60646,
+          "cues": 658,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_08.kk.vtt",
+          "sha256": "e1c11bf783b52d9290cd77f09ce9eaed7b160622dd2163974731d8fb5017b153",
+          "bytes": 60743,
+          "cues": 658,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_08.kk.ass",
+          "sha256": "b3c264191a8e3f564ca200a554e012a6625b1410f13bc7ff5ca709e4a48db12b",
+          "bytes": 75816,
+          "cues": 658,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_09.kk.srt",
+          "sha256": "c154dd76141dae3b50d6933518601fd69c9d282d0bda2d3eedda13a34d32dd97",
+          "bytes": 66225,
+          "cues": 704,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_09.kk.vtt",
+          "sha256": "24d1c7ef62f68be7981f4b8787f0b79bf93b50cbe106b02e91ade439e855854d",
+          "bytes": 66322,
+          "cues": 704,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_09.kk.ass",
+          "sha256": "26d421bacb32b2ad1352f9c3458909f43c60f6b611ecb367c5a86d28d9c9dff8",
+          "bytes": 82333,
+          "cues": 704,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_10.kk.srt",
+          "sha256": "bb8f28a457abe4b8c726c34d30e1c2ea59c21519eab188c60479b2724c22665c",
+          "bytes": 59524,
+          "cues": 656,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_10.kk.vtt",
+          "sha256": "c475beea69889bb820129350cfce08527fd3fcd1a67f2e4727f37b301f5382b4",
+          "bytes": 59621,
+          "cues": 656,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_10.kk.ass",
+          "sha256": "44b09572eeca506d2e35130fc529cd80e2cdc17d5d0ef3aa98b4dd07c28097ed",
+          "bytes": 74618,
+          "cues": 656,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_11.kk.srt",
+          "sha256": "e3a14553fc753a855e85111b507f92063d37e96c466eaa47afab1f618e57bec4",
+          "bytes": 40623,
+          "cues": 444,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_11.kk.vtt",
+          "sha256": "86c48d5ac5ce704e03b2570641f4615a83a369171ebbd997ec42b015549c5c64",
+          "bytes": 40720,
+          "cues": 444,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_11.kk.ass",
+          "sha256": "17e6d02e64469e24ad82ed8d1a877e47d36eaab6a296460e7dffe9a7e3d00ab4",
+          "bytes": 47906,
+          "cues": 444,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_12.kk.srt",
+          "sha256": "0c894e8bf9cc7e026146158f0801c3d62eeb21005d445f86cc1df09871654f18",
+          "bytes": 35462,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_12.kk.vtt",
+          "sha256": "8771fb19ebdf6eb611c40e5e2167c5b9dac8f9bb18daebd7ac47059ba5d52637",
+          "bytes": 35559,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_12.kk.ass",
+          "sha256": "93cdc53503b67f8660bf5c33a7c7bbbe7ec8d018561eb202920d461da25fd9ae",
+          "bytes": 42085,
+          "cues": 400,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_13.kk.srt",
+          "sha256": "b47c7f2599171a83b7cf0afe92dee3f0e59e953de367ffd0c63ef5f8e9ba5e70",
+          "bytes": 41411,
+          "cues": 490,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_13.kk.vtt",
+          "sha256": "36cf779c04b733eff918ec0c4318bc140dd158c9663e33bad94c79b6c763aba6",
+          "bytes": 41508,
+          "cues": 490,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_13.kk.ass",
+          "sha256": "7ef03e1bd5f82b335031a70dfa499c1cd53ea55151f5b2b835bd158264f901a5",
+          "bytes": 49384,
+          "cues": 490,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_14.kk.srt",
+          "sha256": "9d2575bb9b957f9fe6bf7c6cdb2c6ffac6ac3a8b2648d682d966c877b21c0cb7",
+          "bytes": 33131,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_14.kk.vtt",
+          "sha256": "010f40e7ba2c8184debf1a4ea87635b6eb9fcd87a4c5ff2a0b15ebb60b43b638",
+          "bytes": 33228,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_14.kk.ass",
+          "sha256": "dfdf81edbb96b15efc2121ef06e55c7cbb6df53402fb615d7a5873f64a48fb2a",
+          "bytes": 39814,
+          "cues": 404,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_15.kk.srt",
+          "sha256": "c96c1603f80ad1d38141cb9fa1566f2f0a98158c4640d641bb2f18a3565526b1",
+          "bytes": 33418,
+          "cues": 385,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_15.kk.vtt",
+          "sha256": "1a286f2442df090f8801c345715e68cad4607a2c2d34f02719bfdb4a2fd3fa10",
+          "bytes": 33515,
+          "cues": 385,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_15.kk.ass",
+          "sha256": "19cebe27270976af3266627ff4afd1950a29056dae657cbc0e38db39bfe59f78",
+          "bytes": 39816,
+          "cues": 385,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_16.kk.srt",
+          "sha256": "969cb18f2707bdcde8abab6fa75badfcd0bd21e66122543e9166774e1caa61bf",
+          "bytes": 32431,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_16.kk.vtt",
+          "sha256": "9aae7baa54dba0d52cb22eadf1104fe0a3819eaa4cbbc9e6203b5600f4aa0b54",
+          "bytes": 32528,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_16.kk.ass",
+          "sha256": "f5d047c9b8515da4dced897296f66d2dfbaae79beaef08be2ccea08c93b5a5e9",
+          "bytes": 39054,
+          "cues": 400,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_17.kk.srt",
+          "sha256": "ee0ef39d36ff693fca18c02bda7104b72bd1c9326e465e43cf5038c70bd7950a",
+          "bytes": 38594,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_17.kk.vtt",
+          "sha256": "9025da5737f761fa6975d5623a3f703192fb39e92249d2e9b35224f7d7b4d840",
+          "bytes": 38691,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_17.kk.ass",
+          "sha256": "3489055b9307427000e2d16a79def5610fa149b3b260a901fb11c16d78d5850f",
+          "bytes": 45652,
+          "cues": 429,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_18.kk.srt",
+          "sha256": "a7c1ae4bbfac40756604104c9dd903a80f7074b7aecc9c37cddcd26cbfe62cf9",
+          "bytes": 33205,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_18.kk.vtt",
+          "sha256": "0b9b966550921972e232b58e81c1f76eda124b1cba119030d76325d50335895a",
+          "bytes": 33302,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_18.kk.ass",
+          "sha256": "4516e002bf0bc0eafb87bad7a3f6eb4a46b4f190effddc17736b534ad20d764c",
+          "bytes": 39633,
+          "cues": 387,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_19.kk.srt",
+          "sha256": "87ad3c8d18374094274829171f62cc87254214bf8db72cca66195ee74ea8b77e",
+          "bytes": 37148,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_19.kk.vtt",
+          "sha256": "8f8740d521a883d5d8c9587e6999bf1fb3cb10261110de2fa5f3f23f44fb5a4a",
+          "bytes": 37245,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_19.kk.ass",
+          "sha256": "7104959f26194a405de1b8b190848edac6aa1fe1a22b9e66248c917adfe1e299",
+          "bytes": 43996,
+          "cues": 415,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "cyberpunk-edgerunners-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cyberpunk-edgerunners/cyberpunk-edgerunners-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cyberpunk-edgerunners/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_20.kk.srt",
+          "sha256": "5f6bff69602a881eb1131b3d6da982782d16ce8dcb6e6fa13b72fdb230e97ee0",
+          "bytes": 40252,
+          "cues": 443,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_20.kk.vtt",
+          "sha256": "92db63b7ed4ddf06237f45c972bc7f3ec766ba153cb087420354022414024a89",
+          "bytes": 40349,
+          "cues": 443,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cyberpunk-edgerunners/ep_20.kk.ass",
+          "sha256": "18de67bc77ab5b6631172e3a4f234d1ede804ee791c756bc4c44c92b7b65da82",
+          "bytes": 47520,
+          "cues": 443,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 20
+  "quality_issues_count": 82,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cyberpunk-edgerunners.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

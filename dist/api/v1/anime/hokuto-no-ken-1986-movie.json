@@ -16,24 +16,68 @@
     "Drama",
     "Sci-Fi"
   ],
-  "description": "Fist of the North Star: The Movie - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokuto-no-ken-1986-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokuto-no-ken-1986-movie.jpg",
+  "description": "Fist of the North Star: The Movie - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "hokuto-no-ken-1986-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hokuto-no-ken-1986-movie-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-1986-movie/hokuto-no-ken-1986-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-1986-movie/hokuto-no-ken-1986-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-1986-movie/hokuto-no-ken-1986-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-1986-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-1986-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-1986-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/hokuto-no-ken-1986-movie/ep_01.kk.ass",
+          "sha256": "0c30f55557c6a388eab2be6afce5e48504d2278bf4bb61c6db12e919fce4da8e",
+          "bytes": 119293,
+          "cues": 1245,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/hokuto-no-ken-1986-movie/ep_01.kk.srt",
+          "sha256": "b22dd8d9519967d7220c3fbfc307e8bf6e4c6eb7a2a17d72c8daf1b560ea7479",
+          "bytes": 99656,
+          "cues": 1241,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/hokuto-no-ken-1986-movie/ep_01.kk.vtt",
+          "sha256": "4b5505fd8f5068f46e826d863e4fa46c7fae6fcdc662dfd43041a2470a2d0292",
+          "bytes": 99664,
+          "cues": 1241,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hokuto-no-ken-1986-movie.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

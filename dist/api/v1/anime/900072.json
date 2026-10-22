@@ -1,0 +1,83 @@
+{
+  "id": 900072,
+  "slug": "given-umi-e",
+  "title": {
+    "romaji": "Given: To the Sea",
+    "english": "Given: To the Sea",
+    "native": "Given. Umi e",
+    "kazakh": "Гивен: Теңізге қарай",
+    "kk": "Гивен: Теңізге қарай"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2024,
+  "genres": [
+    "Drama",
+    "Music",
+    "Romance"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/given-umi-e.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/given-umi-e.jpg",
+  "description": "Given: To the Sea - official Kazakh translation archive by ikymory.",
+  "averageScore": 86,
+  "popularity": 103200,
+  "catalog_id": "given-umi-e",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/given-umi-e/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/given-umi-e/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/given-umi-e/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/given-umi-e/ep_01.kk.srt",
+          "sha256": "07b058ab9269afa6d92b3f655261573197600f441b8221532797d06e2dca876b",
+          "bytes": 96224,
+          "cues": 1175,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/given-umi-e/ep_01.kk.vtt",
+          "sha256": "3206ca6f307cdafcca12fef8063e081ab32db6aab56511bac49f1fcf1f6e62f5",
+          "bytes": 96321,
+          "cues": 1175,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/given-umi-e/ep_01.kk.ass",
+          "sha256": "ad91688c868069ec1e17a7d3c30ff6e7fb5351dd338356452254be35e50a0ad4",
+          "bytes": 114298,
+          "cues": 1175,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/given-umi-e.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
+}

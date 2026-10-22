@@ -16,24 +16,68 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Pokémon 3: The Movie - Spell of the Unown - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-entei-spell-of-unown.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-entei-spell-of-unown.jpg",
+  "description": "Pokémon 3: The Movie - Spell of the Unown - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "pokemon-entei-spell-of-unown",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "pokemon-entei-spell-of-unown-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-entei-spell-of-unown/pokemon-entei-spell-of-unown-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-entei-spell-of-unown/pokemon-entei-spell-of-unown-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-entei-spell-of-unown/pokemon-entei-spell-of-unown-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-entei-spell-of-unown/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-entei-spell-of-unown/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-entei-spell-of-unown/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/pokemon-entei-spell-of-unown/ep_01.kk.ass",
+          "sha256": "293d96665dd561ae9f52a51c093927832e4f1c2a444efc13adde2751fa3e6090",
+          "bytes": 83371,
+          "cues": 887,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/pokemon-entei-spell-of-unown/ep_01.kk.srt",
+          "sha256": "67f17c0716b9e29d2072a3a7548663e35949a49b97eb957b0047e5e5edfa9731",
+          "bytes": 68970,
+          "cues": 886,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/pokemon-entei-spell-of-unown/ep_01.kk.vtt",
+          "sha256": "60db92340d204655bb80f169216f5f79aa065d8180148cead2dc972c32c2b5fa",
+          "bytes": 68978,
+          "cues": 886,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/pokemon-entei-spell-of-unown.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

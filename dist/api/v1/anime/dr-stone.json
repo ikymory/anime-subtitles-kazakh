@@ -17,28 +17,69 @@
     "Comedy",
     "Sci-Fi"
   ],
-  "description": "Senkuu and the Kingdom of Science sail to new lands to uncover more scientific secrets! <br><br>\n(Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105333-GybuoSoOZfpH.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131518-uENBDjWnMHmN.jpg",
+  "description": "Senkuu and the Kingdom of Science sail to new lands to uncover more scientific secrets! \n(Source: Crunchyroll)",
+  "averageScore": 84,
+  "popularity": 53747,
+  "color": "#1aa1f1",
+  "duration": 24,
+  "studio": "TMS Entertainment",
+  "catalog_id": "dr-stone",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dr-stone-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dr-stone/dr-stone-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dr-stone/dr-stone-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dr-stone/dr-stone-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dr-stone/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dr-stone/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dr-stone/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dr-stone/ep_01.kk.srt",
+          "sha256": "7b0274fd1886ae7205605e4052102e914296c390d340b811457f73660a6d3247",
+          "bytes": 29455,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dr-stone/ep_01.kk.vtt",
+          "sha256": "fa064667e8edc4558a3e11fd863e82b823aa4249215ae9e1cbdfabe4fa81aa78",
+          "bytes": 29552,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dr-stone/ep_01.kk.ass",
+          "sha256": "9dab9336b4443112d354fbcd543a8e106bc46c68b1d164dc9e107d8c5dc0df5b",
+          "bytes": 35131,
+          "cues": 324,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#1aa1f1",
-  "studio": "TMS Entertainment",
-  "duration": 24,
-  "averageScore": 84,
-  "popularity": 53747,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dr-stone.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

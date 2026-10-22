@@ -1,0 +1,83 @@
+{
+  "id": 900119,
+  "slug": "nanoha-the-movie-1st",
+  "title": {
+    "romaji": "Magical Girl Lyrical Nanoha The MOVIE 1st",
+    "english": "Magical Girl Lyrical Nanoha The MOVIE 1st",
+    "native": "Mahou Shoujo Lyrical Nanoha. The MOVIE 1st",
+    "kazakh": "Сиқырлы қыз Наноха: Бірінші фильм",
+    "kk": "Сиқырлы қыз Наноха: Бірінші фильм"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2010,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Mahou Shoujo"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanoha-the-movie-1st.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanoha-the-movie-1st.jpg",
+  "description": "Magical Girl Lyrical Nanoha The MOVIE 1st - official Kazakh translation archive by ikymory.",
+  "averageScore": 85,
+  "popularity": 102000,
+  "catalog_id": "nanoha-the-movie-1st",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanoha-the-movie-1st/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanoha-the-movie-1st/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanoha-the-movie-1st/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/nanoha-the-movie-1st/ep_01.kk.srt",
+          "sha256": "63da2a9ab783dd2e5780e4aa469870e0a8dd5293784c5bdcd4b67bd95101a1b6",
+          "bytes": 119343,
+          "cues": 1441,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/nanoha-the-movie-1st/ep_01.kk.vtt",
+          "sha256": "e20818c529d4a6baacb52b6429d9771e1abf5250d371d886ab7f0189b2c55b2e",
+          "bytes": 119440,
+          "cues": 1441,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/nanoha-the-movie-1st/ep_01.kk.ass",
+          "sha256": "7d94790609f45a6af47b9623f21276d811ae0fa02f50f341dd451f9564c1489f",
+          "bytes": 141140,
+          "cues": 1441,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nanoha-the-movie-1st.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
+}

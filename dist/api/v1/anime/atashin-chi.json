@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Atashin’chi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/atashin-chi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/atashin-chi.jpg",
+  "description": "Atashin’chi - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "atashin-chi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "atashin-chi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_01.kk.srt",
+          "sha256": "86ee5e8e74a0dd8652211d9f4941cd8cee952fe8324063e6214370421960987d",
+          "bytes": 20032,
+          "cues": 222,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_01.kk.vtt",
+          "sha256": "588fae358edb086c5f2834657e8483e1a0bb6a2805f322dd0e6ab304bfbc8d33",
+          "bytes": 20129,
+          "cues": 222,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_01.kk.ass",
+          "sha256": "1f4495bf37f7d5cb6355c705915d63639a5570990aadc14e458fbd2677c714fd",
+          "bytes": 24240,
+          "cues": 222,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "atashin-chi-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_02.kk.srt",
+          "sha256": "219892ac668a32ff25d138ad3b8685f6c0249a2a0a6842ae400a9d3f046f5e3b",
+          "bytes": 20365,
+          "cues": 226,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_02.kk.vtt",
+          "sha256": "95ce5b2c035e6c973fdbc909f5788bdc1c9297919a3169541755af1aca23ffd6",
+          "bytes": 20462,
+          "cues": 226,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_02.kk.ass",
+          "sha256": "5b8572c03f3034006ea7138250668fe07f97c6ae0bd301ab456d3b490140f8f7",
+          "bytes": 24633,
+          "cues": 226,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "atashin-chi-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_03.kk.srt",
+          "sha256": "ad478a17b34e6c70891d8ac0b9c8db1bc387f6f6a50a85ee0a75719a8b48bb2d",
+          "bytes": 16988,
+          "cues": 214,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_03.kk.vtt",
+          "sha256": "b4aadd9a658a285f0d2f1ab8c8efee722fe5480fc762face9203eaf2fe2ffe30",
+          "bytes": 17085,
+          "cues": 214,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_03.kk.ass",
+          "sha256": "de5eb9b4b734ce42bc4327c2e0fb8b86de00cc1c67fcd55ee80f678ee72e94fa",
+          "bytes": 21076,
+          "cues": 214,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "atashin-chi-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_04.kk.srt",
+          "sha256": "9acde7af8fd88deaca730750fc01d65d0272fb009ee09bb1e0fef61c12662805",
+          "bytes": 18562,
+          "cues": 222,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_04.kk.vtt",
+          "sha256": "9db8bf2f47358ff4917132042631361a7be2261624d303d0a26123ab0ad1f955",
+          "bytes": 18659,
+          "cues": 222,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_04.kk.ass",
+          "sha256": "d95cc5d97db22a1724bef6a41033d8f86122deda41599760edfb8a5043f8ef7d",
+          "bytes": 22770,
+          "cues": 222,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "atashin-chi-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_05.kk.srt",
+          "sha256": "29d2c5edcb835a538ef3e5067361cbb7c1ba029fd29b56414773beeb42c5412a",
+          "bytes": 22016,
+          "cues": 272,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_05.kk.vtt",
+          "sha256": "ec91c1f3743352034d9af331baae13f2bd696c4f8caa6de05622ab61ff43cb46",
+          "bytes": 22113,
+          "cues": 272,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_05.kk.ass",
+          "sha256": "ecc5a24791bad6c1f2903fd471bd602d1230a81e6c637df8e184f47bea3885bc",
+          "bytes": 26974,
+          "cues": 272,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "atashin-chi-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_06.kk.srt",
+          "sha256": "7cca6f0802e8428b018d3d3a63b43abb638a3daf0789eede1496867568bf238a",
+          "bytes": 25200,
+          "cues": 319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_06.kk.vtt",
+          "sha256": "afd5780514ada19ea42e89e1854954fdcf0fe8543c5451d66906a207f9de6e91",
+          "bytes": 25297,
+          "cues": 319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_06.kk.ass",
+          "sha256": "844084376fe3b2db271a5e7cb2a532e8196a921901e21cdebe37fb5fb1de80a5",
+          "bytes": 30863,
+          "cues": 319,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "atashin-chi-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_07.kk.srt",
+          "sha256": "b236d5ba0f751b0fe086c15c23896232d240e4d0a31e6823aec95da223f68afc",
+          "bytes": 23002,
+          "cues": 288,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_07.kk.vtt",
+          "sha256": "39fb8e520b9e852bf3be136c1daa6e81e26859385c520f74fcd77e0ef792794b",
+          "bytes": 23099,
+          "cues": 288,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_07.kk.ass",
+          "sha256": "afa750bc9e42d4f4cd69a430af54ecf736900e6b1a6487681f653c97eb3d2abe",
+          "bytes": 28200,
+          "cues": 288,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "atashin-chi-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_08.kk.srt",
+          "sha256": "2e2cb652c00ef4b4681bbd3454c2e527525626ff8659fd7af74c7e945efafce3",
+          "bytes": 22977,
+          "cues": 291,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_08.kk.vtt",
+          "sha256": "834885a3e88a5f6af1e14f7c65b78a51cbac02236f3c92762296dd78186d7b04",
+          "bytes": 23074,
+          "cues": 291,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_08.kk.ass",
+          "sha256": "37f00d9c92b61f29790fcbd2351043dc262ea85b28eae37e00f887ba804160cb",
+          "bytes": 28220,
+          "cues": 291,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "atashin-chi-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_09.kk.srt",
+          "sha256": "20da2fe2cc05c961b47ca354feda1964453c9223eaf0d8d15ff637a7918f621f",
+          "bytes": 645,
+          "cues": 8,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_09.kk.vtt",
+          "sha256": "35e72d7d3697570c021bc3c877700120f8fd9bcdc9933f6d5a662684a471e814",
+          "bytes": 742,
+          "cues": 8,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_09.kk.ass",
+          "sha256": "7988b552a8871a7707cedd5df1f9f16f69a3ff4b31e251d22518c411524815ed",
+          "bytes": 1551,
+          "cues": 8,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "atashin-chi-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_10.kk.srt",
+          "sha256": "22829fd199e54b993526a78cb8181de5ad552cdea1fee50383eec222b6649228",
+          "bytes": 22619,
+          "cues": 273,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_10.kk.vtt",
+          "sha256": "57605864d122c4c4377e53f7ce2a07a1fa9aa253891d5be18acce9163c419978",
+          "bytes": 22716,
+          "cues": 273,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_10.kk.ass",
+          "sha256": "9295fd013b0bfd09df474e9b6c1528da131c24b2973b98c1c3467d1a502480b4",
+          "bytes": 27592,
+          "cues": 273,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "atashin-chi-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_11.kk.srt",
+          "sha256": "2359929ee865992343137cd316f180e7ebb0fa34d899b3b7f9bb0a8b854f89ae",
+          "bytes": 24153,
+          "cues": 303,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_11.kk.vtt",
+          "sha256": "9518dadca5dfa9d54524ba9bd3b1220b99663d3098edaa352c919e4dda57ca11",
+          "bytes": 24250,
+          "cues": 303,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_11.kk.ass",
+          "sha256": "e9652b83208eff447bf7523da643f27abdff13500f9fbfc2dfd50b0c957186fd",
+          "bytes": 29576,
+          "cues": 303,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "atashin-chi-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/atashin-chi/atashin-chi-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/atashin-chi/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/atashin-chi/ep_12.kk.srt",
+          "sha256": "ff8a4fb8ae2c5110ca732eb538695d0981a4bb0f5dfaaba6afa1529332eebb41",
+          "bytes": 25234,
+          "cues": 294,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/atashin-chi/ep_12.kk.vtt",
+          "sha256": "2fa30534c555acfa5e96ebadaf1fcf449c6e4285ea810e328b705e0b1e793aaa",
+          "bytes": 25331,
+          "cues": 294,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/atashin-chi/ep_12.kk.ass",
+          "sha256": "ab41a158460ed6a6f387710f32b1891d2c66f56446d65778b867784d967089a9",
+          "bytes": 30522,
+          "cues": 294,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/atashin-chi.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

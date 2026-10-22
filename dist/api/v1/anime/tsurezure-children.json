@@ -13,9 +13,19 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98291-LY6txxZTX8We.jpg",
+  "averageScore": 80,
+  "popularity": 67715,
+  "color": "#e4bbae",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n98291-cRLmqm7It2rZ.jpg",
+  "catalog_id": "tsurezure-children",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -31,142 +41,483 @@
     12,
     265
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tsurezure-children-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_01.kk.srt",
+          "sha256": "ee609d40d2c7de5cabb05ebb91a8c25ef4d762caaec289ff470b413d04e71efe",
+          "bytes": 20845,
+          "cues": 230,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_01.kk.vtt",
+          "sha256": "f2efb4b69eefbcce9b98d1757a5dab54f6ad2d40d6353dc3460d3065dc3e82ff",
+          "bytes": 20942,
+          "cues": 230,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_01.kk.ass",
+          "sha256": "bec5077d00dd94ee3b159f5ebd94e23f4b49e2b78e65bd0ff25afd4d945f4d9e",
+          "bytes": 25121,
+          "cues": 230,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "tsurezure-children-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_02.kk.srt",
+          "sha256": "356b4f5a884bb3efb60d3d7f704b413bffbb13d3f86be1fcd1525bc86917ceee",
+          "bytes": 25228,
+          "cues": 272,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_02.kk.vtt",
+          "sha256": "52e9057c943a673785cd7c8d6b4d4dbd44e1ce893419d5cddc467d0a87295ab5",
+          "bytes": 25325,
+          "cues": 272,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_02.kk.ass",
+          "sha256": "d324601d68a75938694926bf0c4da38b236b17dd0f41df4f921f621a0caf697b",
+          "bytes": 30134,
+          "cues": 272,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "tsurezure-children-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_03.kk.srt",
+          "sha256": "2d0f11eee73631f2da61d66d2123bfa59beecb613672a40d8da1a52dc0bac8a4",
+          "bytes": 26050,
+          "cues": 280,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_03.kk.vtt",
+          "sha256": "7c9c5c909d7816431f4e55e543aea1c97b86cc6bab4d2b5b73b654ab8f7b6156",
+          "bytes": 26147,
+          "cues": 280,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_03.kk.ass",
+          "sha256": "a8132f0ca7fb7c489ae79fec3c96f32d2a2b535543d842012a58f3334c09590e",
+          "bytes": 31076,
+          "cues": 280,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "tsurezure-children-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_04.kk.srt",
+          "sha256": "c62335bdff62eeebe412fd0da85b3f567997ebd25d2bea2e090553bfc4f44876",
+          "bytes": 26029,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_04.kk.vtt",
+          "sha256": "66091528a930084b07fddedda59b6e24a6e061f62ff36ed45af52aeb532f5206",
+          "bytes": 26126,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_04.kk.ass",
+          "sha256": "ba6137797c346d843fd2c02513e9dfd16acb4d4120fc1ec5b908dbf2a0929b72",
+          "bytes": 30830,
+          "cues": 265,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "tsurezure-children-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_05.kk.srt",
+          "sha256": "b50e3656354250f1f0eff6fd78360bdc8240463a92f04d6bdae82b39605ce8d3",
+          "bytes": 23452,
+          "cues": 230,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_05.kk.vtt",
+          "sha256": "692001caf2a9d293615ee5971b92318b76723c12f03da62cc302cff63fa6f4b8",
+          "bytes": 23549,
+          "cues": 230,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_05.kk.ass",
+          "sha256": "e7257dc33fb450ffc140e9844ce510611669f18109de5ef6d9f5b087e68848e1",
+          "bytes": 27728,
+          "cues": 230,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "tsurezure-children-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_06.kk.srt",
+          "sha256": "e3558b10e366e57b5b7c79b05c92958fd80592189db371db2bf240c8c99baea1",
+          "bytes": 23945,
+          "cues": 255,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_06.kk.vtt",
+          "sha256": "5768ed19c4e3d00f281c7f607fe860591c617000c5d1158aeeb153b8a5cdfbf4",
+          "bytes": 24042,
+          "cues": 255,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_06.kk.ass",
+          "sha256": "fa74d9497faf7716ef1f6be5c2582da0e9114d0794731fc8ba16215df1a50748",
+          "bytes": 28596,
+          "cues": 255,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "tsurezure-children-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_07.kk.srt",
+          "sha256": "75e29933bf88ae740539ed3e876cb4593780b5301606a06a846b6e49de5b9ab0",
+          "bytes": 23221,
+          "cues": 248,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_07.kk.vtt",
+          "sha256": "f8afa261b364f081e0afd3056dc86bdd0b06b7d982e7cbc0512f970918d49441",
+          "bytes": 23318,
+          "cues": 248,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_07.kk.ass",
+          "sha256": "24a348898267f432c87b1b80e294e0b95ad5c68231c2e46ffe5d8d51a563cbd3",
+          "bytes": 27767,
+          "cues": 248,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "tsurezure-children-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_08.kk.srt",
+          "sha256": "d1c2872ee5251e0de36a5376426081782432fd2f46a20e15630b6968ca42c882",
+          "bytes": 22953,
+          "cues": 237,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_08.kk.vtt",
+          "sha256": "237e28dda6e22581633348ad4a0c6ee0fb4ad18bb6dd74f68eb2097d356d6581",
+          "bytes": 23050,
+          "cues": 237,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_08.kk.ass",
+          "sha256": "7d2c8407f0a9c65a994ef007cf5ea9bcb4cb888d33e6ea1bcbecdddd7789fd6b",
+          "bytes": 27334,
+          "cues": 237,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "tsurezure-children-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_09.kk.srt",
+          "sha256": "dfb58463c934200a1c69b27d51d992ba6f8ca0572a869234f8c42cd800406ffb",
+          "bytes": 21575,
+          "cues": 222,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_09.kk.vtt",
+          "sha256": "398e548accc9f9d0517a38364cad097cba7ceff80494f347960105d7457f4222",
+          "bytes": 21672,
+          "cues": 222,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_09.kk.ass",
+          "sha256": "173b7e877494fdd8e093c9a9aedc22646bb8a0daf478bc99581a7d9f6dff3f77",
+          "bytes": 25731,
+          "cues": 222,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "tsurezure-children-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_10.kk.srt",
+          "sha256": "113f4998fd48ed8c2d7758b8f5c78c14e0afd4e856e3d13cac172d999eb5ed6b",
+          "bytes": 25407,
+          "cues": 271,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_10.kk.vtt",
+          "sha256": "76299d52370ad9934c42b76bf7d7558a20816cd1e7dc69175e28f75e9f95591e",
+          "bytes": 25504,
+          "cues": 271,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_10.kk.ass",
+          "sha256": "ecfe26549c8b55c2dbf23e3f024faaf03131e996065a67d27ad18f4d6c8324bd",
+          "bytes": 30298,
+          "cues": 271,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "tsurezure-children-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_11.kk.srt",
+          "sha256": "602708b03e8fea44c2974ea315f9a0bbf589c2ea1b2008c2b6e353e9fa9bc110",
+          "bytes": 21126,
+          "cues": 227,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_11.kk.vtt",
+          "sha256": "f7a9bdece870962bc3f5d5a7b49fd372f8d00fc1c2a170d938eee9057e37b70b",
+          "bytes": 21223,
+          "cues": 227,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_11.kk.ass",
+          "sha256": "68af63ce9c94c5518019d4775e18ca384dc3d3db4b0fc697f686953c6280b34f",
+          "bytes": 25357,
+          "cues": 227,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "tsurezure-children-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_12.kk.srt",
+          "sha256": "f9fd981aa8deaa4bdb8052f617e0a2ef0ea10e4c37dfd71cde3a3743d2793fb9",
+          "bytes": 18507,
+          "cues": 203,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_12.kk.vtt",
+          "sha256": "b7a01fca88f31380c5437d4c72e2a12e7e81c46e6a0720538c2122383b0bb552",
+          "bytes": 18604,
+          "cues": 203,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_12.kk.ass",
+          "sha256": "0045d7e173ed5954dabefe721574f68d9d77c934089ba9ba0973dff6065d1205",
+          "bytes": 22378,
+          "cues": 203,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 265,
       "language": "kk",
-      "filename": "tsurezure-children-265ep.srt",
+      "filename": "ep_265.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-265ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-265ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurezure-children/tsurezure-children-265ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_265.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_265.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurezure-children/ep_265.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurezure-children/ep_265.kk.srt",
+          "sha256": "f0b43c478b0072c58167b791c2d17c4209efdc1f43b767110013ce168253f5ad",
+          "bytes": 20848,
+          "cues": 230,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurezure-children/ep_265.kk.vtt",
+          "sha256": "15b79bfc2f044639ab730f4d6da89e470d0e737113e4bddb306fa20d8e8aaa9b",
+          "bytes": 20945,
+          "cues": 230,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurezure-children/ep_265.kk.ass",
+          "sha256": "f337cc9bde8908838817fca6cff67191a05d790e63579f1805eecb0edf96f536",
+          "bytes": 25124,
+          "cues": 230,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#e4bbae",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 80,
-  "popularity": 67715,
-  "translated_episodes_count": 13
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tsurezure-children.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

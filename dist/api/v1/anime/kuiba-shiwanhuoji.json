@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Kuiba. Shiwanhuoji - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kuiba-shiwanhuoji.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kuiba-shiwanhuoji.jpg",
+  "description": "Kuiba. Shiwanhuoji - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "kuiba-shiwanhuoji",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kuiba-shiwanhuoji-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kuiba-shiwanhuoji/kuiba-shiwanhuoji-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kuiba-shiwanhuoji/kuiba-shiwanhuoji-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kuiba-shiwanhuoji/kuiba-shiwanhuoji-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kuiba-shiwanhuoji/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kuiba-shiwanhuoji/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kuiba-shiwanhuoji/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kuiba-shiwanhuoji/ep_01.kk.srt",
+          "sha256": "f1eacd1da7e186e9ecfc14951b52c61a780e10055d89248ee13b89e3a05d3fda",
+          "bytes": 106700,
+          "cues": 1026,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kuiba-shiwanhuoji/ep_01.kk.vtt",
+          "sha256": "32633ba97f8f733b7e7113515226cb2d3bdee0784f113ebb0df94c1b687712d1",
+          "bytes": 106797,
+          "cues": 1026,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kuiba-shiwanhuoji/ep_01.kk.ass",
+          "sha256": "5e59d7aa3219745af0ce5a78cce92600f252abccb03dcb877165d849c68c824c",
+          "bytes": 123122,
+          "cues": 1026,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kuiba-shiwanhuoji.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

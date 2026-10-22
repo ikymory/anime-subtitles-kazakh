@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dragon Ball Z. Chikyuu Marugoto Chou Kessen - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-chikyuu-marugoto-chou-kessen.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-chikyuu-marugoto-chou-kessen.jpg",
+  "description": "Dragon Ball Z. Chikyuu Marugoto Chou Kessen - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dragon-ball-z-chikyuu-marugoto-chou-kessen",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-z-chikyuu-marugoto-chou-kessen-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/dragon-ball-z-chikyuu-marugoto-chou-kessen-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/dragon-ball-z-chikyuu-marugoto-chou-kessen-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/dragon-ball-z-chikyuu-marugoto-chou-kessen-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/ep_01.kk.srt",
+          "sha256": "63c73447fd4761f6628e2dce11dccdfd711f8bec6016b0fc2ba6f83d3bcd46ee",
+          "bytes": 50890,
+          "cues": 664,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/ep_01.kk.vtt",
+          "sha256": "554ecf80d4e9e876557e2182e0ad8dab9d2fb8727ce47c9e540e1baa9f3df93a",
+          "bytes": 50987,
+          "cues": 664,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-z-chikyuu-marugoto-chou-kessen/ep_01.kk.ass",
+          "sha256": "96cdb1c540d35922a27a65292da6af3a2eb29ccd31f1e70c267ae75992e3cd4b",
+          "bytes": 61728,
+          "cues": 664,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-chikyuu-marugoto-chou-kessen.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

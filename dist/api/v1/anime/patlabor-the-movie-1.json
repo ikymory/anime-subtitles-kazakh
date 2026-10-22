@@ -16,24 +16,65 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "The year is 1999 and Tokyo's Mobile Police have a new weapon in the war on crime &ndash; advanced robots called Labors are used to combat criminals who would use the new technology for illegal means. The suicide of a mysterious man on the massive Babylon Project construction site sets off a cascade of events that may signal the destruction of Tokyo.<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1095-uHF4BmIHLzbG.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1095-opwiGO1PYs0A.jpg",
+  "description": "The year is 1999 and Tokyo's Mobile Police have a new weapon in the war on crime &ndash; advanced robots called Labors are used to combat criminals who would use the new technology for illegal means. The suicide of a mysterious man on the massive Babylon Project construction site sets off a cascade of events that may signal the destruction of Tokyo.<br><br>\n(Source: Anime News Network)",
   "averageScore": 76,
   "popularity": 19394,
+  "catalog_id": "patlabor-the-movie-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "patlabor-the-movie-1-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patlabor-the-movie-1/patlabor-the-movie-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patlabor-the-movie-1/patlabor-the-movie-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/patlabor-the-movie-1/patlabor-the-movie-1-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patlabor-the-movie-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patlabor-the-movie-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/patlabor-the-movie-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/patlabor-the-movie-1/ep_01.kk.srt",
+          "sha256": "0e01f02781fe1343ce647dba32ad70259a2540e2a9da0fb6dbae10d4c1c8509a",
+          "bytes": 128740,
+          "cues": 1090,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/patlabor-the-movie-1/ep_01.kk.vtt",
+          "sha256": "8b4f145aed1750f3b344fc965a058921478c4ca68d643b81bece7663a070ce01",
+          "bytes": 128837,
+          "cues": 1090,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/patlabor-the-movie-1/ep_01.kk.ass",
+          "sha256": "6d1ea6f683858b1c1df4a43bf55a6f90cc18b57ba646ba4c737d8ee7a84c9f0b",
+          "bytes": 146059,
+          "cues": 1090,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/patlabor-the-movie-1.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

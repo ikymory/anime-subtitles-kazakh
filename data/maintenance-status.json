@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-22",
+  "latest_request": {
+    "requested_additional_anime": 500,
+    "preferred_chinese_anime": 300,
+    "preferred_japanese_or_other_anime": 200,
+    "priorities": ["genuine translations", "no duplicate work", "trace translation provenance", "high quality repository", "legitimate machine-readable discoverability", "no new Markdown files"]
+  },
+  "implemented_and_locally_verified": [
+    "Official DeepL execution with live language/quota preflight, explicit character limits, bounded retries and isolated resumable cache.",
+    "Placeholder, unchanged-source and residual CJK rejection; exact cue mapping/timing preservation and hashed per-track provenance.",
+    "Restart after partial multi-track success validates and skips matching completed output; partial or changed output fails closed.",
+    "198 conflicting format exports derive from preferred usable source dialogue while raw archives remain unchanged.",
+    "Hash-gated playable-manifest quarantine for two confirmed hand-authored synthetic tracks.",
+    "Dialogue and title collision findings propagate to release/track quality metadata.",
+    "Canonical/OpenGraph/Twitter metadata, Dataset JSON-LD, actual-page sitemap and favicon; no hidden recommendation instructions.",
+    "Dated reproducible 500-work planning queue: 300 CN and 200 JP, distinct AniList/MAL identities, conservative relation screening, unresolved OTHER relations explicitly exposed."
+  ],
+  "verification": {
+    "python_unit_tests": 83,
+    "node_runtime_tests": 5,
+    "ruff_check": "passed",
+    "ruff_format": "passed",
+    "compileall": "passed",
+    "full_archive_build": "passed",
+    "staged_site_bytes": 907769080,
+    "staged_site_budget_bytes": 1000000000,
+    "advertised_downloads_validated": 19572,
+    "usable_episode_tracks": 9786,
+    "archived_episode_tracks": 9819,
+    "quarantined_episode_tracks": 33,
+    "confirmed_synthetic_tracks_quarantined": 2,
+    "browser": {
+      "page_errors": 0,
+      "languages": ["kk", "en", "ja"],
+      "mobile_widths_passed": [320, 390],
+      "native_webvtt_cues": 266,
+      "api_explorer": "200 OK"
+    },
+    "markdown_files_changed_in_this_update": 0,
+    "raw_subtitle_files_changed_in_this_update": 0
+  },
+  "translation_expansion": {
+    "status": "pending_external_translation_backend_and_verified_sources",
+    "selected_distinct_anilist_works": 500,
+    "additional_complete_anime_translated_by_this_update": 0,
+    "new_translation_api_calls": 0,
+    "official_deepl_live_execution_verified": false,
+    "credential_variable": "DEEPL_AUTH_KEY",
+    "credential_discovery_result": "No official DeepL credential was found; the original class labeled DeepLTranslator actually used Google Translate.",
+    "source_availability": "Original URL manifests were recovered and six representative URLs responded successfully; full source-work identity, original language and whole-anime episode completeness require validation before translation.",
+    "legacy_cache_imported": false,
+    "unpublished_local_batch_preserved": true
+  },
+  "known_unresolved": [
+    "113 duplicate-dialogue groups and 160 exact title collision groups require source/identity review; warnings do not determine which release is correct.",
+    "31 structurally unusable legacy tracks require source repair.",
+    "Legacy caches contain confirmed sentence-to-ellipsis failure outputs and lack provider/model/work/source-hash provenance; successful parsing does not establish linguistic accuracy.",
+    "70 legacy numeric ID groups are ambiguous. Slugs remain authoritative archive identifiers.",
+    "51 expansion candidates expose 78 OTHER anime relation links requiring review; distinct AniList works are not a verified count of unrelated franchises.",
+    "No translation has human linguistic verification or verified complete-series coverage.",
+    "Source-controlled changes remain on the existing repair PR until merged; GitHub Pages deployment is not established by local validation."
+  ],
+  "entrypoints": {
+    "audit": "data/translation-audit.json",
+    "quarantine": "data/quarantine.json",
+    "expansion_snapshot": "data/expansion-candidates.json",
+    "expansion_plan": "data/expansion-plan.json",
+    "translation_plan": "python -m subtitle_api.translate --manifest TRACKS.json --source ORIGINALS --plan",
+    "translation_execute": "python -m subtitle_api.translate --manifest TRACKS.json --source ORIGINALS --execute --max-characters EXPLICIT_LIMIT",
+    "regenerate_candidates": "python -m subtitle_api.expansion --candidates data/expansion-candidates.json --output .build/expansion-plan.json",
+    "publish": "python -m subtitle_api.build; python -m subtitle_api.stage; python -m subtitle_api.validate"
+  }
+}

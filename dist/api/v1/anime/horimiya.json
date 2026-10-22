@@ -16,9 +16,20 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "A secret life is the one thing they have in common. At school, Hori is a prim and perfect social butterfly, but the truth is she's a brash homebody. Meanwhile, under a gloomy facade, Miyamura hides a gentle heart, along with piercings and tattoos. In a chance meeting, they both reveal a side they've never shown. Could this blossom into something new?<br>\n<br>\n(Source: Funimation)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124080-3i22mRVPBS0T.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124080-ARyLAHHgikRq.jpg",
+  "description": "A secret life is the one thing they have in common. At school, Hori is a prim and perfect social butterfly, but the truth is she's a brash homebody. Meanwhile, under a gloomy facade, Miyamura hides a gentle heart, along with piercings and tattoos. In a chance meeting, they both reveal a side they've never shown. Could this blossom into something new?\n\n(Source: Funimation)",
+  "averageScore": 83,
+  "popularity": 53886,
+  "color": "#5dc9f1",
+  "duration": 24,
+  "studio": "CloverWorks",
+  "catalog_id": "horimiya",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,142 +45,496 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "horimiya-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_01.kk.srt",
+          "sha256": "6821e16a4572acd32df673cdc710559a4da28c9cd95baea80e5c3278e72cdf37",
+          "bytes": 37473,
+          "cues": 409,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_01.kk.vtt",
+          "sha256": "2c0885057b8488b1e2db39a867e594e02bb7d6f33491b7f92ff65267a0341ad1",
+          "bytes": 37570,
+          "cues": 409,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_01.kk.ass",
+          "sha256": "9461f9f1d3641040e83454d739aad0563b95068d7a4f6af8973953b67c9532f3",
+          "bytes": 44424,
+          "cues": 409,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "horimiya-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_02.kk.srt",
+          "sha256": "c61e81ade81f4a29d794e3080dc3a2695c524a604b423595c4e79129edb0e24a",
+          "bytes": 38393,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_02.kk.vtt",
+          "sha256": "76c84fdf25655b554d8746f7c86c1b15cbd0f7d272346d7e4115fd93ae255e0a",
+          "bytes": 38490,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_02.kk.ass",
+          "sha256": "d09f51ead269732e4393d22898295a073cc47cccd2d70c8be6c8ad1751d90195",
+          "bytes": 44819,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "horimiya-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_03.kk.srt",
+          "sha256": "9070d51db760d07942e38c8a7ae84a65cf45f45b19f17e135b7614b908907141",
+          "bytes": 37182,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_03.kk.vtt",
+          "sha256": "8e1957bfd94975b8d0687ceefb573dec0dd7b0df755879d29e05318d49f0522a",
+          "bytes": 37279,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_03.kk.ass",
+          "sha256": "590329987e618af74970e7650e4f4173b3b235b7c8208a91952dda1232e7ae03",
+          "bytes": 44118,
+          "cues": 408,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "horimiya-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_04.kk.srt",
+          "sha256": "48a767b6eb16be6d0b3f4b1143e4b3bfb73a5ba9bf3df5dac6c209c7caa66114",
+          "bytes": 45767,
+          "cues": 422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_04.kk.vtt",
+          "sha256": "0adbd7d37cf5ae0a08eb637253337f6211e1bdb7e2d3f03e0c8fb23719016c0c",
+          "bytes": 45864,
+          "cues": 422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_04.kk.ass",
+          "sha256": "3819077eb82bcf68bd9fd20552cd98bb7c3503a057e8df7ebcdc2651151e90bc",
+          "bytes": 52913,
+          "cues": 422,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "horimiya-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_05.kk.srt",
+          "sha256": "ccd95ce9bf4d7fe07402c028fc0b6b20d63351e8b89bbce0a82a23b9bd008946",
+          "bytes": 42877,
+          "cues": 412,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_05.kk.vtt",
+          "sha256": "5f0d4caeb0045feabca4e8d3cd012af83e66c1f34475264d4ee23682d0541032",
+          "bytes": 42974,
+          "cues": 412,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_05.kk.ass",
+          "sha256": "621b15b932145d980bf410726a4ac8de937ca415ffc3686bc068d039f23c0597",
+          "bytes": 49873,
+          "cues": 412,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "horimiya-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_06.kk.srt",
+          "sha256": "42f7710c08d4da4882aa414e08d28f69daaf06581b2727e4de842f24988f7841",
+          "bytes": 38090,
+          "cues": 411,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_06.kk.vtt",
+          "sha256": "a5a9bad89e6c9297a3ac2261998d4bef2cdd3e4c00dfb9a3a2271fbf5a8f0d8f",
+          "bytes": 38187,
+          "cues": 411,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_06.kk.ass",
+          "sha256": "258226a211149c2d57ad663d2b6704c5012167deb3a96a636b25b84e4ce8e24a",
+          "bytes": 45071,
+          "cues": 411,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "horimiya-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_07.kk.srt",
+          "sha256": "568f69f1ad9950a98f1bee15d968a51b785f079cf4ffb08ce2de7afffe535c4b",
+          "bytes": 36563,
+          "cues": 373,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_07.kk.vtt",
+          "sha256": "63ea22b6834eacdd4c4f8c204096f8c3fdcd2ade22f7130411802a35dd5c8c35",
+          "bytes": 36660,
+          "cues": 373,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_07.kk.ass",
+          "sha256": "ecee01732bc26d0c5a781edfa7e6238325a8156147db81762f9b565301a20aa2",
+          "bytes": 42974,
+          "cues": 373,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "horimiya-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_08.kk.srt",
+          "sha256": "8944ffa1420784e1d3dcf4e7e3d9243d51ad1d9848f172c2e361c00a3cda0362",
+          "bytes": 40065,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_08.kk.vtt",
+          "sha256": "cd7c0032668aef21e5c0f4192f89bd51944d899199484cb428de6016383c7dd5",
+          "bytes": 40162,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_08.kk.ass",
+          "sha256": "498128809c4c20ec75e5a147904beb87ef2fb30c6098d17a9ba66dd9aaf596bd",
+          "bytes": 46791,
+          "cues": 394,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "horimiya-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_09.kk.srt",
+          "sha256": "dcd92c39819960c00e61ff048c8231e4b66378adcecf300e547325332fa4a538",
+          "bytes": 39896,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_09.kk.vtt",
+          "sha256": "9c32ad87f9cb3e6a3de0a671bbea88719de52806e8a5029c65cc9d34e9e14c33",
+          "bytes": 39993,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_09.kk.ass",
+          "sha256": "4854fa2353d41c0955f3a7a83857198993e8a440abe93d51b91a19ae6ce3c18e",
+          "bytes": 46697,
+          "cues": 399,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "horimiya-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_10.kk.srt",
+          "sha256": "4a1362d3af38c5bf81fd49650873a6302a4e5a7ac584b71babe925af71afabf3",
+          "bytes": 35226,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_10.kk.vtt",
+          "sha256": "774162687392056b7254fb41204ff5abe18241bca14519835155f50f5bbf39c0",
+          "bytes": 35323,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_10.kk.ass",
+          "sha256": "66ba540a69f55dfc89d634a029340eb9efe97fdc893d6b5db3ff1714eb63f1be",
+          "bytes": 41412,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "horimiya-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_11.kk.srt",
+          "sha256": "4587e507f162a060f30cc9f6f7348cbe3c0e24ec8f704290fbfbba4b53a93e8d",
+          "bytes": 38464,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_11.kk.vtt",
+          "sha256": "6fe1d4d51f428907f141150dc59fa6d8211cebacb9972f623573d6b4dee7aab7",
+          "bytes": 38561,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_11.kk.ass",
+          "sha256": "9e5a5548cb705e974fdea99d292c49bbb77eeb78eb8b0c9482ec78acf8fbfade",
+          "bytes": 45475,
+          "cues": 413,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "horimiya-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_12.kk.srt",
+          "sha256": "d03507d78217b3078b5a4658d71e15304eac1065c2b3e00e1033447260a26de4",
+          "bytes": 44895,
+          "cues": 420,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_12.kk.vtt",
+          "sha256": "281a60a2469aa80d0dc3f21f32d80b3468c522550506d60e8d0e249dc85b7663",
+          "bytes": 44992,
+          "cues": 420,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_12.kk.ass",
+          "sha256": "7e536bb8bbcc2ad7966e618647bf42300d074b2c7f1749703b1e06df7f7ea87d",
+          "bytes": 52011,
+          "cues": 420,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "horimiya-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/horimiya/horimiya-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/horimiya/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/horimiya/ep_13.kk.srt",
+          "sha256": "a19ed18f408e3367d4fdcc91ac4cac157e338887bea18ba300599646f8184f4a",
+          "bytes": 44274,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/horimiya/ep_13.kk.vtt",
+          "sha256": "9b18d07e220f6b33938a8f17b402d56f2f9e695a28dedfa734181a377fcbe231",
+          "bytes": 44371,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/horimiya/ep_13.kk.ass",
+          "sha256": "149ef26b34eaa6cef2a90ff0c27b1a83b7c6e8a641b82730bb757f88c59c9989",
+          "bytes": 51315,
+          "cues": 415,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#5dc9f1",
-  "studio": "CloverWorks",
-  "duration": 24,
-  "averageScore": 83,
-  "popularity": 53886,
-  "translated_episodes_count": 13
+  "quality_issues_count": 65,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/horimiya.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

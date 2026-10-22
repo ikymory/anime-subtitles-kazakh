@@ -17,28 +17,73 @@
     "Comedy",
     "Drama"
   ],
-  "description": "Said to be comparable to the Ancient Weapons of old, the Marines’ trump card, the “Dyna Stones,” have suddenly been stolen by a group of renegade vigilantes. The terrifyingly powerful man responsible, former Marine Admiral “Z”, now stands in the path of Luffy and his Straw Hat Pirates. Can the Straw Hats defeat “Z” and his crew, or will the New World meet its end at the hands of this mad man? <br>\n<br>\n(Source: Funimation)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx12859-uQFENDPzMWz6.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/12859-XjlBW6o2YwUb.jpg",
+  "description": "Said to be comparable to the Ancient Weapons of old, the Marines’ trump card, the “Dyna Stones,” have suddenly been stolen by a group of renegade vigilantes. The terrifyingly powerful man responsible, former Marine Admiral “Z”, now stands in the path of Luffy and his Straw Hat Pirates. Can the Straw Hats defeat “Z” and his crew, or will the New World meet its end at the hands of this mad man? <br>\n<br>\n(Source: Funimation)",
   "averageScore": 79,
   "popularity": 64594,
+  "color": "#f1ae5d",
+  "duration": 107,
+  "studio": "Toei Animation",
+  "catalog_id": "one-piece-film-z",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "one-piece-film-z-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-film-z/one-piece-film-z-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-film-z/one-piece-film-z-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-film-z/one-piece-film-z-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-film-z/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-film-z/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-film-z/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/one-piece-film-z/ep_01.kk.ass",
+          "sha256": "3e03b08ee3d61d6e991346ec3bc6894a793b0d29f3cecaf8d3027e45d5f5bfc5",
+          "bytes": 178116,
+          "cues": 1867,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/one-piece-film-z/ep_01.kk.srt",
+          "sha256": "26d91223d282b5a7ae2611c52a3b22196b1bd10998811967975ed82b472797b8",
+          "bytes": 149882,
+          "cues": 1866,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/one-piece-film-z/ep_01.kk.vtt",
+          "sha256": "3d3603a99fb9ba08431ccca09d277565dc3b2c053a138ec6c494d377b2355d42",
+          "bytes": 149890,
+          "cues": 1866,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#f1ae5d",
-  "studio": "Toei Animation",
-  "duration": 107,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-film-z.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

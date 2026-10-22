@@ -4,10 +4,12 @@
   "title": {
     "romaji": "Kimetsu no Yaiba: Mugenjou-hen Movie 1 - Akaza Sairai",
     "english": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
-    "native": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来"
+    "native": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+    "kazakh": "Жын жоюшы: Шексіз қамал",
+    "kk": "Жын жоюшы: Шексіз қамал"
   },
   "format": "MOVIE",
-  "episodes": 1,
+  "episodes": 26,
   "seasonYear": 2025,
   "genres": [
     "Action",
@@ -16,9 +18,20 @@
     "Fantasy",
     "Supernatural"
   ],
-  "description": "Tanjiro Kamado – a boy who joined an organization dedicated to hunting down demons called the Demon Slayer Corps after his younger sister Nezuko was turned into a demon.\n<br><br>\nWhile growing stronger and deepening his friendships and bonds with fellow corps members, Tanjiro has battled many demons with his comrades – Zenitsu Agatsuma and Inosuke Hashibira. Along the way, his journey has led him to fight alongside the Demon Slayer Corps’ highest-ranking swordsmen, the Hashira, including Flame Hashira Kyojuro Rengoku aboard the Mugen Train, Sound Hashira Tengen Uzui within the Entertainment District, as well as Mist Hashira Muichiro Tokito and Love Hashira Mitsuri Kanroji at the Swordsmith Village.\n<br><br>\nAs the Demon Slayer Corps members and Hashira engaged in a group strength training program, the Hashira Training, in preparation for the forthcoming battle against the demons, Muzan Kibutsuji appears at the Ubuyashiki Mansion. With the head of the Demon Corps in danger, Tanjiro and the Hashira rush to the headquarters but are plunged into a deep descent to a mysterious space by the hands of Muzan Kibutsuji.\n<br><br>\nThe destination of where Tanjiro and Demon Slayer Corps have fallen is the demons’ stronghold – the Infinity Castle. And so, the battleground is set as the final battle between the Demon Slayer Corps and the demons ignites.\n<br><br>\n(Source: Crunchyroll)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178788-zm3gtpB9TpRt.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178788-zm3gtpB9TpRt.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178788-tSHb5MiaNBNL.jpg",
+  "description": "Tanjiro Kamado – a boy who joined an organization dedicated to hunting down demons called the Demon Slayer Corps after his younger sister Nezuko was turned into a demon.\n\nWhile growing stronger and deepening his friendships and bonds with fellow corps members, Tanjiro has battled many demons with his comrades – Zenitsu Agatsuma and Inosuke Hashibira. Along the way, his journey has led him to fight alongside the Demon Slayer Corps’ highest-ranking swordsmen, the Hashira, including Flame Hashira Kyojuro Rengoku aboard the Mugen Train, Sound Hashira Tengen Uzui within the Entertainment District, as well as Mist Hashira Muichiro Tokito and Love Hashira Mitsuri Kanroji at the Swordsmith Village.\n\nAs the Demon Slayer Corps members and Hashira engaged in a group strength training program, the Hashira Training, in preparation for the forthcoming battle against the demons, Muzan Kibutsuji appears at the Ubuyashiki Mansion. With the head of the Demon Corps in danger, Tanjiro and the Hashira rush to the headquarters but are plunged into a deep descent to a mysterious space by the hands of Muzan Kibutsuji.\n\nThe destination of where Tanjiro and Demon Slayer Corps have fallen is the demons’ stronghold – the Infinity Castle. And so, the battleground is set as the final battle between the Demon Slayer Corps and the demons ignites.\n\n(Source: Crunchyroll)",
+  "averageScore": 89,
+  "popularity": 97500,
+  "color": "#35bbe4",
+  "duration": 155,
+  "studio": "ufotable",
+  "catalog_id": "kny",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -47,266 +60,979 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kny-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_01.kk.srt",
+          "sha256": "f4193d2c95359d638127befcf666ad53ec85fd53f35277f0054f65aa5cd8260b",
+          "bytes": 27183,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_01.kk.vtt",
+          "sha256": "372b26a86f7338b81cecc639461b9f40e89829d89b937b905cc2fd766f383e44",
+          "bytes": 27280,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_01.kk.ass",
+          "sha256": "e49b239cd478c7a0e5dd15e2bd7ee4945faffcce1f4e5f0919852568b2963121",
+          "bytes": 33304,
+          "cues": 354,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "kny-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_02.kk.srt",
+          "sha256": "30ea764471de6c5faa09d277fa3a043d7c8b6ca8b339347db4f8da08e733a69f",
+          "bytes": 24295,
+          "cues": 310,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_02.kk.vtt",
+          "sha256": "329de3c039d90cf3da91e3f608dc9e7a2468ca5e8b2888e5a41bc33dde1d1371",
+          "bytes": 24392,
+          "cues": 310,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_02.kk.ass",
+          "sha256": "d87d9b142df32406900447356ac5cc0627a0c565343feadd36b01c7b0ecce8c2",
+          "bytes": 29756,
+          "cues": 310,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "kny-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_03.kk.srt",
+          "sha256": "44e3c80e773b6518b359a57b318a4635311b4856c23d3def4fbc0948fb1fcbb5",
+          "bytes": 29323,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_03.kk.vtt",
+          "sha256": "a9d33ecc860d1245703abd68a1185d98917495cef368e58defd5bbd828cddf5a",
+          "bytes": 29420,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_03.kk.ass",
+          "sha256": "2b670582ae05be700688b501d9fdda5c46937db215d60dac0c435cd7f9240cac",
+          "bytes": 35009,
+          "cues": 325,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "kny-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_04.kk.srt",
+          "sha256": "a63eb2d1a1a5b6f77b08beebaeb4f031770b90ad2c3a6063e5aa33534fa9917d",
+          "bytes": 26576,
+          "cues": 287,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_04.kk.vtt",
+          "sha256": "9f5a602b30bc6580ccf65444869af10021ebda5a9ada3dc018e2f54ecfb7e753",
+          "bytes": 26673,
+          "cues": 287,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_04.kk.ass",
+          "sha256": "32e39e0882e9d3813731f98f4c7bb3fb4008030490ffa3c84efada8bb3eb5ad9",
+          "bytes": 31692,
+          "cues": 287,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "kny-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_05.kk.srt",
+          "sha256": "4b42110225fcd231cd0a78809306ff7a4e75890471fb8d2060433c0e0c33197b",
+          "bytes": 20584,
+          "cues": 266,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_05.kk.vtt",
+          "sha256": "3bf8192fb0c0eec3f36fbd4d00af750c6ef681bbf906f804bc9a99aa8e67dff2",
+          "bytes": 20681,
+          "cues": 266,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_05.kk.ass",
+          "sha256": "21b41719529a3d81abb8f5b7a55fff7566b1809461da75a8d32848f0baef15da",
+          "bytes": 25385,
+          "cues": 266,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "kny-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_06.kk.srt",
+          "sha256": "e431c3df5053fcad0615d5b29d34391ea76a6b3b3968a4aa068c0ab75f4b1c98",
+          "bytes": 24837,
+          "cues": 254,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_06.kk.vtt",
+          "sha256": "4dccd0d57e216d976f602aea8cb2bb06689c57f43178fb2202e19bc0d347f709",
+          "bytes": 24934,
+          "cues": 254,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_06.kk.ass",
+          "sha256": "61f6ec827fbea474de9c729811cd69140578dded0d4de3e39ecf148cca206888",
+          "bytes": 29458,
+          "cues": 254,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "kny-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_07.kk.srt",
+          "sha256": "f60a9192740fe7c6e729b487e77a7b9c9f35b5c5261cb4d76570746b0484cd1b",
+          "bytes": 21468,
+          "cues": 285,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_07.kk.vtt",
+          "sha256": "6f7fcbd054663551112520cea090f275b29eb7ca56c5aaedd319dc3da3739731",
+          "bytes": 21565,
+          "cues": 285,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_07.kk.ass",
+          "sha256": "c56517485f2fb0209c753fc020ebd4a03d40a75072a805fc9843069346c98824",
+          "bytes": 26554,
+          "cues": 285,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "kny-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_08.kk.srt",
+          "sha256": "31037807e8240a4854106d56a587829aa7927f6805146232e19fb65e7b94e407",
+          "bytes": 28713,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_08.kk.vtt",
+          "sha256": "6800d3bced7fd10a72cc88f34580eab49a14501e1ca6cfc5e80a853fcd337072",
+          "bytes": 28810,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_08.kk.ass",
+          "sha256": "9e24984ea8b1eacb5e66da5d38d45bf4af70f7e9d9c079307993c38ca8ac33dd",
+          "bytes": 34924,
+          "cues": 360,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "kny-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_09.kk.srt",
+          "sha256": "8867b697462275c788a1c591af4773631875f9d58946f50f1a7cb3ab1585c1d4",
+          "bytes": 27157,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_09.kk.vtt",
+          "sha256": "7d2c425e54e144e95e91dcc5772ac3da240b810bdc62ce3542d726133bc36741",
+          "bytes": 27254,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_09.kk.ass",
+          "sha256": "c09d833757f908294fbf97d2d967a5979d303e1249a475979db00483be24b05f",
+          "bytes": 32903,
+          "cues": 329,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "kny-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_10.kk.srt",
+          "sha256": "5a31808b161de21cade7fa4a8ebf5b2a8f20b82245a26ba00ecf25a967b2ae1f",
+          "bytes": 28585,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_10.kk.vtt",
+          "sha256": "9a03da5be5d043a1f1197a5c12cccbea7ac2a2772bfa09e229a3c42d2e2b44ea",
+          "bytes": 28682,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_10.kk.ass",
+          "sha256": "1584d10ce0d86a5dc4871e72f7d892f5e240bd88891da55e7b9bf6aac518cd31",
+          "bytes": 34226,
+          "cues": 322,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "kny-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_11.kk.srt",
+          "sha256": "5faf92a759a8fac9bfdaec486e45e93e64daca3c01ca1c40800f69760723fb36",
+          "bytes": 31435,
+          "cues": 373,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_11.kk.vtt",
+          "sha256": "c1663d3ab1fc2b932d177f6d51bbc3409e7dd8704b4b80a91eac03f9f516f6cb",
+          "bytes": 31532,
+          "cues": 373,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_11.kk.ass",
+          "sha256": "fd12d4d3c4ff4b3c7a948bba31e0a1df5355bec5568286aef9a9bc231bde71d1",
+          "bytes": 37841,
+          "cues": 373,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "kny-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_12.kk.srt",
+          "sha256": "c11ec2d813b3b0148cf21fe0a6c303aa0598b6ede4708a3e843c21d6db0bea3e",
+          "bytes": 33703,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_12.kk.vtt",
+          "sha256": "f8a7eb75354d1c698f6237ac5f0a1110f83cc84f20abc10f2e3f58900ab6ba69",
+          "bytes": 33800,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_12.kk.ass",
+          "sha256": "f62eeebc1ce6a060aaa539ff804d6c203b2a6649b77003ad1874b615113fbd4b",
+          "bytes": 40499,
+          "cues": 399,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "kny-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_13.kk.srt",
+          "sha256": "3b26b3908937d7445abb9c9725d3e98a119a9b51e33f2494a3ff56f3b9bdd679",
+          "bytes": 28037,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_13.kk.vtt",
+          "sha256": "aa017b5feade9b2164e5b8a699d79e4944c09afe8ec0e79d401dc7d97b82a7e6",
+          "bytes": 28134,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_13.kk.ass",
+          "sha256": "695809878f9d49cba79a89a5a79532db2ede8e91e0583e444460fdaa2259cedb",
+          "bytes": 34218,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "kny-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_14.kk.srt",
+          "sha256": "0fc2efaf9e3e11b6ef5b892bcc0aa1ec0aaf9ddd12cd2a532810a5d48ae62643",
+          "bytes": 32853,
+          "cues": 411,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_14.kk.vtt",
+          "sha256": "2f9a45300a57e8dd1176dc7c3bf53d5e9fbc711a14160cd8585eb694dd42b765",
+          "bytes": 32950,
+          "cues": 411,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_14.kk.ass",
+          "sha256": "dea6b082d772b92eddaa3d54b1348d4c14aced7f1976477f9887017b54f94bdf",
+          "bytes": 39829,
+          "cues": 411,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "kny-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_15.kk.srt",
+          "sha256": "446eecf63018f1c81ca9f68d12908c1f0bc9ea08f005525cd6d2e4294809f3b0",
+          "bytes": 25665,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_15.kk.vtt",
+          "sha256": "b1391ec51ef5e7193c0d459eceb09cdf71664021da5ab0128df07182c15d7ab1",
+          "bytes": 25762,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_15.kk.ass",
+          "sha256": "b510c4177a245af783b4f956b0c780d130c624b18fb12bcfe304637cc176f9ed",
+          "bytes": 31411,
+          "cues": 329,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "kny-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_16.kk.srt",
+          "sha256": "2a59f0e3fa1f01391e3fa1907aae198473c00bbb311a9f170562701f4c1285d2",
+          "bytes": 28147,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_16.kk.vtt",
+          "sha256": "78f6bac473eae8443635b3ef54d5a7a74a8cccb46659ff146112552b7300b607",
+          "bytes": 28244,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_16.kk.ass",
+          "sha256": "195ec5ebc82539921fb9d2fcaa5f49ec899cbd19f81c21570c2cfeb4c7bc7d29",
+          "bytes": 34373,
+          "cues": 361,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "kny-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_17.kk.srt",
+          "sha256": "b254a63f90724e2ac402c38f6a74a80a3d1dcc823d9526bbbccc65ae0f86b42d",
+          "bytes": 32798,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_17.kk.vtt",
+          "sha256": "7104fa29179e936d2d57a2d567ba783f978bf13102feed0bc94535b5af7e7325",
+          "bytes": 32895,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_17.kk.ass",
+          "sha256": "8893b330db7f67cc1a20ace2249de68fbcc0ce43b0f3c73ee194fb4c1e441b01",
+          "bytes": 38994,
+          "cues": 359,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "kny-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_18.kk.srt",
+          "sha256": "9ee977bc7d80630dc3f4fd2448ed33fb11a272ed5392ab451be191af83a0b803",
+          "bytes": 25844,
+          "cues": 328,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_18.kk.vtt",
+          "sha256": "789c3829e8668fad3a5bb662ef40b0e91bf3ec95e53fe4ee6f8a44620fd10898",
+          "bytes": 25941,
+          "cues": 328,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_18.kk.ass",
+          "sha256": "c6bb23b30ea6deea0931b3cbd14efa4cdd8c9fec64504c0826d33d816f788334",
+          "bytes": 31575,
+          "cues": 328,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "kny-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_19.kk.srt",
+          "sha256": "c89f794837240ea47255809e93c1d9e0b15ab63e56b1e4d6388e10edd17e4d08",
+          "bytes": 29117,
+          "cues": 341,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_19.kk.vtt",
+          "sha256": "99728fe25bb98158247272f1379e6af603d3cece8521dba4241f16c4c846bf4c",
+          "bytes": 29214,
+          "cues": 341,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_19.kk.ass",
+          "sha256": "0380f7a244f927e98fd20e2f6c3d451d0c714bb415a339e80593ee5aaf345770",
+          "bytes": 35043,
+          "cues": 341,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "kny-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_20.kk.srt",
+          "sha256": "bc81dcfe0e81554072ef278742c1189ec14ba05c5baff86f78c88fa636738fa5",
+          "bytes": 27278,
+          "cues": 290,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_20.kk.vtt",
+          "sha256": "64a260e6c377cb4511dec5d00b237c5dc2196387da929e6fb505ef5e1bfd0152",
+          "bytes": 27375,
+          "cues": 290,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_20.kk.ass",
+          "sha256": "e07ca1c417c8ab5b5b083c439481c1d57b197dfe78b8e9e7ce534d0990930ff5",
+          "bytes": 32439,
+          "cues": 290,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "kny-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_21.kk.srt",
+          "sha256": "08fe137c3ea16448d5cfc1ab22b7af83a3e9d0092fcabb2762a89bdf517fbc86",
+          "bytes": 24165,
+          "cues": 272,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_21.kk.vtt",
+          "sha256": "ededd0b5f24cd002d8f531ea2f1c3c43d6452039a0ed513a482632ece1d1bacd",
+          "bytes": 24262,
+          "cues": 272,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_21.kk.ass",
+          "sha256": "9305a0f45ae5f23e5615c7fc7a464401783b0a66fd3b1ace8a349cabe746a3e6",
+          "bytes": 29056,
+          "cues": 272,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "kny-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_22.kk.srt",
+          "sha256": "5aebb910e6fefb9fe13abaa9e544970eacc1d811a0c8007d66957cd473b4bc06",
+          "bytes": 28268,
+          "cues": 314,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_22.kk.vtt",
+          "sha256": "7e14038a457cb03272785bab03ace290547ffedeb1c6cb8c7707c24da63f382d",
+          "bytes": 28365,
+          "cues": 314,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_22.kk.ass",
+          "sha256": "ce46edb92b2f8cb7cfa2f57e81b8ac5ed7c5cf4e25a12df6e9b3318bbae938a7",
+          "bytes": 33789,
+          "cues": 314,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "kny-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_23.kk.srt",
+          "sha256": "7d78ba291e6486abe01c7c7f64f9bbea82f70533bb7099ff112cf074d372a7c1",
+          "bytes": 31211,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_23.kk.vtt",
+          "sha256": "1f53e5a61852070b496bbaae6f9a6a1be1ed4294730bc92f11b5c856bb635b5b",
+          "bytes": 31308,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_23.kk.ass",
+          "sha256": "42a217e14c5465263ee9163645d625203e2e2d98480e2ab869fd6ce1e337a642",
+          "bytes": 37167,
+          "cues": 343,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "kny-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_24.kk.srt",
+          "sha256": "763f6a69fe3b087e919dc3e19db1669abeeef69160b21a06ea49947fd763e773",
+          "bytes": 40727,
+          "cues": 453,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_24.kk.vtt",
+          "sha256": "c7b7cbca18d1dbb06be2debb6aa3f80d949ac3d3ed759e2a38bd30d1c745a638",
+          "bytes": 40824,
+          "cues": 453,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_24.kk.ass",
+          "sha256": "d930634a8fe027df611a6133b9b292505f9ea8db3627ee504fbe26833f67c6c2",
+          "bytes": 48333,
+          "cues": 453,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "kny-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_25.kk.srt",
+          "sha256": "1d6bddf4e20e1efb8c1205def581af062dbb51fb134a9683ccc33976f33e9d61",
+          "bytes": 33285,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_25.kk.vtt",
+          "sha256": "71a8fad07c87002d9c247756967ce2028a6ee470924215c9c951c158c02373b6",
+          "bytes": 33382,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_25.kk.ass",
+          "sha256": "ff3f446b650e479a0b22c73771b8722ce6c1b14d24b634d8fb72e2f22b28100e",
+          "bytes": 39811,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "kny-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kny/kny-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kny/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kny/ep_26.kk.srt",
+          "sha256": "ceadee1511423323c6f8fa41cef7e7927ff70d0bd2478e75f66bcf042bc9dd7d",
+          "bytes": 34655,
+          "cues": 371,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kny/ep_26.kk.vtt",
+          "sha256": "1c7cb094f7ae4e9000854567d2d63192b841ed353664c09c441db6c0b42d5d31",
+          "bytes": 34752,
+          "cues": 371,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kny/ep_26.kk.ass",
+          "sha256": "3a090966806000ba508229e411b216e07c36796d80e2080807cc2d66c58118b5",
+          "bytes": 41031,
+          "cues": 371,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 131,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kny.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

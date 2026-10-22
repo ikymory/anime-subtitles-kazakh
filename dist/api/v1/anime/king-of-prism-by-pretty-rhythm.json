@@ -15,24 +15,64 @@
     "Music",
     "Sports"
   ],
-  "description": "The unit Over The Rainbow succeeds in its debut. Aiming to become like the boy band, more students enroll in Edel Rose. Hiro and the others begin practice for the Prism King Cup, an event that is held once every four years. However, a rival called \"Schwarz Rose\" appears... Who will become the Prism King, the one who can make girls' hearts throb the most!?<br>\n<br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21409-F2Hpn9bGn23c.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21409-DTclCZjWqhg8.jpg",
+  "description": "The unit Over The Rainbow succeeds in its debut. Aiming to become like the boy band, more students enroll in Edel Rose. Hiro and the others begin practice for the Prism King Cup, an event that is held once every four years. However, a rival called \"Schwarz Rose\" appears... Who will become the Prism King, the one who can make girls' hearts throb the most!?<br>\n<br>\n(Source: Anime News Network)",
   "averageScore": 60,
   "popularity": 3671,
+  "catalog_id": "king-of-prism-by-pretty-rhythm",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "king-of-prism-by-pretty-rhythm-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/king-of-prism-by-pretty-rhythm/king-of-prism-by-pretty-rhythm-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/king-of-prism-by-pretty-rhythm/king-of-prism-by-pretty-rhythm-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/king-of-prism-by-pretty-rhythm/king-of-prism-by-pretty-rhythm-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/king-of-prism-by-pretty-rhythm/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/king-of-prism-by-pretty-rhythm/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/king-of-prism-by-pretty-rhythm/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/king-of-prism-by-pretty-rhythm/ep_01.kk.srt",
+          "sha256": "4ac3648ccc141ccda0c79034a6de5e805c0bfcffd8bd33f786ddff03bfdb4898",
+          "bytes": 80588,
+          "cues": 984,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/king-of-prism-by-pretty-rhythm/ep_01.kk.vtt",
+          "sha256": "d95a37aba2026873bbc2c57af9e1a5d274e76f7679d7ffde4aed0734d5066512",
+          "bytes": 80685,
+          "cues": 984,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/king-of-prism-by-pretty-rhythm/ep_01.kk.ass",
+          "sha256": "decce712865273218b13a6151ff205b0d4e95fd5d4be2535b578b561cf719248",
+          "bytes": 96407,
+          "cues": 984,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/king-of-prism-by-pretty-rhythm.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

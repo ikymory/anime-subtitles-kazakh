@@ -15,24 +15,69 @@
     "Adventure",
     "Mystery"
   ],
-  "description": "Conan was invited to a party with many other guests. They were there to test a new virtual game system, when a murder mystery occured. Now Conan must go into the game system to figure out who the murderer is with the help of the famous book character Sherlock Holmes. The lives of 49 kids testing the game are in his hands.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1365-FLEpMCC8Ghhk.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1365-o7WI3BxstabV.jpg",
+  "description": "Conan was invited to a party with many other guests. They were there to test a new virtual game system, when a murder mystery occured. Now Conan must go into the game system to figure out who the murderer is with the help of the famous book character Sherlock Holmes. The lives of 49 kids testing the game are in his hands.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 80,
   "popularity": 15880,
+  "catalog_id": "conan-movie-baker-street",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "conan-movie-baker-street-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-baker-street/conan-movie-baker-street-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-baker-street/conan-movie-baker-street-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-baker-street/conan-movie-baker-street-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-baker-street/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-baker-street/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-baker-street/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/conan-movie-baker-street/ep_01.kk.ass",
+          "sha256": "ab7ce97a4e90e93703b60f6c256cead9c5a1183457e9c13d30bf3439cd5edc6f",
+          "bytes": 196218,
+          "cues": 1895,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/conan-movie-baker-street/ep_01.kk.srt",
+          "sha256": "a80c0aa7df0d110e155d380bd90cc7acdc316f35d33e41022f301ac64949d647",
+          "bytes": 167147,
+          "cues": 1882,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/conan-movie-baker-street/ep_01.kk.vtt",
+          "sha256": "0f14ff19e0153970d959331894e52bc820c88fcda5c1faf6e8dfff2fd69f4614",
+          "bytes": 167155,
+          "cues": 1882,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/conan-movie-baker-street.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

@@ -17,24 +17,65 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "As the War continues, Amuro and the White Base crew must make their way toward the Earth Federation Headquarters, Jaburo. On their way they will meet several new enemies and face off against impossible odds. They will fight in Operation Odessa to relieve the Earth from the clutches of the Zeon forces.<br><br>\nLives will be lost, new friendships will be made, and discoveries lie at every corner. Amuro soon learns that he possesses the power of the mysterious Newtypes.<br><br>\n(Source: Otakufreakmk2)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1091-VSmUzzebMq7V.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1091-OzzxSPrzcZ4D.jpg",
+  "description": "As the War continues, Amuro and the White Base crew must make their way toward the Earth Federation Headquarters, Jaburo. On their way they will meet several new enemies and face off against impossible odds. They will fight in Operation Odessa to relieve the Earth from the clutches of the Zeon forces.<br><br>\nLives will be lost, new friendships will be made, and discoveries lie at every corner. Amuro soon learns that he possesses the power of the mysterious Newtypes.<br><br>\n(Source: Otakufreakmk2)",
   "averageScore": 71,
   "popularity": 14583,
+  "catalog_id": "gundam-movie-2-ai-senshi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gundam-movie-2-ai-senshi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-movie-2-ai-senshi/gundam-movie-2-ai-senshi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-movie-2-ai-senshi/gundam-movie-2-ai-senshi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-movie-2-ai-senshi/gundam-movie-2-ai-senshi-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-movie-2-ai-senshi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-movie-2-ai-senshi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-movie-2-ai-senshi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gundam-movie-2-ai-senshi/ep_01.kk.srt",
+          "sha256": "b2f593a328496e8358d6009d43dda2e918b741414026b3d975a2b27e33a73292",
+          "bytes": 207415,
+          "cues": 2326,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gundam-movie-2-ai-senshi/ep_01.kk.vtt",
+          "sha256": "9faa326b1f0b778d36a4a4cd776394cd3a941ae7b09c062206df31d71a7d48e6",
+          "bytes": 207512,
+          "cues": 2326,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gundam-movie-2-ai-senshi/ep_01.kk.ass",
+          "sha256": "cb9eedf47d112330f8263eecea33bd5c2d453aafb9f65b392adeba4db330a148",
+          "bytes": 242039,
+          "cues": 2326,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gundam-movie-2-ai-senshi.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

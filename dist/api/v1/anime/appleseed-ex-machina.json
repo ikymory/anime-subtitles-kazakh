@@ -16,28 +16,74 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Deunan, a young female warrior, and Briareos, a veteran cyborg-soldier, are both partners and lovers. As members of E.S.W.A.T., the elite special forces serving Olympus, they are deployed whenever trouble strikes. The two fighters find their partnership tested in a new way by the arrival of a new member to their ranks - an experimental Bioroid named Tereus.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2969-8rKdPrGZX9dt.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2969-8rKdPrGZX9dt.jpg",
+  "description": "Deunan, a young female warrior, and Briareos, a veteran cyborg-soldier, are both partners and lovers. As members of E.S.W.A.T., the elite special forces serving Olympus, they are deployed whenever trouble strikes. The two fighters find their partnership tested in a new way by the arrival of a new member to their ranks - an experimental Bioroid named Tereus.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 67,
   "popularity": 5563,
+  "color": "#1a7850",
+  "duration": 104,
+  "studio": "Digital Frontier",
+  "catalog_id": "appleseed-ex-machina",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "appleseed-ex-machina-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/appleseed-ex-machina/appleseed-ex-machina-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/appleseed-ex-machina/appleseed-ex-machina-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/appleseed-ex-machina/appleseed-ex-machina-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/appleseed-ex-machina/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/appleseed-ex-machina/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/appleseed-ex-machina/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/appleseed-ex-machina/ep_01.kk.srt",
+          "sha256": "31d5aa29de3e514c6d6ee24b36ea9a472105ff6d4794cb12a6aa0c114a7837a0",
+          "bytes": 195824,
+          "cues": 2029,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/appleseed-ex-machina/ep_01.kk.vtt",
+          "sha256": "28d1874ff4d176609faa16d887178267c0b9b0647e5088beaf79c71c64bae039",
+          "bytes": 195921,
+          "cues": 2029,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/appleseed-ex-machina/ep_01.kk.ass",
+          "sha256": "942bd189445807915ddfc70fff73f1f07ba06ef3c123b77d6caf8ab23cc5316a",
+          "bytes": 225853,
+          "cues": 2029,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#1a7850",
-  "studio": "Digital Frontier",
-  "duration": 104,
-  "translated_episodes_count": 1
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/appleseed-ex-machina.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

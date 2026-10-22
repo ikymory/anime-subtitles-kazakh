@@ -4,10 +4,12 @@
   "title": {
     "romaji": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
     "english": "Rascal Does Not Dream of a Dreaming Girl",
-    "native": "青春ブタ野郎はゆめみる少女の夢を見ない"
+    "native": "青春ブタ野郎はゆめみる少女の夢を見ない",
+    "kazakh": "Қиялшыл қызды армандамайтын тентек бала",
+    "kk": "Қиялшыл қызды армандамайтын тентек бала"
   },
   "format": "MOVIE",
-  "episodes": 1,
+  "episodes": 13,
   "seasonYear": 2019,
   "genres": [
     "Drama",
@@ -15,9 +17,20 @@
     "Romance",
     "Supernatural"
   ],
-  "description": "In Fujisawa, where the skies are bright and the seas glisten, Sakuta Azusagawa is in his second year of high school. His blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted with the appearance of his first crush, Shouko Makinohara. For reasons unknown, he encounters two Shouko's: one in middle school and another who has become an adult.\n<br>\n<br>\nAs Sakuta finds himself helplessly living with the Shouko's, the adult Shouko leads him around by the nose, causing a huge rift in his relationship with Mai.\n<br>\n<br>\nIn the midst of all of this, he discovers that the middle school Shouko is suffering from a grave illness and his scar begins to throb...\n<br>\n<br>\n(Source: Aniplex USA)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104157-rk99XI56PaIC.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104157-rk99XI56PaIC.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104157-PS7tfPpvJKhk.jpg",
+  "description": "In Fujisawa, where the skies are bright and the seas glisten, Sakuta Azusagawa is in his second year of high school. His blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted with the appearance of his first crush, Shouko Makinohara. For reasons unknown, he encounters two Shouko's: one in middle school and another who has become an adult.\n\n\nAs Sakuta finds himself helplessly living with the Shouko's, the adult Shouko leads him around by the nose, causing a huge rift in his relationship with Mai.\n\n\nIn the midst of all of this, he discovers that the middle school Shouko is suffering from a grave illness and his scar begins to throb...\n\n\n(Source: Aniplex USA)",
+  "averageScore": 80,
+  "popularity": 61835,
+  "color": "#8643f1",
+  "duration": 90,
+  "studio": "CloverWorks",
+  "catalog_id": "rascal-does-not",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -33,136 +46,496 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "rascal-does-not-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_01.kk.srt",
+          "sha256": "6a0e5a2e2e26204169b9791673d3fd7900d091a7baac4e507e314db201885dca",
+          "bytes": 38306,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_01.kk.vtt",
+          "sha256": "376e06feb3bd289e573e7c70df832c64f3275aaf79cc7aee571f6fec49becb0c",
+          "bytes": 38403,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_01.kk.ass",
+          "sha256": "c56738e1bd9c9c01765a237607660061a4e84b56836896006ed31f43315265df",
+          "bytes": 44454,
+          "cues": 355,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "rascal-does-not-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_02.kk.srt",
+          "sha256": "dd598ca342760f8a96a6a0a840b73ee0cdcccbf3f313bfe59399e652f745f643",
+          "bytes": 42423,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_02.kk.vtt",
+          "sha256": "18c35fcc57acfcfa6efafb1c3c55c157057693152d25874083fd945e5b2d57f1",
+          "bytes": 42520,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_02.kk.ass",
+          "sha256": "6c6d6033e1a6fc7e81b30a8d907d78177f26ee5b26a060b8b7d52c4c889d4b27",
+          "bytes": 48901,
+          "cues": 377,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "rascal-does-not-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_03.kk.srt",
+          "sha256": "978955bc63ead31bdfa9557becab74b939e889bcf8a09ec31d780849ea483533",
+          "bytes": 37596,
+          "cues": 340,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_03.kk.vtt",
+          "sha256": "b1390af77c22e6701d7ca6ab7258e0e00bce37ed45c86fdbd921e4acac3c4495",
+          "bytes": 37693,
+          "cues": 340,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_03.kk.ass",
+          "sha256": "813bfa5a0a6ca7aa41869b04e76795057d5941afe9430910c8b67945c02e9ff4",
+          "bytes": 43519,
+          "cues": 340,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "rascal-does-not-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_04.kk.srt",
+          "sha256": "f4df5297bf5860697f05f32e8de15edfdaafda04534d0e556bb4c1960d794b6d",
+          "bytes": 45914,
+          "cues": 384,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_04.kk.vtt",
+          "sha256": "d244b6ab90086c86d00ead71844e37cb65e39f34f5f607f0a39f312768258a73",
+          "bytes": 46011,
+          "cues": 384,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_04.kk.ass",
+          "sha256": "52d675e1f0f4e076f7f89b40fc97202f862bc9f105bf534619559d303b30ab7f",
+          "bytes": 52497,
+          "cues": 384,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "rascal-does-not-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_05.kk.srt",
+          "sha256": "e0dc27190d67535d6c23f9074002da70f4dce889ca400182dec891f1aaa1f2b5",
+          "bytes": 41775,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_05.kk.vtt",
+          "sha256": "e35ed3e09713dfba31f69a51b6fad47ead776275b68edfd31f0b7084fbdb4623",
+          "bytes": 41872,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_05.kk.ass",
+          "sha256": "4c58eb28359a4779a6ccb930f87107b02f2a26954152a7fd28c0b68c76d02d04",
+          "bytes": 48088,
+          "cues": 366,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "rascal-does-not-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_06.kk.srt",
+          "sha256": "5446ac14d968c68ff0f6779f885e4fcbfd3e8d0cc43d9e12cbd5cb48cd3f7bfa",
+          "bytes": 44522,
+          "cues": 353,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_06.kk.vtt",
+          "sha256": "988dbafb7b1977e60655eab6da1bd2d0a036f0e7463b6ec8198a031122b8066f",
+          "bytes": 44619,
+          "cues": 353,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_06.kk.ass",
+          "sha256": "3c25074a396eeb2a9fce301adc640bef6abdc41be1b529d7ed94cc4c973d5579",
+          "bytes": 50640,
+          "cues": 353,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "rascal-does-not-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_07.kk.srt",
+          "sha256": "a716d70c63a88215589895f0df145cf7e494f5c23d3cd8fb2e5dd1fc57db5b6b",
+          "bytes": 46495,
+          "cues": 384,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_07.kk.vtt",
+          "sha256": "74ab43e7022890b9b88cd5bfcb7b7f86efaaceaf47e482feb3bafe84a084813e",
+          "bytes": 46592,
+          "cues": 384,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_07.kk.ass",
+          "sha256": "0ddba0fcc029dd84ab9359efbd0b0cc652c68dc07412bea08f34471736e2f903",
+          "bytes": 53078,
+          "cues": 384,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "rascal-does-not-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_08.kk.srt",
+          "sha256": "42d4991d2ba0533368a5059771c0ad8be1bd15586bc1fa49f3276a8b8996a6d0",
+          "bytes": 42245,
+          "cues": 332,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_08.kk.vtt",
+          "sha256": "5483e9064323b5dd5e5c6ba5a84ca65b4c34e1ec62b348202259f172b4b56717",
+          "bytes": 42342,
+          "cues": 332,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_08.kk.ass",
+          "sha256": "3875377d3ca14219de017787de0c95695a6f3d0b9599287e67102aef4c4802a7",
+          "bytes": 48048,
+          "cues": 332,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "rascal-does-not-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_09.kk.srt",
+          "sha256": "b5e62b34b124d7f6331e3910d9be1454af25800dcad7fb07bf3bcbafcd4405af",
+          "bytes": 37298,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_09.kk.vtt",
+          "sha256": "a6fe9ce17d59b0fbdbaf3ac08fd80c9b630cbe4004241f6dc365a54238c48ca5",
+          "bytes": 37395,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_09.kk.ass",
+          "sha256": "b313ce779dd7efb4a4dc2483a0549511c41503e2cc7706b570906ec7c8a14a97",
+          "bytes": 43476,
+          "cues": 357,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "rascal-does-not-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_10.kk.srt",
+          "sha256": "9859be9ae5cfab3d3588b3d84412b9dcf562978e9e0008912aff0aec6c50bea1",
+          "bytes": 33759,
+          "cues": 346,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_10.kk.vtt",
+          "sha256": "9e8b1a1528ba404ceac7b69c2b860483661160abb2afc0ca47b4fea5420e0b95",
+          "bytes": 33856,
+          "cues": 346,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_10.kk.ass",
+          "sha256": "721f80435e333cdd312e18528e033dbc0280a3b71fd641409011b159b2098fdf",
+          "bytes": 39772,
+          "cues": 346,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "rascal-does-not-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_11.kk.srt",
+          "sha256": "8718604de7be33d78c404811fed1329c043db697aa8a083bd2bbed82b3d35cc6",
+          "bytes": 42764,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_11.kk.vtt",
+          "sha256": "7d1545ad3048c859b1ef4a7c71d6fc173c345f17208ca6344bbef58df3134929",
+          "bytes": 42861,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_11.kk.ass",
+          "sha256": "672078c57cc71754cc2c5c228d984abbdf71d7661f6fc8b6a2652cf6e4aac2ae",
+          "bytes": 48942,
+          "cues": 357,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "rascal-does-not-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_12.kk.srt",
+          "sha256": "fd10dacdb77fc9067fbc78ae4096e30ac8ada616345b6b020ebf94cb450fa04d",
+          "bytes": 40260,
+          "cues": 350,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_12.kk.vtt",
+          "sha256": "f01c95e02672443b444764b414c83132e3d769077f2c04771d4b02a07685aeb7",
+          "bytes": 40357,
+          "cues": 350,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_12.kk.ass",
+          "sha256": "6b6989e7b3ae5b169a4283e04cc8acaf61ecbe4883f48a6e6d6fca376a525314",
+          "bytes": 46333,
+          "cues": 350,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "rascal-does-not-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rascal-does-not/rascal-does-not-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rascal-does-not/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rascal-does-not/ep_13.kk.srt",
+          "sha256": "40176e09201ff48dc2c8e87cd0c5b57e4596957a5497f56344e3fb6b02c82291",
+          "bytes": 36272,
+          "cues": 337,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rascal-does-not/ep_13.kk.vtt",
+          "sha256": "d7eab1f9a9b3d14a61df35247e88d5c8d9130cd6cc88c17dc906e130a1de87c5",
+          "bytes": 36369,
+          "cues": 337,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rascal-does-not/ep_13.kk.ass",
+          "sha256": "c2a946be84f4913642ff5158a8ec4fb1df0fbadf7226d777d4218096988639a2",
+          "bytes": 42150,
+          "cues": 337,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 65,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/rascal-does-not.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

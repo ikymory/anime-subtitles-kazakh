@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Fujimoto Tatsuki 17-26 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fujimoto-tatsuki-17-26.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fujimoto-tatsuki-17-26.jpg",
+  "description": "Fujimoto Tatsuki 17-26 - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "fujimoto-tatsuki-17-26",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "fujimoto-tatsuki-17-26-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fujimoto-tatsuki-17-26/fujimoto-tatsuki-17-26-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fujimoto-tatsuki-17-26/fujimoto-tatsuki-17-26-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/fujimoto-tatsuki-17-26/fujimoto-tatsuki-17-26-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fujimoto-tatsuki-17-26/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fujimoto-tatsuki-17-26/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fujimoto-tatsuki-17-26/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/fujimoto-tatsuki-17-26/ep_01.kk.srt",
+          "sha256": "cb4251ca1757f99ca3168a3089d8e619d7e5c6c751a85e0db07d668edd0e8180",
+          "bytes": 23674,
+          "cues": 286,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/fujimoto-tatsuki-17-26/ep_01.kk.vtt",
+          "sha256": "c6a039f8d18db3b331554211304f9f6cc58362f5041729f54d6f49aff06fa1c4",
+          "bytes": 23771,
+          "cues": 286,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/fujimoto-tatsuki-17-26/ep_01.kk.ass",
+          "sha256": "c02390e76aebb3436b6fe09eb8285b2fc348be5d2502fe85920418a9096d4f7a",
+          "bytes": 28842,
+          "cues": 286,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fujimoto-tatsuki-17-26.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

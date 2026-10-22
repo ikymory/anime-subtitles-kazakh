@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "doraemon-steel-troops",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-steel-troops.json"
+    },
+    {
+      "slug": "gintama-season-3",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-season-3.json"
+    }
+  ]
+}

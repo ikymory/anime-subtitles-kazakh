@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Araburu Kisetsu no Otome-domo yo - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/araburu-kisetsu-no-otome-domo-yo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/araburu-kisetsu-no-otome-domo-yo.jpg",
+  "description": "Araburu Kisetsu no Otome-domo yo - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "araburu-kisetsu-no-otome-domo-yo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -28,56 +34,194 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 5,
+  "available_episodes_count": 5,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "araburu-kisetsu-no-otome-domo-yo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_01.kk.srt",
+          "sha256": "c5269d34425a3b441c685d8fb42578e25502859027c59c1d623885e31563ed27",
+          "bytes": 32532,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_01.kk.vtt",
+          "sha256": "343e607d03dfb69cd5ae61ef43d0cb99f09041d56cb7c9ba5a2d520a810da5e9",
+          "bytes": 32629,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_01.kk.ass",
+          "sha256": "54226309b923777e0ddd1cce48fdf64e6d21268e100b9f936f17df8cc06a83da",
+          "bytes": 38900,
+          "cues": 366,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "araburu-kisetsu-no-otome-domo-yo-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_02.kk.srt",
+          "sha256": "70d5135cfff9c4ee944dd9e98b9a06bb25456640d2e0265294e651d786eb6b78",
+          "bytes": 45619,
+          "cues": 560,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_02.kk.vtt",
+          "sha256": "5378a478dd2024e1ba5880606af29d58b1fbaaf59c3c7473cf0d2025b0f1d302",
+          "bytes": 45716,
+          "cues": 560,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_02.kk.ass",
+          "sha256": "25b80ed9e7b5a231044a6d16a1fffb5c7a6f054786c03a6f52e5e8442665c948",
+          "bytes": 54897,
+          "cues": 560,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "araburu-kisetsu-no-otome-domo-yo-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_04.kk.srt",
+          "sha256": "0d9ebfda3e8c0cee13a83db444489437c5cdfbc392ef8675b85bc4e17601e598",
+          "bytes": 36493,
+          "cues": 401,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_04.kk.vtt",
+          "sha256": "e43b561cf10b8743d97622a63d2c9fe79835535f274fa98eba971a45401e3779",
+          "bytes": 36590,
+          "cues": 401,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_04.kk.ass",
+          "sha256": "826aa8b455b2b11895b5492d00f3b148b90c37e5f627453af4beb323a9e02401",
+          "bytes": 43386,
+          "cues": 401,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "araburu-kisetsu-no-otome-domo-yo-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_05.kk.srt",
+          "sha256": "823030ce1f9ec098da9f32ea597ffcafe697b8bf1e4a4547d3ebf9a019d59242",
+          "bytes": 43018,
+          "cues": 472,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_05.kk.vtt",
+          "sha256": "fdcfb617e7bfb4c8cb78e4a00973c0cd0a8623472f72fb110ceaf70670510c98",
+          "bytes": 43115,
+          "cues": 472,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_05.kk.ass",
+          "sha256": "08e955d46992e30ebe41fc67ee15fd11bc5876c7e127d05eb1f3f0d8e0056e25",
+          "bytes": 50976,
+          "cues": 472,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "araburu-kisetsu-no-otome-domo-yo-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/araburu-kisetsu-no-otome-domo-yo/araburu-kisetsu-no-otome-domo-yo-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/araburu-kisetsu-no-otome-domo-yo/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_06.kk.srt",
+          "sha256": "100192531326207cda8764b02210c7eedb54e0d954188522344e50c0f271d9af",
+          "bytes": 44064,
+          "cues": 462,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_06.kk.vtt",
+          "sha256": "86252c7e9d53f5d224600f49416b8cc8ed1114848aea0fbabded04480bb9c3cf",
+          "bytes": 44161,
+          "cues": 462,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/araburu-kisetsu-no-otome-domo-yo/ep_06.kk.ass",
+          "sha256": "96277c4e19f5533ae2f001a58ea815cffa98876c779e659ce549071c7bfb1b77",
+          "bytes": 51872,
+          "cues": 462,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 15,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/araburu-kisetsu-no-otome-domo-yo.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

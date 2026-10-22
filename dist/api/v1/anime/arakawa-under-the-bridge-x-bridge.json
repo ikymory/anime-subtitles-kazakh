@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Arakawa Under the Bridge x Bridge - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arakawa-under-the-bridge-x-bridge.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arakawa-under-the-bridge-x-bridge.jpg",
+  "description": "Arakawa Under the Bridge x Bridge - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "arakawa-under-the-bridge-x-bridge",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +42,482 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_01.kk.srt",
+          "sha256": "5e62556ec6a06bfe0f4141c2175dadb788ef2313c55e8dfb8a68c25f737f78e0",
+          "bytes": 38534,
+          "cues": 396,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_01.kk.vtt",
+          "sha256": "8f5931a44d0d3c0fac3904bbb85822c054393dc13b616c722af9ec4a7af77d47",
+          "bytes": 38631,
+          "cues": 396,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_01.kk.ass",
+          "sha256": "6bf6e3ed136978fbf28cfc64d441b3ad0219ae100e38ad458f786e6baf9e25cc",
+          "bytes": 45352,
+          "cues": 396,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_02.kk.srt",
+          "sha256": "af24d19ce4f6a5a6c3c9f151ec2f7d88f60663051570d78a76ab7440cf9c08cd",
+          "bytes": 38632,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_02.kk.vtt",
+          "sha256": "2a4898858b558f779f2bd4bc3cb4c70aabd57400669347ae3a74e0edf1e6cf49",
+          "bytes": 38729,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_02.kk.ass",
+          "sha256": "38f7a9da4a907e8e315640ef0117c0cf982c1bc699a5af5c233e0f81bd99e3f3",
+          "bytes": 45225,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_03.kk.srt",
+          "sha256": "39d9fba0b26e2948446ecb813865be32b6daf23a7eb5923c370c3ca1f7feca46",
+          "bytes": 37862,
+          "cues": 380,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_03.kk.vtt",
+          "sha256": "3238173475197bad80c4222977509f9520720d7a199b795af0f691d8bf47b998",
+          "bytes": 37959,
+          "cues": 380,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_03.kk.ass",
+          "sha256": "a92808ddfd3f42743a179f16fa5af72508ed5ccb667dc75ce179b6b6d6bb445f",
+          "bytes": 44440,
+          "cues": 380,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_04.kk.srt",
+          "sha256": "0614c05bc6ff1ca89b34bddf24b186d40fb7e2c3165bd328f5c62fa85c0903d1",
+          "bytes": 39625,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_04.kk.vtt",
+          "sha256": "95911d4ca33be2777f41417f4450a1e9f3400c1e7d57ab11067ff56e7cb285c0",
+          "bytes": 39722,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_04.kk.ass",
+          "sha256": "9e0c0fa2ac68ccc00b4312374df32b0bc1c5b61e2a7fb324e6ec14872192617c",
+          "bytes": 46579,
+          "cues": 405,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_05.kk.srt",
+          "sha256": "f248b519e2fd5bd647f28292dbce34c1cc04ffa53925271b1aec9d95deee3902",
+          "bytes": 43673,
+          "cues": 507,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_05.kk.vtt",
+          "sha256": "0ab96894453fb76711fa86bb73f0e89e71f5bc92eac1ca1598dac4a2745ed68c",
+          "bytes": 43770,
+          "cues": 507,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_05.kk.ass",
+          "sha256": "6c10b677ad343ec63faba9483dc2a80296b3968271d45bbfeb8bd2016faa62d9",
+          "bytes": 52156,
+          "cues": 507,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_06.kk.srt",
+          "sha256": "bb4a3f485c0ba9e57e082ac68ad7430d839f5fe7a76af5379163040ff680b553",
+          "bytes": 41311,
+          "cues": 479,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_06.kk.vtt",
+          "sha256": "d14c50db648193d9a81cf4bd0af6f4c4588f72c3141be2047741bcc46d59e233",
+          "bytes": 41408,
+          "cues": 479,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_06.kk.ass",
+          "sha256": "81fb4df76738195cafb731cd65fe688ebf16f86bfd458f3b697fe37b2526c663",
+          "bytes": 49374,
+          "cues": 479,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_07.kk.srt",
+          "sha256": "ef2e66cbb0fb59f13fba13f485623905cbc821f35b1a7c03e47f76e7eb079f3e",
+          "bytes": 43245,
+          "cues": 460,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_07.kk.vtt",
+          "sha256": "e25d5c8faea948eeefa0dc658503a85ed14bbde4b3a660e6b77894569687df16",
+          "bytes": 43342,
+          "cues": 460,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_07.kk.ass",
+          "sha256": "35dd233c5a068a120c09b71bb7531a620d8ae611fb1055027784fdef112c2562",
+          "bytes": 51023,
+          "cues": 460,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_08.kk.srt",
+          "sha256": "112972811457fc011c13b66c135a6ccbd656b1454bdd4eeb9901be6d3db4b83d",
+          "bytes": 38742,
+          "cues": 450,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_08.kk.vtt",
+          "sha256": "bd5492917408482c489e3a63ad94b7f76252044e24c9e34b72764808efbf164f",
+          "bytes": 38839,
+          "cues": 450,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_08.kk.ass",
+          "sha256": "89fbba6a4a006b8aafd9000a20c67301478a9dd4d93bfa6592edee325765873d",
+          "bytes": 46370,
+          "cues": 450,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_09.kk.srt",
+          "sha256": "ea5bb897c5bac5677998546de139e6c16827bac7a0871047d82c792fbbc34eab",
+          "bytes": 40214,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_09.kk.vtt",
+          "sha256": "4daf28f793afe10d3e5ccd05feed2f10419754154830e848c0b3b2731b44dfff",
+          "bytes": 40311,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_09.kk.ass",
+          "sha256": "7d06865fd25bd96369c6074d496510ae5390a3390e7f33d8983f57dbe3bfc839",
+          "bytes": 47167,
+          "cues": 405,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_10.kk.srt",
+          "sha256": "4a83c9a9412f98ae6ab2e9f758dd34d98d4648d985456cb98546a2eced50a923",
+          "bytes": 40530,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_10.kk.vtt",
+          "sha256": "43a6d055724422318eeac0cd820499c882259711e00f4d6ecec83acf4cbd50ac",
+          "bytes": 40627,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_10.kk.ass",
+          "sha256": "c10028c04bfcf1f464e27f3ec24c16ea257bf145ec95434ca1856d48ce613a93",
+          "bytes": 47528,
+          "cues": 408,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_11.kk.srt",
+          "sha256": "1e21d56c7fc77b7c5dc29659058b9589b767764dbed34778f32475aaf2457f0b",
+          "bytes": 39307,
+          "cues": 424,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_11.kk.vtt",
+          "sha256": "5545c559bd8ed0bb3c18da90079160f2220c163e2c01bf9e28756d3c8ee02b39",
+          "bytes": 39404,
+          "cues": 424,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_11.kk.ass",
+          "sha256": "2f0916aee74973492c16be484b7ff5a80593ab2d16d2e99bd11344dd12dab987",
+          "bytes": 46545,
+          "cues": 424,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_12.kk.srt",
+          "sha256": "7b83aa1f52513a4aa5eb6ff2ac9d3389717fb1dc97459a3c4909bb0d7f7e22d1",
+          "bytes": 39413,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_12.kk.vtt",
+          "sha256": "713e7c5fa6bea5fd7bd578edba3e8c66e484f5698a807d1cd96ebbf2cc0185c6",
+          "bytes": 39510,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_12.kk.ass",
+          "sha256": "63f34422d2b7e4b4c1196c6ed8a47a4f552fb11fd74b2de3acc46a72faa854b5",
+          "bytes": 46156,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "arakawa-under-the-bridge-x-bridge-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arakawa-under-the-bridge-x-bridge/arakawa-under-the-bridge-x-bridge-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arakawa-under-the-bridge-x-bridge/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_13.kk.srt",
+          "sha256": "e91833854340a7f86cc6055d595d8180f49a1ff4a10f4f915c43fbc6604b9da4",
+          "bytes": 34634,
+          "cues": 353,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_13.kk.vtt",
+          "sha256": "95f2c9a7292b9dec6de029cd643b3698813a0c5429f14b29f6066cec73c73c25",
+          "bytes": 34731,
+          "cues": 353,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arakawa-under-the-bridge-x-bridge/ep_13.kk.ass",
+          "sha256": "58347d2b1fe674c7ba0ceb395aa9a3b1386d7117debd4b0b9da357848ce618e4",
+          "bytes": 40807,
+          "cues": 353,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/arakawa-under-the-bridge-x-bridge.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

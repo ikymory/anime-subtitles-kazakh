@@ -16,24 +16,64 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Pokémon 4Ever: Celebi - Voice of the Forest - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-celebi-voice-of-forest.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-celebi-voice-of-forest.jpg",
+  "description": "Pokémon 4Ever: Celebi - Voice of the Forest - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "pokemon-celebi-voice-of-forest",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "pokemon-celebi-voice-of-forest-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-celebi-voice-of-forest/pokemon-celebi-voice-of-forest-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-celebi-voice-of-forest/pokemon-celebi-voice-of-forest-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-celebi-voice-of-forest/pokemon-celebi-voice-of-forest-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-celebi-voice-of-forest/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-celebi-voice-of-forest/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-celebi-voice-of-forest/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/pokemon-celebi-voice-of-forest/ep_01.kk.srt",
+          "sha256": "58df7bf906455878cf084d743a893d49d4c47628109f8cc8eef3985cc06910f3",
+          "bytes": 67289,
+          "cues": 953,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/pokemon-celebi-voice-of-forest/ep_01.kk.vtt",
+          "sha256": "09c9b1f997667acf0ce3e7a4e03013ef69d32a1697b69d77e002714795c46210",
+          "bytes": 67386,
+          "cues": 953,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/pokemon-celebi-voice-of-forest/ep_01.kk.ass",
+          "sha256": "67c0ab33664f7db029a967097e69c6f3609d40d4789652e2d4d388c7acd12915",
+          "bytes": 82644,
+          "cues": 953,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/pokemon-celebi-voice-of-forest.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

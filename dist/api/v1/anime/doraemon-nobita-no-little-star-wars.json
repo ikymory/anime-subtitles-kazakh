@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Doraemon. Nobita no Little Star Wars - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-little-star-wars.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/doraemon-nobita-no-little-star-wars.jpg",
+  "description": "Doraemon. Nobita no Little Star Wars - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "doraemon-nobita-no-little-star-wars",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobita-no-little-star-wars-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-little-star-wars/doraemon-nobita-no-little-star-wars-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-little-star-wars/doraemon-nobita-no-little-star-wars-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobita-no-little-star-wars/doraemon-nobita-no-little-star-wars-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-little-star-wars/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-little-star-wars/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobita-no-little-star-wars/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/doraemon-nobita-no-little-star-wars/ep_01.kk.srt",
+          "sha256": "2e7446449efa2b3d79565eee0ef33bd036cf1a950fac341965b0ea131c461195",
+          "bytes": 135563,
+          "cues": 1476,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobita-no-little-star-wars/ep_01.kk.vtt",
+          "sha256": "b733b27d9fba4f8ca0ca76a5c83f0ed020d6e39763f41a3655bbdca34160f795",
+          "bytes": 135660,
+          "cues": 1476,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/doraemon-nobita-no-little-star-wars/ep_01.kk.ass",
+          "sha256": "75fc5b6666b535125bee996170703f0d87a50df283ae8b4cb341b4e95749440a",
+          "bytes": 158104,
+          "cues": 1476,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobita-no-little-star-wars.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -13,9 +13,19 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx387-dS4aJivu0zPB.png",
+  "averageScore": 87,
+  "popularity": 60554,
+  "color": "hsl(50, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/387-2ogrNTbIYy2T.jpg",
+  "catalog_id": "haibane-renmei",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -31,142 +41,482 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "haibane-renmei-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_01.kk.srt",
+          "sha256": "f9abb070e59c23eec049abf7ba9fe951034e76da929255234e7d8144feb4ba8f",
+          "bytes": 21414,
+          "cues": 255,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_01.kk.vtt",
+          "sha256": "b42e9479424cc9d5b1b777aa11a28ece617918788e4d97a3d3643e3c2984b1f2",
+          "bytes": 21511,
+          "cues": 255,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_01.kk.ass",
+          "sha256": "f980297fd94a10905f73b5d38af4281316c23fdd06af176b32c71a3a763a70e6",
+          "bytes": 26061,
+          "cues": 255,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "haibane-renmei-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_02.kk.srt",
+          "sha256": "c44d61ee34fd0a0955459e65cc98c8d163e674538f3e9cc9ea09c30a9729df85",
+          "bytes": 27143,
+          "cues": 303,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_02.kk.vtt",
+          "sha256": "c26f5c85ba91bce0d49b1b9e63040904f059456a68b70164c1417bc754aa129f",
+          "bytes": 27240,
+          "cues": 303,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_02.kk.ass",
+          "sha256": "c61d5b9b3129832976f9ee051ffde0e2b4c44d342b392325036956c1d53f6aa6",
+          "bytes": 32510,
+          "cues": 303,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "haibane-renmei-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_03.kk.srt",
+          "sha256": "124ab709156d30e84592eeae10f362937eb7ddc776a24fa967cd6c43e2d84da8",
+          "bytes": 28515,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_03.kk.vtt",
+          "sha256": "d81a86b348b24e6db28acba83b6ffd7235d24df13608bf8635de37b6ed2a712a",
+          "bytes": 28612,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_03.kk.ass",
+          "sha256": "df9a1b6bf699ad6674a6f4718c8c3b3eae8c6968638b96af900c0cc3c414b3c8",
+          "bytes": 34242,
+          "cues": 327,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "haibane-renmei-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_04.kk.srt",
+          "sha256": "5646b36bddcfc1bb89ebb4d34dcc15d30c47750119f6a3cb4a1acb6adb7e567e",
+          "bytes": 28015,
+          "cues": 316,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_04.kk.vtt",
+          "sha256": "b9a5c7b49957374af663e68d7f1739831f1bf54fe51beaa635f37b2532f7fd92",
+          "bytes": 28112,
+          "cues": 316,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_04.kk.ass",
+          "sha256": "45d2576979946b26f6249b16732e16e84849fe163e12b37aa10aea93efb96fa5",
+          "bytes": 33577,
+          "cues": 316,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "haibane-renmei-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_05.kk.srt",
+          "sha256": "f9dbdd5807d3207fdf811314cac714e41a7db629d13c6fdf96019725acb84c9e",
+          "bytes": 28078,
+          "cues": 301,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_05.kk.vtt",
+          "sha256": "94b33c2b597d8fa1f78cfcac1062ee26030fce3d43439dfda8821e05cf53eead",
+          "bytes": 28175,
+          "cues": 301,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_05.kk.ass",
+          "sha256": "54a99ad88db51a5dfed6b385389088f1c5a2591302a974022ae76b930c1a9c75",
+          "bytes": 33415,
+          "cues": 301,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "haibane-renmei-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_06.kk.srt",
+          "sha256": "fb43e093d1a50a2f38294c263fd5fbf1406d4635f9398c4c6054abb13461c20c",
+          "bytes": 27613,
+          "cues": 310,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_06.kk.vtt",
+          "sha256": "fc25a77b68ab58832a34bcf47a53292302480abeaeea2a0688cb2e62deb815c9",
+          "bytes": 27710,
+          "cues": 310,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_06.kk.ass",
+          "sha256": "d94a954c427a97d78b4af37fe0dd0839559dbac198051fb733b116789aa32a80",
+          "bytes": 33085,
+          "cues": 310,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "haibane-renmei-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_07.kk.srt",
+          "sha256": "2331b997b530095bf8e827bd85f2dee3b11ea3f9dda4b266599d9d17628691ee",
+          "bytes": 24353,
+          "cues": 285,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_07.kk.vtt",
+          "sha256": "387bdfa5b906e52f0a8ea1bcafcd0d7931a43292ddd005027b7190ac8c2f5b69",
+          "bytes": 24450,
+          "cues": 285,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_07.kk.ass",
+          "sha256": "da75b8f1d32782ab0332dbdcee6043b558990fb0d55c90d92d99dc45d90aff03",
+          "bytes": 29450,
+          "cues": 285,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "haibane-renmei-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_08.kk.srt",
+          "sha256": "46a7c39dcf90a0a3941a2fa85ef52df41b660aff157ecc8eba1603d302d14994",
+          "bytes": 16070,
+          "cues": 188,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_08.kk.vtt",
+          "sha256": "40102801c1eb37081e17b1622e006d39998beef45ee9d444f282da28cd74c771",
+          "bytes": 16167,
+          "cues": 188,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_08.kk.ass",
+          "sha256": "219716432c9dd2a4d4a4c3accf2e2b46151e657b8b1640e00b8c998e42a7151d",
+          "bytes": 19712,
+          "cues": 188,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "haibane-renmei-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_09.kk.srt",
+          "sha256": "1b610517b1c0c786a361db293964d64b5fe2d133884f3d839a5be17482d974e4",
+          "bytes": 23426,
+          "cues": 259,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_09.kk.vtt",
+          "sha256": "5e0b000e902f80acaa8776f0e94b62ab9eb30b48fe455cc8ddd2c1dbf305ac4b",
+          "bytes": 23523,
+          "cues": 259,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_09.kk.ass",
+          "sha256": "8c5ca36832d3c54e4f0db94671a14e42e0383903583384457352c263311b7d7c",
+          "bytes": 28133,
+          "cues": 259,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "haibane-renmei-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_10.kk.srt",
+          "sha256": "86232bf4879a03eb995fd5c03780509d56c2b293d2e1bc0845d41dccdb2470b3",
+          "bytes": 19835,
+          "cues": 223,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_10.kk.vtt",
+          "sha256": "d33e1989ff55dcd625f7e24c37b268917eaefa4bd63ef7227e39781551991124",
+          "bytes": 19932,
+          "cues": 223,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_10.kk.ass",
+          "sha256": "1b7cc882236249c52a127f29dd1a7ee6cd8997e3da09dcc58c87f655f5821796",
+          "bytes": 24002,
+          "cues": 223,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "haibane-renmei-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_11.kk.srt",
+          "sha256": "eb7775acc96ffa7c6d0c79493c6f193400c3c29fcbcc0d5cc35fe11ab7755485",
+          "bytes": 21710,
+          "cues": 245,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_11.kk.vtt",
+          "sha256": "d682a0b7c509740662a2ecba08c6258cd6e9331f9a1a9c04f7faf626365df9a0",
+          "bytes": 21807,
+          "cues": 245,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_11.kk.ass",
+          "sha256": "a95446a291566ebcb6e24dbab26fb92247b9dcd2cb1ac6ecdb96248f0f518d34",
+          "bytes": 26207,
+          "cues": 245,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "haibane-renmei-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_12.kk.srt",
+          "sha256": "f1d41599aaec7da508f5e070e73ecde000c1796595a51a722db7ef865c123370",
+          "bytes": 19967,
+          "cues": 225,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_12.kk.vtt",
+          "sha256": "a35c69dc9e66b6dc5d595d2eb407fb5d190917a9d69c04468d5f21e7b650740a",
+          "bytes": 20064,
+          "cues": 225,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_12.kk.ass",
+          "sha256": "277158b3d64aea552ea927b2d953e3d8fd1ae5431b5624edb5fb868d77e2ad53",
+          "bytes": 24164,
+          "cues": 225,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "haibane-renmei-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/haibane-renmei/haibane-renmei-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/haibane-renmei/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/haibane-renmei/ep_13.kk.srt",
+          "sha256": "190fd6dd428dc050133c378a4cd43081ae626b5c82263709e3e49097d023a134",
+          "bytes": 17939,
+          "cues": 208,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/haibane-renmei/ep_13.kk.vtt",
+          "sha256": "3371ec217231d1cb4936a6ef9890feeccc890f6592e7fafd90119c4327e94b72",
+          "bytes": 18036,
+          "cues": 208,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/haibane-renmei/ep_13.kk.ass",
+          "sha256": "b6c808d7febffd50fbf5e2db59f8efd6b5400367fa3d1eb68b41c5d34a93d086",
+          "bytes": 21881,
+          "cues": 208,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(50, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 60554,
-  "translated_episodes_count": 13
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/haibane-renmei.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

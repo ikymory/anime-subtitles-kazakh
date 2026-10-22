@@ -13,39 +13,103 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21400-38ykNo3j4xXo.png",
+  "averageScore": 79,
+  "popularity": 62800,
+  "color": "#f1c9ae",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21400-5zcYUeVBptdG.jpg",
+  "catalog_id": "kizumonogatari-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     3
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kizumonogatari-3-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-3/kizumonogatari-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-3/kizumonogatari-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-3/kizumonogatari-3-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kizumonogatari-3/ep_01.kk.srt",
+          "sha256": "9a963fb05114e363261b3095006ce9a1593d38473b97702bcbf82748dee1be6f",
+          "bytes": 76231,
+          "cues": 740,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kizumonogatari-3/ep_01.kk.vtt",
+          "sha256": "4257d0eb7763edf5d1c3424b2b0e858c311b821a27ea977f7089f9f862293f3b",
+          "bytes": 76328,
+          "cues": 740,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kizumonogatari-3/ep_01.kk.ass",
+          "sha256": "ee580e9fff3bb0af26e0c56c0cf4b4b73d782ca164de93a389de71065aa8d9a5",
+          "bytes": 88155,
+          "cues": 740,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "kizumonogatari-3-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-3/kizumonogatari-3-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-3/kizumonogatari-3-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-3/kizumonogatari-3-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-3/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-3/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-3/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kizumonogatari-3/ep_03.kk.srt",
+          "sha256": "0c7b4778d93155683ee9aca9189637ec0a0ddab5554b9e82de0d0cf0984866ec",
+          "bytes": 76247,
+          "cues": 741,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kizumonogatari-3/ep_03.kk.vtt",
+          "sha256": "b245f694d9ff44306d360dd0cac36e4ec229c62eb832d2804714c57ff81f74e9",
+          "bytes": 76344,
+          "cues": 741,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kizumonogatari-3/ep_03.kk.ass",
+          "sha256": "3de31b47146c238ddd7ab6c7953a770b06d5aaedc74fa6f19712bd493003e7d9",
+          "bytes": 88186,
+          "cues": 741,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#f1c9ae",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 79,
-  "popularity": 62800,
-  "translated_episodes_count": 2
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kizumonogatari-3.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

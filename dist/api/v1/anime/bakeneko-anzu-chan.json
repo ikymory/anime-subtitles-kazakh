@@ -15,24 +15,69 @@
     "Comedy",
     "Supernatural"
   ],
-  "description": "Ghost Cat Anzu - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bakeneko-anzu-chan.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bakeneko-anzu-chan.jpg",
+  "description": "Ghost Cat Anzu - official Kazakh translation archive by ikymory.",
   "averageScore": 81,
   "popularity": 97200,
+  "catalog_id": "bakeneko-anzu-chan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bakeneko-anzu-chan-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakeneko-anzu-chan/bakeneko-anzu-chan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakeneko-anzu-chan/bakeneko-anzu-chan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakeneko-anzu-chan/bakeneko-anzu-chan-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakeneko-anzu-chan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakeneko-anzu-chan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakeneko-anzu-chan/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/bakeneko-anzu-chan/ep_01.kk.ass",
+          "sha256": "1ed63393e21e8209602051d6b71a57cc5c13fc929ab065a10f92587ec6e318eb",
+          "bytes": 139650,
+          "cues": 1482,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/bakeneko-anzu-chan/ep_01.kk.srt",
+          "sha256": "ad550b6ccfa529427396324472f7ec080e1930f6fb0cf73d6e2a2453a2bd648e",
+          "bytes": 103507,
+          "cues": 1478,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/bakeneko-anzu-chan/ep_01.kk.vtt",
+          "sha256": "b9e12709814c2b330d8d071963a2f04872cc886a8d550f60b7c3be61a86ae6e1",
+          "bytes": 103515,
+          "cues": 1478,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bakeneko-anzu-chan.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

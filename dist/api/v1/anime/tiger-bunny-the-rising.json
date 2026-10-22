@@ -16,24 +16,64 @@
     "Comedy",
     "Supernatural"
   ],
-  "description": "Tiger & Bunny: The Rising - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/tiger-bunny-the-rising.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/tiger-bunny-the-rising.jpg",
+  "description": "Tiger & Bunny: The Rising - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "tiger-bunny-the-rising",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tiger-bunny-the-rising-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tiger-bunny-the-rising/tiger-bunny-the-rising-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tiger-bunny-the-rising/tiger-bunny-the-rising-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tiger-bunny-the-rising/tiger-bunny-the-rising-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tiger-bunny-the-rising/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tiger-bunny-the-rising/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tiger-bunny-the-rising/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tiger-bunny-the-rising/ep_01.kk.srt",
+          "sha256": "a698bdbb66af9639f304263f0d76e02b18f5287d735b25dc67b0e2205c4124f4",
+          "bytes": 186205,
+          "cues": 2179,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tiger-bunny-the-rising/ep_01.kk.vtt",
+          "sha256": "7e3a779b504aaf61a7415818cade251645ab434a4aaf3584f190f98940785c80",
+          "bytes": 186302,
+          "cues": 2179,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tiger-bunny-the-rising/ep_01.kk.ass",
+          "sha256": "153d8655b6952d6b6ec04813d5864aab7e67f174e1e415204294854dc53c7343",
+          "bytes": 218770,
+          "cues": 2179,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tiger-bunny-the-rising.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

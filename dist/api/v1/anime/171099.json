@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "bocchi-the-rock-re-re",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bocchi-the-rock-re-re.json"
+    },
+    {
+      "slug": "bocchi-the-rock-rere",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bocchi-the-rock-rere.json"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 800044,
+  "slug": "aria-the-crepuscolo",
+  "title": {
+    "romaji": "Aria the Crepuscolo",
+    "english": "Aria the Crepuscolo",
+    "native": "ARIA The CREPUSCOLO",
+    "kazakh": "Ария: Ымырт",
+    "kk": "Ария: Ымырт"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2021,
+  "genres": [
+    "Fantasy",
+    "Sci-Fi",
+    "Slice of Life"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aria-the-crepuscolo.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aria-the-crepuscolo.jpg",
+  "description": "Aria the Crepuscolo - official Kazakh translation archive by ikymory.",
+  "averageScore": 84,
+  "popularity": 100800,
+  "catalog_id": "aria-the-crepuscolo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.ass",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-crepuscolo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-crepuscolo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aria-the-crepuscolo/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/aria-the-crepuscolo/ep_01.kk.ass",
+          "sha256": "cb1a0501f1cde1d68e6d9878885320fe8349d8785e01e0d8304a59649bc3d728",
+          "bytes": 110933,
+          "cues": 1245,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/aria-the-crepuscolo/ep_01.kk.srt",
+          "sha256": "8624fe9b7320dac8d64ed26e142554b914b939ce22d24b35fa1205aed8524f84",
+          "bytes": 91146,
+          "cues": 1237,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/aria-the-crepuscolo/ep_01.kk.vtt",
+          "sha256": "f993b13e53692322063c601eb803289e4864362eaeac1361a541bae272c08902",
+          "bytes": 91154,
+          "cues": 1237,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aria-the-crepuscolo.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
+}

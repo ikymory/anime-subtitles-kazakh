@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "DIABOLIK LOVERS MORE,BLOOD - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/diabolik-lovers-more-blood.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/diabolik-lovers-more-blood.jpg",
+  "description": "DIABOLIK LOVERS MORE,BLOOD - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "diabolik-lovers-more-blood",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,472 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_01.kk.srt",
+          "sha256": "4d747538b9a8edea3178875d23a59e7049bfaa0f7c0d7391291868eb36af9c12",
+          "bytes": 12658,
+          "cues": 162,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_01.kk.vtt",
+          "sha256": "727bbd77db117cbf57bb0f62fe6b0a816677c2d05cbdcc93ee544680d9bee309",
+          "bytes": 12755,
+          "cues": 162,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_01.kk.ass",
+          "sha256": "9c9ba14228bb2b4c9f5bac1eed5cbd4c1a4658f524a43f7002079d413feab57d",
+          "bytes": 15711,
+          "cues": 162,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_02.kk.srt",
+          "sha256": "e25f9644542d1582b0351d3efba51bbef8205fa533c228421c3b3d08eb9af2c4",
+          "bytes": 13689,
+          "cues": 159,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_02.kk.vtt",
+          "sha256": "b1f67713c41ad3eca4fc85268dcfeeca71f0b835046c5ea86324027ad0f565e7",
+          "bytes": 13786,
+          "cues": 159,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_02.kk.ass",
+          "sha256": "5eeb6773ea8e0ab1c336f843d2127d20d812280980165c9e2d5aa101dcd2475f",
+          "bytes": 16697,
+          "cues": 159,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_03.kk.srt",
+          "sha256": "781decb60e92e29739b71342a6f99951d96745ec91aa8f728f60240158215c22",
+          "bytes": 14526,
+          "cues": 177,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_03.kk.vtt",
+          "sha256": "84842a597315f5ea50f59f2c149c0882b93887d0da33667d54751ac431cd3617",
+          "bytes": 14623,
+          "cues": 177,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_03.kk.ass",
+          "sha256": "c02bcefaa4906b55b2357400a248d81d01b52fd5b30a40dc03522ed7800aac29",
+          "bytes": 17804,
+          "cues": 177,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_04.kk.srt",
+          "sha256": "45b77f786b2e2ed2099a691346b48013de4cfa4c9dd3934dac65cbe6d3aff987",
+          "bytes": 12380,
+          "cues": 146,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_04.kk.vtt",
+          "sha256": "68f6e86301484d8120a0497c438861c5b04e7411b5ca8ff0f629611ac5598430",
+          "bytes": 12477,
+          "cues": 146,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_04.kk.ass",
+          "sha256": "3125de53645825e9227fd563975f59dd97667a19de562a0cc1840ea5dc495f29",
+          "bytes": 15193,
+          "cues": 146,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_05.kk.srt",
+          "sha256": "ef15581555acacdeff1cfa6b588676203f3d644b0310a3f03f09830f308f20dc",
+          "bytes": 14804,
+          "cues": 170,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_05.kk.vtt",
+          "sha256": "8d8acca606e11e970da48ab21ac4676a849a0cf4c9d570ceff6a99e2509872c7",
+          "bytes": 14901,
+          "cues": 170,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_05.kk.ass",
+          "sha256": "4d6357efa31e7815cf3f42513235058f8e74b7d0af2a46e94f9554c74bc9e569",
+          "bytes": 17977,
+          "cues": 170,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_06.kk.srt",
+          "sha256": "2390d50ae01ada9b23d930f45cd89424ef14eaf4008d657e16b99909e5cf822c",
+          "bytes": 11978,
+          "cues": 138,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_06.kk.vtt",
+          "sha256": "4e41350b5b4c140a8736717a959756d3ea6d99088bd2ace11d8b6db812dc5fcb",
+          "bytes": 12075,
+          "cues": 138,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_06.kk.ass",
+          "sha256": "474ce97c263ecbea1f684cecdaf3cb2fa2aa3840f712c519cffc788fa8df5afb",
+          "bytes": 14671,
+          "cues": 138,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_07.kk.srt",
+          "sha256": "bd80b05fa949ebbb841dad6427363d0592b8678d5350e1cdebb79a8f47a2eba8",
+          "bytes": 12479,
+          "cues": 148,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_07.kk.vtt",
+          "sha256": "44ad0938a0d1a8b156cc6ee15aed044f1577fe8e66911cb93bcfc857d5488092",
+          "bytes": 12576,
+          "cues": 148,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_07.kk.ass",
+          "sha256": "96627ee63399091d85357dade55c9029d2c235fed4f2a8bee2752903aae3103e",
+          "bytes": 15322,
+          "cues": 148,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_08.kk.srt",
+          "sha256": "183fa950870ad87f29729b59e2568ebcef7c5983dab49cef5320003316f6095b",
+          "bytes": 11465,
+          "cues": 139,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_08.kk.vtt",
+          "sha256": "c95cc7d0465176687af44b9f0b8b651ee4a1feacafe1a2718f04d9f24f006e1f",
+          "bytes": 11562,
+          "cues": 139,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_08.kk.ass",
+          "sha256": "e29ea9711a356764c8e01c15a635175b55536ddfaf780cc6fb83b82122f4934f",
+          "bytes": 14173,
+          "cues": 139,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_09.kk.srt",
+          "sha256": "3142e40635bb192cfffbf7c43aa50e3b3e85b118a447f5fa6fdc590a713e2cfa",
+          "bytes": 15333,
+          "cues": 173,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_09.kk.vtt",
+          "sha256": "dfd9d167a775672c23b3157b190c9ed76ccc708318e792395f0f71e4ae5454d4",
+          "bytes": 15430,
+          "cues": 173,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_09.kk.ass",
+          "sha256": "38cadce6a0a829a4741c6962dc2d4f0891f91799a419e3c95cfa23d11769f03e",
+          "bytes": 18551,
+          "cues": 173,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_10.kk.srt",
+          "sha256": "910104baa91ac1fa72d81f730e7fda3bee29ffd66a11face39ca20764822c934",
+          "bytes": 11756,
+          "cues": 140,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_10.kk.vtt",
+          "sha256": "c61714f91b75d6bf094a9b6e6701c14c95ab6629cd8ae430864632fe119457c4",
+          "bytes": 11853,
+          "cues": 140,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_10.kk.ass",
+          "sha256": "377ae6faa37e21b2ff68c1f7193f66f090339e48992422a0b1cec480e8950447",
+          "bytes": 14479,
+          "cues": 140,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_11.kk.srt",
+          "sha256": "7bc42afa70bcef737d82d99508b82aa4dbcd6c042f6f9d58d505c78849c91f25",
+          "bytes": 13977,
+          "cues": 161,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_11.kk.vtt",
+          "sha256": "aedfe487326f3fb609039d615562f192bfc6666933689972bc34c198cbd89e28",
+          "bytes": 14074,
+          "cues": 161,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_11.kk.ass",
+          "sha256": "38d5a7472624f02bb69daf755a4e206439eb901fffcc44226444f9494672f686",
+          "bytes": 17015,
+          "cues": 161,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "diabolik-lovers-more-blood-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/diabolik-lovers-more-blood/diabolik-lovers-more-blood-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/diabolik-lovers-more-blood/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_12.kk.srt",
+          "sha256": "7fbf8381a8f78f1323de8b6a7719f1c0826b3f1df4ed8f352abd62e288b14cc2",
+          "bytes": 12399,
+          "cues": 142,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_12.kk.vtt",
+          "sha256": "bdb76f36af652b81e8de0c065edb185f4be2f0f9397f851b0e4f16d0cd08a4c7",
+          "bytes": 12496,
+          "cues": 142,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/diabolik-lovers-more-blood/ep_12.kk.ass",
+          "sha256": "9155274b1cc66a1a174c40be059c52ec2fdd20901cd87aa306e74577c9153c97",
+          "bytes": 15152,
+          "cues": 142,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 60,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/diabolik-lovers-more-blood.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

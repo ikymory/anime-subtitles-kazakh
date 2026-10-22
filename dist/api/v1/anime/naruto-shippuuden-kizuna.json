@@ -15,28 +15,71 @@
     "Action",
     "Supernatural"
   ],
-  "description": "A mysterious group of ninjas makes a surprise attack on the Konohagakure, which takes great damage. The nightmare of another Shinobi World War could become a reality. Sasuke, who left Konoha to kill his brother, Itachi, appears for the second time in front of Naruto at an unknown location to prevent it from coming to fruition.<br><br>\n(Source: Wikipedia)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4437-8LQbBZo4N6yi.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4437-iYmkXFEF3ybw.jpg",
+  "description": "A mysterious group of ninjas makes a surprise attack on the Konohagakure, which takes great damage. The nightmare of another Shinobi World War could become a reality. Sasuke, who left Konoha to kill his brother, Itachi, appears for the second time in front of Naruto at an unknown location to prevent it from coming to fruition.<br><br>\n(Source: Wikipedia)",
   "averageScore": 69,
   "popularity": 51510,
+  "color": "#f1935d",
+  "duration": 92,
+  "studio": "Studio Pierrot",
+  "catalog_id": "naruto-shippuuden-kizuna",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "naruto-shippuuden-kizuna-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-shippuuden-kizuna/naruto-shippuuden-kizuna-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-shippuuden-kizuna/naruto-shippuuden-kizuna-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/naruto-shippuuden-kizuna/naruto-shippuuden-kizuna-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-shippuuden-kizuna/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-shippuuden-kizuna/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/naruto-shippuuden-kizuna/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/naruto-shippuuden-kizuna/ep_01.kk.ass",
+          "sha256": "fd6ac2fd74cf612d7446ac7405b46ddc8fcaff192b6eb68804ef8fc65f4f4dc9",
+          "bytes": 116755,
+          "cues": 1215,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/naruto-shippuuden-kizuna/ep_01.kk.srt",
+          "sha256": "da6634266ed08b8e4bec19a166fbff4d23919b8ac3c6e8a7ada90568bd7eb213",
+          "bytes": 97465,
+          "cues": 1209,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/naruto-shippuuden-kizuna/ep_01.kk.vtt",
+          "sha256": "0648927e0dc5add47214b6408a1a180a36a23811deb39a9c4c1f2b1559c1e3a3",
+          "bytes": 97473,
+          "cues": 1209,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#f1935d",
-  "studio": "Studio Pierrot",
-  "duration": 92,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/naruto-shippuuden-kizuna.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

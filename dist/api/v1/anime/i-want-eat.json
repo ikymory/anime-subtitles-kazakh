@@ -16,28 +16,70 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "Spring time in April and the last of the cherry blossoms are still in bloom. The usually aloof bookworm with no interest in others comes across a book in a hospital waiting room. Handwritten on the cover are the words: \"Living with Dying.\" He soon discovers that it is a diary kept by his very popular and genuinely cheerful classmate, Sakura Yamauchi, who reveals to him that she is secretly suffering from a pancreatic illness and only has a limited time left. It is at this moment that she gains just one more person to share her secret.<br>\n<br>\nTrying to maintain a normal life as much as possible, Sakura is determined to live her life to the fullest until the very last day. As her free spirit and unpredictable actions throw him for a loop, his heart begins to gradually change.\n<br><br>\n(Source: Aniplex USA)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99750-pNyly9d3MEgV.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99750-KPFW2Jv03b2B.jpg",
+  "description": "Spring time in April and the last of the cherry blossoms are still in bloom. The usually aloof bookworm with no interest in others comes across a book in a hospital waiting room. Handwritten on the cover are the words: \"Living with Dying.\" He soon discovers that it is a diary kept by his very popular and genuinely cheerful classmate, Sakura Yamauchi, who reveals to him that she is secretly suffering from a pancreatic illness and only has a limited time left. It is at this moment that she gains just one more person to share her secret.\n\nTrying to maintain a normal life as much as possible, Sakura is determined to live her life to the fullest until the very last day. As her free spirit and unpredictable actions throw him for a loop, his heart begins to gradually change.\n\n(Source: Aniplex USA)",
+  "averageScore": 83,
+  "popularity": 55342,
+  "color": "#f1c9f1",
+  "duration": 108,
+  "studio": "Studio VOLN",
+  "catalog_id": "i-want-eat",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "i-want-eat-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/i-want-eat/i-want-eat-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/i-want-eat/i-want-eat-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/i-want-eat/i-want-eat-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/i-want-eat/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/i-want-eat/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/i-want-eat/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/i-want-eat/ep_01.kk.srt",
+          "sha256": "f40dc777397e19d0d869123b6bccc6e4ad0a7b2b41d19817c77b2d9f24fef9ba",
+          "bytes": 137605,
+          "cues": 1537,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/i-want-eat/ep_01.kk.vtt",
+          "sha256": "1ef45a66f47032ba543007cb9c777dc61ea880039c5ca87e65b7d670e7e937d2",
+          "bytes": 137702,
+          "cues": 1537,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/i-want-eat/ep_01.kk.ass",
+          "sha256": "d7a06cc8ca324169b66c975e5bf045feb46acb869f07810d2ece31e41aefa7a1",
+          "bytes": 160940,
+          "cues": 1537,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#f1c9f1",
-  "studio": "Studio VOLN",
-  "duration": 108,
-  "averageScore": 83,
-  "popularity": 55342,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/i-want-eat.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

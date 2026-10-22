@@ -17,24 +17,64 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "At the last stronghold of humanity, the Heavenly Crest (Astronomy) Club, Akio learns the fate of the world. Two pilots are needed to battle the two remaining Usurpers which are targeting the faded Fire of Life. During the battle against the second enemy, during the curse of happy times, the choice between the happy present and the future Akio must dedicate her soul to approaches.<br><br>\n\n(Source: Official Site, translated)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194706-MJ5gea97481Z.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/194706-9fih3eeHiJu4.jpg",
+  "description": "At the last stronghold of humanity, the Heavenly Crest (Astronomy) Club, Akio learns the fate of the world. Two pilots are needed to battle the two remaining Usurpers which are targeting the faded Fire of Life. During the battle against the second enemy, during the curse of happy times, the choice between the happy present and the future Akio must dedicate her soul to approaches.<br><br>\n\n(Source: Official Site, translated)",
   "averageScore": 57,
   "popularity": 706,
+  "catalog_id": "bousei-no-volicia-dai-ni-shou-gunjou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bousei-no-volicia-dai-ni-shou-gunjou-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bousei-no-volicia-dai-ni-shou-gunjou/bousei-no-volicia-dai-ni-shou-gunjou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bousei-no-volicia-dai-ni-shou-gunjou/bousei-no-volicia-dai-ni-shou-gunjou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bousei-no-volicia-dai-ni-shou-gunjou/bousei-no-volicia-dai-ni-shou-gunjou-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bousei-no-volicia-dai-ni-shou-gunjou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bousei-no-volicia-dai-ni-shou-gunjou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bousei-no-volicia-dai-ni-shou-gunjou/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bousei-no-volicia-dai-ni-shou-gunjou/ep_01.kk.srt",
+          "sha256": "85dac120b62f18f6bca338c75b5251d3ee14d29ba589db0d9e0149d5af75b726",
+          "bytes": 63682,
+          "cues": 684,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bousei-no-volicia-dai-ni-shou-gunjou/ep_01.kk.vtt",
+          "sha256": "6a1c32152622832548f42e514def2dfc160eca2458850cfc03fd2c0b898c9556",
+          "bytes": 63779,
+          "cues": 684,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bousei-no-volicia-dai-ni-shou-gunjou/ep_01.kk.ass",
+          "sha256": "78809bb34538574bbedbd894bf444234379188317004253809e46a2bee046657",
+          "bytes": 74820,
+          "cues": 684,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bousei-no-volicia-dai-ni-shou-gunjou.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

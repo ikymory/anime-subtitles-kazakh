@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Buta no Liver wa Kanetsu Shiro - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/buta-no-liver-wa-kanetsu-shiro.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/buta-no-liver-wa-kanetsu-shiro.jpg",
+  "description": "Buta no Liver wa Kanetsu Shiro - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "buta-no-liver-wa-kanetsu-shiro",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,451 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_01.kk.srt",
+          "sha256": "3a1c8ea1c26f589f4c31a042752c9f4a39a0675a4eaf314ad58c1c67d1bd6810",
+          "bytes": 42434,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_01.kk.vtt",
+          "sha256": "d20c866d2da4fc89c395b897cc252b53849a31f3dd70a78f4d6301f9f5d27e46",
+          "bytes": 42531,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_01.kk.ass",
+          "sha256": "bcfc34f9a359603616117dc6c0ea08db4cf040c5b0c62e45c775d09e22a65943",
+          "bytes": 49749,
+          "cues": 417,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_02.kk.srt",
+          "sha256": "c38a53b57af85b134555720c5d33ddf963fa0ee2b06f63e6ebca4c0683326399",
+          "bytes": 35298,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_02.kk.vtt",
+          "sha256": "7df1246484ad5c4472a47e760c9c3d4ddc52dee959956989bed8e5dfdb7f4c75",
+          "bytes": 35395,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_02.kk.ass",
+          "sha256": "db1e0a976719da0bc6e26ee1bb0237240a24037a6c86bdb98dace9250f76b1f8",
+          "bytes": 41832,
+          "cues": 365,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_03.kk.srt",
+          "sha256": "a2b22c5ad571070fad8f0afb30baf3d9f0cd0f935a34d2e404497c6a5e3eadce",
+          "bytes": 33396,
+          "cues": 344,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_03.kk.vtt",
+          "sha256": "1f436329ed1cfac1428d21528546773d3b835ffd883f2cf568c883df02e20162",
+          "bytes": 33493,
+          "cues": 344,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_03.kk.ass",
+          "sha256": "7c2cd0793d0f5572d2f3a9f7aec7d7bec70b9a059b531f2dfb404aa6b132fa8c",
+          "bytes": 39615,
+          "cues": 344,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_04.kk.srt",
+          "sha256": "658e6f63b640107a62e796ed54de210feaf43e508058264e95a77469d9313cfe",
+          "bytes": 36273,
+          "cues": 362,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_04.kk.vtt",
+          "sha256": "54050ec9d3cb6f5043b3a2349e1b1784e1fa0eaf2e00613cf037b62ba016687f",
+          "bytes": 36370,
+          "cues": 362,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_04.kk.ass",
+          "sha256": "1d2caf51dcfca09496be668c0a4711a6d8bd96c90627344535c259da15477eef",
+          "bytes": 42763,
+          "cues": 362,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_05.kk.srt",
+          "sha256": "9d6fc7ac935321bacc404021cc5e9932a11948fb520ebc06090feeef14a7dd93",
+          "bytes": 29306,
+          "cues": 319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_05.kk.vtt",
+          "sha256": "41cfbf13b1bd97c37ed7ae14ed0aa09eaf624830a47a36aa18f3d8d9755b5b4e",
+          "bytes": 29403,
+          "cues": 319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_05.kk.ass",
+          "sha256": "ebc686016d228cfd1441b1a181b8abb22a0c446bf2634cb6c2d29f297ee888fb",
+          "bytes": 35150,
+          "cues": 319,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_06.kk.srt",
+          "sha256": "186e8c791aac453e7407b508186f5f9968cd1808b9e0c3ad157ead7abece6721",
+          "bytes": 33212,
+          "cues": 345,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_06.kk.vtt",
+          "sha256": "4d375cb3d92076cbff5a55d6f66404d8d7867c3dbabe056d4f4e73a0dea5332c",
+          "bytes": 33309,
+          "cues": 345,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_06.kk.ass",
+          "sha256": "7951b5a72e44ea5da03b50bcdc3c05096f8a37cc7db717ee79913760df454cbb",
+          "bytes": 39447,
+          "cues": 345,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_07.kk.srt",
+          "sha256": "459cb9a80342eedc612350aea329c1fc55a7eee65bda06fbe9b6a26cef2806e3",
+          "bytes": 25864,
+          "cues": 290,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_07.kk.vtt",
+          "sha256": "d316b7d736a1b1ae8e13f41367ba67d0c0d14f7c54898a63953a4625a20e4842",
+          "bytes": 25961,
+          "cues": 290,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_07.kk.ass",
+          "sha256": "86e192b5028056fbcbbd6c3e3419655b8cd98e99367c1ad111e007ea3f2e558c",
+          "bytes": 31273,
+          "cues": 290,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_08.kk.srt",
+          "sha256": "e004dd9b1ee99c8754aac38cbb82731c6a941487b12ecea12f7422a1a3c88116",
+          "bytes": 26167,
+          "cues": 279,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_08.kk.vtt",
+          "sha256": "60997ebf8d8af7208b168b6de45ebbf699d8c2a13a149be3ee659811716b1f7d",
+          "bytes": 26264,
+          "cues": 279,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_08.kk.ass",
+          "sha256": "9c8f77fbe1ab0a448da3b8788d97d824437e5c7954306a7a44c0f7cfef384076",
+          "bytes": 31411,
+          "cues": 279,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_09.kk.srt",
+          "sha256": "31f455782e86c395ca3164cf05bd9ff070cbeed5b9ba2e54a7b65473489193e2",
+          "bytes": 21396,
+          "cues": 274,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_09.kk.vtt",
+          "sha256": "af91af59097e10cb1075a0dbea6c92e1a61c609db78c7baee2b6df3fd536c242",
+          "bytes": 21493,
+          "cues": 274,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_09.kk.ass",
+          "sha256": "c828eef2e114cff266f0cadf935bea0e08458e51a76e3167c3a6635ad9a3dafc",
+          "bytes": 26565,
+          "cues": 274,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_10.kk.srt",
+          "sha256": "f622ce419d4360630f6d15b07b107ede2a90dc0962e32b84086aba8891546a00",
+          "bytes": 27357,
+          "cues": 291,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_10.kk.vtt",
+          "sha256": "9b21a21f0084adc803f71ff61828f8a9494cc903ed44e0421104887035726e9e",
+          "bytes": 27454,
+          "cues": 291,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_10.kk.ass",
+          "sha256": "5e5180152b3a73c958a6e439c8a084a65b3756a352d1781e1668fc4ad9c66331",
+          "bytes": 32781,
+          "cues": 291,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_11.kk.srt",
+          "sha256": "d8329b96d806c34c5b8ef3b0bdf15982b334da201e07228338eb0f20e456a6ab",
+          "bytes": 26673,
+          "cues": 280,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_11.kk.vtt",
+          "sha256": "df5ffeae6cc97b1739e1f41bbf1fd84dfe88dd7911acf0f687a2bb9dce2579d8",
+          "bytes": 26770,
+          "cues": 280,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_11.kk.ass",
+          "sha256": "7eca5ffc251e4d80daf0a0b82436e0e7d4b356731ce251e67db71824b391f089",
+          "bytes": 31932,
+          "cues": 280,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "buta-no-liver-wa-kanetsu-shiro-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/buta-no-liver-wa-kanetsu-shiro/buta-no-liver-wa-kanetsu-shiro-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/buta-no-liver-wa-kanetsu-shiro/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_12.kk.srt",
+          "sha256": "3dde56984c5139b5848eefdba5c42d2903779d8e30d9402b8e0d7ac1270e6820",
+          "bytes": 26950,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_12.kk.vtt",
+          "sha256": "1bde6f6baa7379d0f24a64156cb5c5ede902a0b826b2f149de492fac45d950bb",
+          "bytes": 27047,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/buta-no-liver-wa-kanetsu-shiro/ep_12.kk.ass",
+          "sha256": "f68d22a45a3209c1b1a5a3c90106000a7d4ea46b70043484aad82770d804d611",
+          "bytes": 32269,
+          "cues": 284,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/buta-no-liver-wa-kanetsu-shiro.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

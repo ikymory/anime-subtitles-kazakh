@@ -18,24 +18,70 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "Turn A Gundam I: Earth Light - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/turn-a-gundam-movie-1.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/turn-a-gundam-movie-1.jpg",
+  "description": "Turn A Gundam I: Earth Light - official Kazakh translation archive by ikymory.",
   "averageScore": 81,
   "popularity": 97200,
+  "catalog_id": "turn-a-gundam-movie-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "turn-a-gundam-movie-1-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/turn-a-gundam-movie-1/turn-a-gundam-movie-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/turn-a-gundam-movie-1/turn-a-gundam-movie-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/turn-a-gundam-movie-1/turn-a-gundam-movie-1-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/turn-a-gundam-movie-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/turn-a-gundam-movie-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/turn-a-gundam-movie-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/turn-a-gundam-movie-1/ep_01.kk.ass",
+          "sha256": "5b11c4f0c5f111f8b8ab8975a775be8252fc3e3130ce520690e35b7bbe53a5a0",
+          "bytes": 255703,
+          "cues": 2510,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/turn-a-gundam-movie-1/ep_01.kk.srt",
+          "sha256": "7ae291db94bc3695d0c0b7fec67d42f6c7176f608cb2e56128792a9a5e60cedd",
+          "bytes": 218357,
+          "cues": 2506,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/turn-a-gundam-movie-1/ep_01.kk.vtt",
+          "sha256": "962ae3def244b4a79c251e53a7e528b5fdfd47e2f02ea2250591a6e3e2911591",
+          "bytes": 218365,
+          "cues": 2506,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/turn-a-gundam-movie-1.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

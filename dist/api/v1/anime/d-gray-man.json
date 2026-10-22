@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "D.Gray-man - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/d-gray-man.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/d-gray-man.jpg",
+  "description": "D.Gray-man - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "d-gray-man",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -29,66 +35,230 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 6,
+  "available_episodes_count": 6,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "d-gray-man-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/d-gray-man/ep_01.kk.srt",
+          "sha256": "2f5aafec5a1254e71be52bf4ecf96c7b90c03609d650ebc580e96df76950e05c",
+          "bytes": 26097,
+          "cues": 305,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/d-gray-man/ep_01.kk.vtt",
+          "sha256": "6d1b63380fec49de60d8fa4a1bc31f36c4a431724142c3a6253aeca29543b01f",
+          "bytes": 26194,
+          "cues": 305,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/d-gray-man/ep_01.kk.ass",
+          "sha256": "3eaf218735ba2b7a1bf9962d6141f4fef91f051b6d5e1cd2bfd3044f1a2c3d74",
+          "bytes": 31731,
+          "cues": 305,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "d-gray-man-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/d-gray-man/ep_02.kk.srt",
+          "sha256": "6628b8b500ee54a1eb9dd609e7414fbf5f31dd3342816e11e3555125af2fd336",
+          "bytes": 35212,
+          "cues": 453,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/d-gray-man/ep_02.kk.vtt",
+          "sha256": "eae302097987f225b7f05eca3c801fb33a776753bb67ab09022e9a8b1d3d8561",
+          "bytes": 35309,
+          "cues": 453,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/d-gray-man/ep_02.kk.ass",
+          "sha256": "0e9d190f6d101979ab8d0d4cea73c2f24c08b4a24d8fa19248419e8a2dfa6e8f",
+          "bytes": 43066,
+          "cues": 453,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "d-gray-man-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/d-gray-man/ep_03.kk.srt",
+          "sha256": "5c762a5de872c0277dcf0ac7d6cbc4c28f1abf73133c2818c30bdb0f4bef859b",
+          "bytes": 30328,
+          "cues": 397,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/d-gray-man/ep_03.kk.vtt",
+          "sha256": "726cad479760ee9d4c986debcd9323f7243239b2787a40b66955d217e72438f9",
+          "bytes": 30425,
+          "cues": 397,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/d-gray-man/ep_03.kk.ass",
+          "sha256": "9e679edf86a727227aae294bb945f1cfd4534697511567d90b8ab8346b7746af",
+          "bytes": 37342,
+          "cues": 397,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "d-gray-man-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/d-gray-man/ep_04.kk.srt",
+          "sha256": "98cb9e4e480c45695fb310e78c0a6931e9ea5dd9918b0524ccefe02db1726968",
+          "bytes": 27103,
+          "cues": 353,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/d-gray-man/ep_04.kk.vtt",
+          "sha256": "7d1c36f2d7b45080fe754b40b86aaa99c02aa7582e7b26c84218fd012b5d307f",
+          "bytes": 27200,
+          "cues": 353,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/d-gray-man/ep_04.kk.ass",
+          "sha256": "ce86bfd45313b0be1aa52b116a99b26d17a58d90ecfb936d37bbadc779412393",
+          "bytes": 33457,
+          "cues": 353,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "d-gray-man-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/d-gray-man/ep_05.kk.srt",
+          "sha256": "898207892f87ff7c72c5534af23089f3193db7303e97cdb451ac9a1c8be23602",
+          "bytes": 24823,
+          "cues": 288,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/d-gray-man/ep_05.kk.vtt",
+          "sha256": "d8860daa426bcaa93666702073ee365ad815175563be9bf9b7ed8524fd42feec",
+          "bytes": 24920,
+          "cues": 288,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/d-gray-man/ep_05.kk.ass",
+          "sha256": "baf7c8e018ab65c361d62938eb2752a952a3de795332d3b422d28b70cb5a0202",
+          "bytes": 30202,
+          "cues": 288,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "d-gray-man-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/d-gray-man/d-gray-man-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/d-gray-man/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/d-gray-man/ep_06.kk.srt",
+          "sha256": "3b1368fca8431849908a3157a62127d5293f754b462d54d621633330ce74b4f5",
+          "bytes": 28024,
+          "cues": 311,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/d-gray-man/ep_06.kk.vtt",
+          "sha256": "79f97f11825dc74ae7a326243caf8e44ec5dac6971f626a8bd84823d1e3a55ff",
+          "bytes": 28121,
+          "cues": 311,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/d-gray-man/ep_06.kk.ass",
+          "sha256": "b8ce0dd76ab952ec23615cf171de6a6e2003af5af4b2ed1c1625008b71b8cf0d",
+          "bytes": 33748,
+          "cues": 311,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 18,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/d-gray-man.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

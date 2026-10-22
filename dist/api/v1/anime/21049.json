@@ -4,7 +4,9 @@
   "title": {
     "romaji": "ReLIFE",
     "english": "ReLIFE",
-    "native": "ReLIFE"
+    "native": "ReLIFE",
+    "kazakh": "Қайта жаңғыру (ReLIFE)",
+    "kk": "Қайта жаңғыру (ReLIFE)"
   },
   "format": "ONA",
   "episodes": 13,
@@ -15,9 +17,20 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "The story follows Kaizaki Arata, a 27-year-old jobless man, who fails at every job interview he had after quitting his last company. His life changes after he met Yoake Ryou of the ReLife Research Institute, who offered him a drug that can change his appearance to 17-years-old and to become a subject in an experiment for one year. Thus, he begins his life as a high school student once more.\n",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21049-4AHSLeiDE9eg.png",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21049-4AHSLeiDE9eg.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21049-PeKXMMYru3Xl.png",
+  "description": "The story follows Kaizaki Arata, a 27-year-old jobless man, who fails at every job interview he had after quitting his last company. His life changes after he met Yoake Ryou of the ReLife Research Institute, who offered him a drug that can change his appearance to 17-years-old and to become a subject in an experiment for one year. Thus, he begins his life as a high school student once more.",
+  "averageScore": 81,
+  "popularity": 52176,
+  "color": "#aee4ff",
+  "duration": 24,
+  "studio": "TMS Entertainment",
+  "catalog_id": "relife",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -33,136 +46,502 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "relife-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_01.kk.srt",
+          "sha256": "6a29e0c6a8a83febcc0f541b0a11a09ce38b4f202880a885305c3008f6850fea",
+          "bytes": 40423,
+          "cues": 468,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_01.kk.vtt",
+          "sha256": "d6fcabcda6aa675ed94304cf0caf9aa9250434a53241c657ebda6dbd4f340c04",
+          "bytes": 40520,
+          "cues": 468,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_01.kk.ass",
+          "sha256": "af79f91278688b82bd8a013b9fb0aec22fc0ad0a359612f30e850f4b2ed8f6b9",
+          "bytes": 48257,
+          "cues": 468,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "relife-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_02.kk.srt",
+          "sha256": "fc28bbfe19f0b4fd4ed9eb7955fcb9db74f72d5977eeee08edde83e7f225b6dd",
+          "bytes": 41267,
+          "cues": 459,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_02.kk.vtt",
+          "sha256": "69f891f6ee48d3d3bae9b549f07291e11a1151ef3e0710b8b9da362e6e1b35d5",
+          "bytes": 41364,
+          "cues": 459,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_02.kk.ass",
+          "sha256": "d45ba80699bb7a45cf2c1e5d4205df5d7ad0bc14e4b6e7551a86305dc86cfc3e",
+          "bytes": 48966,
+          "cues": 459,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "relife-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_03.kk.srt",
+          "sha256": "f4a7b257cca1c4a1f66ced9630ef05aaa5cf77cb79014ebc7cf8f84feff7bb08",
+          "bytes": 39060,
+          "cues": 457,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_03.kk.vtt",
+          "sha256": "73dcea6be3817454fe217cdbaeef27e9ac88301f6b8bfd49cb903194e06a7aa7",
+          "bytes": 39157,
+          "cues": 457,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_03.kk.ass",
+          "sha256": "092158fd9feb0f068316c07183d84b4eaf0491aa498e56f52f17612a42becc63",
+          "bytes": 46729,
+          "cues": 457,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "relife-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_04.kk.srt",
+          "sha256": "1ce1b54d6242794fabc58680c6338501685e6d589cc4203dcfe65efd86d11613",
+          "bytes": 35374,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_04.kk.vtt",
+          "sha256": "e8e1c67817c8b9f3e093c41f21fbd226436f7a372b945b556a15573b7730abe6",
+          "bytes": 35471,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_04.kk.ass",
+          "sha256": "e3d4dfde8c4c372cdbfc0f31f617d6b7a3128fb859f83824060f0107ad73ddca",
+          "bytes": 42308,
+          "cues": 408,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "relife-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_05.kk.srt",
+          "sha256": "e1bbc0d255078dea258648a566f49b92336b586d73743c5c1ef8c3306254cdcc",
+          "bytes": 38216,
+          "cues": 425,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_05.kk.vtt",
+          "sha256": "9ec3c6351eaa5379001d38f9460d93bae9ca543e02c9498f3b532192cfd9d16c",
+          "bytes": 38313,
+          "cues": 425,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_05.kk.ass",
+          "sha256": "05863f10a4505c5b1730c3bacf19b72f7391df55f9d975ba1eabdd2e77a1563f",
+          "bytes": 45405,
+          "cues": 425,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "relife-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_06.kk.srt",
+          "sha256": "6d20b697f77267aff1a71e87afec6e6b7816157ee09fbfce9820830ebda63d55",
+          "bytes": 32191,
+          "cues": 370,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_06.kk.vtt",
+          "sha256": "084a4ed1e1f885b19ab3f7a91c9d55c0d232deea1ef0ab072f974a24e26b01db",
+          "bytes": 32288,
+          "cues": 370,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_06.kk.ass",
+          "sha256": "ce9b13a13734e951f521f029f78ea70e0b9adf17519f12d757ce5e654adaada4",
+          "bytes": 38555,
+          "cues": 370,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "relife-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_07.kk.srt",
+          "sha256": "b63116c5f5622b11bf2e8ae47e36aa7634f05b1a6f640d5302502b7478b77d1c",
+          "bytes": 27111,
+          "cues": 288,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_07.kk.vtt",
+          "sha256": "cb7f2d8eb55973d1fa3d14ef2e2063a07aa6f7f326b97b49ea9872f4bf7a66b9",
+          "bytes": 27208,
+          "cues": 288,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_07.kk.ass",
+          "sha256": "02cced3e5ec405d921eb4db920dafd089fd9edf56ce833a0cbac761b8d51ff5e",
+          "bytes": 32245,
+          "cues": 288,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "relife-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_08.kk.srt",
+          "sha256": "dc43c79e6074ada475fc8ad9d5a346e32e0bda0ad3653b6a401f8d6205946c88",
+          "bytes": 38929,
+          "cues": 461,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_08.kk.vtt",
+          "sha256": "dc2a6527085a01eb63568c36a95361604bbb5e0d635e692e67f3a88a2bf5b74a",
+          "bytes": 39026,
+          "cues": 461,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_08.kk.ass",
+          "sha256": "e6721a3c30a22d538e6bd4a66854827b2a9aa81ba64837d42569257293b707c5",
+          "bytes": 46658,
+          "cues": 461,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "relife-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_09.kk.srt",
+          "sha256": "0838774618e12be1eb5f3b2d9746a1ded4c7089d93da675d82d883d19f51c658",
+          "bytes": 33231,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_09.kk.vtt",
+          "sha256": "e699590732e01c75afd90664c1e764147d458a09fafb5b33eb9210bb4c74b4cc",
+          "bytes": 33328,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_09.kk.ass",
+          "sha256": "5156e9ea439209fadf52dd5da35229281a3a4b46e39d568a5b3f1fdbb5054fb6",
+          "bytes": 39955,
+          "cues": 394,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "relife-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_10.kk.srt",
+          "sha256": "b927fb966d150992f1fc3225869c1efa0a7b8bf25fe2e56596d93304aae81fa1",
+          "bytes": 32951,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_10.kk.vtt",
+          "sha256": "a589ea8d0ae6d8db42b8acc92545dbd80034c4f0552ae6428919117e3d1e71d8",
+          "bytes": 33048,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_10.kk.ass",
+          "sha256": "45f0c764a347166b39ee9e4e8aae2aaa86edf958d10dbf89d08234f50254986a",
+          "bytes": 39630,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "relife-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_11.kk.srt",
+          "sha256": "3257fff90bcf0e2d18127b7dba69abf0609cdbb48000e95d312e6b3f41f241dd",
+          "bytes": 35409,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_11.kk.vtt",
+          "sha256": "0f03886c1ac7a4e8af1bdd1b6688effa1b7478179ec5d61b720d216701b3515c",
+          "bytes": 35506,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_11.kk.ass",
+          "sha256": "9f58c08d18f06633c2040daeb47ff0bedc06fef53d29b3043405385031d99c1a",
+          "bytes": 41803,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "relife-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_12.kk.srt",
+          "sha256": "f1ff8585d224fe74fd90c57b356b1c59808e36d2aa49da54b285c7450566a11b",
+          "bytes": 37787,
+          "cues": 425,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_12.kk.vtt",
+          "sha256": "0e560df9b8a9a88131af97fcd1b844853bc3098260722e82592353d90489097d",
+          "bytes": 37884,
+          "cues": 425,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_12.kk.ass",
+          "sha256": "bba6da5048d5a58771c18babb08e218499f57699ca32ffb372a2feec8a9d60ba",
+          "bytes": 44976,
+          "cues": 425,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "relife-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/relife/relife-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/relife/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/relife/ep_13.kk.srt",
+          "sha256": "d8cf75eb2d61f9f465045caac74a92511a561fdb185f3a93bb1d7cdd83fde822",
+          "bytes": 34710,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/relife/ep_13.kk.vtt",
+          "sha256": "99cc45cb74e9488128d0f30f495f92f579c4acd1ea6513417dcc9de8a5964004",
+          "bytes": 34807,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/relife/ep_13.kk.ass",
+          "sha256": "2c356b1bd85cd63d86b2cc2af266284e67bd9eba5aea8b8771d7a420296bc932",
+          "bytes": 41764,
+          "cues": 416,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 70,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/relife.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

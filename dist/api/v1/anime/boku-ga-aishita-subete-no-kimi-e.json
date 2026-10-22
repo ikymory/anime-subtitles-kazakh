@@ -16,24 +16,68 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "To Every You I've Loved Before - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-ga-aishita-subete-no-kimi-e.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/boku-ga-aishita-subete-no-kimi-e.jpg",
+  "description": "To Every You I've Loved Before - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "boku-ga-aishita-subete-no-kimi-e",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "boku-ga-aishita-subete-no-kimi-e-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-ga-aishita-subete-no-kimi-e/boku-ga-aishita-subete-no-kimi-e-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-ga-aishita-subete-no-kimi-e/boku-ga-aishita-subete-no-kimi-e-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/boku-ga-aishita-subete-no-kimi-e/boku-ga-aishita-subete-no-kimi-e-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-ga-aishita-subete-no-kimi-e/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-ga-aishita-subete-no-kimi-e/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/boku-ga-aishita-subete-no-kimi-e/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/boku-ga-aishita-subete-no-kimi-e/ep_01.kk.ass",
+          "sha256": "80c39b59009e8b953db7a4ac93c292de9621ed4783b8ecf3a57f73c3bfae1d1f",
+          "bytes": 161047,
+          "cues": 1602,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/boku-ga-aishita-subete-no-kimi-e/ep_01.kk.srt",
+          "sha256": "51abd54ebca243ad821a62eaf60c12bd47e5fe6403d0dddd17b75cb978122830",
+          "bytes": 136411,
+          "cues": 1598,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/boku-ga-aishita-subete-no-kimi-e/ep_01.kk.vtt",
+          "sha256": "fee5cd74fb04d9125f5d146ca6228dc0f953cb54c076db148b452370c3a71b7f",
+          "bytes": 136419,
+          "cues": 1598,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boku-ga-aishita-subete-no-kimi-e.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

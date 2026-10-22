@@ -15,11 +15,20 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for Gintama°.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20996-kBEGEGdeK1r7.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20996-gaNJKtjmy3Pf.jpg",
+  "description": "Kazakh subtitles for Gintama°.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "gintama-season-3",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -48,270 +57,964 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gintama-season-3-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_01.kk.srt",
+          "sha256": "46e915ab8ecdaef966d86987bb69a8120ac4ba565a2ac60128c6fe45eb58e10d",
+          "bytes": 35113,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_01.kk.vtt",
+          "sha256": "6c795c6f5eeb7852643050bf80a1153f78051166e0d50ff0cae8feb0cb28842d",
+          "bytes": 35210,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_01.kk.ass",
+          "sha256": "7a8db3709040851efd476a16defe6fcdb4b9be58cd4ea76a82995d7eae2ed6e9",
+          "bytes": 41783,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "gintama-season-3-2ep.srt",
+      "filename": "ep_02.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_02.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_02.kk.ass",
+          "sha256": "d56700910b9e33609d668a5ccfe8544d514a743bb015e5ca69b3a00e9288d8f5",
+          "bytes": 48116,
+          "cues": 429,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_02.kk.srt",
+          "sha256": "4a26b2c6e231350ba7f0aeb040f750556be24abbbc873c36c5c8a52c9bdbcca6",
+          "bytes": 40586,
+          "cues": 428,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_02.kk.vtt",
+          "sha256": "38a6809e4fd923bd233b3e8f72dce42df093e92bc2d051cca579fbfa843fb562",
+          "bytes": 40594,
+          "cues": 428,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "gintama-season-3-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_03.kk.srt",
+          "sha256": "8ecec11e0316986107493e886e7558dbbf8ca7ab0fa0d4e9bbf28feac34a0763",
+          "bytes": 44788,
+          "cues": 468,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_03.kk.vtt",
+          "sha256": "4dc96553be9a51429b2d5b82957d1061dbbb5c330c7ee9aa378c57001d295cef",
+          "bytes": 44885,
+          "cues": 468,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_03.kk.ass",
+          "sha256": "fa3f55f1f0cb000e1846b8b977a0199ec8386b38dee7ddb8444e658565a0b375",
+          "bytes": 52867,
+          "cues": 468,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "gintama-season-3-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_04.kk.srt",
+          "sha256": "0b6781adb9b3acde0d4965c757b7f5ec360a0d244666ec36a3d3181fedfabedc",
+          "bytes": 47521,
+          "cues": 466,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_04.kk.vtt",
+          "sha256": "d853c5b4c32984cc1e7839c0f45d28bedb9b64c94021258f4b0ee326fb2d3313",
+          "bytes": 47618,
+          "cues": 466,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_04.kk.ass",
+          "sha256": "139e2a8656fe2d577ff1a53d9abc03ef3f1682897badcdd3854548dd5e1e9e4f",
+          "bytes": 55570,
+          "cues": 466,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "gintama-season-3-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_05.kk.srt",
+          "sha256": "7dbbd338211167a4d6db318252643c471f9e1c23e240a2561d6eb209b372fdf1",
+          "bytes": 39565,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_05.kk.vtt",
+          "sha256": "ca2e2fb825773bfc92e8d61624fad2e7c79925f7a0748481e777b7213eddf29e",
+          "bytes": 39662,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_05.kk.ass",
+          "sha256": "27375923ac69fc3c9f76ec7aa5c00b860452cf0b50f5794e18d6d0604a434e9f",
+          "bytes": 46864,
+          "cues": 416,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "gintama-season-3-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_06.kk.srt",
+          "sha256": "9b286d8de995fb719853eaeef02729ef1ae511f1e3d9ba6ef1bdce0274ab8eb4",
+          "bytes": 40013,
+          "cues": 427,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_06.kk.vtt",
+          "sha256": "7b7341e8a76f68c6590bc0dc380856ebe5945fc9125e54147009d11f6d54dd7f",
+          "bytes": 40110,
+          "cues": 427,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_06.kk.ass",
+          "sha256": "11294a92400a5bb50294fe2ff045304b073cb820990ee3295eb0620a3d587ac6",
+          "bytes": 47477,
+          "cues": 427,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "gintama-season-3-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_07.kk.srt",
+          "sha256": "936d24e39937971328988f117e66f941c6ec10f9455e4df911930c17266247c3",
+          "bytes": 39695,
+          "cues": 441,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_07.kk.vtt",
+          "sha256": "be3eb0476229c48a28a01a50f1607cec6ea07e3de984c81b36355016e827a97c",
+          "bytes": 39792,
+          "cues": 441,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_07.kk.ass",
+          "sha256": "408348cc341a103934ae41edbaa51023fcb2dcacd4255fa2ef0f949144cfa47d",
+          "bytes": 47370,
+          "cues": 441,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "gintama-season-3-8ep.srt",
+      "filename": "ep_08.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_08.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_08.kk.ass",
+          "sha256": "b317409ae95d6fb18de304bf6ed1df6729dab84668121cad18adcc9b39c6cff0",
+          "bytes": 51917,
+          "cues": 460,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_08.kk.srt",
+          "sha256": "b50cb8ba94f3387cf130ef5ee9726f23494bbd58457e34bae07f80ea15a22dc2",
+          "bytes": 43886,
+          "cues": 458,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_08.kk.vtt",
+          "sha256": "9226975ee7486f3d3f6f2a0cd81869df6331201f8eeed56bd1dea0cb0da8bd4c",
+          "bytes": 43894,
+          "cues": 458,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "gintama-season-3-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_09.kk.srt",
+          "sha256": "bed17bd71f127f3803bbe680275d20ca23adb195e6635de2d1602b8ad7ddb759",
+          "bytes": 44732,
+          "cues": 486,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_09.kk.vtt",
+          "sha256": "684a53a63510f29d7b5d3165f51b2c87a23d3d9ed7bbcd86caa4b9b61b3e8b85",
+          "bytes": 44829,
+          "cues": 486,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_09.kk.ass",
+          "sha256": "c0d758f167a548cc059f5618a13805475e65143b262f2f691a686168a660ba3a",
+          "bytes": 53081,
+          "cues": 486,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "gintama-season-3-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_10.kk.srt",
+          "sha256": "8436d4c59d8d293969089a4880b1d4099b35296ef88de0150d72f05d3876c003",
+          "bytes": 44037,
+          "cues": 454,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_10.kk.vtt",
+          "sha256": "c63e6a6f6253401c80bbf9576d29d5773f54ebccfe8f5354302e73d9bafbba57",
+          "bytes": 44134,
+          "cues": 454,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_10.kk.ass",
+          "sha256": "12ce10051c499743cfc138369103b7dd6e08c7e5306d996299bd53fcac6a560e",
+          "bytes": 51906,
+          "cues": 454,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "gintama-season-3-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_11.kk.srt",
+          "sha256": "df9c4204999828a169ccd21929a11cc0c2946e989ec08149c8342648039c2400",
+          "bytes": 40938,
+          "cues": 427,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_11.kk.vtt",
+          "sha256": "344a2e1e3893393e938a0a713d11e4b55124f8282c7892f96c77e1cbc4ed4166",
+          "bytes": 41035,
+          "cues": 427,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_11.kk.ass",
+          "sha256": "233d457a23b3697449039857291fb840adc4fafa9f393e26722799331b43b54f",
+          "bytes": 48402,
+          "cues": 427,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "gintama-season-3-12ep.srt",
+      "filename": "ep_12.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_12.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_12.kk.ass",
+          "sha256": "4ed1a567f0796e0dd9659f2c9b9b5a225a14466c88385db3653af40bbabf5278",
+          "bytes": 49343,
+          "cues": 446,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_12.kk.srt",
+          "sha256": "fcce0a840b005ac54a146ffd413b46b9af641e63b521394dce2fd8c3a71650ab",
+          "bytes": 41558,
+          "cues": 445,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_12.kk.vtt",
+          "sha256": "46491c672b6c37c43ed479143eadfb1b423dbacb2e31a8ba2192ab4b9645891b",
+          "bytes": 41566,
+          "cues": 445,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "gintama-season-3-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_13.kk.srt",
+          "sha256": "dc5f493562fb47f661ccddabd91417c7138a32271cd718685c5a79cf2d5d1d2e",
+          "bytes": 37603,
+          "cues": 424,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_13.kk.vtt",
+          "sha256": "0f79f6fd981786d9c6b2ae3b2c4d1cf4d25d37885204d1f737bdbdb5d7183a65",
+          "bytes": 37700,
+          "cues": 424,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_13.kk.ass",
+          "sha256": "e6096f9abbf76d7e84b13588ada550dff5c9aee7c4e644c3b2c51fd9befc482b",
+          "bytes": 45022,
+          "cues": 424,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "gintama-season-3-14ep.srt",
+      "filename": "ep_14.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_14.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_14.kk.ass",
+          "sha256": "09e10a419e03187159c15079a7d83462197a78a55900159bf8b4d819abb8cac5",
+          "bytes": 47993,
+          "cues": 424,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_14.kk.srt",
+          "sha256": "e451c1df20b7e03c11a5680dc11b3eae03a54d90826c8ba0740a30b13301db0b",
+          "bytes": 40501,
+          "cues": 422,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_14.kk.vtt",
+          "sha256": "8758cb79d15102392378ededfc064901f973fcb0ca89d13580b3e5b5345012dd",
+          "bytes": 40509,
+          "cues": 422,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "gintama-season-3-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_15.kk.srt",
+          "sha256": "89c69ee81b911e3145924ccd3a751b8409a460bd6546f56f775ca45bcbf1693c",
+          "bytes": 35673,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_15.kk.vtt",
+          "sha256": "f4114d8aeace966de65d95e906dc0a22d4104bd354c48639b39e579dcf553b20",
+          "bytes": 35770,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_15.kk.ass",
+          "sha256": "989344b9d58c40476b33f9fd9a40146cfd73a7c6a6c43b81ef1a76dd278adf14",
+          "bytes": 42417,
+          "cues": 379,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "gintama-season-3-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_16.kk.srt",
+          "sha256": "3ec14e56a82be93c67517819c25152d226ec21f344155f5ca07d22e35bc6abff",
+          "bytes": 30056,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_16.kk.vtt",
+          "sha256": "a41d912a62ce3efd01f55da1f7551542a97eedf26400f417f7ef2d0d2d0cc346",
+          "bytes": 30153,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_16.kk.ass",
+          "sha256": "02fb6e5a8709cb04e85df30faafd8bca4acab6a866f268269d081726c6c91a99",
+          "bytes": 36050,
+          "cues": 329,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "gintama-season-3-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_17.kk.srt",
+          "sha256": "922ba10960dc4de48168da7e0fc9957e3a587d484ccb1687a3b1eebcfa5c6c70",
+          "bytes": 38480,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_17.kk.vtt",
+          "sha256": "80d559069715456b19f3f74323cbf806527fda581490ede0268b9b0f57a972ef",
+          "bytes": 38577,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_17.kk.ass",
+          "sha256": "fd38b1b2e60788deada7f6f8a3591e3132f59df8f338152efcf77db0c43f39e2",
+          "bytes": 45539,
+          "cues": 400,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "gintama-season-3-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_18.kk.srt",
+          "sha256": "95192d9b019b8f653fa0feece7df98ee7d6d00fdcad5824666cec56b13de9849",
+          "bytes": 45835,
+          "cues": 462,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_18.kk.vtt",
+          "sha256": "2c2f1e644a358f796ad355ee5cb61f5632a45fb253e7f875cf3745fa8c109a86",
+          "bytes": 45932,
+          "cues": 462,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_18.kk.ass",
+          "sha256": "480042b76a9af0f3200a2f5d320ab104507c8157dd13a632e21e7c6115e889ed",
+          "bytes": 53824,
+          "cues": 462,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "gintama-season-3-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_19.kk.srt",
+          "sha256": "1536a5145789f1ec9de9c4a7f7c1d3b5ced8b4f220899c543cace7229192ba44",
+          "bytes": 43906,
+          "cues": 444,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_19.kk.vtt",
+          "sha256": "74149f7df2487188bea3fd1302529da968dc7a31ee6a11997f16389782524995",
+          "bytes": 44003,
+          "cues": 444,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_19.kk.ass",
+          "sha256": "c119f9fbdc8310b5de6b2b4e52f4b459065b88d4c29603291c918210843b6639",
+          "bytes": 51626,
+          "cues": 444,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "gintama-season-3-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_20.kk.srt",
+          "sha256": "020c68c5a1cd6a85e55a2c83b4774a00387b6bf605b2058c4a6d622087e001d8",
+          "bytes": 48871,
+          "cues": 516,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_20.kk.vtt",
+          "sha256": "abdb94930d458ad840516a4d8e472d26a33af7f1defe080d9b6bcc9c2e703961",
+          "bytes": 48968,
+          "cues": 516,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_20.kk.ass",
+          "sha256": "76f5d41af98459e70c158e55a05cf4f87e47708a9d0d370398799cde6dafba21",
+          "bytes": 57670,
+          "cues": 516,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "gintama-season-3-21ep.srt",
+      "filename": "ep_21.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_21.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_21.kk.ass",
+          "sha256": "ffff53d6fd6fbde68af75f01328811b86dacd5405b1b3a8bab32a94f8c4d2c20",
+          "bytes": 46781,
+          "cues": 431,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_21.kk.srt",
+          "sha256": "127bfeeb484304a098b02f6553c59a2e9806457236099650f72536fbd79ce8f5",
+          "bytes": 39221,
+          "cues": 430,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_21.kk.vtt",
+          "sha256": "71858f8299958b77c3fdda9cd3d0ed718f2b0f766f0a2c1cf5b1be8b814c7be2",
+          "bytes": 39229,
+          "cues": 430,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "gintama-season-3-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_22.kk.srt",
+          "sha256": "95ff25b53b2b8959a2d2c93adcc6df41f53113814050592258203265128600c4",
+          "bytes": 40007,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_22.kk.vtt",
+          "sha256": "da5950331a13a5a1740436f2055c079bac661ed639a27711ed461c40bf4e03a6",
+          "bytes": 40104,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_22.kk.ass",
+          "sha256": "cfde0ec19a5e4736b5c454197a8aa8fca07b85df641ac2c313fc44c6ca186f40",
+          "bytes": 47321,
+          "cues": 417,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "gintama-season-3-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_23.kk.srt",
+          "sha256": "f912cd868ac543545d6c126f4a6fab7889f9869fe04caf4f835d77791170b3d9",
+          "bytes": 43189,
+          "cues": 443,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_23.kk.vtt",
+          "sha256": "1d92205e16e7a3c1c83565320338c22f99b2a4904164e05d7224b6f61625ad32",
+          "bytes": 43286,
+          "cues": 443,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_23.kk.ass",
+          "sha256": "716888c0e2a1b323d137a3a40d28ec8d97fad950ed95b7c15b922f455d82639a",
+          "bytes": 50893,
+          "cues": 443,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "gintama-season-3-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_24.kk.srt",
+          "sha256": "130da975c1dde919bc67b83756b56a74224dd8d27f54f3e1b6280f355fe699cb",
+          "bytes": 43335,
+          "cues": 482,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_24.kk.vtt",
+          "sha256": "a7066897e12fd81f9055c55c5691b19298a984d7b747ff1e99ce0c409e1a6393",
+          "bytes": 43432,
+          "cues": 482,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_24.kk.ass",
+          "sha256": "5733222d28868e3de346370b5d0be92f45f7d555146fdf3a534f46f56c312c64",
+          "bytes": 51624,
+          "cues": 482,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "gintama-season-3-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_25.kk.srt",
+          "sha256": "338f3f981ad04aa2afb20a8b4b713d847cc7f8128fd188f72d293efcc3cacebd",
+          "bytes": 42257,
+          "cues": 449,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_25.kk.vtt",
+          "sha256": "7cc381ad45f6bafcd55646a5af16f0c3b7f926d15eb0eca3621e248c96b8688c",
+          "bytes": 42354,
+          "cues": 449,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_25.kk.ass",
+          "sha256": "83482f5411b88e5888c24017996042ae4330b4d5a41fcca1404e46e1a4825aeb",
+          "bytes": 50051,
+          "cues": 449,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "gintama-season-3-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-season-3/gintama-season-3-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-season-3/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-season-3/ep_26.kk.srt",
+          "sha256": "f59cbd09e400babbb90aebea2574e6d9e13b5e4607669ffccdcad130804ddc17",
+          "bytes": 36196,
+          "cues": 392,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-season-3/ep_26.kk.vtt",
+          "sha256": "4e184e8e802edfa55a57e4b937b4ae16efa1e3ef91a0d9e309d456a480160a4d",
+          "bytes": 36293,
+          "cues": 392,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-season-3/ep_26.kk.ass",
+          "sha256": "88682b4df8c1f1b1f1ff2614b29cb919e46ad568cf506ff3c04a3b0eb3b89c64",
+          "bytes": 43136,
+          "cues": 392,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 26
+  "quality_issues_count": 90,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-season-3.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

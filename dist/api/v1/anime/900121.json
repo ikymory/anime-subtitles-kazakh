@@ -1,0 +1,83 @@
+{
+  "id": 900121,
+  "slug": "nanoha-movie-detonation",
+  "title": {
+    "romaji": "Magical Girl Lyrical Nanoha Detonation",
+    "english": "Magical Girl Lyrical Nanoha Detonation",
+    "native": "Mahou Shoujo Lyrical Nanoha Detonation",
+    "kazakh": "Сиқырлы қыз Наноха: Детонация",
+    "kk": "Сиқырлы қыз Наноха: Детонация"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2018,
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Mahou Shoujo"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanoha-movie-detonation.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanoha-movie-detonation.jpg",
+  "description": "Magical Girl Lyrical Nanoha Detonation - official Kazakh translation archive by ikymory.",
+  "averageScore": 85,
+  "popularity": 102000,
+  "catalog_id": "nanoha-movie-detonation",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanoha-movie-detonation/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanoha-movie-detonation/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanoha-movie-detonation/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/nanoha-movie-detonation/ep_01.kk.srt",
+          "sha256": "9486a2e8cf4d77c5c8d3c4a6d2ffd6db4c25bc41660aac0193b85cec4a576690",
+          "bytes": 279544,
+          "cues": 3099,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/nanoha-movie-detonation/ep_01.kk.vtt",
+          "sha256": "01f47129ed1befe444a26fead5d807ead9b771756d0a49a2969566ac364a5506",
+          "bytes": 279641,
+          "cues": 3099,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/nanoha-movie-detonation/ep_01.kk.ass",
+          "sha256": "783a6a616aaecca8b60e97823437363dba7ea70b4c64abb37dd6ee29857146b4",
+          "bytes": 324554,
+          "cues": 3099,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nanoha-movie-detonation.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
+}

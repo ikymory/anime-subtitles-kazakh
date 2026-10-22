@@ -15,28 +15,67 @@
     "Horror",
     "Supernatural"
   ],
-  "description": "Teropterids are evil beasts which pose as humans and live only to drink human blood. Fortunately for the human world there are groups dedicated to destroying them. A brooding and mysterious girl named Saya is the best teropterid slayer there is, and now, in 1960's Japan, she is sent to a U. S. army base which may be infested... <br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/405-umT1upaBF6VG.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/405-yNU6meEyJuFs.jpg",
+  "description": "Teropterids are evil beasts which pose as humans and live only to drink human blood. Fortunately for the human world there are groups dedicated to destroying them. A brooding and mysterious girl named Saya is the best teropterid slayer there is, and now, in 1960's Japan, she is sent to a U. S. army base which may be infested... <br><br>\n(Source: Anime News Network)",
   "averageScore": 66,
   "popularity": 24903,
+  "color": "#6b281a",
+  "duration": 48,
+  "studio": "Production I.G",
+  "catalog_id": "blood-the-last-vampire",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "blood-the-last-vampire-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-the-last-vampire/blood-the-last-vampire-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-the-last-vampire/blood-the-last-vampire-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-the-last-vampire/blood-the-last-vampire-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-the-last-vampire/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-the-last-vampire/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-the-last-vampire/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blood-the-last-vampire/ep_01.kk.srt",
+          "sha256": "52df1b17b695fe0e5edca7bb6c7982d65705e81885b317c0c3f56d44f5b9c264",
+          "bytes": 15612,
+          "cues": 168,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blood-the-last-vampire/ep_01.kk.vtt",
+          "sha256": "7d95a1a41d7fc933e58bdeef5379d946214ad6d18d0023ecd93a5ce95d420328",
+          "bytes": 15709,
+          "cues": 168,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blood-the-last-vampire/ep_01.kk.ass",
+          "sha256": "4da2440df3a4d638c1f002c5bb9aa4a4cda4d76cf954041947326008593043b8",
+          "bytes": 19191,
+          "cues": 168,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#6b281a",
-  "studio": "Production I.G",
-  "duration": 48,
-  "translated_episodes_count": 1
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/blood-the-last-vampire.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

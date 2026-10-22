@@ -16,24 +16,70 @@
     "Fantasy",
     "Slice of Life"
   ],
-  "description": "While writing other people’s emotions, she may have neglected her own. Violet Evergarden, the child soldier turned Auto Memory Doll, writes letters that evoke the words her clients can’t. But when a terminally ill boy requests her services for his family, her own feelings about love and loss resurface. Now she must confront her past and the death of the Major.<br>\n<br>\n(Source: Funimation)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103047-odblDHHEdehK.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103047-Tjvsh5w1XZP4.jpg",
+  "description": "While writing other people’s emotions, she may have neglected her own. Violet Evergarden, the child soldier turned Auto Memory Doll, writes letters that evoke the words her clients can’t. But when a terminally ill boy requests her services for his family, her own feelings about love and loss resurface. Now she must confront her past and the death of the Major.<br>\n<br>\n(Source: Funimation)",
   "averageScore": 87,
   "popularity": 202642,
+  "catalog_id": "violet-evergarden-the-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "violet-evergarden-the-movie-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/violet-evergarden-the-movie/violet-evergarden-the-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/violet-evergarden-the-movie/violet-evergarden-the-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/violet-evergarden-the-movie/violet-evergarden-the-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/violet-evergarden-the-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/violet-evergarden-the-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/violet-evergarden-the-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/violet-evergarden-the-movie/ep_01.kk.ass",
+          "sha256": "96dde6db9bfa49a63506f9adca1c990ef1632ee2a118271a8c1debb5cd5485a3",
+          "bytes": 173191,
+          "cues": 1699,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/violet-evergarden-the-movie/ep_01.kk.srt",
+          "sha256": "6279e0c657ab4a8b8bd5c230f35467f88ff5edaf49677c24c666e668ec7fe41e",
+          "bytes": 132017,
+          "cues": 1693,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/violet-evergarden-the-movie/ep_01.kk.vtt",
+          "sha256": "b204fc77cd6e60ba10f3a6704154aacdc8d3f93a12abd2e988842693042836e4",
+          "bytes": 132025,
+          "cues": 1693,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/violet-evergarden-the-movie.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

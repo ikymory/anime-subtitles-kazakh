@@ -13,39 +13,106 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9760-Ur2uU0HuF1Iz.jpg",
+  "averageScore": 87,
+  "popularity": 61198,
+  "color": "hsl(273, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9760-fdnFMdxnk77m.jpg",
+  "catalog_id": "children-who-chase-lost-voices",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     5
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "children-who-chase-lost-voices-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/children-who-chase-lost-voices/children-who-chase-lost-voices-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/children-who-chase-lost-voices/children-who-chase-lost-voices-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/children-who-chase-lost-voices/children-who-chase-lost-voices-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/children-who-chase-lost-voices/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/children-who-chase-lost-voices/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/children-who-chase-lost-voices/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/children-who-chase-lost-voices/ep_01.kk.srt",
+          "sha256": "fd850d925b66680aedaffb74e49ca3dbae98d58b69331f7f227510dae092e29f",
+          "bytes": 119886,
+          "cues": 1594,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/children-who-chase-lost-voices/ep_01.kk.vtt",
+          "sha256": "53e6a0913a77e89415803d59452a5864ba519207f4e28461b8570627a4a286fa",
+          "bytes": 119983,
+          "cues": 1594,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/children-who-chase-lost-voices/ep_01.kk.ass",
+          "sha256": "032acfa0fd96d312821bf8900529af8cae4825f1b8f3c1789d5e27f777d7f189",
+          "bytes": 144039,
+          "cues": 1594,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "children-who-chase-lost-voices-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/children-who-chase-lost-voices/children-who-chase-lost-voices-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/children-who-chase-lost-voices/children-who-chase-lost-voices-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/children-who-chase-lost-voices/children-who-chase-lost-voices-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/children-who-chase-lost-voices/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/children-who-chase-lost-voices/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/children-who-chase-lost-voices/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/children-who-chase-lost-voices/ep_05.kk.srt",
+          "sha256": "37e5bd28c70c6e346643b7606f3d1ebf5bd5d86e7460e42bdae80709c43a9a33",
+          "bytes": 95538,
+          "cues": 1146,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/children-who-chase-lost-voices/ep_05.kk.vtt",
+          "sha256": "28c3d819853102aef627d3a2230478fc7101de5f2d3fa549937fe0c1e957ef81",
+          "bytes": 95635,
+          "cues": 1146,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/children-who-chase-lost-voices/ep_05.kk.ass",
+          "sha256": "8326b37046932948dad7a9887ee5bba136680a2cf2b95871179b14110d7f1118",
+          "bytes": 113419,
+          "cues": 1146,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(273, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 87,
-  "popularity": 61198,
-  "translated_episodes_count": 2
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/children-who-chase-lost-voices.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

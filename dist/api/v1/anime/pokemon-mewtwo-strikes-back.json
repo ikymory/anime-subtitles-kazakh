@@ -16,24 +16,64 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Pokémon: The First Movie - Mewtwo Strikes Back - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-mewtwo-strikes-back.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/pokemon-mewtwo-strikes-back.jpg",
+  "description": "Pokémon: The First Movie - Mewtwo Strikes Back - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "pokemon-mewtwo-strikes-back",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "pokemon-mewtwo-strikes-back-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-mewtwo-strikes-back/pokemon-mewtwo-strikes-back-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-mewtwo-strikes-back/pokemon-mewtwo-strikes-back-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pokemon-mewtwo-strikes-back/pokemon-mewtwo-strikes-back-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-mewtwo-strikes-back/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-mewtwo-strikes-back/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pokemon-mewtwo-strikes-back/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/pokemon-mewtwo-strikes-back/ep_01.kk.srt",
+          "sha256": "dacd9354f7be44c2c49c04be3067ed15248d1168a7eb7c051d739b2232e087db",
+          "bytes": 85840,
+          "cues": 1097,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/pokemon-mewtwo-strikes-back/ep_01.kk.vtt",
+          "sha256": "826a44763dd05597c381bf4151c931284ef4995b007fa6835620cd3901076a38",
+          "bytes": 85937,
+          "cues": 1097,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/pokemon-mewtwo-strikes-back/ep_01.kk.ass",
+          "sha256": "9c57aea190774c765b41e8ed7d72f86f7000b18c85c52e676fe3fd40c4bd36a8",
+          "bytes": 103258,
+          "cues": 1097,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/pokemon-mewtwo-strikes-back.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

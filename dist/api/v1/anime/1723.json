@@ -1,0 +1,79 @@
+{
+  "id": 1723,
+  "slug": "clannad-movie",
+  "title": {
+    "romaji": "Clannad Movie",
+    "english": "Clannad: The Motion Picture",
+    "native": "劇場版 クラナド",
+    "kazakh": "Кланнад: Фильм",
+    "kk": "Кланнад: Фильм"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2007,
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Romance"
+  ],
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1723-PzMdQPvfcxxA.png",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1723-elyPZO1iWjgS.jpg",
+  "description": "Clannad is set in a high-school located in some Japanese town. Okazaki Tomoya is a third-year student who doesn't take his studies seriously. Always late for class, he's seen as a delinquent by the rest of his classmates who are busy preparing for their entrance examinations. Needless to say, he hasn't too many close friends either.<br><br>\nTomoya seems not to mind too - until one day he meets a girl, Furukawa Nagisa, who is left alone without friends on this school, because everybody she knew already graduated. What a clumsy girl, he thinks at first. But he can't leave her alone and so, while helping her, he meets a few other girls from his school. Although he doesn't care much about them at first, he soon opens his heart to them as they get to know each other better.<br><br>\n(Source: AniDB)",
+  "averageScore": 67,
+  "popularity": 32241,
+  "catalog_id": "clannad-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/clannad-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/clannad-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/clannad-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/clannad-movie/ep_01.kk.srt",
+          "sha256": "5aef86c5116ca4febcab7190115b0332014b9f6d14d90ff189947ebf9c9718e5",
+          "bytes": 134461,
+          "cues": 1569,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/clannad-movie/ep_01.kk.vtt",
+          "sha256": "1171ebff82dc5b38ea7b45018f013f273ad0bdfb7cb8aaf4d5520fc92107f45a",
+          "bytes": 134558,
+          "cues": 1569,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/clannad-movie/ep_01.kk.ass",
+          "sha256": "0e7e260e648c47a783fc660d564d4eef842845a4d7628fdde3ddfa16460d9f36",
+          "bytes": 158485,
+          "cues": 1569,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/clannad-movie.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
+}

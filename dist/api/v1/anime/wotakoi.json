@@ -13,9 +13,19 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx99578-oO5KChtfhzln.png",
+  "averageScore": 78,
+  "popularity": 53013,
+  "color": "hsl(101, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99578-8orFGgDq7NS8.jpg",
+  "catalog_id": "wotakoi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -29,122 +39,413 @@
     10,
     11
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "wotakoi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_01.kk.srt",
+          "sha256": "93c48f5ad52f0a031f0fdcbd03d4cde0cac8caa1a771adc484a6e9d4e9bef00b",
+          "bytes": 33234,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_01.kk.vtt",
+          "sha256": "51386dddad67883826452840584efefb0799b7123e52d7ddb20a91b0d7f61a16",
+          "bytes": 33331,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_01.kk.ass",
+          "sha256": "17d81d8dbdaf606d0b178aadb481b8c445c604a9656513577021c6ba34976894",
+          "bytes": 39854,
+          "cues": 387,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "wotakoi-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_02.kk.srt",
+          "sha256": "29599c2354b4bb6ab99f80059eefb82bc6061cfd81bd4b75808425de8c1837ec",
+          "bytes": 32626,
+          "cues": 366,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_02.kk.vtt",
+          "sha256": "07b26ecfb129a2b4e3e548954e16872b4551c2030166b218a6dab13ee42ec3b2",
+          "bytes": 32723,
+          "cues": 366,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_02.kk.ass",
+          "sha256": "bd6d6e7fa581665d7d284bead8d9c829bb7da8e6289bf95f555aa8249acb36c1",
+          "bytes": 38931,
+          "cues": 366,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "wotakoi-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_03.kk.srt",
+          "sha256": "552d8f5c806b04e30a16b0a70bb4149d564241e8fd0f2acd6f1aa163875a6e17",
+          "bytes": 37212,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_03.kk.vtt",
+          "sha256": "3bcea48f96bca93391155a8afc67034a488123ec09224aeaedc8c45e0ed92f65",
+          "bytes": 37309,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_03.kk.ass",
+          "sha256": "803f1b0d6ee6fc812cbcf961c51fdd38ebd6fd2c986eaf4df6e0ae9e3fabcdf9",
+          "bytes": 44462,
+          "cues": 429,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "wotakoi-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_04.kk.srt",
+          "sha256": "2eed1d81b67da94fed06b597d1fec0aa57c912acbd438ab999a4cabde4b7a8a7",
+          "bytes": 35957,
+          "cues": 415,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_04.kk.vtt",
+          "sha256": "bdade78dba6fbc611d73cc2ff764f210ad05b3be381c9ff883047aec272b2fc0",
+          "bytes": 36054,
+          "cues": 415,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_04.kk.ass",
+          "sha256": "f11619aee0fe327ca3c45752d41c299f83791b79d2c1fcb40e8e20e2af416d8f",
+          "bytes": 42997,
+          "cues": 415,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "wotakoi-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_05.kk.srt",
+          "sha256": "42453fffa5c574593669c5f922c65902c42cb27766fcdfa3be8410a6ce8fc22d",
+          "bytes": 37097,
+          "cues": 427,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_05.kk.vtt",
+          "sha256": "c02bc24b67cbebd73344ce06689631ee11e54c3293301438e6e19675cfc415b6",
+          "bytes": 37194,
+          "cues": 427,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_05.kk.ass",
+          "sha256": "8a4ed3b929a63b9685dddb5f638bb816ec8da6d098106b79a94d6c4e18985640",
+          "bytes": 44317,
+          "cues": 427,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "wotakoi-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_06.kk.srt",
+          "sha256": "8a6b8adbe46d237529eb65c0124eaefb86fe0d7694adc865dc16a336cde54917",
+          "bytes": 34450,
+          "cues": 392,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_06.kk.vtt",
+          "sha256": "3086b9f74c260d836641e1a01b95534c1fd4218dd1f7ef3a5145dca5aadbdb64",
+          "bytes": 34547,
+          "cues": 392,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_06.kk.ass",
+          "sha256": "ce691d1d301c5c91b76cf872b091eede30299823eb41d0da5003f65e339f8bdc",
+          "bytes": 41145,
+          "cues": 392,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "wotakoi-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_07.kk.srt",
+          "sha256": "787757e9084eeddf59456a7deb40cfde9d547baf8d6b09d6e9ec5bb7834884d4",
+          "bytes": 35746,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_07.kk.vtt",
+          "sha256": "4cdb545784a59188e335433846b77f013c95894806ab222a5093c0666b7065b1",
+          "bytes": 35843,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_07.kk.ass",
+          "sha256": "3a83625483eb43983fbef28638118efa59953348130a0ab147c3122dc2ee2e44",
+          "bytes": 42816,
+          "cues": 417,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "wotakoi-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_08.kk.srt",
+          "sha256": "17d1d98ca0ab4b882e6c34e74f5d85f117ac0686efc8b498af9fea0241e7c644",
+          "bytes": 30131,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_08.kk.vtt",
+          "sha256": "072bfc883af7f3b72ce1c658f2c22612475160731cd3f6e30be078969d8cb3c4",
+          "bytes": 30228,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_08.kk.ass",
+          "sha256": "3b4bb11c5f9170363b03cfdaa812d781176e0e38f95a02dc780628d90114b4de",
+          "bytes": 36301,
+          "cues": 357,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "wotakoi-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_09.kk.srt",
+          "sha256": "f1b0b9ba4ed4c74329298439fee44740f2dcc75e372a802678255d5d5d9a9ce9",
+          "bytes": 32868,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_09.kk.vtt",
+          "sha256": "52e84ec891e2b2ba940a729ccfb32e72d86049df21967f06e6e222b7ae198194",
+          "bytes": 32965,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_09.kk.ass",
+          "sha256": "28953de74f94e4237e37f53139c655dfbefa0443fc1165b4ada398fdcef859dd",
+          "bytes": 39593,
+          "cues": 394,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "wotakoi-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_10.kk.srt",
+          "sha256": "79d845fa6674c29718e764b4b5b37e51bcede8702834073852035ee81d0159a6",
+          "bytes": 37407,
+          "cues": 466,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_10.kk.vtt",
+          "sha256": "acd4f795943a48636665083fc90a50b16d5fba30b62f227a6e824feb0dbea3dd",
+          "bytes": 37504,
+          "cues": 466,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_10.kk.ass",
+          "sha256": "6e46d7812da450d7b4fc05e4dc325246f653d83c40945f0339031db7d8127fea",
+          "bytes": 45212,
+          "cues": 466,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "wotakoi-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/wotakoi/wotakoi-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/wotakoi/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/wotakoi/ep_11.kk.srt",
+          "sha256": "826e59d497cfab95f9c84eadf83a421e6b40323982e7fa6a6c8aec4770aa0813",
+          "bytes": 38820,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/wotakoi/ep_11.kk.vtt",
+          "sha256": "2521ba924060c300c404c192a09707c0c0100ce2000c2c752527ab0e97f15abf",
+          "bytes": 38917,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/wotakoi/ep_11.kk.ass",
+          "sha256": "c56fa3f05c5b0072223c8d11ed91c096684c7f6de0306e8ae733a05a43c21543",
+          "bytes": 46460,
+          "cues": 455,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(101, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 78,
-  "popularity": 53013,
-  "translated_episodes_count": 11
+  "quality_issues_count": 35,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/wotakoi.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

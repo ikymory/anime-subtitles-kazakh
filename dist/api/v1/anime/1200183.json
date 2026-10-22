@@ -1,0 +1,122 @@
+{
+  "id": 1200183,
+  "slug": "cop-craft",
+  "title": {
+    "romaji": "Cop Craft",
+    "english": "Cop Craft",
+    "native": "Cop Craft",
+    "kazakh": "Полицейлік қолөнер",
+    "kk": "Полицейлік қолөнер"
+  },
+  "format": "TV",
+  "episodes": 2,
+  "seasonYear": 2019,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Comedy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cop-craft.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cop-craft.jpg",
+  "description": "Cop Craft - official Kazakh translation archive by ikymory.",
+  "averageScore": 80,
+  "popularity": 60000,
+  "catalog_id": "cop-craft",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    2,
+    3
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
+  "subtitles": [
+    {
+      "episode": 2,
+      "language": "kk",
+      "filename": "ep_02.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cop-craft/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cop-craft/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cop-craft/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cop-craft/ep_02.kk.srt",
+          "sha256": "1906fb92170a762147b50386409025d1d71e4bea7ba0d98b8f5dbd70975c91ba",
+          "bytes": 36347,
+          "cues": 394,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cop-craft/ep_02.kk.vtt",
+          "sha256": "61cf95b094a008e35a2072fc24c49636a4cecc0f69184925a122100bd2105de0",
+          "bytes": 36444,
+          "cues": 394,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cop-craft/ep_02.kk.ass",
+          "sha256": "8c1d4fcd4a4427ea8742031ca42a4581d8f39014b41cb78359ebf2bcd7a4a142",
+          "bytes": 42880,
+          "cues": 394,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 3,
+      "language": "kk",
+      "filename": "ep_03.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cop-craft/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cop-craft/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cop-craft/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cop-craft/ep_03.kk.srt",
+          "sha256": "df165ec6ddc5713dbf7a7ff19546fa017478a3bb253b662a4406173c685617f9",
+          "bytes": 33791,
+          "cues": 375,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cop-craft/ep_03.kk.vtt",
+          "sha256": "77349f7fecc88170ebf20a922b93e0b709965d65ab9e23a634e2726d30b640ad",
+          "bytes": 33888,
+          "cues": 375,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cop-craft/ep_03.kk.ass",
+          "sha256": "c5198a6775caf0fdb8c2de87ca3f662c6c946f3c346073587e3844f759d45176",
+          "bytes": 40039,
+          "cues": 375,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cop-craft.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
+}

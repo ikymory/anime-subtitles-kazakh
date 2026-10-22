@@ -3,30 +3,77 @@
   "slug": "the-girl-who-leapt-through-time",
   "title": {
     "romaji": "The Girl Who Leapt Through Time",
-    "english": "The Girl Who Leapt Through Time"
+    "english": "The Girl Who Leapt Through Time",
+    "kazakh": "Уақытты бағындырған қыз",
+    "kk": "Уақытты бағындырған қыз"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2006,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2236-tH5fWFkHyVGg.png",
+  "averageScore": 80,
+  "popularity": 64257,
+  "color": "hsl(105, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2236-rY0fvv53JIOB.jpg",
+  "catalog_id": "the-girl-who-leapt-through-time",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "the-girl-who-leapt-through-time-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-girl-who-leapt-through-time/the-girl-who-leapt-through-time-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-girl-who-leapt-through-time/the-girl-who-leapt-through-time-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-girl-who-leapt-through-time/the-girl-who-leapt-through-time-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-girl-who-leapt-through-time/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-girl-who-leapt-through-time/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-girl-who-leapt-through-time/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/the-girl-who-leapt-through-time/ep_01.kk.srt",
+          "sha256": "e17d07e5bfb71e3386762248d346f9da48e8fc0e127e20dde635978fc3aa895c",
+          "bytes": 98294,
+          "cues": 1070,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/the-girl-who-leapt-through-time/ep_01.kk.vtt",
+          "sha256": "9d30497a9d06b5da71571aa4133788cefea771edaed6f56e770cb8550369f526",
+          "bytes": 98391,
+          "cues": 1070,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/the-girl-who-leapt-through-time/ep_01.kk.ass",
+          "sha256": "26c4941f7d4a473371d9d97e39da97cdeea63fae7b41830e24d9c221e0742b1b",
+          "bytes": 115112,
+          "cues": 1070,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/the-girl-who-leapt-through-time.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

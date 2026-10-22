@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Aggressive Retsuko - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aggressive-retsuko.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/aggressive-retsuko.jpg",
+  "description": "Aggressive Retsuko - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "aggressive-retsuko",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -33,106 +39,374 @@
     9,
     10
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 10,
+  "available_episodes_count": 10,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "aggressive-retsuko-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_01.kk.srt",
+          "sha256": "6412a283bf962839d362536ba86d15b653d9582f3675f70287ca4f87ed402b96",
+          "bytes": 20420,
+          "cues": 238,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_01.kk.vtt",
+          "sha256": "b6882876af471d0f2aabb6d8cec7df9434af6f70ed2889321f71504a52dd2604",
+          "bytes": 20517,
+          "cues": 238,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_01.kk.ass",
+          "sha256": "b370a0f76c9f65e32cd9d366cf53a212d431047413aac8d04aa302432afa860f",
+          "bytes": 24868,
+          "cues": 238,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "aggressive-retsuko-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_02.kk.srt",
+          "sha256": "f588f224a3b5fcac98072e034a9e58314b8152fa433e6ecc51217b886616697c",
+          "bytes": 24189,
+          "cues": 277,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_02.kk.vtt",
+          "sha256": "4da7663feff3e5fca3e7bb8e453a4403217a2ea6f2f6b6f7c639c82b65b01bd9",
+          "bytes": 24286,
+          "cues": 277,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_02.kk.ass",
+          "sha256": "dd6e1258973c8773b56b6636e1740dd6315508b68d2418f029fd8956938b8930",
+          "bytes": 29222,
+          "cues": 277,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "aggressive-retsuko-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_03.kk.srt",
+          "sha256": "b1161e029685b9ad736b45ece990bec7e60f53f877cb1f9d68454c78fe7447d1",
+          "bytes": 22382,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_03.kk.vtt",
+          "sha256": "f0981c4cb7cecef6681561bcd045a5e210301008c845e55ce6412c2e9f15577d",
+          "bytes": 22479,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_03.kk.ass",
+          "sha256": "6609c897c3c4f1ddde2927cbee6555efadc610f7107883761d633499643f04ca",
+          "bytes": 27235,
+          "cues": 265,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "aggressive-retsuko-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_04.kk.srt",
+          "sha256": "fb41f1993bd2a29625572bd938978ff0fb031a63d198aec892c09de4c81662e9",
+          "bytes": 21513,
+          "cues": 253,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_04.kk.vtt",
+          "sha256": "cd26122cfb30bd82fa220a30ba1776fc2eaee57dfaf3607e2ab421a5f2a899c5",
+          "bytes": 21610,
+          "cues": 253,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_04.kk.ass",
+          "sha256": "586f8fa31d26abe2a4d9d4f8f1474ae8932e856d3b54b37b21e44b75cb054655",
+          "bytes": 26186,
+          "cues": 253,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "aggressive-retsuko-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_05.kk.srt",
+          "sha256": "ac348a45a6e32854b302401bdb0ffff3fd0c0da5767821c6ebd82e1590a43991",
+          "bytes": 20935,
+          "cues": 235,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_05.kk.vtt",
+          "sha256": "8bc352b98863a871682a0977390bc712d823f60d8c599d3266953bdc0275f5d1",
+          "bytes": 21032,
+          "cues": 235,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_05.kk.ass",
+          "sha256": "3d28bfe9049e0178e3c89a87acaa3966ea612e6a9ca792b3c25a104cfdb57ec1",
+          "bytes": 25338,
+          "cues": 235,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "aggressive-retsuko-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_06.kk.srt",
+          "sha256": "e80b5f1f938554a98abeaecfacd0986b18d9d0e72eff4e0c776685bc1f0bc738",
+          "bytes": 25599,
+          "cues": 277,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_06.kk.vtt",
+          "sha256": "ba57ba6a4a45e0e593056cd7f3ec4f195d51b2e2d7887df1748a31194d8456ad",
+          "bytes": 25696,
+          "cues": 277,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_06.kk.ass",
+          "sha256": "b1853d9b8c771c0af68c50065436d5cef4c5aeb841051f38f7d983d7700d3276",
+          "bytes": 30632,
+          "cues": 277,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "aggressive-retsuko-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_07.kk.srt",
+          "sha256": "c2eac92ac17534b3f6df69efb65566351d936141ee6f2890123915f22d7ba51f",
+          "bytes": 18252,
+          "cues": 208,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_07.kk.vtt",
+          "sha256": "a7d6c6354a741630ec3bd7a4feac1891c62255781ecb1e3a83684679d457eb7a",
+          "bytes": 18349,
+          "cues": 208,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_07.kk.ass",
+          "sha256": "655e82b918ca4b692b1606d65e3014d21d0d792fcabb563f73261a67f206d074",
+          "bytes": 22250,
+          "cues": 208,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "aggressive-retsuko-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_08.kk.srt",
+          "sha256": "0dde0dcc53a6a9bd6239649fa08bab8b7e1a186aa6c228bce512a10673a68fd5",
+          "bytes": 22619,
+          "cues": 257,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_08.kk.vtt",
+          "sha256": "061e644f17f3a06040835b3267a354b6c91235a36280796826e942976e65b69c",
+          "bytes": 22716,
+          "cues": 257,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_08.kk.ass",
+          "sha256": "fa218479cb47b7fcb2e8e7efb504f0ea2253aa474ade200685ee6906a3d206d3",
+          "bytes": 27352,
+          "cues": 257,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "aggressive-retsuko-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_09.kk.srt",
+          "sha256": "a538657d5fc5e37095837348e6cb747440f2c69ea43e740efea66239d1d809e6",
+          "bytes": 19037,
+          "cues": 226,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_09.kk.vtt",
+          "sha256": "3571d34cecda2a0de972ac47c539fd8c29f149efa7a880f9916bacfd275832f9",
+          "bytes": 19134,
+          "cues": 226,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_09.kk.ass",
+          "sha256": "1e2881e0ba1bf32cc2937786359e24f89c013e8759c3a5d1719558564f749c34",
+          "bytes": 23305,
+          "cues": 226,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "aggressive-retsuko-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/aggressive-retsuko/aggressive-retsuko-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/aggressive-retsuko/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/aggressive-retsuko/ep_10.kk.srt",
+          "sha256": "1c389d83786d94bf7e87a90ae2e289dacd1cd5bc91f7932a1b852db747fabad4",
+          "bytes": 21986,
+          "cues": 255,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/aggressive-retsuko/ep_10.kk.vtt",
+          "sha256": "b56fd00216c6208de1d83dcbeb7a65500c58f0de253e8f82f86cd7d321926568",
+          "bytes": 22083,
+          "cues": 255,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/aggressive-retsuko/ep_10.kk.ass",
+          "sha256": "ca0cf5bd25d6719f5d4343cecef3012f206a8140b3a81a559333b3827101b23f",
+          "bytes": 26689,
+          "cues": 255,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 30,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aggressive-retsuko.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

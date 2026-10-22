@@ -3,30 +3,77 @@
   "slug": "pom-poko",
   "title": {
     "romaji": "Pom Poko",
-    "english": "Pom Poko"
+    "english": "Pom Poko",
+    "kazakh": "Помпоко: Тануки шайқасы",
+    "kk": "Помпоко: Тануки шайқасы"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 1994,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1030-epXaUwnycmQE.jpg",
+  "averageScore": 83,
+  "popularity": 53704,
+  "color": "hsl(220, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1030-wnxJEkttJqgs.jpg",
+  "catalog_id": "pom-poko",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "pom-poko-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pom-poko/pom-poko-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pom-poko/pom-poko-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/pom-poko/pom-poko-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pom-poko/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pom-poko/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/pom-poko/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/pom-poko/ep_01.kk.srt",
+          "sha256": "4868644445d2a58970421585303dd6bb223805e9b9b2ba76633a284b585dd742",
+          "bytes": 180629,
+          "cues": 1953,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/pom-poko/ep_01.kk.vtt",
+          "sha256": "8ee4876cad97d64fdb6e003c19ef304aa7da8bfbaf5db37c932caaa3e54e13fa",
+          "bytes": 180726,
+          "cues": 1953,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/pom-poko/ep_01.kk.ass",
+          "sha256": "dc620493ccea4d9356f2da5e62da2f3066398f949566f2512ab2bc4c54bf7782",
+          "bytes": 209786,
+          "cues": 1953,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/pom-poko.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

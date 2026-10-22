@@ -15,28 +15,74 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Detective Conan: The Scarlet Bullet.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113653-HY0suLnhIlA6.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113653-fBVZxVTxxNHv.jpg",
+  "description": "Kazakh subtitles for Detective Conan: The Scarlet Bullet.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "detective-conan-scarlet-bullet",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "detective-conan-scarlet-bullet-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/detective-conan-scarlet-bullet/detective-conan-scarlet-bullet-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/detective-conan-scarlet-bullet/detective-conan-scarlet-bullet-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/detective-conan-scarlet-bullet/detective-conan-scarlet-bullet-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/detective-conan-scarlet-bullet/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/detective-conan-scarlet-bullet/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/detective-conan-scarlet-bullet/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/detective-conan-scarlet-bullet/ep_01.kk.ass",
+          "sha256": "dccf7863488826c0c291372f75ebd02d73381536f0c232ce1a9d0872588b1add",
+          "bytes": 213634,
+          "cues": 1909,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/detective-conan-scarlet-bullet/ep_01.kk.srt",
+          "sha256": "94370a0dbfc3216adb4213ed62d9d93829337c938b84cbd3219dd1d62c57357c",
+          "bytes": 184331,
+          "cues": 1895,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/detective-conan-scarlet-bullet/ep_01.kk.vtt",
+          "sha256": "47ee9faadc66d96085d1c8028f502eaf2be3bd331358ef3b025b3496cc89b964",
+          "bytes": 184339,
+          "cues": 1895,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/detective-conan-scarlet-bullet.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

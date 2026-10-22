@@ -16,24 +16,68 @@
     "Sports",
     "Slice of Life"
   ],
-  "description": "High Speed! - Free! Starting Days - - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/high-speed-free-starting-days.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/high-speed-free-starting-days.jpg",
+  "description": "High Speed! - Free! Starting Days - - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "high-speed-free-starting-days",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "high-speed-free-starting-days-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/high-speed-free-starting-days/high-speed-free-starting-days-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/high-speed-free-starting-days/high-speed-free-starting-days-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/high-speed-free-starting-days/high-speed-free-starting-days-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/high-speed-free-starting-days/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/high-speed-free-starting-days/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/high-speed-free-starting-days/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/high-speed-free-starting-days/ep_01.kk.ass",
+          "sha256": "c2ddfa5fca179ac13696a021df05e4522f25e9a4e006994cc1631beb1430e1e7",
+          "bytes": 188106,
+          "cues": 1860,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/high-speed-free-starting-days/ep_01.kk.srt",
+          "sha256": "a5f7d922b5920eccacadc2919013d883a9426cf0c3617f90fc0e395770d0db03",
+          "bytes": 159413,
+          "cues": 1844,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/high-speed-free-starting-days/ep_01.kk.vtt",
+          "sha256": "58ba411ee0c083645484bc5ce496c7905f983c49ffe433c7db76540c38e5249d",
+          "bytes": 159421,
+          "cues": 1844,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/high-speed-free-starting-days.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

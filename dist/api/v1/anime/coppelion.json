@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Coppelion - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/coppelion.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/coppelion.jpg",
+  "description": "Coppelion - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "coppelion",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +42,482 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "coppelion-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_01.kk.srt",
+          "sha256": "1f2038bf94c2a52a7756eeea8a60abf3412037105613b28e7f3a525ae73d1030",
+          "bytes": 32716,
+          "cues": 360,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_01.kk.vtt",
+          "sha256": "fded5e87ac40c08a4aa95e30c98d3117065372532ebb1300a91300c0e5e65df4",
+          "bytes": 32813,
+          "cues": 360,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_01.kk.ass",
+          "sha256": "959ac583f31127740ceb323d2f134b51f2eedf78bd74751dbe221b47409e3092",
+          "bytes": 39175,
+          "cues": 360,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "coppelion-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_02.kk.srt",
+          "sha256": "b2b2fb8ce3a4dd53b41fb8c44d091e09ee0c4879781c605687a6a9f718ee54f2",
+          "bytes": 33521,
+          "cues": 362,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_02.kk.vtt",
+          "sha256": "fe3443887dd8ade44f058a5f6dae31aeb46ed679f68246732bf7e9caf71098aa",
+          "bytes": 33618,
+          "cues": 362,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_02.kk.ass",
+          "sha256": "8065a1d7f1d24af9be2336b3326b742eb3ef63f7359ba387b14849176307bb11",
+          "bytes": 40010,
+          "cues": 362,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "coppelion-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_03.kk.srt",
+          "sha256": "6b4903790502aa592080a9d2550cca9f1025b528e1a548c37564858f7bcc2b8c",
+          "bytes": 37205,
+          "cues": 369,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_03.kk.vtt",
+          "sha256": "86c07789966b67abff55c13c4c0659aa88085d678205ac70887fa71f2ae26f43",
+          "bytes": 37302,
+          "cues": 369,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_03.kk.ass",
+          "sha256": "b16d5f3eda58ff9f9298a29b567ff2c78daca0b45641ea32a4978a9d15860cb8",
+          "bytes": 43799,
+          "cues": 369,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "coppelion-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_04.kk.srt",
+          "sha256": "8ae4e2c67b5b8db1ba1124e880843dd5fa7103964b3302210768768a75d5f7c9",
+          "bytes": 33905,
+          "cues": 334,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_04.kk.vtt",
+          "sha256": "543aab4d21d9b4a5b021df3fca3e04a7df8787acea49bd57b0fcfce92fe7df66",
+          "bytes": 34002,
+          "cues": 334,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_04.kk.ass",
+          "sha256": "3314f7a8eb5e5b8e497181e98e9184fb571f930aef59ba3dcf28a595bfdd89ac",
+          "bytes": 39974,
+          "cues": 334,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "coppelion-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_05.kk.srt",
+          "sha256": "597c2709b2db26d00c892101aefc4750b58bb5d89a5d6b51d028dc6a6f879fc9",
+          "bytes": 38781,
+          "cues": 378,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_05.kk.vtt",
+          "sha256": "9a0b6019d579b1c519647cf777fb258c2ef258f2459a45b3561632d1f360ab33",
+          "bytes": 38878,
+          "cues": 378,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_05.kk.ass",
+          "sha256": "1da62926142d8fe109313f45c7df1e25c73ef3fd477d57f7d7a86125f5e84aaf",
+          "bytes": 45511,
+          "cues": 378,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "coppelion-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_06.kk.srt",
+          "sha256": "c7ddc60baa6551ff3e5a043c7a1dbf1ea2a1f23079093cfbb2886d48af805547",
+          "bytes": 40701,
+          "cues": 477,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_06.kk.vtt",
+          "sha256": "68cb5a93f6c346b7c1525cee37906bfb1c4763cd689983d6e053d4256bb3f39c",
+          "bytes": 40798,
+          "cues": 477,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_06.kk.ass",
+          "sha256": "e8de39e40108d3dd56a0124d1ec24661a0e9792e8349804026d37ec8e3566d49",
+          "bytes": 48915,
+          "cues": 477,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "coppelion-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_07.kk.srt",
+          "sha256": "761fbacad950a7d59a4e9e323c9b1685850d9fd425f7acd981a38ec2a14546e0",
+          "bytes": 42012,
+          "cues": 491,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_07.kk.vtt",
+          "sha256": "9f36e21d3089d93863ae253b26f872d9449441f78e645699190d7134774eff26",
+          "bytes": 42109,
+          "cues": 491,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_07.kk.ass",
+          "sha256": "f343201c2622ea426702507bf45685d7daed61dcd48d62613bdaec6424450cc4",
+          "bytes": 50436,
+          "cues": 491,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "coppelion-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_08.kk.srt",
+          "sha256": "9c9345060a907f01ba018199e92a760e9b726a0a323eefeb23b93518be7f0236",
+          "bytes": 38267,
+          "cues": 446,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_08.kk.vtt",
+          "sha256": "aaeb5cfa28bb8c3a812b14cf08b0f6f550378d9df3d620e4b0b62a3bde95873d",
+          "bytes": 38364,
+          "cues": 446,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_08.kk.ass",
+          "sha256": "3f5601a1a013c49a7894d21ef8fab2506c54c9d934517310ed5311eddaee1042",
+          "bytes": 46016,
+          "cues": 446,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "coppelion-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_09.kk.srt",
+          "sha256": "57a99d9fe11229f6fdf693b033ed5e9774ce459456842e138a7f0f0e86e0fbe8",
+          "bytes": 40831,
+          "cues": 430,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_09.kk.vtt",
+          "sha256": "93700bdbf7c9701e1c152cb71b6cf509993e3addc96fcdcb2367b6bc78f75b42",
+          "bytes": 40928,
+          "cues": 430,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_09.kk.ass",
+          "sha256": "e58aa0ee62a369c539109c61ff8da3bac75c822caa6448bee99e8c0de9d24d11",
+          "bytes": 48340,
+          "cues": 430,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "coppelion-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_10.kk.srt",
+          "sha256": "d72e0397b7357d05db479694a99bf83eb227345a537a4eb61d315ce4b422ded0",
+          "bytes": 35218,
+          "cues": 390,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_10.kk.vtt",
+          "sha256": "2266392aeec497a08c448fb754c1e86e65a9e5b601d894f04a6135dad57ac1e5",
+          "bytes": 35315,
+          "cues": 390,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_10.kk.ass",
+          "sha256": "edce682514fdf36068bdce9b0b0c273933b8143a3484e619ba80a55431dec556",
+          "bytes": 42127,
+          "cues": 390,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "coppelion-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_11.kk.srt",
+          "sha256": "3047fb8fb4418b5e58fa87f30d512805933987c30cdc04ae178336106d0aa876",
+          "bytes": 32945,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_11.kk.vtt",
+          "sha256": "6d47e13eba5d572a517d4cd7e592dbf977eb6e493d3f9a3c597676480f013012",
+          "bytes": 33042,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_11.kk.ass",
+          "sha256": "44cbc41dcbc04b09f0ef6bc8b9cc576ea089f99dae12318ab7af9aa22b0c8869",
+          "bytes": 39659,
+          "cues": 377,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "coppelion-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_12.kk.srt",
+          "sha256": "99704b0bd75f08e6cc27f636d9912081b7e017b2c1f81caeb3b5bc93b8c3f663",
+          "bytes": 35793,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_12.kk.vtt",
+          "sha256": "d7470286444cc9dee51974e7aebc25a2034bcae7d70447d3bcbd14fd454106fb",
+          "bytes": 35890,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_12.kk.ass",
+          "sha256": "28f08450be1c717edb322b6da827137f399a54599fb2417a366999c7e2622119",
+          "bytes": 42462,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "coppelion-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/coppelion/coppelion-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/coppelion/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/coppelion/ep_13.kk.srt",
+          "sha256": "67916920fd36b28d3b380cbe25a77a2267c89718e6aa221ab38d4c97c7f9a0e3",
+          "bytes": 30187,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/coppelion/ep_13.kk.vtt",
+          "sha256": "68659b90d7f0b97ef19afc586e1c74602bcf24b9f290289f061a29ea19e0b57d",
+          "bytes": 30284,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/coppelion/ep_13.kk.ass",
+          "sha256": "39f7125bb32f0755db844f299f5dc9a07c638c5f671cfd492643723c1f5243da",
+          "bytes": 36241,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/coppelion.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

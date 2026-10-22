@@ -4,10 +4,12 @@
   "title": {
     "romaji": "Re:Zero kara Hajimeru Isekai Seikatsu",
     "english": "Re:ZERO -Starting Life in Another World-",
-    "native": "Re:ゼロから始める異世界生活"
+    "native": "Re:ゼロから始める異世界生活",
+    "kazakh": "Re:Zero - Өзге әлемде өмірді басынан бастау",
+    "kk": "Re:Zero - Өзге әлемде өмірді басынан бастау"
   },
   "format": "TV",
-  "episodes": 25,
+  "episodes": 26,
   "seasonYear": 2016,
   "genres": [
     "Action",
@@ -18,9 +20,20 @@
     "Romance",
     "Thriller"
   ],
-  "description": "In the story, Subaru Natsuki is an ordinary high school student who is lost in an alternate world, where he is rescued by a beautiful, silver-haired girl. He stays near her to return the favor, but the destiny she is burdened with is more than Subaru can imagine. Enemies attack one by one, and both of them are killed. He then finds out he has the power to rewind death, back to the time he first came to this world. But only he remembers what has happened since.<br>\n<br>\n(Source: Anime News Network)\n<br><br>\n<i>Notes:<br>\n- The first episode aired with a runtime of ~50 minutes as opposed to the standard 25 minute long episode.<br>\n- In the Winter 2020 season, Re:ZERO was rebroadcast and re-edited to fit into an hour time-slot. This edit included the first OVA and added slight modifications to certain scenes throughout. It also added an additional scene at the end of the final episode.</i>",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21355-wRVUrGxpvIQQ.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-wRVUrGxpvIQQ.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg",
+  "description": "In the story, Subaru Natsuki is an ordinary high school student who is lost in an alternate world, where he is rescued by a beautiful, silver-haired girl. He stays near her to return the favor, but the destiny she is burdened with is more than Subaru can imagine. Enemies attack one by one, and both of them are killed. He then finds out he has the power to rewind death, back to the time he first came to this world. But only he remembers what has happened since.\n\n(Source: Anime News Network)\n\nNotes:\n- The first episode aired with a runtime of ~50 minutes as opposed to the standard 25 minute long episode.\n- In the Winter 2020 season, Re:ZERO was rebroadcast and re-edited to fit into an hour time-slot. This edit included the first OVA and added slight modifications to certain scenes throughout. It also added an additional scene at the end of the final episode.",
+  "averageScore": 87,
+  "popularity": 52322,
+  "color": "#f150ae",
+  "duration": 25,
+  "studio": "WHITE FOX",
+  "catalog_id": "rezero",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -49,266 +62,980 @@
     25,
     265
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "rezero-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_01.kk.srt",
+          "sha256": "09f004bacdfbe097c6a836f972b5be3f26ce42b404c35c6414e078413824729b",
+          "bytes": 79232,
+          "cues": 783,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_01.kk.vtt",
+          "sha256": "e73a30f85db3df597480559b1f19d162b27803fa83917273c268a4dcf8594836",
+          "bytes": 79329,
+          "cues": 783,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_01.kk.ass",
+          "sha256": "6af864d9e4712b2b61975681f52255b0461595caa3fe448619542fcc0310e789",
+          "bytes": 91791,
+          "cues": 783,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "rezero-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_02.kk.srt",
+          "sha256": "824c283cf197fc7c3294217a5787e7099ddb9bd6cbf0849ef2998b3742ef48db",
+          "bytes": 39957,
+          "cues": 372,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_02.kk.vtt",
+          "sha256": "f058145b048d7445f4971254fa1dc8c8939f5f4eb480c726baafc8e9cf17a198",
+          "bytes": 40054,
+          "cues": 372,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_02.kk.ass",
+          "sha256": "7a49dc4ffffaabf1bc103aacdb5249f2afb33bb5c4667ebe93e592d56b20edf6",
+          "bytes": 46351,
+          "cues": 372,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "rezero-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_03.kk.srt",
+          "sha256": "a65b4e9834f214243736bd8ba0f14e619a0e62cafa30e5947ef3dbd9b195fb13",
+          "bytes": 42988,
+          "cues": 398,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_03.kk.vtt",
+          "sha256": "06891310e11e593b0d372a2c014dfc344226358954a12c77d8c011ca8429deb1",
+          "bytes": 43085,
+          "cues": 398,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_03.kk.ass",
+          "sha256": "06dda166d0d615643418b2f8a5303ec9b61846f79136f806acc6e060a69eb5ce",
+          "bytes": 49772,
+          "cues": 398,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "rezero-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_04.kk.srt",
+          "sha256": "f6ddcd81fdb0ddf0244fd7d9fcf5e8bd26159297a9873fd6c03d19e484e87fd7",
+          "bytes": 53269,
+          "cues": 448,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_04.kk.vtt",
+          "sha256": "c27c7168372bb11bdc8ebec4de3774c9b1192e128d9dd1381337dbeff22ba79f",
+          "bytes": 53366,
+          "cues": 448,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_04.kk.ass",
+          "sha256": "d73bfa2ab953b2552f49b87ebfb19f4bb7224198abb73ad92bc0b343a91b9a8c",
+          "bytes": 60803,
+          "cues": 448,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "rezero-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_05.kk.srt",
+          "sha256": "cfb4304d49d028690bce8ad0b40d47330d53bea229c913f768e1de63df56a01d",
+          "bytes": 45046,
+          "cues": 422,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_05.kk.vtt",
+          "sha256": "f204362aeb5d37af50cc974e69d19fe5d48daa62fac4ea87ed3d111274869b79",
+          "bytes": 45143,
+          "cues": 422,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_05.kk.ass",
+          "sha256": "5c5ee3917437c358c813f2c4bf80e2faeb0a179ba163dbaf5ff5f79a5dc08a32",
+          "bytes": 52190,
+          "cues": 422,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "rezero-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_06.kk.srt",
+          "sha256": "76976d01bb830818ddd89d5554599478e28f78243ef6752e68c3842802c4dc46",
+          "bytes": 45102,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_06.kk.vtt",
+          "sha256": "b68a1aa28451a1cedd1074955d06e570cd9c1c3d38fd0f3aec57db0ae817702b",
+          "bytes": 45199,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_06.kk.ass",
+          "sha256": "8c3a8f475cfd552d3f3aea6fb9479a587b9786ee4bbfa915ec1d23e6063c4d96",
+          "bytes": 51916,
+          "cues": 400,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "rezero-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_07.kk.srt",
+          "sha256": "1b000992fa957acc629dbb96cd19c2dd9a7dcec9a55a60919b12d3593c74b36e",
+          "bytes": 36747,
+          "cues": 349,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_07.kk.vtt",
+          "sha256": "90a0a48f85f9a6f8ccfdc253244b426065cfbd73939f17ab33186aca51602c32",
+          "bytes": 36844,
+          "cues": 349,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_07.kk.ass",
+          "sha256": "aaa151c26ed9974fa08914fab870c416ee6460ed7e1df176fdb77879085da707",
+          "bytes": 42796,
+          "cues": 349,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "rezero-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_08.kk.srt",
+          "sha256": "08d239ea547a6ce38318e5861f6d9a7796aa3da70fc223c1cd5e982fd7278d14",
+          "bytes": 50642,
+          "cues": 444,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_08.kk.vtt",
+          "sha256": "0fefc375824236c196d8e9b3c8eb40b91d45d06b4d378dc241d801eb6aa64453",
+          "bytes": 50739,
+          "cues": 444,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_08.kk.ass",
+          "sha256": "cca237e976e893d0385bcbc6571935446db18e57aba7873225a8478c3f250e40",
+          "bytes": 58116,
+          "cues": 444,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "rezero-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_09.kk.srt",
+          "sha256": "7ecd3556aeabde0ca472826aa06f64ca73c33ae5e219a6d5c1954a6dbd341d5a",
+          "bytes": 37004,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_09.kk.vtt",
+          "sha256": "c0ffcc4497c1ca2ce160dcf1955a6af67905c94afb32c08b40bb74e7d71840bb",
+          "bytes": 37101,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_09.kk.ass",
+          "sha256": "a7c4b3b30b030bbb6e6eb802b55b91c03ac45a482d58a57a9e93e54fb28597ce",
+          "bytes": 43293,
+          "cues": 365,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "rezero-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_10.kk.srt",
+          "sha256": "9ff8fdcdc64d3111d08d2a0431c8628260f0df2ae2e000e62762839bc3c56ac4",
+          "bytes": 38716,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_10.kk.vtt",
+          "sha256": "c38e28cd0d5aededb80179fdb3c539bdf7cc6e6b1c702a8fa89163ea6857ae49",
+          "bytes": 38813,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_10.kk.ass",
+          "sha256": "868bcba01fa77323d32c352d562ec9adc8f9269f3299ecd2fb0725bbb3dbae9b",
+          "bytes": 44870,
+          "cues": 356,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "rezero-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_11.kk.srt",
+          "sha256": "dc34c1992f490bee0a961fbd42935ad3818b9db67c2262f7277739082cb2e6ce",
+          "bytes": 33537,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_11.kk.vtt",
+          "sha256": "877ad5c0c215e7786d406b5b4f75186056d10cd54e92b2d73b9073ac0b117054",
+          "bytes": 33634,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_11.kk.ass",
+          "sha256": "e50cbd4185449c9ef1274556affff422533add818cc30a01512879b9ec6c6411",
+          "bytes": 39856,
+          "cues": 367,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "rezero-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_12.kk.srt",
+          "sha256": "d7627c6a5580601fe182fb248a418ac44e4c829815a056bee1df387329a73949",
+          "bytes": 40351,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_12.kk.vtt",
+          "sha256": "e09cfad8aa5e8612bf031d6b561a2e517da20f4eec30a99002308ab513380084",
+          "bytes": 40448,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_12.kk.ass",
+          "sha256": "6c81c6c6af8b78bd6c97acc0dcaeae866bfe3ec6a231eb05d58049607160b2f9",
+          "bytes": 47990,
+          "cues": 455,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "rezero-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_13.kk.srt",
+          "sha256": "57a2d75a213ae4a0d03d88d4d3c079bedfce77efe0409a1be2ee5b73b60371e2",
+          "bytes": 48808,
+          "cues": 433,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_13.kk.vtt",
+          "sha256": "493108adedac3db95abf540582086c3495a2f39b600d74ad2892afd2b5be543b",
+          "bytes": 48905,
+          "cues": 433,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_13.kk.ass",
+          "sha256": "737c406b69e78d0f4e7ecf7f3bb8056a57ce0a520fe38fc4daf5ccf752f6dbc1",
+          "bytes": 56117,
+          "cues": 433,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "rezero-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_14.kk.srt",
+          "sha256": "2bf1fa98a71732468f96af72f49be7903ddee49569891959cabbad9ea4f54c57",
+          "bytes": 38377,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_14.kk.vtt",
+          "sha256": "dbe07aa374f959303b4b4881e80d169c4a3642f67260894013cdb4ec50874f6f",
+          "bytes": 38474,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_14.kk.ass",
+          "sha256": "f948f406f1285d7b26d9b322f4c84cb918541ec04b8c988edaf2611adac54886",
+          "bytes": 44516,
+          "cues": 355,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "rezero-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_15.kk.srt",
+          "sha256": "f4b4c26d4a34b1e2b8977b9fb0c7f4efb9e8e112b94c9467eb128deccd0adb8b",
+          "bytes": 28040,
+          "cues": 284,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_15.kk.vtt",
+          "sha256": "9a638bae1db83efe782db7be13338a8cebffab29b2c1b390be669a4b6e83d596",
+          "bytes": 28137,
+          "cues": 284,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_15.kk.ass",
+          "sha256": "9fbd8f644e06f87a0feff88a442a39ada9c06a03c86f0ef82d57aa65fb6a0ab3",
+          "bytes": 33114,
+          "cues": 284,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "rezero-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_16.kk.srt",
+          "sha256": "54b17a964cf1b9d27111a060954ef973da7559a25216c9cd399f54f84ef67a26",
+          "bytes": 46815,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_16.kk.vtt",
+          "sha256": "276e9d5e1c84d621d4acef0ce085011c838f9b4a8509c5ef07a47c1d982ff4f7",
+          "bytes": 46912,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_16.kk.ass",
+          "sha256": "d04540c92b8b1510604c7102bc6cc706aa9bb4cb7aec6c96afdc79a2e5f978b5",
+          "bytes": 53824,
+          "cues": 413,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "rezero-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_17.kk.srt",
+          "sha256": "88ec492068b514c019a2104bed17057d4b49d45a46a1f516c5da20251551ca4f",
+          "bytes": 33448,
+          "cues": 319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_17.kk.vtt",
+          "sha256": "448991e450445f6f1556d9ad4994bf3c7adf87582e904afec75177fdb93055ca",
+          "bytes": 33545,
+          "cues": 319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_17.kk.ass",
+          "sha256": "23bf6390bc720800e89a2df2fc181685d5c0d0b0480280eba359e875c3bb3ca9",
+          "bytes": 39047,
+          "cues": 319,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "rezero-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_18.kk.srt",
+          "sha256": "2d74c82eea60ca4d40b6641129b22cf7727573b3984d628611ffda158ca41cf3",
+          "bytes": 47914,
+          "cues": 467,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_18.kk.vtt",
+          "sha256": "e09b852f090a9591c7ec79eb7786465957d3094f1837daccfe147270de823900",
+          "bytes": 48011,
+          "cues": 467,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_18.kk.ass",
+          "sha256": "723ac441e1b2e2709530865a6d128c9d743c8e7d6723cd2de77dedb2328c44a5",
+          "bytes": 55733,
+          "cues": 467,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "rezero-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_19.kk.srt",
+          "sha256": "c4295e1e3009ec454fc1811e4807401cb1c07efa81f68a77d10203b6a4737552",
+          "bytes": 43625,
+          "cues": 369,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_19.kk.vtt",
+          "sha256": "0023e9a878266cc8a1d5836ea5dfeca55a4746a0332bc70f0ccee879be739923",
+          "bytes": 43722,
+          "cues": 369,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_19.kk.ass",
+          "sha256": "b2056f67a7a6c721a8d1db3477ac7c0a7bbe5a863b3b9400729286ad12e1d2f6",
+          "bytes": 49974,
+          "cues": 369,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "rezero-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_20.kk.srt",
+          "sha256": "539ea47ea398d3088295fb1006aba471950e6d4d0479b4b51e2a26e43bd4ef37",
+          "bytes": 18164,
+          "cues": 201,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_20.kk.vtt",
+          "sha256": "fa55b792f6886f6d4be035f464c3cc7c252aa93aec97c00def7f48313fa1c679",
+          "bytes": 18261,
+          "cues": 201,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_20.kk.ass",
+          "sha256": "ad5a1254cc02ad2fbabfd8c261c517773dbc3e56e092f69586ee06f91b731c72",
+          "bytes": 21993,
+          "cues": 201,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "rezero-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_21.kk.srt",
+          "sha256": "b280ec068efee9f70a92bc42a663365c4aed841c689f66891a0ac63011483291",
+          "bytes": 30493,
+          "cues": 312,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_21.kk.vtt",
+          "sha256": "5f805912e6572f32f1d74ab50d10ed0d17b0bdb3a297d1a0210ca3c7c2fd2e7e",
+          "bytes": 30590,
+          "cues": 312,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_21.kk.ass",
+          "sha256": "3bbf49b8bf81fa28e07a8e30777e65a19710aac3fc467121802c3a422233d632",
+          "bytes": 35987,
+          "cues": 312,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "rezero-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_22.kk.srt",
+          "sha256": "e5125ffd84220ddc7a92b1be9ce882ed0d637a3a55c4b4eafa33690fb7629706",
+          "bytes": 38447,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_22.kk.vtt",
+          "sha256": "d8cc20f881b6b4d40bad507ccf865a9a15fb68b9203c3bdf9cc4d87d08ce473c",
+          "bytes": 38544,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_22.kk.ass",
+          "sha256": "bddb5db8fbff5b965ea42c5b145c4167dfb56a40a0b2e45311921764d8839aaf",
+          "bytes": 44646,
+          "cues": 359,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "rezero-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_23.kk.srt",
+          "sha256": "8b4f18adf5d55d5cbb4bb7061d223947480c52feb31fab9db7ea3047b6a9ad1e",
+          "bytes": 36232,
+          "cues": 369,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_23.kk.vtt",
+          "sha256": "fe15314afcaef8aa8cd5cdbaf5a2676465d262f2ab9adfdb44b2d30c04ecbe0b",
+          "bytes": 36329,
+          "cues": 369,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_23.kk.ass",
+          "sha256": "e5bbd25c0abbcb1a0534bf2cecee30cf9e997a756b8a3316cdda64da7ed1ff93",
+          "bytes": 42581,
+          "cues": 369,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "rezero-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_24.kk.srt",
+          "sha256": "4fb952072353dd293042e2a2f646d1f6f5f37b65394071fdefb21cae8a8406fd",
+          "bytes": 47568,
+          "cues": 418,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_24.kk.vtt",
+          "sha256": "c02d472d755bae450640be462f187aab5d7d10bfba05bbc8304f4096a7b52200",
+          "bytes": 47665,
+          "cues": 418,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_24.kk.ass",
+          "sha256": "4f28b5a4559b7f9b191863e265986de89174f075f978646d5d8bcce1ea6fc1f0",
+          "bytes": 54652,
+          "cues": 418,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "rezero-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_25.kk.srt",
+          "sha256": "b557c0242af72801ee1dc51d389e844b2ffde065719f4da92adf74d81b47b032",
+          "bytes": 35910,
+          "cues": 334,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_25.kk.vtt",
+          "sha256": "9c686df3f40a46eb0be6c963e85d395e4cfdc2d35b829d797ddc20b5399f6f88",
+          "bytes": 36007,
+          "cues": 334,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_25.kk.ass",
+          "sha256": "40c2f6874228ee6f696b35d199523de7554ecd2ad74d13067d23ff37f5b8a5d6",
+          "bytes": 41734,
+          "cues": 334,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 265,
       "language": "kk",
-      "filename": "rezero-265ep.srt",
+      "filename": "ep_265.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-265ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-265ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/rezero/rezero-265ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_265.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_265.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/rezero/ep_265.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/rezero/ep_265.kk.srt",
+          "sha256": "2831bafc069814244c4a539cec849b21de302dc3e3b3346cf3ec6607818aa986",
+          "bytes": 76022,
+          "cues": 820,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/rezero/ep_265.kk.vtt",
+          "sha256": "16ee647eb1e9eea94c802a03052954390fbbe1b512f5dbf932b5291efbaeb703",
+          "bytes": 76119,
+          "cues": 820,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/rezero/ep_265.kk.ass",
+          "sha256": "566f1b2d75fcfb8debaf4faec77b5ca2d0a725b29adb9e1534f0a3a4d2e2e388",
+          "bytes": 89136,
+          "cues": 820,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 133,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/rezero.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "episode_numbering_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
   ]
 }

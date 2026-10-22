@@ -16,57 +16,175 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Cike Wu Liuqi Fanwai - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cike-wu-liuqi-fanwai.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cike-wu-liuqi-fanwai.jpg",
+  "description": "Cike Wu Liuqi Fanwai - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "cike-wu-liuqi-fanwai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     11,
     12,
     13,
     14
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 4,
+  "available_episodes_count": 4,
   "subtitles": [
     {
       "episode": 11,
       "language": "kk",
-      "filename": "cike-wu-liuqi-fanwai-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_11.kk.srt",
+          "sha256": "bdb1d330c937639814795c8d3a7c811de8040bc8478dbd0e8d6ea94c46318578",
+          "bytes": 6110,
+          "cues": 75,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_11.kk.vtt",
+          "sha256": "6eb5f156954d4eec6b69ded3f22515577c7c00fe9701984e7e467f7f770f90f3",
+          "bytes": 6207,
+          "cues": 75,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_11.kk.ass",
+          "sha256": "c8c1f8c7b2466be947c8df5a04ab33f3addfc57314c282ee307cf626625b2cc3",
+          "bytes": 8270,
+          "cues": 75,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "cike-wu-liuqi-fanwai-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_12.kk.srt",
+          "sha256": "503f867a576d13288c0c5aa5d6e5ea620c4a0f41800e59214fbec95698f0f8ed",
+          "bytes": 8397,
+          "cues": 91,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_12.kk.vtt",
+          "sha256": "f0857c1ed3356e80e760e0dda7cbc616bbb1b4fa33b0ec888800c43446144f23",
+          "bytes": 8494,
+          "cues": 91,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_12.kk.ass",
+          "sha256": "52f62023e2f116a6bed49230d14a17ce94b20fc0121189b328d04e7d5087e715",
+          "bytes": 10813,
+          "cues": 91,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "cike-wu-liuqi-fanwai-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_13.kk.srt",
+          "sha256": "f85a803399724f8f2b29b91f01d463b1fe8fca0d848004846d92e508d0f59dd5",
+          "bytes": 6821,
+          "cues": 78,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_13.kk.vtt",
+          "sha256": "2a08745c087d746ca5f7ad8c04a867e0206401a77e3eea98573fc54c5a5b6525",
+          "bytes": 6918,
+          "cues": 78,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_13.kk.ass",
+          "sha256": "b5e323a6cfcdbaec2061861fde547776f89e1e301a2a8f0cc2f53034da0f8c6e",
+          "bytes": 9029,
+          "cues": 78,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "cike-wu-liuqi-fanwai-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/cike-wu-liuqi-fanwai/cike-wu-liuqi-fanwai-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/cike-wu-liuqi-fanwai/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_14.kk.srt",
+          "sha256": "b5264011a1f66aaed5efea363252dc0ab78bced7fd2ce4a66350d21fac98a25f",
+          "bytes": 6242,
+          "cues": 77,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_14.kk.vtt",
+          "sha256": "a24f8d6badd0c4725b03e50725682ba851f1dfaa2393aee455a3cab155e07526",
+          "bytes": 6339,
+          "cues": 77,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/cike-wu-liuqi-fanwai/ep_14.kk.ass",
+          "sha256": "14872e5ae874c1ba2263023c8708a7cb8d5b206470e6a29e80a168debb0bd8a5",
+          "bytes": 8434,
+          "cues": 77,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 12,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cike-wu-liuqi-fanwai.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

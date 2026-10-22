@@ -1,0 +1,83 @@
+{
+  "id": 900092,
+  "slug": "fma-shamballa",
+  "title": {
+    "romaji": "Fullmetal Alchemist: The Conqueror of Shamballa",
+    "english": "Fullmetal Alchemist: The Conqueror of Shamballa",
+    "native": "Hagane no Renkinjutsushi. Shamballa wo Yuku Mono",
+    "kazakh": "Болат алхимик: Шамбала жаулаушысы",
+    "kk": "Болат алхимик: Шамбала жаулаушысы"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2005,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fma-shamballa.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fma-shamballa.jpg",
+  "description": "Fullmetal Alchemist: The Conqueror of Shamballa - official Kazakh translation archive by ikymory.",
+  "averageScore": 87,
+  "popularity": 104400,
+  "catalog_id": "fma-shamballa",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.ass",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fma-shamballa/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fma-shamballa/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fma-shamballa/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/fma-shamballa/ep_01.kk.ass",
+          "sha256": "9931358cd22d883bf14092aba32a22d98bdc97fa529b82a1bed9fc8dfb660284",
+          "bytes": 138905,
+          "cues": 1417,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/fma-shamballa/ep_01.kk.srt",
+          "sha256": "e92d6e5a90132df4427f913a8179a739f5b20d53e5251244c11012092d526c0e",
+          "bytes": 116822,
+          "cues": 1412,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/fma-shamballa/ep_01.kk.vtt",
+          "sha256": "e8c7fb8aca9949dd2b97e6becfdbfca1b3f32cdaa092ded12947da9865109fc0",
+          "bytes": 116830,
+          "cues": 1412,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fma-shamballa.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
+}

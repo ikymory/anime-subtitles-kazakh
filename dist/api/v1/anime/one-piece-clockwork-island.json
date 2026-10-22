@@ -15,28 +15,69 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for One Piece: Clockwork Island Adventure.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx460-p9HObfGUhWn0.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/460-mWAlHAJ5MuBg.jpg",
+  "description": "Kazakh subtitles for One Piece: Clockwork Island Adventure.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "one-piece-clockwork-island",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "one-piece-clockwork-island-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-clockwork-island/one-piece-clockwork-island-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-clockwork-island/one-piece-clockwork-island-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-clockwork-island/one-piece-clockwork-island-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-clockwork-island/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-clockwork-island/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-clockwork-island/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/one-piece-clockwork-island/ep_01.kk.srt",
+          "sha256": "0c1243ebd86f7f507bff856bf121b31388a020a207b80eee439b1459d9cf2803",
+          "bytes": 83225,
+          "cues": 931,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/one-piece-clockwork-island/ep_01.kk.vtt",
+          "sha256": "c948224cbffe14ba70be09656a4fe2e59f0bab0cc7b609da08945f62a4d6b4a8",
+          "bytes": 83322,
+          "cues": 931,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/one-piece-clockwork-island/ep_01.kk.ass",
+          "sha256": "2944776f8f3f468114772a5e83f835ccc6e1f2ee62d3321cc4ecdca530d2fa3c",
+          "bytes": 98250,
+          "cues": 931,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-clockwork-island.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
 }

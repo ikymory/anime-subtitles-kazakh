@@ -13,9 +13,19 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx268-0T6bdW9CzVvz.png",
+  "averageScore": 81,
+  "popularity": 55522,
+  "color": "hsl(103, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/268-jNnYUyUe4vKC.jpg",
+  "catalog_id": "golden-boy",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -24,72 +34,230 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 6,
+  "available_episodes_count": 6,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "golden-boy-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/golden-boy/ep_01.kk.srt",
+          "sha256": "4d32722a7ba3b1d69fa127bb353df4744af65b7bcf9dda362fc74a03af7f580e",
+          "bytes": 31243,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/golden-boy/ep_01.kk.vtt",
+          "sha256": "604713d9e381266805ca9285e1c5920e0d2c728241641ad248b06252ace2f7a3",
+          "bytes": 31340,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/golden-boy/ep_01.kk.ass",
+          "sha256": "9b4e83a631a5fc1f5d8e4502cc8529166c178a8ebde2b572a448eca7e4173f22",
+          "bytes": 37056,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "golden-boy-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/golden-boy/ep_02.kk.srt",
+          "sha256": "0dd4e52c8948f1c231a19938b3f676aa9220f11411e314f2e1e1b8cbae7736a5",
+          "bytes": 31292,
+          "cues": 346,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/golden-boy/ep_02.kk.vtt",
+          "sha256": "012243c5b90cda23150c37fab993464a43e20e2cc10b5932e6ddc5e40a62983c",
+          "bytes": 31389,
+          "cues": 346,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/golden-boy/ep_02.kk.ass",
+          "sha256": "e8c400849fce738967f977df0a5d61c1270ed46080e26bc2b437e3226abfdc25",
+          "bytes": 37300,
+          "cues": 346,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "golden-boy-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/golden-boy/ep_03.kk.srt",
+          "sha256": "90e44ac770d8dc4a915af88f505e989bc34bdc5d710f81412b10c9a7b09d21ac",
+          "bytes": 30244,
+          "cues": 319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/golden-boy/ep_03.kk.vtt",
+          "sha256": "e37798af7e2d314d767993119e5ec411cdadd185e12c2332ccebdfa3bffdc96d",
+          "bytes": 30341,
+          "cues": 319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/golden-boy/ep_03.kk.ass",
+          "sha256": "dd12a153f73c8bcc1903f420a4b62a0a16228405a50ad7e19662c7cd3ad3acbe",
+          "bytes": 35847,
+          "cues": 319,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "golden-boy-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/golden-boy/ep_04.kk.srt",
+          "sha256": "b09ce3724ceff05950d12876f65e1e069f9d78eb5466aea8821d0c37f0643c0e",
+          "bytes": 25704,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/golden-boy/ep_04.kk.vtt",
+          "sha256": "264e0cd5b051bf7b991dfe5478337bd21b2fb0cff099ff2bf06b19d20a5e62ca",
+          "bytes": 25801,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/golden-boy/ep_04.kk.ass",
+          "sha256": "2e4062a2bcae7f66f56656227a23cd7164d3ce70416983a2e1e44acf26460e4d",
+          "bytes": 30497,
+          "cues": 265,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "golden-boy-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/golden-boy/ep_05.kk.srt",
+          "sha256": "21193dee701789b1ed7c4aec682e466dd1b4f77a9dd436a1fa169f92ffa65906",
+          "bytes": 19528,
+          "cues": 210,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/golden-boy/ep_05.kk.vtt",
+          "sha256": "9be7b7984e86eb08a8757603c72f9cabe1fa490e047e5fe5b925eb44b1c945a0",
+          "bytes": 19625,
+          "cues": 210,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/golden-boy/ep_05.kk.ass",
+          "sha256": "f21f25f41fc7aa7bd8dec5cbb6303b04b7032ca98c81a59194fd2679b6c4ab22",
+          "bytes": 23496,
+          "cues": 210,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "golden-boy-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/golden-boy/golden-boy-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/golden-boy/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/golden-boy/ep_06.kk.srt",
+          "sha256": "c6c355368d7ef7d9a4d4b8c5d97a761c2a0fc85e582c451857650644f7e02e92",
+          "bytes": 34593,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/golden-boy/ep_06.kk.vtt",
+          "sha256": "067016335c80bd395e66539f64a1e2db329512a360f6af59fc048e2705ebc4b7",
+          "bytes": 34690,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/golden-boy/ep_06.kk.ass",
+          "sha256": "f6cdd7cae56e585110a7d979ba9eceff1b171abbe0668d9d451c7d722c7c9549",
+          "bytes": 40781,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(103, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 81,
-  "popularity": 55522,
-  "translated_episodes_count": 6
+  "quality_issues_count": 18,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/golden-boy.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

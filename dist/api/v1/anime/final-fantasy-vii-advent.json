@@ -13,50 +13,141 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b317-ay0Rw7kxgLVD.jpg",
+  "averageScore": 77,
+  "popularity": 80032,
+  "color": "#e45d93",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n317-I8gaZ4rexNQX.jpg",
+  "catalog_id": "final-fantasy-vii-advent",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
     265
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 3,
+  "available_episodes_count": 3,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "final-fantasy-vii-advent-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_01.kk.srt",
+          "sha256": "5aad3652449a66046f7f691cd480a709fbeb72c50ad48564d9bfbf501d4cf5d8",
+          "bytes": 67469,
+          "cues": 821,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_01.kk.vtt",
+          "sha256": "c2705f655808a498d33c15f69f539458a17e922914b9b068853430cc577155b9",
+          "bytes": 67566,
+          "cues": 821,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_01.kk.ass",
+          "sha256": "94b081031995b92cbea0673c236c0b1ee04f0125ef7d78b518338d61f5876719",
+          "bytes": 80616,
+          "cues": 821,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "final-fantasy-vii-advent-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_02.kk.srt",
+          "sha256": "596a9d8c6d1aba99b110f5c94b41532f65fec51817435aed5f90d15b08a99c27",
+          "bytes": 66621,
+          "cues": 815,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_02.kk.vtt",
+          "sha256": "e9cdc173d6034fa56a60b4dd0f3d648ffa4b89d5a8cbf6b5a21c2a5cc20e07df",
+          "bytes": 66718,
+          "cues": 815,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_02.kk.ass",
+          "sha256": "830b5198229ba064f4089756e3f348e76667943d8d5c28b47cfb0c4cd4ce8591",
+          "bytes": 79678,
+          "cues": 815,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 265,
       "language": "kk",
-      "filename": "final-fantasy-vii-advent-265ep.srt",
+      "filename": "ep_265.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-265ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-265ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/final-fantasy-vii-advent/final-fantasy-vii-advent-265ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_265.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_265.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/final-fantasy-vii-advent/ep_265.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_265.kk.srt",
+          "sha256": "40fecef650b2e0d8de5046fe7192617e9ff60691d070f498920116972171b243",
+          "bytes": 66726,
+          "cues": 818,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_265.kk.vtt",
+          "sha256": "994877fdc4e37e8d4189c40bfee0329e84ab8bbb611e37e138c5d024eef1eb6d",
+          "bytes": 66823,
+          "cues": 818,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/final-fantasy-vii-advent/ep_265.kk.ass",
+          "sha256": "d8a0f18a1ba1157181a481a053d52932738466962076a7cade1cbf21923f1131",
+          "bytes": 79828,
+          "cues": 818,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#e45d93",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 77,
-  "popularity": 80032,
-  "translated_episodes_count": 3
+  "quality_issues_count": 10,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/final-fantasy-vii-advent.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

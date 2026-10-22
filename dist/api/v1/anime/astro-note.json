@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Astro Note - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/astro-note.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/astro-note.jpg",
+  "description": "Astro Note - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "astro-note",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "astro-note-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_01.kk.srt",
+          "sha256": "bec799b8baebeb1d04fec7fc67603268a4abd49147f71c5639b461d7fd8d1b6a",
+          "bytes": 35431,
+          "cues": 390,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_01.kk.vtt",
+          "sha256": "6297e11edfcf7c0f8d292b498083cc6cf2070e71e6692e3fe04e97e3e8f32f27",
+          "bytes": 35528,
+          "cues": 390,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_01.kk.ass",
+          "sha256": "5ab424223a0f3f0d7f17ea4d170364dfdc229f6ceb6353f01ac3130b93da9257",
+          "bytes": 42160,
+          "cues": 390,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "astro-note-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_02.kk.srt",
+          "sha256": "e7b002878dd78edb54cef2d97ccf3bd716f50193ac5598afb3daf356346685f6",
+          "bytes": 32314,
+          "cues": 349,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_02.kk.vtt",
+          "sha256": "8beb6ac0d46da069f8f9125bd9089820bb647f1c8e61364932f3d84a9740008c",
+          "bytes": 32411,
+          "cues": 349,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_02.kk.ass",
+          "sha256": "8721325e4a8c2b872908aed734a7374784f8d729a792be15be2746a90361879e",
+          "bytes": 38427,
+          "cues": 349,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "astro-note-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_03.kk.srt",
+          "sha256": "5f81e11dc66bcdffc75debd7f03d928a574362dfbdcaa81f8635c244606fd159",
+          "bytes": 30135,
+          "cues": 351,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_03.kk.vtt",
+          "sha256": "e01ecd06a668e515126b8c70889bd6036224ae5565e62144c1740dc9379bb5f1",
+          "bytes": 30232,
+          "cues": 351,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_03.kk.ass",
+          "sha256": "774607bf81a7419b96d35f056bb277acd714b4cb7c7a3c0b5ee3806150c49de1",
+          "bytes": 36278,
+          "cues": 351,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "astro-note-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_04.kk.srt",
+          "sha256": "ada7748ad205e9e5bc26ea5f264dd8cde417d29c98993939d269135509ce77bf",
+          "bytes": 32865,
+          "cues": 365,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_04.kk.vtt",
+          "sha256": "2e3b973f4d4e34d560f656b29d4a7b216e4b2f61d0b3653cffd2036697867207",
+          "bytes": 32962,
+          "cues": 365,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_04.kk.ass",
+          "sha256": "a270b6d5624853b17cc33a22e462bbab0d03a83fd2f03fcbcc48f7660bfeb446",
+          "bytes": 39218,
+          "cues": 365,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "astro-note-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_05.kk.srt",
+          "sha256": "9b1d1f4cfcdc0a8b8976dd0e87cba862f9a88a851d857fff96d14c5c0c7c305c",
+          "bytes": 35779,
+          "cues": 380,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_05.kk.vtt",
+          "sha256": "db0b56cdabf82367c623c1b3e2350e8a4f76ea133ce5cbfac65d49d393c5a73f",
+          "bytes": 35876,
+          "cues": 380,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_05.kk.ass",
+          "sha256": "1a25831f1883cf0ddc8e15c37dc787220ced297606585229e10476a82138ed7d",
+          "bytes": 42357,
+          "cues": 380,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "astro-note-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_06.kk.srt",
+          "sha256": "84dd7de895bbcf2e148cc70bce0018ba40edefea58469ae9788520e9fa1cec56",
+          "bytes": 35293,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_06.kk.vtt",
+          "sha256": "9d0f5fa55ac1583d6b281cf76b80be17d25b978922fb8201d066be51861bc421",
+          "bytes": 35390,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_06.kk.ass",
+          "sha256": "6d1a1240a2d28159db5ffccfa8f862e5413ef7ac6e11c5775935408d3c4b5a72",
+          "bytes": 42036,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "astro-note-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_07.kk.srt",
+          "sha256": "6a8c5eec964807eeab0cfa2ac559dd10b6a21cc9d21a6c79e0067d46a35b87a2",
+          "bytes": 37216,
+          "cues": 414,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_07.kk.vtt",
+          "sha256": "81aab9e485adaf3e97540e6b8fedff091cd4874dbf123da7c735c775482862a6",
+          "bytes": 37313,
+          "cues": 414,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_07.kk.ass",
+          "sha256": "83e374bf9ad4ddf41d9dc7a1ba74361013809f7540db68c77031578303cf27fe",
+          "bytes": 44304,
+          "cues": 414,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "astro-note-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_08.kk.srt",
+          "sha256": "01102e900fdf1c7f1c0b04a05af7a7b046783b64be9d0b3940548a1162fd2f8c",
+          "bytes": 32634,
+          "cues": 370,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_08.kk.vtt",
+          "sha256": "b44421a7a9e8d2ed9814672029771d31a29f7aa04b4e0f1f36bd8452c06ca4cc",
+          "bytes": 32731,
+          "cues": 370,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_08.kk.ass",
+          "sha256": "7dd6647c8796599530aa9bc01feb0f75cd441bdf8349800d9e5b7828a8964499",
+          "bytes": 39062,
+          "cues": 370,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "astro-note-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_09.kk.srt",
+          "sha256": "7984230eb53d45e908e134ac7139896b6ea10c3f15da1d3ba0cd1066708c9d6e",
+          "bytes": 33902,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_09.kk.vtt",
+          "sha256": "7eeddedb8f4c8b4a7b1693e68cc619d26a390d3e8680681ff8f06507fccac440",
+          "bytes": 33999,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_09.kk.ass",
+          "sha256": "37752fae0e1d775e44d710696ab35c268f85319dac617f43f1ca6331846b83c8",
+          "bytes": 40285,
+          "cues": 367,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "astro-note-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_10.kk.srt",
+          "sha256": "0e00a53a9ceca162c66e88d2fd929617ebab8fc85e90c75b11f0b9439e5bfaf3",
+          "bytes": 33574,
+          "cues": 376,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_10.kk.vtt",
+          "sha256": "35ab24fcf3dd637acaa026cc5915c9b989bb381270e20b1a1b71bf9e8d3f1827",
+          "bytes": 33671,
+          "cues": 376,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_10.kk.ass",
+          "sha256": "8cf860908b1bfa779b2daa145ca863752757cefbca5a22204331d7c8a37964ee",
+          "bytes": 40092,
+          "cues": 376,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "astro-note-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_11.kk.srt",
+          "sha256": "a5e867bb498d45de61b9a35f0623e81d9bad263340e937aeb3622c8b7c70e7bb",
+          "bytes": 32387,
+          "cues": 364,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_11.kk.vtt",
+          "sha256": "e63cf8e2fd0e9abf53e02d2cdeb58ec51d583bfb2e425b9e93b9fa824a78ff29",
+          "bytes": 32484,
+          "cues": 364,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_11.kk.ass",
+          "sha256": "ba27dc574ae23e1d29019ac889e67384275ec301f72eb0cddd4ee9ebbd3272c0",
+          "bytes": 38725,
+          "cues": 364,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "astro-note-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/astro-note/astro-note-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/astro-note/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/astro-note/ep_12.kk.srt",
+          "sha256": "8776922ee556c6cedb18bb8048207a64e5c6a94e55c1282c594d5ee55c2e63ef",
+          "bytes": 39334,
+          "cues": 423,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/astro-note/ep_12.kk.vtt",
+          "sha256": "6148273b8963fe91aefb13343ee3f46dc1e091ef96f7d8cde4087ff3c8ae9c50",
+          "bytes": 39431,
+          "cues": 423,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/astro-note/ep_12.kk.ass",
+          "sha256": "d979457287e243054cb3e4530f1ffd2ad2c5cbd73a75c58751089b07f97bf7e9",
+          "bytes": 46557,
+          "cues": 423,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/astro-note.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

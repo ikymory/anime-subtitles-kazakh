@@ -15,24 +15,70 @@
     "Action",
     "Adventure"
   ],
-  "description": "My Hero Academia: Heroes Rising - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mha-movie-heroes-rising.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mha-movie-heroes-rising.jpg",
+  "description": "My Hero Academia: Heroes Rising - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "mha-movie-heroes-rising",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mha-movie-heroes-rising-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-movie-heroes-rising/mha-movie-heroes-rising-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-movie-heroes-rising/mha-movie-heroes-rising-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mha-movie-heroes-rising/mha-movie-heroes-rising-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-movie-heroes-rising/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-movie-heroes-rising/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mha-movie-heroes-rising/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/mha-movie-heroes-rising/ep_01.kk.ass",
+          "sha256": "aa24df1a3d0ade9598b6441abd0fd367095211c7895b745dd1ac5301e18b1472",
+          "bytes": 167874,
+          "cues": 1704,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/mha-movie-heroes-rising/ep_01.kk.srt",
+          "sha256": "f594ffe4d28902d9ed3891546973ab3adb085fe8682ff9b2eebbc0fef1b8de75",
+          "bytes": 141884,
+          "cues": 1702,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/mha-movie-heroes-rising/ep_01.kk.vtt",
+          "sha256": "5cf388e112609cf6b4372ca2c079a734d122139faccc849cc3cd6212507ee72b",
+          "bytes": 141892,
+          "cues": 1702,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mha-movie-heroes-rising.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

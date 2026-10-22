@@ -18,24 +18,70 @@
     "Psychological",
     "Sci-Fi"
   ],
-  "description": "NERV faces a brutal attack from SEELE, but with Asuka in a coma, and Shinji in a nervous breakdown, things soon turn into the surreal. This movie provides a concurrent ending to the final two episodes of the show <b>Neon Genesis Evangelion</b>.<br>\n<br>\n(Source: IMDb)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx32-5JYsv0wc122I.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n32-BH9yHJBQqeOa.jpg",
+  "description": "NERV faces a brutal attack from SEELE, but with Asuka in a coma, and Shinji in a nervous breakdown, things soon turn into the surreal. This movie provides a concurrent ending to the final two episodes of the show <b>Neon Genesis Evangelion</b>.<br>\n<br>\n(Source: IMDb)",
   "averageScore": 85,
   "popularity": 255629,
+  "catalog_id": "the-end-of-evangelion",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "the-end-of-evangelion-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-end-of-evangelion/the-end-of-evangelion-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-end-of-evangelion/the-end-of-evangelion-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/the-end-of-evangelion/the-end-of-evangelion-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-end-of-evangelion/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-end-of-evangelion/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/the-end-of-evangelion/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/the-end-of-evangelion/ep_01.kk.ass",
+          "sha256": "89cdf98a58bb0f023848d25d89cc8068f26dcf1f3915c42d31b2c735aaa42f5d",
+          "bytes": 133419,
+          "cues": 1345,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/the-end-of-evangelion/ep_01.kk.srt",
+          "sha256": "e2861c91f458b051ecb834c4006fa96eea4fa3fd89c6e7f8bf80cc436abb541a",
+          "bytes": 112359,
+          "cues": 1339,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/the-end-of-evangelion/ep_01.kk.vtt",
+          "sha256": "a681fa55e132b6c90d568fa13de0d530c0d6149414faf7df2a5278a8c547acc5",
+          "bytes": 112367,
+          "cues": 1339,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/the-end-of-evangelion.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

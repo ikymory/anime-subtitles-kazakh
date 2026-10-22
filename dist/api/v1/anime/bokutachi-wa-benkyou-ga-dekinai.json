@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Bokutachi wa Benkyou ga Dekinai - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bokutachi-wa-benkyou-ga-dekinai.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bokutachi-wa-benkyou-ga-dekinai.jpg",
+  "description": "Bokutachi wa Benkyou ga Dekinai - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "bokutachi-wa-benkyou-ga-dekinai",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +42,483 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_01.kk.srt",
+          "sha256": "0e8407b9c1170ba04443adda2baf5e6711871859498f75af4b323b0ac3fa069b",
+          "bytes": 35870,
+          "cues": 403,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_01.kk.vtt",
+          "sha256": "18a203809862148a0e8fcc609292badff6c80a7f0fc64a991e6dfeba0b0d89ca",
+          "bytes": 35967,
+          "cues": 403,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_01.kk.ass",
+          "sha256": "f49ea8b2e4fe6fd159d0fe4cce1b8e65a6a6c2b1af7605ea0a95f2dccf3c2425",
+          "bytes": 42978,
+          "cues": 403,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_02.kk.srt",
+          "sha256": "b3cbd74c823f155ebff5a476d77de074076fbe9e6db1c9c2f4f0159c347ef373",
+          "bytes": 41670,
+          "cues": 466,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_02.kk.vtt",
+          "sha256": "203e22262f212b4ea21ba9d8c9525be07be728411c6b1be9cc1e6068930743fc",
+          "bytes": 41767,
+          "cues": 466,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_02.kk.ass",
+          "sha256": "99d2da5f63bddb14cea4ccaad0ca1efdc51c7819bf869ee0db9b303b2dec278c",
+          "bytes": 49721,
+          "cues": 466,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_03.kk.srt",
+          "sha256": "56cd4274f1f5e254138693ae4b020a2227383126208542a0477321ce6879c01c",
+          "bytes": 36162,
+          "cues": 414,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_03.kk.vtt",
+          "sha256": "e99227061fd2ecae9d0d8c6544d8cd04462a51421a0749cc3afebaff24c4e7a6",
+          "bytes": 36259,
+          "cues": 414,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_03.kk.ass",
+          "sha256": "68e6c47621981b0be392b0f53127d5a1749aee66adcb3c61788cd06048edc048",
+          "bytes": 43431,
+          "cues": 414,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_04.kk.srt",
+          "sha256": "ae006b5ae60fda17d05b6ee0012f650fecf5263a5d5bff2d12a31456566f2300",
+          "bytes": 33449,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_04.kk.vtt",
+          "sha256": "3f0d3e8417350ff5970d45d18ba0a027fe0a88df5ebe6c16eddfc5751592b949",
+          "bytes": 33546,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_04.kk.ass",
+          "sha256": "5c70f13c9fabffdc4d7f13d4f0e725180eaff8c527e099986c579e61df54611f",
+          "bytes": 40433,
+          "cues": 395,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_05.kk.srt",
+          "sha256": "43946185a0b2483d9cd11fd32f0000276cbd805046ba5fc182fc7b43de1aa60b",
+          "bytes": 29585,
+          "cues": 375,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_05.kk.vtt",
+          "sha256": "c8af5bd6263a8cacf4abd6a60d247aaab43dff11ffbe2d37452c63ef4ab3ef33",
+          "bytes": 29682,
+          "cues": 375,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_05.kk.ass",
+          "sha256": "206d7aa1d396443672aaa66412b4da4ee14950fb4c99b91334160206858fa461",
+          "bytes": 36269,
+          "cues": 375,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_06.kk.srt",
+          "sha256": "80c1524b5a8891e96e079940b11313bbc4a20066ec8a9473e7989c548105d37b",
+          "bytes": 37312,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_06.kk.vtt",
+          "sha256": "42ad4331fae8dc6b4367493096c3a8d31604ee946756c2288daf1cfd4448ffea",
+          "bytes": 37409,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_06.kk.ass",
+          "sha256": "b83c5ff3b92096fd78b5a7c58e72fb5f82f4bed0cfbb5253095193be687a2152",
+          "bytes": 44567,
+          "cues": 413,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_07.kk.srt",
+          "sha256": "9fffbef3de8792ca52fd83a1e051d084ba8427851d3787200b6d8d1acd984721",
+          "bytes": 35017,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_07.kk.vtt",
+          "sha256": "db670e8ad8766e49e506aaa9fc2a121eb13d11bac16db48cca9535408bd3d093",
+          "bytes": 35114,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_07.kk.ass",
+          "sha256": "664867d95f370aa1726457ac4bea33d1013d04b94804cb6202480ac8c423db1b",
+          "bytes": 42076,
+          "cues": 400,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_08.kk.srt",
+          "sha256": "de53ccd8767bb8581ed136ce583da6e1cc6df34c7fa98c87477e0e59dc710c70",
+          "bytes": 30928,
+          "cues": 369,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_08.kk.vtt",
+          "sha256": "a690ab6a7aa56d5baabc8bd070e4398ac3766e436c6ac6a64d4b9ead0ce80af0",
+          "bytes": 31025,
+          "cues": 369,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_08.kk.ass",
+          "sha256": "46eb007d4bd3ab0f2f6e0d8cbefe56692e69d334ab97f1614161dbfb57976413",
+          "bytes": 37522,
+          "cues": 369,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_09.kk.srt",
+          "sha256": "d02abe582cb5c09f71ce43c15f5a4a13102881d35436d6116561ff00aa3f9197",
+          "bytes": 32181,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_09.kk.vtt",
+          "sha256": "22529ea32c5d5f15a02da88c89144b563fdb7cff5d448f5bbe51eba658e4d4b9",
+          "bytes": 32278,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_09.kk.ass",
+          "sha256": "f676864a43625b00d9fbacdf82d6e8d5f2007408f9bc303d6e8a995e6e4339a5",
+          "bytes": 38955,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_10.kk.srt",
+          "sha256": "fe40b088ce64893135edb186209c8e688db6635fce43536eab0ff6e4a4ec8cbc",
+          "bytes": 39305,
+          "cues": 433,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_10.kk.vtt",
+          "sha256": "38fb427c72407b444a5f4cc29f8905e1e27c92c1a61797979c009181c4b82326",
+          "bytes": 39402,
+          "cues": 433,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_10.kk.ass",
+          "sha256": "d0f22c76a3ccb1f4e86a79832b18946b3eeb0fb52b91616e1403f19aa9438091",
+          "bytes": 46859,
+          "cues": 433,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_11.kk.srt",
+          "sha256": "965815a7db299f57f57d132e71c6c608cd4338d7ef3d71a233c62bfab4b668f3",
+          "bytes": 33556,
+          "cues": 395,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_11.kk.vtt",
+          "sha256": "7f0aa40c6cabe66ec22c376ead63561b74f221aabbabe9d62bab8f0176f6c989",
+          "bytes": 33653,
+          "cues": 395,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_11.kk.ass",
+          "sha256": "de4df2fa256076171495548d8ef40fc75f71a8803f6bfdad60897dd30256f035",
+          "bytes": 40540,
+          "cues": 395,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_12.kk.srt",
+          "sha256": "51761661c395e07ef6bb926a2f22fa706f312d576b6e26804dd9232978a8f523",
+          "bytes": 34951,
+          "cues": 413,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_12.kk.vtt",
+          "sha256": "4af62bf32b9ebf7ef598bf2720b74834ff0a1ded30877280137692b19f0cec82",
+          "bytes": 35048,
+          "cues": 413,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_12.kk.ass",
+          "sha256": "e29d348227eee484773fe8069a2305cc4e08ef9a8e0f42fd9efd51d24bb09b96",
+          "bytes": 42205,
+          "cues": 413,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "bokutachi-wa-benkyou-ga-dekinai-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bokutachi-wa-benkyou-ga-dekinai/bokutachi-wa-benkyou-ga-dekinai-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_13.kk.srt",
+          "sha256": "760cd34cc85bf0f7a1334fc3c865af7dcbe2d7a390d13ae1085e2955b6a65630",
+          "bytes": 35011,
+          "cues": 412,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_13.kk.vtt",
+          "sha256": "cd7c1da0e57baaaa0ec4b50478046c98a4ad8616ba480d3a4f2dd966f6816f94",
+          "bytes": 35108,
+          "cues": 412,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai/ep_13.kk.ass",
+          "sha256": "0865cf4e872c459662cf955a9a9f6ec339201f3da0af65cbac58c81c831a5ebf",
+          "bytes": 42250,
+          "cues": 412,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 40,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bokutachi-wa-benkyou-ga-dekinai.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

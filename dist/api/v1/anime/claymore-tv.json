@@ -15,11 +15,20 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Claymore.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1818-KieLJv0qo3mO.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1818-7Nt2HYxVIxtA.jpg",
+  "description": "Kazakh subtitles for Claymore.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "claymore-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -48,270 +57,961 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "claymore-tv-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_01.kk.srt",
+          "sha256": "5762cc20c60c797197ce4bb32cebbe55b6fb4212d1bde9d59901078a0a86bf31",
+          "bytes": 22840,
+          "cues": 258,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_01.kk.vtt",
+          "sha256": "bb332bd33e8ae40c59738165e598de4838d895966c62a293e010efafd4a0b121",
+          "bytes": 22937,
+          "cues": 258,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_01.kk.ass",
+          "sha256": "3b5c4778e18045540eaed5c55500f70c87ab78a2878d3020644df5e130893c69",
+          "bytes": 30605,
+          "cues": 258,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "claymore-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_02.kk.srt",
+          "sha256": "2c880734dcf09eaabb017aafb5fd42e0229e618749812b55c38a48e76a8ae65a",
+          "bytes": 21899,
+          "cues": 256,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_02.kk.vtt",
+          "sha256": "326a0e6a9c36739715f1034ee23de96b9a0a916f7f21149d38a957bfe1fbf16a",
+          "bytes": 21996,
+          "cues": 256,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_02.kk.ass",
+          "sha256": "b3b18d13c608b27bb48c066601b8672cd43b4abc443fa19544deeaefd7206cfa",
+          "bytes": 30762,
+          "cues": 256,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "claymore-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_03.kk.srt",
+          "sha256": "57dec67f9dabde4abb1ef0e82d19b18cb5d6fbbc3e907b7b8a633b203a1b0067",
+          "bytes": 25908,
+          "cues": 295,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_03.kk.vtt",
+          "sha256": "95f0b4884ea95e5dceb09eb6c749832bb96442c8a4f13fd74d85f43db077010b",
+          "bytes": 26005,
+          "cues": 295,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_03.kk.ass",
+          "sha256": "b144f28efcb9fa5b34030ae5a82c08a4d8fd8c8ad93ee8447896a5cef7ec1807",
+          "bytes": 35916,
+          "cues": 295,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "claymore-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_04.kk.srt",
+          "sha256": "3b4e66dcb9145aa549735112f1ada04f04d55ffc6fed4d02f621947807f1b2f8",
+          "bytes": 25393,
+          "cues": 311,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_04.kk.vtt",
+          "sha256": "4051e4e26f1fe65c3dd36e4cd7e914cb2319fb898376e212e0ebb934a63e8511",
+          "bytes": 25490,
+          "cues": 311,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_04.kk.ass",
+          "sha256": "66839d2727f9d112b143086f5131e65c9527aa976d882f07f62c78fd7e524036",
+          "bytes": 35685,
+          "cues": 311,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "claymore-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_05.kk.srt",
+          "sha256": "76d1985ba3fd61f7241263b8cea7f43afbfea0c17a7872d48d99a687bf6a6e34",
+          "bytes": 25092,
+          "cues": 281,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_05.kk.vtt",
+          "sha256": "5b805260407296ae1831fef458410e6c47853698e61ab985af9469ed24b5aca8",
+          "bytes": 25189,
+          "cues": 281,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_05.kk.ass",
+          "sha256": "60c5dadffcc6f49f364edf0867c20f42a9ee9d8fb029b73eebfc035dbe35d8ed",
+          "bytes": 34917,
+          "cues": 281,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "claymore-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_06.kk.srt",
+          "sha256": "4d737a20174a3fa77d733cb0501b9d732d6f7ff40ac2e55725c0049be0866b13",
+          "bytes": 25595,
+          "cues": 292,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_06.kk.vtt",
+          "sha256": "b9746794319caee025be949f211fb33cd8ffdc0077924b5e42ca035135d28938",
+          "bytes": 25692,
+          "cues": 292,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_06.kk.ass",
+          "sha256": "4f5793271bea1ae556b9e0e9194d195049e8a3cf5ccf6120da9ec3a6fbb43541",
+          "bytes": 35659,
+          "cues": 292,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "claymore-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_07.kk.srt",
+          "sha256": "79231ecd4d2637001cc6874bbea530a07ea531cd752fb4f163de66a1cdac741b",
+          "bytes": 28395,
+          "cues": 311,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_07.kk.vtt",
+          "sha256": "e0de6cc0568e555532bb3ec608476a7b892e3912a8b3c2bad103aa2d02558a59",
+          "bytes": 28492,
+          "cues": 311,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_07.kk.ass",
+          "sha256": "879984f7eae5db56774bf907acb3ce7ea410c5065cfdd2878e619f68bcf68c82",
+          "bytes": 39054,
+          "cues": 311,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "claymore-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_08.kk.srt",
+          "sha256": "0073791160c0445d382f6c223258b5b234dbcf9c27084f14b640efe40d995dbc",
+          "bytes": 18385,
+          "cues": 209,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_08.kk.vtt",
+          "sha256": "a157674fdc434773df1d7f118fc4617019fd18219e20155c593e21be06f6f667",
+          "bytes": 18482,
+          "cues": 209,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_08.kk.ass",
+          "sha256": "5711a55ec74417e0c76da8bbb171912c9b1a2e0ec9519765535dc6d0210e8895",
+          "bytes": 26469,
+          "cues": 209,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "claymore-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_09.kk.srt",
+          "sha256": "883ed825e3184b58dcf7cd4a89a7db4cc0121ad286cd4a7ca7680f3d30974614",
+          "bytes": 24280,
+          "cues": 272,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_09.kk.vtt",
+          "sha256": "58e01922c6a939fa7b51ab1be96cfc5227663880f3c61b88d087f4284c8c2e97",
+          "bytes": 24377,
+          "cues": 272,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_09.kk.ass",
+          "sha256": "042c8ca43c2ba1349d958984440349c968ff2ac13b1dae256f2d56cd25f02c9a",
+          "bytes": 28984,
+          "cues": 272,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "duplicate_dialogue_content",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "claymore-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_10.kk.srt",
+          "sha256": "0d407c5e5f1f8a4f887ccb8d8d52fc8efdfe2a63fb70bf7852e0dafa557fd146",
+          "bytes": 22042,
+          "cues": 242,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_10.kk.vtt",
+          "sha256": "378b5ca706dc0df86f6678fab434507084197f4ac141d5348f4296144ad3bf0b",
+          "bytes": 22139,
+          "cues": 242,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_10.kk.ass",
+          "sha256": "79c8059fc4ccd321ced807f0e9b0a20c02f84d1e694641a493584793b2f217f7",
+          "bytes": 30629,
+          "cues": 242,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "claymore-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_11.kk.srt",
+          "sha256": "263bdbb6c5e2e0e2a31cce3f100a89cc152d7679182154839289ba27d44060ce",
+          "bytes": 29188,
+          "cues": 326,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_11.kk.vtt",
+          "sha256": "ada75fff785d7d3a15ef82dba27a61d40a868bdca8a7ce4356fe291bdd4465f3",
+          "bytes": 29285,
+          "cues": 326,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_11.kk.ass",
+          "sha256": "8fa1b3b2c88c14073bada46206ffb9071694cdbbd69d7f253ca81c3fd5012427",
+          "bytes": 40170,
+          "cues": 326,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "claymore-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_12.kk.srt",
+          "sha256": "f8bcc8a015797c69a1f0e649228e5bd80d1b203951000f0e4b96a4309686076f",
+          "bytes": 24736,
+          "cues": 293,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_12.kk.vtt",
+          "sha256": "423db45ebfc3c835cf4fd2b8e908593b3ed191d5d33d141afc85ffa824e88f67",
+          "bytes": 24833,
+          "cues": 293,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_12.kk.ass",
+          "sha256": "35abf93ab2b4f839d39b5448f02a76c71cdd68c223c5c9053e704d9b90196976",
+          "bytes": 34878,
+          "cues": 293,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "claymore-tv-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_13.kk.srt",
+          "sha256": "72aed84b3cfdb21bb6565ea7312729ae0df36ec5550dcf8f4c534cf95182793a",
+          "bytes": 24560,
+          "cues": 276,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_13.kk.vtt",
+          "sha256": "eea4d9b0fd59504eac4ef00513bcdfd7d80a42c7bef33b9a1beafbf717caafda",
+          "bytes": 24657,
+          "cues": 276,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_13.kk.ass",
+          "sha256": "877996b6516e041093c29174f105a8c29d2558ca0464078ef3563da14c0c50c7",
+          "bytes": 34316,
+          "cues": 276,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "claymore-tv-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_14.kk.srt",
+          "sha256": "d9c47db3cba057bcfa36252dbbc985feb4d1c901c74ec50ee532398a4f187129",
+          "bytes": 23968,
+          "cues": 277,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_14.kk.vtt",
+          "sha256": "fc36e2f9cb987d9d6537940f2333383125c0533e546d7cee5523d97b77bbb71d",
+          "bytes": 24065,
+          "cues": 277,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_14.kk.ass",
+          "sha256": "d2ba3415619367676f55597319c3a66fd57beae7fbe86f1a3e81bfc9a2cd29f1",
+          "bytes": 33794,
+          "cues": 277,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "claymore-tv-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_15.kk.srt",
+          "sha256": "5299f33d222b82706cfc173102e85a10f7c9b104cce965e7590968470bdc3490",
+          "bytes": 21710,
+          "cues": 258,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_15.kk.vtt",
+          "sha256": "ffd2f02c405045f14d647b130fd3d222ecedd02c1dff5bd03bb498fc6fcae2d5",
+          "bytes": 21807,
+          "cues": 258,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_15.kk.ass",
+          "sha256": "6b898b64013d5a01777d0dd6b2466e27ecda9174d1e3b3c541c1f8b638a1816f",
+          "bytes": 30683,
+          "cues": 258,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "claymore-tv-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_16.kk.srt",
+          "sha256": "0149639ceea82d2c4da188d737fc6e161d4f2f5a093cc6915ca567593563214f",
+          "bytes": 27250,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_16.kk.vtt",
+          "sha256": "eca178a85a603ad35f6353445df208e70d785dee55eda4a52c20b76278a927ee",
+          "bytes": 27347,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_16.kk.ass",
+          "sha256": "64562b9c18884d1aab2a0b2416ebf0cc3e4616f872dae4e6c07d03bb13e2a700",
+          "bytes": 38139,
+          "cues": 324,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "claymore-tv-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_17.kk.srt",
+          "sha256": "2d381a1189b482ae0020c3a2cc03613e534f283bc28f469902d41b07964d3dc0",
+          "bytes": 21105,
+          "cues": 247,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_17.kk.vtt",
+          "sha256": "cf9ee314c7f851618dd4275846fb84cd5364461b65a8ec7e0e5e493fd75e2afc",
+          "bytes": 21202,
+          "cues": 247,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_17.kk.ass",
+          "sha256": "3cd8c30f3ddd9960faf43e7df8a7412b9e511a7535b4bd510f270a315222cf48",
+          "bytes": 29872,
+          "cues": 247,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "claymore-tv-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_18.kk.srt",
+          "sha256": "cd76654491beaef3d00a1cbf1570d69c952611ec704de045b7019b515b4a8dd8",
+          "bytes": 28610,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_18.kk.vtt",
+          "sha256": "a1f0dc9ae7e5516e3524a7ce5b4f2cb93d9697d6ec91acf23181e92c15c7f70b",
+          "bytes": 28707,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_18.kk.ass",
+          "sha256": "c4f12be70c695042da2657ab2db3bcd540ab30084aa357455103c989ea736e1a",
+          "bytes": 39473,
+          "cues": 325,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "claymore-tv-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_19.kk.srt",
+          "sha256": "ce9607e12764bb0811bc513e50b2464431dc15bb758e9c15c81a9ad8dbe1e1c2",
+          "bytes": 19777,
+          "cues": 236,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_19.kk.vtt",
+          "sha256": "1dc9ba6411d1177adad63f062ecd2d3a48f02e588d925c8266f58c72bc5b74b2",
+          "bytes": 19874,
+          "cues": 236,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_19.kk.ass",
+          "sha256": "adfb463c7513d768e50d7365bc7b1aea203313010ebb28eb5db9fc59fb440bfb",
+          "bytes": 28293,
+          "cues": 236,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "claymore-tv-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_20.kk.srt",
+          "sha256": "c716fbd9b7bfc4d9af5473b17189a4a1e7327ac8fd9abadb3b87e6c437a3e34b",
+          "bytes": 27873,
+          "cues": 295,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_20.kk.vtt",
+          "sha256": "8c978eace8c9c5abec17107bcd7ceb0e2725f423e6a967c032a5b15dcbbd55ab",
+          "bytes": 27970,
+          "cues": 295,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_20.kk.ass",
+          "sha256": "c0537788afa0d5584c41ffae1a62d8e7c5b634b3040a6f7749d60c808c7ccd07",
+          "bytes": 37763,
+          "cues": 295,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "claymore-tv-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_21.kk.srt",
+          "sha256": "d794225b621cfc80c8d64cf086424269a2d2b86becbcf08306b1636f24be3aa4",
+          "bytes": 14151,
+          "cues": 183,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_21.kk.vtt",
+          "sha256": "dfd46f9bfeb6fe604262a5d564fc293bf942f853862b559a745fd72c31e7b5f6",
+          "bytes": 14248,
+          "cues": 183,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_21.kk.ass",
+          "sha256": "3d668e2c2f2bd382c1b683a5c46a4c204d835add5082469442b2745cc05c420d",
+          "bytes": 21233,
+          "cues": 183,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "claymore-tv-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_22.kk.srt",
+          "sha256": "48a7b979d46966d243f6ea35173bb146be95df455fe5008978a1101794fc8dc2",
+          "bytes": 18073,
+          "cues": 233,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_22.kk.vtt",
+          "sha256": "24e4e27305cdb8e29df3bd3383a892be38f88d8718949d10b908e47660c2c36c",
+          "bytes": 18170,
+          "cues": 233,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_22.kk.ass",
+          "sha256": "54ab8ef269c915346a281fcfad0ce0f0864e2ffd4519c1d98c43b71334d943d6",
+          "bytes": 26624,
+          "cues": 233,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "claymore-tv-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_23.kk.srt",
+          "sha256": "484000a22afe2616231807ffbc5195be7f65b746c01888458154e263dc11fd11",
+          "bytes": 15839,
+          "cues": 197,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_23.kk.vtt",
+          "sha256": "65540b5b69da2e66b958f5ff256297e8e171900838cfc4d831ae9be1e7df6c73",
+          "bytes": 15936,
+          "cues": 197,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_23.kk.ass",
+          "sha256": "040ed378e851f17ac56a0be2be8e6b0b9bc0724d3f0425fb332f8653f8865216",
+          "bytes": 23343,
+          "cues": 197,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "claymore-tv-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_24.kk.srt",
+          "sha256": "d0b0fe327286c7a3754cef9b8ee2a9dd5cb9f057684e6beaa427bb70bc11c591",
+          "bytes": 16733,
+          "cues": 209,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_24.kk.vtt",
+          "sha256": "2141119ad18c2c55098bde19aad0f5d17170748ee2c92dd69d06768dec7a33ec",
+          "bytes": 16830,
+          "cues": 209,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_24.kk.ass",
+          "sha256": "ba77bb609b2dec4e793ba37c416b7c20ddda2d520ef183d11342ec5e7e9d5764",
+          "bytes": 24616,
+          "cues": 209,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "claymore-tv-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_25.kk.srt",
+          "sha256": "11a444ef309d98ae68d30b5cfe3cacfffe919059ef4dea6c516ef91d447f2438",
+          "bytes": 16171,
+          "cues": 214,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_25.kk.vtt",
+          "sha256": "bf5aca8bb5a504b546f8ed447964d3942aeea7f7bded7070ff0b0f32118bcea2",
+          "bytes": 16268,
+          "cues": 214,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_25.kk.ass",
+          "sha256": "042122afee8b00aaae9656c790a1f0f372001b716b525351a56ec1b077508faa",
+          "bytes": 24223,
+          "cues": 214,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "claymore-tv-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/claymore-tv/claymore-tv-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/claymore-tv/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/claymore-tv/ep_26.kk.srt",
+          "sha256": "1f6dcbda266d2a8b3c3449fceb4ecb76fbb3a2da0e50bcce64c5de55cc6cd97b",
+          "bytes": 19577,
+          "cues": 260,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/claymore-tv/ep_26.kk.vtt",
+          "sha256": "83198f2afdf4f54021a88b282c8a80b8183535dc093381ec37fc30f290b557a9",
+          "bytes": 19674,
+          "cues": 260,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/claymore-tv/ep_26.kk.ass",
+          "sha256": "54163c1bc78192ef5184c005d9febd83b83df69b2d1045242fa60fa4fe4f7324",
+          "bytes": 28744,
+          "cues": 260,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 26
+  "quality_issues_count": 86,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/claymore-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_dialogue_content",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

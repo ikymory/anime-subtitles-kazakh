@@ -1,0 +1,83 @@
+{
+  "id": 900131,
+  "slug": "ni-no-kuni-movie",
+  "title": {
+    "romaji": "NiNoKuni",
+    "english": "NiNoKuni",
+    "native": "Ni no Kuni",
+    "kazakh": "Екінші әлем: Ни но Куни",
+    "kk": "Екінші әлем: Ни но Куни"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2019,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ni-no-kuni-movie.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ni-no-kuni-movie.jpg",
+  "description": "NiNoKuni - official Kazakh translation archive by ikymory.",
+  "averageScore": 82,
+  "popularity": 98400,
+  "catalog_id": "ni-no-kuni-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.ass",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ni-no-kuni-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ni-no-kuni-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ni-no-kuni-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/ni-no-kuni-movie/ep_01.kk.ass",
+          "sha256": "0c26d269e6458ef344575427bacbcb9c4fb317e285b450fc8e9218cffe8752a8",
+          "bytes": 161280,
+          "cues": 1669,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/ni-no-kuni-movie/ep_01.kk.srt",
+          "sha256": "4858bb02b3abafe41aa4b4adb5238485ec79d8c593c7e2dce64231a16dc51232",
+          "bytes": 135707,
+          "cues": 1665,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/ni-no-kuni-movie/ep_01.kk.vtt",
+          "sha256": "59eeec1cf0eb946accde3cb7ea8079702ef3faf8ff4a41c6f2c9d40c00d3820b",
+          "bytes": 135715,
+          "cues": 1665,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ni-no-kuni-movie.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
+}

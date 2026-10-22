@@ -1,0 +1,87 @@
+{
+  "id": 800058,
+  "slug": "birthday-wonderland-movie",
+  "title": {
+    "romaji": "The Wonderland",
+    "english": "The Wonderland",
+    "native": "Birthday Wonderland",
+    "kazakh": "Туған күн кереметі",
+    "kk": "Туған күн кереметі"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2019,
+  "genres": [
+    "Adventure",
+    "Fantasy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/birthday-wonderland-movie.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/birthday-wonderland-movie.jpg",
+  "description": "The Wonderland - official Kazakh translation archive by ikymory.",
+  "averageScore": 77,
+  "popularity": 92400,
+  "catalog_id": "birthday-wonderland-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.ass",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/birthday-wonderland-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/birthday-wonderland-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/birthday-wonderland-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/birthday-wonderland-movie/ep_01.kk.ass",
+          "sha256": "3230506ecad026887043d82f7cef7ce3731c62480660f854d25bfbb8f733b978",
+          "bytes": 136372,
+          "cues": 1447,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/birthday-wonderland-movie/ep_01.kk.srt",
+          "sha256": "511e4b41b91f88a1fe88897ce1f02066f6aec24f20722234a060ab7c4ee41d62",
+          "bytes": 113834,
+          "cues": 1441,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/birthday-wonderland-movie/ep_01.kk.vtt",
+          "sha256": "639709fbed4274000128dcceb6f1e42689fb332e6100aad6308d49e48ba8471b",
+          "bytes": 113842,
+          "cues": 1441,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/birthday-wonderland-movie.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_dialogue_content",
+    "duplicate_episode_content",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
+}

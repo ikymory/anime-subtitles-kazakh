@@ -1,0 +1,83 @@
+{
+  "id": 900093,
+  "slug": "fma-milos",
+  "title": {
+    "romaji": "Fullmetal Alchemist: The Sacred Star of Milos",
+    "english": "Fullmetal Alchemist: The Sacred Star of Milos",
+    "native": "Hagane no Renkinjutsushi. Milos no Seinaru Hoshi",
+    "kazakh": "Болат алхимик: Милостың қасиетті жұлдызы",
+    "kk": "Болат алхимик: Милостың қасиетті жұлдызы"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2011,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fma-milos.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/fma-milos.jpg",
+  "description": "Fullmetal Alchemist: The Sacred Star of Milos - official Kazakh translation archive by ikymory.",
+  "averageScore": 84,
+  "popularity": 100800,
+  "catalog_id": "fma-milos",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.ass",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fma-milos/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fma-milos/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/fma-milos/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/fma-milos/ep_01.kk.ass",
+          "sha256": "d38be9700610db6522bb14a259304c826efef22d55728ff00d41f1b7bb16653e",
+          "bytes": 180398,
+          "cues": 1864,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/fma-milos/ep_01.kk.srt",
+          "sha256": "97799b69cdd7256fb3938f33ef268b01f1577a170b7673447c8369f049c15e14",
+          "bytes": 152058,
+          "cues": 1859,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/fma-milos/ep_01.kk.vtt",
+          "sha256": "4b3f75a85b878af004e06e99c3c00444d04b5939ecf3f4d8ee972258cda5039d",
+          "bytes": 152066,
+          "cues": 1859,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fma-milos.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
+}

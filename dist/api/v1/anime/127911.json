@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Kawaii dake ja Nai Shikimori-san",
     "english": "Shikimori's Not Just a Cutie",
-    "native": "可愛いだけじゃない式守さん"
+    "native": "可愛いだけじゃない式守さん",
+    "kazakh": "Шикимори-сан жай ғана сүйкімді емес",
+    "kk": "Шикимори-сан жай ғана сүйкімді емес"
   },
   "format": "TV",
   "episodes": 12,
@@ -14,22 +16,67 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "The ultimate \"heartthrob girlfriend\" appears! Naturally unlucky high school student Izumi's girlfriend is his classmate Shikimori. She has a beautiful smile and kind personality and always seems happy when she's with Izumi. She's a pretty, cute, and loving girlfriend, but when Izumi's in trouble… she transforms into a super cool \"heartthrob girlfriend!\" The fun lives of the cute and cool Shikimori, Izumi, and their good friends never end!<br>\n<br>\n(Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127911-qfJDzUt0qCna.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127911-YRSP7vuUy801.jpg",
+  "description": "The ultimate \"heartthrob girlfriend\" appears! Naturally unlucky high school student Izumi's girlfriend is his classmate Shikimori. She has a beautiful smile and kind personality and always seems happy when she's with Izumi. She's a pretty, cute, and loving girlfriend, but when Izumi's in trouble… she transforms into a super cool \"heartthrob girlfriend!\" The fun lives of the cute and cool Shikimori, Izumi, and their good friends never end!\n\n(Source: Crunchyroll)",
+  "averageScore": 77,
+  "popularity": 61858,
+  "color": "#1aaee4",
+  "duration": 23,
+  "studio": "Doga Kobo",
+  "catalog_id": "shikimori-s-not",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "shikimori-s-not-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shikimori-s-not/shikimori-s-not-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shikimori-s-not/shikimori-s-not-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/shikimori-s-not/shikimori-s-not-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shikimori-s-not/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shikimori-s-not/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/shikimori-s-not/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/shikimori-s-not/ep_01.kk.srt",
+          "sha256": "314b13e0f667fe4d55c7a076870a2d846844653329b83154742f643ac552b66f",
+          "bytes": 29551,
+          "cues": 414,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/shikimori-s-not/ep_01.kk.vtt",
+          "sha256": "12d8e3fdc4cef9def7c063904f654806b7b3a89ffe65269e2310ec6196c22d39",
+          "bytes": 29648,
+          "cues": 414,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/shikimori-s-not/ep_01.kk.ass",
+          "sha256": "505d946712e6675798112ecd05a177ea2bf063c19628a15b22d0468a5584b309",
+          "bytes": 36584,
+          "cues": 414,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/shikimori-s-not.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

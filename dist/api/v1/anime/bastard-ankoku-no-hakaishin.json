@@ -17,11 +17,17 @@
     "Comedy",
     "Fantasy"
   ],
-  "description": "BASTARD!! -Heavy Metal, Dark Fantasy- Season 2 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bastard-ankoku-no-hakaishin.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/bastard-ankoku-no-hakaishin.jpg",
+  "description": "BASTARD!! -Heavy Metal, Dark Fantasy- Season 2 - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 96000,
+  "catalog_id": "bastard-ankoku-no-hakaishin",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -39,156 +45,560 @@
     14,
     15
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 15,
+  "available_episodes_count": 15,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_01.kk.srt",
+          "sha256": "dbaa5c0521259f84effb7e5edf5724a27a103c56e3ac10ce02be969fb7d82a12",
+          "bytes": 36927,
+          "cues": 424,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_01.kk.vtt",
+          "sha256": "98619623c7ad03eb8029bb1da98e7422e8d36b6b0bd4a9fd76b045a7e7c15b4e",
+          "bytes": 37024,
+          "cues": 424,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_01.kk.ass",
+          "sha256": "41f8e33180abf39057c5cd1c4b97020db2fe21913905c38a3fd410fdde874a7e",
+          "bytes": 44273,
+          "cues": 424,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_02.kk.srt",
+          "sha256": "4aa315303ea817a38705d3f8eafaf6eb5700cc57baf7f986444aa31869f3c146",
+          "bytes": 34023,
+          "cues": 401,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_02.kk.vtt",
+          "sha256": "da0a88b684ae7a498189fd5614334bcaa1e2224d2fc4e52533a7877491f261ba",
+          "bytes": 34120,
+          "cues": 401,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_02.kk.ass",
+          "sha256": "a7a9925b3cdc5444ead59d6a4eefb592bcbf36b8bfbeae46ea3afb769a7d6b41",
+          "bytes": 41024,
+          "cues": 401,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_03.kk.srt",
+          "sha256": "a692e3ffcff7fc6779bf9aac0a4321163f806f80d8e3a5c53e7e435537aef52a",
+          "bytes": 33945,
+          "cues": 406,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_03.kk.vtt",
+          "sha256": "415dfd330bac69c31319fd350672b8eec0d4fe0f1f977b5e807e3cd17e1d2b59",
+          "bytes": 34042,
+          "cues": 406,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_03.kk.ass",
+          "sha256": "8faaea54314b1d1bc6e6bcfb8c7da6afc18922864ebdf6cf538ce32c00d3ab9c",
+          "bytes": 41021,
+          "cues": 406,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_04.kk.srt",
+          "sha256": "2b7f01f6f2f083c00bb9cbb90cfdaaec6183c66dddffccb1da52cd3b2cdabb0d",
+          "bytes": 28559,
+          "cues": 345,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_04.kk.vtt",
+          "sha256": "ce706c79b975b1821f4339e13a73cc5ed01a5b0ab88e4e51f2bd0ae08b48658d",
+          "bytes": 28656,
+          "cues": 345,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_04.kk.ass",
+          "sha256": "1bf686c2d8a1bac51136a83ba233dd24abc1356c96fadca5eb70b959ad5fc504",
+          "bytes": 34720,
+          "cues": 345,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_05.kk.srt",
+          "sha256": "59b50f2615e4a3bf7ba48e274ec3c6dfc1af48b3c3b40033f3cffa24b239c9de",
+          "bytes": 31680,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_05.kk.vtt",
+          "sha256": "0443ecaa24110a758c28e0724d19c3294fdce5af87c049d5616b8a764301eaff",
+          "bytes": 31777,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_05.kk.ass",
+          "sha256": "ddfcb6783a57cc61d3e4c95a6c86b6b7b0583bdffd95cb67ca33fd2415452872",
+          "bytes": 37809,
+          "cues": 367,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_06.kk.srt",
+          "sha256": "1972baf0ac7a875ad245ffc20d90eaee1c40741a521426617246a81961fee1e1",
+          "bytes": 32883,
+          "cues": 380,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_06.kk.vtt",
+          "sha256": "d85e9d8aac35ba7096dbe3d731cbe4f0e800f84a759aa54a03d067b103cb53ef",
+          "bytes": 32980,
+          "cues": 380,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_06.kk.ass",
+          "sha256": "dd2410f0b10c13092a2f78466638e9e31fc5cc31215334d0941cf0641e5f4fd2",
+          "bytes": 39569,
+          "cues": 380,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_07.kk.srt",
+          "sha256": "8884be3f52c49c68d3537e974378ecb99e90ee23bad959d4bb8a54415400e59b",
+          "bytes": 32511,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_07.kk.vtt",
+          "sha256": "0609922dccd024b6c726328abf767a90c25792a6c482ac1fdaefd9f0955be7eb",
+          "bytes": 32608,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_07.kk.ass",
+          "sha256": "b1316e76f2e5fc89fb77481755288a957d85230f48960eac7207b40b983e292b",
+          "bytes": 39362,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_08.kk.srt",
+          "sha256": "af9836bafc139182a66d6e0f87a077ca260b1d5156cd7b4abee1772bac6c458c",
+          "bytes": 31379,
+          "cues": 379,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_08.kk.vtt",
+          "sha256": "10d401e9b8c8dc0c0b7758454e9518736469f58b72d7d4ec03b3af907f462cf0",
+          "bytes": 31476,
+          "cues": 379,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_08.kk.ass",
+          "sha256": "d88d7874702d69682361924511df48b103b307d58eb76e0ae15094d88b8ee9be",
+          "bytes": 38050,
+          "cues": 379,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_09.kk.srt",
+          "sha256": "c81ea16ef9f0526f2bc67fc3ed817237bee15da6007f72b7b106c71327cdd5d9",
+          "bytes": 36789,
+          "cues": 385,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_09.kk.vtt",
+          "sha256": "4d732adce4b611a0a092e920c9fc47cf99e0df0ca4876ef326a2d8702e70a931",
+          "bytes": 36886,
+          "cues": 385,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_09.kk.ass",
+          "sha256": "e64399f0b634309c550192d18f78d596707bd87a35789bdce4e45483da5e33eb",
+          "bytes": 43550,
+          "cues": 385,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_10.kk.srt",
+          "sha256": "8ab6b0841b6569fd101e8faf0d3e1bc848dc4191cf64555d575825a6197d4149",
+          "bytes": 31873,
+          "cues": 377,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_10.kk.vtt",
+          "sha256": "1a6f79c48610c78687873b5e488a7db9d3631c0c43550a6e22624815e304b0ed",
+          "bytes": 31970,
+          "cues": 377,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_10.kk.ass",
+          "sha256": "98d563dc9b5619a80089ea90857d476f64d8c036ec77b5e1d0f2c37b95d0d7a1",
+          "bytes": 38514,
+          "cues": 377,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_11.kk.srt",
+          "sha256": "775fae76f8a2845d35df59b4e799db397fde9dbc3aa92b075ed7c2ec08f794fe",
+          "bytes": 34105,
+          "cues": 411,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_11.kk.vtt",
+          "sha256": "bbd15301e846f900e338cfe48c115f51436655d30f272b76705c338bdf2538ba",
+          "bytes": 34202,
+          "cues": 411,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_11.kk.ass",
+          "sha256": "7c2f8b644cbade6fd3a28dfc3ee557048e9a00b3a9aea7962366b5da44baf8e2",
+          "bytes": 41256,
+          "cues": 411,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_12.kk.srt",
+          "sha256": "8cbd6bdaa2146864df6db79ca1e3f582c40361899d26127cf619c84d94d5cc88",
+          "bytes": 35195,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_12.kk.vtt",
+          "sha256": "9281fc0dee39289bff491aee41b936d78fcbec50c7830e5c4e73b985993b101b",
+          "bytes": 35292,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_12.kk.ass",
+          "sha256": "056668f56f3ed92fbf0992018ffe3df003891a59376e34712cd18ba8a662b230",
+          "bytes": 42166,
+          "cues": 399,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_13.kk.srt",
+          "sha256": "18caf51f7eaafa08f3247c04212e1ceb8c489d6194c62781faff1bd873776ee2",
+          "bytes": 27941,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_13.kk.vtt",
+          "sha256": "1328e2d064fe93b0d370e386455fb59d01482714f3c5ef8c7dc70c91eb733feb",
+          "bytes": 28038,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_13.kk.ass",
+          "sha256": "9bafbf78bb7c6efd4b0750d03f8bb122aab55df1dc8ba33774e70d1dd014481f",
+          "bytes": 34267,
+          "cues": 356,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_14.kk.srt",
+          "sha256": "6933b42efd06b91c18be00a60e5a684abf9e81a01000e70adf755c55bb02189b",
+          "bytes": 33071,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_14.kk.vtt",
+          "sha256": "83a770389320ec77f5770841c93243abdf885218e174d7175f91973b345d3a34",
+          "bytes": 33168,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_14.kk.ass",
+          "sha256": "2b373f6865a685f388742a1c7352c238d3f17a75020f47ee8ddc31f09b999804",
+          "bytes": 39755,
+          "cues": 404,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "bastard-ankoku-no-hakaishin-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bastard-ankoku-no-hakaishin/bastard-ankoku-no-hakaishin-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bastard-ankoku-no-hakaishin/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_15.kk.srt",
+          "sha256": "9ce780238e1d5958d244111c702c842f53be4064e9c249ebf5250238e207de3c",
+          "bytes": 32172,
+          "cues": 393,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_15.kk.vtt",
+          "sha256": "969ce02ceaeb6073afcfb53e862133badb62596bb023f81c0b76a22045927ff3",
+          "bytes": 32269,
+          "cues": 393,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bastard-ankoku-no-hakaishin/ep_15.kk.ass",
+          "sha256": "e8cd5a9d7a437e795eb50cdc0e71f400d08df4bc015e7977f80086ee6ad4a85e",
+          "bytes": 39053,
+          "cues": 393,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 49,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bastard-ankoku-no-hakaishin.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

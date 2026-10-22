@@ -13,9 +13,19 @@
   "genres": [
     "Anime"
   ],
-  "description": null,
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3466-L3DQqyjomYR1.png",
+  "averageScore": 78,
+  "popularity": 57465,
+  "color": "hsl(304, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3466-lYPXmVF8wryw.jpg",
+  "catalog_id": "kino-no-tabi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -31,142 +41,482 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kino-no-tabi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_01.kk.srt",
+          "sha256": "6774de718036ad2992207eeb349694dac977f262680b550e604d28ebfa5903f9",
+          "bytes": 27715,
+          "cues": 312,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_01.kk.vtt",
+          "sha256": "96b7ba108c48cfa4903b7cdad5845d57cdd87d0d40c18c3f9e11d63733951f8c",
+          "bytes": 27812,
+          "cues": 312,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_01.kk.ass",
+          "sha256": "60e3d17adf0cbdecacdfe6362a9a6d7337646b145590d2b297227f34bc78844a",
+          "bytes": 33215,
+          "cues": 312,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "kino-no-tabi-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_02.kk.srt",
+          "sha256": "4e39a5d75abe3ab2a4a09744e44c2707dc49bbc70eaf7cd0a70c6462c49ff2dc",
+          "bytes": 23297,
+          "cues": 266,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_02.kk.vtt",
+          "sha256": "6ba33f8ad402cdbf958f9670dc2146335f19fd3ab96188faff010c539aea6d1c",
+          "bytes": 23394,
+          "cues": 266,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_02.kk.ass",
+          "sha256": "6165bf867c4879d7d54469dc7ae9b272618fb9f35a19b8148543a969a5d92fb9",
+          "bytes": 28107,
+          "cues": 266,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "kino-no-tabi-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_03.kk.srt",
+          "sha256": "aa27222ee6518019319e2031553682d72d07f4805b1a4a8d6ed13fdaf8d0b84b",
+          "bytes": 31957,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_03.kk.vtt",
+          "sha256": "728feba94558fb64dd9d1ce1aeb8b28548987b83d9828fe988007682299b5e89",
+          "bytes": 32054,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_03.kk.ass",
+          "sha256": "f604bc786d69e3df5e26a48dfecc0435678e3d9acfc02d570d380683210ae6db",
+          "bytes": 37742,
+          "cues": 331,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "kino-no-tabi-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_04.kk.srt",
+          "sha256": "286b2a9261cc43778edba74cc7ed2a1cf5149fedab8eb77c0523e5067a2dc596",
+          "bytes": 28521,
+          "cues": 330,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_04.kk.vtt",
+          "sha256": "49e19c02b6519e7ee82f2a7159fe4f894ca6c1c307c8aca09d704eca3bda2751",
+          "bytes": 28618,
+          "cues": 330,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_04.kk.ass",
+          "sha256": "053065de10c12c441db8f9ec14448d197235b97e08982f66a350b01758837402",
+          "bytes": 34291,
+          "cues": 330,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "kino-no-tabi-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_05.kk.srt",
+          "sha256": "899ade887729d2cb92dfb61f54ef751dd19529dd7e0476abd1bad4eba22bcaed",
+          "bytes": 30680,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_05.kk.vtt",
+          "sha256": "5f33567ac8e03708d9e7d18cdeb4b8329cca5a946758ed31faf7bce66a71bfc7",
+          "bytes": 30777,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_05.kk.ass",
+          "sha256": "3b0f26796bab7caaaaad2dc3cfb34800bc2830148b7a0a22847492f60a12bf1f",
+          "bytes": 36465,
+          "cues": 331,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "kino-no-tabi-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_06.kk.srt",
+          "sha256": "3f6761ea88ff319cc966f97ddf682b86f69963e8a4cbbc96bfa2cc2624e00eac",
+          "bytes": 26798,
+          "cues": 289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_06.kk.vtt",
+          "sha256": "21d430364405733bedcff53a249d0ece5cce17e295daf084a3cd24add255a7c7",
+          "bytes": 26895,
+          "cues": 289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_06.kk.ass",
+          "sha256": "ee75d4685db6275a7e2998a59d872d0af31ad68c5241f46a86dc13acc46c0302",
+          "bytes": 31953,
+          "cues": 289,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "kino-no-tabi-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_07.kk.srt",
+          "sha256": "28a418de7f0954f7ab6144a152aa97545d1f32796c9cb6de8c36e2240524346c",
+          "bytes": 24952,
+          "cues": 290,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_07.kk.vtt",
+          "sha256": "12bb4f645e38aec0dffca4b8758a86725c9b6b0af07cc377d55fa7a1913f681f",
+          "bytes": 25049,
+          "cues": 290,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_07.kk.ass",
+          "sha256": "7073100a6c845701f3dd14253a764e5069b7015970ead6ea7725286322ae0c29",
+          "bytes": 30122,
+          "cues": 290,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "kino-no-tabi-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_08.kk.srt",
+          "sha256": "06f7de67bb2487ed30d2d68f232345e92d216f008b49baac52a4b1a162294db4",
+          "bytes": 30086,
+          "cues": 332,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_08.kk.vtt",
+          "sha256": "a15a07c2d38775d33ecd62db61a2ce75e411a5c518b637730d9516a166cf1e0d",
+          "bytes": 30183,
+          "cues": 332,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_08.kk.ass",
+          "sha256": "8f31ed62ab3e0b42c2454995ae6eef5e5f3ee651776cadc91c2fce331f8ba822",
+          "bytes": 35886,
+          "cues": 332,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "kino-no-tabi-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_09.kk.srt",
+          "sha256": "e7cbf9a3efe4e4d9b95697aee057a6e262b8a5a832736b9441ec1ba0d0e7542d",
+          "bytes": 35211,
+          "cues": 367,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_09.kk.vtt",
+          "sha256": "8716d021b11ac2d57d2c0e96c925cd45386d01229c25eda0b2bb2296cb0b9f53",
+          "bytes": 35308,
+          "cues": 367,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_09.kk.ass",
+          "sha256": "d0b850e2f68c4d78647628e4f119259be616079bf0c4e338d6f38b5c17b46a16",
+          "bytes": 41536,
+          "cues": 367,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "kino-no-tabi-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_10.kk.srt",
+          "sha256": "23a5021ca658bbe237ec9013fbaf98f2dbaf51f5750487da9277d2bd906ec2f6",
+          "bytes": 29262,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_10.kk.vtt",
+          "sha256": "5fa2984832f896cf43cd91529421f82c62ab12f52e4860cd454610a1a934d735",
+          "bytes": 29359,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_10.kk.ass",
+          "sha256": "cf4bb79ba47d3ce3fd5e23bda9b625fe5141a5673c5c92531e5a2c01450472e7",
+          "bytes": 34912,
+          "cues": 322,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "kino-no-tabi-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_11.kk.srt",
+          "sha256": "885df5e36ab526f8941dd417080b297277aff1380547ac8eca319dfdb107cafa",
+          "bytes": 33359,
+          "cues": 356,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_11.kk.vtt",
+          "sha256": "d75ad2c7072fcba9268b6133f3c994581da6dfaa5e8139364df46b584dc733e2",
+          "bytes": 33456,
+          "cues": 356,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_11.kk.ass",
+          "sha256": "c92a42cd0ddb6afc98529ede71a8ab4db26e86c6fff2ea41dba65dc19d9b0eaa",
+          "bytes": 39519,
+          "cues": 356,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "kino-no-tabi-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_12.kk.srt",
+          "sha256": "f0e2d8a5e1acab78382f59f92f7b2e6e25aa3eeea1992cd22ea4b554bb5fbeea",
+          "bytes": 25029,
+          "cues": 269,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_12.kk.vtt",
+          "sha256": "c81f7b0848a21b7620d267a77c8e5e2f276f54317606162add80a64f3d5f6e44",
+          "bytes": 25126,
+          "cues": 269,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_12.kk.ass",
+          "sha256": "d1193ab08e20c10a24978935e92b2a84d10143e917842df830524c25c2067d31",
+          "bytes": 29884,
+          "cues": 269,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "kino-no-tabi-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kino-no-tabi/kino-no-tabi-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kino-no-tabi/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kino-no-tabi/ep_13.kk.srt",
+          "sha256": "4a2840c73b4edf621411a3fa161a5f9d83e60b55cbc2e60cb7123a5871947e2c",
+          "bytes": 28438,
+          "cues": 320,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kino-no-tabi/ep_13.kk.vtt",
+          "sha256": "71105285d1d9b1243203f4eaf6b1dd107d114c542d1ac308278847cdbb3af384",
+          "bytes": 28535,
+          "cues": 320,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kino-no-tabi/ep_13.kk.ass",
+          "sha256": "98e65a12ea4df88c74e2d56bb647a944bf3ba4e1415091f1cb469bf6e9b3be89",
+          "bytes": 34058,
+          "cues": 320,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "hsl(304, 78%, 68%)",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "averageScore": 78,
-  "popularity": 57465,
-  "translated_episodes_count": 13
+  "quality_issues_count": 39,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kino-no-tabi.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

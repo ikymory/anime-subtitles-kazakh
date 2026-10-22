@@ -4,10 +4,12 @@
   "title": {
     "romaji": "Bungou Stray Dogs",
     "english": "Bungo Stray Dogs",
-    "native": "文豪ストレイドッグス"
+    "native": "文豪ストレイドッグス",
+    "kazakh": "Адасқан иттер (Bungou Stray Dogs)",
+    "kk": "Адасқан иттер (Bungou Stray Dogs)"
   },
   "format": "TV",
-  "episodes": 12,
+  "episodes": 25,
   "seasonYear": 2016,
   "genres": [
     "Action",
@@ -15,22 +17,68 @@
     "Mystery",
     "Supernatural"
   ],
-  "description": "Stalked by a beastly white tiger, Atsushi Nakajima has no idea that the menace lives inside him—a power that catches the attention of the Armed Detective Agency. Using inhuman abilities to combat crime, this team takes Atsushi under the wing of their most eccentric member, Dazai. Together, they tear through mafia-muddled mysteries while enemies keep an eye on the tiger’s lofty bounty.\n<br><br>\n(Source: Funimation)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21311-hAXyT8Yoh6G9.jpg",
-  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21311-oVJYXoU38Lm5.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-wRVUrGxpvIQQ.jpg",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21355-f9SjOfEJMk5P.jpg",
+  "description": "Stalked by a beastly white tiger, Atsushi Nakajima has no idea that the menace lives inside him—a power that catches the attention of the Armed Detective Agency. Using inhuman abilities to combat crime, this team takes Atsushi under the wing of their most eccentric member, Dazai. Together, they tear through mafia-muddled mysteries while enemies keep an eye on the tiger’s lofty bounty.\n\n(Source: Funimation)",
+  "averageScore": 79,
+  "popularity": 63738,
+  "color": "#e4bb50",
+  "duration": 24,
+  "studio": "bones",
+  "catalog_id": "bungo-stray-dogs",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bungo-stray-dogs-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungo-stray-dogs/bungo-stray-dogs-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungo-stray-dogs/bungo-stray-dogs-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bungo-stray-dogs/bungo-stray-dogs-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungo-stray-dogs/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungo-stray-dogs/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bungo-stray-dogs/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bungo-stray-dogs/ep_01.kk.srt",
+          "sha256": "9af7c22cf7b91d5d5e8d434b34dc185b81b13e7926afa9c81c5591df113ecc70",
+          "bytes": 76883,
+          "cues": 476,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bungo-stray-dogs/ep_01.kk.vtt",
+          "sha256": "d72e5a873036b073cfae9e176f39ab379fed95ca81db50780ac5063d7bb780b5",
+          "bytes": 76980,
+          "cues": 476,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bungo-stray-dogs/ep_01.kk.ass",
+          "sha256": "9a89070e3705791b5f336180783a35758bbdf2acd5a2e689d8650528bad9b38f",
+          "bytes": 84847,
+          "cues": 476,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bungo-stray-dogs.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

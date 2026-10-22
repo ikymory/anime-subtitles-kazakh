@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Champignon no Majo - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/champignon-no-majo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/champignon-no-majo.jpg",
+  "description": "Champignon no Majo - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "champignon-no-majo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,454 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "champignon-no-majo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_01.kk.srt",
+          "sha256": "acc5bb2a802b9527562bffa0727b0d3f236fd9ae1482cb648391834105a886c9",
+          "bytes": 57202,
+          "cues": 578,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_01.kk.vtt",
+          "sha256": "cb4fe015f299a6caa362fb77c66be30e13d20c66b98913b2ef27f53d937423c5",
+          "bytes": 57299,
+          "cues": 578,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_01.kk.ass",
+          "sha256": "adfe5fa194cc5371c1aa9f9ed530017178f16b9906f1ff1dc6599a14d809763e",
+          "bytes": 66931,
+          "cues": 578,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "champignon-no-majo-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_02.kk.srt",
+          "sha256": "5ed7777ae483ac4768dec29184a8b7b47ebff9351c4bb19105ad1e43bca18e17",
+          "bytes": 24697,
+          "cues": 265,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_02.kk.vtt",
+          "sha256": "0ef34b8cacea3bfe225c55852b5f90e797c50976b63bd2fca0d55dc07c96fee4",
+          "bytes": 24794,
+          "cues": 265,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_02.kk.ass",
+          "sha256": "4adfe617cced342f701460e7d502172b4311d8f0dd5b145e951c6c430e98b840",
+          "bytes": 29731,
+          "cues": 265,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "champignon-no-majo-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_03.kk.srt",
+          "sha256": "724fc1574748c30b317e639dbbb6e910af486b1053ec828ed44f0c8941545eb8",
+          "bytes": 30067,
+          "cues": 319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_03.kk.vtt",
+          "sha256": "ed977681e004f424d86c2703f86c2cd62303b3d7e98c845b4926efa6e587efd8",
+          "bytes": 30164,
+          "cues": 319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_03.kk.ass",
+          "sha256": "a6b8a89cbea2ff7ab4a566c3a1039d02a893d35ad53f4d8de4bc1bc0cd4f9bcf",
+          "bytes": 35911,
+          "cues": 319,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "champignon-no-majo-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_04.kk.srt",
+          "sha256": "d52dd2420188f00ef48902e1065e490c3ee6536707c257dc1c662a4dc0bd60ab",
+          "bytes": 29630,
+          "cues": 300,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_04.kk.vtt",
+          "sha256": "080ce86426bb712977f26fc6d0cef493afbfa6d0d9c1adf76d2449673d6e7985",
+          "bytes": 29727,
+          "cues": 300,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_04.kk.ass",
+          "sha256": "0bcc5d895567a642cc53e5d7e51d48f7d3a269baeada39cc7468b43bd838f210",
+          "bytes": 35189,
+          "cues": 300,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "champignon-no-majo-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_05.kk.srt",
+          "sha256": "8318c0404e477e668d627a69b51a54a0c26ba46c4e43e1fef463876cee2b7075",
+          "bytes": 31994,
+          "cues": 310,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_05.kk.vtt",
+          "sha256": "33b17894be4bf39264dda4571aeefc35166da2da1afc5af96d3ad5b83452132d",
+          "bytes": 32091,
+          "cues": 310,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_05.kk.ass",
+          "sha256": "44b46721953092bca0e496bc5c5ffe5a3dbad2bcc13b90557b073bbb88e5434d",
+          "bytes": 37703,
+          "cues": 310,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "champignon-no-majo-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_06.kk.srt",
+          "sha256": "42690d8278d9e5221ee8bdac51796c7d9a5a737969f3a0b64e4eb9c0ccac6edf",
+          "bytes": 31282,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_06.kk.vtt",
+          "sha256": "4e7e2a99a6623a1e28a5d8b2f0dbedd3b61a24f2f945b1c9c279e3cf24109793",
+          "bytes": 31379,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_06.kk.ass",
+          "sha256": "fd45d1e3fbd5d871fbad4ab674e2c2c73604ce53e72f1688c1c829790c58876f",
+          "bytes": 37546,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "champignon-no-majo-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_07.kk.srt",
+          "sha256": "837540050c03492ff2b484e5b919718f2814a93ff0a6f830308b844b9692982a",
+          "bytes": 28814,
+          "cues": 308,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_07.kk.vtt",
+          "sha256": "0e7dd2dec066f1f8621acdda577aa0b7541c668079aba794ed26d5f3f1ece128",
+          "bytes": 28911,
+          "cues": 308,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_07.kk.ass",
+          "sha256": "110072d5a7c6417260640d2b212f905bad52326917a4ddce75e2ce5b126a26b9",
+          "bytes": 34493,
+          "cues": 308,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "champignon-no-majo-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_08.kk.srt",
+          "sha256": "11ed906be9f52c312bb242cf094a4a2f9eadb8584c3cef94712ceaef9250d222",
+          "bytes": 32958,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_08.kk.vtt",
+          "sha256": "299fa6aba945200f3e3c9f05b7f0bb8ee999bae8ea43a4e2ad7e9ed9cc31393c",
+          "bytes": 33055,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_08.kk.ass",
+          "sha256": "c845bab60567e52fedf2f16cc7bdb5c6a02f1c64599c20691265b6f20c34e9ee",
+          "bytes": 38953,
+          "cues": 329,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "champignon-no-majo-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_09.kk.srt",
+          "sha256": "f4a82fa5efddb9f73b86b21dc9cbd8bfeb8dcc6328ac02c73b2e6ad61f0e5143",
+          "bytes": 30804,
+          "cues": 309,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_09.kk.vtt",
+          "sha256": "2a0d5f278fe2f350a928ebf2ce41dd2a0e884f395a8e9a8e4df32186813bb9b8",
+          "bytes": 30901,
+          "cues": 309,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_09.kk.ass",
+          "sha256": "299de8bef1ac5fb46b5a393b6127a1959a4543edd5b081e06a8adf9d3bbb90de",
+          "bytes": 36498,
+          "cues": 309,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "champignon-no-majo-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_10.kk.srt",
+          "sha256": "19b3cee92b5670cd7adf11674322579e46f74bba65d8f939ba80f020ea62f997",
+          "bytes": 31062,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_10.kk.vtt",
+          "sha256": "b501fe8239a6231df73cbf3c20c3ce5f99ce73dab2989a403316442d61392ab9",
+          "bytes": 31159,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_10.kk.ass",
+          "sha256": "1e0f4814e2565905f316baab396da5c44ef9834616d3052762343bd8914f15ff",
+          "bytes": 37326,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "champignon-no-majo-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_11.kk.srt",
+          "sha256": "940aebf25bf84e8062bdce3bf6996c3d37c7eb1499836bd7dacc10cf4dd739f1",
+          "bytes": 33148,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_11.kk.vtt",
+          "sha256": "58d4b84c76e693609725c62d424da7389d986c1d245a889752a9b7c69900e803",
+          "bytes": 33245,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_11.kk.ass",
+          "sha256": "572b9c5d6bc784e712086ac83acf984e19c97880b6b04385ac6c26629e0b7b7b",
+          "bytes": 39412,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "champignon-no-majo-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/champignon-no-majo/champignon-no-majo-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/champignon-no-majo/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/champignon-no-majo/ep_12.kk.srt",
+          "sha256": "8a8ace76f42ce4baab54c6f0dd001ee0752a7dfc757578dc5f78685042b2d19b",
+          "bytes": 32440,
+          "cues": 302,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/champignon-no-majo/ep_12.kk.vtt",
+          "sha256": "e560bebc0222edc4c6b7277c6997c7dc77e0449de6381871bd28be240f0ab96a",
+          "bytes": 32537,
+          "cues": 302,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/champignon-no-majo/ep_12.kk.ass",
+          "sha256": "0d8d1fd776c56af6c54804921e4b4a576df5c95b75fa050a74a4c3d8f5b2dccb",
+          "bytes": 38029,
+          "cues": 302,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 43,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/champignon-no-majo.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

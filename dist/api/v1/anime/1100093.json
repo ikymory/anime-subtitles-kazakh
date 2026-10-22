@@ -1,0 +1,80 @@
+{
+  "id": 1100093,
+  "slug": "evangelion-shin-movie-jo",
+  "title": {
+    "romaji": "Evangelion Shin Movie. Jo",
+    "english": "Evangelion Shin Movie. Jo",
+    "native": "Evangelion Shin Movie. Jo",
+    "kazakh": "Эванжелион Шин фильмі. Джо",
+    "kk": "Эванжелион Шин фильмі. Джо"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2018,
+  "genres": [
+    "Action",
+    "Drama",
+    "Fantasy"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/evangelion-shin-movie-jo.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/evangelion-shin-movie-jo.jpg",
+  "description": "Evangelion Shin Movie. Jo - official Kazakh translation archive by ikymory.",
+  "averageScore": 82,
+  "popularity": 75000,
+  "catalog_id": "evangelion-shin-movie-jo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-jo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-jo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/evangelion-shin-movie-jo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/evangelion-shin-movie-jo/ep_01.kk.srt",
+          "sha256": "84fbc3bb1b70540763e49701f234e057521a7e9ef5cb729876b4a6039e36ebd9",
+          "bytes": 144187,
+          "cues": 1613,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/evangelion-shin-movie-jo/ep_01.kk.vtt",
+          "sha256": "0dcb3ae9af0b3e1694d66fa023be5179a44f1c61f9b621e19fe2e105146fc89c",
+          "bytes": 144284,
+          "cues": 1613,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/evangelion-shin-movie-jo/ep_01.kk.ass",
+          "sha256": "5089e7a2d2b546620d7df66b05017225e5d404244a17170b186bcf83a9524955",
+          "bytes": 168646,
+          "cues": 1613,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/evangelion-shin-movie-jo.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
+}

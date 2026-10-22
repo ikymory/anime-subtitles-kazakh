@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Code Geass. Hangyaku no Lelouch - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/code-geass-hangyaku-no-lelouch.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/code-geass-hangyaku-no-lelouch.jpg",
+  "description": "Code Geass. Hangyaku no Lelouch - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "code-geass-hangyaku-no-lelouch",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -48,256 +54,914 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 25,
+  "available_episodes_count": 25,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_01.kk.srt",
+          "sha256": "2bcd6fb0df00e7f37b3a285cc2f7351db2146d627ec6c94aead014958a9cf80b",
+          "bytes": 39730,
+          "cues": 464,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_01.kk.vtt",
+          "sha256": "e3e1db7aca32c0b0d5cad703abf92fbaeb774cd1f587e5ab33dabfc27c2be309",
+          "bytes": 39827,
+          "cues": 464,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_01.kk.ass",
+          "sha256": "38a69b32231b391d74198b38b4af7caa97d838ee4b8dffd30d62f23634c5f4c5",
+          "bytes": 47749,
+          "cues": 464,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_02.kk.srt",
+          "sha256": "4fa2281d54901e61a3aa1cf1edf6126fe08f6fede87304cb8e662f1ab52754d8",
+          "bytes": 41318,
+          "cues": 476,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_02.kk.vtt",
+          "sha256": "4b597738fcaf5d282c447e10754a0c0e43cb93709d026a55b4c55ac3b39ea42b",
+          "bytes": 41415,
+          "cues": 476,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_02.kk.ass",
+          "sha256": "ab89bc0e5af97d9f03e14278a8d18177761e539593246b10501c51e58c2883a9",
+          "bytes": 49517,
+          "cues": 476,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_03.kk.srt",
+          "sha256": "9993d8e574f9dc2bd0a1da4b815c9c8eabda272da5426c84fdff3771a5c9243f",
+          "bytes": 45366,
+          "cues": 529,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_03.kk.vtt",
+          "sha256": "387394aeea9d13cbbd2c8fbb402af7968d6b6fcf7e67f9f5d4a5fdc25ca43175",
+          "bytes": 45463,
+          "cues": 529,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_03.kk.ass",
+          "sha256": "84754fe3abbf919c1e3453d21c0630bb6e50f16cc474d3fa274980ba275daf09",
+          "bytes": 54360,
+          "cues": 529,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_04.kk.srt",
+          "sha256": "e602e945132f6a006e8ceba10aa4b881ee425bcb3df6acb42efeb50112d3bb8c",
+          "bytes": 46634,
+          "cues": 525,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_04.kk.vtt",
+          "sha256": "ab485469d7d390d58eb06de2dd46245d75ae0ebe106c2ef726354c00995755fa",
+          "bytes": 46731,
+          "cues": 525,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_04.kk.ass",
+          "sha256": "72f047c69026574403656735cf421a60e1ef9e3f5ac37ad80770da674e9aa5f2",
+          "bytes": 55568,
+          "cues": 525,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_05.kk.srt",
+          "sha256": "0507e042fa18b942829db6f18d741e6bc18087c33c58096fe08cab1389bc1af9",
+          "bytes": 42843,
+          "cues": 511,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_05.kk.vtt",
+          "sha256": "94ae96b78426887529c98d35b5d4b4728f52ab0edf2587e9927c812b0842ec84",
+          "bytes": 42940,
+          "cues": 511,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_05.kk.ass",
+          "sha256": "60cea77a41af15cc6df322078c245be33c6295dbc73e1e0e232f2842bd53ecd1",
+          "bytes": 51567,
+          "cues": 511,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_06.kk.srt",
+          "sha256": "387edb7c72ce3d52d9af1b3f04bf27e5a4cd7532107728dcd6a43e84421338d7",
+          "bytes": 38476,
+          "cues": 458,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_06.kk.vtt",
+          "sha256": "313475bcff2d9b3b005c11e84c6aa486d10b7d702617460e1b3c344fde776b92",
+          "bytes": 38573,
+          "cues": 458,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_06.kk.ass",
+          "sha256": "03a8a2b21ef5f3b71d2444de265d085129fec3067fe4c30669c9e81f1c3e68d6",
+          "bytes": 46405,
+          "cues": 458,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_07.kk.srt",
+          "sha256": "3681f382f62d0397e52d5909dbbc4207abc9c74b0b4eb6d78c1d1e15abf22c15",
+          "bytes": 45571,
+          "cues": 515,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_07.kk.vtt",
+          "sha256": "b407e260777875a4bc652fc34d399f6303b648b565f0b25c019fa9688a7ade8a",
+          "bytes": 45668,
+          "cues": 515,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_07.kk.ass",
+          "sha256": "754b0b1c72b1e075ab2b0ea1159a6d9dd35f9de3a055e939a8b9ba4e8fbf1cfc",
+          "bytes": 54355,
+          "cues": 515,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_08.kk.srt",
+          "sha256": "991e5894cfd44778a9482974a15231648af8cb1f31aec93bd04d02f0ba70a3f5",
+          "bytes": 46521,
+          "cues": 499,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_08.kk.vtt",
+          "sha256": "537e12836ab0acabcd536b13de5511b55956fd08077a5727d55c4775dcdf8dab",
+          "bytes": 46618,
+          "cues": 499,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_08.kk.ass",
+          "sha256": "c6c33e218fdc64712e8d3827a62efcc26114e8a666ea570adfb89663a9ca35e8",
+          "bytes": 55065,
+          "cues": 499,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_09.kk.srt",
+          "sha256": "c1093a6b6a88754dcc3e964db62163d76437d43612ace0d621b1b9b351f65717",
+          "bytes": 44867,
+          "cues": 523,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_09.kk.vtt",
+          "sha256": "6e9ca62394eca73d27c19002c2813b799b7d238c06dce1b1d012cf934f098ec7",
+          "bytes": 44964,
+          "cues": 523,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_09.kk.ass",
+          "sha256": "f3fbc95afdfd50c50b7febc9902cfd18748dea715328990349bf543cfa34fcbd",
+          "bytes": 53771,
+          "cues": 523,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_10.kk.srt",
+          "sha256": "4763631a8494a43f991fa33a55b0fb5d333fdd2c5be240cdf4bf76a5069da446",
+          "bytes": 47915,
+          "cues": 517,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_10.kk.vtt",
+          "sha256": "7cd55c83373ad7bd44b73468d7665776ef1878581370bcb1dfca3c6dbd2bb3a2",
+          "bytes": 48012,
+          "cues": 517,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_10.kk.ass",
+          "sha256": "40e932ec590b163519820b4b28515797c4ecf6ad01a2c1d84dbfb6c11e2f3866",
+          "bytes": 56729,
+          "cues": 517,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_11.kk.srt",
+          "sha256": "3073202bedf7b7b9b73dabd3289db355f19b67c7f73b40cffe11455bc717d975",
+          "bytes": 41939,
+          "cues": 481,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_11.kk.vtt",
+          "sha256": "17c750a1d67887ead404fc355dc3589d56805600e0d9bc16d95aa110c00ce2ee",
+          "bytes": 42036,
+          "cues": 481,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_11.kk.ass",
+          "sha256": "0e96bf607f36b14acd4a7c73d680249ac9243975ae1b136a1b9de10351fbbecb",
+          "bytes": 50213,
+          "cues": 481,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_12.kk.srt",
+          "sha256": "699d22d9be1a7bbd1d0778b584c481f280ae4b51e1af80bab014320e6aa454c1",
+          "bytes": 43962,
+          "cues": 484,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_12.kk.vtt",
+          "sha256": "63d75d480e5c6357b89d092a0a89f05c0c3e64ef930a3816ca3c46a3df09ef17",
+          "bytes": 44059,
+          "cues": 484,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_12.kk.ass",
+          "sha256": "cf538855c152818afc676796ceddb05ed7a3949004fc4df568cf0c880b3b84ec",
+          "bytes": 52281,
+          "cues": 484,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_13.kk.srt",
+          "sha256": "bbbc640762a98e99480c276222f5a93a244e1ba909e4deae025032f7e5dd6be3",
+          "bytes": 38227,
+          "cues": 412,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_13.kk.vtt",
+          "sha256": "bb392547656df3223cf052ebde7a1c2a5b5abfc4876108b83aeca199a65b5803",
+          "bytes": 38324,
+          "cues": 412,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_13.kk.ass",
+          "sha256": "85fa39f43e5f2e630e54542f48b3ad34796e277c257fa48202869444ce288224",
+          "bytes": 45466,
+          "cues": 412,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_14.kk.srt",
+          "sha256": "102fdcfa963eeccaef5c0e6ec42d250f23053d3f809f05f9aa2959bc198dcade",
+          "bytes": 45644,
+          "cues": 522,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_14.kk.vtt",
+          "sha256": "4e17bf56769736f39dd8878f39bacf4c2615c25eadfc4ee3d21e75defb05f26b",
+          "bytes": 45741,
+          "cues": 522,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_14.kk.ass",
+          "sha256": "c8d66bf773c551490738967e5e5d5f754ef77fc0b56a0ccd8f21715f06b9ffd3",
+          "bytes": 54535,
+          "cues": 522,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_15.kk.srt",
+          "sha256": "0fa06c150b19d05f0660a18147a7e1859b81dec64b7ec1b217c581622181992b",
+          "bytes": 47037,
+          "cues": 544,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_15.kk.vtt",
+          "sha256": "e61b7f8ec0bb1140b713ef029045c73bfc8f37cc2925f13632df5a9a7a376797",
+          "bytes": 47134,
+          "cues": 544,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_15.kk.ass",
+          "sha256": "59efdeeb823182db5d3c08d3839298ebf6e1f85c256c82dc3f1fe0559f519227",
+          "bytes": 56256,
+          "cues": 544,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_16.kk.srt",
+          "sha256": "3e9644171bc8117552f7e7992c7a3aab68960190bbdad68c02c43ac3984d0188",
+          "bytes": 44088,
+          "cues": 481,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_16.kk.vtt",
+          "sha256": "6df000f058b8509b4a596b7c5283958dfb93376922b446c1c6912f971fba91b5",
+          "bytes": 44185,
+          "cues": 481,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_16.kk.ass",
+          "sha256": "c3bad4cc32f3884100d95e2af1782ecec670628faafae6a8eedda075300c6dc7",
+          "bytes": 52362,
+          "cues": 481,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_17.kk.srt",
+          "sha256": "65fb987e962e7e7cf179239b087ad218e66ee68dcf5f568cc75ba48678fae78f",
+          "bytes": 40762,
+          "cues": 471,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_17.kk.vtt",
+          "sha256": "8868fa740e846b800ef267e3ed64647abef485b348abcfdcad2700108a9f87fc",
+          "bytes": 40859,
+          "cues": 471,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_17.kk.ass",
+          "sha256": "d756dd63eee218eaebce3c5d3236fef3ab565496ecdaaf4c33e40c295911a6c2",
+          "bytes": 48886,
+          "cues": 471,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_18.kk.srt",
+          "sha256": "2ec3b34cf342c643db75f7b718eeee0a96111aae0098828005cc96baf82eaa3c",
+          "bytes": 42880,
+          "cues": 467,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_18.kk.vtt",
+          "sha256": "56ff212f5b41768b975b00fe0f228257e3a4c0e243fcb34e74117d9c62c97408",
+          "bytes": 42977,
+          "cues": 467,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_18.kk.ass",
+          "sha256": "c3ab0f6254346d29e064292adc7d6254ee32d7b110e4e29bc70e793cd12ce549",
+          "bytes": 50944,
+          "cues": 467,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_19.kk.srt",
+          "sha256": "93c674c3eb4768ed0e38f962675a9f5ef0c6974fad4da4b761ce74d9f489ed62",
+          "bytes": 42469,
+          "cues": 495,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_19.kk.vtt",
+          "sha256": "3c5c24832dc75bcd97c080549deb5aacf6800611a415ba3ba9b22e2fb9d61737",
+          "bytes": 42566,
+          "cues": 495,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_19.kk.ass",
+          "sha256": "d651d1b89644ebaf73a8deb1aa8ca461ae42ba9a5ae1e585c705af678ac713d1",
+          "bytes": 50953,
+          "cues": 495,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_20.kk.srt",
+          "sha256": "0aa69c3f0862a3edd253f8fa24713712822c0d6c1c0ac10843ddc3e2250ede3b",
+          "bytes": 43917,
+          "cues": 473,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_20.kk.vtt",
+          "sha256": "b65af02e7fd33c14dc3c602a73301e771e5944180a7c3c3a682d246dd8b65523",
+          "bytes": 44014,
+          "cues": 473,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_20.kk.ass",
+          "sha256": "21481c973417319a18aebdfb1c3e56cf00a0b9bbf22a4b4967eb446f65605257",
+          "bytes": 52071,
+          "cues": 473,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_21.kk.srt",
+          "sha256": "7a08f530ce08e51db0a1e97a96e76a9f8f25c64fcea12459114cbce1a3b1fd38",
+          "bytes": 49643,
+          "cues": 551,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_21.kk.vtt",
+          "sha256": "b303712154e95988583878eeca9f25500eb0dc049f2619c505c27f4ea1bdbbc1",
+          "bytes": 49740,
+          "cues": 551,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_21.kk.ass",
+          "sha256": "0165563546087e8a7b5a1ebc5f617e8eddca621a42ed4efabf8ae4fc19cb7d29",
+          "bytes": 58967,
+          "cues": 551,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_22.kk.srt",
+          "sha256": "f4a17492a98325e1bbc3c72c86d0bd9ed9c45d27f9a592b3d58d06221cad34b6",
+          "bytes": 47754,
+          "cues": 531,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_22.kk.vtt",
+          "sha256": "4cda7e067f76cfff0af9794e09cbf608fa82e90b8469a3cad926d48450d5ea01",
+          "bytes": 47851,
+          "cues": 531,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_22.kk.ass",
+          "sha256": "7e2e63cae05e5fb067836c6ac5d8360a6086cce26547ce323f66427b7cf6a7d2",
+          "bytes": 56778,
+          "cues": 531,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_23.kk.srt",
+          "sha256": "622b6afa6c334704726c52b164722925b41f06dc5f841e6534b944f13f560d4e",
+          "bytes": 38608,
+          "cues": 440,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_23.kk.vtt",
+          "sha256": "c21533d757ec91b41ae99b50564536f117829ac928555326bb0f719543e7ce19",
+          "bytes": 38705,
+          "cues": 440,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_23.kk.ass",
+          "sha256": "7a3ae1bc4ad4edf5ad04c885285f23528be09602f57308b568195b72b2e5b726",
+          "bytes": 46267,
+          "cues": 440,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_24.kk.srt",
+          "sha256": "fc5892f92b7cd03c48f29ab63cda91d203e3834a921d1598d6277b5c23c3dd91",
+          "bytes": 44336,
+          "cues": 488,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_24.kk.vtt",
+          "sha256": "8abf89bb3dcd86448e5f3b1dda7719bb90b8f25383d1d0954cc8ac9553960c68",
+          "bytes": 44433,
+          "cues": 488,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_24.kk.ass",
+          "sha256": "2687106b0abb54e25526e6256e275bf3d019261bbe42b523de1f4ba2422a945f",
+          "bytes": 52715,
+          "cues": 488,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "code-geass-hangyaku-no-lelouch-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/code-geass-hangyaku-no-lelouch/code-geass-hangyaku-no-lelouch-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/code-geass-hangyaku-no-lelouch/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_25.kk.srt",
+          "sha256": "bdc25f1ce333927e6f5397ac67ac79f47bef6c1431acf6e9ac099a8334cfc1a6",
+          "bytes": 38912,
+          "cues": 446,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_25.kk.vtt",
+          "sha256": "2b8d4b4395f0269e7af38f42da19ff84aa3d62950054f0b23cc07bd1be8c966e",
+          "bytes": 39009,
+          "cues": 446,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/code-geass-hangyaku-no-lelouch/ep_25.kk.ass",
+          "sha256": "ae27deb0e53041d30602da03ce288a94c20ac783e2731a1fa9a3b86680f026e9",
+          "bytes": 46661,
+          "cues": 446,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 75,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/code-geass-hangyaku-no-lelouch.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

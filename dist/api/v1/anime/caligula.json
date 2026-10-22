@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Caligula - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/caligula.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/caligula.jpg",
+  "description": "Caligula - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "caligula",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -35,126 +41,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "caligula-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_01.kk.srt",
+          "sha256": "5a33a877470d9849bfc25dc6775768b52706d5049136b0b2e578b24e37c0dc96",
+          "bytes": 38587,
+          "cues": 454,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_01.kk.vtt",
+          "sha256": "05b51e406483742bc5fe549bab237b9b27199619a93c104bdff02f3f96d67bcc",
+          "bytes": 38684,
+          "cues": 454,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_01.kk.ass",
+          "sha256": "dc54fe0788737046466bd8c8545557c22671baf7c173bc7c90585fb95a4015bf",
+          "bytes": 46456,
+          "cues": 454,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "caligula-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_02.kk.srt",
+          "sha256": "da6b08a05eedea7af0a6fcd4980042888af6b37b6ef16d80c7fdef45932d55da",
+          "bytes": 31660,
+          "cues": 420,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_02.kk.vtt",
+          "sha256": "0ffdbf77ce2dad6e9b145950da6f3189bfc16611e35d057f4b6ae528118a7518",
+          "bytes": 31757,
+          "cues": 420,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_02.kk.ass",
+          "sha256": "f5ef55f11ee1097cb6e3390ecbb258e2068c92126a63544a7614c086ec28c7dd",
+          "bytes": 39019,
+          "cues": 420,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "caligula-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_03.kk.srt",
+          "sha256": "0afc704b188fd2982473f6f843d0e6a4cf3d36af9eb7e9845f57edb88e758fa1",
+          "bytes": 32751,
+          "cues": 410,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_03.kk.vtt",
+          "sha256": "3b0c710fc8c1df9e0a6c9624631b07a3dad58ae755fac4dfeab3941aa8bb847f",
+          "bytes": 32848,
+          "cues": 410,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_03.kk.ass",
+          "sha256": "35d0d60389e3b10fe1909c2cfd79e2c59cd3a4b21d917940751171ad1c47e09d",
+          "bytes": 39960,
+          "cues": 410,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "caligula-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_04.kk.srt",
+          "sha256": "d5a7cf9b91e36de945cad15353986626b08ac72ee4ad0eae90d35af131c2a173",
+          "bytes": 37886,
+          "cues": 473,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_04.kk.vtt",
+          "sha256": "fcf07917b51e23df13226b21e42990e19b7e26811078b07ae6ba34e2e0fe2674",
+          "bytes": 37983,
+          "cues": 473,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_04.kk.ass",
+          "sha256": "67f6d92e97e5a4fdda0e0207166265597f31ba2d0903fd4f8cae3b7fea3e01b2",
+          "bytes": 46040,
+          "cues": 473,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "caligula-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_05.kk.srt",
+          "sha256": "70e0b31d6a71072a899d719d074070142c9515b3ae6d85a5acb30a5fc3e82b97",
+          "bytes": 38289,
+          "cues": 469,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_05.kk.vtt",
+          "sha256": "7419f5646cc4d5fe1b4523e63bf2da78da1b5e48cad0bdeb21ef77ab25116089",
+          "bytes": 38386,
+          "cues": 469,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_05.kk.ass",
+          "sha256": "e46d35cb5304d46cc27cc2fd537ea79053a0deb8deef11f9caddc3a4fc1d750f",
+          "bytes": 46383,
+          "cues": 469,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "caligula-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_06.kk.srt",
+          "sha256": "369e4ee2b618f7e87a00153cbb0c297ea57abbd3da2a21b66f4e553db43ba7c0",
+          "bytes": 34868,
+          "cues": 474,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_06.kk.vtt",
+          "sha256": "792bef78cb5a9afa6e57b77d27e48682ca03e379041dd32132f60481af892933",
+          "bytes": 34965,
+          "cues": 474,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_06.kk.ass",
+          "sha256": "eb9f7eb4ce76617ffb4f8365510bf9f419f34610045e67903ae14e1b770f4cbf",
+          "bytes": 43037,
+          "cues": 474,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "caligula-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_07.kk.srt",
+          "sha256": "d603150365338850d672a7dbba438848bc575a6ec16fe9ef26437a2f7190bb72",
+          "bytes": 35983,
+          "cues": 454,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_07.kk.vtt",
+          "sha256": "4741d7791a6dcf71010f92b0ff693dbf8a2d4de4e61207a119128569938f4d63",
+          "bytes": 36080,
+          "cues": 454,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_07.kk.ass",
+          "sha256": "64244bb22ccf232f7f19bcfc829467c588104a4ca46eaccd78a7c50c14bbd112",
+          "bytes": 43852,
+          "cues": 454,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "caligula-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_08.kk.srt",
+          "sha256": "8f783e8644fbf5e4c62bc467a6b9007f5c6f8259955fa6d9dd47573ac04f89d0",
+          "bytes": 36897,
+          "cues": 469,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_08.kk.vtt",
+          "sha256": "996352bae761b82606de13d8b7630176e5e84d64934b2be27aa3553f8d64d05b",
+          "bytes": 36994,
+          "cues": 469,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_08.kk.ass",
+          "sha256": "34f119dce3ace2faf528c007a9f498e6b82da57515edbad76dbd4432223810f9",
+          "bytes": 44991,
+          "cues": 469,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "caligula-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_09.kk.srt",
+          "sha256": "4e9ed7e9ebe839a91f455cdf8e22ca3e5e36d48b094fe0be259baa28123b0ed5",
+          "bytes": 34343,
+          "cues": 440,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_09.kk.vtt",
+          "sha256": "3f3f35a00ba1236a602fba6208f8fb37a355dbf97bf211d8aa6f190ff0193b44",
+          "bytes": 34440,
+          "cues": 440,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_09.kk.ass",
+          "sha256": "9d770b5acbd7daddd814a157a83f220ff94717c83e92dc3c5cb957825327baa2",
+          "bytes": 42002,
+          "cues": 440,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "caligula-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_10.kk.srt",
+          "sha256": "084d5a96402abc674829bdfdb909a4fae498723c6a5d6b6d5447a3633dbc0d9c",
+          "bytes": 41129,
+          "cues": 477,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_10.kk.vtt",
+          "sha256": "89c9a4cba1f084d573e0512f6d869e2b69ec5681590f58a8b63c898a2395b649",
+          "bytes": 41226,
+          "cues": 477,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_10.kk.ass",
+          "sha256": "82795a1a30203ea664af99f1a04568521a9924433e9f13603f6540768ef2c449",
+          "bytes": 49343,
+          "cues": 477,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "caligula-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_11.kk.srt",
+          "sha256": "a8fb27a248eb1fe8eab596b10695d3b4d7ef852675912c3a7a46908d1a43130e",
+          "bytes": 32839,
+          "cues": 399,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_11.kk.vtt",
+          "sha256": "c8c536ec039c675e8c22420660e4c92942c9d61a92d667712aab59ed86f73c16",
+          "bytes": 32936,
+          "cues": 399,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_11.kk.ass",
+          "sha256": "15e82f6735d08e04b0ffcb46f35cae29a2ba83c7caa70e42f74ff4cbf839dff0",
+          "bytes": 39883,
+          "cues": 399,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "caligula-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/caligula/caligula-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/caligula/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/caligula/ep_12.kk.srt",
+          "sha256": "50da042add8c894e319756cf1ec24416f30450dfe53f285cd4a7e5a7b0c697e8",
+          "bytes": 35316,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/caligula/ep_12.kk.vtt",
+          "sha256": "7ce8a1b2701766ec622469ad18da42f6c3c9fff89fd62b599e2b2bcd23acf8da",
+          "bytes": 35413,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/caligula/ep_12.kk.ass",
+          "sha256": "be6dd97c7b55db3fa75bee22429ac5db001b0a98b67004157899d6f56b9912b0",
+          "bytes": 42810,
+          "cues": 429,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/caligula.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

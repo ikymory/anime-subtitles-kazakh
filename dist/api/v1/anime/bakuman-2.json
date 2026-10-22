@@ -17,11 +17,17 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "After the decision to serialize Moritaka and Akito has been made, they are introduced to Miura, their new manager. At first, the two thought it was a joke, but Hattori gives them a pep talk before leaving. While Miura doesn't seem like a bad person, he is given to rudeness and seems to be worried about the duo's future. In addition, the duo are given three assistants to work on their manuscript, and with the assistance of Ogawa, an experienced assistant, their work progresses well. <br><br>\nAt the start of the new year, Moritaka and Akito both attend Shonen Jack's New Year Party. There, they meet Hiramaru Kazuya, said to be a genius of a whole different level from Eiji.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10030-EsnaZOM25Jcc.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/10030-QiRMSckmsboa.jpg",
+  "description": "After the decision to serialize Moritaka and Akito has been made, they are introduced to Miura, their new manager. At first, the two thought it was a joke, but Hattori gives them a pep talk before leaving. While Miura doesn't seem like a bad person, he is given to rudeness and seems to be worried about the duo's future. In addition, the duo are given three assistants to work on their manuscript, and with the assistance of Ogawa, an experienced assistant, their work progresses well. <br><br>\nAt the start of the new year, Moritaka and Akito both attend Shonen Jack's New Year Party. There, they meet Hiramaru Kazuya, said to be a genius of a whole different level from Eiji.",
   "averageScore": 81,
   "popularity": 63100,
+  "catalog_id": "bakuman-2",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -49,256 +55,914 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 25,
+  "available_episodes_count": 25,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bakuman-2-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_01.kk.srt",
+          "sha256": "fc09ce22f61d4c02b8f674c2ab034b31ec23fb6f59b63d3fa27d6b0b08a64022",
+          "bytes": 48646,
+          "cues": 506,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_01.kk.vtt",
+          "sha256": "541185eed7d55d30d7c380e0c49cc07d6b3dfb66fb5826086ed1474d18f6b076",
+          "bytes": 48743,
+          "cues": 506,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_01.kk.ass",
+          "sha256": "c2a676c59361b1b986f5d1de823c3644ece6f69fcddcf2c16770cd34584fa303",
+          "bytes": 57114,
+          "cues": 506,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "bakuman-2-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_02.kk.srt",
+          "sha256": "d73ab2054f518dbb0b144c92ef7ac82fa4de27ef47ef39cb5970996d582eabdd",
+          "bytes": 45001,
+          "cues": 493,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_02.kk.vtt",
+          "sha256": "d2c55deaa0a49d1e5ba4dcada0a8b87d733729e0a8fd7a38ce760a4d8904b678",
+          "bytes": 45098,
+          "cues": 493,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_02.kk.ass",
+          "sha256": "71d69acd80d4381734a70705f54bee1e36c92852236e696bf7ecb0287280e58d",
+          "bytes": 53274,
+          "cues": 493,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "bakuman-2-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_03.kk.srt",
+          "sha256": "91a135ef818d1d018dbead032926a42615a2297d3d99f861c77172aee2e5e5d4",
+          "bytes": 42408,
+          "cues": 434,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_03.kk.vtt",
+          "sha256": "828dfd7de8f9bc117ba7c06bb280630db818ef97a1e19a3d1de897e6d101c10b",
+          "bytes": 42505,
+          "cues": 434,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_03.kk.ass",
+          "sha256": "fdc479f0f2cfcaf865e772a3c3ce6b9db95700af240c9ad87298adb16c67d73e",
+          "bytes": 49796,
+          "cues": 434,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "bakuman-2-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_04.kk.srt",
+          "sha256": "2a7aaaf7e89616454739ddba810b3168729448a83af5f507bcd84081cd6300a0",
+          "bytes": 44519,
+          "cues": 462,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_04.kk.vtt",
+          "sha256": "7d4db88cf597f37e77e1daca379b3213404aa4637831371adef6d35007781aeb",
+          "bytes": 44616,
+          "cues": 462,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_04.kk.ass",
+          "sha256": "8a9fdc4ee55d2159b61632461a4bde24b75a89ff0a5a9155acf661a97fb81bf3",
+          "bytes": 52327,
+          "cues": 462,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "bakuman-2-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_05.kk.srt",
+          "sha256": "9f965f541f0fbd12b5c335bc6e398af53c41e67be867992c0c352fc5d3cf52e3",
+          "bytes": 49885,
+          "cues": 544,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_05.kk.vtt",
+          "sha256": "5f13c0b53fad84f1f3399e037f45b2c77bf66ea5f9f290816aa938032f4216ec",
+          "bytes": 49982,
+          "cues": 544,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_05.kk.ass",
+          "sha256": "5a36d34ebf10a3940806ca3a5d63a3cb81d8f0824145d0b3c90dd19de67d7db8",
+          "bytes": 58923,
+          "cues": 544,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "bakuman-2-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_06.kk.srt",
+          "sha256": "4f24b602691edf2acbdc0d1ec9efc0d568b4aa1b5a9d4848ac9d383c99d4094d",
+          "bytes": 42347,
+          "cues": 468,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_06.kk.vtt",
+          "sha256": "48222a11fe539097b09a233323cbc9b61ff716ee37b8c63c653b87ae4a16e97b",
+          "bytes": 42444,
+          "cues": 468,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_06.kk.ass",
+          "sha256": "1aca18f70e719ff276332c299e5f4bf7e291c116d7467b7d97d87c951e0855a9",
+          "bytes": 50245,
+          "cues": 468,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "bakuman-2-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_07.kk.srt",
+          "sha256": "6ad211bf1d08369bf6959aff990f979ab56a1e0ce85d0f21148cc0537e880e7a",
+          "bytes": 46514,
+          "cues": 490,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_07.kk.vtt",
+          "sha256": "cb64fe8514fb522b68e90a163c4e028e757791b6f3684e6e64d2a6cb139cabcb",
+          "bytes": 46611,
+          "cues": 490,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_07.kk.ass",
+          "sha256": "14f70d62b3e1c0878cab96d1da596f3bd09e1f5542878e086685013013aa2870",
+          "bytes": 54742,
+          "cues": 490,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "bakuman-2-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_08.kk.srt",
+          "sha256": "910ae05f67b8ae0b83be2045fcd2659fd95b3662e0c768b4aabf05df2aa2cccf",
+          "bytes": 41452,
+          "cues": 439,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_08.kk.vtt",
+          "sha256": "61177dce537ad83ef441455317f7093df73376d0b825eab27cfab50aa0cc4b3b",
+          "bytes": 41549,
+          "cues": 439,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_08.kk.ass",
+          "sha256": "1e3b6a860578f723c38962458175fc5f65728569a0aa5b568cf69c4df7c4a9ce",
+          "bytes": 48915,
+          "cues": 439,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "bakuman-2-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_09.kk.srt",
+          "sha256": "3def1cf69df9f7c806668e2cb482ab78d7c80e997232ec3d48f35378fc0c0324",
+          "bytes": 47310,
+          "cues": 525,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_09.kk.vtt",
+          "sha256": "f8aa893f650fe854828251cbc73dbecf12dfccf1f7acab0bd1dbf54afc3c2220",
+          "bytes": 47407,
+          "cues": 525,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_09.kk.ass",
+          "sha256": "d6159789c79c2761e73ccbe3774bd5f7dec670aabe25d2dc31f22c4fece3ec59",
+          "bytes": 56063,
+          "cues": 525,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "bakuman-2-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_10.kk.srt",
+          "sha256": "2b6c5d9b034ebcec60286dfd6cbfb09dd1ad25a374226d1a1f39248c226fc157",
+          "bytes": 45356,
+          "cues": 494,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_10.kk.vtt",
+          "sha256": "7883a1337ef0e44dc15d745ebe41e97e3734db98a4c83cc6dd0d98269d9e7e09",
+          "bytes": 45453,
+          "cues": 494,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_10.kk.ass",
+          "sha256": "35a6d22a2e85936cf5b4c7a53462e24527b112bfe273052a4d4f571926835d1a",
+          "bytes": 53644,
+          "cues": 494,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "bakuman-2-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_11.kk.srt",
+          "sha256": "4e04a8030f2339fa809799438267285865b11c7c0bb1d5a90b54117f412927cc",
+          "bytes": 48325,
+          "cues": 504,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_11.kk.vtt",
+          "sha256": "f5d58b623bd93665262cd88a841a47e7a181d7a302768d67bf93d0f709470f51",
+          "bytes": 48422,
+          "cues": 504,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_11.kk.ass",
+          "sha256": "e51e72ee9d7acef88978c83e00a2a0d9ed6f1e0b60fbb941703aabdb55b61229",
+          "bytes": 56763,
+          "cues": 504,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "bakuman-2-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_12.kk.srt",
+          "sha256": "8835a51b28c4db02b2410c16ee348ff42d8d4630816b27cd0be4bfea402af853",
+          "bytes": 42133,
+          "cues": 447,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_12.kk.vtt",
+          "sha256": "f539bc4e005b7066fdb1ee4cce38c490835d3ad36732fcd66cf498a13e49167e",
+          "bytes": 42230,
+          "cues": 447,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_12.kk.ass",
+          "sha256": "2438edc738a80d1ff70664e4d81fb0d9c19078d2919719e5489c793255506024",
+          "bytes": 49716,
+          "cues": 447,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "bakuman-2-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_13.kk.srt",
+          "sha256": "284b0fabc3e0f8f4d88004d7c15626151f24e52a5b54fbc2174a8fbcbb08359e",
+          "bytes": 45785,
+          "cues": 527,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_13.kk.vtt",
+          "sha256": "6032168c5309c5f0c43166d1653592cf35f2629b18eafe8618d98120dac73be3",
+          "bytes": 45882,
+          "cues": 527,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_13.kk.ass",
+          "sha256": "501b77d7989b53bcf21691da73977015cd35b6bbd0896208ae339f4d1440ae1e",
+          "bytes": 54570,
+          "cues": 527,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "bakuman-2-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_14.kk.srt",
+          "sha256": "5f3a3ea8b17e6c8d1be4f4c43619cbfa4db42d12b9d2caa37d041a2c49a82619",
+          "bytes": 49911,
+          "cues": 558,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_14.kk.vtt",
+          "sha256": "1fa51853b1fbcdedfcb149ca96dec45eefb78e5f67f3563ac369a28178ed3974",
+          "bytes": 50008,
+          "cues": 558,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_14.kk.ass",
+          "sha256": "76267ee142c6f99fc77d6ddb2d3c7ccc9b57dd4c430fb41bfe62641057422e63",
+          "bytes": 59159,
+          "cues": 558,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "bakuman-2-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_15.kk.srt",
+          "sha256": "6384cb36e342be2efc5207b9e7b5b45645d750e0b7149dc99ff4b7bf98d97b30",
+          "bytes": 48504,
+          "cues": 564,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_15.kk.vtt",
+          "sha256": "60e9fecfa3bf6df3772d3b33b4b1e44248923af31fc3470f1e5bc22d436a83fc",
+          "bytes": 48601,
+          "cues": 564,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_15.kk.ass",
+          "sha256": "c73a0efb3bb17ad352c3531e41bb1d2da9edf3c322504234addbbeec923b8932",
+          "bytes": 57842,
+          "cues": 564,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "bakuman-2-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_16.kk.srt",
+          "sha256": "926e646d1f28dac098b520141172ccbf0b3f9a86b8e9e443fe43c08332f0854b",
+          "bytes": 49058,
+          "cues": 537,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_16.kk.vtt",
+          "sha256": "97f27d4739461d80e55f14d1a801e95dcc60f2f3c4d1fcead8c4609af7271e8f",
+          "bytes": 49155,
+          "cues": 537,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_16.kk.ass",
+          "sha256": "ccc0ecadf74402d9700fc87b0344a7b178a90a9277d645797c1d5ae1e4d56c30",
+          "bytes": 57991,
+          "cues": 537,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "bakuman-2-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_17.kk.srt",
+          "sha256": "851ab5410b8d5eb27e572436568f4c99a978c43ef3f5c8f4f6a09dea04666a11",
+          "bytes": 41648,
+          "cues": 418,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_17.kk.vtt",
+          "sha256": "7e97901ff65c17e09c56998febbea45db90771ccdee7340178bca2f3e53fe62e",
+          "bytes": 41745,
+          "cues": 418,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_17.kk.ass",
+          "sha256": "3a3d383c1dba3252a822698e787ca9e34926d274916ee92083e39fa277d7780f",
+          "bytes": 48796,
+          "cues": 418,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "bakuman-2-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_18.kk.srt",
+          "sha256": "ebe6119d4aad7ee3d45400de425ca2ef441f595b01eb0062e7e70a18f5d51f8e",
+          "bytes": 49818,
+          "cues": 481,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_18.kk.vtt",
+          "sha256": "3ce0c9f9860952b592e922080362be7ccb0b401c49b9e2713dba068486cee1d9",
+          "bytes": 49915,
+          "cues": 481,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_18.kk.ass",
+          "sha256": "1eb3de7c5183d31967a31e47f12e1978dc296a2793e469f683e2687ee089a027",
+          "bytes": 57912,
+          "cues": 481,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "bakuman-2-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_19.kk.srt",
+          "sha256": "aa496edef8f156b35d52988022695e2dd6b761f4152bfe486883271916c3eec6",
+          "bytes": 45698,
+          "cues": 465,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_19.kk.vtt",
+          "sha256": "4afe2cdd6e626535bdc01b62d7021e0e89a833f8b2479370563e83624a1010cf",
+          "bytes": 45795,
+          "cues": 465,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_19.kk.ass",
+          "sha256": "b6168583093105cd68b2c8f23d2583b6b2174e9d64a1e48ca969ccda77bab6ae",
+          "bytes": 53552,
+          "cues": 465,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "bakuman-2-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_20.kk.srt",
+          "sha256": "8d5933230a2cfc479314296eaa73a55527dd20a4e3a92a79d67d78848d1c9cf4",
+          "bytes": 43692,
+          "cues": 457,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_20.kk.vtt",
+          "sha256": "c5f488cda2a2e29ba23d6c4021109d7b14780824de4ca8f0462cf4ea5078faa1",
+          "bytes": 43789,
+          "cues": 457,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_20.kk.ass",
+          "sha256": "5e3bd8bc63349c3eea2563d5bc74e9e488f525776e40e76f5a587bf640014d3f",
+          "bytes": 51425,
+          "cues": 457,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "bakuman-2-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_21.kk.srt",
+          "sha256": "8420ef254efec421968d7d1376a21ddd8e9086366168121adcebedc4ee2d62a5",
+          "bytes": 48563,
+          "cues": 480,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_21.kk.vtt",
+          "sha256": "2a8fda0a74ba6ced23282222e39d5083f9a27591e963139a4fe366b65d1e7de5",
+          "bytes": 48660,
+          "cues": 480,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_21.kk.ass",
+          "sha256": "d5e5455ae59ced7521547bf95b8d9ee68747bf2d1ac2e39640c315b6c36a9a36",
+          "bytes": 56641,
+          "cues": 480,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "bakuman-2-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_22.kk.srt",
+          "sha256": "9b36f5d3d4591a9c6e32592049d544cbc4cb14ddfeac0956f5869629ebe4d684",
+          "bytes": 45892,
+          "cues": 469,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_22.kk.vtt",
+          "sha256": "bf30014e85f1189b14831402cfcbafe08c619b0fdc77c4cc36c2d4a717c26a40",
+          "bytes": 45989,
+          "cues": 469,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_22.kk.ass",
+          "sha256": "bf9a311843b6bdd20431b1f1692f6e329fa2e507b952f68ee10d0ea5fa252277",
+          "bytes": 53805,
+          "cues": 469,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "bakuman-2-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_23.kk.srt",
+          "sha256": "f7a30ffe02cf0321dbf258e9254e80c4b09c1739e76cfdd8e115c623680755ed",
+          "bytes": 44795,
+          "cues": 457,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_23.kk.vtt",
+          "sha256": "0afd78eca7ea04cba5c54b9814af13e57a88e2c24c7bd73e5ebc1e279c29441f",
+          "bytes": 44892,
+          "cues": 457,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_23.kk.ass",
+          "sha256": "5ff2cdaa1501ea88d502ce1135fe5c3af9fe8c1c5b5fc908e697a9a6b90d6f35",
+          "bytes": 52528,
+          "cues": 457,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "bakuman-2-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_24.kk.srt",
+          "sha256": "f14b524db3ae030b42e44f989a059ecef724495928eba8a1447bfb0e1630bf27",
+          "bytes": 43250,
+          "cues": 458,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_24.kk.vtt",
+          "sha256": "36128f3041e44f3b8c12b125a321fefaa03b6ff6d5ada2eb5d0f40f96733200c",
+          "bytes": 43347,
+          "cues": 458,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_24.kk.ass",
+          "sha256": "88dfbd08f3402c1f46fccf8f5148038baaf7808346820bc84f688569ae31a522",
+          "bytes": 50998,
+          "cues": 458,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "bakuman-2-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bakuman-2/bakuman-2-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bakuman-2/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bakuman-2/ep_25.kk.srt",
+          "sha256": "e60a8f72453e1c7b30f272d2c7375923e589384a0a433c968d1c4bc94a5f093c",
+          "bytes": 46312,
+          "cues": 470,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bakuman-2/ep_25.kk.vtt",
+          "sha256": "b79e9ff1fdfe27702210d3c6e3d5c124d92f3d166e6b036bc6d4146e1ee4bde2",
+          "bytes": 46409,
+          "cues": 470,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bakuman-2/ep_25.kk.ass",
+          "sha256": "7221ce7a3723a6824119af3e1162fc6909a7f22e8d05207597a6207fa5cb8b4a",
+          "bytes": 54240,
+          "cues": 470,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 75,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bakuman-2.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

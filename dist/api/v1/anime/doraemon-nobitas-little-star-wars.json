@@ -16,28 +16,72 @@
     "Comedy",
     "Sci-Fi"
   ],
-  "description": "One day during summer vacation, a palm-sized alien named Papi appears from a small rocket that Nobita picks up. He is the president of Pirika, a small planet in outer space, and has come to Earth to escape the rebels. Doraemon and his friends are puzzled by Papi's small size, but as they play together using the secret tool \"Small Light\", they gradually become friends. However, a whale-shaped space battleship comes to earth and attacks Doraemon, Nobita and the others in order to capture Papi. Feeling responsible for getting everyone involved, Papi tries to stand up to the rebels. Doraemon and his friends leave for the planet Pirica to protect their dear friend and his home. <br>\n<br>\n(Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126783-sgkzDqBL7Gb0.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126783-sUBBiHEwRHjL.jpg",
+  "description": "One day during summer vacation, a palm-sized alien named Papi appears from a small rocket that Nobita picks up. He is the president of Pirika, a small planet in outer space, and has come to Earth to escape the rebels. Doraemon and his friends are puzzled by Papi's small size, but as they play together using the secret tool \"Small Light\", they gradually become friends. However, a whale-shaped space battleship comes to earth and attacks Doraemon, Nobita and the others in order to capture Papi. Feeling responsible for getting everyone involved, Papi tries to stand up to the rebels. Doraemon and his friends leave for the planet Pirica to protect their dear friend and his home. <br>\n<br>\n(Source: Crunchyroll)",
   "averageScore": 69,
   "popularity": 1801,
+  "color": "#e4bb35",
+  "duration": 108,
+  "studio": "Shirogumi",
+  "catalog_id": "doraemon-nobitas-little-star-wars",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "doraemon-nobitas-little-star-wars-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-little-star-wars/doraemon-nobitas-little-star-wars-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-little-star-wars/doraemon-nobitas-little-star-wars-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/doraemon-nobitas-little-star-wars/doraemon-nobitas-little-star-wars-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-little-star-wars/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-little-star-wars/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/doraemon-nobitas-little-star-wars/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/doraemon-nobitas-little-star-wars/ep_01.kk.ass",
+          "sha256": "a8b5a011a5161ee2df49fb3aa66a5ec459ddc77a606233f5170613ca17725f50",
+          "bytes": 333225,
+          "cues": 3445,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/doraemon-nobitas-little-star-wars/ep_01.kk.srt",
+          "sha256": "bded1f2563b8c0f09b3d34a7399b1badc4096ed395c03fb5b5ff0a72628ffbd5",
+          "bytes": 251368,
+          "cues": 3425,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/doraemon-nobitas-little-star-wars/ep_01.kk.vtt",
+          "sha256": "fbc4329b888919f06966dbca843bafc6a28670af2d6e75924a76fd364756c443",
+          "bytes": 251376,
+          "cues": 3425,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#e4bb35",
-  "studio": "Shirogumi",
-  "duration": 108,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-nobitas-little-star-wars.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

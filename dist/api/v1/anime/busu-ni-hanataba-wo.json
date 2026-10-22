@@ -16,35 +16,101 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Busu ni Hanataba wo - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/busu-ni-hanataba-wo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/busu-ni-hanataba-wo.jpg",
+  "description": "Busu ni Hanataba wo - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "busu-ni-hanataba-wo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     10,
     11
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 10,
       "language": "kk",
-      "filename": "busu-ni-hanataba-wo-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/busu-ni-hanataba-wo/busu-ni-hanataba-wo-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/busu-ni-hanataba-wo/busu-ni-hanataba-wo-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/busu-ni-hanataba-wo/busu-ni-hanataba-wo-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/busu-ni-hanataba-wo/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/busu-ni-hanataba-wo/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/busu-ni-hanataba-wo/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/busu-ni-hanataba-wo/ep_10.kk.srt",
+          "sha256": "dd14994160cec8eb310d01b4d290cdecf67e1352808ea7cc06fff1f9ca4f5c62",
+          "bytes": 778,
+          "cues": 8,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/busu-ni-hanataba-wo/ep_10.kk.vtt",
+          "sha256": "c5fcc7f8a1d5de33e0f64c54ef6f850d7d711ab8e15e2dbe9301f7019ae7d52c",
+          "bytes": 875,
+          "cues": 8,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/busu-ni-hanataba-wo/ep_10.kk.ass",
+          "sha256": "7c103929f7063b35ab2ba13f40d22932512dda5af3876c1b65db447fb043ea25",
+          "bytes": 1865,
+          "cues": 8,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "busu-ni-hanataba-wo-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/busu-ni-hanataba-wo/busu-ni-hanataba-wo-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/busu-ni-hanataba-wo/busu-ni-hanataba-wo-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/busu-ni-hanataba-wo/busu-ni-hanataba-wo-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/busu-ni-hanataba-wo/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/busu-ni-hanataba-wo/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/busu-ni-hanataba-wo/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/busu-ni-hanataba-wo/ep_11.kk.srt",
+          "sha256": "889999300dfb124ec6a426030bee94ae3cb461198e8f1410a23d9e3230a8e43a",
+          "bytes": 913,
+          "cues": 9,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/busu-ni-hanataba-wo/ep_11.kk.vtt",
+          "sha256": "3ec1ad1261abcc3865712066dabda013ccc380f083001cacfbb2c4874110cc2c",
+          "bytes": 1010,
+          "cues": 9,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/busu-ni-hanataba-wo/ep_11.kk.ass",
+          "sha256": "9ea32388ea181fce9f447b0829dd8c42fd80558dd320581bb609dedb8b8b3816",
+          "bytes": 2017,
+          "cues": 9,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/busu-ni-hanataba-wo.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -15,28 +15,72 @@
     "Action",
     "Adventure"
   ],
-  "description": "Kazakh subtitles for One Piece: Episode of Chopper Plus.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3848-SCnYGTn34Llt.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/3848-LXsSQtSFu4e9.jpg",
+  "description": "Kazakh subtitles for One Piece: Episode of Chopper Plus.",
   "averageScore": 86,
   "popularity": 150000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "one-piece-chopper-plus",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "one-piece-chopper-plus-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-chopper-plus/one-piece-chopper-plus-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-chopper-plus/one-piece-chopper-plus-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/one-piece-chopper-plus/one-piece-chopper-plus-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-chopper-plus/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-chopper-plus/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/one-piece-chopper-plus/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/one-piece-chopper-plus/ep_01.kk.ass",
+          "sha256": "38bcd824c35db47c4f92ce931be84e4b489fa09b6f75e35bffd58835625b0f79",
+          "bytes": 202470,
+          "cues": 2073,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/one-piece-chopper-plus/ep_01.kk.srt",
+          "sha256": "0b847bb7100a5088c4ada43af494a170226d1761379f2695009815341c0a8ec9",
+          "bytes": 171056,
+          "cues": 2064,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/one-piece-chopper-plus/ep_01.kk.vtt",
+          "sha256": "ee99f76b6b876e79ad2e9f4d5026b34180929a94271f8aa9e0e9ac994a0b5d7f",
+          "bytes": 171064,
+          "cues": 2064,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-chopper-plus.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

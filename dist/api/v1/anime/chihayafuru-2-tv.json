@@ -16,11 +16,17 @@
     "Sports",
     "Romance"
   ],
-  "description": "Chihayafuru 2 - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chihayafuru-2-tv.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/chihayafuru-2-tv.jpg",
+  "description": "Chihayafuru 2 - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "chihayafuru-2-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -48,256 +54,920 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 25,
+  "available_episodes_count": 25,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_01.kk.srt",
+          "sha256": "78b8382aa741bdbcbcdef6840842982a0f0ef61bd1601d986ed68ceb00021d82",
+          "bytes": 35384,
+          "cues": 402,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_01.kk.vtt",
+          "sha256": "48f6398519d7b13247c2bd4d728fe6c7440300d51a293599ce450a7e1cd2e9f3",
+          "bytes": 35481,
+          "cues": 402,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_01.kk.ass",
+          "sha256": "c54d66e8b4cb79f68f551d90165393f2ba1f7f7635d3c9f696b676753d9c0686",
+          "bytes": 49174,
+          "cues": 418,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_02.kk.srt",
+          "sha256": "07086b9b9e48fa7c6d32f4b8b8c173b6b7827f9672310e055c61cb15f8f86bb3",
+          "bytes": 40710,
+          "cues": 480,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_02.kk.vtt",
+          "sha256": "159f1faff71dd8084f7d3a7ff26371d5c83b8a4ae609b070b3ff362321e8ef6d",
+          "bytes": 40807,
+          "cues": 480,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_02.kk.ass",
+          "sha256": "244c2b46fdd2f3e6ef3c1973ecefb4e67eda3857077e7eccf21b20511497b9a2",
+          "bytes": 48969,
+          "cues": 480,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_03.kk.srt",
+          "sha256": "07ff732e19c87c7d3b630b4fcf068f0ffe6ab1416500b2961834dc19ab881f30",
+          "bytes": 37872,
+          "cues": 434,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_03.kk.vtt",
+          "sha256": "8a4d3cc7a2b423306284dd6bacd886cedae1c08a2caae275e867240ae54656ad",
+          "bytes": 37969,
+          "cues": 434,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_03.kk.ass",
+          "sha256": "3f711dd9b45af2f214fb0c6159d5ea067ec0d98d1c279df29d2e0b586087198a",
+          "bytes": 45441,
+          "cues": 434,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_04.kk.srt",
+          "sha256": "28fa6c0694444d4a34785ac75a39fc2a82b8e89ef9df9670791584775914188f",
+          "bytes": 42182,
+          "cues": 464,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_04.kk.vtt",
+          "sha256": "44c65dcbf4fcfb15bfe1d14c9c5da2d5caa480ab3a734513690777c23029a8de",
+          "bytes": 42279,
+          "cues": 464,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_04.kk.ass",
+          "sha256": "646865afb40b40f0bfee6cc29c167bb52cc12995ca85179d1a2cbf7c3b7a2fc2",
+          "bytes": 50201,
+          "cues": 464,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_05.kk.srt",
+          "sha256": "3ffac452884315a90fe6aea768caa418e3ef11522c22ef488c4c5dd345d4ec3b",
+          "bytes": 40645,
+          "cues": 447,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_05.kk.vtt",
+          "sha256": "ba7f1e5a0b4a5a6ec2bb72a70f48217a68b772c19907663ea48d01bb0bc4841d",
+          "bytes": 40742,
+          "cues": 447,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_05.kk.ass",
+          "sha256": "2666106411dc702b342c587cdb20c72a8311109f86c8b34948373288506840f8",
+          "bytes": 48409,
+          "cues": 447,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_06.kk.srt",
+          "sha256": "d643b57ff70dd3df58266c9bb14f62378aab1e504dd785690afdd9a2c443e7a6",
+          "bytes": 35335,
+          "cues": 390,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_06.kk.vtt",
+          "sha256": "20185c750f2b939bcb2be8c278aeae3c81277a449adcf49e58fe5be31c3b07c0",
+          "bytes": 35432,
+          "cues": 390,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_06.kk.ass",
+          "sha256": "c0e68137c5e255a3c4bafc7757136e0b559071f93ce875636753a20fabeebf7a",
+          "bytes": 42244,
+          "cues": 390,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_07.kk.srt",
+          "sha256": "5e5fff212ec44246360a4f379a0bbeb71395b05117d9ae74b2e493a160f93efb",
+          "bytes": 37414,
+          "cues": 408,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_07.kk.vtt",
+          "sha256": "e8f7530c6d6ae163a42328dc8ecfd1eb5922456bab0ea9cd41e685649d51bd5b",
+          "bytes": 37511,
+          "cues": 408,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_07.kk.ass",
+          "sha256": "46feb2c1667f1363fa2f5c0705c3e20dafd9d92ad8848adea3f5ac5cec15968a",
+          "bytes": 44594,
+          "cues": 408,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_08.kk.srt",
+          "sha256": "08f13320ca1993dc21a85333149db8cb1c3cb0eb3ae696d70b7398dff4933ba6",
+          "bytes": 34759,
+          "cues": 391,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_08.kk.vtt",
+          "sha256": "2a6684652f974cd1749303afc907568569ec5e08d2a236c925d3ca067d21dfdd",
+          "bytes": 34856,
+          "cues": 391,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_08.kk.ass",
+          "sha256": "3f7d8dc782a3755152c2861b85471ccb0ea1ba2636b5b4acd0bbf2c1e4b87185",
+          "bytes": 41684,
+          "cues": 391,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_09.kk.srt",
+          "sha256": "71c87b603d6d3b2303c806c0a75e09d5f8439483121a62e907177707d10fce07",
+          "bytes": 33690,
+          "cues": 402,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_09.kk.vtt",
+          "sha256": "33befd54c25633fa19138aae0a8d17fcd0f6aea91e96d5d998d7ca7487aaea9b",
+          "bytes": 33787,
+          "cues": 402,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_09.kk.ass",
+          "sha256": "d5e68a15255e8c3ce024100fdba4e14f402dd289a716a1b9d24311d8641d9069",
+          "bytes": 40779,
+          "cues": 402,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_10.kk.srt",
+          "sha256": "39998f57ca141df60f6454d6d9d6e07264dbe25614c22afb4b8a2fbb8523135e",
+          "bytes": 37983,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_10.kk.vtt",
+          "sha256": "a4f3fb5b55951776f368945854511446b4a3b9c5a1a50ba54adc596adf4bfead",
+          "bytes": 38080,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_10.kk.ass",
+          "sha256": "517808bf0cd16aa05e4c41777a1a0085ba7a9c6f414eb9a13749bcb6f08b8f04",
+          "bytes": 45283,
+          "cues": 416,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_11.kk.srt",
+          "sha256": "adafae2c73f706e2e514626984bbd7991eec47d3cdffa837f63a9810edeffd26",
+          "bytes": 35723,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_11.kk.vtt",
+          "sha256": "86068f9d5acf80f9755d923e623727e7f71675493c35a13fdce8658f2b5c2b82",
+          "bytes": 35820,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_11.kk.ass",
+          "sha256": "dad813d4bfe609e353f0059bd2778a3931265d4080d87127d4cc017eef5a2bd5",
+          "bytes": 42497,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_12.kk.srt",
+          "sha256": "160d8d8b7d13ad16ad79a4104d0ed99011ee2f803f57241a3f9b1f15ed6df4a7",
+          "bytes": 30748,
+          "cues": 337,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_12.kk.vtt",
+          "sha256": "787e061e2a49e10757fbc766e4c69e3819de6064e7fab41127a461ccaf8c6661",
+          "bytes": 30845,
+          "cues": 337,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_12.kk.ass",
+          "sha256": "e4aa1cacad7b6ca766a46fcdc688fa4f8628cc13b945af9734974f6017b9c312",
+          "bytes": 36862,
+          "cues": 337,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_13.kk.srt",
+          "sha256": "8866fac1799576d5d5bc22862f3c7ac89794bf52e320ba2cb4483c3b88080432",
+          "bytes": 31414,
+          "cues": 375,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_13.kk.vtt",
+          "sha256": "750300bd791e6b5627082a1f61fdb273867770e324623656a253a027a7274568",
+          "bytes": 31511,
+          "cues": 375,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_13.kk.ass",
+          "sha256": "8ac377aacd9987192c54d9177771b1b9c85826a4766d2033aee489d620bdcd45",
+          "bytes": 38099,
+          "cues": 375,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_14.kk.srt",
+          "sha256": "af0fadaf4118cd71ede1b97033af9d8c5de41c797bb78a37d792d7920a658853",
+          "bytes": 31608,
+          "cues": 370,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_14.kk.vtt",
+          "sha256": "932b4b955e0adaf3ab455ece85bb588a27a6530c7764b17842c1abd0dfe40d4f",
+          "bytes": 31705,
+          "cues": 370,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_14.kk.ass",
+          "sha256": "fda970a565e2ba9e080e6847dea5f9de3306a50ec68fa51de3324878a6581cbc",
+          "bytes": 38217,
+          "cues": 370,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_15.kk.srt",
+          "sha256": "2681ea9e3ab0bf2b29e760a87d3d48d78b2a9114dc02dac42b90dfd787a9b19f",
+          "bytes": 38415,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_15.kk.vtt",
+          "sha256": "ffbfe943db4c2abdd8a4a17b156312a39d1ad58d899c6e6707a3b25ba70ff043",
+          "bytes": 38512,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_15.kk.ass",
+          "sha256": "f0aa6f2d481bd4386d2f17940fc0ffcf0e5cf5312ec33cfe1791d55b7e0b7d0e",
+          "bytes": 45729,
+          "cues": 417,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_16.kk.srt",
+          "sha256": "26a11d2117304281cdfb3d4d7c4720bf104398592ebdc6f77272b6b8cd72120e",
+          "bytes": 34848,
+          "cues": 397,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_16.kk.vtt",
+          "sha256": "a2a10a62d346780d2e37811523ddd170c9812a4213795bbae215864a39b74153",
+          "bytes": 34945,
+          "cues": 397,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_16.kk.ass",
+          "sha256": "e897dc5efd10cc18839e8ac0d10d55669f1e1101abb0d8836b6ab2b389a06e2a",
+          "bytes": 47976,
+          "cues": 400,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_17.kk.srt",
+          "sha256": "0e3dc2ead902abc09bd90df3c87dfc9fd769afd9150256f9a8f8e74ee40940c4",
+          "bytes": 31142,
+          "cues": 376,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_17.kk.vtt",
+          "sha256": "d156e0dd52ee159a941c02b5c0613c6495339ca74f789729e93cd2f798a81eb2",
+          "bytes": 31239,
+          "cues": 376,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_17.kk.ass",
+          "sha256": "b562250566993f38593339b9336296a3a6c0fc73f66fa1d6548cc5ab4f055173",
+          "bytes": 37841,
+          "cues": 376,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_18.kk.srt",
+          "sha256": "7bb382694199cf77ec97b00abc699b9eecc9a53fd720645a4f26aaa9e1d44d53",
+          "bytes": 32691,
+          "cues": 364,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_18.kk.vtt",
+          "sha256": "9cdbba50c8d0eb295c89946886c6a6be402f670a07aa675ae93e0a041beb6def",
+          "bytes": 32788,
+          "cues": 364,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_18.kk.ass",
+          "sha256": "fb526ee7cb58c5125af88e1c84824d2118d0ceeb8d40e5c98537207500c9f171",
+          "bytes": 39210,
+          "cues": 364,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_19.kk.srt",
+          "sha256": "3a1ea6243be892ede267ffda81735e121af7cc7cf647122b3c47c869912ccea5",
+          "bytes": 28251,
+          "cues": 324,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_19.kk.vtt",
+          "sha256": "7d67f477f9ac4b4108c32b54a53dd570a67a72aaf9c37d205ced625e2d6b2a4e",
+          "bytes": 28348,
+          "cues": 324,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_19.kk.ass",
+          "sha256": "88142cddfe1801d697a709daeaacf19c11a4297d049450dbc788eb8e6ece4935",
+          "bytes": 34170,
+          "cues": 324,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-20ep.srt",
+      "filename": "ep_20.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_20.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_20.kk.ass",
+          "sha256": "3f19312c20cb7510326afdaaa8aad62fc1897a9c687de903f69bf4816a72ebde",
+          "bytes": 40126,
+          "cues": 393,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_20.kk.srt",
+          "sha256": "5a728be4d18e8a982831266782c93b24333d7cd8a9e303f07d7c381463384615",
+          "bytes": 33136,
+          "cues": 392,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_20.kk.vtt",
+          "sha256": "9431fa8d56f4a5c63a5ff94e3bcb3d76ec9255b139025c8ee651e3408ac066da",
+          "bytes": 33144,
+          "cues": 392,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_21.kk.srt",
+          "sha256": "cc882574e4eda477088f3db9e875e1f69b5ca7a23710b24ab8f49663152ad02a",
+          "bytes": 31569,
+          "cues": 369,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_21.kk.vtt",
+          "sha256": "c269045fdb0999856cf8741856a9bc69829e754aa4af2fd301bd6580610dc73a",
+          "bytes": 31666,
+          "cues": 369,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_21.kk.ass",
+          "sha256": "0e924f3b328ee0cb520b89445a8f8467ff343c201fdb20bb899e851efeb4225a",
+          "bytes": 38163,
+          "cues": 369,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_22.kk.srt",
+          "sha256": "5a1cbff6661028238be5007e7431e60674860bb0e77b58a4eb178bb2342b4587",
+          "bytes": 22961,
+          "cues": 274,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_22.kk.vtt",
+          "sha256": "87e054a7fcf10b975832ce938f4a59b8ed590b0d4a76d20fe530b9dc66e2f0e9",
+          "bytes": 23058,
+          "cues": 274,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_22.kk.ass",
+          "sha256": "69aa328518f5c8a6fe52a8dbe7fc68c2ad8e4eb7d7a89f333a6632c855b4ba37",
+          "bytes": 28130,
+          "cues": 274,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-23ep.srt",
+      "filename": "ep_23.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_23.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_23.kk.ass",
+          "sha256": "e414e8c5a2aa6a9a1ebe10e5d4538c348994b9ab5b185cf57022836170fdc501",
+          "bytes": 41535,
+          "cues": 393,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_23.kk.srt",
+          "sha256": "96719883580e0c73bbe75341fc11c0072e23e32e27a7646bb98396f43234620c",
+          "bytes": 34545,
+          "cues": 392,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_23.kk.vtt",
+          "sha256": "0085efef5906c8a19b5d37d0b2044bd2b0302acbd81e199ad83ebd9d148f90ce",
+          "bytes": 34553,
+          "cues": 392,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_24.kk.srt",
+          "sha256": "5ea1cfe92b635800951c9a7b86d11f85b497f19c44dabee9c293aff709f38a23",
+          "bytes": 28371,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_24.kk.vtt",
+          "sha256": "89eb68de2a4b2ffb44f11c6c9a679327d2c8cb744fb9ceb927cfdf24cee43d3b",
+          "bytes": 28468,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_24.kk.ass",
+          "sha256": "94f64c281a27555442201b7553f313e15c2fcb6237fdf7429e44cf3a1d3277ee",
+          "bytes": 34800,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "chihayafuru-2-tv-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/chihayafuru-2-tv/chihayafuru-2-tv-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/chihayafuru-2-tv/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_25.kk.srt",
+          "sha256": "3b5e1f57afd2bfef3cc4fbb143d8d6c8ca5025b778452f15647e62bba90c4306",
+          "bytes": 34524,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/chihayafuru-2-tv/ep_25.kk.vtt",
+          "sha256": "955f3a7b9fbf98001d3080bb47f894c338ffdc6bc3dcb5cc8fa94ef15d12de1f",
+          "bytes": 34621,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/chihayafuru-2-tv/ep_25.kk.ass",
+          "sha256": "9512fa45478ce901d1c17136ed038662166ec31578b4a136e6b8a45e67fbcd02",
+          "bytes": 41389,
+          "cues": 387,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 79,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chihayafuru-2-tv.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

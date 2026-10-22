@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Samurai Champloo",
     "english": "Samurai Champloo",
-    "native": "サムライチャンプルー"
+    "native": "サムライチャンプルー",
+    "kazakh": "Самурай Чамплу",
+    "kk": "Самурай Чамплу"
   },
   "format": "TV",
   "episodes": 26,
@@ -14,22 +16,67 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Let's break it down. Mugen's a reckless sword-slinger with a style that's more b-boy than Shaolin. He's got a nasty streak that makes people want to stick a knife in his throat. Then there's Jin, a deadbeat ronin who speaks softly but carries a big blade. He runs game old-school style, but he can make your blood spray with the quickness. When these roughnecks bring the ruckus, it ain't good for anybody, especially them. Enter Fuu, the ditzy waitress who springs her new friends from a deadly jam. All she wants in return is help solving a riddle from her past. She and the boys are tracking the scent, but there's 99 ways to die between them and the sunflower samurai.<br>\n<br>\n(Source: Funimation)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx205-7tHVFu6dPBm9.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/205-L7WpOOWUmVjh.jpg",
+  "description": "Let's break it down. Mugen's a reckless sword-slinger with a style that's more b-boy than Shaolin. He's got a nasty streak that makes people want to stick a knife in his throat. Then there's Jin, a deadbeat ronin who speaks softly but carries a big blade. He runs game old-school style, but he can make your blood spray with the quickness. When these roughnecks bring the ruckus, it ain't good for anybody, especially them. Enter Fuu, the ditzy waitress who springs her new friends from a deadly jam. All she wants in return is help solving a riddle from her past. She and the boys are tracking the scent, but there's 99 ways to die between them and the sunflower samurai.\n\n(Source: Funimation)",
+  "averageScore": 85,
+  "popularity": 64066,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Manglobe",
+  "catalog_id": "samurai-champloo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "samurai-champloo-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/samurai-champloo/samurai-champloo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/samurai-champloo/samurai-champloo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/samurai-champloo/samurai-champloo-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/samurai-champloo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/samurai-champloo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/samurai-champloo/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/samurai-champloo/ep_01.kk.srt",
+          "sha256": "df9c86b6ecbc0d62457c4122439eef0fd5cddb699c76d011325e38fdf493efdd",
+          "bytes": 30821,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/samurai-champloo/ep_01.kk.vtt",
+          "sha256": "4ffac807cf16a51734894153d578170665a55443511fb18f33e2f07fffcbf88d",
+          "bytes": 30918,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/samurai-champloo/ep_01.kk.ass",
+          "sha256": "7e258c2347a70be02cbfdeb479dadb5833c210611cc92a46a513cf9de4c783fa",
+          "bytes": 37450,
+          "cues": 387,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/samurai-champloo.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

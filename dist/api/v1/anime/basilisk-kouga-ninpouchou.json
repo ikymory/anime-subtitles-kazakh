@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Basilisk. Kouga Ninpouchou - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/basilisk-kouga-ninpouchou.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/basilisk-kouga-ninpouchou.jpg",
+  "description": "Basilisk. Kouga Ninpouchou - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "basilisk-kouga-ninpouchou",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -47,246 +53,878 @@
     23,
     24
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 24,
+  "available_episodes_count": 24,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_01.kk.srt",
+          "sha256": "8af7f10ce5df62e7a3492df1b11157965b7fe374e1f907ca11105be4d99fad6d",
+          "bytes": 22763,
+          "cues": 270,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_01.kk.vtt",
+          "sha256": "1d73813bd31aaf8969656c81223b1d2da1f61af410173555bd4ce9d9d5735e04",
+          "bytes": 22860,
+          "cues": 270,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_01.kk.ass",
+          "sha256": "a6fa99c023861d006cf24131b49dc5ce2aacb01a656a75b4f1a2c5617b63605f",
+          "bytes": 27691,
+          "cues": 270,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_02.kk.srt",
+          "sha256": "3cda257ca3ad2c5bae2d978a405904422ae566cc60272a30849058c58129f703",
+          "bytes": 24054,
+          "cues": 286,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_02.kk.vtt",
+          "sha256": "97df2b976097115a5930efc6eafd4bcbe579d6b555f503f4d46b5ea3f9067375",
+          "bytes": 24151,
+          "cues": 286,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_02.kk.ass",
+          "sha256": "75f3e47be848959cd2b26506ec0c6c45e234b082d08696741eee1f6349fc85f0",
+          "bytes": 29222,
+          "cues": 286,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_03.kk.srt",
+          "sha256": "6bdc424985993e59d5834ae0b18966987c8d69c6370f84c643862543b6d311fe",
+          "bytes": 18479,
+          "cues": 241,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_03.kk.vtt",
+          "sha256": "496049ca2280a915e2a8cb09f31541adfd39d0c9c60cc401dd9a1859828dc209",
+          "bytes": 18576,
+          "cues": 241,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_03.kk.ass",
+          "sha256": "88b375ff2f79af1fb85494f245bb1744a47684d78243af2a61a229af93cc889c",
+          "bytes": 22972,
+          "cues": 241,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_04.kk.srt",
+          "sha256": "ad2796435a40248c9149c4a7ac5240531b89c1bd546120d2e98d2adfe2d52742",
+          "bytes": 25025,
+          "cues": 298,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_04.kk.vtt",
+          "sha256": "242ce42876aed118126584c9227f27344703d2fd10f9c97cde78b547a9f7ccec",
+          "bytes": 25122,
+          "cues": 298,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_04.kk.ass",
+          "sha256": "b929159bc7a9cdb9f72b6361e8451b82017529cb4e2de6678e952c3ffb3e5dcc",
+          "bytes": 30373,
+          "cues": 298,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_05.kk.srt",
+          "sha256": "a9a046199bc3c107830e3a8e16b14de987d2fe2fcfa09c1446a8663fa1beeb40",
+          "bytes": 22192,
+          "cues": 277,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_05.kk.vtt",
+          "sha256": "a13a13cdba31d8599ffa67ef0ac4c2a246cb22b622e83d828870db4735784321",
+          "bytes": 22289,
+          "cues": 277,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_05.kk.ass",
+          "sha256": "a4500e321b2c48b2bfa3d8ee1459971689f51bc74d6c99b6709a2995d0104180",
+          "bytes": 27225,
+          "cues": 277,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_06.kk.srt",
+          "sha256": "32fad3bd7d4f6895429980d962de11c051cafa49f3905751d28fd4d4c367f7ae",
+          "bytes": 21116,
+          "cues": 241,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_06.kk.vtt",
+          "sha256": "36a452488bfee2dd6199cc83ae9fdda2425187a04f469f43950dcf91061fcba8",
+          "bytes": 21213,
+          "cues": 241,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_06.kk.ass",
+          "sha256": "93935f644669d782b3027ba94a50e3c203e0ec21de86ce3d97b44690d24bcbc6",
+          "bytes": 25609,
+          "cues": 241,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_07.kk.srt",
+          "sha256": "7dcfc0272fa70152080817274a869ab63c7ac0d3e9518d2f9c4b2d436aa42389",
+          "bytes": 19344,
+          "cues": 235,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_07.kk.vtt",
+          "sha256": "755d08d60f0ac063b246adbda3cb6a1376ee7866fc69b3550b7f8ffb401407c3",
+          "bytes": 19441,
+          "cues": 235,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_07.kk.ass",
+          "sha256": "b69995795599045499a115a60a157ff93e398d97790a59f279932db6a31a5440",
+          "bytes": 23747,
+          "cues": 235,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_08.kk.srt",
+          "sha256": "49ef07bc855580a024991d3f1160f0cde6a6cc8d4481cf6800342eafaf8fd6ae",
+          "bytes": 18009,
+          "cues": 244,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_08.kk.vtt",
+          "sha256": "8d7622a5e8194a2c029304084f0bd8d4af65d680a0a20232547b7f1680d1d8ae",
+          "bytes": 18106,
+          "cues": 244,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_08.kk.ass",
+          "sha256": "f68c851f3154ee81073af3d6683705b1db44b4f764c56cf5123e529e57917034",
+          "bytes": 22547,
+          "cues": 244,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_09.kk.srt",
+          "sha256": "80eee8517de81eab5efe32370de3f57e54f61c97f940c2e66bea444ea4f607bd",
+          "bytes": 20351,
+          "cues": 249,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_09.kk.vtt",
+          "sha256": "d9461ed0e0c18a28c26939a264d6b788a80431254fc6e27c79d04f864ef405d7",
+          "bytes": 20448,
+          "cues": 249,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_09.kk.ass",
+          "sha256": "0a349d3bbbec575dbb963a793559b1c71918fd2f11025f126f9d9859957000be",
+          "bytes": 24964,
+          "cues": 249,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_10.kk.srt",
+          "sha256": "b7f548881a8056f7378c9a0bd05f2164e85bd7369b20122a2b70db89824d827c",
+          "bytes": 26067,
+          "cues": 323,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_10.kk.vtt",
+          "sha256": "0083c632bcee0edba7d9c31b06ec389e390689a0f9c78b32eabf57a7e4387b21",
+          "bytes": 26164,
+          "cues": 323,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_10.kk.ass",
+          "sha256": "bc7b15552c31f66703579dc24deeba50e7714dbb23f8c208483a628a854a1b91",
+          "bytes": 31790,
+          "cues": 323,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_11.kk.srt",
+          "sha256": "e0d5d02a759d461434a28197e65733128c62212803aeb821be295559a125b945",
+          "bytes": 25240,
+          "cues": 271,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_11.kk.vtt",
+          "sha256": "ab8363e47bc8f9391caad0583e49c534c2f50d9d82524d291cf332bbdd1d669c",
+          "bytes": 25337,
+          "cues": 271,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_11.kk.ass",
+          "sha256": "b04c28c57339e6cad1a947d2bc88c1576d404595ee346765862d6ced83041fb6",
+          "bytes": 30183,
+          "cues": 271,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_12.kk.srt",
+          "sha256": "80f66dec096b533f75a2f5959f4f6afe10df061e88351b1a61ab0932c43091c5",
+          "bytes": 14958,
+          "cues": 206,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_12.kk.vtt",
+          "sha256": "d6a05c97155045b5f923b7528849c8e68f492abee43dd4f3bdbad488d0115902",
+          "bytes": 15055,
+          "cues": 206,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_12.kk.ass",
+          "sha256": "c94235b59e9b8b6d5fecb1ca38810570dba4dffff4300f68b3b8bc8d34366835",
+          "bytes": 18926,
+          "cues": 206,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_13.kk.srt",
+          "sha256": "ce069c4497722470c14a9af9f7c43ecc7af05777ffc54a9663e23dddd72cd4c5",
+          "bytes": 17950,
+          "cues": 217,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_13.kk.vtt",
+          "sha256": "7d70e953ec6fb20b1f092e3e6b5060ce7e531a0b7c9a9df0b32e16ca6620ad27",
+          "bytes": 18047,
+          "cues": 217,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_13.kk.ass",
+          "sha256": "b07a891f010df93658d108ed5c7fb10ffb524e960be440bb46f426d25c98891c",
+          "bytes": 22083,
+          "cues": 217,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_14.kk.srt",
+          "sha256": "cbd9916561a9eb0b5247f8bd4d69c471cc4d277a7db7fca8e77542e21a8278d2",
+          "bytes": 20757,
+          "cues": 275,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_14.kk.vtt",
+          "sha256": "0c0311051ea074ad368cc35d8a2972e4b079856fd1729b20dffc3aea733507ca",
+          "bytes": 20854,
+          "cues": 275,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_14.kk.ass",
+          "sha256": "759755fe24fcbdf8bda2f529b4b9ec2f149b59fd3893fd14a4a153bc2527924d",
+          "bytes": 25760,
+          "cues": 275,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_15.kk.srt",
+          "sha256": "e81f80408a9e1da80bb869df341acdbdb1a5a6a9faae7024bdf8b62c88734635",
+          "bytes": 16105,
+          "cues": 222,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_15.kk.vtt",
+          "sha256": "bb0a25ed32357006ee324a18d71a5f1bfe34aac6894967d5e6a12bdbf2cc87f6",
+          "bytes": 16202,
+          "cues": 222,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_15.kk.ass",
+          "sha256": "43e6f4812eedc74bda6d7807e9bbfe9ff3c0e7be2b5b24f02509d2be125634db",
+          "bytes": 20313,
+          "cues": 222,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_16.kk.srt",
+          "sha256": "5aaf102869cf0df97767e24212fc2d174672c05b8256d4efd0e4599b9e1bbb11",
+          "bytes": 24847,
+          "cues": 304,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_16.kk.vtt",
+          "sha256": "d030bbd0a57be9c5b5949a2d2af7fb1b8506513e75cc4970b344b02d1a98112b",
+          "bytes": 24944,
+          "cues": 304,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_16.kk.ass",
+          "sha256": "31048b5fb0fbe9c5ca150fdfd917ec43d807a6203345f101113af9714bdec7bd",
+          "bytes": 30285,
+          "cues": 304,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_17.kk.srt",
+          "sha256": "9eef34e21d91ea23e7681b1386ffe5f89dd28103f725094878176e460d77a3cb",
+          "bytes": 23556,
+          "cues": 273,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_17.kk.vtt",
+          "sha256": "7ff68c63e6c2325d08bf4f979156f87f63c4622ad31680b1ecfa8566e0f39f6c",
+          "bytes": 23653,
+          "cues": 273,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_17.kk.ass",
+          "sha256": "9f1db81d009028857d5b4924e3242ee50e9101c67bbb297c17fca56cd889af63",
+          "bytes": 28529,
+          "cues": 273,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_18.kk.srt",
+          "sha256": "64c2250bd1c619d6f2e1ab163ae0f56e3d7357c84a4a97918207d942d1f6e5ee",
+          "bytes": 18223,
+          "cues": 245,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_18.kk.vtt",
+          "sha256": "f93ecdd19fc6c7be342054c89376840fd7cefa0a67ad3928d8e6e6499f923b71",
+          "bytes": 18320,
+          "cues": 245,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_18.kk.ass",
+          "sha256": "438cb68e8c7def7db7b57401694fea09c4f25472308b87c000ec850b143c88a6",
+          "bytes": 22776,
+          "cues": 245,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_19.kk.srt",
+          "sha256": "6476be12c01ddd7c76258fa93255591be1fafd9f12f01b17359c586639df6a9c",
+          "bytes": 24455,
+          "cues": 292,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_19.kk.vtt",
+          "sha256": "c4f79d350b5aa70490ab4f0dfdf99e768d51136be2ef1ffb6cab6920a5f8a354",
+          "bytes": 24552,
+          "cues": 292,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_19.kk.ass",
+          "sha256": "5a8e3040766419cbfb8633ce3f4450cb0ef7986b91e0a3863d1823db0f095b8b",
+          "bytes": 29713,
+          "cues": 292,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_20.kk.srt",
+          "sha256": "8bd3770d33a65bc58a71f3cdec488734f91a9d95c2342c12de05351fa97c2bc8",
+          "bytes": 21328,
+          "cues": 266,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_20.kk.vtt",
+          "sha256": "5d2f802d00fffe0ff8cde03e2d4186c82b3c57f47a78cd610adda45f7ecb76f3",
+          "bytes": 21425,
+          "cues": 266,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_20.kk.ass",
+          "sha256": "aff98d2de5af9f1481d79292a05dcd9ec858000fff9be293b2b69dcc4df843cf",
+          "bytes": 26196,
+          "cues": 266,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_21.kk.srt",
+          "sha256": "4cd5f06743d1270fb5ef9389e2c30f6687dc55b1d4b9c9be1799442865d59be2",
+          "bytes": 20845,
+          "cues": 264,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_21.kk.vtt",
+          "sha256": "cba3868348a93ef01772fe3ea74b6d5c2e7147c09047027e2c618b331222a8f0",
+          "bytes": 20942,
+          "cues": 264,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_21.kk.ass",
+          "sha256": "0db6de88bfba85798e32b29a3179e3617fbc3e30a570524685c1fd4055f92778",
+          "bytes": 25683,
+          "cues": 264,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_22.kk.srt",
+          "sha256": "50677a81041570fc9496d8adf03e24c1480678e5aaac95cafceb8ed0268df3d2",
+          "bytes": 19934,
+          "cues": 253,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_22.kk.vtt",
+          "sha256": "df808feb612bc8f1dfcc7d3d2da6aac9432a1e2d6438a142ab17ebfe28420215",
+          "bytes": 20031,
+          "cues": 253,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_22.kk.ass",
+          "sha256": "0bda43ea037c405a8eb20445550f3a60dff83388555c6597549cf883829ba081",
+          "bytes": 24607,
+          "cues": 253,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_23.kk.srt",
+          "sha256": "9c814d9834ef52ee77234f81602c57a88d7840a6aa44a2dca6e7f5c3114e6f4c",
+          "bytes": 17030,
+          "cues": 241,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_23.kk.vtt",
+          "sha256": "222e08607ad3f544b548110779ecc27d5a4e50aa10943eb9fbccc35b2d8f7db2",
+          "bytes": 17127,
+          "cues": 241,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_23.kk.ass",
+          "sha256": "f8726841cec76b3bce6f8dafdc01182ce5f01a042d4e9b7fa0bab25b67802ddb",
+          "bytes": 21523,
+          "cues": 241,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "basilisk-kouga-ninpouchou-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/basilisk-kouga-ninpouchou/basilisk-kouga-ninpouchou-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/basilisk-kouga-ninpouchou/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_24.kk.srt",
+          "sha256": "c1bf352b6c959b8e5652ab6cb54576c5964ed48a142267938c8541cdffbd2f36",
+          "bytes": 12303,
+          "cues": 162,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_24.kk.vtt",
+          "sha256": "adc0fc122a71c2d2110708c9b37176a36a03d2afd5df368a84607b807be4e4c6",
+          "bytes": 12400,
+          "cues": 162,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/basilisk-kouga-ninpouchou/ep_24.kk.ass",
+          "sha256": "84a702a5c47811c1397bb1bbff314677610d383d4048cfbe49b202c0205bf1ce",
+          "bytes": 15611,
+          "cues": 162,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 72,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/basilisk-kouga-ninpouchou.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

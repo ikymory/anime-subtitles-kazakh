@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "inu-ou",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/inu-ou.json"
+    },
+    {
+      "slug": "psycho-pass-movie",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/psycho-pass-movie.json"
+    }
+  ]
+}

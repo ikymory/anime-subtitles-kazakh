@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Go-toubun no Hanayome Movie - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/go-toubun-no-hanayome-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/go-toubun-no-hanayome-movie.jpg",
+  "description": "Go-toubun no Hanayome Movie - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "go-toubun-no-hanayome-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "go-toubun-no-hanayome-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/go-toubun-no-hanayome-movie/go-toubun-no-hanayome-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/go-toubun-no-hanayome-movie/go-toubun-no-hanayome-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/go-toubun-no-hanayome-movie/go-toubun-no-hanayome-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/go-toubun-no-hanayome-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/go-toubun-no-hanayome-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/go-toubun-no-hanayome-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/go-toubun-no-hanayome-movie/ep_01.kk.srt",
+          "sha256": "642e0d2857e109ddb8df5ccf04bfe9c75c9a0ad12c901326e65ecadb7d2f30ef",
+          "bytes": 243570,
+          "cues": 2801,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/go-toubun-no-hanayome-movie/ep_01.kk.vtt",
+          "sha256": "abf306bc7b8e6a10e7c5c4078f876274a623de0d2ade9053cebddc91d27d66da",
+          "bytes": 243667,
+          "cues": 2801,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/go-toubun-no-hanayome-movie/ep_01.kk.ass",
+          "sha256": "2259f105db9d5eb958312557c8ee4610c5dfffacecb8014320f935933403c0ed",
+          "bytes": 284661,
+          "cues": 2801,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/go-toubun-no-hanayome-movie.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

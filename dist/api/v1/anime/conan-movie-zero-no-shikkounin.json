@@ -16,24 +16,69 @@
     "Comedy",
     "Mystery"
   ],
-  "description": "There is a sudden explosion at Tokyo Summit's giant Edge of Ocean facility. The shadow of Touru Amuro, who works for the National Police Agency Security Bureau as Zero, appears at the site. In addition, the \"triple-face\" character known as Rei Furuya, a detective, and Kogorou Mouri's apprentice, is also known as Bourbon, a Black Organization member. Kogorou is arrested as a suspect in the case of the explosion. Conan conducts an investigation to prove Kogorou's innocence, but Amuro gets in his way.\n<br><br>\n(Source: Anime News Network)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100653-keuPmvVKDkhx.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n100653-zxyI1eDBJjJz.jpg",
+  "description": "There is a sudden explosion at Tokyo Summit's giant Edge of Ocean facility. The shadow of Touru Amuro, who works for the National Police Agency Security Bureau as Zero, appears at the site. In addition, the \"triple-face\" character known as Rei Furuya, a detective, and Kogorou Mouri's apprentice, is also known as Bourbon, a Black Organization member. Kogorou is arrested as a suspect in the case of the explosion. Conan conducts an investigation to prove Kogorou's innocence, but Amuro gets in his way.\n<br><br>\n(Source: Anime News Network)",
   "averageScore": 77,
   "popularity": 9803,
+  "catalog_id": "conan-movie-zero-no-shikkounin",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "conan-movie-zero-no-shikkounin-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-zero-no-shikkounin/conan-movie-zero-no-shikkounin-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-zero-no-shikkounin/conan-movie-zero-no-shikkounin-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/conan-movie-zero-no-shikkounin/conan-movie-zero-no-shikkounin-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-zero-no-shikkounin/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-zero-no-shikkounin/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/conan-movie-zero-no-shikkounin/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/conan-movie-zero-no-shikkounin/ep_01.kk.ass",
+          "sha256": "5a52089515f9002f2911992513c5367188badc59186847aa9da6fbbee3a9c0b0",
+          "bytes": 234208,
+          "cues": 2162,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/conan-movie-zero-no-shikkounin/ep_01.kk.srt",
+          "sha256": "2715d0cfec848c5a14f1d35d94298e661e0647184c20a52ea10f71feba205fad",
+          "bytes": 201731,
+          "cues": 2158,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/conan-movie-zero-no-shikkounin/ep_01.kk.vtt",
+          "sha256": "e84f3017d9ee17de3e2b871014c86e395806bde7672ac897caef86777a143b9c",
+          "bytes": 201739,
+          "cues": 2158,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/conan-movie-zero-no-shikkounin.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

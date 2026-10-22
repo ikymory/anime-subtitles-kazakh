@@ -16,24 +16,70 @@
     "Music",
     "Slice of Life"
   ],
-  "description": "Compilation film of <i>Bocchi the Rock!</i> featuring new animation intro footage and additional scenes. The second of the Bocchi compilation movie duology.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171099-JexoHylkSZ6r.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171099-10pR2uCW5Kah.jpg",
+  "description": "Compilation film of <i>Bocchi the Rock!</i> featuring new animation intro footage and additional scenes. The second of the Bocchi compilation movie duology.",
   "averageScore": 83,
   "popularity": 13856,
+  "catalog_id": "bocchi-the-rock-rere",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "bocchi-the-rock-rere-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bocchi-the-rock-rere/bocchi-the-rock-rere-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bocchi-the-rock-rere/bocchi-the-rock-rere-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/bocchi-the-rock-rere/bocchi-the-rock-rere-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bocchi-the-rock-rere/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bocchi-the-rock-rere/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/bocchi-the-rock-rere/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/bocchi-the-rock-rere/ep_01.kk.srt",
+          "sha256": "043873c309affc88cef3cfe108d1c46f412fdd094faae20346c7a6c2e37b2bea",
+          "bytes": 279457,
+          "cues": 3253,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/bocchi-the-rock-rere/ep_01.kk.vtt",
+          "sha256": "210b9f9c6d1b7baf7f76448859ec4113b3ae4a80003be07480af4428809e0258",
+          "bytes": 279554,
+          "cues": 3253,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/bocchi-the-rock-rere/ep_01.kk.ass",
+          "sha256": "6af7880ee77df999ecfe42ddf20c1d80ab2dc919fbef6625dddc115721dde38f",
+          "bytes": 326624,
+          "cues": 3253,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bocchi-the-rock-rere.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }

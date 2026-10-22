@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "darker-than-black-tv",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/darker-than-black-tv.json"
+    },
+    {
+      "slug": "mha-movie-heroes-rising",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mha-movie-heroes-rising.json"
+    }
+  ]
+}

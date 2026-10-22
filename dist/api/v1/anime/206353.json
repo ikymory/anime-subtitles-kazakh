@@ -3,41 +3,114 @@
   "slug": "laputa",
   "title": {
     "romaji": "Laputa",
-    "english": "Laputa"
+    "english": "Laputa",
+    "kazakh": "Лапута: Аспандағы қамал",
+    "kk": "Лапута: Аспандағы қамал"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 2,
+  "seasonYear": 1986,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx513-yM7Dlt65N4Rl.jpg",
+  "averageScore": 75,
+  "popularity": 52268,
+  "color": "#1ad6e4",
+  "duration": 19,
+  "studio": "Studio Nanahoshi",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/513-3zMLMyA0qH5n.jpg",
+  "catalog_id": "laputa",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     264
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 2,
+  "available_episodes_count": 2,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "laputa-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/laputa/laputa-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/laputa/laputa-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/laputa/laputa-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/laputa/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/laputa/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/laputa/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/laputa/ep_01.kk.srt",
+          "sha256": "12ef2712fa7ceb8ef604270c07b7d594160c1321aa5c28caff8e5dc1cc93ecc6",
+          "bytes": 116618,
+          "cues": 1407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/laputa/ep_01.kk.vtt",
+          "sha256": "7972fc811fc63bf0f6ec7f631aa1d9fd57182b12d9b2051898d96d65143dedf4",
+          "bytes": 116715,
+          "cues": 1407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/laputa/ep_01.kk.ass",
+          "sha256": "d1af120ac742db471ca5715e7582a6b1306b4c063477f5aed97032ff0891b7f3",
+          "bytes": 138129,
+          "cues": 1407,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 264,
       "language": "kk",
-      "filename": "laputa-264ep.srt",
+      "filename": "ep_264.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/laputa/laputa-264ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/laputa/laputa-264ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/laputa/laputa-264ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/laputa/ep_264.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/laputa/ep_264.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/laputa/ep_264.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/laputa/ep_264.kk.srt",
+          "sha256": "927bbd13e6a53e6651fd3373fe4a1298033c7b81cd154271d091fa866aa12cbd",
+          "bytes": 146749,
+          "cues": 1169,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/laputa/ep_264.kk.vtt",
+          "sha256": "5e90a11594e772cdefea103aca490e22f12557c7238d8337d9fc532c446ba00e",
+          "bytes": 146846,
+          "cues": 1169,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/laputa/ep_264.kk.ass",
+          "sha256": "bc0d40eb3aab1a82168252f2ef0d0fd87c73cbfaedccef4ae700ca13a4e9600a",
+          "bytes": 164928,
+          "cues": 1169,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/laputa.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

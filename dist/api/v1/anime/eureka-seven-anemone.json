@@ -15,28 +15,73 @@
     "Action",
     "Drama"
   ],
-  "description": "Kazakh subtitles for Anemone: Koukyoushihen Eureka Seven Hi-Evolution.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98470-y6GgN9h1bj1Q.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/98470-yz2Ibr6PwlZq.jpg",
+  "description": "Kazakh subtitles for Anemone: Koukyoushihen Eureka Seven Hi-Evolution.",
   "averageScore": 84,
   "popularity": 75000,
+  "color": "#ff6b6b",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "eureka-seven-anemone",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "eureka-seven-anemone-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eureka-seven-anemone/eureka-seven-anemone-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eureka-seven-anemone/eureka-seven-anemone-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eureka-seven-anemone/eureka-seven-anemone-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eureka-seven-anemone/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eureka-seven-anemone/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eureka-seven-anemone/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eureka-seven-anemone/ep_01.kk.srt",
+          "sha256": "a78e3a7939bbed3eca18fcf71848da2f485c94f81068a6b0f8a50f018efa4bd1",
+          "bytes": 122988,
+          "cues": 1355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eureka-seven-anemone/ep_01.kk.vtt",
+          "sha256": "fc43bfe4f9f780445b2289ea8b513fc644f70d47b62e5d31a18d537f2414ecc1",
+          "bytes": 123085,
+          "cues": 1355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eureka-seven-anemone/ep_01.kk.ass",
+          "sha256": "d63b1609fa3bc99efe0abda540ac2ddd8726f0d6ec30b0b94f5b1c341366cf25",
+          "bytes": 143582,
+          "cues": 1355,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#ff6b6b",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 1
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/eureka-seven-anemone.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -3,17 +3,29 @@
   "slug": "ping-pong-the-animation",
   "title": {
     "romaji": "Ping Pong The Animation",
-    "english": "Ping Pong The Animation"
+    "english": "Ping Pong The Animation",
+    "kazakh": "Пинг-понг",
+    "kk": "Пинг-понг"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 11,
+  "seasonYear": 2014,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20607-fIOxVISIl0HY.jpg",
+  "averageScore": 77,
+  "popularity": 77764,
+  "color": "#f11a1a",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/20607-AYghLMjh7reA.jpg",
+  "catalog_id": "ping-pong-the-animation",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -27,116 +39,410 @@
     10,
     11
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 11,
+  "available_episodes_count": 11,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ping-pong-the-animation-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_01.kk.srt",
+          "sha256": "57f6c715603a0f911f1d73efda447853b83d9a57e2034d47891973fedc2f1ef2",
+          "bytes": 25849,
+          "cues": 301,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_01.kk.vtt",
+          "sha256": "c0484cc40e961688769493d8bf6250b071b3b1089170241a9acbf3c97f33665e",
+          "bytes": 25946,
+          "cues": 301,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_01.kk.ass",
+          "sha256": "2ff094842e4db31dc3c03238ee0bc96e8502d953db35f2e6536d1af045caff77",
+          "bytes": 31195,
+          "cues": 301,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "ping-pong-the-animation-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_02.kk.srt",
+          "sha256": "57bb61e9aa146b34ae74e2d92c4d16f795764873b893ed067532834ed76e52ea",
+          "bytes": 33198,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_02.kk.vtt",
+          "sha256": "af7eec51dd100ce85f7d602ceca0dc74798d3bbe45f3af5589cae4ee2ecaa16a",
+          "bytes": 33295,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_02.kk.ass",
+          "sha256": "f545b7d5a52df7dc772a11f49e9e18ecfd31f8aec65b7f9b00b54860d08f2dbb",
+          "bytes": 39444,
+          "cues": 361,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "ping-pong-the-animation-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_03.kk.srt",
+          "sha256": "41fc7fe157d154ed7594e16756354ac93e69ec6b78e326e0270f16dc2806690a",
+          "bytes": 26255,
+          "cues": 294,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_03.kk.vtt",
+          "sha256": "6a62518af61cb76f5d3d03bbb1623818d2af6b8776655cd8c0fef9984d9b917f",
+          "bytes": 26352,
+          "cues": 294,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_03.kk.ass",
+          "sha256": "72b01144900a9a82d0bfaadc9f0602ce2f381c73eff60c8c68823742477b519d",
+          "bytes": 31496,
+          "cues": 294,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "ping-pong-the-animation-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_04.kk.srt",
+          "sha256": "0bb3a7937fa50cddab056cb3777f8fd7be4b06a8cfd582cd628cd46c9e738e50",
+          "bytes": 21237,
+          "cues": 233,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_04.kk.vtt",
+          "sha256": "cb4439417cfd21c7b6b321592e4ba1cc565f989bb95364e0734ae92f1a3707d6",
+          "bytes": 21334,
+          "cues": 233,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_04.kk.ass",
+          "sha256": "ba7d000b4411143a7b4b2fbafb98559bc1d3cf88a79e50fe150c7fe6aa7bc8db",
+          "bytes": 25563,
+          "cues": 233,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "ping-pong-the-animation-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_05.kk.srt",
+          "sha256": "a1fe35eeda676857463bcbd0cc118cd91d56808c067f4f18c9150d3116c38c31",
+          "bytes": 31851,
+          "cues": 348,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_05.kk.vtt",
+          "sha256": "d7198edc92be22158a622eb6ad8ef644d5a210af11b65727ddcc025c1f310431",
+          "bytes": 31948,
+          "cues": 348,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_05.kk.ass",
+          "sha256": "e02580f81d676b585ddff2d6d9413d96a47a176f9219d27c65dcedb8634aec65",
+          "bytes": 37902,
+          "cues": 348,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "ping-pong-the-animation-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_06.kk.srt",
+          "sha256": "93e838358d160ef1ef43c8754f7ba5ae9422b6c7909e8df10b7a0597adb41919",
+          "bytes": 29338,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_06.kk.vtt",
+          "sha256": "b9c8dc2b869244156636bf9f958da7b107256ed82203ad5013114960619f30e1",
+          "bytes": 29435,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_06.kk.ass",
+          "sha256": "a8c2fbf102109d5c106012715a0394746f9954b6cbdb03b95562f0932ad6f76d",
+          "bytes": 34984,
+          "cues": 321,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "ping-pong-the-animation-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_07.kk.srt",
+          "sha256": "8e770b364ec755007ee2f13e98f5c0bf93e13282acfbe30b45f5db10f68f4a23",
+          "bytes": 35988,
+          "cues": 390,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_07.kk.vtt",
+          "sha256": "15e5013992d54a341c2ebf0b9cb3f84b194c3a8a1710eb9f6c9bd95c74509771",
+          "bytes": 36085,
+          "cues": 390,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_07.kk.ass",
+          "sha256": "521c3d67b33a19cd09159d1ae81f05bda068376cc2d76fec7f78b9fac6ff5bb0",
+          "bytes": 42669,
+          "cues": 390,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "ping-pong-the-animation-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_08.kk.srt",
+          "sha256": "585a5cbfcf4e2567bb8b25d482757e42a26b13b71cdb5a15da91a7c115fdce77",
+          "bytes": 25686,
+          "cues": 295,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_08.kk.vtt",
+          "sha256": "1818044e94490d784e6f0f43113fc1b73d37b09093776703fd844cd27c2e12da",
+          "bytes": 25783,
+          "cues": 295,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_08.kk.ass",
+          "sha256": "59b70df53bc731e1a548cdb12dfbc6602eb2bf8f47444779aa872db977e66372",
+          "bytes": 30942,
+          "cues": 295,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "ping-pong-the-animation-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_09.kk.srt",
+          "sha256": "c2d88129468936bf9cf6d0c09e242fb32eecaccc11dc4cbf4e1ef56a5be3c370",
+          "bytes": 28681,
+          "cues": 323,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_09.kk.vtt",
+          "sha256": "f044796c417679b11930bc3dac06cad544fddeb59866388a4cac391d5f938816",
+          "bytes": 28778,
+          "cues": 323,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_09.kk.ass",
+          "sha256": "3d916d182d1a386879a60927eb28f38ab57fa15c210d4c98cdf93bc6b5b5dc3c",
+          "bytes": 34357,
+          "cues": 323,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "ping-pong-the-animation-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_10.kk.srt",
+          "sha256": "b9ebb019ad79103db433cb03c40a4b89735c3c658aec81184a4ae8f79962616f",
+          "bytes": 27305,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_10.kk.vtt",
+          "sha256": "e025a379ba7fe48ccf3498b9bfb9e428a5548e208ab942091e692fde25b54b7e",
+          "bytes": 27402,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_10.kk.ass",
+          "sha256": "0d6bab0d3ed28d3d8fa315b4fd8ba9d380d216e96cd154d48370f06cd4bb0f38",
+          "bytes": 33281,
+          "cues": 343,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "ping-pong-the-animation-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ping-pong-the-animation/ping-pong-the-animation-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ping-pong-the-animation/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ping-pong-the-animation/ep_11.kk.srt",
+          "sha256": "de9fc6bd8161d4fe490937aa6b453292e2842d2856ef4fb9df8ccbc3fa99788f",
+          "bytes": 26385,
+          "cues": 305,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ping-pong-the-animation/ep_11.kk.vtt",
+          "sha256": "9bcd88ff13bfcdee5f269d81a64d3fe495713fc7aed49a4e27c53e6d06e36c60",
+          "bytes": 26482,
+          "cues": 305,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ping-pong-the-animation/ep_11.kk.ass",
+          "sha256": "2a98c697d615dc4bd84b9fe85017ca1013b47abf8da02c82289ac263c8420d2c",
+          "bytes": 31791,
+          "cues": 305,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 33,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ping-pong-the-animation.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

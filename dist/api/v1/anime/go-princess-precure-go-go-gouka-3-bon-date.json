@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Go! Princess Precure. Go! Go!! Gouka 3-bon Date!!! - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/go-princess-precure-go-go-gouka-3-bon-date.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/go-princess-precure-go-go-gouka-3-bon-date.jpg",
+  "description": "Go! Princess Precure. Go! Go!! Gouka 3-bon Date!!! - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "go-princess-precure-go-go-gouka-3-bon-date",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "go-princess-precure-go-go-gouka-3-bon-date-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/go-princess-precure-go-go-gouka-3-bon-date/go-princess-precure-go-go-gouka-3-bon-date-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/go-princess-precure-go-go-gouka-3-bon-date/go-princess-precure-go-go-gouka-3-bon-date-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/go-princess-precure-go-go-gouka-3-bon-date/go-princess-precure-go-go-gouka-3-bon-date-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/go-princess-precure-go-go-gouka-3-bon-date/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/go-princess-precure-go-go-gouka-3-bon-date/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/go-princess-precure-go-go-gouka-3-bon-date/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/go-princess-precure-go-go-gouka-3-bon-date/ep_01.kk.srt",
+          "sha256": "bc4c35883fa7d4fd9d51b0af7f69353b4e433b68ada71f014cbf8fd7c94b07d7",
+          "bytes": 73226,
+          "cues": 1015,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/go-princess-precure-go-go-gouka-3-bon-date/ep_01.kk.vtt",
+          "sha256": "e61105c4a190be6db09346822242f935f2714b4072cf81e359952d5ac46710b5",
+          "bytes": 73323,
+          "cues": 1015,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/go-princess-precure-go-go-gouka-3-bon-date/ep_01.kk.ass",
+          "sha256": "471c5c95b39d1bb012243bef11f0d21d69609cc1cc50f9d9ff2d6cf51cfd469e",
+          "bytes": 89313,
+          "cues": 1015,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/go-princess-precure-go-go-gouka-3-bon-date.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

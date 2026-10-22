@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Blood Lad - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/blood-lad.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/blood-lad.jpg",
+  "description": "Blood Lad - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "blood-lad",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -29,66 +35,230 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 6,
+  "available_episodes_count": 6,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "blood-lad-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blood-lad/ep_01.kk.srt",
+          "sha256": "fe02024697fc6b2582146fc8b6c28053515434acecfba683b777cdeff647f197",
+          "bytes": 41168,
+          "cues": 457,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blood-lad/ep_01.kk.vtt",
+          "sha256": "468436b960bd56bf8da3ba0ff91aba0c9da1081e720e3a7d3b7d125321518a91",
+          "bytes": 41265,
+          "cues": 457,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blood-lad/ep_01.kk.ass",
+          "sha256": "6e5d5173606f75f454113417cbb6a7b39c6f406013a91c921a957efe201f905f",
+          "bytes": 48903,
+          "cues": 457,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "blood-lad-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blood-lad/ep_02.kk.srt",
+          "sha256": "bbb0ceee3c7070b455ef416784791bd20c41f808b87af11979175ba0d52f84c4",
+          "bytes": 36682,
+          "cues": 403,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blood-lad/ep_02.kk.vtt",
+          "sha256": "804b5d7e2583d591be6a25d30e8d1557d126066ebec86bf88eb239df911698d1",
+          "bytes": 36779,
+          "cues": 403,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blood-lad/ep_02.kk.ass",
+          "sha256": "b33cf3dce3621a03c5faecf1f1ef0af931cf16d71addbcb9a07a6faba0176774",
+          "bytes": 43605,
+          "cues": 403,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "blood-lad-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blood-lad/ep_03.kk.srt",
+          "sha256": "94bd466ab45cce0ddd437e1897fb528a3b3cdcc40122b2b39016ad5191ba5d56",
+          "bytes": 45415,
+          "cues": 546,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blood-lad/ep_03.kk.vtt",
+          "sha256": "07877724e90b34bc143130f09aa0cbc53f1a08e4270cccfe86131315d2f05b4d",
+          "bytes": 45512,
+          "cues": 546,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blood-lad/ep_03.kk.ass",
+          "sha256": "85edfa36d541a5dba52ee126fc7ea8257085862be0d65b0d44a753c8f2587297",
+          "bytes": 54483,
+          "cues": 546,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "blood-lad-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blood-lad/ep_04.kk.srt",
+          "sha256": "a3605ce9a033926366c3312fbe34d743912d6eb0f35725f5c2955440b87bae67",
+          "bytes": 41798,
+          "cues": 483,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blood-lad/ep_04.kk.vtt",
+          "sha256": "b03970452059d0f6fd06502500b4be7c5db6320675b4ca6913a3707b83df59b5",
+          "bytes": 41895,
+          "cues": 483,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blood-lad/ep_04.kk.ass",
+          "sha256": "9490046b06a79b8f1ba1376a294705c7adf349059b3ba2b78b02ec87bc565d89",
+          "bytes": 49921,
+          "cues": 483,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "blood-lad-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blood-lad/ep_05.kk.srt",
+          "sha256": "ef759eed9503be010fb82d825cfd1b0a57e3746d4380252773211469cd9a57a1",
+          "bytes": 43336,
+          "cues": 504,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blood-lad/ep_05.kk.vtt",
+          "sha256": "30282cee705215a3bd83d570c65b61e97837ce46dac0d41a428bf432a8c89d1c",
+          "bytes": 43433,
+          "cues": 504,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blood-lad/ep_05.kk.ass",
+          "sha256": "43d7a7a172930f11c1cb8fbee2a0a6c8de3f2d0e47a43f4be4595afa4233cdbb",
+          "bytes": 51774,
+          "cues": 504,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "blood-lad-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blood-lad/blood-lad-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blood-lad/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/blood-lad/ep_06.kk.srt",
+          "sha256": "34000b766b4bd5d6252f903dc133aaa361a1d0b6690137e57842b0cfc84fc790",
+          "bytes": 45272,
+          "cues": 546,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/blood-lad/ep_06.kk.vtt",
+          "sha256": "cbc23f3ae5ce99b23ea5d82d1281c7eb57c6735bf52f87ea43b191ec11abcb84",
+          "bytes": 45369,
+          "cues": 546,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/blood-lad/ep_06.kk.ass",
+          "sha256": "b9d7188ba3e34120b6efac22ee9ca537b02f2783c86d6d5f349e9826ab7ca40c",
+          "bytes": 54341,
+          "cues": 546,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 18,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/blood-lad.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Hokuto no Ken. Raoh Gaiden Gekitou-hen - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokuto-no-ken-raoh-gaiden-gekitou-hen.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/hokuto-no-ken-raoh-gaiden-gekitou-hen.jpg",
+  "description": "Hokuto no Ken. Raoh Gaiden Gekitou-hen - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "hokuto-no-ken-raoh-gaiden-gekitou-hen",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "hokuto-no-ken-raoh-gaiden-gekitou-hen-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/hokuto-no-ken-raoh-gaiden-gekitou-hen-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/hokuto-no-ken-raoh-gaiden-gekitou-hen-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/hokuto-no-ken-raoh-gaiden-gekitou-hen-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/ep_01.kk.srt",
+          "sha256": "a729baf7508d97c1c67860183ac9f85a8532fd6e7991965a0f8b33c3842f0a14",
+          "bytes": 82501,
+          "cues": 837,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/ep_01.kk.vtt",
+          "sha256": "6cda4544520236bb0e87a71eff025310be3be6be270ef13a82f5baebe124fabe",
+          "bytes": 82598,
+          "cues": 837,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/hokuto-no-ken-raoh-gaiden-gekitou-hen/ep_01.kk.ass",
+          "sha256": "6c70b07c3e9aca27a2dcb75c36bf5ae6e2427657cf2aa2bc785a74e710d4f81c",
+          "bytes": 95934,
+          "cues": 837,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/hokuto-no-ken-raoh-gaiden-gekitou-hen.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

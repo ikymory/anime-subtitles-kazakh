@@ -1,0 +1,16 @@
+{
+  "error": {
+    "code": "ambiguous_legacy_id",
+    "message": "Use a release slug; this legacy ID matches multiple entries."
+  },
+  "matches": [
+    {
+      "slug": "doraemon-dorabian-nights",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/doraemon-dorabian-nights.json"
+    },
+    {
+      "slug": "one-piece-clockwork-island",
+      "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/one-piece-clockwork-island.json"
+    }
+  ]
+}

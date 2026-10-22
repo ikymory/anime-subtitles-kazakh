@@ -16,24 +16,68 @@
     "Fantasy",
     "Supernatural"
   ],
-  "description": "Persona 3 the Movie: #4 Winter of Rebirth - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/persona-3-movie-4-winter-of-rebirth.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/persona-3-movie-4-winter-of-rebirth.jpg",
+  "description": "Persona 3 the Movie: #4 Winter of Rebirth - official Kazakh translation archive by ikymory.",
   "averageScore": 88,
   "popularity": 105600,
+  "catalog_id": "persona-3-movie-4-winter-of-rebirth",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "persona-3-movie-4-winter-of-rebirth-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/persona-3-movie-4-winter-of-rebirth/persona-3-movie-4-winter-of-rebirth-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/persona-3-movie-4-winter-of-rebirth/persona-3-movie-4-winter-of-rebirth-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/persona-3-movie-4-winter-of-rebirth/persona-3-movie-4-winter-of-rebirth-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/persona-3-movie-4-winter-of-rebirth/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/persona-3-movie-4-winter-of-rebirth/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/persona-3-movie-4-winter-of-rebirth/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/persona-3-movie-4-winter-of-rebirth/ep_01.kk.ass",
+          "sha256": "3cc192e1949ea574c9356517c005f06a47b6245c0021eb76ecdf3280419c66f6",
+          "bytes": 127566,
+          "cues": 1313,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/persona-3-movie-4-winter-of-rebirth/ep_01.kk.srt",
+          "sha256": "c60d5bc761d5c964b0ba22916d49324f678973290e7e99ee6a366a19232563f4",
+          "bytes": 106718,
+          "cues": 1302,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/persona-3-movie-4-winter-of-rebirth/ep_01.kk.vtt",
+          "sha256": "938c2355459e0d3d9c2a9df34cbcc8fa823e16f132d606d3e1ac96361111b2d0",
+          "bytes": 106726,
+          "cues": 1302,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/persona-3-movie-4-winter-of-rebirth.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

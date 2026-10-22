@@ -15,24 +15,69 @@
     "Drama",
     "Romance"
   ],
-  "description": "Although Jirou Horikoshi's nearsightedness prevents him from ever becoming a pilot, he leaves his hometown to study aeronautical engineering at Tokyo Imperial University for one simple purpose: to design and build planes just like his hero, Italian aircraft pioneer Giovanni Battista Caproni. His arrival in the capital coincides with the Great Kanto Earthquake of 1923, during which he saves a maid serving the family of a young girl named Naoko Satomi; this disastrous event marks the beginning of over two decades of social unrest and malaise leading up to Japan's eventual surrender in World War II.\n",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16662-HUI8irtoTdOJ.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16662-XLmadbKVsRW2.jpg",
+  "description": "Although Jirou Horikoshi's nearsightedness prevents him from ever becoming a pilot, he leaves his hometown to study aeronautical engineering at Tokyo Imperial University for one simple purpose: to design and build planes just like his hero, Italian aircraft pioneer Giovanni Battista Caproni. His arrival in the capital coincides with the Great Kanto Earthquake of 1923, during which he saves a maid serving the family of a young girl named Naoko Satomi; this disastrous event marks the beginning of over two decades of social unrest and malaise leading up to Japan's eventual surrender in World War II.\n",
   "averageScore": 80,
   "popularity": 113727,
+  "catalog_id": "kaze-tachinu",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kaze-tachinu-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaze-tachinu/kaze-tachinu-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaze-tachinu/kaze-tachinu-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kaze-tachinu/kaze-tachinu-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaze-tachinu/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaze-tachinu/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kaze-tachinu/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/kaze-tachinu/ep_01.kk.ass",
+          "sha256": "416bd9874f3b13e8d18da03b8f6efe58ae7dcba36487c3b76c21947178425cb4",
+          "bytes": 131918,
+          "cues": 1328,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/kaze-tachinu/ep_01.kk.srt",
+          "sha256": "da1304a47cf4e58d3f90be428e2d2fda103eed14acf7fdd3439fe5d1dab28d40",
+          "bytes": 111283,
+          "cues": 1327,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/kaze-tachinu/ep_01.kk.vtt",
+          "sha256": "8b17188ec271a0de6d051910e7e542ce9350a491eae1171a16552872e0d9e6fb",
+          "bytes": 111291,
+          "cues": 1327,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kaze-tachinu.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

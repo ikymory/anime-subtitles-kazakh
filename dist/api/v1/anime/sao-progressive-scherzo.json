@@ -17,24 +17,68 @@
     "Fantasy",
     "Romance"
   ],
-  "description": "Sword Art Online the Movie -Progressive- Scherzo of Deep Dusk - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/sao-progressive-scherzo.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/sao-progressive-scherzo.jpg",
+  "description": "Sword Art Online the Movie -Progressive- Scherzo of Deep Dusk - official Kazakh translation archive by ikymory.",
   "averageScore": 87,
   "popularity": 104400,
+  "catalog_id": "sao-progressive-scherzo",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "sao-progressive-scherzo-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sao-progressive-scherzo/sao-progressive-scherzo-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sao-progressive-scherzo/sao-progressive-scherzo-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sao-progressive-scherzo/sao-progressive-scherzo-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sao-progressive-scherzo/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sao-progressive-scherzo/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sao-progressive-scherzo/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/sao-progressive-scherzo/ep_01.kk.ass",
+          "sha256": "392e2a3d6d2eaa30f71ff9ac19d1499d187fcf91619a6c701f7c6d010fd97bac",
+          "bytes": 156383,
+          "cues": 1508,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/sao-progressive-scherzo/ep_01.kk.srt",
+          "sha256": "4f49c1c89b9b82a3ada134f0c511be4ca51ed844bace7d513bdd64a1791bf5fa",
+          "bytes": 132915,
+          "cues": 1500,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/sao-progressive-scherzo/ep_01.kk.vtt",
+          "sha256": "e171194254c1d0cb02973227f8be07459a01c1d8e0e3103a1f6b26d22cc7f25c",
+          "bytes": 132923,
+          "cues": 1500,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sao-progressive-scherzo.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

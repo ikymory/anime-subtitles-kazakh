@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Log Horizon",
     "english": "Log Horizon",
-    "native": "ログ・ホライズン"
+    "native": "ログ・ホライズン",
+    "kazakh": "Лог Горизонт",
+    "kk": "Лог Горизонт"
   },
   "format": "TV",
   "episodes": 25,
@@ -14,9 +16,20 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "The online fantasy game Elder Tales is a worldwide phenomenon, immersing millions of players in its intricately conceived virtual world. However, the release of the game's twelfth expansion pack makes that immersion all too literal, as players from around the world are suddenly pulled into the game's no-longer-fictional universe! Now, eight-year ET veteran Shiroe, his friend Naotsugu, the beautiful assassin Akatsuki, and 30,000 other players are faced with the daunting task of learning how to deal with an entirely new reality, one where the Non-Player Characters are actually alive, and the tips and tricks learned while playing with a keyboard no longer apply.<br><br>\n(Source: Sentai Filmworks)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx17265-RyErURYesjJt.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17265-RyErURYesjJt.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/17265-53eBCC34SKyM.jpg",
+  "description": "The online fantasy game Elder Tales is a worldwide phenomenon, immersing millions of players in its intricately conceived virtual world. However, the release of the game's twelfth expansion pack makes that immersion all too literal, as players from around the world are suddenly pulled into the game's no-longer-fictional universe! Now, eight-year ET veteran Shiroe, his friend Naotsugu, the beautiful assassin Akatsuki, and 30,000 other players are faced with the daunting task of learning how to deal with an entirely new reality, one where the Non-Player Characters are actually alive, and the tips and tricks learned while playing with a keyboard no longer apply.\n(Source: Sentai Filmworks)",
+  "averageScore": 80,
+  "popularity": 57061,
+  "color": "#50aee4",
+  "duration": 25,
+  "studio": "Satelight",
+  "catalog_id": "log-horizon",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -44,256 +57,920 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 25,
+  "available_episodes_count": 25,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "log-horizon-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_01.kk.srt",
+          "sha256": "ced22d3c2cb1c1f200338d95a327c99db56ca5e2698c710c68c41c389cde8017",
+          "bytes": 87618,
+          "cues": 828,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_01.kk.vtt",
+          "sha256": "c0cb5c0ad0b4c312cf3aa3f5715900203d14d3bfc08d7422fee48652dd913199",
+          "bytes": 87715,
+          "cues": 828,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_01.kk.ass",
+          "sha256": "91201c1cc2eed882dd0d1e2f94888033f046b2443712d7636a138d9c9fcc303e",
+          "bytes": 100857,
+          "cues": 828,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "log-horizon-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_02.kk.srt",
+          "sha256": "6572d4bc700fb79e26268d4942da80c5b6d3552033c228029154432a5e27afef",
+          "bytes": 35952,
+          "cues": 330,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_02.kk.vtt",
+          "sha256": "0e79f06d5822684ffd1b47726cf3c11e6be58ea460de6aa83a3d0698c57fc464",
+          "bytes": 36049,
+          "cues": 330,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_02.kk.ass",
+          "sha256": "eb18c66b53d823c37778a06f2a73ec1112c0165b07ac3c3def2b07018c0cdddb",
+          "bytes": 41721,
+          "cues": 330,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "log-horizon-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_03.kk.srt",
+          "sha256": "c38b39017b633093921ae1744d518542eddfe1e776edbebd5613370d333c91bb",
+          "bytes": 33495,
+          "cues": 326,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_03.kk.vtt",
+          "sha256": "12c2a4835798478425482a9fffb2974071900c8731472489d5ab56ba89b64d1a",
+          "bytes": 33592,
+          "cues": 326,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_03.kk.ass",
+          "sha256": "986f7537151302d0527a5e295d5145991f1991f98bd0cf08164ddb9760237899",
+          "bytes": 39204,
+          "cues": 326,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "log-horizon-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_04.kk.srt",
+          "sha256": "7a9e5b9cf217a8e6722082bd97849dd9a4305fb9e925b8e75cb16037bd646e76",
+          "bytes": 29814,
+          "cues": 283,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_04.kk.vtt",
+          "sha256": "810bd06565b8a9597fed1a4fc3d9790129e94b333209d9ba8baef60cda91aa98",
+          "bytes": 29911,
+          "cues": 283,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_04.kk.ass",
+          "sha256": "bcb7b78194bd7f39b0cd6e560cd655ff6c508f2c90005744230dc3dccce5e052",
+          "bytes": 34878,
+          "cues": 283,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "log-horizon-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_05.kk.srt",
+          "sha256": "7d53e7d75e169c668ff539b9fae94bb7390d199e9a6133656049dbbae785b217",
+          "bytes": 34421,
+          "cues": 322,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_05.kk.vtt",
+          "sha256": "afb38cb0866fbe39f272c17348897b1bf26e618bbb3aa04b670789395a8d81c6",
+          "bytes": 34518,
+          "cues": 322,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_05.kk.ass",
+          "sha256": "28dc15df7574796a73314cc1bd05a0ef18026a195abb4791c5f24bab6015d3fc",
+          "bytes": 40070,
+          "cues": 322,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "log-horizon-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_06.kk.srt",
+          "sha256": "7ea783fce85c0831d810f7a11fbccb4036d0d1bb47df1aae366a12a345eaa5fe",
+          "bytes": 32933,
+          "cues": 293,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_06.kk.vtt",
+          "sha256": "9a86b7b8a6bd3d4162bff3f5f40d83ca72d71c34b745e6679fa49465c91ed421",
+          "bytes": 33030,
+          "cues": 293,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_06.kk.ass",
+          "sha256": "1f236cc4423614d61a8edb4500bff92dffb7c53f9697e1e1fa02e3585ffed077",
+          "bytes": 38147,
+          "cues": 293,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "log-horizon-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_07.kk.srt",
+          "sha256": "6898f4fe4e9a5f87c7f484429e5848aff679fdc7bb6ba5e531b3b3350ec88dfe",
+          "bytes": 33692,
+          "cues": 325,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_07.kk.vtt",
+          "sha256": "83b5fd1df730f3b69d46ac8fa08d1eedaca0f5fe27881ae697613cbc643318d0",
+          "bytes": 33789,
+          "cues": 325,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_07.kk.ass",
+          "sha256": "450b7cb587e17f96ba09c9edeb49b03f16e72200a39c8a870f4df6c34472cec9",
+          "bytes": 39386,
+          "cues": 325,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "log-horizon-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_08.kk.srt",
+          "sha256": "91439e41a9f1465758757b95c4120a98f9537c0b12810890fe321a047973a999",
+          "bytes": 36349,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_08.kk.vtt",
+          "sha256": "d6317c2ef76cb51f1853483907851d7f6a32397c33a9197761d437b73e08c607",
+          "bytes": 36446,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_08.kk.ass",
+          "sha256": "89bbbfec34d0591b97c96be179c3416d474c868a14e89f52d3b44c54fdf41276",
+          "bytes": 41983,
+          "cues": 321,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "log-horizon-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_09.kk.srt",
+          "sha256": "0b2a10b555fc1da0434d2e15e15e38b82e9e6d50fcac1d0a801ee0ed6169337b",
+          "bytes": 36191,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_09.kk.vtt",
+          "sha256": "fcc42710a9180824ba30321ec7f998ef34932998f52ac142b9c3cea0222e3e2e",
+          "bytes": 36288,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_09.kk.ass",
+          "sha256": "b5892c5cf13ad3348f2d1d7e0a7d159f4b267c2e373774c5cf85697ef0243321",
+          "bytes": 41975,
+          "cues": 331,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "log-horizon-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_10.kk.srt",
+          "sha256": "e8c03dbd9775055849ddf52f637e5e4a8a2ed440c966c758a7857508f1655e0c",
+          "bytes": 33117,
+          "cues": 315,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_10.kk.vtt",
+          "sha256": "ccb9221e3fab4170ae4113009f4f44409345db9e1d99a19fc94e9c6979d8e5fe",
+          "bytes": 33214,
+          "cues": 315,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_10.kk.ass",
+          "sha256": "006d2230c40f3c2bee02640fae989da0623921e89e250618632c31d7bf6b1f35",
+          "bytes": 38661,
+          "cues": 315,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "log-horizon-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_11.kk.srt",
+          "sha256": "008338b557924562dc175c6c7eed12e070c9abca7350e2e2b2fc8073d96826c6",
+          "bytes": 35222,
+          "cues": 351,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_11.kk.vtt",
+          "sha256": "b1d30f83e06f798de8f1f8bda07a4505b333a2ffe90911e6e6c95d9fe76171d7",
+          "bytes": 35319,
+          "cues": 351,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_11.kk.ass",
+          "sha256": "59ac596b5d145398a76dc76e0e9a84a0371adc0b5037f10934d0e661f8b6cfe6",
+          "bytes": 41306,
+          "cues": 351,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "log-horizon-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_12.kk.srt",
+          "sha256": "ffc34f06dd710970a57c95ffbf5a4eecc250b52148b683c47a26ffc99c47cad0",
+          "bytes": 35629,
+          "cues": 341,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_12.kk.vtt",
+          "sha256": "facf97eeec3f45cc47cf015121e98cfc75950710406857bf204f8a31b178e5b5",
+          "bytes": 35726,
+          "cues": 341,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_12.kk.ass",
+          "sha256": "2f38b6041b5a2960b32e91b5162fd351e6d5023ec908494f5f8edc08269565ab",
+          "bytes": 41563,
+          "cues": 341,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "log-horizon-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_13.kk.srt",
+          "sha256": "ac38ab6d0318b7be5ddc83636c55bd38abc64f164a749e2cfc14b2965007fa6e",
+          "bytes": 32480,
+          "cues": 319,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_13.kk.vtt",
+          "sha256": "9e0255cc2f687902fb2b5443e364578337f6a75aa4d272e02ce494794de392d6",
+          "bytes": 32577,
+          "cues": 319,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_13.kk.ass",
+          "sha256": "cb584de98cf07837fef3f784cb9cd0996d7d6319894d38be46a9c8b7227b046a",
+          "bytes": 38084,
+          "cues": 319,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "log-horizon-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_14.kk.srt",
+          "sha256": "8e54e20e422fb977e54b3b22c07f6c9b6053a24506a5a15f40726d3893f6186b",
+          "bytes": 35451,
+          "cues": 300,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_14.kk.vtt",
+          "sha256": "4b6d884ac0fc825ef11b11a613e085ce1e3079d39e3e38e047cd1cfda1d5dde1",
+          "bytes": 35548,
+          "cues": 300,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_14.kk.ass",
+          "sha256": "d6ab81dad9a13ac11ae6f7e973d7edc8c9793bb83d1802930f9f8355f5714540",
+          "bytes": 40770,
+          "cues": 300,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "log-horizon-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_15.kk.srt",
+          "sha256": "4e83285be5502230d9b33a09a09e6dc5f48da6317697293bef565bdd1ec7ca81",
+          "bytes": 36792,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_15.kk.vtt",
+          "sha256": "2bb6fd546a04b3f37e31c657cd214c56650a206b578daeafd9731365a52416e3",
+          "bytes": 36889,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_15.kk.ass",
+          "sha256": "4f35ce972a7b8b1a245bf720edc9d7a89a72a8cee364df6fea44edba403afdac",
+          "bytes": 42606,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "log-horizon-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_16.kk.srt",
+          "sha256": "eb241342b67df3f2d06fe0106e08bf5764e4884facc0ad148d5f350bfd290584",
+          "bytes": 38597,
+          "cues": 354,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_16.kk.vtt",
+          "sha256": "5be56fc97dfe3418f0b54fb7aa99b4ef17e9458f2e45cadfaca048eaad9eb201",
+          "bytes": 38694,
+          "cues": 354,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_16.kk.ass",
+          "sha256": "6555cb4eda59b07e7ac3ac5c64799fb91f1416848cffd72157c8dc997567bd31",
+          "bytes": 44726,
+          "cues": 354,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "log-horizon-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_17.kk.srt",
+          "sha256": "3107b04c5726af8e2f1a29244f4da79c925e935fb55a78831b6a73e16b4e6368",
+          "bytes": 39462,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_17.kk.vtt",
+          "sha256": "acced7f9a1374ed19befccc1e430223bcb2eb9b3040e5bbd09c99a4b1f0836f0",
+          "bytes": 39559,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_17.kk.ass",
+          "sha256": "a2320dc3be8ba7e9fb34842a346fa50783f22dc46ab8af66700d3c1bb6b35e21",
+          "bytes": 45666,
+          "cues": 359,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "log-horizon-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_18.kk.srt",
+          "sha256": "51be89050431eaa2c9bfa7578e6e5de03a4068b75f953edff1375c25c2a1e666",
+          "bytes": 34651,
+          "cues": 329,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_18.kk.vtt",
+          "sha256": "9329b46de42410e383693c977b837f16cc903ae406cdd2052128ca90912b660d",
+          "bytes": 34748,
+          "cues": 329,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_18.kk.ass",
+          "sha256": "e3d180728a58de2de7cd6e51292313ac410efe123fc018fd67962bdb67d98f12",
+          "bytes": 40405,
+          "cues": 329,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "log-horizon-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_19.kk.srt",
+          "sha256": "e05d5b64485fc315675c7edbe3f703904288ce9141781f316e65a97513b40a8b",
+          "bytes": 27754,
+          "cues": 280,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_19.kk.vtt",
+          "sha256": "6c591a550d3f8030dee2005b5d77665e29d68b4765269fd69ab63abbe424076a",
+          "bytes": 27851,
+          "cues": 280,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_19.kk.ass",
+          "sha256": "282b952f68a823db42b9dfb84470b80b3c34625c1614201aa50bc478493b603e",
+          "bytes": 32773,
+          "cues": 280,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "log-horizon-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_20.kk.srt",
+          "sha256": "75993e19136c1ad1b00fcf2f0e3eeb3ecf2eae4551fd17dd4849b7a2c780551b",
+          "bytes": 29158,
+          "cues": 279,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_20.kk.vtt",
+          "sha256": "7638385e3cad415e1122d95863eb147f927cc5468c65ce3e96164579723d2265",
+          "bytes": 29255,
+          "cues": 279,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_20.kk.ass",
+          "sha256": "43c003fa32474e9e5eed226f53dc7aa92a2d8ed83be206ccadeb009d445b80d1",
+          "bytes": 34162,
+          "cues": 279,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "log-horizon-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_21.kk.srt",
+          "sha256": "a570f518ccfbf323e6f17e10aeff35da3ddb9d0b6375ad1a5a2030a92e87436c",
+          "bytes": 32868,
+          "cues": 313,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_21.kk.vtt",
+          "sha256": "c28125fc63ce5ef5684462d86d75120be85742c916de0603e03033635dda88d1",
+          "bytes": 32965,
+          "cues": 313,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_21.kk.ass",
+          "sha256": "5eb71f091052e9d84888e8e506d4697cb591acda6bbd65f9ea588e179bdb2830",
+          "bytes": 38382,
+          "cues": 313,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "log-horizon-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_22.kk.srt",
+          "sha256": "e979983fab4a30338a74ef299323b4631d59e227e4732a68bb5c7529b9fe9beb",
+          "bytes": 32688,
+          "cues": 336,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_22.kk.vtt",
+          "sha256": "4071119e0a9472ab218d32185b6d05347cdecddf7a6e3896efea30b3b18405ac",
+          "bytes": 32785,
+          "cues": 336,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_22.kk.ass",
+          "sha256": "dfa9631025b1ef25ad6e5c8799add580c7fc92de0cbf186668de7f7bde30f117",
+          "bytes": 38547,
+          "cues": 336,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "log-horizon-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_23.kk.srt",
+          "sha256": "d3face899404e7ba06c0b9d35a3ec57578aadaa4c39653e8db75d5a54000689d",
+          "bytes": 36797,
+          "cues": 345,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_23.kk.vtt",
+          "sha256": "40fab4e974d0a96855be61e0776297c948df6db960385675143002c9e3e85479",
+          "bytes": 36894,
+          "cues": 345,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_23.kk.ass",
+          "sha256": "fea5b0c7b5c3e2f6aea3f8d8d3f49eb0d321e319a355c5188c4b35d68c619aef",
+          "bytes": 42791,
+          "cues": 345,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "log-horizon-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_24.kk.srt",
+          "sha256": "e0d8f4ecaa3c9a19ea15e5d9efce162fae5d3960f1227c850586ced6f4330a49",
+          "bytes": 39815,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_24.kk.vtt",
+          "sha256": "1177c644053fcfa35ef0645ca578f276f7216a51a6fd834c387ef5d1feb69acc",
+          "bytes": 39912,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_24.kk.ass",
+          "sha256": "ed18f37e79aea47f42c1d4e45ab44c2bf52d1073e7ec8314febdf9b6147bb4a8",
+          "bytes": 45839,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "log-horizon-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/log-horizon/log-horizon-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/log-horizon/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/log-horizon/ep_25.kk.srt",
+          "sha256": "b72817661a5ad76c2d4f5cd4e0c8565f057eee70ea3f4bdfe66e697795b34d64",
+          "bytes": 33498,
+          "cues": 321,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/log-horizon/ep_25.kk.vtt",
+          "sha256": "bd6bc7fdef7bdceb12506797ce509eeb2ed33cbf018f024920b1acce0afcc7a3",
+          "bytes": 33595,
+          "cues": 321,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/log-horizon/ep_25.kk.ass",
+          "sha256": "26b9c16f749ad4d32c431f3add85971a6cf1562b35c82684c96cae3913ceab07",
+          "bytes": 39132,
+          "cues": 321,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 80,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/log-horizon.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

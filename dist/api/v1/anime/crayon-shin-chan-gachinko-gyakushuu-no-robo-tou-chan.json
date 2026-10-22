@@ -14,24 +14,65 @@
   "genres": [
     "Comedy"
   ],
-  "description": "Shinnosuke's father, Hiroshi, gets converted into a robot.",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20535-xBganwVg6Jjy.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20535-xBganwVg6Jjy.jpg",
+  "description": "Shinnosuke's father, Hiroshi, gets converted into a robot.",
   "averageScore": 74,
   "popularity": 3138,
+  "catalog_id": "crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/ep_01.kk.srt",
+          "sha256": "d2ea5cca60cc68fcb4d1bfe9601fce41254a902fa13224e9645f68d4c563e1e0",
+          "bytes": 155333,
+          "cues": 2085,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/ep_01.kk.vtt",
+          "sha256": "c485f2fdce98b1257b3ff8d3e31d01131681f4c93344d7aec73e88c7fd8d673b",
+          "bytes": 155430,
+          "cues": 2085,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan/ep_01.kk.ass",
+          "sha256": "f9d0031f5895c6102d279115d30f2a533e262a0efbd032c5e5ef96d7e0b69ea8",
+          "bytes": 186400,
+          "cues": 2085,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

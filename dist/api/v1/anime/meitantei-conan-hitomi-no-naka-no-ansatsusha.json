@@ -16,24 +16,65 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Meitantei Conan. Hitomi no Naka no Ansatsusha - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-hitomi-no-naka-no-ansatsusha.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/meitantei-conan-hitomi-no-naka-no-ansatsusha.jpg",
+  "description": "Meitantei Conan. Hitomi no Naka no Ansatsusha - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "meitantei-conan-hitomi-no-naka-no-ansatsusha",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "meitantei-conan-hitomi-no-naka-no-ansatsusha-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/meitantei-conan-hitomi-no-naka-no-ansatsusha-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/meitantei-conan-hitomi-no-naka-no-ansatsusha-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/meitantei-conan-hitomi-no-naka-no-ansatsusha-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/ep_01.kk.srt",
+          "sha256": "9f17e94144c8be0b79857693aee0faca00d58b09841c88fb6e10530c841532d5",
+          "bytes": 150827,
+          "cues": 1757,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/ep_01.kk.vtt",
+          "sha256": "d0833839530994f2a4a77a056c89f29357fb7f9f3105dd170ae712c67de10c43",
+          "bytes": 150924,
+          "cues": 1757,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/meitantei-conan-hitomi-no-naka-no-ansatsusha/ep_01.kk.ass",
+          "sha256": "f4e9f5d990a7c220c75ea6c9ddbf4466f13d03a79a9eb84ea54124fb18ac54d1",
+          "bytes": 177484,
+          "cues": 1757,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-hitomi-no-naka-no-ansatsusha.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

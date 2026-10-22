@@ -3,30 +3,77 @@
   "slug": "millennium-actress",
   "title": {
     "romaji": "Millennium Actress",
-    "english": "Millennium Actress"
+    "english": "Millennium Actress",
+    "kazakh": "Мыңжылдық актриса",
+    "kk": "Мыңжылдық актриса"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2002,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1033-d5p1pbd5qa4L.png",
+  "averageScore": 83,
+  "popularity": 67914,
+  "color": "hsl(75, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1033-npnaGITec3EV.jpg",
+  "catalog_id": "millennium-actress",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "millennium-actress-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/millennium-actress/millennium-actress-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/millennium-actress/millennium-actress-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/millennium-actress/millennium-actress-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/millennium-actress/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/millennium-actress/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/millennium-actress/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/millennium-actress/ep_01.kk.srt",
+          "sha256": "b0d96f6fce6284cd3c694aeea8701adf08eb55cee0009e6bfb4bb802deea4cb8",
+          "bytes": 73271,
+          "cues": 840,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/millennium-actress/ep_01.kk.vtt",
+          "sha256": "29aed0a09c5e69b6d73a2dd27485af82ffc6a3ff35f4e4e41b123be2afd1ce85",
+          "bytes": 73368,
+          "cues": 840,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/millennium-actress/ep_01.kk.ass",
+          "sha256": "fcd41b6d55345ba7ec005d090a17f5489e0669dd38aab65cc227fc7fe7f4cbcc",
+          "bytes": 86697,
+          "cues": 840,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/millennium-actress.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

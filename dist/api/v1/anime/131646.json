@@ -4,7 +4,9 @@
   "title": {
     "romaji": "Vanitas no Carte",
     "english": "The Case Study of Vanitas",
-    "native": "ヴァニタスの手記"
+    "native": "ヴァニタスの手記",
+    "kazakh": "Ванитас естеліктері",
+    "kk": "Ванитас естеліктері"
   },
   "format": "TV",
   "episodes": 12,
@@ -16,14 +18,22 @@
     "Mystery",
     "Supernatural"
   ],
-  "description": "It’s 19th-century Paris, and young vampire Noé hunts for the Book of Vanitas. Attacked by a vampire driven insane, a human intercedes, rescues Noé, and heals the sick creature. Commanding the book and calling himself Vanitas, this doctor tempts Noé with a mad crusade to “cure” the entire vampire race. Allying with one who wields arcane power so easily may be dangerous, but does he have a choice?<br>\n<br>\n(Source: Funimation)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131646-cuyGfKcekZ62.jpg",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131646-cuyGfKcekZ62.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131646-ewbYrSfyUyp6.jpg",
+  "description": "It’s 19th-century Paris, and young vampire Noé hunts for the Book of Vanitas. Attacked by a vampire driven insane, a human intercedes, rescues Noé, and heals the sick creature. Commanding the book and calling himself Vanitas, this doctor tempts Noé with a mad crusade to “cure” the entire vampire race. Allying with one who wields arcane power so easily may be dangerous, but does he have a choice?\n\n(Source: Funimation)",
+  "averageScore": 84,
+  "popularity": 67677,
+  "color": "#f1c950",
+  "duration": 23,
+  "studio": "bones",
+  "catalog_id": "case-study-vanitas",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
-    10,
-    11,
-    12,
     2,
     3,
     4,
@@ -31,128 +41,451 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "case-study-vanitas-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-1ep.ass"
-      }
-    },
-    {
-      "episode": 10,
-      "language": "kk",
-      "filename": "case-study-vanitas-10ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-10ep.ass"
-      }
-    },
-    {
-      "episode": 11,
-      "language": "kk",
-      "filename": "case-study-vanitas-11ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-11ep.ass"
-      }
-    },
-    {
-      "episode": 12,
-      "language": "kk",
-      "filename": "case-study-vanitas-12ep.srt",
-      "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_01.kk.srt",
+          "sha256": "fa3a38e7c99a8dc8fd95a874e5f9d27db8c4650fa1c445b9a529969183f3acd3",
+          "bytes": 32890,
+          "cues": 397,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_01.kk.vtt",
+          "sha256": "653a806126d08cce7802e4cdcacd4ab04af3d1eadffab533ac65b04d70d13bda",
+          "bytes": 32987,
+          "cues": 397,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_01.kk.ass",
+          "sha256": "f5214ea27cffbc14b2ba09392611aaf8cb48e84c1f993312f28c8bc9416efdd5",
+          "bytes": 39671,
+          "cues": 397,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "case-study-vanitas-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_02.kk.srt",
+          "sha256": "e3c986af3b3bcb78310c2ada43233b408fc6b9e422e3c71a98b784cde5153bb6",
+          "bytes": 40715,
+          "cues": 456,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_02.kk.vtt",
+          "sha256": "07a3e27ddd9b1bea9e5a143b02ae54c1d664bb3a59681c6ae0a800dfe8151ba6",
+          "bytes": 40812,
+          "cues": 456,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_02.kk.ass",
+          "sha256": "f5968c743e851f7c3f8c17415175135348991e28cc1b1b0697bcb38eb2cb65b6",
+          "bytes": 48381,
+          "cues": 456,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "case-study-vanitas-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_03.kk.srt",
+          "sha256": "1a1f9073e86a94bef8067a1ee79cb8ff94dbd2de1a08b14c4e3b1cb4142ec894",
+          "bytes": 36386,
+          "cues": 426,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_03.kk.vtt",
+          "sha256": "38f931d94ab19c0394661a4736652c6c6856930e07c60bb5538d9bcbac135d87",
+          "bytes": 36483,
+          "cues": 426,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_03.kk.ass",
+          "sha256": "b4391172ad6e718f0895474cca88f200c728f62b1120c4985584cb283abbec14",
+          "bytes": 43602,
+          "cues": 426,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "case-study-vanitas-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_04.kk.srt",
+          "sha256": "71ab52bea38f369e0c99f31e83e1da626a2186b8f45deb8777f4f9698f2811fe",
+          "bytes": 37295,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_04.kk.vtt",
+          "sha256": "af26fbcac1175a7954a04e4bf692ec0fdd68b5bf923b8971f82ffcb2e891ce64",
+          "bytes": 37392,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_04.kk.ass",
+          "sha256": "3fd4c69dca8b61b062e99f2d807eab1c13e9d5f8f4b6c6b1df6f18e9d496c681",
+          "bytes": 44676,
+          "cues": 437,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "case-study-vanitas-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_05.kk.srt",
+          "sha256": "33877b11d044198db323eaa489d0e3e34f517d66f07835f13fdb3118167ed2f4",
+          "bytes": 32894,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_05.kk.vtt",
+          "sha256": "394b6308959844a77f077e8ea1f4c570e1dbf2772c606b7bda07f340eeb79d0a",
+          "bytes": 32991,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_05.kk.ass",
+          "sha256": "7e4187f8658d20d21e4fd93db06e550f3629150e8da6971c6d5fc045ff900b95",
+          "bytes": 39960,
+          "cues": 416,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "case-study-vanitas-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_06.kk.srt",
+          "sha256": "deccc433849bf13be030182176bdd102e9b90563b62396f0522d613170222ba6",
+          "bytes": 33316,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_06.kk.vtt",
+          "sha256": "78e48dd670da1e8a3ca3d39b7af84be7ab2077aea471413c8c558a3b004b899d",
+          "bytes": 33413,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_06.kk.ass",
+          "sha256": "304493778cc5ded9b87a69007beba445b66071a06bc54206d6f9eb24d549c62b",
+          "bytes": 40247,
+          "cues": 407,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "case-study-vanitas-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_07.kk.srt",
+          "sha256": "3aa784ef3bea616a534fba42f268bfa0eb5f6f50a3db8ceb1ed6e29ce766e49a",
+          "bytes": 36155,
+          "cues": 431,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_07.kk.vtt",
+          "sha256": "900822ed8d10747d5a736638c802792c1f2aaa1bf959fb40fc0952322fb9974c",
+          "bytes": 36252,
+          "cues": 431,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_07.kk.ass",
+          "sha256": "f7a9cfd3f44441d542c9920db8f5f72c140344689ea30236e3d62865048e7ed0",
+          "bytes": 43446,
+          "cues": 431,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "case-study-vanitas-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_08.kk.srt",
+          "sha256": "eed8423d5587dbb02da67ec9986e7a235806dd01d0f41fe258e656c0a9f9fe71",
+          "bytes": 41204,
+          "cues": 459,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_08.kk.vtt",
+          "sha256": "d12df0dc750a3f81deb5af1d5158220e7b782c8981f2b71e2ef13d5eda7a6ee4",
+          "bytes": 41301,
+          "cues": 459,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_08.kk.ass",
+          "sha256": "5e39b1fd21c30ddc607619f97f6a9f06c328511eb85560241efffc45192d9ccc",
+          "bytes": 48915,
+          "cues": 459,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "case-study-vanitas-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/case-study-vanitas/case-study-vanitas-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_09.kk.srt",
+          "sha256": "31e1ee91f6c0f5633bab383cbe66e0c1a2e79fe7fae087819bdc70a20b0de1bb",
+          "bytes": 40537,
+          "cues": 467,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_09.kk.vtt",
+          "sha256": "f9ddacdb34a60f121693c606927426bc10e046db62b2cffe66f84c571d20cc3c",
+          "bytes": 40634,
+          "cues": 467,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_09.kk.ass",
+          "sha256": "ed2e8e3a0716d8857f3844741d5d87935bdd8542cc2ba95b40fbf4f9d3c01a16",
+          "bytes": 48368,
+          "cues": 467,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 10,
+      "language": "kk",
+      "filename": "ep_10.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_10.kk.srt",
+          "sha256": "bbd10640e3f0be2bf66c3493fbcd35178997a3b8106544ac88cc962de4997fd0",
+          "bytes": 37452,
+          "cues": 430,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_10.kk.vtt",
+          "sha256": "76374fb497e0408784b6f857ba5d624e3b4afc068c55349f248d22b09991cd5b",
+          "bytes": 37549,
+          "cues": 430,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_10.kk.ass",
+          "sha256": "5843853cd66012748f7cb9ef9be29e4326604e6f4f9e2494b262c52d9c13b1a7",
+          "bytes": 44728,
+          "cues": 430,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 11,
+      "language": "kk",
+      "filename": "ep_11.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_11.kk.srt",
+          "sha256": "30cccc0ad9fa175fdd944f2857e4b17120279cb2b8dd5bf303842df72929e1d8",
+          "bytes": 37297,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_11.kk.vtt",
+          "sha256": "e8baddae5a0cb38a368483c56fe5c613dc34b31a67768224d18c35cda680c2de",
+          "bytes": 37394,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_11.kk.ass",
+          "sha256": "75081d976f77343dbe2081e3d0f1906a2d4801bf9cd5af299e833f98cd953c15",
+          "bytes": 44678,
+          "cues": 437,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
+    },
+    {
+      "episode": 12,
+      "language": "kk",
+      "filename": "ep_12.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/case-study-vanitas/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/case-study-vanitas/ep_12.kk.srt",
+          "sha256": "6af6da28c72b682a8185a5ca0135d85df0aff54c8ba15f33abbd866f076c335b",
+          "bytes": 38140,
+          "cues": 447,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/case-study-vanitas/ep_12.kk.vtt",
+          "sha256": "b0f4250a838e3db0d5c5479aa3b4711a98a45d6c29c09e402558fefda255840a",
+          "bytes": 38237,
+          "cues": 447,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/case-study-vanitas/ep_12.kk.ass",
+          "sha256": "d79f1149ebbdf7226eddd3272c06391071a0edf0ed9301de661b0ab0d320d670",
+          "bytes": 45671,
+          "cues": 447,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/case-study-vanitas.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

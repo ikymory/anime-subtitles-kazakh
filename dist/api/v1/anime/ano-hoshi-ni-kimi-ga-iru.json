@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Ano Hoshi ni Kimi ga Iru - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ano-hoshi-ni-kimi-ga-iru.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/ano-hoshi-ni-kimi-ga-iru.jpg",
+  "description": "Ano Hoshi ni Kimi ga Iru - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "ano-hoshi-ni-kimi-ga-iru",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "ano-hoshi-ni-kimi-ga-iru-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ano-hoshi-ni-kimi-ga-iru/ano-hoshi-ni-kimi-ga-iru-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ano-hoshi-ni-kimi-ga-iru/ano-hoshi-ni-kimi-ga-iru-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/ano-hoshi-ni-kimi-ga-iru/ano-hoshi-ni-kimi-ga-iru-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ano-hoshi-ni-kimi-ga-iru/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ano-hoshi-ni-kimi-ga-iru/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ano-hoshi-ni-kimi-ga-iru/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ano-hoshi-ni-kimi-ga-iru/ep_01.kk.srt",
+          "sha256": "8a1255e9f7970629a883fc9eb6982b76e1cfaa179df30e8a20f4d756d68e6c03",
+          "bytes": 146215,
+          "cues": 1756,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ano-hoshi-ni-kimi-ga-iru/ep_01.kk.vtt",
+          "sha256": "d9e08e7806c70f9f673b812308463d25cbcc753c776bfd0b7f75b98fc1d751b5",
+          "bytes": 146312,
+          "cues": 1756,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ano-hoshi-ni-kimi-ga-iru/ep_01.kk.ass",
+          "sha256": "64f200fa401dc07cf75387fd6996a1ffb73b10e2461facc76c696931ab2762a2",
+          "bytes": 172676,
+          "cues": 1756,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ano-hoshi-ni-kimi-ga-iru.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

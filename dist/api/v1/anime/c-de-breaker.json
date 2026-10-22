@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "CØDE.BREAKER - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/c-de-breaker.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/c-de-breaker.jpg",
+  "description": "CØDE.BREAKER - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "c-de-breaker",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -36,136 +42,491 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 13,
+  "available_episodes_count": 13,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "c-de-breaker-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_01.kk.srt",
+          "sha256": "168720077ee4a53d976f9b0c342d10143ac7023a607ba109c6d19adbcdfcfa35",
+          "bytes": 27008,
+          "cues": 307,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_01.kk.vtt",
+          "sha256": "fcaa1536a243847cab094acf76f3f9ea5d08f3693ebaeb87ba212459672a6d08",
+          "bytes": 27105,
+          "cues": 307,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_01.kk.ass",
+          "sha256": "c41e511be5e24cdf1cb46ad60b9103f07f23be71410e5cf9c21b396774cb0c6a",
+          "bytes": 32236,
+          "cues": 307,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "c-de-breaker-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_02.kk.srt",
+          "sha256": "83c6b394497e6a03727663185e092040ad059d5c5f7584f81d8ab8a1d558b565",
+          "bytes": 27527,
+          "cues": 343,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_02.kk.vtt",
+          "sha256": "5812041c0d506a6f9f3cf5b50c73ac15f62cf834767a20675bd64625068d646a",
+          "bytes": 27624,
+          "cues": 343,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_02.kk.ass",
+          "sha256": "a2b34a790714894721435ccc19b00212bdc7db8008b794e1e40ad7a7c6e8bdc2",
+          "bytes": 34003,
+          "cues": 343,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "c-de-breaker-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_03.kk.srt",
+          "sha256": "6a32e157fc46edfde2f3f7c30237780670cfcca5d61d70e3766b690267e25227",
+          "bytes": 28693,
+          "cues": 342,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_03.kk.vtt",
+          "sha256": "87e9834f19ba5abd1c2410c38a71e66b822c18f11d812213563ba56384e9ae29",
+          "bytes": 28790,
+          "cues": 342,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_03.kk.ass",
+          "sha256": "ffe68f2d0964f436c3161edfeac7bf8e449c896c9d12bae90e12a64813cde568",
+          "bytes": 35139,
+          "cues": 342,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "c-de-breaker-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_04.kk.srt",
+          "sha256": "dfedf2b44789d7dab4456db42aaa8035f8cbaf4eb3b9f0885adf53041e266ae9",
+          "bytes": 35614,
+          "cues": 407,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_04.kk.vtt",
+          "sha256": "90e5be939c3a3b9f74937d2eadbdc3aeed7d362a74057e067ce6fb94d4577222",
+          "bytes": 35711,
+          "cues": 407,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_04.kk.ass",
+          "sha256": "c9981600cc60b147c1044f9df6c9cf3280447159a1568cf107519849b114c1c0",
+          "bytes": 43014,
+          "cues": 407,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "c-de-breaker-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_05.kk.srt",
+          "sha256": "753cd922836d3c940377b0d2559bad8d18b47701e8a74f130394851c8be6bbe1",
+          "bytes": 30735,
+          "cues": 370,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_05.kk.vtt",
+          "sha256": "225792fb0e9d8e680862ce20cbd70c2571d2d46974c0cc8ce615b05cbb357d2c",
+          "bytes": 30832,
+          "cues": 370,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_05.kk.ass",
+          "sha256": "2a220eaf51a40de84918d969e6bf5c61914b39b00cf85c216fc115d18a5324e4",
+          "bytes": 37653,
+          "cues": 370,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "c-de-breaker-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_06.kk.srt",
+          "sha256": "360a2d78d3d051e3e8f528f8429b49e094d1d9e3329a5bf26ae174068c3d1a42",
+          "bytes": 28132,
+          "cues": 345,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_06.kk.vtt",
+          "sha256": "a10311ea582802e9d0aa9a266634c14d70858bb5de0341333c985f31aa7ae3da",
+          "bytes": 28229,
+          "cues": 345,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_06.kk.ass",
+          "sha256": "a4fba10a0669ebc54b94e4130af8d568de176de88d648e800d8ed55493737660",
+          "bytes": 34700,
+          "cues": 345,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "c-de-breaker-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_07.kk.srt",
+          "sha256": "5197630c9f7011779a92052e36dac0dd91d6b1e95a4fcd20717ef3cc165c8e2c",
+          "bytes": 31573,
+          "cues": 381,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_07.kk.vtt",
+          "sha256": "183c4e5b77695910232aba60d113984b1e5ac14266da5e5208d105e11f83330e",
+          "bytes": 31670,
+          "cues": 381,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_07.kk.ass",
+          "sha256": "197f23923eab538c5435190ff1c51eb1a29dfc8e55871324a2d5b59efa019f74",
+          "bytes": 38773,
+          "cues": 381,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "c-de-breaker-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_08.kk.srt",
+          "sha256": "206b14fee2e3f5cb80d588f0e2f4f9ff8d6946505dc9e01f1c8a0e244979dea3",
+          "bytes": 34214,
+          "cues": 398,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_08.kk.vtt",
+          "sha256": "3443612f5d051e6c7785449566c51d75e88a1aaaf2b89dd66729f86b67bc7b4c",
+          "bytes": 34311,
+          "cues": 398,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_08.kk.ass",
+          "sha256": "21cf1ec63b9703f0cb799bf8ba59a85c3be17380bd15d39087ef073f600ed3d1",
+          "bytes": 41330,
+          "cues": 398,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "c-de-breaker-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_09.kk.srt",
+          "sha256": "4f5b6c207069f5a08dcb0a53a2f59175efc73c7ff09b55d1460dd8894e53ac30",
+          "bytes": 33965,
+          "cues": 398,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_09.kk.vtt",
+          "sha256": "aae9d164247893b451689391a4db8c782280118d0d977f6dc2c58212d9325ebc",
+          "bytes": 34062,
+          "cues": 398,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_09.kk.ass",
+          "sha256": "69ff5099336b0d24bafab61d6d79f5980371dbfdd441e33154e92929c90461a5",
+          "bytes": 41312,
+          "cues": 398,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "c-de-breaker-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_10.kk.srt",
+          "sha256": "a463d12bbaf894184b613562a0d6fcae5fbe29a3c949a83eca6d712a4baefa01",
+          "bytes": 29469,
+          "cues": 357,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_10.kk.vtt",
+          "sha256": "4c2f676556f271506815d104f3071bc9e3a26b690fd040795fe98c00d0328cbb",
+          "bytes": 29566,
+          "cues": 357,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_10.kk.ass",
+          "sha256": "9a3cc319318cecfdca27c9ca4c95f8dd1d1cad4730b73b676bd6c413277c92e7",
+          "bytes": 36000,
+          "cues": 357,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "c-de-breaker-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_11.kk.srt",
+          "sha256": "1eae0e058adfea04616f93ae430f3012c5d93dba970a3dac8f5d52621acea3a7",
+          "bytes": 32079,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_11.kk.vtt",
+          "sha256": "049fb6b6581b66b70113b8c603fc414976fa439d70f9df9f5f38e120d3465fa7",
+          "bytes": 32176,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_11.kk.ass",
+          "sha256": "c8efa515a6eaa4b8ad6fd8b3c5db0ebcb9b4daa29bb3b6da230ce2033021c64a",
+          "bytes": 38649,
+          "cues": 359,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "c-de-breaker-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_12.kk.srt",
+          "sha256": "6f54d34e851ef995d39939aea7e43411ee152ec4daaf599ecb8436b451572c01",
+          "bytes": 33749,
+          "cues": 388,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_12.kk.vtt",
+          "sha256": "ea710afa6f42d9fd85c6d8b120574a69de4da62d8045be7707ab7646640268ba",
+          "bytes": 33846,
+          "cues": 388,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_12.kk.ass",
+          "sha256": "10e6af9a27b7408f1e5864a1d86373e3dc85799e9a7a38c2425ffcee1ad9eb9b",
+          "bytes": 40871,
+          "cues": 388,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "c-de-breaker-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/c-de-breaker/c-de-breaker-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/c-de-breaker/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/c-de-breaker/ep_13.kk.srt",
+          "sha256": "9df7b011d9d310e0e842fbcffca776d2182f05e24bd4afcfcb04731fa7c3bcfb",
+          "bytes": 30739,
+          "cues": 359,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/c-de-breaker/ep_13.kk.vtt",
+          "sha256": "bfba954f4afcc186f7e504e3656fb848bb2bda3f534c2571f140dfc6007911b4",
+          "bytes": 30836,
+          "cues": 359,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/c-de-breaker/ep_13.kk.ass",
+          "sha256": "b4c2405c1b238898a33c1667be83e576f5b6dd5822bf166da6f98ca1dbda6562",
+          "bytes": 40067,
+          "cues": 360,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 44,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/c-de-breaker.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

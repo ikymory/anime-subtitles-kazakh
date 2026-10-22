@@ -16,24 +16,65 @@
     "Adventure",
     "Sci-Fi"
   ],
-  "description": "Space Adventure Cobra: The Movie - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/space-adventure-cobra-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/space-adventure-cobra-movie.jpg",
+  "description": "Space Adventure Cobra: The Movie - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "space-adventure-cobra-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "space-adventure-cobra-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/space-adventure-cobra-movie/space-adventure-cobra-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/space-adventure-cobra-movie/space-adventure-cobra-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/space-adventure-cobra-movie/space-adventure-cobra-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/space-adventure-cobra-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/space-adventure-cobra-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/space-adventure-cobra-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/space-adventure-cobra-movie/ep_01.kk.srt",
+          "sha256": "74b2df4af77d502fb4e2ff379c6a84f6815c887da1753ce28171c868fcbc1e41",
+          "bytes": 103157,
+          "cues": 1246,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/space-adventure-cobra-movie/ep_01.kk.vtt",
+          "sha256": "dc323bccad2ef759d16c5d50af47aac0a4cceb7436e3bb87741ee88f3ae7711b",
+          "bytes": 103254,
+          "cues": 1246,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/space-adventure-cobra-movie/ep_01.kk.ass",
+          "sha256": "72d1ca3d3bad334d2b8d70ce6c56fd850d2f1a02026997485ea9f87c99a3f1c3",
+          "bytes": 122660,
+          "cues": 1246,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/space-adventure-cobra-movie.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "normalized_subtitle_serialization"
   ]
 }

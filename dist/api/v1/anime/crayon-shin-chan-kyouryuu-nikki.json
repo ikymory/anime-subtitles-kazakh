@@ -16,24 +16,65 @@
     "Ecchi",
     "Slice of Life"
   ],
-  "description": "The 32nd <i>Crayon Shin-chan</i> film. The movie will follow the friendship between the Nobara family's pet dog Shiro and a \"small dinosaur.\" Their connection helps the growth of Shinnosuke and the Kusakabe Defense Squad. <br><br>\n\n(Source: Anime News Network, edited)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171145-tvVUfRjbD4AZ.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171145-tvVUfRjbD4AZ.png",
+  "description": "The 32nd <i>Crayon Shin-chan</i> film. The movie will follow the friendship between the Nobara family's pet dog Shiro and a \"small dinosaur.\" Their connection helps the growth of Shinnosuke and the Kusakabe Defense Squad. <br><br>\n\n(Source: Anime News Network, edited)",
   "averageScore": 66,
   "popularity": 1076,
+  "catalog_id": "crayon-shin-chan-kyouryuu-nikki",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "crayon-shin-chan-kyouryuu-nikki-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-kyouryuu-nikki/crayon-shin-chan-kyouryuu-nikki-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-kyouryuu-nikki/crayon-shin-chan-kyouryuu-nikki-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/crayon-shin-chan-kyouryuu-nikki/crayon-shin-chan-kyouryuu-nikki-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-kyouryuu-nikki/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-kyouryuu-nikki/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/crayon-shin-chan-kyouryuu-nikki/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/crayon-shin-chan-kyouryuu-nikki/ep_01.kk.srt",
+          "sha256": "c804a47c9bc0af721d29b15b05fb9e6565ea46d3d65393eb9417c045f400a1c2",
+          "bytes": 148342,
+          "cues": 1961,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/crayon-shin-chan-kyouryuu-nikki/ep_01.kk.vtt",
+          "sha256": "a4de9adb4280b4b823bd88fd48f49ea0904a204e6c27f772c0bd1d5b70685b4b",
+          "bytes": 148439,
+          "cues": 1961,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/crayon-shin-chan-kyouryuu-nikki/ep_01.kk.ass",
+          "sha256": "a45a6f20eef4c71e3d94eaa683c47640ff0a3b75e1bfb741517297883e9f69d6",
+          "bytes": 177854,
+          "cues": 1961,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/crayon-shin-chan-kyouryuu-nikki.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

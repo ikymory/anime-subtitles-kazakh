@@ -3,30 +3,78 @@
   "slug": "kizumonogatari-1",
   "title": {
     "romaji": "Kizumonogatari 1",
-    "english": "Kizumonogatari 1"
+    "english": "Kizumonogatari 1",
+    "kazakh": "Жарақат хикаясы 1",
+    "kk": "Жарақат хикаясы 1"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2016,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9260-cl7sczYOpTeW.png",
+  "averageScore": 75,
+  "popularity": 62768,
+  "color": "hsl(301, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/9260-69LbBxcWN2tA.jpg",
+  "catalog_id": "kizumonogatari-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kizumonogatari-1-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-1/kizumonogatari-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-1/kizumonogatari-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kizumonogatari-1/kizumonogatari-1-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kizumonogatari-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kizumonogatari-1/ep_01.kk.srt",
+          "sha256": "48814beda1bcf99c9f244d39ef9c6494091ebfedf47fe667ec23bc281a520aeb",
+          "bytes": 41510,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kizumonogatari-1/ep_01.kk.vtt",
+          "sha256": "19a19704ff93c6b49fd28d04d1e181ae2d6572b19252299252aff8263b862761",
+          "bytes": 41607,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kizumonogatari-1/ep_01.kk.ass",
+          "sha256": "d49276261d17bc29d1b166a16536f4f30087e7cb54a580e81ae2f3541224280a",
+          "bytes": 49159,
+          "cues": 455,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kizumonogatari-1.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
   ]
 }

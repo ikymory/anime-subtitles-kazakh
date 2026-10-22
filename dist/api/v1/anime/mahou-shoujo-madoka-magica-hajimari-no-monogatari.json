@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Mahou Shoujo Madoka☆Magica. Hajimari no Monogatari - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahou-shoujo-madoka-magica-hajimari-no-monogatari.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mahou-shoujo-madoka-magica-hajimari-no-monogatari.jpg",
+  "description": "Mahou Shoujo Madoka☆Magica. Hajimari no Monogatari - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "mahou-shoujo-madoka-magica-hajimari-no-monogatari",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mahou-shoujo-madoka-magica-hajimari-no-monogatari-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/mahou-shoujo-madoka-magica-hajimari-no-monogatari-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/mahou-shoujo-madoka-magica-hajimari-no-monogatari-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/mahou-shoujo-madoka-magica-hajimari-no-monogatari-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/ep_01.kk.srt",
+          "sha256": "ec4c0686f384f7e68b45989090c2cc67607f003d7613374353e0099bfb2bbd06",
+          "bytes": 166914,
+          "cues": 1836,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/ep_01.kk.vtt",
+          "sha256": "f2af06cba8a626c52eb2eb1f19c20a0812cca4dccedd93d7db946ad400b0f940",
+          "bytes": 167011,
+          "cues": 1836,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mahou-shoujo-madoka-magica-hajimari-no-monogatari/ep_01.kk.ass",
+          "sha256": "3669d48008afc8cc48dfd9e4b8a24efaf8ff42fa20937ff981b6a657f54dec9b",
+          "bytes": 194676,
+          "cues": 1836,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mahou-shoujo-madoka-magica-hajimari-no-monogatari.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

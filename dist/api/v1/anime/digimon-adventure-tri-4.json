@@ -16,24 +16,68 @@
     "Adventure",
     "Drama"
   ],
-  "description": "Digimon Adventure tri. 4: Loss - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-tri-4.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-tri-4.jpg",
+  "description": "Digimon Adventure tri. 4: Loss - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 96000,
+  "catalog_id": "digimon-adventure-tri-4",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "digimon-adventure-tri-4-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/digimon-adventure-tri-4/digimon-adventure-tri-4-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/digimon-adventure-tri-4/digimon-adventure-tri-4-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/digimon-adventure-tri-4/digimon-adventure-tri-4-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-4/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-4/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/digimon-adventure-tri-4/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/digimon-adventure-tri-4/ep_01.kk.ass",
+          "sha256": "9331b8ebbe596707dc6f3eeae66ca622d5d0c026ea24901abb56cf1580bbe2af",
+          "bytes": 119174,
+          "cues": 1276,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/digimon-adventure-tri-4/ep_01.kk.srt",
+          "sha256": "6d0dbe8f39a3532d829aa274df75c9f4be8ba4ab271da598e7d6758c8a974b8d",
+          "bytes": 99213,
+          "cues": 1275,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/digimon-adventure-tri-4/ep_01.kk.vtt",
+          "sha256": "b097968f1113479a4a8873f2193297184022f0a196681578f5cffc65f632744c",
+          "bytes": 99221,
+          "cues": 1275,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/digimon-adventure-tri-4.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

@@ -16,11 +16,17 @@
     "Adventure",
     "Comedy"
   ],
-  "description": "Be-Bop High School - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/be-bop-high-school.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/be-bop-high-school.jpg",
+  "description": "Be-Bop High School - official Kazakh translation archive by ikymory.",
   "averageScore": 80,
   "popularity": 60000,
+  "catalog_id": "be-bop-high-school",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -30,76 +36,266 @@
     6,
     7
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 7,
+  "available_episodes_count": 7,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "be-bop-high-school-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/be-bop-high-school/ep_01.kk.srt",
+          "sha256": "6f5a5ad0a330cab59c5a24b8e52afbef25d3761e6e4b8ae3f7976fa92ef8aec1",
+          "bytes": 77800,
+          "cues": 916,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/be-bop-high-school/ep_01.kk.vtt",
+          "sha256": "b068fd2dff211c3cddce28242e969119c50fbec0dd082f766e02ad043effedfb",
+          "bytes": 77897,
+          "cues": 916,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/be-bop-high-school/ep_01.kk.ass",
+          "sha256": "da25173dc41a34e41ff5c34e7ca70496b65ace6d36fe7d7428864fca557e7412",
+          "bytes": 92419,
+          "cues": 916,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "be-bop-high-school-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/be-bop-high-school/ep_02.kk.srt",
+          "sha256": "d553c533d2aed98c7e6aff7b9a95bfbe14184111f7609ca8e7d77ca8460eaf13",
+          "bytes": 76813,
+          "cues": 925,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/be-bop-high-school/ep_02.kk.vtt",
+          "sha256": "815e56aa8a9fbfc8339eba1459820ab2aef79fb00089f09002072c0e6e64c0ef",
+          "bytes": 76910,
+          "cues": 925,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/be-bop-high-school/ep_02.kk.ass",
+          "sha256": "841f0ba1122ca4d09f71ad37143d4b075e9436ecc1eb0a740474de596db55519",
+          "bytes": 91566,
+          "cues": 925,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "be-bop-high-school-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/be-bop-high-school/ep_03.kk.srt",
+          "sha256": "c500546f302b31f4768d6bab9c8a5e1e9a5bac9debee7b68f338939370b47c45",
+          "bytes": 75678,
+          "cues": 951,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/be-bop-high-school/ep_03.kk.vtt",
+          "sha256": "05f9217c9ff7da3415b5662787a2f833ad820c70df71b6b1bdc83a5017974bb5",
+          "bytes": 75775,
+          "cues": 951,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/be-bop-high-school/ep_03.kk.ass",
+          "sha256": "b42b582763237d2bd7c345ce1bb49c7f1cf833fb145bdbe6fc1fdd4fb31b7795",
+          "bytes": 90822,
+          "cues": 951,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "be-bop-high-school-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/be-bop-high-school/ep_04.kk.srt",
+          "sha256": "99e2e56647aa7875035124b02fd581ebb57fce2e4c11ec8a7ec64c92aa73bf42",
+          "bytes": 77653,
+          "cues": 988,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/be-bop-high-school/ep_04.kk.vtt",
+          "sha256": "53f1b11cc5c8a09542a47f0a65e357d1d7e1edfb65d68e072f33263b5c058127",
+          "bytes": 77750,
+          "cues": 988,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/be-bop-high-school/ep_04.kk.ass",
+          "sha256": "1904d21b2ca3297638d5a82ad66cf5e21467a693bcf669bcaaa8865110971279",
+          "bytes": 93351,
+          "cues": 988,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "be-bop-high-school-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/be-bop-high-school/ep_05.kk.srt",
+          "sha256": "4ef0d2e8a97a4b0421d3160ad65064db19822e757fc0bbe31c640aa05e62daa9",
+          "bytes": 83475,
+          "cues": 998,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/be-bop-high-school/ep_05.kk.vtt",
+          "sha256": "46fae2a73f09fb76e9e9da6a1063d7c0a9e428afeba3154585c99ce1b442f42e",
+          "bytes": 83572,
+          "cues": 998,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/be-bop-high-school/ep_05.kk.ass",
+          "sha256": "62ae3fbf9cb4aed4a5b45ad4013af22df41423040f901d167dbe80024a6e4bec",
+          "bytes": 99323,
+          "cues": 998,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "be-bop-high-school-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/be-bop-high-school/ep_06.kk.srt",
+          "sha256": "fdd794fb5cf0048c613ecdc51588927d038ec4f6ad2a91b83568a5fd94c6e4a8",
+          "bytes": 87649,
+          "cues": 1062,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/be-bop-high-school/ep_06.kk.vtt",
+          "sha256": "70a05f1f8533363d2c5515302eedffe874f499690cddf58697df70de52421812",
+          "bytes": 87746,
+          "cues": 1062,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/be-bop-high-school/ep_06.kk.ass",
+          "sha256": "05f55e0db41b49e48e7ae8c5cbb1264cd14c747683d8367dadd0bb2845dfc6f2",
+          "bytes": 104396,
+          "cues": 1062,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "be-bop-high-school-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/be-bop-high-school/be-bop-high-school-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/be-bop-high-school/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/be-bop-high-school/ep_07.kk.srt",
+          "sha256": "f2b0f7b06829ba19d1932f7cbc5c498a1a9dc118f0bc4c5e8aee8a429d834228",
+          "bytes": 66694,
+          "cues": 777,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/be-bop-high-school/ep_07.kk.vtt",
+          "sha256": "ed2ab6813d6242ffca14c390480086494e102ecbdd7f4dbbe5ec9ff077d240aa",
+          "bytes": 66791,
+          "cues": 777,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/be-bop-high-school/ep_07.kk.ass",
+          "sha256": "ef8f17dfcac3833c496137ad44be2576458eb9c67237795c1dfed721830a5aa3",
+          "bytes": 79227,
+          "cues": 777,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 21,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/be-bop-high-school.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

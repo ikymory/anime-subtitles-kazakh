@@ -20,28 +20,73 @@
     "Mahou Shoujo",
     "Romance"
   ],
-  "description": "An unusual snow storm hits Tokyo and the Sailor Senshi discover that an evil snow queen Kaguya, wants to freeze the entire earth. It's up to the Inner Sailor Senshi along with the Outers, to defeat the Queen. Meanwhile, Luna falls in love with a human astronomer named Kakeru whose girlfriend is an astronaut about to take a space shuttle mission. Kakeru becomes ill and Luna wishes she could be a human to help him. <br>",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx532-D6yrPcsSxhSE.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/997-LzofwSXW9xsf.jpg",
+  "description": "An unusual snow storm hits Tokyo and the Sailor Senshi discover that an evil snow queen Kaguya, wants to freeze the entire earth. It's up to the Inner Sailor Senshi along with the Outers, to defeat the Queen. Meanwhile, Luna falls in love with a human astronomer named Kakeru whose girlfriend is an astronaut about to take a space shuttle mission. Kakeru becomes ill and Luna wishes she could be a human to help him. <br>",
   "averageScore": 73,
   "popularity": 11058,
+  "color": "#0095FF",
+  "duration": 61,
+  "studio": "Toei Animation",
+  "catalog_id": "sailor-moon-s-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "sailor-moon-s-movie-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-s-movie/sailor-moon-s-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-s-movie/sailor-moon-s-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-s-movie/sailor-moon-s-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-s-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-s-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-s-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/sailor-moon-s-movie/ep_01.kk.ass",
+          "sha256": "f7d24cc739fed7eb3ee9dfcd0c0c55646f75fd534e7abbe501ffda670981d810",
+          "bytes": 80871,
+          "cues": 841,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/sailor-moon-s-movie/ep_01.kk.srt",
+          "sha256": "f5b91dcaef07d3ae2b6df0950b1a1c6f05978df46fc3f06b5805292cc77b4c8a",
+          "bytes": 67125,
+          "cues": 839,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/sailor-moon-s-movie/ep_01.kk.vtt",
+          "sha256": "30ee333d3f45b34c2c1028ec627bab54f962d706de75d820d855dd7fd03432c8",
+          "bytes": 67133,
+          "cues": 839,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#0095FF",
-  "studio": "Toei Animation",
-  "duration": 61,
-  "translated_episodes_count": 1
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sailor-moon-s-movie.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

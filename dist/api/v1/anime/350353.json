@@ -3,30 +3,76 @@
   "slug": "tsurune",
   "title": {
     "romaji": "Tsurune",
-    "english": "Tsurune"
+    "english": "Tsurune",
+    "kazakh": "Цурунэ: Садақ ату клубы",
+    "kk": "Цурунэ: Садақ ату клубы"
   },
   "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "episodes": 13,
+  "seasonYear": 2018,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100402-eDxanr9DiBuV.jpg",
+  "averageScore": 86,
+  "popularity": 53105,
+  "color": "hsl(193, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100402-RaD7hf6vOVVt.jpg",
+  "catalog_id": "tsurune",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "tsurune-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurune/tsurune-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurune/tsurune-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/tsurune/tsurune-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurune/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurune/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/tsurune/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/tsurune/ep_01.kk.srt",
+          "sha256": "ae1083f81a9370e51f0cd0884b805cd08486c0ef21010b697aaf319c1529526c",
+          "bytes": 38423,
+          "cues": 456,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/tsurune/ep_01.kk.vtt",
+          "sha256": "0d070ddda0ec0b289eca18f0a932c47b7dc73a12040a6c946450e0412ccfec00",
+          "bytes": 38520,
+          "cues": 456,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/tsurune/ep_01.kk.ass",
+          "sha256": "63f97fb025b7064e923ea3a72759298200cdde5aa1a0cb7512eeba921e23e27e",
+          "bytes": 46078,
+          "cues": 456,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/tsurune.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

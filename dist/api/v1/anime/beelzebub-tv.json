@@ -16,11 +16,17 @@
     "Comedy",
     "Supernatural"
   ],
-  "description": "Digimon Adventure: Last Evolution Kizuna - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-last-evolution-kizuna.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/digimon-adventure-last-evolution-kizuna.jpg",
+  "description": "Digimon Adventure: Last Evolution Kizuna - official Kazakh translation archive by ikymory.",
   "averageScore": 86,
   "popularity": 103200,
+  "catalog_id": "beelzebub-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -83,606 +89,2235 @@
     59,
     60
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 60,
+  "available_episodes_count": 60,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "beelzebub-tv-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_01.kk.ass",
+          "sha256": "8c5230e3386e97541a085243f0ecc4c8e38a6f8a7471accf13893c5045aa010a",
+          "bytes": 40148,
+          "cues": 346,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_01.kk.srt",
+          "sha256": "addff830d905471bde84d64eb1b33e0f0e531cb674623706a7c43ccef5b1d79c",
+          "bytes": 33827,
+          "cues": 344,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_01.kk.vtt",
+          "sha256": "24d69241d8aa022e8947628b605b9df2f1bd0257dde67cd79bd415eecfcce58c",
+          "bytes": 33835,
+          "cues": 344,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "beelzebub-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_02.kk.srt",
+          "sha256": "05880b38e880bfecdd506c353cf0a4234aeac6ea9ba94ecce597320f78e234fe",
+          "bytes": 36656,
+          "cues": 429,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_02.kk.vtt",
+          "sha256": "30fa4d6a73911743810f4feab6da38655e148156708b50c4abd538a56f680726",
+          "bytes": 36753,
+          "cues": 429,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_02.kk.ass",
+          "sha256": "ae6eddfe4f57d9b1e19183bef4bda3a1d8d3256ef996845f9193076f02203a3b",
+          "bytes": 44150,
+          "cues": 429,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "beelzebub-tv-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_03.kk.srt",
+          "sha256": "85380f1375055019b93e0c56ea9496f4d408d92600247d40895b289f447fd31c",
+          "bytes": 35578,
+          "cues": 416,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_03.kk.vtt",
+          "sha256": "0c8ede4e17f11e21d072e01191e5689e16a8b299ca2e41be36ab5949277e3051",
+          "bytes": 35675,
+          "cues": 416,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_03.kk.ass",
+          "sha256": "19b74c7c7b7e0ffb4d800d7c38a218c6f46f4bfa485c5aa7118620255273b29c",
+          "bytes": 42877,
+          "cues": 416,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "beelzebub-tv-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_04.kk.srt",
+          "sha256": "dfdb3099ea4cf3af5ccb5bb976394cbe1aaa52657ea4d689d3e860f81ac1b896",
+          "bytes": 34065,
+          "cues": 374,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_04.kk.vtt",
+          "sha256": "648dfdb505d81aa9b2c48547573ab5a02f15a358680b3d5f8021248edf81abd8",
+          "bytes": 34162,
+          "cues": 374,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_04.kk.ass",
+          "sha256": "1d533271b0a13a904d60918ec440c348528b97d160474bbb0de6bd74322288d5",
+          "bytes": 40734,
+          "cues": 374,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "beelzebub-tv-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_05.kk.srt",
+          "sha256": "341595f3a1902568d49da42f94eed8577f170c77786be5f384a73c87d0ab56bb",
+          "bytes": 37911,
+          "cues": 443,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_05.kk.vtt",
+          "sha256": "222c1d057e5c56bb572d8c748ca2d08dbb4308e322bb38901a2134a493665d83",
+          "bytes": 38008,
+          "cues": 443,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_05.kk.ass",
+          "sha256": "fc7495ec00ab60850395db4fd2aa5bdb12eb656656b7a97ebb5fd9ac2e199ee0",
+          "bytes": 45615,
+          "cues": 443,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "beelzebub-tv-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_06.kk.srt",
+          "sha256": "698674988d0e7be1678bb1689e31d96b87dba0b6df29813ff85d8b8dc4454dc6",
+          "bytes": 35170,
+          "cues": 403,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_06.kk.vtt",
+          "sha256": "80975d42da8fe66bd595afc0f1044e1dde15045590b04908875d1c93eeb89462",
+          "bytes": 35267,
+          "cues": 403,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_06.kk.ass",
+          "sha256": "3f214f7ce954379ec3ffd4da82cd46d86591f60e3fbdb4af3cfcbe0ee7f0ecaf",
+          "bytes": 42274,
+          "cues": 403,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "beelzebub-tv-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_07.kk.srt",
+          "sha256": "9b87bea2d0eb72917666bea4db3e5d14043b7e654d10737228830c5e5c422ecc",
+          "bytes": 36405,
+          "cues": 417,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_07.kk.vtt",
+          "sha256": "36ef7efef0897bbe333c250d830fcb92f09f3e23882a9817e32e68bd7ef8f9e1",
+          "bytes": 36502,
+          "cues": 417,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_07.kk.ass",
+          "sha256": "4e0554bc516b6212f75697c3bfd877b6e228e789d414e0c3905d3e8ae338a7e4",
+          "bytes": 43719,
+          "cues": 417,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "beelzebub-tv-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_08.kk.srt",
+          "sha256": "f65083f50a3643d003ed6fe186c00bb72582c5b3bcdc07f1638bf283690f50e4",
+          "bytes": 34096,
+          "cues": 383,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_08.kk.vtt",
+          "sha256": "a0fac590bc7e758abc5f8b213331f67d442f25d6ccabd326ffa942ae3feabf87",
+          "bytes": 34193,
+          "cues": 383,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_08.kk.ass",
+          "sha256": "f99b28626b3ec826031483d0d8e2fee208102af537bc13333dcb7affd739eaf0",
+          "bytes": 40900,
+          "cues": 383,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "beelzebub-tv-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_09.kk.srt",
+          "sha256": "61c19a21a9365eb840cf0a6f39abfd5b7c071e63a0e3fddfe4e0488985ee6cfb",
+          "bytes": 35050,
+          "cues": 410,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_09.kk.vtt",
+          "sha256": "3a801389f4aa1d5d4ab682ecfc08f822de2a296fb10d997ecf88e65e27c89d1f",
+          "bytes": 35147,
+          "cues": 410,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_09.kk.ass",
+          "sha256": "27f37a03d79b56782ba6a8c4a5922e151a0c329652c2d6a7de9f5c08a39cb471",
+          "bytes": 42259,
+          "cues": 410,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "beelzebub-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_10.kk.srt",
+          "sha256": "32405ae843a09a03639e61844e3369e8a846ab61807fb332f9d7f0612f4e0d01",
+          "bytes": 33889,
+          "cues": 437,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_10.kk.vtt",
+          "sha256": "95194618312d87ea949897271f7b5de05e6752354cb993105dddc0e424c22865",
+          "bytes": 33986,
+          "cues": 437,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_10.kk.ass",
+          "sha256": "c4c99448ed2b6221604001c7f7c1c4048a4f2fc227d4152af932f3bd835574bf",
+          "bytes": 41503,
+          "cues": 437,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "beelzebub-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_11.kk.srt",
+          "sha256": "e0d3f02f51d939afb7b9fdcc0d6590328282444261232b764c5d24430054f554",
+          "bytes": 35056,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_11.kk.vtt",
+          "sha256": "d09f5bd2c0c7e762a7eb0c6536f7205ae9bef2ec94561b0dca2f4665968f0ac1",
+          "bytes": 35153,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_11.kk.ass",
+          "sha256": "5f625ef30370caf15a619c64c20c249896919b6a33a19fd7053f3c1516650480",
+          "bytes": 42175,
+          "cues": 404,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "beelzebub-tv-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_12.kk.srt",
+          "sha256": "393155a7223833195eb5b5120673de46272963305ef25f41c5f1696168a7adf2",
+          "bytes": 37549,
+          "cues": 465,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_12.kk.vtt",
+          "sha256": "a6506fc045b45f869ca99f2a340edf2243ab860516e7a95a236a673e5dd2f1bc",
+          "bytes": 37646,
+          "cues": 465,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_12.kk.ass",
+          "sha256": "4acdb995f7e80c9a8d6232b387af69bb0d69c608de74ee33a035c560604ad228",
+          "bytes": 45583,
+          "cues": 465,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "beelzebub-tv-13ep.srt",
+      "filename": "ep_13.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_13.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_13.kk.ass",
+          "sha256": "3c7f22afec60a4520e6ba4ff0299d84a9d44143e977c0bf55902a35c9116f923",
+          "bytes": 42410,
+          "cues": 403,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_13.kk.srt",
+          "sha256": "7960aff00d9141ba3a9536b33537bdc4cf1b725e05a898e478535aeaa83e3a8a",
+          "bytes": 35234,
+          "cues": 401,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_13.kk.vtt",
+          "sha256": "76caee37484fca4e79fa5e4ffaaee35676c9ba9e33493b1661ac8a3471c6b1a6",
+          "bytes": 35242,
+          "cues": 401,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "beelzebub-tv-14ep.srt",
+      "filename": "ep_14.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_14.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_14.kk.ass",
+          "sha256": "313b9cb3d4b6bab535ef4cfac5fd56bd5812b4f9d4c5e607713f062ae24b5c91",
+          "bytes": 39912,
+          "cues": 406,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_14.kk.srt",
+          "sha256": "e74d4b4212b3220479cc6ce6c9f3a0e55f1102eaf982b36e05cbabe7edfb7bda",
+          "bytes": 32727,
+          "cues": 405,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_14.kk.vtt",
+          "sha256": "69fce2b828e7e7d1ac0c6084bcf808c797c1f3b7e0ae761cdd6d1127d45d379c",
+          "bytes": 32735,
+          "cues": 405,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "beelzebub-tv-15ep.srt",
+      "filename": "ep_15.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_15.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_15.kk.ass",
+          "sha256": "38f43ff5d37159b7a959a14b4a9ef82c6959ab7316bc60dd2da9d6e38025f623",
+          "bytes": 38551,
+          "cues": 380,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_15.kk.srt",
+          "sha256": "2d2998a13830e899bdfdf2a47ce949f90bbdb4ee098cee349548c9fa00a7d8bc",
+          "bytes": 31684,
+          "cues": 377,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_15.kk.vtt",
+          "sha256": "124dd209259406e8691b6393654cc10e3d51e1a997aa0a3a18507286d7f540c2",
+          "bytes": 31692,
+          "cues": 377,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "beelzebub-tv-16ep.srt",
+      "filename": "ep_16.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_16.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_16.kk.ass",
+          "sha256": "b1b6c7e17686ca95ef724f19b84827ac2c9034c622d06572a7e74a898ea04a79",
+          "bytes": 38215,
+          "cues": 378,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_16.kk.srt",
+          "sha256": "f54b0942c5cfc189cfc1bdf7f8cd01ce44b7d54aa119272e9180bb3db7f651a7",
+          "bytes": 31414,
+          "cues": 376,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_16.kk.vtt",
+          "sha256": "ab0fad94f5221950bc64993949433034a81484b4ed4bdea91a046420df79fbe8",
+          "bytes": 31422,
+          "cues": 376,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "beelzebub-tv-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_17.kk.srt",
+          "sha256": "09a76ed37f01fb94c72370d6d63179519e0155a234c43bf6ed309618479406ef",
+          "bytes": 36761,
+          "cues": 424,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_17.kk.vtt",
+          "sha256": "7a11a0108c74a72920baf9e6a00b8105727c5d4657e8a76aea911836dd97841b",
+          "bytes": 36858,
+          "cues": 424,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_17.kk.ass",
+          "sha256": "ff3e47f5a3d392fa9ceef38e74225be837aed9ee040641b68db6a4dfc802681a",
+          "bytes": 44180,
+          "cues": 424,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "beelzebub-tv-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_18.kk.srt",
+          "sha256": "1b51d76078736cd7d3947650b952c8351aff16800b891786abc860e887a27fe5",
+          "bytes": 31436,
+          "cues": 378,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_18.kk.vtt",
+          "sha256": "b097c394842f0c8159490f92dd31dcdf58610f626654adef97dc0c87bff21134",
+          "bytes": 31533,
+          "cues": 378,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_18.kk.ass",
+          "sha256": "5669f8386495a47790ca81ef02fd2a68690710f74179a36e77729b154a0718a6",
+          "bytes": 38165,
+          "cues": 378,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "beelzebub-tv-19ep.srt",
+      "filename": "ep_19.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_19.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_19.kk.ass",
+          "sha256": "ef943d28272a315b5ccfeee6b39f59f3b6883187896c916bcbb18ced7a965105",
+          "bytes": 37981,
+          "cues": 369,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_19.kk.srt",
+          "sha256": "96bda9f41488e8b90660b5ac02370ef02a2ae052ff68a3893e7c01180a240319",
+          "bytes": 31351,
+          "cues": 368,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_19.kk.vtt",
+          "sha256": "d4a2558fea1894356db0c5defbc0e7848c62af9d91349bdc09885d9aa573301a",
+          "bytes": 31359,
+          "cues": 368,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "beelzebub-tv-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_20.kk.srt",
+          "sha256": "c125b1385966f478cf9c14ff9f25fc5f5d88841f1b99dc6cafafd30183aede53",
+          "bytes": 30588,
+          "cues": 358,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_20.kk.vtt",
+          "sha256": "2ab5a68f1cea66b1045af3da6258c87bdc201c7404122ddc0bb4a67641b665e3",
+          "bytes": 30685,
+          "cues": 358,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_20.kk.ass",
+          "sha256": "b320edf1c0df1b65b8f619a42436fd48ddfa1df860eda8706c3d811760109bae",
+          "bytes": 37017,
+          "cues": 358,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "beelzebub-tv-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_21.kk.srt",
+          "sha256": "5c19f4910653813ba876e1c15a409679169df35396b29188167a1327184238d9",
+          "bytes": 28518,
+          "cues": 327,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_21.kk.vtt",
+          "sha256": "fd26362d6c4a39baa6e4ce5df50657f32b8ff46e78f07e9aa104a5b3323db726",
+          "bytes": 28615,
+          "cues": 327,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_21.kk.ass",
+          "sha256": "b4b6612b8b36ccd29e0a2f06e53db93cdf24280647cebec2af3fc7306cc8042b",
+          "bytes": 34482,
+          "cues": 327,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "beelzebub-tv-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_22.kk.srt",
+          "sha256": "e94933329ff60103954d1b3525d8fd82b7c61a81681a6ce9d1d6a7104bc23cc4",
+          "bytes": 35999,
+          "cues": 431,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_22.kk.vtt",
+          "sha256": "38f144e1178c7bf86c4b8301ebc60d9d0e3157d4d427641d5f6b1ff1ab0c4903",
+          "bytes": 36096,
+          "cues": 431,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_22.kk.ass",
+          "sha256": "c9ec30e49aab75fbb08f4e38d242f0320bcf573bc2d53b378ba54429c3868a41",
+          "bytes": 43523,
+          "cues": 431,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "beelzebub-tv-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_23.kk.srt",
+          "sha256": "3643ba7d2fb508d6448fd849e12fa6122221b79f6a220a1efeeb8c232ed34bb4",
+          "bytes": 36065,
+          "cues": 445,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_23.kk.vtt",
+          "sha256": "ecfee06561af4d8c802ae12ca5bf0eed2879c7f20a0db24012fae8e20c414c58",
+          "bytes": 36162,
+          "cues": 445,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_23.kk.ass",
+          "sha256": "98edefeb448bb118b4c7533fd392de8bee0110abf47e3a38c8ba749b3d8f7d83",
+          "bytes": 43799,
+          "cues": 445,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "beelzebub-tv-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_24.kk.srt",
+          "sha256": "543bd5eafcad52b6aec60c531a181886c1893a4af865f0369c1ea602eeade0ac",
+          "bytes": 32806,
+          "cues": 400,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_24.kk.vtt",
+          "sha256": "00730019529261f77ae32c46803fec0d4befaa077fd26c15090c6f34b1a118c7",
+          "bytes": 32903,
+          "cues": 400,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_24.kk.ass",
+          "sha256": "52a2a5cc799f5da970416b51673e9de09f9ddbbbe7f0405e7c29a25770825ec7",
+          "bytes": 39865,
+          "cues": 400,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "beelzebub-tv-25ep.srt",
+      "filename": "ep_25.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_25.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_25.kk.ass",
+          "sha256": "e9c1e6bb7012ab307e7239506be023cf506290b0dee03522d568770788f5409b",
+          "bytes": 45627,
+          "cues": 425,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_25.kk.srt",
+          "sha256": "0f442e95c07d442d68f1a64618a86ade799b0a89ac482e655bd5488318415361",
+          "bytes": 38049,
+          "cues": 421,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_25.kk.vtt",
+          "sha256": "6c1b25d87ca22c55370dd63ac37830dcd46e70bc5d317f92b057a1857d6db029",
+          "bytes": 38057,
+          "cues": 421,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "beelzebub-tv-26ep.srt",
+      "filename": "ep_26.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_26.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_26.kk.ass",
+          "sha256": "6226aa6437a8a3f32fb1a1ea22cac451467d58e3d075477249b04a33776b3320",
+          "bytes": 42896,
+          "cues": 414,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_26.kk.srt",
+          "sha256": "649aa8662f0ce26118669ea311bdb3507dd4fdf773935be5df4dd0aade486030",
+          "bytes": 35555,
+          "cues": 412,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_26.kk.vtt",
+          "sha256": "891de28595061ebfb02af485ca242b231f0d62ab86b94cea78aff5138fc0a437",
+          "bytes": 35563,
+          "cues": 412,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 27,
       "language": "kk",
-      "filename": "beelzebub-tv-27ep.srt",
+      "filename": "ep_27.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-27ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-27ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-27ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_27.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_27.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_27.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_27.kk.srt",
+          "sha256": "0e9a0eb10a9bb3b2830fea680d839ce6434f5501824a227f836543b9332bb049",
+          "bytes": 37279,
+          "cues": 446,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_27.kk.vtt",
+          "sha256": "4ad498868faa7bd5c9320cedc61be8410bb87fb4ecaf0a5b842f26cca26b9079",
+          "bytes": 37376,
+          "cues": 446,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_27.kk.ass",
+          "sha256": "cfc6b73dd34ce63834b0b2b7ee752e8ee6b0b25a0bcacf6aa818bf5719bbf11d",
+          "bytes": 45028,
+          "cues": 446,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 28,
       "language": "kk",
-      "filename": "beelzebub-tv-28ep.srt",
+      "filename": "ep_28.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-28ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-28ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-28ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_28.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_28.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_28.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_28.kk.ass",
+          "sha256": "9c8474787da3dd53890d1fc91e5b1768cb561d434c2c6678910f75c022292259",
+          "bytes": 44731,
+          "cues": 445,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_28.kk.srt",
+          "sha256": "26a5c26b90c5f055e5b1f391293a8ac2c7e6550af01ced2abdbe81ecd4cc133e",
+          "bytes": 36960,
+          "cues": 444,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_28.kk.vtt",
+          "sha256": "f7e036009200bb19c06e6228049b66bef4a7abe8e5bbf42a632ff0df538f13fb",
+          "bytes": 36968,
+          "cues": 444,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 29,
       "language": "kk",
-      "filename": "beelzebub-tv-29ep.srt",
+      "filename": "ep_29.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-29ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-29ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-29ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_29.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_29.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_29.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_29.kk.srt",
+          "sha256": "41f1effdf59e8f34e47bd3cb7374b02d0b99c48729b68a4e22d61674c23591af",
+          "bytes": 35783,
+          "cues": 382,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_29.kk.vtt",
+          "sha256": "a4a23d375862ffd077aa88135a55dacdf78a3db3d3d9b55ae5f4e5cdb88016bb",
+          "bytes": 35880,
+          "cues": 382,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_29.kk.ass",
+          "sha256": "1798d855d059eab07c2ea121a19336b7919e1994f7c0ea2caa7153326c627dcf",
+          "bytes": 42572,
+          "cues": 382,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 30,
       "language": "kk",
-      "filename": "beelzebub-tv-30ep.srt",
+      "filename": "ep_30.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-30ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-30ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-30ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_30.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_30.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_30.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_30.kk.ass",
+          "sha256": "5ae1476bee56f78503c638d9b7601faa5732d38c9a83a1ff26be949676d5e2c9",
+          "bytes": 37310,
+          "cues": 341,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_30.kk.srt",
+          "sha256": "f783c6274d9d70c127be1ed616790c35d8fb7f28cb1a205f44478b48789ed37a",
+          "bytes": 31100,
+          "cues": 340,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_30.kk.vtt",
+          "sha256": "4da13950aed0011786d5e159b7f46a6b446fbc1662c3c2d6bccdb8eb74d703fd",
+          "bytes": 31108,
+          "cues": 340,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 31,
       "language": "kk",
-      "filename": "beelzebub-tv-31ep.srt",
+      "filename": "ep_31.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-31ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-31ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-31ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_31.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_31.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_31.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_31.kk.srt",
+          "sha256": "3bd0d058bb09211fc555c46f6cbc542ac462d4e663b4de11d0a04979a5e2b2e1",
+          "bytes": 30704,
+          "cues": 347,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_31.kk.vtt",
+          "sha256": "e68aeaba7e2f17fb772f948d894fe11543ab51213ec3c5e5c958427fcaa7ac59",
+          "bytes": 30801,
+          "cues": 347,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_31.kk.ass",
+          "sha256": "84617716fd9395ec2f6d9f340fb283f6f43f2a898a01fbac970fe0857e7cacbf",
+          "bytes": 36968,
+          "cues": 347,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 32,
       "language": "kk",
-      "filename": "beelzebub-tv-32ep.srt",
+      "filename": "ep_32.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-32ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-32ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-32ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_32.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_32.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_32.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_32.kk.ass",
+          "sha256": "0ab40462d5489e3c61779eb804041d61fe7bab5805fb9cb1456d257f8a9e6193",
+          "bytes": 46122,
+          "cues": 434,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_32.kk.srt",
+          "sha256": "dcbb7dd815d0e14225659268c9775e5c70dbf99a1a9002e36b5ce7283cd5e2b2",
+          "bytes": 38481,
+          "cues": 432,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_32.kk.vtt",
+          "sha256": "d0f2769fb501524fa9d0104d8c363c309b9e5bf304bf33d873ffd0d7203987d5",
+          "bytes": 38489,
+          "cues": 432,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 33,
       "language": "kk",
-      "filename": "beelzebub-tv-33ep.srt",
+      "filename": "ep_33.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-33ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-33ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-33ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_33.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_33.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_33.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_33.kk.srt",
+          "sha256": "3e85c01a2f5a316b025db594bcd6b4359f551439543bb225e1707a2f3049eaad",
+          "bytes": 29500,
+          "cues": 349,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_33.kk.vtt",
+          "sha256": "1af79f1a94351a60042e9f914fe5d1bebc70af4015cc7792ad6dbc92c5582ad7",
+          "bytes": 29597,
+          "cues": 349,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_33.kk.ass",
+          "sha256": "499519cce6a2febe2f5219d63873427eb21c10aca9fba75eb659093a9b2b7926",
+          "bytes": 35794,
+          "cues": 349,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 34,
       "language": "kk",
-      "filename": "beelzebub-tv-34ep.srt",
+      "filename": "ep_34.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-34ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-34ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-34ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_34.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_34.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_34.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_34.kk.srt",
+          "sha256": "fcfc84966d1d99de86afd3135530803d3069df0a7616026612c458cb6f0086ab",
+          "bytes": 36492,
+          "cues": 424,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_34.kk.vtt",
+          "sha256": "fc176c2b2f9c259db553a85f9bdcf3ba18f3dc55a32e9edf9c204a1eb6b5e699",
+          "bytes": 36589,
+          "cues": 424,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_34.kk.ass",
+          "sha256": "e6a403cdb7511412adbb71d25a7310286209a4d02de4d178d6ccc5419ef0d49f",
+          "bytes": 43911,
+          "cues": 424,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 35,
       "language": "kk",
-      "filename": "beelzebub-tv-35ep.srt",
+      "filename": "ep_35.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-35ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-35ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-35ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_35.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_35.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_35.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_35.kk.ass",
+          "sha256": "12525d4dbd4713d4e8ab8961c67dc9e40f9bea0a4ada731dfe9665a830fac62b",
+          "bytes": 44746,
+          "cues": 416,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_35.kk.srt",
+          "sha256": "653a44c6ebdde1a1e975fd9d222a6f99a2e3757175c53a25b878018f9038c533",
+          "bytes": 37410,
+          "cues": 415,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_35.kk.vtt",
+          "sha256": "c6ae841164e86b468787c31944033d062dae20219422ad4065b195d44b60c5dc",
+          "bytes": 37418,
+          "cues": 415,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 36,
       "language": "kk",
-      "filename": "beelzebub-tv-36ep.srt",
+      "filename": "ep_36.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-36ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-36ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-36ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_36.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_36.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_36.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_36.kk.ass",
+          "sha256": "b111400ca16100f1d301e887e654d1e3640ea1b749573421059b375a33fb1ea9",
+          "bytes": 37171,
+          "cues": 355,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_36.kk.srt",
+          "sha256": "289c53d1acde833488d6d3a9105678e6c843c26b36ba69cc4857efb5a84d1eb4",
+          "bytes": 30751,
+          "cues": 354,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_36.kk.vtt",
+          "sha256": "bc4e455042e313bb38e321a957c47accdbf888d843b32c7a6c14f8d883e3afa5",
+          "bytes": 30759,
+          "cues": 354,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 37,
       "language": "kk",
-      "filename": "beelzebub-tv-37ep.srt",
+      "filename": "ep_37.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-37ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-37ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-37ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_37.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_37.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_37.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_37.kk.ass",
+          "sha256": "bece133252b23a7604d7cc1b3ab9fa07d22a4f037b88de8862f3c80173940090",
+          "bytes": 33021,
+          "cues": 321,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_37.kk.srt",
+          "sha256": "e89bb44929efd315742787acd28ecaddac73d343bbd39d3b4bab692896090622",
+          "bytes": 27075,
+          "cues": 319,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_37.kk.vtt",
+          "sha256": "27b367942905d2c74891e1c949d61b197a7801459a3be352cd0bbb2320c57938",
+          "bytes": 27083,
+          "cues": 319,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 38,
       "language": "kk",
-      "filename": "beelzebub-tv-38ep.srt",
+      "filename": "ep_38.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-38ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-38ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-38ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_38.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_38.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_38.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_38.kk.srt",
+          "sha256": "3ea2c20593ec2269c61b72d36a2a1e959394c9b7959e5a4b2508c1cdaa6f67a0",
+          "bytes": 39802,
+          "cues": 455,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_38.kk.vtt",
+          "sha256": "29a08ac4707cb7c84bf8ad28e7473fb47aab1a19856213ce6c464520788a2e3e",
+          "bytes": 39899,
+          "cues": 455,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_38.kk.ass",
+          "sha256": "7756a6c4f1a58e3ff55690824eb6e8517b1ba920b79dce3e99af2cf194e796ff",
+          "bytes": 47686,
+          "cues": 455,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 39,
       "language": "kk",
-      "filename": "beelzebub-tv-39ep.srt",
+      "filename": "ep_39.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-39ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-39ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-39ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_39.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_39.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_39.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_39.kk.ass",
+          "sha256": "85464d0a84ab19a1d69c1dc0ada8933edab886c4f691bc24f2ae757038090b00",
+          "bytes": 41529,
+          "cues": 393,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_39.kk.srt",
+          "sha256": "b8a9370a3c8b0300fff03cc8d6f0a4241213752ff32578d6c5dd848784a0122e",
+          "bytes": 34503,
+          "cues": 391,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_39.kk.vtt",
+          "sha256": "ae2e0a6ecd0a327d11cb7f1190b58287310245c9f88b477063bee97036249bf9",
+          "bytes": 34511,
+          "cues": 391,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 40,
       "language": "kk",
-      "filename": "beelzebub-tv-40ep.srt",
+      "filename": "ep_40.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-40ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-40ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-40ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_40.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_40.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_40.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_40.kk.srt",
+          "sha256": "1033c5d17476ee890781d1e881dfa055365efbbefe1ffaf0963b044c226f89c6",
+          "bytes": 32993,
+          "cues": 384,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_40.kk.vtt",
+          "sha256": "5553619ae8cfd6cbf5e49e97bded8357565fbf43701ddd93dacc21da3ab153dd",
+          "bytes": 33090,
+          "cues": 384,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_40.kk.ass",
+          "sha256": "d8d56a3f11c2bbc28b8516657e58f42a3b2cd5c6b5f9e6ef78b39922eee26c06",
+          "bytes": 39812,
+          "cues": 384,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 41,
       "language": "kk",
-      "filename": "beelzebub-tv-41ep.srt",
+      "filename": "ep_41.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-41ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-41ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-41ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_41.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_41.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_41.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_41.kk.srt",
+          "sha256": "6ef967a342d48a7704fbfe744dee319eb79ee67a82c8f65f23ad265e9f9e95de",
+          "bytes": 31228,
+          "cues": 373,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_41.kk.vtt",
+          "sha256": "8ea1de6e96373cd7aa92b18b7c3dffe30783753a46af77f98f36bf2e8dd6b8d4",
+          "bytes": 31325,
+          "cues": 373,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_41.kk.ass",
+          "sha256": "22e0a67b502e154b9f045b5f53a6035b616606a82d6c30bedbaef16d1c790c1a",
+          "bytes": 37882,
+          "cues": 373,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 42,
       "language": "kk",
-      "filename": "beelzebub-tv-42ep.srt",
+      "filename": "ep_42.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-42ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-42ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-42ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_42.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_42.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_42.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_42.kk.srt",
+          "sha256": "c6e2e515d331606c0627a600c4e114dcd3716acdc145bf865b7393d9a553698f",
+          "bytes": 39672,
+          "cues": 438,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_42.kk.vtt",
+          "sha256": "8e0bbf756dfba1cdf6b9d2bbc3d79f7519b9d83397737aabd976c083b0af4abb",
+          "bytes": 39769,
+          "cues": 438,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_42.kk.ass",
+          "sha256": "5f8f2cfa74fea4202c3538bf6c89dc34ffe421e06ec69bb676429ba84d75669d",
+          "bytes": 47301,
+          "cues": 438,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 43,
       "language": "kk",
-      "filename": "beelzebub-tv-43ep.srt",
+      "filename": "ep_43.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-43ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-43ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-43ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_43.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_43.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_43.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_43.kk.ass",
+          "sha256": "af91e40b3539fd25ea29eace34ad12baf680298cc4ae79de9a2b9460fc2fa026",
+          "bytes": 47313,
+          "cues": 439,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_43.kk.srt",
+          "sha256": "4e9a463de335ca76a47a439fb405f75fc6dbf73b65a91bf1ab778282470eb530",
+          "bytes": 39561,
+          "cues": 436,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_43.kk.vtt",
+          "sha256": "ad81eee655bbcf1484e83ad7305ca06165936cd6ec74b50ead84c5036dd35676",
+          "bytes": 39569,
+          "cues": 436,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 44,
       "language": "kk",
-      "filename": "beelzebub-tv-44ep.srt",
+      "filename": "ep_44.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-44ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-44ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-44ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_44.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_44.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_44.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_44.kk.srt",
+          "sha256": "36dbade0980392700465658f8d96f7dcfa9dfbe1994a3d9d7ba1f321684ef079",
+          "bytes": 32731,
+          "cues": 383,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_44.kk.vtt",
+          "sha256": "1711dba4494608a046ac879e98ae0d8db4498b415ecfe3e1e53a14a88b9a2580",
+          "bytes": 32828,
+          "cues": 383,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_44.kk.ass",
+          "sha256": "1e5d9ff83feb98554410725c60ceab02af6cb32df12ade32fca6b7de10ee3d0d",
+          "bytes": 39535,
+          "cues": 383,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 45,
       "language": "kk",
-      "filename": "beelzebub-tv-45ep.srt",
+      "filename": "ep_45.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-45ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-45ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-45ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_45.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_45.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_45.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_45.kk.srt",
+          "sha256": "219aef028988f75742bb56e3bd47260cea3085c39a1a66271f2f5a1d64b6fa96",
+          "bytes": 39555,
+          "cues": 442,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_45.kk.vtt",
+          "sha256": "aff8b07526aa8a07aea877f5aee7fbe7dfed08558b15a48dfaad9c662863bf56",
+          "bytes": 39652,
+          "cues": 442,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_45.kk.ass",
+          "sha256": "e844f48524d59f383d4c284f56d030c6716ec1a9f9231f8257d7b3e10738d2c4",
+          "bytes": 47244,
+          "cues": 442,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 46,
       "language": "kk",
-      "filename": "beelzebub-tv-46ep.srt",
+      "filename": "ep_46.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-46ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-46ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-46ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_46.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_46.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_46.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_46.kk.srt",
+          "sha256": "fad5f1d1691c1aa3aaa1705dc41d2ca7a0665d97c60a856f792d02bd014521d2",
+          "bytes": 36068,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_46.kk.vtt",
+          "sha256": "910445df5447af634fdc921c4915fc87566da2e1e30f874d6f7bcac85ddbd855",
+          "bytes": 36165,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_46.kk.ass",
+          "sha256": "7e22d2479269e18847462b879b4ce92eeb9a7ecd405fc0f2026a03ecef8065f9",
+          "bytes": 43202,
+          "cues": 405,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 47,
       "language": "kk",
-      "filename": "beelzebub-tv-47ep.srt",
+      "filename": "ep_47.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-47ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-47ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-47ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_47.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_47.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_47.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_47.kk.ass",
+          "sha256": "1b415086f717fe4b8e2ca062bced1858bba383069b5d80eae733261e61584a24",
+          "bytes": 41993,
+          "cues": 381,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_47.kk.srt",
+          "sha256": "c5f27d0fffb6236d7db813c408e64f288548de2128a1c570f675687bb0f43a9b",
+          "bytes": 35183,
+          "cues": 380,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_47.kk.vtt",
+          "sha256": "eccbc6bbb0c7e8f5fb89536ce9f888b4c2fb04d8e05c840bd1539078a39e2fe7",
+          "bytes": 35191,
+          "cues": 380,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 48,
       "language": "kk",
-      "filename": "beelzebub-tv-48ep.srt",
+      "filename": "ep_48.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-48ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-48ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-48ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_48.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_48.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_48.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_48.kk.ass",
+          "sha256": "76dfade6b358e71208a5038046f60dddf75afc84142d2fc4b9d7c8ac9b177bb6",
+          "bytes": 38027,
+          "cues": 364,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_48.kk.srt",
+          "sha256": "e34d0816eeba3709bc1714b292dbaae9b43e2221c2908d3e0f0184ea4d547d24",
+          "bytes": 31471,
+          "cues": 363,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_48.kk.vtt",
+          "sha256": "1b84fbf6226cb553bedd44024acfc706fa1b3a64cdb6b8b35d1aaf15d02d6f92",
+          "bytes": 31479,
+          "cues": 363,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 49,
       "language": "kk",
-      "filename": "beelzebub-tv-49ep.srt",
+      "filename": "ep_49.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-49ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-49ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-49ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_49.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_49.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_49.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_49.kk.ass",
+          "sha256": "d93f58f3eb25608e1a50db4df0375db5ae66908ace71a3242f03a3d342f42fc3",
+          "bytes": 42539,
+          "cues": 383,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_49.kk.srt",
+          "sha256": "ec1e730211a308f34cfba9ac178fa6e1b7c81cf598dd918351d05d7f153c8b16",
+          "bytes": 35699,
+          "cues": 382,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_49.kk.vtt",
+          "sha256": "8964fef6c99213a6be63731deb00797ce5f8a35b38125713b78a22c0b92590af",
+          "bytes": 35707,
+          "cues": 382,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 50,
       "language": "kk",
-      "filename": "beelzebub-tv-50ep.srt",
+      "filename": "ep_50.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-50ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-50ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-50ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_50.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_50.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_50.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_50.kk.srt",
+          "sha256": "05da67c57683e0f835fda5d9db3bb668c7a4a3c7cf947afcc61d632ce83740a6",
+          "bytes": 38541,
+          "cues": 457,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_50.kk.vtt",
+          "sha256": "f92721c1bd6c47f62f21b90e0544915f601158909242daeddbe28d6f54d5f2dc",
+          "bytes": 38638,
+          "cues": 457,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_50.kk.ass",
+          "sha256": "8030b6d73c145386ae65b0df13127057d29e873c173f9a4caa1090969eeb6452",
+          "bytes": 46455,
+          "cues": 457,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 51,
       "language": "kk",
-      "filename": "beelzebub-tv-51ep.srt",
+      "filename": "ep_51.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-51ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-51ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-51ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_51.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_51.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_51.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_51.kk.srt",
+          "sha256": "386daf0a5be4ef725798a97bc9371fada3d56e25dbc3901d1fef24406149478c",
+          "bytes": 37712,
+          "cues": 412,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_51.kk.vtt",
+          "sha256": "b0c1f35e2fabaac2e941c2d547f1a28ddad85f91abdbe09b20b9a45bff85ac3d",
+          "bytes": 37809,
+          "cues": 412,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_51.kk.ass",
+          "sha256": "dba51da27153496142d1ca4e6d8c02f82a89961aefbf516df656d7385923cde2",
+          "bytes": 44951,
+          "cues": 412,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 52,
       "language": "kk",
-      "filename": "beelzebub-tv-52ep.srt",
+      "filename": "ep_52.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-52ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-52ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-52ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_52.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_52.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_52.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_52.kk.srt",
+          "sha256": "cca7cb2924ca87853639ee30c993e2e60708a7e05ebdb25e1d63d051fd6e2982",
+          "bytes": 38805,
+          "cues": 404,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_52.kk.vtt",
+          "sha256": "5bd26fef5d568a271c63aceb9653046cfc41806b209b0e45d7e427df0378e296",
+          "bytes": 38902,
+          "cues": 404,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_52.kk.ass",
+          "sha256": "82ac896b0048c1f9dcdea5d343f0d9134573fe4a3e152ab43c24f3659410824a",
+          "bytes": 45924,
+          "cues": 404,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 53,
       "language": "kk",
-      "filename": "beelzebub-tv-53ep.srt",
+      "filename": "ep_53.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-53ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-53ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-53ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_53.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_53.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_53.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_53.kk.ass",
+          "sha256": "c5a0bd07f6f70179365b212892ca9aa89c4e33d5fbce37a6f8cf666c785695db",
+          "bytes": 42424,
+          "cues": 405,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_53.kk.srt",
+          "sha256": "a8219c9cd2610594cb8b10c7b7c748745f195bdc6ba1bb0c0f33d50d76577a19",
+          "bytes": 35254,
+          "cues": 404,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_53.kk.vtt",
+          "sha256": "e4ab46dca5f668091a99195ae9eb0205ba1e322fc233002eb43543bd1a75b909",
+          "bytes": 35262,
+          "cues": 404,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 54,
       "language": "kk",
-      "filename": "beelzebub-tv-54ep.srt",
+      "filename": "ep_54.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-54ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-54ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-54ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_54.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_54.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_54.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_54.kk.ass",
+          "sha256": "da3d15e185fb0ccf054a2138af8f562bd4a548ade93304f32d71d5945b4ff116",
+          "bytes": 41812,
+          "cues": 379,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_54.kk.srt",
+          "sha256": "a36e31393444fddd1c4333201cee8b3c1de6b2f0e6f498ad2c9c19e1d9f7d9e7",
+          "bytes": 34996,
+          "cues": 377,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_54.kk.vtt",
+          "sha256": "c1ba6b963491eebec9edf2460fc30b57c0fbfe1977ed7896cd0c1a55c357e187",
+          "bytes": 35004,
+          "cues": 377,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 55,
       "language": "kk",
-      "filename": "beelzebub-tv-55ep.srt",
+      "filename": "ep_55.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-55ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-55ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-55ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_55.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_55.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_55.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_55.kk.ass",
+          "sha256": "789988c8f406fae91333aa33c51dcc3b6ef292e8a2240437f715adf7d247707c",
+          "bytes": 45961,
+          "cues": 407,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_55.kk.srt",
+          "sha256": "a7db11df64957eab6e93cdf0612cfb9f1159e92a2722700c6282862364f7a12a",
+          "bytes": 38725,
+          "cues": 405,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_55.kk.vtt",
+          "sha256": "006126edfde0dfcca4749be162b8693436b26b69000333f99fb74044fcc86738",
+          "bytes": 38733,
+          "cues": 405,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 56,
       "language": "kk",
-      "filename": "beelzebub-tv-56ep.srt",
+      "filename": "ep_56.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-56ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-56ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-56ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_56.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_56.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_56.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_56.kk.srt",
+          "sha256": "d75966f21ed471cdc5d37c79adad236fd7a00b23f7700e87f32f513bd953792b",
+          "bytes": 35567,
+          "cues": 405,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_56.kk.vtt",
+          "sha256": "51fb49e8d64210bcce34dd1a31be6867ccd0bfdf4571daa285716fd87bc3477b",
+          "bytes": 35664,
+          "cues": 405,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_56.kk.ass",
+          "sha256": "bbf5b4b3049462d974ff3692cb463fe37ad328a189d31985dfc3db02eb88adda",
+          "bytes": 42701,
+          "cues": 405,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 57,
       "language": "kk",
-      "filename": "beelzebub-tv-57ep.srt",
+      "filename": "ep_57.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-57ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-57ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-57ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_57.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_57.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_57.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_57.kk.ass",
+          "sha256": "c1bccbafb735404b058de354770e7ebf9bc80e6e10938f19a6050f842ce30aed",
+          "bytes": 37430,
+          "cues": 367,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_57.kk.srt",
+          "sha256": "0d6ac654d65b099c13191869f8a73aff1422adc94604dc0d8fab73b9c7660118",
+          "bytes": 30829,
+          "cues": 366,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_57.kk.vtt",
+          "sha256": "0662fecde01d3d6242c5b0c04e5c62552c0f3d2f5f1e96e3a2a1b0efb789d4ba",
+          "bytes": 30837,
+          "cues": 366,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 58,
       "language": "kk",
-      "filename": "beelzebub-tv-58ep.srt",
+      "filename": "ep_58.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-58ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-58ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-58ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_58.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_58.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_58.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_58.kk.ass",
+          "sha256": "eac4eb1af605b398397189b15663360a598800568528953f7a82616813a17161",
+          "bytes": 44280,
+          "cues": 420,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_58.kk.srt",
+          "sha256": "ccb2c593411602286cdb4dedd6c7dad18d7ed2133f10f5524ceeb1d2b1186edc",
+          "bytes": 36813,
+          "cues": 417,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_58.kk.vtt",
+          "sha256": "d89f79e96098a7634f16b6605c61f34513067ba9030e757a4128e51e884a288b",
+          "bytes": 36821,
+          "cues": 417,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 59,
       "language": "kk",
-      "filename": "beelzebub-tv-59ep.srt",
+      "filename": "ep_59.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-59ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-59ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-59ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_59.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_59.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_59.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_59.kk.srt",
+          "sha256": "36aa08458b74928202945175a0610aba049361f7730d5da88ec0b187f787cc78",
+          "bytes": 27040,
+          "cues": 315,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_59.kk.vtt",
+          "sha256": "c00fdead8f7c5c8761006c02f3e0af3d5655d79076ecf439715c8187dee6dd82",
+          "bytes": 27137,
+          "cues": 315,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_59.kk.ass",
+          "sha256": "1ad200ee5300cf6b08dbbc3891d7e31e402433aaf2da2847efbcc31e5b6166d9",
+          "bytes": 32824,
+          "cues": 315,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 60,
       "language": "kk",
-      "filename": "beelzebub-tv-60ep.srt",
+      "filename": "ep_60.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-60ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-60ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/beelzebub-tv/beelzebub-tv-60ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_60.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_60.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/beelzebub-tv/ep_60.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/beelzebub-tv/ep_60.kk.ass",
+          "sha256": "3845811e1bbe0278c27b0b4c4d8f40036c2eb831009ae8bec8bc979d98d9349a",
+          "bytes": 48480,
+          "cues": 456,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/beelzebub-tv/ep_60.kk.srt",
+          "sha256": "3f533629a3422d79c9840a78869e6d72e7d00972f6d4801b640a329855ae1d1f",
+          "bytes": 40544,
+          "cues": 455,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/beelzebub-tv/ep_60.kk.vtt",
+          "sha256": "779ee4c349a684d51efd51ac5c18ad4400b3def56b5a72bbe19e42c04c674f2a",
+          "bytes": 40552,
+          "cues": 455,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 238,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/beelzebub-tv.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

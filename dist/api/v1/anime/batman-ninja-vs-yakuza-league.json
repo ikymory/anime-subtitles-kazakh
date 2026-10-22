@@ -15,24 +15,71 @@
     "Action",
     "Martial Arts"
   ],
-  "description": "Batman Ninja vs. Yakuza League - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/batman-ninja-vs-yakuza-league.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/batman-ninja-vs-yakuza-league.jpg",
+  "description": "Batman Ninja vs. Yakuza League - official Kazakh translation archive by ikymory.",
   "averageScore": 78,
   "popularity": 93600,
+  "catalog_id": "batman-ninja-vs-yakuza-league",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "batman-ninja-vs-yakuza-league-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/batman-ninja-vs-yakuza-league/batman-ninja-vs-yakuza-league-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/batman-ninja-vs-yakuza-league/batman-ninja-vs-yakuza-league-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/batman-ninja-vs-yakuza-league/batman-ninja-vs-yakuza-league-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/batman-ninja-vs-yakuza-league/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/batman-ninja-vs-yakuza-league/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/batman-ninja-vs-yakuza-league/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/batman-ninja-vs-yakuza-league/ep_01.kk.ass",
+          "sha256": "a3cbda9d051298e47dfdcea97f750726d237ed319aad5871513e7c61b02cb2a3",
+          "bytes": 142305,
+          "cues": 1465,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/batman-ninja-vs-yakuza-league/ep_01.kk.srt",
+          "sha256": "80021d0d44d6ad12cb83c4929ee40169141a52a2e3916564fd1159f9694d40f5",
+          "bytes": 119699,
+          "cues": 1464,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/batman-ninja-vs-yakuza-league/ep_01.kk.vtt",
+          "sha256": "e83ff6bb07dcbb5c4d49a7b8ee20615e6239a00e66d3d36db6cf5f2643d6fd89",
+          "bytes": 119707,
+          "cues": 1464,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/batman-ninja-vs-yakuza-league.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

@@ -15,11 +15,17 @@
     "Action",
     "Sci-Fi"
   ],
-  "description": "Azur Lane - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/azur-lane.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/azur-lane.jpg",
+  "description": "Azur Lane - official Kazakh translation archive by ikymory.",
   "averageScore": 76,
   "popularity": 91200,
+  "catalog_id": "azur-lane",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,126 +40,446 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 12,
+  "available_episodes_count": 12,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "azur-lane-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_01.kk.srt",
+          "sha256": "5cae3fd03633ad5a8112a41b993b36271538694f96daa58536ed6038be157743",
+          "bytes": 19096,
+          "cues": 214,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_01.kk.vtt",
+          "sha256": "99223bd0733aebc33962898839cf12b2b77c1986e59b109d73ea62c54b88c8bb",
+          "bytes": 19193,
+          "cues": 214,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_01.kk.ass",
+          "sha256": "25f3f732dba92645da12e17dc90c7ef619ded6462aafb503182088e924354dd3",
+          "bytes": 23365,
+          "cues": 214,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "azur-lane-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_02.kk.srt",
+          "sha256": "bac5929d79e20d92baa12063e9a77b477eb24e7bf6e5baf13383bff510880d69",
+          "bytes": 25679,
+          "cues": 289,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_02.kk.vtt",
+          "sha256": "fafb1650c007ccbdc9d1c4208c8316d51567cd6d12be8b09a63da5b27b310598",
+          "bytes": 25776,
+          "cues": 289,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_02.kk.ass",
+          "sha256": "ffe9bdce8a00a30741e92725b93c2c549c00ad1d1e56405baa9c1e6bd422ab5f",
+          "bytes": 31073,
+          "cues": 289,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "azur-lane-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_03.kk.srt",
+          "sha256": "a077d3af4db34f21c018c808ed345fdf4dd67a6208775c250ca8f004d396236d",
+          "bytes": 22915,
+          "cues": 264,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_03.kk.vtt",
+          "sha256": "93e2a00f775b19fa0408ce85a8a222aa7dd7a0cd63e79ba1b0f650c784f9f032",
+          "bytes": 23012,
+          "cues": 264,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_03.kk.ass",
+          "sha256": "c5f8c9fea1f62e19450c28f2e27554a4a7ca8398f59b48e652778b1652932496",
+          "bytes": 27934,
+          "cues": 264,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "azur-lane-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_04.kk.srt",
+          "sha256": "1930db2cfc37c49634b08bdcad2972e662a91c196921ababee0ca8759f2bdf61",
+          "bytes": 22136,
+          "cues": 242,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_04.kk.vtt",
+          "sha256": "61af7dec25b6b1879c751390bc749ea082f11a048ed913bf300e666cfb5e5987",
+          "bytes": 22233,
+          "cues": 242,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_04.kk.ass",
+          "sha256": "fb7545bfe58535c1d497a66ecbdd5f0ac121f2c95adf904a8aecb90c4d74f018",
+          "bytes": 26825,
+          "cues": 242,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "azur-lane-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_05.kk.srt",
+          "sha256": "183a28d024bea1ce719284bbbac373332d8e61f314e9c5e23ca9dc1c38b83f34",
+          "bytes": 18960,
+          "cues": 224,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_05.kk.vtt",
+          "sha256": "c45024740c2d6f4fdf169cf9afedb53cfec4f54c17aee9b0bf34dcf865f8a55e",
+          "bytes": 19057,
+          "cues": 224,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_05.kk.ass",
+          "sha256": "c0b62aa1dee377dcf463c5ae153035a82e20964701e8de9860c1d221ffb7387c",
+          "bytes": 23379,
+          "cues": 224,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "azur-lane-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_06.kk.srt",
+          "sha256": "fd4b3a82c94e9dab1254f6fe5e408f686cb01d7252bc09bbf06473c6f5c65a96",
+          "bytes": 23065,
+          "cues": 272,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_06.kk.vtt",
+          "sha256": "6d7aab61c6ec1369e59563dc7b198f244784cfa4e518ac14d84d70cac06c1969",
+          "bytes": 23162,
+          "cues": 272,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_06.kk.ass",
+          "sha256": "ef9cc401613c2306ec2e25217e4acfe4cf4b18814aa0b9612b7610e2c81a2a5f",
+          "bytes": 28204,
+          "cues": 272,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "azur-lane-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_07.kk.srt",
+          "sha256": "d7279bc6ef60eeb4a0c00c6c57b8f22ade0c9172af16c9f8a6d87cc32df46910",
+          "bytes": 13771,
+          "cues": 176,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_07.kk.vtt",
+          "sha256": "65e3345b46794bc7154f5c717b15486167369f9069314157dc14ab0402f5c43b",
+          "bytes": 13868,
+          "cues": 176,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_07.kk.ass",
+          "sha256": "145cf62c876edc559f866ff50861cbad7a02f7b3d367ef4368019e80c72d2386",
+          "bytes": 17470,
+          "cues": 176,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "azur-lane-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_08.kk.srt",
+          "sha256": "5338354fbd99582a04f94ce3d7453f0182bb7aea051bf95ee8c7c1c322f0702a",
+          "bytes": 20752,
+          "cues": 250,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_08.kk.vtt",
+          "sha256": "58f3195c6add5f2d6866603c693b65cae3f11067cda208ce4f3618554e840755",
+          "bytes": 20849,
+          "cues": 250,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_08.kk.ass",
+          "sha256": "c15c38a8032d5a1d5479f7f155ffbc5a05ea2fb04e68f733dcca29a6c34e130b",
+          "bytes": 25561,
+          "cues": 250,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "azur-lane-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_09.kk.srt",
+          "sha256": "52a42a3a15c5257ff58de48d01603bc6ed9e64b8fc21de26a148e9cc922f9301",
+          "bytes": 21669,
+          "cues": 245,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_09.kk.vtt",
+          "sha256": "3d99dbedb8494c1306e9f6b02e032343200159bd0d2213408f4bc7db9be64d23",
+          "bytes": 21766,
+          "cues": 245,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_09.kk.ass",
+          "sha256": "68b207def2a40d0d036455d9d6e7ea88c2bbdcdaac3f81c1c6935194f0c4ff4f",
+          "bytes": 26403,
+          "cues": 245,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "azur-lane-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_10.kk.srt",
+          "sha256": "81add1577b26b86ff2fa99dab17c6ca27e7645d60472cd8d3c8c5059d676eeaf",
+          "bytes": 23458,
+          "cues": 274,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_10.kk.vtt",
+          "sha256": "42dfe3b0c4268afcb7cecda31ee6569056a1b4641092f5dcc999efd91a4d11f1",
+          "bytes": 23555,
+          "cues": 274,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_10.kk.ass",
+          "sha256": "f4b6fe4ad0fac5a0292b692ad979c7e43ff97677e7f4145b5604934c1d968955",
+          "bytes": 28627,
+          "cues": 274,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "azur-lane-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_11.kk.srt",
+          "sha256": "0568c90d9b7d287c0e1d95ea3c56c7c427438fff3ec8a2726c32f8d585acad9f",
+          "bytes": 23619,
+          "cues": 279,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_11.kk.vtt",
+          "sha256": "9387642737249061f04ab8da51d5e8b8f4ca8d13d23034ee0954716a6598893a",
+          "bytes": 23716,
+          "cues": 279,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_11.kk.ass",
+          "sha256": "b807e29d10a1e9bccedf9e3352d33591654a6bf9a8e717c6b2bfab2ff944a452",
+          "bytes": 28863,
+          "cues": 279,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "azur-lane-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/azur-lane/azur-lane-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/azur-lane/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/azur-lane/ep_12.kk.srt",
+          "sha256": "4aa893c6c7a23124f5309cf59ff8d1232270b1668d303e85dfd49ed97447529b",
+          "bytes": 19562,
+          "cues": 224,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/azur-lane/ep_12.kk.vtt",
+          "sha256": "e52c17d325097c747b70a88879249f7ce9e74e6c5785678221bec4b702d25a7c",
+          "bytes": 19659,
+          "cues": 224,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/azur-lane/ep_12.kk.ass",
+          "sha256": "1810127dcd019cb6c6d9291da348b27563921778d15c4a71c02661e9ca8561d9",
+          "bytes": 23981,
+          "cues": 224,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 36,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/azur-lane.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

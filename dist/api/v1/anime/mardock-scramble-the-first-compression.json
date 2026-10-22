@@ -16,24 +16,68 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Mardock Scramble. The First Compression - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mardock-scramble-the-first-compression.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/mardock-scramble-the-first-compression.jpg",
+  "description": "Mardock Scramble. The First Compression - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "mardock-scramble-the-first-compression",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "mardock-scramble-the-first-compression-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mardock-scramble-the-first-compression/mardock-scramble-the-first-compression-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mardock-scramble-the-first-compression/mardock-scramble-the-first-compression-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/mardock-scramble-the-first-compression/mardock-scramble-the-first-compression-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mardock-scramble-the-first-compression/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mardock-scramble-the-first-compression/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/mardock-scramble-the-first-compression/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/mardock-scramble-the-first-compression/ep_01.kk.srt",
+          "sha256": "61faba4e56aa3ca9694550a1dffb82c55269d5e9bce5867980b7538983519321",
+          "bytes": 86199,
+          "cues": 936,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/mardock-scramble-the-first-compression/ep_01.kk.vtt",
+          "sha256": "22cca94dd6adfb4db9a56ccc05ab057a320a31386fd80ac111e0f762bd6b14db",
+          "bytes": 86296,
+          "cues": 936,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/mardock-scramble-the-first-compression/ep_01.kk.ass",
+          "sha256": "ad360c8ea48721486542bf7060917cc250260d358123ef393d7080083fb59eaf",
+          "bytes": 100863,
+          "cues": 936,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/mardock-scramble-the-first-compression.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

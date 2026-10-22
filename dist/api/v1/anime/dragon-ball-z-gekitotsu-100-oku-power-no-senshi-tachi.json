@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Dragon Ball Z. Gekitotsu!! 100-oku Power no Senshi-tachi - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi.jpg",
+  "description": "Dragon Ball Z. Gekitotsu!! 100-oku Power no Senshi-tachi - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/ep_01.kk.srt",
+          "sha256": "1e2f00782751ec2b1aea67d3a45ff4c62554983f0dbef4e17f187061f5308441",
+          "bytes": 33573,
+          "cues": 451,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/ep_01.kk.vtt",
+          "sha256": "694f8d1e163ac2a9efc9d603f641c60289066cefc8d3d329bb0a756069a1a454",
+          "bytes": 33670,
+          "cues": 451,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi/ep_01.kk.ass",
+          "sha256": "e042eca0f237cca60b6151e597f5eca91572ab4dd0b71b7e15783735e5a6be69",
+          "bytes": 41216,
+          "cues": 451,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-gekitotsu-100-oku-power-no-senshi-tachi.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

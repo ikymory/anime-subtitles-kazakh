@@ -16,24 +16,69 @@
     "Romance",
     "Sci-Fi"
   ],
-  "description": "The Place Promised in Our Early Days - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kumo-no-mukou-yakusoku-no-basho.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/kumo-no-mukou-yakusoku-no-basho.jpg",
+  "description": "The Place Promised in Our Early Days - official Kazakh translation archive by ikymory.",
   "averageScore": 85,
   "popularity": 102000,
+  "catalog_id": "kumo-no-mukou-yakusoku-no-basho",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kumo-no-mukou-yakusoku-no-basho-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kumo-no-mukou-yakusoku-no-basho/kumo-no-mukou-yakusoku-no-basho-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kumo-no-mukou-yakusoku-no-basho/kumo-no-mukou-yakusoku-no-basho-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kumo-no-mukou-yakusoku-no-basho/kumo-no-mukou-yakusoku-no-basho-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kumo-no-mukou-yakusoku-no-basho/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kumo-no-mukou-yakusoku-no-basho/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kumo-no-mukou-yakusoku-no-basho/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/kumo-no-mukou-yakusoku-no-basho/ep_01.kk.ass",
+          "sha256": "940b299c6a5f7e4535d69d732018eadb9e9532e57d0782bad273478be1ec08e8",
+          "bytes": 125247,
+          "cues": 1118,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/kumo-no-mukou-yakusoku-no-basho/ep_01.kk.srt",
+          "sha256": "1e58b1b7e787eea08326bc7b4454cb46a051df468fad9280f9f24583411e15dc",
+          "bytes": 107462,
+          "cues": 1116,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/kumo-no-mukou-yakusoku-no-basho/ep_01.kk.vtt",
+          "sha256": "73716f4e1420bf98e95f2c3c31a47f19bc31c34b0d7b0b2a289f072120b4b873",
+          "bytes": 107470,
+          "cues": 1116,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kumo-no-mukou-yakusoku-no-basho.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

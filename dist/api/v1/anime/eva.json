@@ -18,9 +18,20 @@
     "Psychological",
     "Sci-Fi"
   ],
-  "description": "NERV faces a brutal attack from SEELE, but with Asuka in a coma, and Shinji in a nervous breakdown, things soon turn into the surreal. This movie provides a concurrent ending to the final two episodes of the show <b>Neon Genesis Evangelion</b>.<br>\n<br>\n(Source: IMDb)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx32-5JYsv0wc122I.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n32-BH9yHJBQqeOa.jpg",
+  "description": "NERV faces a brutal attack from SEELE, but with Asuka in a coma, and Shinji in a nervous breakdown, things soon turn into the surreal. This movie provides a concurrent ending to the final two episodes of the show Neon Genesis Evangelion.\n\n(Source: IMDb)",
+  "averageScore": 88,
+  "popularity": 93000,
+  "color": "#e46b50",
+  "duration": 87,
+  "studio": "Gainax",
+  "catalog_id": "eva",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -49,272 +60,982 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 26,
+  "available_episodes_count": 26,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "eva-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_01.kk.srt",
+          "sha256": "bddcb5e482f52b6b145592bab9d6ae02c8fb2c3f09ce629cf47fb04123921b12",
+          "bytes": 23977,
+          "cues": 274,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_01.kk.vtt",
+          "sha256": "e6c1cd5aaabbcfbb233a4b9efe2757076f7ca57df863363bcaa4774d1f32309c",
+          "bytes": 24074,
+          "cues": 274,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_01.kk.ass",
+          "sha256": "16d077e7abf936c1a84f62948d85b3da5df14eb6070ae451208fa64fcf9dc884",
+          "bytes": 28898,
+          "cues": 274,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "eva-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_02.kk.srt",
+          "sha256": "12c00c42df52d38bab9dbca607454591eee6738e0b7c64fb55ae30673ba5ea01",
+          "bytes": 22558,
+          "cues": 256,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_02.kk.vtt",
+          "sha256": "eac6317c1775c98984720e10a73462ec67df8a5ca7635d7881dab2aab3ae1b42",
+          "bytes": 22655,
+          "cues": 256,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_02.kk.ass",
+          "sha256": "7dc1515bb45b7e16b99e1bb6d6d850b8e46597ed39aa6cce645d8b645584b562",
+          "bytes": 27209,
+          "cues": 256,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "eva-3ep.srt",
+      "filename": "ep_03.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_03.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_03.kk.srt",
+          "sha256": "f76d77d40c8691bd70a2c64f7325e824610f509f3179dd41f6d4a89c927ba207",
+          "bytes": 37393,
+          "cues": 428,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_03.kk.vtt",
+          "sha256": "3d19dbdf01e85b91ba60e026ead3ef1edee08755d65d2a45bc3aaea0e5f95503",
+          "bytes": 37490,
+          "cues": 428,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_03.kk.ass",
+          "sha256": "a74164f506c7bd6a85c92bc50d4330bc0743e9a477fa7e540b55a491842bc53c",
+          "bytes": 44624,
+          "cues": 428,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "eva-4ep.srt",
+      "filename": "ep_04.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_04.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_04.kk.srt",
+          "sha256": "520eba57ad30e931b58bb5854b01a67eccd478ac5b6032de6c70cb9f25ee8b05",
+          "bytes": 20636,
+          "cues": 252,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_04.kk.vtt",
+          "sha256": "84f9bb29edd6612dfdf4cdf863d9f4cd106dce577a79dcf99eb11d96eeb5299d",
+          "bytes": 20733,
+          "cues": 252,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_04.kk.ass",
+          "sha256": "259478f77e331250bc22313b2b550091a59f4651e9d2f1c79c1b25a21d53b75d",
+          "bytes": 25227,
+          "cues": 252,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "eva-5ep.srt",
+      "filename": "ep_05.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_05.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_05.kk.srt",
+          "sha256": "ad9067537a19a4304293d4e4f78968b97305a578f5fcf5ff60da770d728109c5",
+          "bytes": 22727,
+          "cues": 272,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_05.kk.vtt",
+          "sha256": "ef176ae73a6c9e1a6f6356b2f442f72359e6337b5312bb196f18817fd3469e33",
+          "bytes": 22824,
+          "cues": 272,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_05.kk.ass",
+          "sha256": "4f9a731996adf8687f350c04ef1d568eef1d559fccc6949a9ac6b88d2170b3b9",
+          "bytes": 27618,
+          "cues": 272,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "eva-6ep.srt",
+      "filename": "ep_06.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_06.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_06.kk.srt",
+          "sha256": "3a65409e421fa38dd8b45fd3d05cb04e2192d54e637cd0f24592a3d03257743f",
+          "bytes": 25631,
+          "cues": 290,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_06.kk.vtt",
+          "sha256": "add46bb7944de49d9367dca7739184caf0b398d6ffdca5fa171dddf72e23c949",
+          "bytes": 25728,
+          "cues": 290,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_06.kk.ass",
+          "sha256": "8a1ada31fe99baccc0b9659a4b59cb3e868f481d045d0b705cd9b8665e8ff04e",
+          "bytes": 30792,
+          "cues": 290,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "eva-7ep.srt",
+      "filename": "ep_07.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_07.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_07.kk.srt",
+          "sha256": "001f39203c3ac11f24d2e4e62ea6537d7bae305f7c3fd28a605e1a44497b7a15",
+          "bytes": 34148,
+          "cues": 355,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_07.kk.vtt",
+          "sha256": "1b58a34eb3c1ee90820ac1f60873ee9afc6cd591d7e8f959c44825e6ca6bc9ad",
+          "bytes": 34245,
+          "cues": 355,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_07.kk.ass",
+          "sha256": "d83427271f433e2c6109765038fa89bdb10e4753e96e8c6239de0c384265dbd6",
+          "bytes": 40284,
+          "cues": 355,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "eva-8ep.srt",
+      "filename": "ep_08.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_08.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_08.kk.srt",
+          "sha256": "f64be9bcb3f891f5d073d80f7745c0ebb92b1e22e5915c8269ef4083943aed90",
+          "bytes": 32796,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_08.kk.vtt",
+          "sha256": "48d4ea24b977525c656e91f04783044d3d386f30bd6567218b701fa6bb4f6b5d",
+          "bytes": 32893,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_08.kk.ass",
+          "sha256": "8531b2133abfa17d7855a67a0296da0f97926a9510148d8f7fb5cc4193cbb70b",
+          "bytes": 39022,
+          "cues": 361,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "eva-9ep.srt",
+      "filename": "ep_09.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_09.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_09.kk.srt",
+          "sha256": "323e7a2fb55f8f925b8238c69ae850fd9ef164d61afe0ddf3d41e391c5386c7f",
+          "bytes": 29847,
+          "cues": 328,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_09.kk.vtt",
+          "sha256": "8b92591a8df4f969c8808aba86e58ccd2d11c5108697099eb171523af2a239a5",
+          "bytes": 29944,
+          "cues": 328,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_09.kk.ass",
+          "sha256": "4283809645bc9534fa16747babbd3218c6a0c95c377244cc712739c23c9540b5",
+          "bytes": 35578,
+          "cues": 328,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "eva-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_10.kk.srt",
+          "sha256": "149f3267b2cd4352320de913303dec25d4deed5585fbe5bd4e236d87a9ba2fe3",
+          "bytes": 37316,
+          "cues": 434,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_10.kk.vtt",
+          "sha256": "d8138e8ede13c2f17ffc0abe36b85e8d5ba2cae0db40c443f67ab2c85caf20a0",
+          "bytes": 37413,
+          "cues": 434,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_10.kk.ass",
+          "sha256": "3690347adce092fad6bd2cd7f76148969807410deecba7b83e62d72e43ba025b",
+          "bytes": 44637,
+          "cues": 434,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "eva-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_11.kk.srt",
+          "sha256": "cfb1662522e2c7fcb02300fb2a6f0d238979661119d74095cfddfae2b059d545",
+          "bytes": 30770,
+          "cues": 331,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_11.kk.vtt",
+          "sha256": "f54db677800a25fa17093f5e8d46ea429a109f107e3f3e7f6c5ba45fb859674c",
+          "bytes": 30867,
+          "cues": 331,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_11.kk.ass",
+          "sha256": "b524d20f82ca81c66b5900ded3b0143c3c906106f01e2bbf4c4880909a573108",
+          "bytes": 36546,
+          "cues": 331,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "eva-12ep.srt",
+      "filename": "ep_12.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_12.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_12.kk.srt",
+          "sha256": "fed22a9122e21fc9824066997e2d3dff313c587ac2b57072f85736335f4f78ed",
+          "bytes": 31066,
+          "cues": 339,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_12.kk.vtt",
+          "sha256": "aa3b0e442a6c45703ae7bb35044fd4e23c83ef4617ace0e1a5282a2441380044",
+          "bytes": 31163,
+          "cues": 339,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_12.kk.ass",
+          "sha256": "bfa65ae806a7a723a700424bb2fcb3143a79b92cff431ed1ad0c83b5d4a81ca5",
+          "bytes": 36962,
+          "cues": 339,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "eva-13ep.srt",
+      "filename": "ep_13.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_13.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_13.kk.srt",
+          "sha256": "91afe02e00a1b85c05b568bafbd6b2861f2754861050601db715b74d1d245696",
+          "bytes": 31166,
+          "cues": 332,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_13.kk.vtt",
+          "sha256": "1f26c596877695a838f588fdcf312063875797af372526d2d0dc1cc21edd570c",
+          "bytes": 31263,
+          "cues": 332,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_13.kk.ass",
+          "sha256": "d3c9a022796d300de31d73f8d6e41f8e98af0cbb3bd9ce9b2ea3ca048c8003cc",
+          "bytes": 36957,
+          "cues": 332,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "eva-14ep.srt",
+      "filename": "ep_14.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_14.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_14.kk.srt",
+          "sha256": "2ec1c9fb0fe387c73877bf6972a64febbc246526b2e0c8623ae4af01266b3985",
+          "bytes": 14310,
+          "cues": 154,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_14.kk.vtt",
+          "sha256": "35a7fcb661582fa5d2c8b0c035ca0065391d76fae77aaa58932294df7bfe24b5",
+          "bytes": 14407,
+          "cues": 154,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_14.kk.ass",
+          "sha256": "82caab9e4def0702b432e9e89f7f69d94ec05f32da8250b4db040c751bff0665",
+          "bytes": 17431,
+          "cues": 154,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "eva-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_15.kk.srt",
+          "sha256": "6373cff0deffa276fcb581c85d7faedb6cd02d1e0bc315e0ac60c018adacb87b",
+          "bytes": 31851,
+          "cues": 334,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_15.kk.vtt",
+          "sha256": "9e076192dd5f0b1ef9bd69fe4c3fe996168ac08f04820b392f59ff1c925a1cec",
+          "bytes": 31948,
+          "cues": 334,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_15.kk.ass",
+          "sha256": "64716eac7725232049496e524081874f0304e178acd76a71293826ca83bd7471",
+          "bytes": 37672,
+          "cues": 334,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "eva-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_16.kk.srt",
+          "sha256": "c648771ed238222efb2c3cedb104f7e88832a3735dae0e3aa191a636336bd1a0",
+          "bytes": 23983,
+          "cues": 258,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_16.kk.vtt",
+          "sha256": "b72511b82818e78197a21ecbaa9318b8d2e074282be6fbff90407ea63d330607",
+          "bytes": 24080,
+          "cues": 258,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_16.kk.ass",
+          "sha256": "949246e8926cc4ecf0f186c16ac2f8a5bbe1d5e93e77c8e26bbac138757b3b8b",
+          "bytes": 28664,
+          "cues": 258,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "eva-17ep.srt",
+      "filename": "ep_17.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_17.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_17.kk.srt",
+          "sha256": "459043e9bf6a90874d8d8a36b70c6f6566a18768c7b9e323472d1ab96e63a034",
+          "bytes": 35245,
+          "cues": 361,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_17.kk.vtt",
+          "sha256": "f2b3e34e2fda72a24147d787380319b5f93ef87e188166e06deca8883cdc16a6",
+          "bytes": 35342,
+          "cues": 361,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_17.kk.ass",
+          "sha256": "59b2aec406a907ef9a62c1853f5744c2612401fba5c4f25b763d59219c051cbf",
+          "bytes": 41471,
+          "cues": 361,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "eva-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_18.kk.srt",
+          "sha256": "75b6f897867b5597359ed8b686fae01a762de12631d147055fb9f1cda92c29e8",
+          "bytes": 25359,
+          "cues": 291,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_18.kk.vtt",
+          "sha256": "bf5d780896558a8149e5f6aa2e414ec2dd2700f9cfbd9683a443eeb1c70d48b8",
+          "bytes": 25456,
+          "cues": 291,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_18.kk.ass",
+          "sha256": "7cae3ddfe77e79d072f9a3f3d54c31ad0423d56b10e5c5bb0d86d32639b7a509",
+          "bytes": 30535,
+          "cues": 291,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "eva-19ep.srt",
+      "filename": "ep_19.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_19.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_19.kk.srt",
+          "sha256": "7ae61db09407e09c7eb7e0d3a10ed7f22a55b1585d7c0934b8ac5b278c7d954b",
+          "bytes": 28109,
+          "cues": 317,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_19.kk.vtt",
+          "sha256": "64d037362ba7d3cd48e8ed59f7244c9ec0ac740b69ff878f8a41044b70d2afcf",
+          "bytes": 28206,
+          "cues": 317,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_19.kk.ass",
+          "sha256": "feebf33a44b91f0834ae25bf977d5edcd84474bdb515aabad0fb5b50dd5057c2",
+          "bytes": 33675,
+          "cues": 317,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "eva-20ep.srt",
+      "filename": "ep_20.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_20.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_20.kk.srt",
+          "sha256": "735dc3cc8dc3f040bed63f001c8f16eadc4c6894cf7e3b251ba9521b02cfd89e",
+          "bytes": 30086,
+          "cues": 306,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_20.kk.vtt",
+          "sha256": "b2c8cb9acc87c7154f7bc91283e2f395009aec57127a9ed333d8ec2d4f8b12b9",
+          "bytes": 30183,
+          "cues": 306,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_20.kk.ass",
+          "sha256": "fce2ccbe06d5ccee5ab48831a8f5d60fe0ebb47530dfcc377c7f22e9907f1e52",
+          "bytes": 35487,
+          "cues": 306,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
       "language": "kk",
-      "filename": "eva-21ep.srt",
+      "filename": "ep_21.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-21ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-21ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-21ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_21.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_21.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_21.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_21.kk.srt",
+          "sha256": "5804c127615b2cb515377d4ff01ee95e3fbd3c4b365ce15aae536ce95a126bd8",
+          "bytes": 27197,
+          "cues": 285,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_21.kk.vtt",
+          "sha256": "c1a69429384c79965845198deec54d83dd01b8ccf795a8c8d9f380d375524713",
+          "bytes": 27294,
+          "cues": 285,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_21.kk.ass",
+          "sha256": "d1cff025f4c87832e75fd639cf139dcc1b669d5dd8c0fd40a4dcfad106bb4bc3",
+          "bytes": 32283,
+          "cues": 285,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
       "language": "kk",
-      "filename": "eva-22ep.srt",
+      "filename": "ep_22.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-22ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-22ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-22ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_22.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_22.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_22.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_22.kk.srt",
+          "sha256": "44cfe0c1b05202d6ee0f1d9aa0acbffd4f0aac2d2c09912c1caff305bbd5973c",
+          "bytes": 29635,
+          "cues": 300,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_22.kk.vtt",
+          "sha256": "92c65f6b8028d0c116be62ca54c9a327f45f75550c1e4cc3ed9fd820283ee878",
+          "bytes": 29732,
+          "cues": 300,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_22.kk.ass",
+          "sha256": "56edceff4fe18cf9cde984e68d65988d9ab2ffdd53a96a5f1ed65b51283a80b8",
+          "bytes": 34946,
+          "cues": 300,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
       "language": "kk",
-      "filename": "eva-23ep.srt",
+      "filename": "ep_23.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-23ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-23ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-23ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_23.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_23.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_23.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_23.kk.srt",
+          "sha256": "ed6a7e4ca82dd4a35ed1e07f350aed10610a30b21bc000ac2d93f74f95cb0563",
+          "bytes": 24556,
+          "cues": 275,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_23.kk.vtt",
+          "sha256": "6a08845eeb9dd72c3b8d5d20bcb4cb4be2d1753f662517a9ce925c8dad8007f5",
+          "bytes": 24653,
+          "cues": 275,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_23.kk.ass",
+          "sha256": "3501e07b6b6ca7fe4ac4cedcf4868cef6acc0d46bb91d3560d5c04b9e4cbd9f7",
+          "bytes": 29492,
+          "cues": 275,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
       "language": "kk",
-      "filename": "eva-24ep.srt",
+      "filename": "ep_24.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-24ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-24ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-24ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_24.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_24.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_24.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_24.kk.srt",
+          "sha256": "0242c58f7b77f22a17c4f8afc64ada77515d76d7adf58d498af16ecf5f3baae0",
+          "bytes": 30967,
+          "cues": 333,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_24.kk.vtt",
+          "sha256": "b427e526620428dc5b0efe49ec4f8d0577b40a58765c022b636400baaa177591",
+          "bytes": 31064,
+          "cues": 333,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_24.kk.ass",
+          "sha256": "e78e99ec48f77027ea016daf0d5c379844f76b3c2879dafc3b68c88ade4596e0",
+          "bytes": 36773,
+          "cues": 333,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
       "language": "kk",
-      "filename": "eva-25ep.srt",
+      "filename": "ep_25.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-25ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-25ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-25ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_25.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_25.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_25.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_25.kk.srt",
+          "sha256": "946d6b8493270107d826d93a84be5eb03974354a72be0bd28358d9e6a9215d11",
+          "bytes": 28435,
+          "cues": 303,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_25.kk.vtt",
+          "sha256": "f09dea356729a1c2b34cc04a9400d64c3c7022698340ce808489bec9dda64ab0",
+          "bytes": 28532,
+          "cues": 303,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_25.kk.ass",
+          "sha256": "97c8cb818fc242ed2ce238892d2a8ea5f0212c8b63e4aed138f836050c6238fb",
+          "bytes": 33791,
+          "cues": 303,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
       "language": "kk",
-      "filename": "eva-26ep.srt",
+      "filename": "ep_26.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-26ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-26ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/eva/eva-26ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_26.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_26.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/eva/ep_26.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/eva/ep_26.kk.srt",
+          "sha256": "7608b7b8e9bc7674c86057802e0f4e600279a5e7a7c892fb80ad9145e2a47d4b",
+          "bytes": 23450,
+          "cues": 281,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/eva/ep_26.kk.vtt",
+          "sha256": "3d0c7b14b6780138388c410dbb0be6a606e3b91e6e340c2ce25687d753f38d6b",
+          "bytes": 23547,
+          "cues": 281,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/eva/ep_26.kk.ass",
+          "sha256": "bb3af4361c55a2f611e5e68eb3c8dd809ec812f04434f0e69e78b08aabc110b4",
+          "bytes": 28476,
+          "cues": 281,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#e46b50",
-  "studio": "Gainax",
-  "duration": 87,
-  "averageScore": 88,
-  "popularity": 93000,
-  "translated_episodes_count": 26
+  "quality_issues_count": 131,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/eva.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

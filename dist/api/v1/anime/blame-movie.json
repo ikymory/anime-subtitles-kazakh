@@ -1,12 +1,12 @@
 {
-  "id": 21498,
+  "id": 21479,
   "slug": "blame-movie",
   "title": {
     "romaji": "BLAME!",
     "english": "BLAME!",
-    "native": "BLAME!",
-    "kazakh": "Блейм!",
-    "kk": "Блейм!"
+    "native": "ブラム！",
+    "kazakh": "БЛЕЙМ!",
+    "kk": "БЛЕЙМ!"
   },
   "format": "MOVIE",
   "episodes": 1,
@@ -14,32 +14,74 @@
   "genres": [
     "Action",
     "Drama",
-    "Horror",
+    "Mecha",
     "Psychological",
     "Sci-Fi"
   ],
-  "description": "In the distant technological future, civilization has reached its ultimate Net-based form. An \"infection\" in the past caused the automated systems to spiral out of order, resulting in a multi-leveled city structure that replicates itself infinitely in all directions. Now humanity has lost access to the city's controls, and is hunted down and purged by the defense system known as the Safeguard. In a tiny corner of the city, a little enclave known as the Electro-Fishers is facing eventual extinction, trapped between the threat of the Safeguard and dwindling food supplies. A girl named Zuru goes on a journey to find food for her village, only to inadvertently cause doom when an observation tower senses her and summons a Safeguard pack to eliminate the threat. With her companions dead and all escape routes blocked, the only thing that can save her now is the sudden arrival of Killy the Wanderer, on his quest for the Net Terminal Genes, the key to restoring order to the world.<br><br>\n\n(Source: Official Website)",
-  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21498-8GWg2HVFdShU.jpg",
-  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21498-dlR9pRJKKicx.jpg",
-  "averageScore": 68,
-  "popularity": 30454,
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21479-l5O1v9Gv9oZk.png",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21479-l5O1v9Gv9oZk.png",
+  "description": "In the distant technological future, civilization has reached its ultimate Net-based form. An infection causes the automated systems to spiral into chaos, resulting in a multi-level city that expands indefinitely.",
+  "averageScore": 73,
+  "popularity": 45000,
+  "catalog_id": "blame-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "blame-movie-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blame-movie/blame-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blame-movie/blame-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/blame-movie/blame-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blame-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blame-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/blame-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/blame-movie/ep_01.kk.ass",
+          "sha256": "ac7c14a09b7e7ab288361df4474d6b6b4fbc29e1df5d5d5a0e930e2f892c9ceb",
+          "bytes": 216757,
+          "cues": 2172,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/blame-movie/ep_01.kk.srt",
+          "sha256": "1839ed9f94e9ec23336be678bcd8e43df715ab35d01c05c9eaf0ef9620de1b4f",
+          "bytes": 180633,
+          "cues": 2171,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/blame-movie/ep_01.kk.vtt",
+          "sha256": "2f92756ce6bdaec8c11fc37d59b4761ab0367220a5e44f4c5043a56f1d0c4137",
+          "bytes": 180641,
+          "cues": 2171,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#5dc9f1",
-  "studio": "POLYGON PICTURES",
-  "duration": 106,
-  "translated_episodes_count": 1
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/blame-movie.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

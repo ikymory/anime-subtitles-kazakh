@@ -20,24 +20,66 @@
     "Mahou Shoujo",
     "Romance"
   ],
-  "description": "An unusual snow storm hits Tokyo and the Sailor Senshi discover that an evil snow queen Kaguya, wants to freeze the entire earth. It's up to the Inner Sailor Senshi along with the Outers, to defeat the Queen. Meanwhile, Luna falls in love with a human astronomer named Kakeru whose girlfriend is an astronaut about to take a space shuttle mission. Kakeru becomes ill and Luna wishes she could be a human to help him. <br>",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx997-53WPReZCvbaI.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/997-LzofwSXW9xsf.jpg",
+  "description": "An unusual snow storm hits Tokyo and the Sailor Senshi discover that an evil snow queen Kaguya, wants to freeze the entire earth. It's up to the Inner Sailor Senshi along with the Outers, to defeat the Queen. Meanwhile, Luna falls in love with a human astronomer named Kakeru whose girlfriend is an astronaut about to take a space shuttle mission. Kakeru becomes ill and Luna wishes she could be a human to help him. <br>",
   "averageScore": 73,
   "popularity": 11100,
+  "catalog_id": "sailor-moon-s-kaguya-hime",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "sailor-moon-s-kaguya-hime-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-s-kaguya-hime/sailor-moon-s-kaguya-hime-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-s-kaguya-hime/sailor-moon-s-kaguya-hime-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/sailor-moon-s-kaguya-hime/sailor-moon-s-kaguya-hime-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-s-kaguya-hime/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-s-kaguya-hime/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/sailor-moon-s-kaguya-hime/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/sailor-moon-s-kaguya-hime/ep_01.kk.srt",
+          "sha256": "a465b2198ffc308f262a852b3f09efb9ca20806cb5c7d92c48e5ffd5b974affd",
+          "bytes": 67144,
+          "cues": 839,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/sailor-moon-s-kaguya-hime/ep_01.kk.vtt",
+          "sha256": "cf7c4cc6181d0e5e93a6e5926289132a4a83828ba9b736a13370d6063792f9c8",
+          "bytes": 67241,
+          "cues": 839,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/sailor-moon-s-kaguya-hime/ep_01.kk.ass",
+          "sha256": "e367c2629a2a8eaf4a6e85810abe8f72e189b8eb976963096954cda832e941e8",
+          "bytes": 80788,
+          "cues": 839,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/sailor-moon-s-kaguya-hime.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

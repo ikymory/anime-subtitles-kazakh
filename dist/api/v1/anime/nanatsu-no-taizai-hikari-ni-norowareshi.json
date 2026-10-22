@@ -16,24 +16,68 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "The Seven Deadly Sins: Cursed by Light - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanatsu-no-taizai-hikari-ni-norowareshi.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/nanatsu-no-taizai-hikari-ni-norowareshi.jpg",
+  "description": "The Seven Deadly Sins: Cursed by Light - official Kazakh translation archive by ikymory.",
   "averageScore": 83,
   "popularity": 99600,
+  "catalog_id": "nanatsu-no-taizai-hikari-ni-norowareshi",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "nanatsu-no-taizai-hikari-ni-norowareshi-1ep.srt",
+      "filename": "ep_01.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/nanatsu-no-taizai-hikari-ni-norowareshi-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/nanatsu-no-taizai-hikari-ni-norowareshi-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/nanatsu-no-taizai-hikari-ni-norowareshi-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/ep_01.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/ep_01.kk.ass",
+          "sha256": "d70c458c8720042bf5bd284df456b401fd17732c39f47db7f12f80c274900b41",
+          "bytes": 124199,
+          "cues": 1210,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/ep_01.kk.srt",
+          "sha256": "b460bbdcde8689b83234e15cd2a0d0ceb77584f81da17ea2e9feaa9120ae18d4",
+          "bytes": 105015,
+          "cues": 1205,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/nanatsu-no-taizai-hikari-ni-norowareshi/ep_01.kk.vtt",
+          "sha256": "b3f70ecad4cc8258e6283b5ac69eb4cdf3573a0d3b47ec04b293ee4e7e45ad8e",
+          "bytes": 105023,
+          "cues": 1205,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nanatsu-no-taizai-hikari-ni-norowareshi.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
   ]
 }

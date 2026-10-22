@@ -15,24 +15,64 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "Arabian Nights: Sinbad the Sailor - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arabian-nights-sindbad.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/arabian-nights-sindbad.jpg",
+  "description": "Arabian Nights: Sinbad the Sailor - official Kazakh translation archive by ikymory.",
   "averageScore": 77,
   "popularity": 92400,
+  "catalog_id": "arabian-nights-sindbad",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "arabian-nights-sindbad-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arabian-nights-sindbad/arabian-nights-sindbad-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arabian-nights-sindbad/arabian-nights-sindbad-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/arabian-nights-sindbad/arabian-nights-sindbad-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arabian-nights-sindbad/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arabian-nights-sindbad/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/arabian-nights-sindbad/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/arabian-nights-sindbad/ep_01.kk.srt",
+          "sha256": "35a97f1296ffda0ece9d08b6448be6b384d47b43a39ed7e5cf4e0b46322555dd",
+          "bytes": 45302,
+          "cues": 596,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/arabian-nights-sindbad/ep_01.kk.vtt",
+          "sha256": "7da2025d85b112b705e10c08cbe5c49378b224a75c989825c76e59eae2466d02",
+          "bytes": 45399,
+          "cues": 596,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/arabian-nights-sindbad/ep_01.kk.ass",
+          "sha256": "948b21b2216a0e9379afca39fc56ee0522a64a85a6d6b16b2f187b980c1eb9f2",
+          "bytes": 55302,
+          "cues": 596,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/arabian-nights-sindbad.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

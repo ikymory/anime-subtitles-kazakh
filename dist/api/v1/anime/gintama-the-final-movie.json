@@ -17,24 +17,65 @@
     "Drama",
     "Sci-Fi"
   ],
-  "description": "Gintama: The Very Final - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gintama-the-final-movie.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/gintama-the-final-movie.jpg",
+  "description": "Gintama: The Very Final - official Kazakh translation archive by ikymory.",
   "averageScore": 92,
   "popularity": 110400,
+  "catalog_id": "gintama-the-final-movie",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gintama-the-final-movie-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-the-final-movie/gintama-the-final-movie-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-the-final-movie/gintama-the-final-movie-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gintama-the-final-movie/gintama-the-final-movie-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-the-final-movie/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-the-final-movie/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gintama-the-final-movie/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gintama-the-final-movie/ep_01.kk.srt",
+          "sha256": "757a33486339a7d8f4ecab778ee88193bef681095ee3508898c79746cf6600e0",
+          "bytes": 130621,
+          "cues": 1453,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gintama-the-final-movie/ep_01.kk.vtt",
+          "sha256": "40b242cbb754159a268be5237f4a3e4ae0cb731efbab37198af219de4c7e3ad4",
+          "bytes": 130718,
+          "cues": 1453,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gintama-the-final-movie/ep_01.kk.ass",
+          "sha256": "3e6ac22847b7bb22823d9804cbc70b3640923e7f567222d0e5d76fa0754de359",
+          "bytes": 153021,
+          "cues": 1453,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-the-final-movie.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

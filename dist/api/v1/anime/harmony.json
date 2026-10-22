@@ -16,24 +16,64 @@
     "Drama",
     "Fantasy"
   ],
-  "description": "Harmony - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/harmony.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/harmony.jpg",
+  "description": "Harmony - official Kazakh translation archive by ikymory.",
   "averageScore": 82,
   "popularity": 75000,
+  "catalog_id": "harmony",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "harmony-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/harmony/harmony-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/harmony/harmony-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/harmony/harmony-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/harmony/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/harmony/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/harmony/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/harmony/ep_01.kk.srt",
+          "sha256": "7b44baf9bb75f134f568a418b621f8b804f37deecd773c64765c71d5808cf03f",
+          "bytes": 149745,
+          "cues": 1540,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/harmony/ep_01.kk.vtt",
+          "sha256": "2353db84e29f615631aa364968e59b1ae5ff4ff6cea62cdb7600d3df8c08a3c6",
+          "bytes": 149842,
+          "cues": 1540,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/harmony/ep_01.kk.ass",
+          "sha256": "acbcedfe65ae9efcdc69d86fb66027d1f3e6c60fbeadf67b2ee25458cee895fa",
+          "bytes": 173183,
+          "cues": 1540,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/harmony.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

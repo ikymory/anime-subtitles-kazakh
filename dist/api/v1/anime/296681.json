@@ -3,30 +3,76 @@
   "slug": "kara-no-kyoukai-1",
   "title": {
     "romaji": "Kara No Kyoukai 1",
-    "english": "Kara No Kyoukai 1"
+    "english": "Kara No Kyoukai 1",
+    "kazakh": "Шекараның арғы беті 1",
+    "kk": "Шекараның арғы беті 1"
   },
-  "format": "TV",
-  "episodes": null,
-  "seasonYear": null,
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2007,
   "genres": [
     "Anime"
   ],
-  "description": null,
-  "coverImage": "",
-  "bannerImage": "",
+  "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2593-FsRHa8PIl2OJ.jpg",
+  "averageScore": 83,
+  "popularity": 63728,
+  "color": "hsl(239, 78%, 68%)",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2593-4TD2W9Zk693v.jpg",
+  "catalog_id": "kara-no-kyoukai-1",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "kara-no-kyoukai-1-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-1/kara-no-kyoukai-1-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-1/kara-no-kyoukai-1-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/kara-no-kyoukai-1/kara-no-kyoukai-1-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-1/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-1/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/kara-no-kyoukai-1/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/kara-no-kyoukai-1/ep_01.kk.srt",
+          "sha256": "9800e0ce3682e113703f6650164b7ca08a8fc186413f7ed9cb169640ddce0eb0",
+          "bytes": 67925,
+          "cues": 493,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/kara-no-kyoukai-1/ep_01.kk.vtt",
+          "sha256": "af7033f258f7ea68ebd37c9c8a537bbd18c647f6917abf02bdebbffb867466dd",
+          "bytes": 68022,
+          "cues": 493,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/kara-no-kyoukai-1/ep_01.kk.ass",
+          "sha256": "60ffbd90b9414d7bb066ed7373d99d032c5911d7b714ec2d3ee5fdf485ed8626",
+          "bytes": 76145,
+          "cues": 493,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 3,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-1.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
   ]
 }

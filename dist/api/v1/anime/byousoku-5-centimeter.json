@@ -16,24 +16,66 @@
     "Romance",
     "Slice of Life"
   ],
-  "description": "Tohno Takaki and Shinohara Akari, two very close friends and classmates, are torn apart when Akari's family is transferred to another region of Japan due to her family's job. Despite separation, they continue to keep in touch through mail. When Takaki finds out that his family is also moving, he decides to meet with Akari one last time.<br><br>\nAs years pass by, they continue down their own paths, their distance slowly growing wider and their contact with one another fades. Yet, they keep remembering one another and the times they have shared together, wondering if they will have the chance to meet once again.\n",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1689-rJKhjLEjQHSy.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1689.jpg",
+  "description": "Tohno Takaki and Shinohara Akari, two very close friends and classmates, are torn apart when Akari's family is transferred to another region of Japan due to her family's job. Despite separation, they continue to keep in touch through mail. When Takaki finds out that his family is also moving, he decides to meet with Akari one last time.<br><br>\nAs years pass by, they continue down their own paths, their distance slowly growing wider and their contact with one another fades. Yet, they keep remembering one another and the times they have shared together, wondering if they will have the chance to meet once again.\n",
   "averageScore": 71,
   "popularity": 251943,
+  "catalog_id": "byousoku-5-centimeter",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "byousoku-5-centimeter-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/byousoku-5-centimeter/byousoku-5-centimeter-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/byousoku-5-centimeter/byousoku-5-centimeter-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/byousoku-5-centimeter/byousoku-5-centimeter-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/byousoku-5-centimeter/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/byousoku-5-centimeter/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/byousoku-5-centimeter/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/byousoku-5-centimeter/ep_01.kk.srt",
+          "sha256": "37ee02c91e53034bbd98d0386b43e5f4008ae2be2bc24307b0aacf23a17ec6fa",
+          "bytes": 66041,
+          "cues": 730,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/byousoku-5-centimeter/ep_01.kk.vtt",
+          "sha256": "231be2369499943e293fb98a6ee2809c3fb6c94b2ec80dd9aefe1ee18b3313e0",
+          "bytes": 66138,
+          "cues": 730,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/byousoku-5-centimeter/ep_01.kk.ass",
+          "sha256": "bc2432dc77ff0f41fac61c80da7f6024c63d1056d338ed8235b764b834bc2206",
+          "bytes": 78050,
+          "cues": 730,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/byousoku-5-centimeter.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

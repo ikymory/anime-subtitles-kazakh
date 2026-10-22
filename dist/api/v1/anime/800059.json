@@ -1,0 +1,84 @@
+{
+  "id": 800059,
+  "slug": "ghost-in-the-shell-2-innocence",
+  "title": {
+    "romaji": "Ghost in the Shell 2: Innocence",
+    "english": "Ghost in the Shell 2: Innocence",
+    "native": "イノセンス",
+    "kazakh": "Сауыттағы елес 2: Кінәсіздік",
+    "kk": "Сауыттағы елес 2: Кінәсіздік"
+  },
+  "format": "MOVIE",
+  "episodes": 1,
+  "seasonYear": 2019,
+  "genres": [
+    "Action",
+    "Psychological",
+    "Sci-Fi"
+  ],
+  "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cencoroll-connect-movie.jpg",
+  "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/cencoroll-connect-movie.jpg",
+  "description": "Cencoroll Connect - official Kazakh translation archive by ikymory.",
+  "averageScore": 80,
+  "popularity": 96000,
+  "catalog_id": "ghost-in-the-shell-2-innocence",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [
+    1
+  ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
+  "subtitles": [
+    {
+      "episode": 1,
+      "language": "kk",
+      "filename": "ep_01.kk.srt",
+      "files": {
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-2-innocence/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-2-innocence/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/ghost-in-the-shell-2-innocence/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/ghost-in-the-shell-2-innocence/ep_01.kk.srt",
+          "sha256": "70885a792b7f85d112a85e1ae05baa27e8d650d35f897e479d535280a72a19eb",
+          "bytes": 93152,
+          "cues": 825,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/ghost-in-the-shell-2-innocence/ep_01.kk.vtt",
+          "sha256": "91180f29059c5d09c9d4ca6808a7b0d548e9efb0a41684967d55f366f9d0c381",
+          "bytes": 93249,
+          "cues": 825,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/ghost-in-the-shell-2-innocence/ep_01.kk.ass",
+          "sha256": "8af77bb55373e0b9722df12481c05462a112c5130bf70cb96a33a2b65028cbd2",
+          "bytes": 106150,
+          "cues": 825,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
+    }
+  ],
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-2-innocence.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
+}

@@ -15,11 +15,20 @@
     "Action",
     "Adventure"
   ],
-  "description": "Goku and company were living peaceful lives when they suddenly turned small due to a conspiracy! When they discover that the reason for this may lie in a world known as the \"Demon Realm\", a mysterious young Majin named Glorio appears before them.\n<br><br>\n(Source: Crunchyroll)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170083-GTwRrhTApcLR.png",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/170083-SYCCWWlq3hqF.jpg",
+  "description": "Goku and company were living peaceful lives when they suddenly turned small due to a conspiracy! When they discover that the reason for this may lie in a world known as the \"Demon Realm\", a mysterious young Majin named Glorio appears before them.\n<br><br>\n(Source: Crunchyroll)",
   "averageScore": 75,
   "popularity": 60643,
+  "color": "#e45d43",
+  "duration": 24,
+  "studio": "Animation Studio",
+  "catalog_id": "dragon-ball-daima-tv",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -42,210 +51,765 @@
     19,
     20
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 20,
+  "available_episodes_count": 20,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_01.kk.srt",
+          "sha256": "bb8af29945d49b086d79682069800992f5592695d8e8b085d72c221549e18cfa",
+          "bytes": 40855,
+          "cues": 457,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_01.kk.vtt",
+          "sha256": "af6d07135dee962711b882e5775d8d95af98ca464f2fab284785b9fec6f2b9ad",
+          "bytes": 40952,
+          "cues": 457,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_01.kk.ass",
+          "sha256": "2960dfcaab75aaea6fcb729b80fe74881c113641832d703ef84157b16e73dfc8",
+          "bytes": 48335,
+          "cues": 457,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-2ep.srt",
+      "filename": "ep_02.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-2ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-2ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-2ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_02.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_02.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_02.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_02.kk.srt",
+          "sha256": "6a85463307295504c447b62ed7420ce8ced4fed0b820a00159c09e69e7479d6e",
+          "bytes": 38958,
+          "cues": 535,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_02.kk.vtt",
+          "sha256": "59c6da5522372b1ca73232c80a0e3131bb7f419a484c49840bf47e86c95f3cf2",
+          "bytes": 39055,
+          "cues": 535,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_02.kk.ass",
+          "sha256": "1348b7d2b1aa5523ac8d6a50307c61400099f151c498ab76da1dc419abe902a1",
+          "bytes": 52706,
+          "cues": 535,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-3ep.srt",
+      "filename": "ep_03.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-3ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-3ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-3ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_03.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_03.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_03.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_03.kk.ass",
+          "sha256": "e6b9be34133e9713a7f7b775b0762c3b7eef90c4b01654e78d44a1d042f62074",
+          "bytes": 48697,
+          "cues": 512,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_03.kk.srt",
+          "sha256": "c184a573107bce0aa4e4520321ea7c10e306dc9b1d40b618e72e777100351c2a",
+          "bytes": 35393,
+          "cues": 509,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_03.kk.vtt",
+          "sha256": "4c3a0ede3948dc38846425ac0eb6c48df340c3babc46c080616b2abc02bbb37b",
+          "bytes": 35401,
+          "cues": 509,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-4ep.srt",
+      "filename": "ep_04.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-4ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-4ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-4ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_04.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_04.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_04.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_04.kk.ass",
+          "sha256": "c2ff5965a189fd170e7017710c25bf216ccd823eb33d0920e1feae236e609b76",
+          "bytes": 51071,
+          "cues": 538,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_04.kk.srt",
+          "sha256": "555a43704a2ff2095935393a8a9d3ccb6b6e9af2ec568d2865a1cf612c65596c",
+          "bytes": 37035,
+          "cues": 532,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_04.kk.vtt",
+          "sha256": "9680c36ea0dcd2d60538b4dd47f2f73a996745a95e0140ac3318fe45e8045fe3",
+          "bytes": 37043,
+          "cues": 532,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-5ep.srt",
+      "filename": "ep_05.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-5ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-5ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-5ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_05.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_05.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_05.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_05.kk.ass",
+          "sha256": "d39ae56948bdb5259095809970a1be5536b1800403d1ca3bb83c1ac756246882",
+          "bytes": 55432,
+          "cues": 571,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_05.kk.srt",
+          "sha256": "29f0a643cd18c1cb2312e01f2d1c7295a72a8b73c7625093e88f6b9abb848ccc",
+          "bytes": 40784,
+          "cues": 570,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_05.kk.vtt",
+          "sha256": "880538b8173a6dff9b5f1dfd73c59a1ab5c968439fd948172a6c57bcffff9d07",
+          "bytes": 40792,
+          "cues": 570,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-6ep.srt",
+      "filename": "ep_06.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-6ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-6ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-6ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_06.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_06.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_06.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_06.kk.ass",
+          "sha256": "ad3d217499eec1f9e5c0b872a5f631992a1cb0259b6e972530574ea414f2aeef",
+          "bytes": 42290,
+          "cues": 432,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_06.kk.srt",
+          "sha256": "f46a6060ae2def68aa19d3a8cd7aff87ed70f9780d3a054b8f6aedc1303ff654",
+          "bytes": 30906,
+          "cues": 429,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_06.kk.vtt",
+          "sha256": "1a89a64cf87cb190963e2db2bc1a6276f836353c5ec79079e3771093732060c2",
+          "bytes": 30914,
+          "cues": 429,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-7ep.srt",
+      "filename": "ep_07.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-7ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-7ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-7ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_07.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_07.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_07.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_07.kk.ass",
+          "sha256": "09130e9f7968bff4baffbe91631fb26c4951136ce53b2ac5fa81d9b4f379796f",
+          "bytes": 53127,
+          "cues": 529,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_07.kk.srt",
+          "sha256": "7d1d2d832711f75099a8d6a1f1aad9446037ed975850aad9ec0fbc2254a62bf4",
+          "bytes": 39451,
+          "cues": 527,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_07.kk.vtt",
+          "sha256": "19dff4aa1d97af76290009ca3b5e0389e21fe2f85a400e266f98fb5a63274fa9",
+          "bytes": 39459,
+          "cues": 527,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-8ep.srt",
+      "filename": "ep_08.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-8ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-8ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-8ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_08.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_08.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_08.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_08.kk.ass",
+          "sha256": "83c76f96d5c59c4afc17efe846d094e9a019761724e40170a36cc5f8d75c9358",
+          "bytes": 38786,
+          "cues": 391,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_08.kk.srt",
+          "sha256": "c112ec5d32a69beb37a272cb568f58e692376392adb1b3666fe6de3a6661cf76",
+          "bytes": 28451,
+          "cues": 390,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_08.kk.vtt",
+          "sha256": "7522bc1c6d844e946692da649aad733b1db055287e6063c5e7c563ba3ba1805d",
+          "bytes": 28459,
+          "cues": 390,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-9ep.srt",
+      "filename": "ep_09.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-9ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-9ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-9ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_09.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_09.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_09.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_09.kk.ass",
+          "sha256": "41f4b6d59d6fb61389ab89979bddc04d5a5245d9e44523eedf3e870ce2f45b38",
+          "bytes": 46898,
+          "cues": 485,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_09.kk.srt",
+          "sha256": "e53953895af3decb3900c8fd4275dca7d0d09f0ab636a1208840074f0115504b",
+          "bytes": 34170,
+          "cues": 480,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_09.kk.vtt",
+          "sha256": "1301959ce5f94aa3ac5be8512c8257d088b9c619b73c032818fba7e2fe69b049",
+          "bytes": 34178,
+          "cues": 480,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-10ep.srt",
+      "filename": "ep_10.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-10ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-10ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-10ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_10.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_10.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_10.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_10.kk.srt",
+          "sha256": "d535e1182457baf5e1a2354a239de22043662134f0f3166b6058803df374419d",
+          "bytes": 37615,
+          "cues": 513,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_10.kk.vtt",
+          "sha256": "c84ef9d3d19f66bfd8b2cc83f62f787b1b5fc88074ef6130134fb8884a16e67f",
+          "bytes": 37712,
+          "cues": 513,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_10.kk.ass",
+          "sha256": "57f5c4861755a1cfa858a2d1db66f0649c067fed6678fefa1665c2a4f96e38c8",
+          "bytes": 50835,
+          "cues": 513,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-11ep.srt",
+      "filename": "ep_11.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-11ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-11ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-11ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_11.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_11.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_11.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_11.kk.srt",
+          "sha256": "9c53515a8de36224c18289fd170931fe7efc761845647a6731677f0b9890557b",
+          "bytes": 31703,
+          "cues": 445,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_11.kk.vtt",
+          "sha256": "713d917a3c19172bc70cadfac155f9e07f433f9c40489e2b12f2c1b378b9bcc2",
+          "bytes": 31800,
+          "cues": 445,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_11.kk.ass",
+          "sha256": "af46516844091e0e8aba932d8456cbf7a6289a0e70e2637c2f4256fa54c9b4af",
+          "bytes": 43291,
+          "cues": 445,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-12ep.srt",
+      "filename": "ep_12.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-12ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-12ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-12ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_12.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_12.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_12.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_12.kk.ass",
+          "sha256": "7d16387bf3285cd5dbae04a758f5a762c8bd298f8537d6341178a286e131fe73",
+          "bytes": 38788,
+          "cues": 406,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_12.kk.srt",
+          "sha256": "6649daf4468851099c781a30b87d960e49edb35f7bbea4d33a148fdeaa6f5366",
+          "bytes": 28100,
+          "cues": 405,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_12.kk.vtt",
+          "sha256": "680caef01ba6257a4c3a2cd90303d3fe0b6b4aa36802d01ad1c9627087e78a64",
+          "bytes": 28108,
+          "cues": 405,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-13ep.srt",
+      "filename": "ep_13.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-13ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-13ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-13ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_13.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_13.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_13.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_13.kk.ass",
+          "sha256": "4d1b92536918b614b18556223bc78bd6076c910a361b66ecb814effd66933c71",
+          "bytes": 36411,
+          "cues": 433,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_13.kk.srt",
+          "sha256": "d5922326136cc599b182ebdb8183efcabeca345799f6477634cc9121804a4c0a",
+          "bytes": 28838,
+          "cues": 429,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_13.kk.vtt",
+          "sha256": "0f56c2f05632f2b1f85ba675decf6a8f1f830ea391ad85293aa4f9581b0f2be3",
+          "bytes": 28846,
+          "cues": 429,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-14ep.srt",
+      "filename": "ep_14.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-14ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-14ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-14ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_14.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_14.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_14.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_14.kk.ass",
+          "sha256": "93dcb394274e3c931d8baf8670c4c2f13f64e7a92a73bbb4b8258a708d7ad2ce",
+          "bytes": 44429,
+          "cues": 447,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_14.kk.srt",
+          "sha256": "dfad08394f3d8225b2e7d72a5cef4b413f698d30cbe8af8446bd87eed85b56b6",
+          "bytes": 32703,
+          "cues": 444,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_14.kk.vtt",
+          "sha256": "8b0196e779bd3ea4ea91299d064dbebb3227a7c63881abd485ba082b5a6d6102",
+          "bytes": 32711,
+          "cues": 444,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-15ep.srt",
+      "filename": "ep_15.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-15ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-15ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-15ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_15.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_15.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_15.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_15.kk.srt",
+          "sha256": "e17a8bba73092cda5b41a27db9dbd937a76eb1418d921f405fe85a79d1cd650a",
+          "bytes": 26987,
+          "cues": 387,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_15.kk.vtt",
+          "sha256": "50b805a4f8f60f107605def183ad60572130d1fae39228011cda70cf3a5e2456",
+          "bytes": 27084,
+          "cues": 387,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_15.kk.ass",
+          "sha256": "f843500335bc91afded66d57dc7c1a51260431831f70d602679bcbb10eafdbec",
+          "bytes": 37183,
+          "cues": 387,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-16ep.srt",
+      "filename": "ep_16.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-16ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-16ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-16ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_16.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_16.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_16.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_16.kk.srt",
+          "sha256": "eddaf39cc4e27b2ae7a691cd4932823239d592d1fc8b94ed715b6241921332c9",
+          "bytes": 27958,
+          "cues": 392,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_16.kk.vtt",
+          "sha256": "388eef0a1d2c7265edbd9203dedbb920c135734fa7add1299e109806851703cd",
+          "bytes": 28055,
+          "cues": 392,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_16.kk.ass",
+          "sha256": "c18edaaabdee46663d15f07080fc567c83b89c10a4f15dc366c29a1f7702de1f",
+          "bytes": 38274,
+          "cues": 392,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-17ep.srt",
+      "filename": "ep_17.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-17ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-17ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-17ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_17.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_17.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_17.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_17.kk.ass",
+          "sha256": "a20791840daa0ee87b2ebc92d6f9a0cde847cf6c6bcbbb9c97dbb1e1a6a27832",
+          "bytes": 31997,
+          "cues": 391,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_17.kk.srt",
+          "sha256": "2efe2ad667d692b011977870f6c4f0a8ce61795356a9e1bc71731f9e3e4dc058",
+          "bytes": 25133,
+          "cues": 389,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_17.kk.vtt",
+          "sha256": "eebb1e261e475649704b8df32df61d1b14abf4a758f57fe29084841c731fbd89",
+          "bytes": 25141,
+          "cues": 389,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-18ep.srt",
+      "filename": "ep_18.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-18ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-18ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-18ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_18.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_18.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_18.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_18.kk.srt",
+          "sha256": "c5e01349f22986681280549b9fe3159a40c2ae0e9cdc01db3628c1668b837723",
+          "bytes": 23823,
+          "cues": 368,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_18.kk.vtt",
+          "sha256": "314d823ff0aa714637f202f7e5771fd63e4ffc3f6698fd966caa24d7b458bf50",
+          "bytes": 23920,
+          "cues": 368,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_18.kk.ass",
+          "sha256": "dc170496218afd09fc48e76e488f6ad31ca55d53658bd5151e65bb32bf8fb9fb",
+          "bytes": 30270,
+          "cues": 368,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-19ep.srt",
+      "filename": "ep_19.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-19ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-19ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-19ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_19.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_19.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_19.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_19.kk.ass",
+          "sha256": "b7cf1c65509215825da78a241ece4a4729a6ba2ff3c47c8189403dea279e6a60",
+          "bytes": 33892,
+          "cues": 413,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_19.kk.srt",
+          "sha256": "84f546ff6752f69911eb7319be5ae66359c1e5018ab6e1f2f0c3810e03fc18e0",
+          "bytes": 26662,
+          "cues": 410,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_19.kk.vtt",
+          "sha256": "96d237ef0e200b9c19db35566f5551c5938025d760dd622af3d78d6bf24b7c54",
+          "bytes": 26670,
+          "cues": 410,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
       "language": "kk",
-      "filename": "dragon-ball-daima-tv-20ep.srt",
+      "filename": "ep_20.kk.ass",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-20ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-20ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/dragon-ball-daima-tv/dragon-ball-daima-tv-20ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_20.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_20.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/dragon-ball-daima-tv/ep_20.kk.ass"
+      },
+      "assets": {
+        "ass": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_20.kk.ass",
+          "sha256": "eaeeb9bca966b49a80d1c9bf4fd44ffc510dcdcf94f281f1e4acd6d6b74373bb",
+          "bytes": 46352,
+          "cues": 496,
+          "origin": "source"
+        },
+        "srt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_20.kk.srt",
+          "sha256": "31d21c200314042a64a702a4640c76aede84f98d356c6b0683580b7e9a7d48d2",
+          "bytes": 33467,
+          "cues": 494,
+          "origin": "derived"
+        },
+        "vtt": {
+          "path": "subtitles/dragon-ball-daima-tv/ep_20.kk.vtt",
+          "sha256": "81148f480bb5a4741c534caeabe60e940048a90de239b228b606b93cad953951",
+          "bytes": 33475,
+          "cues": 494,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "color": "#e45d43",
-  "studio": "Animation Studio",
-  "duration": 24,
-  "translated_episodes_count": 20
+  "quality_issues_count": 88,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-daima-tv.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

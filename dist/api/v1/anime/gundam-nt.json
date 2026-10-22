@@ -17,24 +17,65 @@
     "Mecha",
     "Sci-Fi"
   ],
-  "description": "U.C. 0097. The year the Laplace's Box was opened. Despite the revelation of the original charter for the Universal Century, which acknowledges the existence of Newtypes and their rights, the world remains largely unchanged.<br>\n<br>\nAfter the destruction of the Neo Zeon remnant force known as the Sleeves, the event that has come to be known as the \"Laplace Incident\" seems to have drawn to a close. In the final battle, two Full Psycho Frame mobile suits displayed power beyond human imagination. The menace of the White Unicorn and the Black Lion were sealed away from public consciousness, and were consigned to be forgotten by history.<br>\n<br>\nBut now sightings of the RX-0 Unicorn 03, long thought lost two years ago, are being reported. Its name is Phenex, an immortal golden bird.<br>\n<br>\n(Source: Official website)",
   "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101554-wSg5tvmASqEy.jpg",
   "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101554-tOw9HYjjh6NZ.jpg",
+  "description": "U.C. 0097. The year the Laplace's Box was opened. Despite the revelation of the original charter for the Universal Century, which acknowledges the existence of Newtypes and their rights, the world remains largely unchanged.<br>\n<br>\nAfter the destruction of the Neo Zeon remnant force known as the Sleeves, the event that has come to be known as the \"Laplace Incident\" seems to have drawn to a close. In the final battle, two Full Psycho Frame mobile suits displayed power beyond human imagination. The menace of the White Unicorn and the Black Lion were sealed away from public consciousness, and were consigned to be forgotten by history.<br>\n<br>\nBut now sightings of the RX-0 Unicorn 03, long thought lost two years ago, are being reported. Its name is Phenex, an immortal golden bird.<br>\n<br>\n(Source: Official website)",
   "averageScore": 61,
   "popularity": 10696,
+  "catalog_id": "gundam-nt",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "gundam-nt-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-nt/gundam-nt-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-nt/gundam-nt-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/gundam-nt/gundam-nt-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-nt/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-nt/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/gundam-nt/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/gundam-nt/ep_01.kk.srt",
+          "sha256": "b724a4785f5712b92be87dd5377ff12a474126e14a83a63a50b8b3c3355d7a46",
+          "bytes": 122832,
+          "cues": 1351,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/gundam-nt/ep_01.kk.vtt",
+          "sha256": "99e672791ef14f966f0f3a370b32a7861e57b0add4f66f23d9acb15c03918366",
+          "bytes": 122929,
+          "cues": 1351,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/gundam-nt/ep_01.kk.ass",
+          "sha256": "2df7435b0a910b82bc5a59b7490428cf818ce8d50cce2184429da2a9827a1441",
+          "bytes": 143805,
+          "cues": 1351,
+          "origin": "source"
+        }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 4,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gundam-nt.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
   ]
 }

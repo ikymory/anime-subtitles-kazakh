@@ -16,24 +16,68 @@
     "Adventure",
     "Fantasy"
   ],
-  "description": "InuYasha the Movie: Fire on the Mystic Island - official Kazakh translation archive by ikymory.",
   "coverImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/inuyasha-guren-no-houraijima.jpg",
   "bannerImage": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/dist/covers/inuyasha-guren-no-houraijima.jpg",
+  "description": "InuYasha the Movie: Fire on the Mystic Island - official Kazakh translation archive by ikymory.",
   "averageScore": 84,
   "popularity": 100800,
+  "catalog_id": "inuyasha-guren-no-houraijima",
+  "id_namespace": "legacy_unverified",
+  "metadata_status": "unverified",
+  "coverage_status": "unverified",
+  "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
+  "translated_episodes_count": 1,
+  "available_episodes_count": 1,
   "subtitles": [
     {
       "episode": 1,
       "language": "kk",
-      "filename": "inuyasha-guren-no-houraijima-1ep.srt",
+      "filename": "ep_01.kk.srt",
       "files": {
-        "srt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyasha-guren-no-houraijima/inuyasha-guren-no-houraijima-1ep.srt",
-        "vtt": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyasha-guren-no-houraijima/inuyasha-guren-no-houraijima-1ep.vtt",
-        "ass": "https://cdn.jsdelivr.net/gh/ikymory/anime-subtitles-kazakh@main/subtitles/inuyasha-guren-no-houraijima/inuyasha-guren-no-houraijima-1ep.ass"
-      }
+        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyasha-guren-no-houraijima/ep_01.kk.srt",
+        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyasha-guren-no-houraijima/ep_01.kk.vtt",
+        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/inuyasha-guren-no-houraijima/ep_01.kk.ass"
+      },
+      "assets": {
+        "srt": {
+          "path": "subtitles/inuyasha-guren-no-houraijima/ep_01.kk.srt",
+          "sha256": "e415be4c13fbefe32fb30bc50e6ce34053a39cafa23f4da9112eb52848ed2b08",
+          "bytes": 160950,
+          "cues": 2051,
+          "origin": "source"
+        },
+        "vtt": {
+          "path": "subtitles/inuyasha-guren-no-houraijima/ep_01.kk.vtt",
+          "sha256": "99de3c77685648fce6358489d080a734e815b16ae4f48facb4dd3bef8fbae8dd",
+          "bytes": 161047,
+          "cues": 2051,
+          "origin": "source"
+        },
+        "ass": {
+          "path": "subtitles/inuyasha-guren-no-houraijima/ep_01.kk.ass",
+          "sha256": "3ae13cc87eed16929e2444903ed369a2cfe060767797c8294423ddec4ced9c42",
+          "bytes": 191287,
+          "cues": 2051,
+          "origin": "derived"
+        }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
+  ],
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/inuyasha-guren-no-houraijima.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
   ]
 }
