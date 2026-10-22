@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,24 @@
         },
         "ass": {
           "path": "subtitles/colorful-movie/ep_01.kk.ass",
-          "sha256": "b6a6f1709358a4ac00ac36464b68f01a473ddac34799d85b25349129ccaab744",
-          "bytes": 164212,
-          "cues": 14,
-          "origin": "source"
+          "sha256": "41ea4e6ba6629b16b76a7a2b8ccfcc94c1309aca767f38b2f092d31f2378a7fb",
+          "bytes": 131234,
+          "cues": 1306,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/colorful-movie.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/colorful-movie.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

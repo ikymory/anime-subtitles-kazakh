@@ -28,9 +28,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -60,14 +62,26 @@
         },
         "ass": {
           "path": "subtitles/dragon-ball-z-battle-of-gods/ep_01.kk.ass",
-          "sha256": "87f4994beb660b4b39f2c4ea09bb1b2e01bf5521d75acb79e3ca599c2fc7be2e",
-          "bytes": 164248,
+          "sha256": "2f958b946740047e8b12919961f403adf7507b4dc64c38010826d8445adb7b59",
+          "bytes": 161643,
           "cues": 1659,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-battle-of-gods.json"
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dragon-ball-z-battle-of-gods.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

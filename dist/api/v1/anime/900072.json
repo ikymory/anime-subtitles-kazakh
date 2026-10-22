@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,24 @@
         },
         "ass": {
           "path": "subtitles/given-umi-e/ep_01.kk.ass",
-          "sha256": "74efcb115d98a91ac8cc60bcb0d6ce596930c1fe214f3453ad5b2f493a2e2b8f",
-          "bytes": 115044,
+          "sha256": "ad91688c868069ec1e17a7d3c30ff6e7fb5351dd338356452254be35e50a0ad4",
+          "bytes": 114298,
           "cues": 1175,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/given-umi-e.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/given-umi-e.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

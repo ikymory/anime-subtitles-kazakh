@@ -29,6 +29,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -44,6 +45,7 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 13,
   "available_episodes_count": 13,
   "subtitles": [
@@ -78,7 +80,10 @@
           "cues": 355,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -111,7 +116,10 @@
           "cues": 407,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -144,7 +152,10 @@
           "cues": 294,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -177,7 +188,10 @@
           "cues": 357,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -210,7 +224,10 @@
           "cues": 303,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -243,7 +260,11 @@
           "cues": 276,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -276,7 +297,10 @@
           "cues": 313,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -309,7 +333,10 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -342,7 +369,12 @@
           "cues": 334,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -375,7 +407,10 @@
           "cues": 348,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -408,7 +443,11 @@
           "cues": 294,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -441,7 +480,12 @@
           "cues": 314,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -474,9 +518,20 @@
           "cues": 356,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 43,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/baccano.json"
+  "quality_issues_count": 48,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/baccano.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_dialogue_content",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

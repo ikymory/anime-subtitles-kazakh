@@ -26,10 +26,18 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [],
+  "quarantined_episodes": [
+    1
+  ],
   "translated_episodes_count": 0,
   "available_episodes_count": 0,
   "subtitles": [],
   "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-shinyaku-benizakura.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama-shinyaku-benizakura.json",
+  "quality_flags": [
+    "invalid_subtitle",
+    "unusable_episode"
+  ]
 }

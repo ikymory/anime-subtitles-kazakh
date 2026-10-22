@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -40,6 +41,7 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -74,7 +76,10 @@
           "cues": 778,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -107,7 +112,10 @@
           "cues": 1998,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -140,7 +148,10 @@
           "cues": 1909,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -168,12 +179,17 @@
         },
         "ass": {
           "path": "subtitles/bishounen-tanteidan/ep_04.kk.ass",
-          "sha256": "977bcf8319078339fbb0e602b816379a0e3d8a311ccbf5253a86e8d7a19ba07a",
-          "bytes": 170189,
+          "sha256": "3727ad14d39f89f55f3628c26f791d361aa6876ec21b624b641efbb6f5fc72c2",
+          "bytes": 169934,
           "cues": 1809,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -206,7 +222,10 @@
           "cues": 1879,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -239,7 +258,10 @@
           "cues": 1894,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -272,7 +294,10 @@
           "cues": 1920,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -305,7 +330,10 @@
           "cues": 1064,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -338,7 +366,10 @@
           "cues": 1096,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -371,7 +402,10 @@
           "cues": 1093,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -404,7 +438,10 @@
           "cues": 1118,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -437,9 +474,17 @@
           "cues": 1117,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 37,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bishounen-tanteidan.json"
+  "quality_issues_count": 38,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bishounen-tanteidan.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

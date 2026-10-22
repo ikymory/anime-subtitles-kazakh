@@ -32,10 +32,12 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     5
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 2,
   "available_episodes_count": 2,
   "subtitles": [
@@ -70,7 +72,10 @@
           "cues": 885,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -103,9 +108,15 @@
           "cues": 1722,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 6,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/akira.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/akira.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

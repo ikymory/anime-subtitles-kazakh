@@ -28,9 +28,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -60,14 +62,25 @@
         },
         "ass": {
           "path": "subtitles/kara-no-kyoukai-satsujin-kousatsu-zen/ep_01.kk.ass",
-          "sha256": "34bc5fdc37b0f5d11ef36ce29a6029808a06bf1b342e2bf0aa6bff39dce0fc03",
-          "bytes": 131631,
+          "sha256": "14e2296f05130eca49db8fc5a1d401968d100fae56b5a79db3ede662f5d734d6",
+          "bytes": 118949,
           "cues": 1185,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-satsujin-kousatsu-zen.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-satsujin-kousatsu-zen.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -41,6 +42,7 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 13,
   "available_episodes_count": 13,
   "subtitles": [
@@ -70,12 +72,17 @@
         },
         "ass": {
           "path": "subtitles/bungou-stray-dogs-s4/ep_01.kk.ass",
-          "sha256": "e63cedbd94bd6376526a458701b396f87a344b568176cdf13cf421c930c17179",
-          "bytes": 43638,
-          "cues": 367,
-          "origin": "source"
+          "sha256": "a649d3e2b366ede4591fbe7310043a6a7765277b44f8bcf03aed98a5624c90c9",
+          "bytes": 42191,
+          "cues": 365,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -108,7 +115,10 @@
           "cues": 428,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -141,7 +151,10 @@
           "cues": 334,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -174,7 +187,10 @@
           "cues": 380,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -207,7 +223,10 @@
           "cues": 359,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -240,7 +259,10 @@
           "cues": 396,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -273,7 +295,11 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -306,7 +332,10 @@
           "cues": 366,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -339,7 +368,10 @@
           "cues": 332,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -372,7 +404,10 @@
           "cues": 326,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -405,7 +440,11 @@
           "cues": 424,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -438,7 +477,13 @@
           "cues": 473,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -471,9 +516,19 @@
           "cues": 426,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 45,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bungou-stray-dogs-s4.json"
+  "quality_issues_count": 46,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bungou-stray-dogs-s4.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

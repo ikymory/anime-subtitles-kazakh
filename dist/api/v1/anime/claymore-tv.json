@@ -28,6 +28,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -56,6 +57,7 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 26,
   "available_episodes_count": 26,
   "subtitles": [
@@ -90,7 +92,10 @@
           "cues": 258,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -123,7 +128,10 @@
           "cues": 256,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -156,7 +164,10 @@
           "cues": 295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -189,7 +200,10 @@
           "cues": 311,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -222,7 +236,10 @@
           "cues": 281,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -255,7 +272,10 @@
           "cues": 292,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -288,7 +308,10 @@
           "cues": 311,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -321,7 +344,10 @@
           "cues": 209,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -349,12 +375,18 @@
         },
         "ass": {
           "path": "subtitles/claymore-tv/ep_09.kk.ass",
-          "sha256": "463098a30e18cb5989787e34222afdac5c2cf1a262507be3e35131486001b3d5",
-          "bytes": 33655,
+          "sha256": "042c8ca43c2ba1349d958984440349c968ff2ac13b1dae256f2d56cd25f02c9a",
+          "bytes": 28984,
           "cues": 272,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "duplicate_dialogue_content",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -387,7 +419,10 @@
           "cues": 242,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -420,7 +455,10 @@
           "cues": 326,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -453,7 +491,10 @@
           "cues": 293,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -486,7 +527,10 @@
           "cues": 276,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -519,7 +563,10 @@
           "cues": 277,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -552,7 +599,10 @@
           "cues": 258,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -585,7 +635,10 @@
           "cues": 324,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -618,7 +671,11 @@
           "cues": 247,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -651,7 +708,10 @@
           "cues": 325,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -684,7 +744,10 @@
           "cues": 236,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -717,7 +780,10 @@
           "cues": 295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -750,7 +816,10 @@
           "cues": 183,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -783,7 +852,10 @@
           "cues": 233,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -816,7 +888,10 @@
           "cues": 197,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -849,7 +924,11 @@
           "cues": 209,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -882,7 +961,11 @@
           "cues": 214,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
@@ -915,9 +998,20 @@
           "cues": 260,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 79,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/claymore-tv.json"
+  "quality_issues_count": 86,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/claymore-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_dialogue_content",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

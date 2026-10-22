@@ -27,9 +27,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -59,14 +61,25 @@
         },
         "ass": {
           "path": "subtitles/ghost-in-the-shell-arise-1/ep_01.kk.ass",
-          "sha256": "39b3a0426e62818853b2b86dd17cec25a618320114d47d034e2b8060d537d916",
-          "bytes": 137403,
+          "sha256": "7c3281f5d30b1db58a5346d448d69d5f1757b66c4fc6d76e984887b2cb8de513",
+          "bytes": 135124,
           "cues": 1114,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-arise-1.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-arise-1.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

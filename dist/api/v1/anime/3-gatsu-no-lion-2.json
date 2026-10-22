@@ -25,6 +25,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -48,6 +49,7 @@
     21,
     22
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 21,
   "available_episodes_count": 21,
   "subtitles": [
@@ -82,7 +84,10 @@
           "cues": 5488,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -115,7 +120,10 @@
           "cues": 2749,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -143,12 +151,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_03.kk.ass",
-          "sha256": "4945a75c0d9571c7f8fbe554d8566e46af15551c6a61b412025167cce9c7a1da",
-          "bytes": 445141,
+          "sha256": "3c89ca22e97d4c51a4535ceafbd68ec3f87fc505dbbc53e8994f3713b8c0f300",
+          "bytes": 453935,
           "cues": 6160,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -181,7 +194,10 @@
           "cues": 580,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -209,12 +225,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_05.kk.ass",
-          "sha256": "21755e3840d301771d3063198f02a87531e3d1771244a8229ca417973a725ba5",
-          "bytes": 433709,
+          "sha256": "5e5619879d16634191360907e1aa8f1a71d8aea186053f58a74e976592d71450",
+          "bytes": 442225,
           "cues": 6218,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -242,12 +263,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_06.kk.ass",
-          "sha256": "09e046f33e5a61d31fd5b8a4fb08d15b0d32e029880f967713a2c6bedf4088dc",
-          "bytes": 228385,
+          "sha256": "f80f9d32593616d332c806e5aedb26d4546df56c29f3f766a97edf409c47d74c",
+          "bytes": 231462,
           "cues": 3178,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -280,7 +306,10 @@
           "cues": 10228,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -308,12 +337,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_08.kk.ass",
-          "sha256": "c6802c0c65d90f8bac58150865cce2d1b76c9bff383c2ba1f22f46059edffff0",
-          "bytes": 124614,
+          "sha256": "f2057b7df312b257fcdc78f529ae45a4008d95005aa8cc49304ae1a9529e3ff6",
+          "bytes": 124439,
           "cues": 1470,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -346,7 +380,10 @@
           "cues": 603,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -379,7 +416,10 @@
           "cues": 2783,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -412,7 +452,10 @@
           "cues": 1620,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -440,12 +483,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_13.kk.ass",
-          "sha256": "e34fc1ca6ae1b1a8fab08fb68af67f3a816bb305b8603641d2e05fd34382ded3",
-          "bytes": 68450,
-          "cues": 632,
-          "origin": "source"
+          "sha256": "4ed3d99996ecf9bc182f6f47b7f387bf7c5cd57e89714c10a927bae7a8163113",
+          "bytes": 66417,
+          "cues": 629,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -473,12 +521,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_14.kk.ass",
-          "sha256": "01ab7307397f772eebb838fb8884ab0cab5c3f6b8fd5e820d61710e66dccbc63",
-          "bytes": 143358,
-          "cues": 1728,
-          "origin": "source"
+          "sha256": "8cf854e38ea9d02a428bd47a45bb8c8b2e5e472bf7ea26ccbc53f203aa275cb8",
+          "bytes": 143381,
+          "cues": 1725,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -506,12 +559,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_15.kk.ass",
-          "sha256": "1997514297731207cd988a0e44acc8bdf9e0af854cc9e2506b30fcba5a4f88d2",
-          "bytes": 76327,
-          "cues": 668,
-          "origin": "source"
+          "sha256": "43328016568d00447699aee9289fb5796048d2d11128c582726dfd1cf7872e21",
+          "bytes": 73932,
+          "cues": 662,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -539,12 +597,17 @@
         },
         "ass": {
           "path": "subtitles/3-gatsu-no-lion-2/ep_16.kk.ass",
-          "sha256": "bdd5e4990ee8d9224298e13e72091260d89213bb09c15e64a4d31cb4c3447b33",
-          "bytes": 258289,
-          "cues": 3606,
-          "origin": "source"
+          "sha256": "6e3637ec334763f8cf5b57674fdbd112dac05e33d43ddcffd0d6a13b05a64a8b",
+          "bytes": 261968,
+          "cues": 3603,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -577,7 +640,10 @@
           "cues": 1931,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -610,7 +676,10 @@
           "cues": 1730,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -643,7 +712,10 @@
           "cues": 4295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -676,7 +748,10 @@
           "cues": 4874,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -709,7 +784,10 @@
           "cues": 2864,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -742,9 +820,18 @@
           "cues": 1534,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 78,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/3-gatsu-no-lion-2.json"
+  "quality_issues_count": 80,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/3-gatsu-no-lion-2.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

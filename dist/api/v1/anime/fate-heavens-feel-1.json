@@ -28,9 +28,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -60,14 +62,27 @@
         },
         "ass": {
           "path": "subtitles/fate-heavens-feel-1/ep_01.kk.ass",
-          "sha256": "2143c750d56fca4a9b422661d36749cc65e1c1b0349358fb9e0393755a30a496",
-          "bytes": 205959,
-          "cues": 2163,
-          "origin": "source"
+          "sha256": "8be2dff4dae2eb770b5e209a6cccc2b7b3211fd91a680acc55634c2edb1c544f",
+          "bytes": 210573,
+          "cues": 2113,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 5,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-heavens-feel-1.json"
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-heavens-feel-1.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

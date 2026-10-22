@@ -30,80 +30,18 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
-  "translated_episodes": [
+  "translation_provenance": "legacy_untraced",
+  "translated_episodes": [],
+  "quarantined_episodes": [
     1,
     2
   ],
-  "translated_episodes_count": 2,
-  "available_episodes_count": 2,
-  "subtitles": [
-    {
-      "episode": 1,
-      "language": "kk",
-      "filename": "ep_01.kk.srt",
-      "files": {
-        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-steel-ball-run/ep_01.kk.srt",
-        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-steel-ball-run/ep_01.kk.vtt",
-        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-steel-ball-run/ep_01.kk.ass"
-      },
-      "assets": {
-        "srt": {
-          "path": "subtitles/jojo-steel-ball-run/ep_01.kk.srt",
-          "sha256": "dee4f52b3c9615b2d1a50bf41e6dd90f46d63458603a43a7d5e2e7e8b1f0e9b5",
-          "bytes": 5502,
-          "cues": 32,
-          "origin": "source"
-        },
-        "vtt": {
-          "path": "subtitles/jojo-steel-ball-run/ep_01.kk.vtt",
-          "sha256": "5a4833961bd58735e716b118d511663c6f1a090e2ff246453cdff8230eb09110",
-          "bytes": 5599,
-          "cues": 32,
-          "origin": "source"
-        },
-        "ass": {
-          "path": "subtitles/jojo-steel-ball-run/ep_01.kk.ass",
-          "sha256": "25326c0c0052991838016b78a4c915d6171f7f79c7c55fb32bad4a67112a0adf",
-          "bytes": 6836,
-          "cues": 32,
-          "origin": "source"
-        }
-      }
-    },
-    {
-      "episode": 2,
-      "language": "kk",
-      "filename": "ep_02.kk.srt",
-      "files": {
-        "srt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-steel-ball-run/ep_02.kk.srt",
-        "vtt": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-steel-ball-run/ep_02.kk.vtt",
-        "ass": "https://ikymory.github.io/anime-subtitles-kazakh/subtitles/jojo-steel-ball-run/ep_02.kk.ass"
-      },
-      "assets": {
-        "srt": {
-          "path": "subtitles/jojo-steel-ball-run/ep_02.kk.srt",
-          "sha256": "fad1c079fff85c62eeb0088c7ac76f95796caf27c47e9b23b7fde3d31c1c3379",
-          "bytes": 8997,
-          "cues": 51,
-          "origin": "source"
-        },
-        "vtt": {
-          "path": "subtitles/jojo-steel-ball-run/ep_02.kk.vtt",
-          "sha256": "43d43f318f956bfe3653ad2eac7f8db55c73c9044c8c8fd119acfcac11874911",
-          "bytes": 9094,
-          "cues": 51,
-          "origin": "source"
-        },
-        "ass": {
-          "path": "subtitles/jojo-steel-ball-run/ep_02.kk.ass",
-          "sha256": "bc132aec16bd9ddc99fa210b5fe3db311db1bf7ba42cf4742c4662399d690430",
-          "bytes": 10657,
-          "cues": 51,
-          "origin": "source"
-        }
-      }
-    }
-  ],
-  "quality_issues_count": 6,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jojo-steel-ball-run.json"
+  "translated_episodes_count": 0,
+  "available_episodes_count": 0,
+  "subtitles": [],
+  "quality_issues_count": 2,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jojo-steel-ball-run.json",
+  "quality_flags": [
+    "reviewed_content_quarantine"
+  ]
 }

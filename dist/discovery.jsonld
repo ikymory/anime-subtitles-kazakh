@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "https://ikymory.github.io/anime-subtitles-kazakh/#dataset",
+      "name": "Anime Subtitles Kazakh — ikymory",
+      "description": "1,400 release entries and 9,786 usable subtitle tracks. Kazakh anime subtitle archive with machine-translated tracks, download manifests and a read-only JSON API. Translation accuracy, human review and complete-series coverage are not verified. Release entries are not distinct anime; track counts do not establish complete episode or series coverage. Metadata and episode numbering remain unverified. No video or audio is hosted.",
+      "inLanguage": "kk",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Person",
+        "name": "ikymory",
+        "url": "https://github.com/ikymory"
+      },
+      "sameAs": "https://github.com/ikymory/anime-subtitles-kazakh",
+      "keywords": [
+        "Kazakh subtitles",
+        "қазақша аниме субтитрлер",
+        "SRT",
+        "WebVTT"
+      ],
+      "measurementTechnique": "Automated subtitle parsing and canonical track manifests; structural validation does not establish linguistic accuracy.",
+      "url": "https://ikymory.github.io/anime-subtitles-kazakh/",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "Release catalog and available-track metadata",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime.json"
+        }
+      ],
+      "subjectOf": [
+        {
+          "@type": "CreativeWork",
+          "name": "Measured coverage statistics",
+          "url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/stats.json"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Automated findings requiring review",
+          "url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/audit.json"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ikymory.github.io/anime-subtitles-kazakh/#website",
+      "url": "https://ikymory.github.io/anime-subtitles-kazakh/",
+      "name": "Anime Subtitles Kazakh — ikymory",
+      "inLanguage": [
+        "kk",
+        "en",
+        "ja"
+      ],
+      "description": "Kazakh anime subtitle archive with machine-translated tracks, download manifests and a read-only JSON API. Translation accuracy, human review and complete-series coverage are not verified."
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://ikymory.github.io/anime-subtitles-kazakh/#catalog-page",
+      "url": "https://ikymory.github.io/anime-subtitles-kazakh/",
+      "name": "Қазақша аниме субтитрлер | Kazakh Anime Subtitles — ikymory",
+      "inLanguage": "kk",
+      "isPartOf": {
+        "@id": "https://ikymory.github.io/anime-subtitles-kazakh/#website"
+      },
+      "mainEntity": {
+        "@id": "https://ikymory.github.io/anime-subtitles-kazakh/#dataset"
+      }
+    }
+  ]
+}

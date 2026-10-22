@@ -30,6 +30,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -58,6 +59,7 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 26,
   "available_episodes_count": 26,
   "subtitles": [
@@ -92,7 +94,12 @@
           "cues": 799,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -125,7 +132,10 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -158,7 +168,10 @@
           "cues": 372,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -191,7 +204,12 @@
           "cues": 299,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -224,7 +242,10 @@
           "cues": 314,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -257,7 +278,11 @@
           "cues": 384,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -290,7 +315,11 @@
           "cues": 374,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -323,7 +352,10 @@
           "cues": 310,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -356,7 +388,12 @@
           "cues": 387,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -389,7 +426,12 @@
           "cues": 296,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -422,7 +464,10 @@
           "cues": 410,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -455,7 +500,10 @@
           "cues": 407,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -488,7 +536,12 @@
           "cues": 411,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -521,7 +574,10 @@
           "cues": 1511,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -554,7 +610,10 @@
           "cues": 726,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -582,12 +641,17 @@
         },
         "ass": {
           "path": "subtitles/fate-zero-tv/ep_16.kk.ass",
-          "sha256": "cfc55478ce08d5c2239ef949f338d36100a1becf5eaa59954cbda0797df0b406",
-          "bytes": 111950,
+          "sha256": "c6ab6f35287ffc4c6a75fefe9dcdc451185222b9012ca1826e4dcac264286b41",
+          "bytes": 104403,
           "cues": 990,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -620,7 +684,10 @@
           "cues": 257,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -648,12 +715,17 @@
         },
         "ass": {
           "path": "subtitles/fate-zero-tv/ep_18.kk.ass",
-          "sha256": "7e6ac4f8a5d3c69b4273bfadbd0f3b5ab7db732779e6ca13f45c91179f025c7c",
-          "bytes": 104059,
+          "sha256": "a2fd15eb3f06c7ebd4fc2286ed56e83f5f52f5e2a64e967d365f37fe47fee7c3",
+          "bytes": 98424,
           "cues": 858,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -686,7 +758,10 @@
           "cues": 322,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -719,7 +794,10 @@
           "cues": 742,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -752,7 +830,10 @@
           "cues": 264,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -785,7 +866,10 @@
           "cues": 755,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -818,7 +902,10 @@
           "cues": 270,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -846,12 +933,17 @@
         },
         "ass": {
           "path": "subtitles/fate-zero-tv/ep_24.kk.ass",
-          "sha256": "e97558292f0889dbef2b34c430ac5086db21eccee697f298b81451ecef27dfe5",
-          "bytes": 104940,
+          "sha256": "0956d730ae1ae96411f025267b9834316223de8d6904ff78a9518ebc6014e411",
+          "bytes": 99291,
           "cues": 875,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -879,12 +971,17 @@
         },
         "ass": {
           "path": "subtitles/fate-zero-tv/ep_25.kk.ass",
-          "sha256": "363cf5ad32baf5f6725f48be37efac1ee66376c3f38d2a27b4b45defddfda80a",
-          "bytes": 38480,
+          "sha256": "378c098e94462f01ebc47110c58fa0ae961ff88004bae6067f8a2080fcf24b64",
+          "bytes": 38569,
           "cues": 323,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
@@ -912,14 +1009,28 @@
         },
         "ass": {
           "path": "subtitles/fate-zero-tv/ep_26.kk.ass",
-          "sha256": "52730ddab60c1307c0a0ff9fcd5df026d07ecd6508df7948689934a410e4aa3a",
-          "bytes": 128941,
+          "sha256": "e93070cd17d918a978567704fc93dd9cfb49b2a7abd18bf92ea79f1ea9d4c722",
+          "bytes": 119507,
           "cues": 1139,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 95,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-zero-tv.json"
+  "quality_issues_count": 102,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/fate-zero-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

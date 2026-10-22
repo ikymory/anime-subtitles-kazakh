@@ -29,9 +29,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -61,14 +63,27 @@
         },
         "ass": {
           "path": "subtitles/appleseed-ex-machina/ep_01.kk.ass",
-          "sha256": "503e3b56e8f3aaf60044361b0a60c822c5ed73b4924ec8d6cd185cbf2c1ac57b",
-          "bytes": 229335,
+          "sha256": "942bd189445807915ddfc70fff73f1f07ba06ef3c123b77d6caf8ab23cc5316a",
+          "bytes": 225853,
           "cues": 2029,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 5,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/appleseed-ex-machina.json"
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/appleseed-ex-machina.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

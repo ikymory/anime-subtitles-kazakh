@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -45,6 +46,7 @@
     16,
     17
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 17,
   "available_episodes_count": 17,
   "subtitles": [
@@ -79,7 +81,10 @@
           "cues": 330,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -112,7 +117,10 @@
           "cues": 295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -145,7 +153,10 @@
           "cues": 306,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -178,7 +189,10 @@
           "cues": 341,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -211,7 +225,10 @@
           "cues": 308,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -244,7 +261,10 @@
           "cues": 281,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -277,7 +297,10 @@
           "cues": 347,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -310,7 +333,10 @@
           "cues": 292,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -343,7 +369,10 @@
           "cues": 295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -376,7 +405,10 @@
           "cues": 290,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -409,7 +441,10 @@
           "cues": 288,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -442,7 +477,10 @@
           "cues": 213,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -475,7 +513,10 @@
           "cues": 322,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -508,7 +549,10 @@
           "cues": 290,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -541,7 +585,10 @@
           "cues": 283,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -574,7 +621,10 @@
           "cues": 307,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -607,9 +657,15 @@
           "cues": 333,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 51,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/black-jack-21.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/black-jack-21.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

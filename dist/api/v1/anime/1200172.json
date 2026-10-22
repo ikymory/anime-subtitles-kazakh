@@ -26,12 +26,14 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     11,
     12,
     13,
     14
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 4,
   "available_episodes_count": 4,
   "subtitles": [
@@ -66,7 +68,10 @@
           "cues": 75,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -99,7 +104,10 @@
           "cues": 91,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -132,7 +140,10 @@
           "cues": 78,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -165,9 +176,15 @@
           "cues": 77,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 12,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cike-wu-liuqi-fanwai.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cike-wu-liuqi-fanwai.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

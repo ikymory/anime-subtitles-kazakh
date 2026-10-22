@@ -25,11 +25,13 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
     3
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 3,
   "available_episodes_count": 3,
   "subtitles": [
@@ -64,7 +66,10 @@
           "cues": 333,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -97,7 +102,10 @@
           "cues": 382,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -130,9 +138,15 @@
           "cues": 319,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 9,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/burn-the-witch.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/burn-the-witch.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

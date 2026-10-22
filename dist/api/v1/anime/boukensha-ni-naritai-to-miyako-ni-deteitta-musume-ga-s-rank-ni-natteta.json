@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -41,6 +42,7 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 13,
   "available_episodes_count": 13,
   "subtitles": [
@@ -75,7 +77,10 @@
           "cues": 409,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -108,7 +113,10 @@
           "cues": 457,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -141,7 +149,10 @@
           "cues": 431,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -174,7 +185,10 @@
           "cues": 445,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -207,7 +221,10 @@
           "cues": 499,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -240,7 +257,10 @@
           "cues": 468,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -268,12 +288,17 @@
         },
         "ass": {
           "path": "subtitles/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta/ep_07.kk.ass",
-          "sha256": "bca74398703b60944288be62931678ba1c389f8f2a17846b8a8adb8f117a64d9",
-          "bytes": 39880,
+          "sha256": "407289bac90387e24a9e9cfa9d80ab228c39605ecaf77d339c552eb3fc74ae85",
+          "bytes": 39444,
           "cues": 399,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -306,7 +331,10 @@
           "cues": 433,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -339,7 +367,10 @@
           "cues": 434,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -372,7 +403,10 @@
           "cues": 394,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -405,7 +439,10 @@
           "cues": 522,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -438,7 +475,10 @@
           "cues": 468,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -471,9 +511,17 @@
           "cues": 455,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 40,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta.json"
+  "quality_issues_count": 41,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -53,6 +54,7 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 25,
   "available_episodes_count": 25,
   "subtitles": [
@@ -87,7 +89,10 @@
           "cues": 432,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -120,7 +125,10 @@
           "cues": 459,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -153,7 +161,10 @@
           "cues": 456,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -186,7 +197,10 @@
           "cues": 471,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -219,7 +233,10 @@
           "cues": 528,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -252,7 +269,10 @@
           "cues": 480,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -280,12 +300,17 @@
         },
         "ass": {
           "path": "subtitles/code-geass-hangyaku-no-lelouch-r2/ep_07.kk.ass",
-          "sha256": "0818dff3cff91eb9c25db375bd2786969dfe1b802ba5dfcc422431058a04d710",
-          "bytes": 48768,
+          "sha256": "515cde14a2577cd7d706b9b5953367718b24d2be66d175b89486d26f1d541dfd",
+          "bytes": 48332,
           "cues": 469,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -318,7 +343,10 @@
           "cues": 463,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -351,7 +379,10 @@
           "cues": 505,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -384,7 +415,10 @@
           "cues": 537,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -417,7 +451,10 @@
           "cues": 501,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -450,7 +487,10 @@
           "cues": 519,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -483,7 +523,10 @@
           "cues": 437,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -516,7 +559,10 @@
           "cues": 424,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -549,7 +595,10 @@
           "cues": 417,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -582,7 +631,10 @@
           "cues": 525,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -615,7 +667,10 @@
           "cues": 461,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -648,7 +703,10 @@
           "cues": 460,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -681,7 +739,10 @@
           "cues": 533,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -714,7 +775,10 @@
           "cues": 508,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -747,7 +811,10 @@
           "cues": 484,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -780,7 +847,10 @@
           "cues": 436,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -813,7 +883,10 @@
           "cues": 426,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -846,7 +919,10 @@
           "cues": 448,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -879,9 +955,18 @@
           "cues": 359,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 76,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/code-geass-hangyaku-no-lelouch-r2.json"
+  "quality_issues_count": 78,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/code-geass-hangyaku-no-lelouch-r2.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

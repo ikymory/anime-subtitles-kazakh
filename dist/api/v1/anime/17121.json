@@ -25,9 +25,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -57,14 +59,24 @@
         },
         "ass": {
           "path": "subtitles/dareka-no-manazashi/ep_01.kk.ass",
-          "sha256": "40af7c68fa26868961b53a693e1a3e70c0344de549611f3e8e6627a048071f2d",
-          "bytes": 30756,
-          "cues": 275,
-          "origin": "source"
+          "sha256": "89a6caa98a1814d0bfaf637ca543516aac5e95014fe4da34da748cc573bd3931",
+          "bytes": 26748,
+          "cues": 256,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dareka-no-manazashi.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dareka-no-manazashi.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

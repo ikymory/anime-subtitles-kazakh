@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -37,6 +38,10 @@
     10,
     11,
     12
+  ],
+  "quarantined_episodes": [
+    3,
+    4
   ],
   "translated_episodes_count": 10,
   "available_episodes_count": 10,
@@ -72,7 +77,12 @@
           "cues": 391,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -105,7 +115,12 @@
           "cues": 330,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -138,7 +153,12 @@
           "cues": 443,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -171,7 +191,12 @@
           "cues": 424,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -204,7 +229,12 @@
           "cues": 348,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -237,7 +267,10 @@
           "cues": 394,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -270,7 +303,10 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -303,7 +339,12 @@
           "cues": 342,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -336,7 +377,12 @@
           "cues": 360,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -369,9 +415,18 @@
           "cues": 290,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 50,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/amnesia.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/amnesia.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization",
+    "unusable_episode"
+  ]
 }

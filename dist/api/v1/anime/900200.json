@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -41,6 +42,7 @@
     12,
     13
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 13,
   "available_episodes_count": 13,
   "subtitles": [
@@ -75,7 +77,10 @@
           "cues": 310,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -108,7 +113,12 @@
           "cues": 426,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -141,7 +151,10 @@
           "cues": 343,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -174,7 +187,10 @@
           "cues": 354,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -207,7 +223,10 @@
           "cues": 312,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -240,7 +259,10 @@
           "cues": 212,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -273,7 +295,10 @@
           "cues": 310,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -306,7 +331,10 @@
           "cues": 125,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -339,7 +367,10 @@
           "cues": 278,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -372,7 +403,10 @@
           "cues": 282,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -405,7 +439,10 @@
           "cues": 268,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -438,7 +475,10 @@
           "cues": 311,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -471,9 +511,17 @@
           "cues": 322,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 41,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aria-the-animation-tv.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/aria-the-animation-tv.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

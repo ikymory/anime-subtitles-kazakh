@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -52,6 +53,7 @@
     23,
     24
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 24,
   "available_episodes_count": 24,
   "subtitles": [
@@ -86,7 +88,12 @@
           "cues": 514,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -119,7 +126,11 @@
           "cues": 523,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -152,7 +163,10 @@
           "cues": 433,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -185,7 +199,12 @@
           "cues": 470,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -218,7 +237,10 @@
           "cues": 414,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -251,7 +273,10 @@
           "cues": 451,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -284,7 +309,11 @@
           "cues": 476,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -317,7 +346,10 @@
           "cues": 391,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -350,7 +382,11 @@
           "cues": 517,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -383,7 +419,11 @@
           "cues": 470,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -416,7 +456,10 @@
           "cues": 435,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -449,7 +492,10 @@
           "cues": 465,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -482,7 +528,10 @@
           "cues": 446,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -515,7 +564,10 @@
           "cues": 502,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -548,7 +600,10 @@
           "cues": 558,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -581,7 +636,12 @@
           "cues": 516,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -614,7 +674,10 @@
           "cues": 486,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -647,7 +710,12 @@
           "cues": 476,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -680,7 +748,10 @@
           "cues": 545,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -713,7 +784,12 @@
           "cues": 514,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -746,7 +822,12 @@
           "cues": 555,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -779,7 +860,10 @@
           "cues": 466,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -812,7 +896,10 @@
           "cues": 563,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -845,9 +932,24 @@
           "cues": 501,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 85,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dungeon-meshi.json"
+  "quality_issues_count": 92,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dungeon-meshi.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_dialogue_content",
+    "duplicate_episode_content",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

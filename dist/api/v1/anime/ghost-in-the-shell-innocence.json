@@ -29,9 +29,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -61,14 +63,25 @@
         },
         "ass": {
           "path": "subtitles/ghost-in-the-shell-innocence/ep_01.kk.ass",
-          "sha256": "d94073a4dcdf92c30d4f9d2c005c9e99e9639d158465cc9cd5a5f11ba5b7c47a",
-          "bytes": 108846,
-          "cues": 827,
-          "origin": "source"
+          "sha256": "d1c8d2510b3860e7e962a4d3d277a5f2f34ecd4e43b8708b3fcfd79e5e884411",
+          "bytes": 106151,
+          "cues": 825,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-innocence.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell-innocence.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

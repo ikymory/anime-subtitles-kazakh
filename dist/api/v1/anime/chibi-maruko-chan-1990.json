@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     9,
     10,
@@ -53,6 +54,7 @@
     51,
     53
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 25,
   "available_episodes_count": 25,
   "subtitles": [
@@ -87,7 +89,10 @@
           "cues": 1168,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -120,7 +125,10 @@
           "cues": 1385,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -153,7 +161,10 @@
           "cues": 1470,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -186,7 +197,10 @@
           "cues": 1188,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -219,7 +233,12 @@
           "cues": 1340,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -252,7 +271,10 @@
           "cues": 1273,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -285,7 +307,10 @@
           "cues": 1295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -318,7 +343,10 @@
           "cues": 1503,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -351,7 +379,10 @@
           "cues": 1419,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -384,7 +415,10 @@
           "cues": 1420,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -417,7 +451,10 @@
           "cues": 1296,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -450,7 +487,10 @@
           "cues": 1348,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -483,7 +523,10 @@
           "cues": 2031,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -516,7 +559,10 @@
           "cues": 2398,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -549,7 +595,10 @@
           "cues": 1165,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
@@ -582,7 +631,10 @@
           "cues": 2334,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 27,
@@ -615,7 +667,10 @@
           "cues": 1285,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 28,
@@ -648,7 +703,10 @@
           "cues": 1266,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 29,
@@ -681,7 +739,10 @@
           "cues": 1190,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 30,
@@ -714,7 +775,10 @@
           "cues": 1093,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 47,
@@ -747,7 +811,10 @@
           "cues": 1118,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 48,
@@ -780,7 +847,12 @@
           "cues": 1131,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 49,
@@ -813,7 +885,10 @@
           "cues": 1131,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 51,
@@ -846,7 +921,10 @@
           "cues": 1068,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 53,
@@ -879,9 +957,17 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 81,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chibi-maruko-chan-1990.json"
+  "quality_issues_count": 79,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chibi-maruko-chan-1990.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

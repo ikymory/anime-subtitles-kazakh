@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -54,6 +55,7 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 26,
   "available_episodes_count": 26,
   "subtitles": [
@@ -88,7 +90,11 @@
           "cues": 547,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -121,7 +127,10 @@
           "cues": 453,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -154,7 +163,10 @@
           "cues": 450,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -187,7 +199,10 @@
           "cues": 547,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -220,7 +235,13 @@
           "cues": 433,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -253,7 +274,11 @@
           "cues": 460,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -286,7 +311,10 @@
           "cues": 434,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -319,7 +347,10 @@
           "cues": 427,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -340,10 +371,10 @@
         },
         "vtt": {
           "path": "subtitles/busou-renkin/ep_09.kk.vtt",
-          "sha256": "c73a4df89b686f222c71f3251c627b97a3aa31220b377a063d14d3f1c8e5d9d5",
-          "bytes": 46492,
+          "sha256": "b1c349cf28e79283c3f783a5fbf9ebcff857234b2ceda53cd3649ffc6080371a",
+          "bytes": 46403,
           "cues": 499,
-          "origin": "source"
+          "origin": "derived"
         },
         "ass": {
           "path": "subtitles/busou-renkin/ep_09.kk.ass",
@@ -352,7 +383,12 @@
           "cues": 499,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -385,7 +421,10 @@
           "cues": 391,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -418,7 +457,10 @@
           "cues": 405,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -451,7 +493,10 @@
           "cues": 482,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -484,7 +529,10 @@
           "cues": 436,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -517,7 +565,10 @@
           "cues": 395,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -550,7 +601,10 @@
           "cues": 408,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -583,7 +637,10 @@
           "cues": 423,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -616,7 +673,10 @@
           "cues": 468,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -649,7 +709,10 @@
           "cues": 373,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -682,7 +745,10 @@
           "cues": 394,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -715,7 +781,10 @@
           "cues": 342,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -748,7 +817,10 @@
           "cues": 381,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -781,7 +853,10 @@
           "cues": 372,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -814,7 +889,10 @@
           "cues": 398,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -847,7 +925,10 @@
           "cues": 387,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -880,7 +961,10 @@
           "cues": 238,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
@@ -913,9 +997,19 @@
           "cues": 300,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 84,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/busou-renkin.json"
+  "quality_issues_count": 85,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/busou-renkin.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -31,6 +31,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     12,
@@ -47,6 +48,7 @@
     25,
     32
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 14,
   "available_episodes_count": 14,
   "subtitles": [
@@ -81,7 +83,11 @@
           "cues": 388,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -114,7 +120,11 @@
           "cues": 332,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -147,7 +157,11 @@
           "cues": 337,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -180,7 +194,11 @@
           "cues": 279,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -213,7 +231,11 @@
           "cues": 289,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -246,7 +268,11 @@
           "cues": 289,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -279,7 +305,11 @@
           "cues": 312,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -312,7 +342,11 @@
           "cues": 314,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -345,7 +379,11 @@
           "cues": 336,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -378,7 +416,11 @@
           "cues": 330,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -411,7 +453,11 @@
           "cues": 301,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -444,7 +490,11 @@
           "cues": 261,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -477,7 +527,11 @@
           "cues": 351,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 32,
@@ -510,9 +564,17 @@
           "cues": 316,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 70,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/soul-eater.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/soul-eater.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

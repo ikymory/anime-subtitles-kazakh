@@ -5,15 +5,18 @@
   "issue_counts": {
     "ambiguous_legacy_id": 70,
     "cjk_dialogue_requires_review": 2,
-    "derived_format": 1837,
+    "derived_format": 2035,
+    "duplicate_dialogue_content": 113,
     "duplicate_episode_content": 68,
+    "duplicate_title_identity": 160,
     "english_dialogue_requires_review": 592,
     "episode_numbering_requires_review": 47,
-    "format_dialogue_drift": 275,
+    "format_dialogue_drift": 198,
     "invalid_subtitle": 1930,
     "mirror_drift": 4866,
-    "normalized_subtitle_serialization": 27527,
+    "normalized_subtitle_serialization": 27521,
     "repeated_dialogue_requires_review": 39,
+    "reviewed_content_quarantine": 2,
     "unrecognized_filename": 4,
     "unusable_episode": 31
   },
@@ -346,6 +349,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "11eyes",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "11eyes",
       "episode": 3,
       "format": "ass"
@@ -1226,15 +1235,21 @@
       "path": "subtitles/3-gatsu-no-lion/ep_02.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "3-gatsu-no-lion",
-      "episode": 2
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "3-gatsu-no-lion",
       "episode": 2,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion",
+      "episode": 2,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "3-gatsu-no-lion",
+      "episode": 2
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -1336,6 +1351,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion/ep_09.kk.srt"
     },
@@ -1373,6 +1394,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion",
+      "episode": 11,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion",
       "episode": 11,
       "format": "ass"
@@ -1432,6 +1459,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion/ep_16.kk.srt"
     },
@@ -1456,15 +1489,21 @@
       "path": "subtitles/3-gatsu-no-lion/ep_17.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "3-gatsu-no-lion",
-      "episode": 17
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "3-gatsu-no-lion",
       "episode": 17,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion",
+      "episode": 17,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "3-gatsu-no-lion",
+      "episode": 17
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -1540,6 +1579,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion",
+      "episode": 22,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_01.kk.srt"
     },
@@ -1582,6 +1627,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_04.kk.srt"
     },
@@ -1612,6 +1663,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_06.kk.srt"
     },
@@ -1625,6 +1682,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 6,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-2",
       "episode": 6,
       "format": "ass"
@@ -1655,6 +1718,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-2",
       "episode": 8,
       "format": "ass"
@@ -1696,12 +1765,6 @@
       "path": "subtitles/3-gatsu-no-lion-2/ep_12.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-2",
-      "episode": 12,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_13.kk.srt"
     },
@@ -1715,6 +1778,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 13,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-2",
       "episode": 13,
       "format": "ass"
@@ -1738,6 +1807,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_15.kk.srt"
     },
@@ -1751,6 +1826,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-2",
       "episode": 15,
       "format": "ass"
@@ -1774,6 +1855,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-2",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_17.kk.srt"
     },
@@ -1784,12 +1871,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_17.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-2",
-      "episode": 17,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -1804,12 +1885,6 @@
       "path": "subtitles/3-gatsu-no-lion-2/ep_18.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-2",
-      "episode": 18,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_19.kk.srt"
     },
@@ -1820,12 +1895,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_19.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-2",
-      "episode": 19,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -1840,12 +1909,6 @@
       "path": "subtitles/3-gatsu-no-lion-2/ep_20.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-2",
-      "episode": 20,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_21.kk.srt"
     },
@@ -1858,12 +1921,6 @@
       "path": "subtitles/3-gatsu-no-lion-2/ep_21.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-2",
-      "episode": 21,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_22.kk.srt"
     },
@@ -1874,12 +1931,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-2/ep_22.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-2",
-      "episode": 22,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -1912,6 +1963,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 2,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_03.kk.srt"
     },
@@ -1925,6 +1982,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-s2",
       "episode": 3,
       "format": "ass"
@@ -1960,6 +2023,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_06.kk.srt"
     },
@@ -1973,6 +2042,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 6,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-s2",
       "episode": 6,
       "format": "ass"
@@ -2003,6 +2078,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-s2",
       "episode": 8,
       "format": "ass"
@@ -2051,12 +2132,6 @@
       "sample": "m 375 112 l 411 176 803 102 790 28"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-s2",
-      "episode": 12,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_13.kk.srt"
     },
@@ -2070,6 +2145,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 13,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-s2",
       "episode": 13,
       "format": "ass"
@@ -2093,6 +2174,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_15.kk.srt"
     },
@@ -2106,6 +2193,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "3-gatsu-no-lion-s2",
       "episode": 15,
       "format": "ass"
@@ -2129,6 +2222,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "3-gatsu-no-lion-s2",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_17.kk.srt"
     },
@@ -2141,12 +2240,6 @@
       "path": "subtitles/3-gatsu-no-lion-s2/ep_17.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-s2",
-      "episode": 17,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_18.kk.srt"
     },
@@ -2157,12 +2250,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_18.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-s2",
-      "episode": 18,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -2184,12 +2271,6 @@
       "sample": "Ессіздік балалары 'ЖОҚ' жағын бөгеп, жояды"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-s2",
-      "episode": 19,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_20.kk.srt"
     },
@@ -2200,12 +2281,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_20.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-s2",
-      "episode": 20,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -2220,12 +2295,6 @@
       "path": "subtitles/3-gatsu-no-lion-s2/ep_21.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-s2",
-      "episode": 21,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_22.kk.srt"
     },
@@ -2236,12 +2305,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/3-gatsu-no-lion-s2/ep_22.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "3-gatsu-no-lion-s2",
-      "episode": 22,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -3235,6 +3298,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "91days",
+      "episode": 6,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/91days/ep_07.kk.srt"
     },
@@ -3817,6 +3886,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "a3-spring-summer",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_02.kk.srt"
     },
@@ -3827,12 +3902,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_02.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "a3-spring-summer",
-      "episode": 2,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -3853,6 +3922,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "a3-spring-summer",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_04.kk.srt"
     },
@@ -3863,12 +3938,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_04.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "a3-spring-summer",
-      "episode": 4,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -3889,6 +3958,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "a3-spring-summer",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_06.kk.srt"
     },
@@ -3899,12 +3974,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_06.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "a3-spring-summer",
-      "episode": 6,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -3920,6 +3989,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "a3-spring-summer",
+      "episode": 7,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "a3-spring-summer",
       "episode": 7,
       "format": "ass"
@@ -3943,6 +4018,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "a3-spring-summer",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_09.kk.srt"
     },
@@ -3956,6 +4037,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "a3-spring-summer",
+      "episode": 9,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "a3-spring-summer",
       "episode": 9,
       "format": "ass"
@@ -3979,6 +4066,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "a3-spring-summer",
+      "episode": 10,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_11.kk.srt"
     },
@@ -3997,6 +4090,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "a3-spring-summer",
+      "episode": 11,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/a3-spring-summer/ep_12.kk.srt"
     },
@@ -4010,6 +4109,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "a3-spring-summer",
+      "episode": 12,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "a3-spring-summer",
       "episode": 12,
       "format": "ass"
@@ -10272,6 +10377,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "akuma-kun",
+      "episode": 4,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/akuma-kun/ep_05.kk.srt"
     },
@@ -12336,6 +12447,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "anemone-eureka-seven",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "anemone-eureka-seven",
       "episode": 1,
       "format": "ass"
@@ -21573,15 +21690,21 @@
       "path": "subtitles/appleseed-ex-machina/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "appleseed-ex-machina",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "appleseed-ex-machina",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "appleseed-ex-machina",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "appleseed-ex-machina",
+      "episode": 1
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -21596,15 +21719,21 @@
       "path": "subtitles/appleseed-saga-ex-machina/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "appleseed-saga-ex-machina",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "appleseed-saga-ex-machina",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "appleseed-saga-ex-machina",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "appleseed-saga-ex-machina",
+      "episode": 1
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -22045,6 +22174,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "araiguma-calcal-dan",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/araiguma-calcal-dan/ep_06.kk.srt"
     },
@@ -22070,6 +22205,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "araiguma-calcal-dan",
+      "episode": 7,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "araiguma-calcal-dan",
       "episode": 7,
       "format": "ass"
@@ -22153,6 +22294,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "araiguma-calcal-dan",
+      "episode": 13,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/araiguma-calcal-dan/ep_14.kk.srt"
     },
@@ -22195,6 +22342,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "araiguma-calcal-dan",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/araiguma-calcal-dan/ep_17.kk.srt"
     },
@@ -22208,6 +22361,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "araiguma-calcal-dan",
+      "episode": 17,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "araiguma-calcal-dan",
       "episode": 17,
       "format": "ass"
@@ -22286,6 +22445,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "araiguma-calcal-dan",
+      "episode": 23,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "araiguma-calcal-dan",
       "episode": 23,
       "format": "ass"
@@ -22837,6 +23002,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "argonavis-from-bang-dream",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/argonavis-from-bang-dream/ep_04.kk.srt"
     },
@@ -23091,12 +23262,6 @@
       "path": "subtitles/aria-the-avvenire/ep_06.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "aria-the-avvenire",
-      "episode": 6,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/aria-the-avvenire/ep_07.kk.srt"
     },
@@ -23107,12 +23272,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/aria-the-avvenire/ep_07.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "aria-the-avvenire",
-      "episode": 7,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -26441,6 +26600,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "azumanga-daiou",
+      "episode": 20,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/azumanga-daiou/ep_21.kk.srt"
     },
@@ -26454,6 +26619,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "azumanga-daiou",
+      "episode": 21,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "azumanga-daiou",
       "episode": 21,
       "format": "ass"
@@ -28478,15 +28649,21 @@
       "path": "subtitles/bakemonogatari-tv/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "bakemonogatari-tv",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "bakemonogatari-tv",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "bakemonogatari-tv",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "bakemonogatari-tv",
+      "episode": 1
     },
     {
       "code": "invalid_subtitle",
@@ -33944,6 +34121,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "bastard-ankoku-no-hakaishin",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/bastard-ankoku-no-hakaishin/ep_06.kk.srt"
     },
@@ -34053,6 +34236,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "bastard-ankoku-no-hakaishin",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "bastard-ankoku-no-hakaishin",
       "episode": 14,
       "format": "ass"
@@ -35230,6 +35419,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "beastars-2",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "beastars-2",
       "episode": 3,
       "format": "ass"
@@ -37788,15 +37983,21 @@
       "path": "subtitles/berserk-golden-age-3/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "berserk-golden-age-3",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "berserk-golden-age-3",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "berserk-golden-age-3",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "berserk-golden-age-3",
+      "episode": 1
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -43827,6 +44028,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "bishounen-tanteidan",
+      "episode": 4,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/bishounen-tanteidan/ep_05.kk.srt"
     },
@@ -44101,12 +44308,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/black-butler-atlantic/ep_01.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "black-butler-atlantic",
-      "episode": 1,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -44640,6 +44841,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "bleach-diamonddust-rebellion",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/bleach-fade-to-black/ep_01.kk.srt"
     },
@@ -44653,6 +44860,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "bleach-fade-to-black",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "bleach-fade-to-black",
       "episode": 1,
       "format": "ass"
@@ -45539,6 +45752,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "bleach-the-diamonddust-rebellion-mou-hitotsu-no-hyourinmaru",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "bleach-the-diamonddust-rebellion-mou-hitotsu-no-hyourinmaru",
       "episode": 1,
       "format": "ass"
@@ -49684,6 +49903,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "blue-thermal",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/bna/ep_01.kk.srt"
     },
@@ -49817,6 +50042,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "bna",
+      "episode": 11,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "bna",
       "episode": 11,
       "format": "ass"
@@ -50112,15 +50343,21 @@
       "path": "subtitles/bocchi-the-rock-re/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "bocchi-the-rock-re",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "bocchi-the-rock-re",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "bocchi-the-rock-re",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "bocchi-the-rock-re",
+      "episode": 1
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -50141,6 +50378,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "bocchi-the-rock-re-re",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/bocchi-the-rock-rere/ep_01.kk.srt"
     },
@@ -50154,6 +50397,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "bocchi-the-rock-rere",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "bocchi-the-rock-rere",
       "episode": 1,
       "format": "ass"
@@ -53818,12 +54067,6 @@
       "episode": 1
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "bokutachi-wa-benkyou-ga-dekinai-ovas",
-      "episode": 1,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/bokutachi-wa-benkyou-ga-dekinai-ovas/ep_02.kk.srt"
     },
@@ -55183,6 +55426,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta",
+      "episode": 7,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta",
       "episode": 7,
       "format": "ass"
@@ -56721,6 +56970,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "bungo-stray-dogs-tv",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/bungou-stray-dogs-s2/ep_01.kk.srt"
     },
@@ -56892,6 +57147,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "bungou-stray-dogs-s4",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "bungou-stray-dogs-s4",
       "episode": 1,
       "format": "ass"
@@ -57210,15 +57471,21 @@
       "path": "subtitles/bungou-stray-dogs-wan/ep_10.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "bungou-stray-dogs-wan",
-      "episode": 10
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "bungou-stray-dogs-wan",
       "episode": 10,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "bungou-stray-dogs-wan",
+      "episode": 10,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "bungou-stray-dogs-wan",
+      "episode": 10
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -57626,6 +57893,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "busou-renkin",
+      "episode": 9,
+      "format": "vtt"
+    },
+    {
+      "code": "derived_format",
       "slug": "busou-renkin",
       "episode": 9,
       "format": "vtt"
@@ -58747,12 +59020,6 @@
       "path": "subtitles/c-de-breaker/ep_13.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "c-de-breaker",
-      "episode": 13,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/c-the-money-of-soul-and-possibility-control/ep_01.kk.srt"
     },
@@ -59729,6 +59996,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cardcaptor-sakura-clear-card",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cardcaptor-sakura-clear-card/ep_04.kk.srt"
     },
@@ -59742,6 +60015,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cardcaptor-sakura-clear-card",
+      "episode": 4,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cardcaptor-sakura-clear-card",
       "episode": 4,
       "format": "ass"
@@ -59777,6 +60056,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cardcaptor-sakura-clear-card",
+      "episode": 6,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cardcaptor-sakura-clear-card/ep_07.kk.srt"
     },
@@ -59802,6 +60087,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cardcaptor-sakura-clear-card",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cardcaptor-sakura-clear-card",
       "episode": 8,
       "format": "ass"
@@ -59856,6 +60147,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cardcaptor-sakura-clear-card",
+      "episode": 12,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cardcaptor-sakura-clear-card",
       "episode": 12,
       "format": "ass"
@@ -65030,12 +65327,6 @@
       "path": "subtitles/chibi-maruko-chan-1990/ep_23.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "chibi-maruko-chan-1990",
-      "episode": 23,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/chibi-maruko-chan-1990/ep_24.kk.srt"
     },
@@ -65046,12 +65337,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/chibi-maruko-chan-1990/ep_24.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "chibi-maruko-chan-1990",
-      "episode": 24,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -65705,12 +65990,6 @@
       "path": "subtitles/chihayafuru-2-tv/ep_01.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "chihayafuru-2-tv",
-      "episode": 1,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/chihayafuru-2-tv/ep_02.kk.srt"
     },
@@ -65889,12 +66168,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/chihayafuru-2-tv/ep_16.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "chihayafuru-2-tv",
-      "episode": 16,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -67772,6 +68045,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "chouyaku-hyakuninisshu-uta-koi",
+      "episode": 13,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "chouyaku-hyakuninisshu-uta-koi",
       "episode": 13,
       "format": "ass"
@@ -70863,12 +71142,6 @@
       "path": "subtitles/clannad-tv/ep_24.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "clannad-tv",
-      "episode": 24,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/clannad-tv/ep_25.kk.srt"
     },
@@ -72022,6 +72295,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "claymore-tv",
+      "episode": 9,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "claymore-tv",
       "episode": 9,
       "format": "ass"
@@ -73368,6 +73647,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "code-geass-dakkan-no-roz",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/code-geass-dakkan-no-roz/ep_06.kk.srt"
     },
@@ -73909,6 +74194,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "code-geass-hangyaku-no-lelouch-r2",
+      "episode": 7,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/code-geass-hangyaku-no-lelouch-r2/ep_08.kk.srt"
     },
@@ -74269,6 +74560,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "colorful-movie",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "colorful-movie",
       "episode": 1,
       "format": "ass"
@@ -76026,6 +76323,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_02.kk.srt"
     },
@@ -76038,15 +76341,21 @@
       "path": "subtitles/cue/ep_02.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "cue",
-      "episode": 2
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "cue",
       "episode": 2,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 2,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "cue",
+      "episode": 2
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -76062,6 +76371,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 3,
       "format": "ass"
@@ -76085,6 +76400,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 4,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_05.kk.srt"
     },
@@ -76098,6 +76419,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 5,
       "format": "ass"
@@ -76121,6 +76448,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 6,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_07.kk.srt"
     },
@@ -76134,6 +76467,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 7,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 7,
       "format": "ass"
@@ -76157,6 +76496,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_09.kk.srt"
     },
@@ -76170,6 +76515,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 9,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 9,
       "format": "ass"
@@ -76193,6 +76544,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 10,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_11.kk.srt"
     },
@@ -76206,6 +76563,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 11,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 11,
       "format": "ass"
@@ -76229,6 +76592,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 12,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_13.kk.srt"
     },
@@ -76247,6 +76616,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 13,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_14.kk.srt"
     },
@@ -76259,15 +76634,21 @@
       "path": "subtitles/cue/ep_14.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "cue",
-      "episode": 14
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "cue",
       "episode": 14,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "cue",
+      "episode": 14
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -76283,6 +76664,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 15,
       "format": "ass"
@@ -76306,6 +76693,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_17.kk.srt"
     },
@@ -76319,6 +76712,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 17,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 17,
       "format": "ass"
@@ -76342,6 +76741,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 18,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_19.kk.srt"
     },
@@ -76355,6 +76760,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 19,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 19,
       "format": "ass"
@@ -76378,6 +76789,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 20,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_21.kk.srt"
     },
@@ -76391,6 +76808,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 21,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 21,
       "format": "ass"
@@ -76414,6 +76837,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cue",
+      "episode": 22,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cue/ep_23.kk.srt"
     },
@@ -76427,6 +76856,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cue",
+      "episode": 23,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cue",
       "episode": 23,
       "format": "ass"
@@ -76817,6 +77252,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 11,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cyberpunk-edgerunners/ep_12.kk.srt"
     },
@@ -76830,6 +77271,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 12,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cyberpunk-edgerunners",
       "episode": 12,
       "format": "ass"
@@ -76853,6 +77300,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 13,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cyberpunk-edgerunners/ep_14.kk.srt"
     },
@@ -76866,6 +77319,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cyberpunk-edgerunners",
       "episode": 14,
       "format": "ass"
@@ -76889,6 +77348,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cyberpunk-edgerunners/ep_16.kk.srt"
     },
@@ -76902,6 +77367,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cyberpunk-edgerunners",
       "episode": 16,
       "format": "ass"
@@ -76925,6 +77396,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 17,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cyberpunk-edgerunners/ep_18.kk.srt"
     },
@@ -76938,6 +77415,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 18,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cyberpunk-edgerunners",
       "episode": 18,
       "format": "ass"
@@ -76961,6 +77444,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 19,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/cyberpunk-edgerunners/ep_20.kk.srt"
     },
@@ -76974,6 +77463,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "cyberpunk-edgerunners",
+      "episode": 20,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "cyberpunk-edgerunners",
       "episode": 20,
       "format": "ass"
@@ -77971,6 +78466,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "dareka-no-manazashi",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/dark-moon-kuro-no-tsuki-tsuki-no-saidan/ep_01.kk.srt"
     },
@@ -78473,12 +78974,6 @@
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_01.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 1,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.srt"
     },
@@ -78491,12 +78986,6 @@
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_02.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 2,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.srt"
     },
@@ -78507,12 +78996,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_03.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 3,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -78551,12 +79034,6 @@
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_09.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 9,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.srt"
     },
@@ -78569,12 +79046,6 @@
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_10.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 10,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.srt"
     },
@@ -78585,12 +79056,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_17.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 17,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -78617,12 +79082,6 @@
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_22.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 22,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.srt"
     },
@@ -78633,12 +79092,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-kuro-no-keiyakusha/ep_24.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-kuro-no-keiyakusha",
-      "episode": 24,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -78816,12 +79269,6 @@
       "path": "subtitles/darker-than-black-tv/ep_01.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 1,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-tv/ep_02.kk.srt"
     },
@@ -78839,12 +79286,6 @@
       "episode": 2
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 2,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-tv/ep_03.kk.srt"
     },
@@ -78860,12 +79301,6 @@
       "code": "english_dialogue_requires_review",
       "slug": "darker-than-black-tv",
       "episode": 3
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 3,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -78909,12 +79344,6 @@
       "path": "subtitles/darker-than-black-tv/ep_09.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 9,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-tv/ep_10.kk.srt"
     },
@@ -78927,12 +79356,6 @@
       "path": "subtitles/darker-than-black-tv/ep_10.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 10,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-tv/ep_17.kk.srt"
     },
@@ -78943,12 +79366,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-tv/ep_17.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 17,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -78975,12 +79392,6 @@
       "path": "subtitles/darker-than-black-tv/ep_22.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 22,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-tv/ep_24.kk.srt"
     },
@@ -78991,12 +79402,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/darker-than-black-tv/ep_24.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "darker-than-black-tv",
-      "episode": 24,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -79368,6 +79773,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "days",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "days",
       "episode": 3,
       "format": "ass"
@@ -80947,12 +81358,6 @@
       "path": "subtitles/deca-dence-tv/ep_13.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "deca-dence-tv",
-      "episode": 13,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/deca-dence-tv/ep_14.kk.srt"
     },
@@ -80966,6 +81371,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "deca-dence-tv",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "deca-dence-tv",
       "episode": 14,
       "format": "ass"
@@ -80989,6 +81400,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "deca-dence-tv",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/deca-dence-tv/ep_16.kk.srt"
     },
@@ -81002,6 +81419,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "deca-dence-tv",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "deca-dence-tv",
       "episode": 16,
       "format": "ass"
@@ -81025,6 +81448,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "deca-dence-tv",
+      "episode": 17,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/deca-dence-tv/ep_18.kk.srt"
     },
@@ -81038,6 +81467,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "deca-dence-tv",
+      "episode": 18,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "deca-dence-tv",
       "episode": 18,
       "format": "ass"
@@ -81061,6 +81496,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "deca-dence-tv",
+      "episode": 19,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/deca-dence-tv/ep_20.kk.srt"
     },
@@ -81074,6 +81515,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "deca-dence-tv",
+      "episode": 20,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "deca-dence-tv",
       "episode": 20,
       "format": "ass"
@@ -81097,6 +81544,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "deca-dence-tv",
+      "episode": 21,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/deca-dence-tv/ep_22.kk.srt"
     },
@@ -81110,6 +81563,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "deca-dence-tv",
+      "episode": 22,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "deca-dence-tv",
       "episode": 22,
       "format": "ass"
@@ -81133,6 +81592,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "deca-dence-tv",
+      "episode": 23,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/deca-dence-tv/ep_24.kk.srt"
     },
@@ -81146,6 +81611,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "deca-dence-tv",
+      "episode": 24,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "deca-dence-tv",
       "episode": 24,
       "format": "ass"
@@ -81169,6 +81640,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "deca-dence-tv",
+      "episode": 25,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/deemo-sakura-no-oto/ep_01.kk.srt"
     },
@@ -81182,6 +81659,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "deemo-sakura-no-oto",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "deemo-sakura-no-oto",
       "episode": 1,
       "format": "ass"
@@ -81750,6 +82233,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "delicious-in-dungeon-tv",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/delicious-in-dungeon-tv/ep_17.kk.srt"
     },
@@ -81775,6 +82264,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "delicious-in-dungeon-tv",
+      "episode": 18,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "delicious-in-dungeon-tv",
       "episode": 18,
       "format": "ass"
@@ -81836,6 +82331,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "delicious-in-dungeon-tv",
+      "episode": 21,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/delicious-in-dungeon-tv/ep_22.kk.srt"
     },
@@ -81884,17 +82385,23 @@
       "path": "subtitles/delicious-in-dungeon-tv/ep_25.kk.ass"
     },
     {
+      "code": "format_dialogue_drift",
+      "slug": "delicious-in-dungeon-tv",
+      "episode": 25,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "delicious-in-dungeon-tv",
+      "episode": 25,
+      "format": "ass"
+    },
+    {
       "code": "repeated_dialogue_requires_review",
       "slug": "delicious-in-dungeon-tv",
       "episode": 25,
       "occurrences": 75,
       "sample": "Әйгілі көктемгі аспан декорациясының тарихы"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "delicious-in-dungeon-tv",
-      "episode": 25,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -81910,6 +82417,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "delicious-in-dungeon-tv",
+      "episode": 26,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "delicious-in-dungeon-tv",
       "episode": 26,
       "format": "ass"
@@ -82610,12 +83123,6 @@
       "path": "subtitles/diabolik-lovers/ep_02.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "diabolik-lovers",
-      "episode": 2,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers/ep_03.kk.srt"
     },
@@ -82626,12 +83133,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers/ep_03.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "diabolik-lovers",
-      "episode": 3,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -82646,12 +83147,6 @@
       "path": "subtitles/diabolik-lovers/ep_04.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "diabolik-lovers",
-      "episode": 4,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers/ep_05.kk.srt"
     },
@@ -82664,12 +83159,6 @@
       "path": "subtitles/diabolik-lovers/ep_05.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "diabolik-lovers",
-      "episode": 5,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers/ep_06.kk.srt"
     },
@@ -82680,12 +83169,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers/ep_06.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "diabolik-lovers",
-      "episode": 6,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -82820,6 +83303,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers-more-blood/ep_02.kk.srt"
     },
@@ -82833,6 +83322,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 2,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "diabolik-lovers-more-blood",
       "episode": 2,
       "format": "ass"
@@ -82856,6 +83351,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers-more-blood/ep_04.kk.srt"
     },
@@ -82869,6 +83370,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 4,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "diabolik-lovers-more-blood",
       "episode": 4,
       "format": "ass"
@@ -82892,6 +83399,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers-more-blood/ep_06.kk.srt"
     },
@@ -82905,6 +83418,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 6,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "diabolik-lovers-more-blood",
       "episode": 6,
       "format": "ass"
@@ -82928,6 +83447,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 7,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers-more-blood/ep_08.kk.srt"
     },
@@ -82941,6 +83466,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "diabolik-lovers-more-blood",
       "episode": 8,
       "format": "ass"
@@ -82964,6 +83495,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 9,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers-more-blood/ep_10.kk.srt"
     },
@@ -82977,6 +83514,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 10,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "diabolik-lovers-more-blood",
       "episode": 10,
       "format": "ass"
@@ -83000,6 +83543,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 11,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/diabolik-lovers-more-blood/ep_12.kk.srt"
     },
@@ -83013,6 +83562,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "diabolik-lovers-more-blood",
+      "episode": 12,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "diabolik-lovers-more-blood",
       "episode": 12,
       "format": "ass"
@@ -84293,6 +84848,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "digimon-adventure-tri-1",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "digimon-adventure-tri-1",
       "episode": 1,
       "format": "ass"
@@ -87382,6 +87943,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "dragon-ball-daima-tv",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/dragon-ball-daima-tv/ep_02.kk.srt"
     },
@@ -89852,6 +90419,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "dragon-ball-z-battle-of-gods",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "invalid_subtitle",
       "path": "subtitles/dragon-ball-z-battle-of-gods-movie/ep_01.kk.srt",
       "message": "Missing SRT cue index"
@@ -91630,12 +92203,6 @@
       "path": "subtitles/durarara-tv/ep_01.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 1,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_02.kk.srt"
     },
@@ -91646,12 +92213,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_02.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 2,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -91666,12 +92227,6 @@
       "path": "subtitles/durarara-tv/ep_03.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 3,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_04.kk.srt"
     },
@@ -91682,12 +92237,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_04.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 4,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -91708,6 +92257,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "durarara-tv",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_06.kk.srt"
     },
@@ -91718,12 +92273,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_06.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 6,
-      "format": "ass"
     },
     {
       "code": "invalid_subtitle",
@@ -91758,12 +92307,6 @@
       "path": "subtitles/durarara-tv/ep_08.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 8,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_09.kk.srt"
     },
@@ -91774,12 +92317,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_09.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 9,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -91806,12 +92343,6 @@
       "path": "subtitles/durarara-tv/ep_11.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 11,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_12.kk.srt"
     },
@@ -91824,12 +92355,6 @@
       "path": "subtitles/durarara-tv/ep_12.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 12,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_13.kk.srt"
     },
@@ -91840,12 +92365,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_13.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 13,
-      "format": "ass"
     },
     {
       "code": "invalid_subtitle",
@@ -91880,12 +92399,6 @@
       "path": "subtitles/durarara-tv/ep_15.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 15,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_16.kk.srt"
     },
@@ -91896,12 +92409,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_16.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 16,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -91959,12 +92466,6 @@
       "path": "subtitles/durarara-tv/ep_20.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 20,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_21.kk.srt"
     },
@@ -91978,6 +92479,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "durarara-tv",
+      "episode": 21,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "durarara-tv",
       "episode": 21,
       "format": "ass"
@@ -92019,12 +92526,6 @@
       "path": "subtitles/durarara-tv/ep_24.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv",
-      "episode": 24,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv/ep_25.kk.srt"
     },
@@ -92059,12 +92560,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/durarara-tv-series/ep_01.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "durarara-tv-series",
-      "episode": 1,
-      "format": "ass"
     },
     {
       "code": "invalid_subtitle",
@@ -94247,6 +94742,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "eureka-seven-anemone",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "eureka-seven-anemone",
       "episode": 1,
       "format": "ass"
@@ -99092,15 +99593,21 @@
       "path": "subtitles/fate-heavens-feel-1/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "fate-heavens-feel-1",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "fate-heavens-feel-1",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "fate-heavens-feel-1",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "fate-heavens-feel-1",
+      "episode": 1
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -99115,15 +99622,21 @@
       "path": "subtitles/fate-heavens-feel-2/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "fate-heavens-feel-2",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "fate-heavens-feel-2",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "fate-heavens-feel-2",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "fate-heavens-feel-2",
+      "episode": 1
     },
     {
       "code": "invalid_subtitle",
@@ -100325,6 +100838,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "fate-zero-tv",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/fate-zero-tv/ep_17.kk.srt"
     },
@@ -100350,6 +100869,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "fate-zero-tv",
+      "episode": 18,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "fate-zero-tv",
       "episode": 18,
       "format": "ass"
@@ -100433,6 +100958,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "fate-zero-tv",
+      "episode": 24,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/fate-zero-tv/ep_25.kk.srt"
     },
@@ -100451,6 +100982,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "fate-zero-tv",
+      "episode": 25,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/fate-zero-tv/ep_26.kk.srt"
     },
@@ -100464,6 +101001,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "fate-zero-tv",
+      "episode": 26,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "fate-zero-tv",
       "episode": 26,
       "format": "ass"
@@ -100814,12 +101357,6 @@
       "path": "subtitles/flcl-tv/ep_07.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "flcl-tv",
-      "episode": 7,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/flcl-tv/ep_08.kk.srt"
     },
@@ -100830,12 +101367,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/flcl-tv/ep_08.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "flcl-tv",
-      "episode": 8,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -100850,12 +101381,6 @@
       "path": "subtitles/flcl-tv/ep_09.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "flcl-tv",
-      "episode": 9,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/flcl-tv/ep_10.kk.srt"
     },
@@ -100868,12 +101393,6 @@
       "path": "subtitles/flcl-tv/ep_10.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "flcl-tv",
-      "episode": 10,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/flcl-tv/ep_11.kk.srt"
     },
@@ -100884,12 +101403,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/flcl-tv/ep_11.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "flcl-tv",
-      "episode": 11,
-      "format": "ass"
     },
     {
       "code": "invalid_subtitle",
@@ -104998,6 +105511,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "ghost-in-the-shell-2-innocence",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/ghost-in-the-shell-arise-1/ep_01.kk.srt"
     },
@@ -105011,6 +105530,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "ghost-in-the-shell-arise-1",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "ghost-in-the-shell-arise-1",
       "episode": 1,
       "format": "ass"
@@ -105053,6 +105578,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "ghost-in-the-shell-arise-4",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "ghost-in-the-shell-arise-4",
       "episode": 1,
       "format": "ass"
@@ -105119,6 +105650,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "ghost-in-the-shell-innocence",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "ghost-in-the-shell-innocence",
       "episode": 1,
       "format": "ass"
@@ -106575,6 +107112,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "given-umi-e",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "given-umi-e",
       "episode": 1,
       "format": "ass"
@@ -108188,15 +108731,21 @@
       "path": "subtitles/grand-blue-tv/ep_14.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "grand-blue-tv",
-      "episode": 14
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "grand-blue-tv",
       "episode": 14,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "grand-blue-tv",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "grand-blue-tv",
+      "episode": 14
     },
     {
       "code": "invalid_subtitle",
@@ -108237,15 +108786,21 @@
       "path": "subtitles/grand-blue-tv/ep_16.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "grand-blue-tv",
-      "episode": 16
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "grand-blue-tv",
       "episode": 16,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "grand-blue-tv",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "grand-blue-tv",
+      "episode": 16
     },
     {
       "code": "invalid_subtitle",
@@ -108314,6 +108869,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "grand-blue-tv",
+      "episode": 19,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/grand-blue-tv/ep_20.kk.srt"
     },
@@ -108327,6 +108888,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "grand-blue-tv",
+      "episode": 20,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "grand-blue-tv",
       "episode": 20,
       "format": "ass"
@@ -108357,6 +108924,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "grand-blue-tv",
+      "episode": 22,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "grand-blue-tv",
       "episode": 22,
       "format": "ass"
@@ -109685,15 +110258,21 @@
       "path": "subtitles/gundam-00-trailblazer/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "gundam-00-trailblazer",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "gundam-00-trailblazer",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "gundam-00-trailblazer",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "gundam-00-trailblazer",
+      "episode": 1
     },
     {
       "code": "invalid_subtitle",
@@ -109766,15 +110345,21 @@
       "path": "subtitles/gundam-f91-movie/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "gundam-f91-movie",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "gundam-f91-movie",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "gundam-f91-movie",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "gundam-f91-movie",
+      "episode": 1
     },
     {
       "code": "invalid_subtitle",
@@ -110642,6 +111227,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "haikyuu-sainou-to-sense",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/haikyuu-shousha-to-haisha/ep_01.kk.srt"
     },
@@ -110667,6 +111258,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "haikyuu-the-dumpster-battle",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "haikyuu-the-dumpster-battle",
       "episode": 1,
       "format": "ass"
@@ -113158,6 +113755,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "inuyasha-guren-no-houraijima",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "inuyasha-guren-no-houraijima",
       "episode": 1,
       "format": "ass"
@@ -119116,28 +119719,20 @@
       "path": "subtitles/jojo-s5/ep_39.kk.ass"
     },
     {
-      "code": "normalized_subtitle_serialization",
-      "path": "subtitles/jojo-steel-ball-run/ep_01.kk.srt"
+      "code": "reviewed_content_quarantine",
+      "slug": "jojo-steel-ball-run",
+      "episode": 1,
+      "reason": "All 30 non-credit cues exactly match hand-authored dialogue and invented timings in the original local generator; no original subtitle translation occurred.",
+      "evidence": "Original generator scratch/generate_sbr_subtitles.py:18-49, DIALOGUES AST matches every non-credit cue including start and end times. Review date 2026-10-22.",
+      "source_sha256": "dee4f52b3c9615b2d1a50bf41e6dd90f46d63458603a43a7d5e2e7e8b1f0e9b5"
     },
     {
-      "code": "normalized_subtitle_serialization",
-      "path": "subtitles/jojo-steel-ball-run/ep_01.kk.vtt"
-    },
-    {
-      "code": "normalized_subtitle_serialization",
-      "path": "subtitles/jojo-steel-ball-run/ep_01.kk.ass"
-    },
-    {
-      "code": "normalized_subtitle_serialization",
-      "path": "subtitles/jojo-steel-ball-run/ep_02.kk.srt"
-    },
-    {
-      "code": "normalized_subtitle_serialization",
-      "path": "subtitles/jojo-steel-ball-run/ep_02.kk.vtt"
-    },
-    {
-      "code": "normalized_subtitle_serialization",
-      "path": "subtitles/jojo-steel-ball-run/ep_02.kk.ass"
+      "code": "reviewed_content_quarantine",
+      "slug": "jojo-steel-ball-run",
+      "episode": 2,
+      "reason": "All 49 non-credit cues exactly match hand-authored dialogue and invented timings in the original local generator; no original subtitle translation occurred.",
+      "evidence": "Original generator scratch/generate_sbr_stage2_subtitles.py:22-72, DIALOGUES_EP2 AST matches every non-credit cue including start and end times. Review date 2026-10-22.",
+      "source_sha256": "fad1c079fff85c62eeb0088c7ac76f95796caf27c47e9b23b7fde3d31c1c3379"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -120400,6 +120995,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "kara-no-kyoukai-1-fukan-fuukei",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/kara-no-kyoukai-2/ep_02.kk.srt"
     },
@@ -120462,6 +121063,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "kara-no-kyoukai-3-tsuukaku-zanryuu",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/kara-no-kyoukai-4/ep_04.kk.srt"
     },
@@ -120487,6 +121094,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "kara-no-kyoukai-4-garan-no-dou",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "kara-no-kyoukai-4-garan-no-dou",
       "episode": 1,
       "format": "ass"
@@ -120590,6 +121203,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "kara-no-kyoukai-mirai-fukuin",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.srt"
     },
@@ -120600,12 +121219,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/kara-no-kyoukai-mirai-fukuin-extra-chorus/ep_01.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "kara-no-kyoukai-mirai-fukuin-extra-chorus",
-      "episode": 1,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -120621,6 +121234,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "kara-no-kyoukai-satsujin-kousatsu-zen",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "kara-no-kyoukai-satsujin-kousatsu-zen",
       "episode": 1,
       "format": "ass"
@@ -125558,6 +126177,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "love-live-nijigasaki-gakuen-school-idol-doukoukai-kanketsu-hen-1",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/love-live-sunshine-over-the-rainbow/ep_01.kk.srt"
     },
@@ -126001,6 +126626,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "macross-delta-zettai-live",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "macross-delta-zettai-live",
       "episode": 1,
       "format": "ass"
@@ -127428,6 +128059,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "maquia-promised-flower",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "invalid_subtitle",
       "path": "subtitles/march-comes-in-like-a-lion/ep_01.kk.srt",
       "message": "Missing SRT cue index"
@@ -127466,15 +128103,21 @@
       "path": "subtitles/march-comes-in-like-a-lion/ep_02.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "march-comes-in-like-a-lion",
-      "episode": 2
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "march-comes-in-like-a-lion",
       "episode": 2,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 2,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 2
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -127576,6 +128219,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion/ep_09.kk.srt"
     },
@@ -127613,6 +128262,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 11,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "march-comes-in-like-a-lion",
       "episode": 11,
       "format": "ass"
@@ -127672,6 +128327,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion/ep_16.kk.srt"
     },
@@ -127696,15 +128357,21 @@
       "path": "subtitles/march-comes-in-like-a-lion/ep_17.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "march-comes-in-like-a-lion",
-      "episode": 17
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "march-comes-in-like-a-lion",
       "episode": 17,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 17,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 17
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -127780,6 +128447,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion",
+      "episode": 22,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_01.kk.srt"
     },
@@ -127810,6 +128483,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 2,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_03.kk.srt"
     },
@@ -127823,6 +128502,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 3,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "march-comes-in-like-a-lion-s2",
       "episode": 3,
       "format": "ass"
@@ -127858,6 +128543,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 5,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_06.kk.srt"
     },
@@ -127871,6 +128562,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 6,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "march-comes-in-like-a-lion-s2",
       "episode": 6,
       "format": "ass"
@@ -127901,6 +128598,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 8,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "march-comes-in-like-a-lion-s2",
       "episode": 8,
       "format": "ass"
@@ -127949,12 +128652,6 @@
       "sample": "m 375 112 l 411 176 803 102 790 28"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "march-comes-in-like-a-lion-s2",
-      "episode": 12,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_13.kk.srt"
     },
@@ -127968,6 +128665,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 13,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "march-comes-in-like-a-lion-s2",
       "episode": 13,
       "format": "ass"
@@ -127991,6 +128694,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 14,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_15.kk.srt"
     },
@@ -128004,6 +128713,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 15,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "march-comes-in-like-a-lion-s2",
       "episode": 15,
       "format": "ass"
@@ -128027,6 +128742,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "march-comes-in-like-a-lion-s2",
+      "episode": 16,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_17.kk.srt"
     },
@@ -128039,12 +128760,6 @@
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_17.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "march-comes-in-like-a-lion-s2",
-      "episode": 17,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_18.kk.srt"
     },
@@ -128055,12 +128770,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_18.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "march-comes-in-like-a-lion-s2",
-      "episode": 18,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -128082,12 +128791,6 @@
       "sample": "Ессіздік балалары 'ЖОҚ' жағын бөгеп, жояды"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "march-comes-in-like-a-lion-s2",
-      "episode": 19,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_20.kk.srt"
     },
@@ -128098,12 +128801,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_20.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "march-comes-in-like-a-lion-s2",
-      "episode": 20,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -128118,12 +128815,6 @@
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_21.kk.ass"
     },
     {
-      "code": "format_dialogue_drift",
-      "slug": "march-comes-in-like-a-lion-s2",
-      "episode": 21,
-      "format": "ass"
-    },
-    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_22.kk.srt"
     },
@@ -128134,12 +128825,6 @@
     {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/march-comes-in-like-a-lion-s2/ep_22.kk.ass"
-    },
-    {
-      "code": "format_dialogue_drift",
-      "slug": "march-comes-in-like-a-lion-s2",
-      "episode": 22,
-      "format": "ass"
     },
     {
       "code": "normalized_subtitle_serialization",
@@ -129091,6 +129776,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "meitantei-conan-hiiro-no-fuzai-shoumei",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "meitantei-conan-hiiro-no-fuzai-shoumei",
       "episode": 1,
       "format": "ass"
@@ -133410,6 +134101,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "nanoha-movie-detonation",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/nanoha-movie-reflection/ep_01.kk.srt"
     },
@@ -133442,6 +134139,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "nanoha-the-movie-1st",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "nanoha-the-movie-1st",
       "episode": 1,
       "format": "ass"
@@ -137864,6 +138567,12 @@
     },
     {
       "code": "format_dialogue_drift",
+      "slug": "patlabor-the-movie-2",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "derived_format",
       "slug": "patlabor-the-movie-2",
       "episode": 1,
       "format": "ass"
@@ -148965,15 +149674,21 @@
       "path": "subtitles/suzume-no-tojimari/ep_01.kk.ass"
     },
     {
-      "code": "english_dialogue_requires_review",
-      "slug": "suzume-no-tojimari",
-      "episode": 1
-    },
-    {
       "code": "format_dialogue_drift",
       "slug": "suzume-no-tojimari",
       "episode": 1,
       "format": "ass"
+    },
+    {
+      "code": "derived_format",
+      "slug": "suzume-no-tojimari",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
+      "code": "english_dialogue_requires_review",
+      "slug": "suzume-no-tojimari",
+      "episode": 1
     },
     {
       "code": "invalid_subtitle",
@@ -155983,6 +156698,12 @@
       "format": "ass"
     },
     {
+      "code": "derived_format",
+      "slug": "yuru-camp-movie",
+      "episode": 1,
+      "format": "ass"
+    },
+    {
       "code": "normalized_subtitle_serialization",
       "path": "subtitles/zom-100-bucket/ep_01.kk.srt"
     },
@@ -157053,6 +157774,2779 @@
           "slug": "durarara-tv-series",
           "episode": 1
         }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "2-43-seiin-koukou-danshi-volley-bu",
+          "episode": 3
+        },
+        {
+          "slug": "seiin-koukou-volley-bu",
+          "episode": 3
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 1
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 2
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 2
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 4
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 4
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 5
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 5
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 6
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 6
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 7
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 7
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 8
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 8
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 9
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 9
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 10
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 10
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 11
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 11
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 12
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 12
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 14
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 14
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 15
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 15
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 16
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 16
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 17
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 17
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 18
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 18
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 19
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 19
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 20
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 20
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 21
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 21
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "3-gatsu-no-lion",
+          "episode": 22
+        },
+        {
+          "slug": "march-comes-in-like-a-lion",
+          "episode": 22
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "akagami-no-shirayuki-hime",
+          "episode": 5
+        },
+        {
+          "slug": "akagami-no-shirayuki-hime-s1",
+          "episode": 5
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "akagami-no-shirayuki-hime",
+          "episode": 7
+        },
+        {
+          "slug": "akagami-no-shirayuki-hime-s1",
+          "episode": 7
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "akagami-no-shirayuki-hime",
+          "episode": 9
+        },
+        {
+          "slug": "akagami-no-shirayuki-hime-s1",
+          "episode": 9
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "akagami-no-shirayuki-hime",
+          "episode": 11
+        },
+        {
+          "slug": "akagami-no-shirayuki-hime-s1",
+          "episode": 11
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "akagami-no-shirayuki-hime",
+          "episode": 12
+        },
+        {
+          "slug": "akagami-no-shirayuki-hime-s1",
+          "episode": 12
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 1
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 1
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 1
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 14
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 14
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 14
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 14
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 15
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 15
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 15
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 15
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 16
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 16
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 16
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 16
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 17
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 17
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 17
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 17
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 18
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 18
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 18
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 18
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 19
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 19
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 19
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 19
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 20
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 20
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 20
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 20
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 21
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 21
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 21
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 21
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 22
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 22
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 22
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 22
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 23
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 23
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 23
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 23
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 24
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 24
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 24
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 24
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot",
+          "episode": 25
+        },
+        {
+          "slug": "aot-s2",
+          "episode": 25
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 25
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 25
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 2
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 2
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 3
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 3
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 3
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 4
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 4
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 4
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 5
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 5
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 5
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 6
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 6
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 6
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 7
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 7
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 7
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 8
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 8
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 8
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 9
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 9
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 9
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 10
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 10
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 10
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 11
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 11
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 11
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 12
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 12
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 12
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "aot-s2",
+          "episode": 13
+        },
+        {
+          "slug": "aot-s3",
+          "episode": 13
+        },
+        {
+          "slug": "aot-s3-p2",
+          "episode": 13
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "apothecary-diaries",
+          "episode": 1
+        },
+        {
+          "slug": "apothecary-diaries",
+          "episode": 2
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano",
+          "episode": 6
+        },
+        {
+          "slug": "baccano-tv",
+          "episode": 6
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 6
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano",
+          "episode": 9
+        },
+        {
+          "slug": "baccano-tv",
+          "episode": 9
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 9
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano",
+          "episode": 12
+        },
+        {
+          "slug": "baccano-tv",
+          "episode": 12
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 12
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 1
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 2
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 2
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 3
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 3
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 4
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 4
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 5
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 5
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 7
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 7
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 8
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 8
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 10
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 10
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 11
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 11
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "baccano-tv",
+          "episode": 13
+        },
+        {
+          "slug": "baccano-tv-series",
+          "episode": 13
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "beastars-2",
+          "episode": 1
+        },
+        {
+          "slug": "beastars-2",
+          "episode": 13
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "beastars-2",
+          "episode": 2
+        },
+        {
+          "slug": "beastars-2",
+          "episode": 14
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "beastars-2",
+          "episode": 4
+        },
+        {
+          "slug": "beastars-2",
+          "episode": 16
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "beastars-2",
+          "episode": 5
+        },
+        {
+          "slug": "beastars-2",
+          "episode": 17
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "beastars-2",
+          "episode": 6
+        },
+        {
+          "slug": "beastars-2",
+          "episode": 18
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "beastars-2",
+          "episode": 8
+        },
+        {
+          "slug": "beastars-2",
+          "episode": 20
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "birthday-wonderland",
+          "episode": 1
+        },
+        {
+          "slug": "birthday-wonderland-movie",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "bleach-diamonddust-rebellion",
+          "episode": 1
+        },
+        {
+          "slug": "bleach-the-diamonddust-rebellion-mou-hitotsu-no-hyourinmaru",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "bleach-sennen-kessen-hen-ketsubetsu-tan",
+          "episode": 7
+        },
+        {
+          "slug": "bleach-sennen-kessen-hen-ketsubetsu-tan",
+          "episode": 20
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "blend-s",
+          "episode": 11
+        },
+        {
+          "slug": "blend-s-tv",
+          "episode": 11
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 2
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 2
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 3
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 3
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 6
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 6
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 10
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 10
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 12
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 12
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 15
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 15
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 18
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 18
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 19
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 19
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 20
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 20
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 23
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 23
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "chi-chikyuu-no-undou-ni-tsuite",
+          "episode": 25
+        },
+        {
+          "slug": "chi-chikyuu-no-undou-tv",
+          "episode": 25
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "clannad",
+          "episode": 12
+        },
+        {
+          "slug": "clannad-tv",
+          "episode": 12
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "clannad-tv",
+          "episode": 3
+        },
+        {
+          "slug": "clannad-tv",
+          "episode": 26
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "claymore",
+          "episode": 9
+        },
+        {
+          "slug": "claymore-tv",
+          "episode": 9
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "claymore",
+          "episode": 17
+        },
+        {
+          "slug": "claymore-tv",
+          "episode": 17
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "claymore",
+          "episode": 24
+        },
+        {
+          "slug": "claymore-tv",
+          "episode": 24
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "claymore",
+          "episode": 25
+        },
+        {
+          "slug": "claymore-tv",
+          "episode": 25
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "darker-than-black",
+          "episode": 1
+        },
+        {
+          "slug": "darker-than-black-tv",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "darker-than-black",
+          "episode": 4
+        },
+        {
+          "slug": "darker-than-black-tv",
+          "episode": 4
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "darker-than-black",
+          "episode": 10
+        },
+        {
+          "slug": "darker-than-black-tv",
+          "episode": 10
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "darker-than-black",
+          "episode": 21
+        },
+        {
+          "slug": "darker-than-black-kuro-no-keiyakusha",
+          "episode": 21
+        },
+        {
+          "slug": "darker-than-black-tv",
+          "episode": 21
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "darker-than-black",
+          "episode": 24
+        },
+        {
+          "slug": "darker-than-black-kuro-no-keiyakusha",
+          "episode": 24
+        },
+        {
+          "slug": "darker-than-black-tv",
+          "episode": 24
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "darker-than-black-kuro-no-keiyakusha",
+          "episode": 9
+        },
+        {
+          "slug": "darker-than-black-tv",
+          "episode": 9
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "darker-than-black-kuro-no-keiyakusha",
+          "episode": 22
+        },
+        {
+          "slug": "darker-than-black-tv",
+          "episode": 22
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "delicious-dungeon",
+          "episode": 11
+        },
+        {
+          "slug": "delicious-in-dungeon-tv",
+          "episode": 11
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "delicious-dungeon",
+          "episode": 24
+        },
+        {
+          "slug": "delicious-in-dungeon-tv",
+          "episode": 24
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "delicious-in-dungeon-tv",
+          "episode": 1
+        },
+        {
+          "slug": "dungeon-meshi",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "delicious-in-dungeon-tv",
+          "episode": 7
+        },
+        {
+          "slug": "dungeon-meshi",
+          "episode": 7
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "delicious-in-dungeon-tv",
+          "episode": 9
+        },
+        {
+          "slug": "dungeon-meshi",
+          "episode": 9
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "delicious-in-dungeon-tv",
+          "episode": 10
+        },
+        {
+          "slug": "dungeon-meshi",
+          "episode": 10
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "durarara-tv",
+          "episode": 1
+        },
+        {
+          "slug": "durarara-tv-series",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "elfen-lied",
+          "episode": 6
+        },
+        {
+          "slug": "elfen-lied-tv",
+          "episode": 6
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "free-road-to-the-world",
+          "episode": 1
+        },
+        {
+          "slug": "free-road-to-the-world-yume",
+          "episode": 1
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "great-pretender",
+          "episode": 7
+        },
+        {
+          "slug": "great-pretender-tv",
+          "episode": 7
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "gunbuster",
+          "episode": 1
+        },
+        {
+          "slug": "gunbuster",
+          "episode": 264
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "mushoku-tensei-s2",
+          "episode": 0
+        },
+        {
+          "slug": "mushoku-tensei-s2",
+          "episode": 2
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "mushoku-tensei-s2",
+          "episode": 1
+        },
+        {
+          "slug": "mushoku-tensei-s2",
+          "episode": 12
+        }
+      ]
+    },
+    {
+      "code": "duplicate_dialogue_content",
+      "tracks": [
+        {
+          "slug": "solo-leveling",
+          "episode": 4
+        },
+        {
+          "slug": "solo-leveling",
+          "episode": 264
+        }
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "2-43-seiin-koukou-danshi-volley-bu",
+        "seiin-koukou-volley-bu"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "3-gatsu-no-lion",
+        "march-comes-in-like-a-lion",
+        "march-comes-like"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "3-gatsu-no-lion-2",
+        "3-gatsu-no-lion-s2",
+        "march-comes-in-like-a-lion-s2"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "5-centimeters-per",
+        "byousoku-5-centimeter"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "91-days",
+        "91days"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ai-no-utagoe-wo-kikasete",
+        "sing-a-bit-of-harmony"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "air-movie",
+        "air-movie-film"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ajin",
+        "ajin-tv-series"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "akagami-no-shirayuki-hime",
+        "akagami-no-shirayuki-hime-s1"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "akame-ga-kill",
+        "akame-kill"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "alice-to-therese-no-maboroshi-koujou",
+        "maboroshi"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "anemone-eureka-seven",
+        "anemone-koukyoushihen-eureka-seven-hi-evolution",
+        "eureka-seven-anemone"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ano-hi-mita-hana-no-namae-wo-bokutachi-wa-mada-shiranai",
+        "anohana-flower-we"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ao-no-exorcist-movie",
+        "blue-exorcist-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "appleseed-ex-machina",
+        "appleseed-saga-ex-machina"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "aya-to-majo",
+        "earwig-and-the-witch"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "baccano",
+        "baccano-tv",
+        "baccano-tv-series"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bakemono-no-ko",
+        "the-boy-and-the-beast"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bakemonogatari",
+        "bakemonogatari-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bakeneko-anzu-chan",
+        "ghost-cat-anzu"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "barakamon",
+        "barakamon-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "batman-ninja-vs-yakuza-league",
+        "batman-ninja-yakuza"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "belle",
+        "ryuu-to-sobakasu-no-hime"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "berserk-golden-age-1",
+        "berserk-ougon-jidai-hen-i-haou-no-tamago"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "berserk-golden-age-2",
+        "berserk-ougon-jidai-hen-ii-doldrey-kouryaku"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "berserk-golden-age-3",
+        "berserk-ougon-jidai-hen-iii-kourin"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "biohazard-death-island",
+        "resident-evil-death-island"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "birthday-wonderland",
+        "birthday-wonderland-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bishoujo-senshi-sailor-moon-cosmos-kouhen",
+        "sailor-moon-cosmos-1",
+        "sailor-moon-cosmos-2",
+        "sailor-moon-cosmos-kouhen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bishoujo-senshi-sailor-moon-cosmos-zenpen",
+        "sailor-moon-cosmos-zenpen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "black-butler-atlantic",
+        "kuroshitsuji-book-of-the-atlantic"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bleach-diamonddust-rebellion",
+        "bleach-the-diamonddust-rebellion-mou-hitotsu-no-hyourinmaru"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bleach-fade-to-black",
+        "bleach-fade-to-black-kimi-no-na-wo-yobu"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bleach-hell-verse",
+        "bleach-jigoku-hen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bleach-sennen-kessen-hen",
+        "bleach-thousand-year-blood-war"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "blend-s",
+        "blend-s-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "blue-giant",
+        "blue-giant-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "blue-lock",
+        "blue-lock-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bocchi",
+        "bocchi-the-rock-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bocchi-the-rock-re-re",
+        "bocchi-the-rock-rere"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "boku-no-hero-academia-futari-no-hero",
+        "boku-no-hero-academia-the-movie-futari-no-hero",
+        "my-hero-academia"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "boku-no-hero-academia-heroes-rising",
+        "mha-movie-heroes-rising"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "boku-no-hero-academia-world-heroes-mission",
+        "mha-movie-world-heroes-mission"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "boku-no-hero-academia-you-re-next",
+        "mha-movie-youre-next"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bokutachi-wa-benkyou-ga-dekinai",
+        "bokutachi-wa-benkyou-ga-dekinai-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "boruto-naruto-next-generations",
+        "naruto"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bungo-stray-dogs",
+        "bungo-stray-dogs-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "bungo-stray-dogs-s2",
+        "bungou-stray-dogs-s2"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "chainsaw-man-reze-hen",
+        "csm"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "chi-chikyuu-no-undou-ni-tsuite",
+        "chi-chikyuu-no-undou-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "chihayafuru",
+        "chihayafuru-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "chiisana-eiyuu",
+        "chiisana-eiyuu-kani-to-tamago-to-toumei-ningen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "children-who-chase-lost-voices",
+        "hoshi-wo-ou-kodomo"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "cider-no-you-ni-kotoba-ga-wakiagaru",
+        "words-bubble-up-like-soda-pop"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "clannad",
+        "clannad-after-story"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "claymore",
+        "claymore-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "code-geass",
+        "code-geass-hangyaku-no-lelouch-r2"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "code-geass-akito-the-exiled-1",
+        "code-geass-boukoku-no-akito-1-yokuryuu-wa-maiorita"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "code-geass-fukkatsu-no-lelouch",
+        "code-geass-lelouch-resurrection"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "code-geass-hangyaku-no-lelouch-i-koudou",
+        "code-geass-lelouch-1",
+        "code-geass-movie-1"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "code-geass-hangyaku-no-lelouch-ii-handou",
+        "code-geass-lelouch-2",
+        "code-geass-movie-2"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "code-geass-hangyaku-no-lelouch-iii-oudou",
+        "code-geass-lelouch-3",
+        "code-geass-movie-3"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "conan-movie-14-banme-target",
+        "meitantei-conan-juuyonbanme-no-target"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "conan-movie-baker-street",
+        "meitantei-conan-baker-street-no-bourei"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "conan-movie-halloween-no-hanayome",
+        "detective-conan-halloween-bride",
+        "meitantei-conan-halloween-no-hanayome"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "conan-movie-hitomi-no-naka",
+        "meitantei-conan-hitomi-no-naka-no-ansatsusha"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "conan-movie-zero-no-shikkounin",
+        "detective-conan-zero-enforcer"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "coquelicot-zaka-kara",
+        "from-up-on-poppy-hill"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "crayon-shin-chan-gachinko-gyakushuu-no-robo-tou-chan",
+        "crayon-shin-chan-robo-tou-chan"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "crayon-shin-chan-kyouryuu-nikki",
+        "crayon-shin-chan-ora-tachi-no-kyouryuu-nikki"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "cyberpunk-edgerunners",
+        "edgerunners"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "darker-than-black",
+        "darker-than-black-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "darker-than-black-gemini",
+        "darker-than-black-ryuusei-no-gemini"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "deadman-wonderland",
+        "deadman-wonderland-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "death-parade",
+        "death-parade-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "deca-dence",
+        "deca-dence-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "delicious-dungeon",
+        "delicious-in-dungeon-tv",
+        "dungeon-meshi"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "digimon-adventure-tri-1",
+        "digimon-adventure-tri-1-saikai"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "digimon-adventure-tri-2",
+        "digimon-adventure-tri-2-ketsui"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "doraemon-nobita-no-chikyuu-symphony",
+        "doraemon-nobitas-earth-symphony"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "doraemon-nobita-no-little-star-wars-2021",
+        "doraemon-nobitas-little-star-wars"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "doraemon-stand-by-me-2",
+        "stand-by-me-doraemon-2"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-curse-blood-rubies",
+        "dragon-ball-shen-long-no-densetsu"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-path-to-power",
+        "dragon-ball-saikyou-e-no-michi"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-super-hero",
+        "dragon-ball-super-super-hero"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-z-battle-of-gods",
+        "dragon-ball-z-battle-of-gods-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-z-broly-second-coming",
+        "dragon-ball-z-kiken-na-futari-super-senshi-wa-nemurenai"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-z-cooler-revenge",
+        "dragon-ball-z-tobikkiri-no-saikyou-tai-saikyou"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-z-fukkatsu-no-f",
+        "dragon-ball-z-resurrection-f",
+        "dragon-ball-z-resurrection-f-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-z-fukkatsu-no-fusion-goku-to-vegeta",
+        "dragon-ball-z-fusion-reborn"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "dragon-ball-z-ryuuken-bakuhatsu-goku-ga-yaraneba-dare-ga-yaru",
+        "dragon-ball-z-wrath-of-the-dragon"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "durarara",
+        "durarara-tv",
+        "durarara-tv-series"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "elfen-lied",
+        "elfen-lied-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ergo-proxy",
+        "ergo-proxy-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "eureka-seven-pocket-ga-niji-de-ippai",
+        "koukyoushihen-eureka-seven-pocket-ga-niji-de-ippai"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "eva",
+        "the-end-of-evangelion"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "evangelion-1-0-you-are-not-alone",
+        "evangelion-shin-movie-jo"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "evangelion-2-0-you-can-not-advance",
+        "evangelion-shin-movie-ha"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "evangelion-3-0-you-can-not-redo",
+        "evangelion-shin-movie-kyuu"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "fate-stay-night-tv",
+        "fsn"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "fate-zero",
+        "fate-zero-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "flcl",
+        "flcl-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "free-road-to-the-world",
+        "free-road-to-the-world-yume"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "free-take-your-marks",
+        "free-take-your-marks-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ghost-in-the-shell",
+        "ghost-in-the-shell-1995"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ghost-in-the-shell-2-innocence",
+        "ghost-in-the-shell-innocence"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ghost-in-the-shell-arise-1",
+        "ghost-in-the-shell-arise-border-1"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ghost-in-the-shell-arise-2",
+        "ghost-in-the-shell-arise-border-2"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ghost-in-the-shell-arise-3",
+        "ghost-in-the-shell-arise-border-3"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ghost-in-the-shell-arise-4",
+        "ghost-in-the-shell-arise-border-4"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gintama",
+        "gintama-season-2",
+        "gintama-season-3"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gintama-be-forever-yorozuya",
+        "gintama-kanketsu-hen-yorozuya"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gintama-the-final",
+        "gintama-the-final-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "given-movie",
+        "given-movie-1"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "grand-blue-dreaming",
+        "grand-blue-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "great-pretender",
+        "great-pretender-tv"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-chars-counterattack",
+        "kidou-senshi-gundam-gyakushuu-no-char"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-cucuruz-doan",
+        "kidou-senshi-gundam-cucuruz-doan-no-shima"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-hathaway",
+        "kidou-senshi-gundam-senkou-no-hathaway"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-movie-2-ai-senshi",
+        "kidou-senshi-gundam-ii-ai-senshi-hen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-movie-3-meguriai-sora",
+        "kidou-senshi-gundam-iii-meguriai-sora-hen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-narrative",
+        "gundam-nt"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-thunderbolt-bandit-flower",
+        "kidou-senshi-gundam-thunderbolt-bandit-flower"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "gundam-thunderbolt-december-sky",
+        "kidou-senshi-gundam-thunderbolt-december-sky"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "haikyuu-gomi-suteba-no-kessen",
+        "haikyuu-the-dumpster-battle"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "heisei-tanuki-gassen-ponpoko",
+        "pom-poko"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "hellsing-ultimate",
+        "hellsing-ultimate-ova"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "hibike-euphonium-kitauji",
+        "hibike-euphonium-kitauji-koukou-suisougaku-bu-e-youkoso"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "hoohokekyo-tonari-no-yamada-kun",
+        "my-neighbors-the-yamadas"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "i-want-eat",
+        "i-want-to-eat-your-pancreas"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "in-this-corner-of-the-world",
+        "kono-sekai-no-katasumi-ni"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "josee-the-tiger-and-the-fish",
+        "josee-to-tora-to-sakanatachi"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kara-no-kyoukai-7-murder",
+        "kara-no-kyoukai-satsujin-kousatsu-zen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kaze-tachinu",
+        "the-wind-rises"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kidou-keisatsu-patlabor-2-the-movie",
+        "patlabor-the-movie-2"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kidou-keisatsu-patlabor-the-movie",
+        "patlabor-the-movie-1"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kikis-delivery-service",
+        "majo-no-takkyuubin"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kimi-no-na-wa",
+        "your-name"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kimi-to-nami-ni-noretara",
+        "ride-your-wave"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kimitachi-wa-dou-ikiru-ka",
+        "the-boy-and-the-heron"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "konosuba",
+        "konosuba-legend-of-crimson"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "kurenai-no-buta",
+        "porco-rosso"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "love-live-sunshine-over-the-rainbow",
+        "love-live-sunshine-the-school-idol-movie-over-the-rainbow"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "macross-ai-oboete-imasu-ka",
+        "macross-do-you-remember-love"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "madoka-magica-rebellion",
+        "mahou-shoujo-madoka-magica-hangyaku-no-monogatari"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "millennium-actress",
+        "sennen-joyuu"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "mirai",
+        "mirai-no-mirai"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "neko-no-ongaeshi",
+        "the-cat-returns"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "ngnl",
+        "no-game-no-life-zero"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "omoide-no-marnie",
+        "when-marnie-was-there"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "omoide-poro-poro",
+        "only-yesterday"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "one-piece-clockwork-island",
+        "one-piece-nejimaki-jima"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "patema-inverted",
+        "sakasama-no-patema"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "promare",
+        "promare-movie"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "sailor-moon-eternal-1",
+        "sailor-moon-eternal-zenpen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "sailor-moon-eternal-2",
+        "sailor-moon-eternal-kouhen"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "sailor-moon-s-kaguya-hime",
+        "sailor-moon-s-movie",
+        "sailor-moon-s-movie-kaguya"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "suzume",
+        "suzume-no-tojimari"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "the-girl-who-leapt-through-time",
+        "toki-wo-kakeru-shoujo"
+      ]
+    },
+    {
+      "code": "duplicate_title_identity",
+      "slugs": [
+        "violet-evergarden",
+        "violet-evergarden-the-movie"
       ]
     },
     {

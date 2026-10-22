@@ -29,11 +29,13 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
     5
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 3,
   "available_episodes_count": 3,
   "subtitles": [
@@ -68,7 +70,11 @@
           "cues": 735,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -101,7 +107,11 @@
           "cues": 18,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -134,9 +144,21 @@
           "cues": 753,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 18,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/5-centimeters-per.json"
+  "quality_issues_count": 20,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/5-centimeters-per.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

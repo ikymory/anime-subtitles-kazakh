@@ -32,9 +32,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -64,14 +66,27 @@
         },
         "ass": {
           "path": "subtitles/berserk-golden-age-3/ep_01.kk.ass",
-          "sha256": "a411abc904c2d6ae139b128626140de9ea1b7ce7fbe787c6a8f6959c51dc6c76",
-          "bytes": 151751,
+          "sha256": "6f0b03b24ba1597b7841f04535c167271240a91174ed58c006c2b1dc87c1d25b",
+          "bytes": 149110,
           "cues": 1505,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 5,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/berserk-golden-age-3.json"
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/berserk-golden-age-3.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

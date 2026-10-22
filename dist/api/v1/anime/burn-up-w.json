@@ -28,12 +28,14 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
     3,
     4
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 4,
   "available_episodes_count": 4,
   "subtitles": [
@@ -68,7 +70,10 @@
           "cues": 317,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -101,7 +106,10 @@
           "cues": 280,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -134,7 +142,10 @@
           "cues": 303,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -167,9 +178,15 @@
           "cues": 225,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 12,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/burn-up-w.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/burn-up-w.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

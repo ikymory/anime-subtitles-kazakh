@@ -25,10 +25,12 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     77
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 2,
   "available_episodes_count": 2,
   "subtitles": [
@@ -63,7 +65,10 @@
           "cues": 931,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 77,
@@ -96,9 +101,17 @@
           "cues": 891,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 7,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell.json"
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ghost-in-the-shell.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -30,6 +30,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     3,
@@ -37,6 +38,7 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 5,
   "available_episodes_count": 5,
   "subtitles": [
@@ -71,7 +73,10 @@
           "cues": 429,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -104,7 +109,10 @@
           "cues": 399,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -137,7 +145,10 @@
           "cues": 352,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -170,7 +181,10 @@
           "cues": 345,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -203,9 +217,17 @@
           "cues": 386,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 15,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/flcl.json"
+  "quality_issues_count": 17,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/flcl.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "normalized_subtitle_serialization"
+  ]
 }

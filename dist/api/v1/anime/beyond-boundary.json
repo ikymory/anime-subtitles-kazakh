@@ -31,12 +31,14 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     10,
     11,
     12
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 4,
   "available_episodes_count": 4,
   "subtitles": [
@@ -71,7 +73,10 @@
           "cues": 356,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -104,7 +109,10 @@
           "cues": 384,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -137,7 +145,10 @@
           "cues": 289,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -170,9 +181,15 @@
           "cues": 373,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 12,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/beyond-boundary.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/beyond-boundary.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

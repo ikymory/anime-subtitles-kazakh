@@ -28,9 +28,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -60,14 +62,26 @@
         },
         "ass": {
           "path": "subtitles/bungo-stray-dogs-tv/ep_01.kk.ass",
-          "sha256": "847e0b6551c7c89c12d33b42bfdbd9028f865e938f291972256e75e3ac198295",
-          "bytes": 198181,
-          "cues": 1531,
-          "origin": "source"
+          "sha256": "a7a258934766aa865ce68a19273239165aa20a78d186e2fe370193c7e419695f",
+          "bytes": 151165,
+          "cues": 1335,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bungo-stray-dogs-tv.json"
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bungo-stray-dogs-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

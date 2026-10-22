@@ -25,10 +25,12 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 2,
   "available_episodes_count": 2,
   "subtitles": [
@@ -63,7 +65,10 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -96,9 +101,15 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 6,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dr-stone-s2.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/dr-stone-s2.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

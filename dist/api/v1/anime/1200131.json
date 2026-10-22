@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -52,6 +53,7 @@
     23,
     24
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 24,
   "available_episodes_count": 24,
   "subtitles": [
@@ -81,12 +83,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_01.kk.ass",
-          "sha256": "1c7521b6b65b38aa76416a5b0c35d76c488f5a480ad0bbbd8182349c49be9405",
-          "bytes": 71099,
-          "cues": 901,
-          "origin": "source"
+          "sha256": "b018ace115db968fabd9a4ed104f4e2ed6bf27d9156e6875759ffe1af17d4049",
+          "bytes": 45520,
+          "cues": 453,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -114,12 +121,18 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_02.kk.ass",
-          "sha256": "283fb5ea03b941325d18756343a8a1897c6ad2896194c62f624d058cbaf691c2",
-          "bytes": 74244,
-          "cues": 914,
-          "origin": "source"
+          "sha256": "7c06a812139fdde4b6d4e32c46811a09af3896e0ce14d7b642456806d9216db3",
+          "bytes": 48327,
+          "cues": 478,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -147,12 +160,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_03.kk.ass",
-          "sha256": "342804a4bdac72950ec1c7475bcd4e3c8304ea50ec677decdee472f0fa81dc35",
-          "bytes": 85079,
-          "cues": 1023,
-          "origin": "source"
+          "sha256": "ae2c11cfeb45baba4cc820e40ef5d0e6b27a198d9e4296a5f5297efc66e621aa",
+          "bytes": 56608,
+          "cues": 537,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -180,12 +198,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_04.kk.ass",
-          "sha256": "3228840dc07194e7f8902e1ba0a9176e083aa7141b1eea1da5bed9c457ae7d8e",
-          "bytes": 72890,
-          "cues": 881,
-          "origin": "source"
+          "sha256": "ec0555c03f3c6a87bb2121b26d7f1b1842c4303e9031226f8f09c4a81ffa63de",
+          "bytes": 47229,
+          "cues": 450,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -213,12 +236,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_05.kk.ass",
-          "sha256": "2b293efb0f359ed4ca50527d06c1ecf8f22116e83a635d81d0c2136a17f4ac3f",
-          "bytes": 76121,
-          "cues": 943,
-          "origin": "source"
+          "sha256": "a75f545e47824e9aeea238a0d94fab091a78c12c9281ddb8066c4a847cd35119",
+          "bytes": 48650,
+          "cues": 477,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -246,12 +274,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_06.kk.ass",
-          "sha256": "dd48b1e9cdc71c06921e1688934f6ee468026eefc47f913f9bda93539a9186fc",
-          "bytes": 73637,
-          "cues": 905,
-          "origin": "source"
+          "sha256": "5fa3a3ac77562098e97560712eb83a7def0ba2fda72595a040a96688b19868e6",
+          "bytes": 47272,
+          "cues": 459,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -279,12 +312,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_07.kk.ass",
-          "sha256": "c63e65b63f8bebcb67f67563a9dcc9d0cf451cdadca4ec0e6cdf99139f0e0d11",
-          "bytes": 77911,
-          "cues": 959,
-          "origin": "source"
+          "sha256": "ee16eef9b56830be1fb1a08ff85f7fe3c0c39e546151594e0b12302139d1aa6a",
+          "bytes": 49881,
+          "cues": 485,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -312,12 +350,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_08.kk.ass",
-          "sha256": "0cf860c06ac8c0f40952024a4ee61de6012a303dee58f1ba19c7c2bf2de38261",
-          "bytes": 68594,
-          "cues": 859,
-          "origin": "source"
+          "sha256": "1e12fa8320c7305406efcf89cf53c2da97b763f3c8b43bec6223556e6d567079",
+          "bytes": 43211,
+          "cues": 436,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -345,12 +388,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_09.kk.ass",
-          "sha256": "32a958484eb3e481bea1dedb4fe709c6e81998875c70749919d9860b74fee593",
-          "bytes": 72708,
-          "cues": 884,
-          "origin": "source"
+          "sha256": "eda5189e6035f1d35a5440eb56ced6ed9c19ae5859770e36bba025cc940c2e1a",
+          "bytes": 46264,
+          "cues": 449,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -378,12 +426,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_10.kk.ass",
-          "sha256": "fb327ee29bf275216e92d832f6e85aff0cb7540305313cae3ebd6f061c55f46f",
-          "bytes": 72584,
-          "cues": 902,
-          "origin": "source"
+          "sha256": "67899907678d6101d299196c9be50490ec072e2b1fcd70f7ff9026c0ddbd7829",
+          "bytes": 46053,
+          "cues": 455,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -411,12 +464,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_11.kk.ass",
-          "sha256": "9ad7864134ac64a4a1d7696e9f52411ea3e68b31106d2e383ad15f71d0f7fa05",
-          "bytes": 74140,
-          "cues": 888,
-          "origin": "source"
+          "sha256": "6a8dec27baf9cf7369f5522f83ab974bdf2825eba25bd0b7a2a2b2886d9811d6",
+          "bytes": 46235,
+          "cues": 452,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -444,12 +502,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_12.kk.ass",
-          "sha256": "596da044f75fb5d38f9780d7238c52b56564d9add4490ef136fe11fc103ad584",
-          "bytes": 72895,
-          "cues": 876,
-          "origin": "source"
+          "sha256": "a6957c05fc59e48777995dde2b378c1c7c2ec7fe299ed140229608fe5406ef5b",
+          "bytes": 48218,
+          "cues": 456,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -477,12 +540,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_13.kk.ass",
-          "sha256": "b7f03f845d023ab5da417463c53e6210b104c4febfb2c0a4ad41f51cfc8d7f62",
-          "bytes": 100800,
-          "cues": 1167,
-          "origin": "source"
+          "sha256": "9b3a30621c78f4d438a40af94cd99f90cbe9f20764c3239e3142f7c3ac557297",
+          "bytes": 75361,
+          "cues": 717,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -510,12 +578,18 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_14.kk.ass",
-          "sha256": "3a23e101da0b79ff82fb02bed066ff7780f1fef26b6757dab3e5cd8fa71dc4ed",
-          "bytes": 75563,
-          "cues": 919,
-          "origin": "source"
+          "sha256": "264cffabbecb046c3460687055b394b3455d11a06f8a80e823fb4ae3d29ba5f6",
+          "bytes": 51908,
+          "cues": 513,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -543,12 +617,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_15.kk.ass",
-          "sha256": "ee3403e38c67587360bdb8ed8e997eb7c4e648ef4127e0b251a44c4fcddac4c4",
-          "bytes": 64715,
-          "cues": 763,
-          "origin": "source"
+          "sha256": "e8b0c82b154e1808d184a881be04c02e0cfd7f24b742330f1223f6fb119b7b97",
+          "bytes": 42530,
+          "cues": 393,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -576,12 +655,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_16.kk.ass",
-          "sha256": "d3c357ad1fa3fe59e86818545cfeae02df6e9fe67f76474c8f96772aa3f59881",
-          "bytes": 71348,
-          "cues": 870,
-          "origin": "source"
+          "sha256": "0feb405302bea2899c0acdbefecc920a0740fe2b7630360adaddae495f164a3a",
+          "bytes": 46502,
+          "cues": 454,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -609,12 +693,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_17.kk.ass",
-          "sha256": "50e230781e336017cf7024fabd22aadfdd11aface8c5e40240c7a2103900c9a0",
-          "bytes": 73563,
-          "cues": 890,
-          "origin": "source"
+          "sha256": "58ae546f6ce46633f48242fc7341770f4981886316f58a8c4470ff4053c1bf46",
+          "bytes": 47949,
+          "cues": 459,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -642,12 +731,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_18.kk.ass",
-          "sha256": "efc1a97a9a4b022d3b0184324c40ca3dc840aef130d2ef5efa97ab72ca4cdcc2",
-          "bytes": 57522,
-          "cues": 672,
-          "origin": "source"
+          "sha256": "45a04b08446c93a5541aee985c8547bd66bccbf488a91f3ba7078431e18eb196",
+          "bytes": 36514,
+          "cues": 350,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -675,12 +769,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_19.kk.ass",
-          "sha256": "8b251d4eed053350e4ab1a62bafb52dc6e50fab1b6a28979fc7f43d7754656f4",
-          "bytes": 68617,
-          "cues": 832,
-          "origin": "source"
+          "sha256": "49bd1d0370a3e8777da2ca0ce907019484edb075b3b56849a77e594dab43a1bd",
+          "bytes": 44310,
+          "cues": 423,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -708,12 +807,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_20.kk.ass",
-          "sha256": "7d35fbe1638260de6e5dfffc1e539f4e08b6e3de7dcd5f5642218ae51d3d94de",
-          "bytes": 63028,
-          "cues": 755,
-          "origin": "source"
+          "sha256": "f3e584d1804947609c8d113441f2bb3a8a67660d663809d617a9e086de18b34a",
+          "bytes": 40324,
+          "cues": 378,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -741,12 +845,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_21.kk.ass",
-          "sha256": "a3b0302cf22937cc96fe4cd2bda81a09b5e43d7f348893952e2ca694ba118b02",
-          "bytes": 74079,
-          "cues": 922,
-          "origin": "source"
+          "sha256": "1aad6dc1023fc917fcf9c2e681714452212ce1afbbb15062ecc9925e7dd5f162",
+          "bytes": 47247,
+          "cues": 464,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -774,12 +883,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_22.kk.ass",
-          "sha256": "aceb3a250a4ae94eb5489163d2307a78a4a41899c5c289fadcc616d1ae428565",
-          "bytes": 82240,
-          "cues": 890,
-          "origin": "source"
+          "sha256": "56cebe40443f2d18f762c10839db36e96ceeca83d88265b51f5ec0ccc98ee99f",
+          "bytes": 55740,
+          "cues": 489,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -807,12 +921,17 @@
         },
         "ass": {
           "path": "subtitles/cue/ep_23.kk.ass",
-          "sha256": "33cac4d1158fafa48b0aa37948c91072f78a32ec046b25b40d0a9b597195fe5f",
-          "bytes": 70311,
-          "cues": 852,
-          "origin": "source"
+          "sha256": "b948d258216ee12f0b815207a3404c9c5158ecd809be0c090812a3618ce5b6ef",
+          "bytes": 45809,
+          "cues": 438,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -845,9 +964,21 @@
           "cues": 447,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 98,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cue.json"
+  "quality_issues_count": 121,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cue.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

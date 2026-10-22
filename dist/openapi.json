@@ -537,6 +537,14 @@
             "additionalProperties": {
               "$ref": "#/components/schemas/Asset"
             }
+          },
+          "quality_flags": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            },
+            "description": "Automated structural or content review signals; not proof of mistranslation."
           }
         }
       },
@@ -605,6 +613,26 @@
           },
           "api_url": {
             "type": "string"
+          },
+          "quality_flags": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            },
+            "description": "Automated structural or content review signals; not proof of mistranslation."
+          },
+          "translation_provenance": {
+            "const": "legacy_untraced",
+            "description": "Legacy track provider/model/source provenance was not recorded; see data/translation-audit.json in the source repository."
+          },
+          "quarantined_episodes": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "description": "Archived track numbers excluded from playable manifests due to structural failure or reviewed content quarantine."
           }
         }
       },
@@ -722,6 +750,22 @@
               "type": "integer",
               "minimum": 0
             }
+          },
+          "quarantined_episode_tracks": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "reviewed_quarantined_episode_tracks": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "duplicate_dialogue_groups": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "duplicate_title_groups": {
+            "type": "integer",
+            "minimum": 0
           }
         }
       }

@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,25 @@
         },
         "ass": {
           "path": "subtitles/haikyuu-the-dumpster-battle/ep_01.kk.ass",
-          "sha256": "1ec0531c57c8927695a914163f19d43424de3f94b335def7486ca0b74d98b4af",
-          "bytes": 133239,
-          "cues": 1292,
-          "origin": "source"
+          "sha256": "7205964e162dd8be8b21db59e5709e28e8e555bb0b83cdfb64c1ad536ef05c44",
+          "bytes": 130168,
+          "cues": 1287,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/haikyuu-the-dumpster-battle.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/haikyuu-the-dumpster-battle.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

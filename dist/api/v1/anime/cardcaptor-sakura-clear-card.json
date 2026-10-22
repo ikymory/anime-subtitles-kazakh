@@ -28,6 +28,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -52,6 +53,7 @@
     21,
     22
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 22,
   "available_episodes_count": 22,
   "subtitles": [
@@ -86,7 +88,12 @@
           "cues": 342,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -119,7 +126,10 @@
           "cues": 826,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -147,12 +157,17 @@
         },
         "ass": {
           "path": "subtitles/cardcaptor-sakura-clear-card/ep_03.kk.ass",
-          "sha256": "4c7d97e5753e850907f1d9c5ec4afc0db7529a14a7c87be5dc31b7e11fc4f4c0",
-          "bytes": 84237,
+          "sha256": "7f0a38135dcf7ac03f4d2a4ffb4eab0e8400bda392d7f5c03d401ebc50f1eba2",
+          "bytes": 78460,
           "cues": 835,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -180,12 +195,17 @@
         },
         "ass": {
           "path": "subtitles/cardcaptor-sakura-clear-card/ep_04.kk.ass",
-          "sha256": "e79bcc85e879c5c099d15962507c255d7d5f852511d827d416fcc1b16c5e5137",
-          "bytes": 83659,
+          "sha256": "0ef71198af48b71af8f3d8862435647e1ecac2d23854b80543ce8a40b393ce12",
+          "bytes": 77676,
           "cues": 821,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -218,7 +238,10 @@
           "cues": 824,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -246,12 +269,17 @@
         },
         "ass": {
           "path": "subtitles/cardcaptor-sakura-clear-card/ep_06.kk.ass",
-          "sha256": "08eb069eed91b5a658a20e8c383ebb3ab1b6a8f86ff87b7ea4da90f853abc4cb",
-          "bytes": 88022,
-          "cues": 848,
-          "origin": "source"
+          "sha256": "c30f087911cfb404726f05625e24f5f5f1f1a25ab1e57d7e68957ee99316dc23",
+          "bytes": 81679,
+          "cues": 847,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -284,7 +312,10 @@
           "cues": 653,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -312,12 +343,17 @@
         },
         "ass": {
           "path": "subtitles/cardcaptor-sakura-clear-card/ep_08.kk.ass",
-          "sha256": "2ba2e4bc9df543f28f4d05a754cff775b3bd3eec7c13fba0044b148e5e795449",
-          "bytes": 83336,
+          "sha256": "c62b1bf96732543f6aa04552e54285b9c814f3696c2d697711f9533a44df75e3",
+          "bytes": 77356,
           "cues": 803,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -350,7 +386,10 @@
           "cues": 758,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -383,7 +422,10 @@
           "cues": 824,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -416,7 +458,10 @@
           "cues": 806,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -444,12 +489,17 @@
         },
         "ass": {
           "path": "subtitles/cardcaptor-sakura-clear-card/ep_12.kk.ass",
-          "sha256": "6f1de48f969c87f08b7f8d2e0b5d5f3f091d7dedcf81ee9651c351d9e3334cee",
-          "bytes": 74091,
+          "sha256": "48a67cf5b4700c2e164efb411579e1615e86bda0ec2034d171cd6dea202f8794",
+          "bytes": 68009,
           "cues": 712,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -482,7 +532,10 @@
           "cues": 840,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -515,7 +568,12 @@
           "cues": 320,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -548,7 +606,12 @@
           "cues": 385,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -581,7 +644,12 @@
           "cues": 318,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -614,7 +682,12 @@
           "cues": 306,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -647,7 +720,12 @@
           "cues": 325,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -680,7 +758,12 @@
           "cues": 342,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -713,7 +796,12 @@
           "cues": 299,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -746,7 +834,12 @@
           "cues": 304,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -779,9 +872,20 @@
           "cues": 270,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 82,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cardcaptor-sakura-clear-card.json"
+  "quality_issues_count": 87,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cardcaptor-sakura-clear-card.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

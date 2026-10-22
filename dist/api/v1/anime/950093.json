@@ -27,6 +27,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -44,6 +45,7 @@
     14,
     15
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 15,
   "available_episodes_count": 15,
   "subtitles": [
@@ -78,7 +80,10 @@
           "cues": 424,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -111,7 +116,10 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -144,7 +152,10 @@
           "cues": 406,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -177,7 +188,10 @@
           "cues": 345,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -205,12 +219,17 @@
         },
         "ass": {
           "path": "subtitles/bastard-ankoku-no-hakaishin/ep_05.kk.ass",
-          "sha256": "38336045f13e1a8700fc22ed1d364b10a5c14e407380018f1ef332eec1eb3247",
-          "bytes": 38171,
+          "sha256": "ddfcb6783a57cc61d3e4c95a6c86b6b7b0583bdffd95cb67ca33fd2415452872",
+          "bytes": 37809,
           "cues": 367,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -243,7 +262,10 @@
           "cues": 380,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -276,7 +298,10 @@
           "cues": 391,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -309,7 +334,10 @@
           "cues": 379,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -342,7 +370,10 @@
           "cues": 385,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -375,7 +406,10 @@
           "cues": 377,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -408,7 +442,10 @@
           "cues": 411,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -441,7 +478,10 @@
           "cues": 399,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -474,7 +514,10 @@
           "cues": 356,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -502,12 +545,17 @@
         },
         "ass": {
           "path": "subtitles/bastard-ankoku-no-hakaishin/ep_14.kk.ass",
-          "sha256": "1d3d85b1e49eaa4b8bbc7ba27cf9a2f1772cfde91f095172b612c8ba65b4b5bb",
-          "bytes": 40117,
+          "sha256": "2b373f6865a685f388742a1c7352c238d3f17a75020f47ee8ddc31f09b999804",
+          "bytes": 39755,
           "cues": 404,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -540,9 +588,17 @@
           "cues": 393,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 47,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bastard-ankoku-no-hakaishin.json"
+  "quality_issues_count": 49,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bastard-ankoku-no-hakaishin.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

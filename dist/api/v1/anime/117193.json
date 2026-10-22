@@ -30,6 +30,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     89,
@@ -44,6 +45,7 @@
     98,
     99
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -78,7 +80,11 @@
           "cues": 356,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 89,
@@ -111,7 +117,11 @@
           "cues": 333,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 90,
@@ -144,7 +154,11 @@
           "cues": 354,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 91,
@@ -177,7 +191,11 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 92,
@@ -210,7 +228,11 @@
           "cues": 381,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 93,
@@ -243,7 +265,11 @@
           "cues": 420,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 94,
@@ -276,7 +302,11 @@
           "cues": 381,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 95,
@@ -309,7 +339,11 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 96,
@@ -342,7 +376,11 @@
           "cues": 349,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 97,
@@ -375,7 +413,11 @@
           "cues": 380,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 98,
@@ -408,7 +450,11 @@
           "cues": 348,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 99,
@@ -441,9 +487,18 @@
           "cues": 368,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 61,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/my-hero-academia-s5.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/my-hero-academia-s5.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

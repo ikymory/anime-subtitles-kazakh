@@ -30,11 +30,16 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     2,
     3,
     5,
     6
+  ],
+  "quarantined_episodes": [
+    1,
+    4
   ],
   "translated_episodes_count": 4,
   "available_episodes_count": 4,
@@ -70,7 +75,10 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -103,7 +111,11 @@
           "cues": 244,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization",
+        "repeated_dialogue_requires_review"
+      ]
     },
     {
       "episode": 5,
@@ -136,7 +148,10 @@
           "cues": 392,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -169,9 +184,19 @@
           "cues": 349,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 21,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ergo-proxy-tv.json"
+  "quality_issues_count": 22,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/ergo-proxy-tv.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization",
+    "repeated_dialogue_requires_review",
+    "unusable_episode"
+  ]
 }

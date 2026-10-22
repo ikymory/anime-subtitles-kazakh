@@ -27,9 +27,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -59,14 +61,25 @@
         },
         "ass": {
           "path": "subtitles/patlabor-the-movie-2/ep_01.kk.ass",
-          "sha256": "6b3a7655b09b4c2c1d59aa17056a0a7c8b04e1f20eb8f15a4f7fd9e446d97e50",
-          "bytes": 167040,
+          "sha256": "7f16133f35a34a37742842347d7f53a353dca808f5ee7e63c54574225cb79aea",
+          "bytes": 166619,
           "cues": 1286,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/patlabor-the-movie-2.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/patlabor-the-movie-2.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

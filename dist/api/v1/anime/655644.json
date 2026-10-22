@@ -25,6 +25,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -39,6 +40,7 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -73,7 +75,11 @@
           "cues": 233,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -106,7 +112,11 @@
           "cues": 233,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -139,7 +149,11 @@
           "cues": 245,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -172,7 +186,12 @@
           "cues": 225,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -205,7 +224,10 @@
           "cues": 235,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -238,7 +260,10 @@
           "cues": 284,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -271,7 +296,11 @@
           "cues": 297,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -304,7 +333,10 @@
           "cues": 354,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -337,7 +369,11 @@
           "cues": 261,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -370,7 +406,10 @@
           "cues": 295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -403,7 +442,11 @@
           "cues": 329,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -436,9 +479,18 @@
           "cues": 325,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 39,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/darker-than-black.json"
+  "quality_issues_count": 45,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/darker-than-black.json",
+  "quality_flags": [
+    "duplicate_dialogue_content",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

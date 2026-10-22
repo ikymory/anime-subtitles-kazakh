@@ -31,6 +31,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -45,6 +46,7 @@
     12,
     264
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -79,7 +81,11 @@
           "cues": 269,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -112,7 +118,10 @@
           "cues": 452,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -145,7 +154,10 @@
           "cues": 333,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -178,7 +190,11 @@
           "cues": 369,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -211,7 +227,11 @@
           "cues": 415,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -244,7 +264,11 @@
           "cues": 404,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -277,7 +301,11 @@
           "cues": 422,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -310,7 +338,11 @@
           "cues": 336,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -343,7 +375,11 @@
           "cues": 317,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -376,7 +412,11 @@
           "cues": 292,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -409,7 +449,11 @@
           "cues": 229,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 264,
@@ -442,9 +486,20 @@
           "cues": 404,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 57,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/csm.json"
+  "quality_issues_count": 59,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/csm.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "duplicate_title_identity",
+    "episode_numbering_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

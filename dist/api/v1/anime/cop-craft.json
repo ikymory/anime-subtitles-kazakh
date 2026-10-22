@@ -26,10 +26,12 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     2,
     3
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 2,
   "available_episodes_count": 2,
   "subtitles": [
@@ -64,7 +66,12 @@
           "cues": 394,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -97,9 +104,19 @@
           "cues": 375,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 8,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cop-craft.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cop-craft.json",
+  "quality_flags": [
+    "derived_format",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

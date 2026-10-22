@@ -9,6 +9,13 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import quote
 
+from .discovery import write_discovery
+from .quality import (
+    apply_quality_findings,
+    dialogue_fingerprint,
+    duplicate_title_groups,
+    same_dialogue,
+)
 from .subtitles import (
     identify_file,
     normalize_subtitle,
@@ -61,6 +68,50 @@ def build(
     ):
         raise ValueError("Duplicate or unsafe release slug")
     paths = source_files(source_root)
+    quarantine_path = Path(metadata_path).parent / "quarantine.json"
+    quarantines = {}
+    if quarantine_path.exists():
+        rules = json.loads(quarantine_path.read_bytes())
+        if not isinstance(rules, dict) or not isinstance(rules.get("tracks"), list):
+            raise ValueError("Invalid quarantine manifest")
+        tracked_paths = set(paths)
+        for rule in rules["tracks"]:
+            if not isinstance(rule, dict) or rule.get("slug") not in slugs:
+                raise ValueError("Invalid quarantine release")
+            slug, episode = rule["slug"], rule.get("episode")
+            relative, digest = rule.get("source_path"), rule.get("source_sha256")
+            if (
+                not isinstance(episode, int)
+                or isinstance(episode, bool)
+                or episode < 0
+                or not isinstance(relative, str)
+                or relative not in tracked_paths
+                or Path(relative).parts[:2] != ("subtitles", slug)
+                or not isinstance(digest, str)
+                or not re.fullmatch(r"[a-f0-9]{64}", digest)
+                or not isinstance(rule.get("reason"), str)
+                or not rule["reason"].strip()
+                or not isinstance(rule.get("evidence"), str)
+                or not rule["evidence"].strip()
+                or (slug, episode) in quarantines
+            ):
+                raise ValueError("Invalid quarantine track")
+            identified = identify_file(slug, Path(relative).name)
+            anchor = (source_root / relative).resolve()
+            if (
+                not identified
+                or identified[0] != episode
+                or not anchor.is_relative_to(source_root / "subtitles")
+            ):
+                raise ValueError("Invalid quarantine anchor")
+            # Git stores LF while Windows checkouts may materialize CRLF.
+            # Normalize line endings only; changed dialogue or added cues fail closed.
+            anchor_bytes = anchor.read_bytes().replace(b"\r\n", b"\n")
+            if hashlib.sha256(anchor_bytes).hexdigest() != digest:
+                raise ValueError(
+                    f"Quarantine source changed; review required: {relative}"
+                )
+            quarantines[(slug, episode)] = rule
     by_slug = defaultdict(list)
     for path in paths:
         parts = Path(path).parts
@@ -69,6 +120,7 @@ def build(
     findings = []
     counts = Counter()
     fingerprints = defaultdict(list)
+    dialogue_fingerprints = defaultdict(list)
     identifiers = defaultdict(list)
     details = []
     selected_formats = 0
@@ -96,6 +148,18 @@ def build(
         rows = []
         release_findings = len(findings)
         for episode, formats in sorted(choices.items()):
+            if (slug, episode) in quarantines:
+                rule = quarantines[(slug, episode)]
+                issue(
+                    "reviewed_content_quarantine",
+                    slug=slug,
+                    episode=episode,
+                    reason=rule["reason"],
+                    evidence=rule["evidence"],
+                    source_sha256=rule["source_sha256"],
+                )
+                continue
+            track_findings = len(findings)
             links, assets, parsed = {}, {}, {}
             for ext in FORMATS:
                 options = sorted(formats.get(ext, []))
@@ -149,14 +213,17 @@ def build(
                         if not dest.exists() or dest.read_bytes() != compiled:
                             dest.parent.mkdir(parents=True, exist_ok=True)
                             dest.write_bytes(compiled)
-                selected_formats += 1
             if not parsed:
                 issue("unusable_episode", slug=slug, episode=episode)
                 continue
             primary = parsed.get("srt", next(iter(parsed.values())))
             for ext in FORMATS:
                 if ext in parsed:
-                    continue
+                    if same_dialogue(primary, parsed[ext]):
+                        continue
+                    issue(
+                        "format_dialogue_drift", slug=slug, episode=episode, format=ext
+                    )
                 compiled = render_subtitle(primary, ext).encode("utf-8")
                 try:
                     recovered = parse_subtitle(compiled.decode("utf-8"), ext)
@@ -177,7 +244,6 @@ def build(
                     "cues": len(recovered),
                     "origin": "derived",
                 }
-                selected_formats += 1
                 issue("derived_format", slug=slug, episode=episode, format=ext)
                 if copy_subtitles:
                     targets = {relative, *[path for _, path in formats.get(ext, [])]}
@@ -185,6 +251,7 @@ def build(
                         dest = output_root / target
                         dest.parent.mkdir(parents=True, exist_ok=True)
                         dest.write_bytes(compiled)
+            selected_formats += len(assets)
             all_cue_count += len(primary)
             dialogue = [
                 cue.text for cue in primary if "ikymory" not in cue.text.lower()
@@ -195,6 +262,11 @@ def build(
                 ).encode()
             ).hexdigest()
             fingerprints[content_hash].append({"slug": slug, "episode": episode})
+            dialogue_hash = dialogue_fingerprint(primary)
+            if dialogue_hash:
+                dialogue_fingerprints[dialogue_hash].append(
+                    {"slug": slug, "episode": episode}
+                )
             if any(
                 re.search(r"[\u3040-\u30ff\u3400-\u9fff]", text) for text in dialogue
             ):
@@ -227,12 +299,6 @@ def build(
                 re.search(r"[ӘәҒғҚқҢңӨөҰұҮүҺһІі]", text) for text in dialogue
             ):
                 issue("kazakh_language_requires_review", slug=slug, episode=episode)
-            # ASS centisecond rounding is expected; compare dialogue, not exact times.
-            for ext, cues in parsed.items():
-                if [cue.text for cue in cues] != [cue.text for cue in primary]:
-                    issue(
-                        "format_dialogue_drift", slug=slug, episode=episode, format=ext
-                    )
             rows.append(
                 {
                     "episode": episode,
@@ -240,6 +306,9 @@ def build(
                     "filename": Path(next(iter(assets.values()))["path"]).name,
                     "files": links,
                     "assets": assets,
+                    "quality_flags": sorted(
+                        {f["code"] for f in findings[track_findings:]}
+                    ),
                 }
             )
         episodes = [row["episode"] for row in rows]
@@ -262,7 +331,9 @@ def build(
             metadata_status="unverified",
             coverage_status="unverified",
             translation_status="not_human_verified",
+            translation_provenance="legacy_untraced",
             translated_episodes=episodes,
+            quarantined_episodes=sorted(set(choices) - set(episodes)),
             translated_episodes_count=len(rows),
             available_episodes_count=len(rows),
             subtitles=rows,
@@ -276,6 +347,14 @@ def build(
     duplicates = [tracks for tracks in fingerprints.values() if len(tracks) > 1]
     for tracks in duplicates:
         issue("duplicate_episode_content", tracks=tracks)
+    dialogue_duplicates = [
+        tracks for tracks in dialogue_fingerprints.values() if len(tracks) > 1
+    ]
+    for tracks in dialogue_duplicates:
+        issue("duplicate_dialogue_content", tracks=tracks)
+    title_duplicates = duplicate_title_groups(metadata)
+    for group in title_duplicates:
+        issue("duplicate_title_identity", slugs=group)
     for identifier, entries in identifiers.items():
         if len(entries) > 1:
             issue(
@@ -283,6 +362,9 @@ def build(
             )
     for slug in sorted(set(by_slug) - set(slugs)):
         issue("unlisted_tracked_release", slug=slug)
+    # Cross-release findings are discovered only after scanning the whole archive.
+    # Propagate them before serializing details so API clients see the same warnings.
+    apply_quality_findings(details, findings)
     summary = [{k: v for k, v in item.items() if k != "subtitles"} for item in details]
     catalog = {
         "schema_version": "1.1",
@@ -291,17 +373,23 @@ def build(
         "total_files": sum(len(by_slug[slug]) for slug in slugs),
         "language": "kk",
         "repository": REPOSITORY,
+        "base_url": base_url.rstrip("/"),
         "data": summary,
     }
     stats = {k: v for k, v in catalog.items() if k != "data"}
     stats.update(
         counting_unit="release_entries_and_episode_tracks",
         source_episode_tracks=source_episode_count,
+        quarantined_episode_tracks=source_episode_count - catalog["total_episodes"],
+        reviewed_quarantined_episode_tracks=len(quarantines),
         unique_legacy_ids=len(identifiers),
         ambiguous_legacy_ids=sum(len(v) > 1 for v in identifiers.values()),
         canonical_format_files=selected_formats,
         unique_episode_contents=len(fingerprints),
         duplicate_content_groups=len(duplicates),
+        duplicate_dialogue_groups=len(dialogue_duplicates),
+        duplicate_title_groups=len(title_duplicates),
+        translation_provenance="legacy_untraced",
         cue_count=all_cue_count,
         canonical_bytes=raw_bytes_total,
         human_verified_translations=0,
@@ -349,6 +437,7 @@ def build(
             "findings": findings,
         },
     )
+    write_discovery(output_root, catalog, stats, base_url)
     return catalog
 
 

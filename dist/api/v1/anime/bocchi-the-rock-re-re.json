@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,26 @@
         },
         "ass": {
           "path": "subtitles/bocchi-the-rock-re-re/ep_01.kk.ass",
-          "sha256": "130c8a9251d51c4da99a0b7ce15ae71f86b6c8dd39a89c65a926ddffc2085513",
-          "bytes": 335303,
+          "sha256": "db5e8ae7ae687d1abdadf520a9056480b9d803f3e797834c5d0b178850ea6102",
+          "bytes": 325975,
           "cues": 3251,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bocchi-the-rock-re-re.json"
+  "quality_issues_count": 7,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bocchi-the-rock-re-re.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

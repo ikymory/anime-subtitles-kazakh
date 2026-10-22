@@ -24,9 +24,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -61,9 +63,15 @@
           "cues": 1167,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 3,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/junod.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/junod.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -27,9 +27,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -59,14 +61,26 @@
         },
         "ass": {
           "path": "subtitles/gundam-00-trailblazer/ep_01.kk.ass",
-          "sha256": "237f2cf80537f423220e58f969bfbccabda94090312cdfd59b68c827d6ef1eef",
-          "bytes": 189343,
-          "cues": 1610,
-          "origin": "source"
+          "sha256": "5a0fec9459249e9afba60b7ae86d220658a4e6efce8403bf2ccc76ab1fb0c63a",
+          "bytes": 167707,
+          "cues": 1609,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 5,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gundam-00-trailblazer.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gundam-00-trailblazer.json",
+  "quality_flags": [
+    "derived_format",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

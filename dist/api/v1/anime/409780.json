@@ -25,6 +25,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -39,6 +40,7 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -73,7 +75,10 @@
           "cues": 419,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -106,7 +111,10 @@
           "cues": 434,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -139,7 +147,10 @@
           "cues": 492,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -172,7 +183,10 @@
           "cues": 457,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -205,7 +219,10 @@
           "cues": 437,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -238,7 +255,10 @@
           "cues": 352,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -271,7 +291,10 @@
           "cues": 359,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -304,7 +327,10 @@
           "cues": 444,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -337,7 +363,10 @@
           "cues": 452,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -370,7 +399,10 @@
           "cues": 396,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -403,7 +435,10 @@
           "cues": 385,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -436,9 +471,15 @@
           "cues": 408,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 36,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuunibyou-s2.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuunibyou-s2.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,6 +35,7 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 6,
   "available_episodes_count": 6,
   "subtitles": [
@@ -68,7 +70,10 @@
           "cues": 80,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -101,7 +106,10 @@
           "cues": 68,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -134,7 +142,10 @@
           "cues": 78,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -167,7 +178,10 @@
           "cues": 74,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -200,7 +214,10 @@
           "cues": 96,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -233,9 +250,15 @@
           "cues": 51,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 18,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuunibyou-demo-koi-ga-shitai-ren-lite.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuunibyou-demo-koi-ga-shitai-ren-lite.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

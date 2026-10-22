@@ -28,9 +28,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -60,14 +62,24 @@
         },
         "ass": {
           "path": "subtitles/yuru-camp-movie/ep_01.kk.ass",
-          "sha256": "be55029a489a9d366753f08498c211bca73b71ba5769be00086a54b0c6b5e940",
-          "bytes": 189756,
+          "sha256": "2536182d05efd91bf782f53465ab3e483343603d55af34d1df2becff4d633c6f",
+          "bytes": 172170,
           "cues": 1926,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/yuru-camp-movie.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/yuru-camp-movie.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

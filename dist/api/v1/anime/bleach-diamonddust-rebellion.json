@@ -30,9 +30,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -62,14 +64,29 @@
         },
         "ass": {
           "path": "subtitles/bleach-diamonddust-rebellion/ep_01.kk.ass",
-          "sha256": "d87ac525423b47f6bd38cb9b34764228691b58d190d5a210b45d9cc0bdff1d8a",
-          "bytes": 125457,
+          "sha256": "fa211837a9f8701774f5832d6fc79c21b02a419788854a5135d691141e65d540",
+          "bytes": 111094,
           "cues": 1055,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-diamonddust-rebellion.json"
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-diamonddust-rebellion.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_dialogue_content",
+    "duplicate_episode_content",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

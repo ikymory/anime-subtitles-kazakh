@@ -30,6 +30,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     224,
@@ -44,6 +45,7 @@
     233,
     234
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -78,7 +80,11 @@
           "cues": 183,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 224,
@@ -111,7 +117,12 @@
           "cues": 378,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 225,
@@ -144,7 +155,11 @@
           "cues": 383,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 226,
@@ -177,7 +192,11 @@
           "cues": 367,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 227,
@@ -210,7 +229,11 @@
           "cues": 395,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 228,
@@ -243,7 +266,11 @@
           "cues": 424,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 229,
@@ -276,7 +303,11 @@
           "cues": 397,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 230,
@@ -309,7 +340,11 @@
           "cues": 297,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 231,
@@ -342,7 +377,11 @@
           "cues": 385,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 232,
@@ -375,7 +414,11 @@
           "cues": 364,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 233,
@@ -408,7 +451,11 @@
           "cues": 330,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 234,
@@ -441,9 +488,20 @@
           "cues": 282,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 73,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama.json"
+  "quality_issues_count": 74,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/gintama.json",
+  "quality_flags": [
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "episode_numbering_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

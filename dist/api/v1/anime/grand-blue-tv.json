@@ -29,6 +29,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -55,6 +56,7 @@
     23,
     24
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 24,
   "available_episodes_count": 24,
   "subtitles": [
@@ -89,7 +91,12 @@
           "cues": 468,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -122,7 +129,10 @@
           "cues": 464,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -155,7 +165,10 @@
           "cues": 476,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -188,7 +201,10 @@
           "cues": 514,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -221,7 +237,10 @@
           "cues": 521,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -254,7 +273,10 @@
           "cues": 451,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -287,7 +309,12 @@
           "cues": 505,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -320,7 +347,12 @@
           "cues": 449,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -353,7 +385,10 @@
           "cues": 459,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -386,7 +421,10 @@
           "cues": 443,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -419,7 +457,10 @@
           "cues": 473,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -452,7 +493,10 @@
           "cues": 418,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -485,7 +529,10 @@
           "cues": 583,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -513,12 +560,18 @@
         },
         "ass": {
           "path": "subtitles/grand-blue-tv/ep_14.kk.ass",
-          "sha256": "795ef230b95ba48b76985d49ef8ee3ed5c570b4aedd4514c355bfe8f29fa1600",
-          "bytes": 57051,
+          "sha256": "df29d0afcbebd0fafd2d5c985c93e3e73bf2f017b0b0ed8169f777dc35409561",
+          "bytes": 56489,
           "cues": 600,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -551,7 +604,12 @@
           "cues": 621,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -579,12 +637,18 @@
         },
         "ass": {
           "path": "subtitles/grand-blue-tv/ep_16.kk.ass",
-          "sha256": "b0f0b8a649c9b3e384e16f1a06baaf53c6a42164f6226a9fd3982edb27a03105",
-          "bytes": 58867,
+          "sha256": "d8522dcc49e7fb1b9d24b68f64bea9ec5c24b9b45f122f5b9628310ec12cd622",
+          "bytes": 58343,
           "cues": 635,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -617,7 +681,13 @@
           "cues": 681,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -650,7 +720,11 @@
           "cues": 593,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -678,12 +752,17 @@
         },
         "ass": {
           "path": "subtitles/grand-blue-tv/ep_19.kk.ass",
-          "sha256": "341882c3374ee1bd4a4365f8895db890258633f76c1866a3c3c0c826f5bdcd25",
-          "bytes": 58061,
+          "sha256": "3241a71b8ad559e9e1faad914a32229ead025f6f1ef89a209e173aeb51616a22",
+          "bytes": 57537,
           "cues": 626,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -711,12 +790,17 @@
         },
         "ass": {
           "path": "subtitles/grand-blue-tv/ep_20.kk.ass",
-          "sha256": "589dc45306391e1caba8a438a1df27c6088833c18760ccd986f7b188ec921e36",
-          "bytes": 54495,
+          "sha256": "f00bae5e952cdd10f4948c8093a8689ebf294eadc98e3eb6d5eda8ac7a208389",
+          "bytes": 53933,
           "cues": 571,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -749,7 +833,10 @@
           "cues": 593,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -777,12 +864,17 @@
         },
         "ass": {
           "path": "subtitles/grand-blue-tv/ep_22.kk.ass",
-          "sha256": "23b81c39862063242e8095471fb7097b0de7d2ff07feb08dff05d1dd7efbd921",
-          "bytes": 51983,
+          "sha256": "fc2c512294eb710721e902c8809c2197da23960cc762d012ab1448b3f71b8278",
+          "bytes": 51423,
           "cues": 557,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -815,7 +907,10 @@
           "cues": 618,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -848,9 +943,21 @@
           "cues": 563,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 91,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/grand-blue-tv.json"
+  "quality_issues_count": 98,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/grand-blue-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

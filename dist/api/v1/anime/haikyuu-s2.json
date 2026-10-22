@@ -29,6 +29,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     4,
@@ -45,6 +46,7 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 14,
   "available_episodes_count": 14,
   "subtitles": [
@@ -79,7 +81,11 @@
           "cues": 341,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -112,7 +118,11 @@
           "cues": 288,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -145,7 +155,11 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -178,7 +192,11 @@
           "cues": 405,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -211,7 +229,11 @@
           "cues": 392,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -244,7 +266,12 @@
           "cues": 365,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization",
+        "repeated_dialogue_requires_review"
+      ]
     },
     {
       "episode": 18,
@@ -277,7 +304,11 @@
           "cues": 412,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -310,7 +341,11 @@
           "cues": 405,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -343,7 +378,11 @@
           "cues": 400,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -376,7 +415,11 @@
           "cues": 365,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -409,7 +452,11 @@
           "cues": 395,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -442,7 +489,11 @@
           "cues": 398,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -475,7 +526,11 @@
           "cues": 385,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -508,9 +563,18 @@
           "cues": 408,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 72,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/haikyuu-s2.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/haikyuu-s2.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization",
+    "repeated_dialogue_requires_review"
+  ]
 }

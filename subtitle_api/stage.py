@@ -6,7 +6,8 @@ import json
 import shutil
 from pathlib import Path
 
-from .build import FORMATS, write_json
+from .build import FORMATS, SITE, write_json
+from .discovery import write_discovery
 from .subtitles import normalize_subtitle, parse_subtitle, render_subtitle
 
 
@@ -26,7 +27,13 @@ def stage(
     if output.exists() and any(output.iterdir()):
         raise ValueError("Staging directory must be empty")
     output.mkdir(parents=True, exist_ok=True)
-    for name in ("index.html", "api.html", "catalog-runtime.js", "openapi.json"):
+    for name in (
+        "index.html",
+        "api.html",
+        "catalog-runtime.js",
+        "openapi.json",
+        "favicon.svg",
+    ):
         src = web_root / name
         if src.exists():
             shutil.copyfile(src, output / name)
@@ -110,6 +117,7 @@ def stage(
         alias_files_published=False,
     )
     write_json(output / "api/v1/stats.json", stats)
+    write_discovery(output, catalog, stats, catalog.get("base_url", SITE))
     size = sum(p.stat().st_size for p in output.rglob("*") if p.is_file())
     if size > max_bytes:
         raise ValueError(

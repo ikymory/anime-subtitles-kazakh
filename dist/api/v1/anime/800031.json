@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,29 @@
         },
         "ass": {
           "path": "subtitles/bleach-the-diamonddust-rebellion-mou-hitotsu-no-hyourinmaru/ep_01.kk.ass",
-          "sha256": "59fd1f596db785c75de327297d0e27e3aaf8b0a5250d5a754257162d3283d7cd",
-          "bytes": 125553,
+          "sha256": "fa211837a9f8701774f5832d6fc79c21b02a419788854a5135d691141e65d540",
+          "bytes": 111094,
           "cues": 1055,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-the-diamonddust-rebellion-mou-hitotsu-no-hyourinmaru.json"
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-the-diamonddust-rebellion-mou-hitotsu-no-hyourinmaru.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_dialogue_content",
+    "duplicate_episode_content",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

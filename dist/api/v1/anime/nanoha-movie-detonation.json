@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,24 @@
         },
         "ass": {
           "path": "subtitles/nanoha-movie-detonation/ep_01.kk.ass",
-          "sha256": "090fe173b603a48e605f024077e3ed0e17ad75ae6b41b739ba11d5df7b3449b6",
-          "bytes": 312191,
-          "cues": 3100,
-          "origin": "source"
+          "sha256": "783a6a616aaecca8b60e97823437363dba7ea70b4c64abb37dd6ee29857146b4",
+          "bytes": 324554,
+          "cues": 3099,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nanoha-movie-detonation.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/nanoha-movie-detonation.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

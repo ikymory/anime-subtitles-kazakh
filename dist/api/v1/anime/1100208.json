@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     2,
     3,
@@ -51,6 +52,7 @@
     23,
     24
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 23,
   "available_episodes_count": 23,
   "subtitles": [
@@ -85,7 +87,10 @@
           "cues": 142,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -118,7 +123,10 @@
           "cues": 119,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -151,7 +159,10 @@
           "cues": 98,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -179,12 +190,17 @@
         },
         "ass": {
           "path": "subtitles/araiguma-calcal-dan/ep_05.kk.ass",
-          "sha256": "4831ed601958063e2b8cfa1a47630dd70a529aeedd8f4f778ca7a8a0f119e338",
-          "bytes": 11546,
+          "sha256": "b492b2c258579c8947be0dcb1d154be0d5a324223b4159057e5225752a03dfb7",
+          "bytes": 11291,
           "cues": 124,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -217,7 +233,10 @@
           "cues": 96,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -245,12 +264,17 @@
         },
         "ass": {
           "path": "subtitles/araiguma-calcal-dan/ep_07.kk.ass",
-          "sha256": "a7439d5a53e998370afa66aed9011f3bf3abcd9bd4d18dcc2fd440750804300e",
-          "bytes": 7321,
+          "sha256": "3b918cbac3cd10e896af03d9aedb0cd4dd6f1ef989aa567b79c3f59334522c21",
+          "bytes": 7066,
           "cues": 72,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -283,7 +307,10 @@
           "cues": 94,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -316,7 +343,10 @@
           "cues": 81,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -349,7 +379,10 @@
           "cues": 55,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -382,7 +415,10 @@
           "cues": 75,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -415,7 +451,10 @@
           "cues": 158,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -443,12 +482,17 @@
         },
         "ass": {
           "path": "subtitles/araiguma-calcal-dan/ep_13.kk.ass",
-          "sha256": "8a3bd3fbb3de7332c1124d6c511993d1d5d35464a01a345eeb50e77e77c2fafe",
-          "bytes": 31571,
+          "sha256": "925ab2ccd901b50b226bf40e5db4047f75ff94945f25dfbeda6dd927e8b15610",
+          "bytes": 31316,
           "cues": 221,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -481,7 +525,10 @@
           "cues": 63,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -514,7 +561,10 @@
           "cues": 90,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -542,12 +592,17 @@
         },
         "ass": {
           "path": "subtitles/araiguma-calcal-dan/ep_16.kk.ass",
-          "sha256": "1d03feedb3975e9c17ddd59690b88bfe2d189b2019b4533d3967c4d97de043cd",
-          "bytes": 7481,
+          "sha256": "796292f6c0bba4a672d85523998e78d6e44870598b3e082cb072697094445109",
+          "bytes": 7226,
           "cues": 76,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -575,12 +630,17 @@
         },
         "ass": {
           "path": "subtitles/araiguma-calcal-dan/ep_17.kk.ass",
-          "sha256": "54ee774d1ed3b7133b4dbba43351c80be1101a5ee86bf3c727467b55583dda48",
-          "bytes": 9123,
+          "sha256": "29a4762eebcd29482e71987d636b2d621e4e09372fd66968ab3bbb6deb3f3f88",
+          "bytes": 8868,
           "cues": 88,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -613,7 +673,10 @@
           "cues": 103,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -646,7 +709,10 @@
           "cues": 102,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -679,7 +745,10 @@
           "cues": 101,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -712,7 +781,10 @@
           "cues": 113,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -745,7 +817,10 @@
           "cues": 93,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -773,12 +848,17 @@
         },
         "ass": {
           "path": "subtitles/araiguma-calcal-dan/ep_23.kk.ass",
-          "sha256": "79def0eb19a41d7dd5badc5e7b333f1312c9f6c899186f70a29499d5e1306b5d",
-          "bytes": 9165,
+          "sha256": "215c49c826c799a8751af9d82756b6834fff5399767152e55b7f84d0ae271a6e",
+          "bytes": 8910,
           "cues": 94,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -811,9 +891,17 @@
           "cues": 104,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 75,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/araiguma-calcal-dan.json"
+  "quality_issues_count": 81,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/araiguma-calcal-dan.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

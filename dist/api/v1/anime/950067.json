@@ -25,6 +25,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -53,6 +54,7 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 26,
   "available_episodes_count": 26,
   "subtitles": [
@@ -87,7 +89,10 @@
           "cues": 466,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -120,7 +125,10 @@
           "cues": 474,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -153,7 +161,10 @@
           "cues": 485,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -186,7 +197,10 @@
           "cues": 465,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -219,7 +233,10 @@
           "cues": 429,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -252,7 +269,10 @@
           "cues": 498,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -285,7 +305,10 @@
           "cues": 372,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -318,7 +341,10 @@
           "cues": 378,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -351,7 +377,10 @@
           "cues": 396,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -384,7 +413,10 @@
           "cues": 493,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -417,7 +449,10 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -450,7 +485,10 @@
           "cues": 473,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -483,7 +521,10 @@
           "cues": 527,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -516,7 +557,10 @@
           "cues": 511,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -549,7 +593,10 @@
           "cues": 574,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -582,7 +629,10 @@
           "cues": 561,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -615,7 +665,10 @@
           "cues": 471,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -648,7 +701,10 @@
           "cues": 499,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -681,7 +737,10 @@
           "cues": 523,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -709,12 +768,17 @@
         },
         "ass": {
           "path": "subtitles/azumanga-daiou/ep_20.kk.ass",
-          "sha256": "a0c087d0639c871dc64c7acfa1b4e602d32364058c83c757fc13880a2a12647e",
-          "bytes": 48925,
+          "sha256": "2a14c09c6565d838b8d6172af72d902385ffad904b6398af256de497bfcb5dd0",
+          "bytes": 43977,
           "cues": 489,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -742,12 +806,17 @@
         },
         "ass": {
           "path": "subtitles/azumanga-daiou/ep_21.kk.ass",
-          "sha256": "77abc02d15ead809cc85a7a3e655055fd3947a42a005ffbb1605858697465800",
-          "bytes": 41425,
+          "sha256": "8ea63a867e780228274415501eb55767410a356b3802065880f63e76afbaaec2",
+          "bytes": 36873,
           "cues": 445,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -780,7 +849,10 @@
           "cues": 452,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -813,7 +885,10 @@
           "cues": 493,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -846,7 +921,10 @@
           "cues": 511,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -879,7 +957,10 @@
           "cues": 542,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
@@ -912,9 +993,17 @@
           "cues": 449,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 80,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/azumanga-daiou.json"
+  "quality_issues_count": 82,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/azumanga-daiou.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

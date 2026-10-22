@@ -25,6 +25,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -39,6 +40,7 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -68,12 +70,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_01.kk.ass",
-          "sha256": "12d33234d17ba5a2b2041a2f3d095a8b10d9ab3434d251b4ad43b2fbc1abc4da",
-          "bytes": 87188,
-          "cues": 887,
-          "origin": "source"
+          "sha256": "971f41e89731154f330f051980fa77823f610da295ba92d54a0476457076730b",
+          "bytes": 87960,
+          "cues": 878,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -106,7 +113,10 @@
           "cues": 904,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -134,12 +144,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_03.kk.ass",
-          "sha256": "b1ea1fff4ae9795b3149e6b7792fe0d21d9e4f034bf6ab095806e4bba9056adc",
-          "bytes": 76577,
-          "cues": 766,
-          "origin": "source"
+          "sha256": "1040a8b81b2c7b4df5b297fb4317d7652d6cc9c2ecff663016d012fe3959391b",
+          "bytes": 75890,
+          "cues": 746,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -172,7 +187,10 @@
           "cues": 880,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -200,12 +218,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_05.kk.ass",
-          "sha256": "cb8e06b79232cf068e517277744429d2590dfc713afcfa78913f982127324412",
-          "bytes": 80598,
-          "cues": 855,
-          "origin": "source"
+          "sha256": "8f80c986adda359edf9847c56afb4aac4bd25c7cdaa72ecbbd9bff4fbeab3f4d",
+          "bytes": 79300,
+          "cues": 821,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -238,7 +261,10 @@
           "cues": 660,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -266,12 +292,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_07.kk.ass",
-          "sha256": "a1743f9c5c2367d2e7ca456d9610a79eac32e3ce069b0f8cacef066dd5c040e3",
-          "bytes": 90717,
-          "cues": 922,
-          "origin": "source"
+          "sha256": "9d0d2e81f3d08da8653687aa30ca1edab7e9de27b82eb49e51236de25ff277e0",
+          "bytes": 89572,
+          "cues": 890,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -299,12 +330,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_08.kk.ass",
-          "sha256": "6d367ab4594c23fcefafcf923af5df6e85be42f2f18280a4a87d3bc9aba11a21",
-          "bytes": 92383,
-          "cues": 953,
-          "origin": "source"
+          "sha256": "76740bae20e253ee83c719e85bfe63c71b81961ed8263cca8bae95123fcf2203",
+          "bytes": 91402,
+          "cues": 921,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -332,12 +368,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_09.kk.ass",
-          "sha256": "614942847425e0cb09df75edc2d5c215cefc4d67c3cf4c76f4cfea6c1435ba3d",
-          "bytes": 85504,
-          "cues": 879,
-          "origin": "source"
+          "sha256": "e11c5e21e4cf87f1ab069d30a315ae72fbb5a992b3bc02b34ef242abfb48677a",
+          "bytes": 84269,
+          "cues": 848,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -365,12 +406,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_10.kk.ass",
-          "sha256": "c4299244583e8d11c24e91d1e6268cfa1b07381d06b1ee7ec95deeadf74be361",
-          "bytes": 88666,
-          "cues": 894,
-          "origin": "source"
+          "sha256": "81d1a7a350ef2d5403a467b1696631c5de238880583b2fa797569c608a04c11b",
+          "bytes": 87519,
+          "cues": 863,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -398,12 +444,17 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_11.kk.ass",
-          "sha256": "8032625526320cc7feac8b41f503ae7393081db6d6c321942c8bf7bf25fd8e57",
-          "bytes": 79289,
-          "cues": 788,
-          "origin": "source"
+          "sha256": "58ce67213546aa2fe964afc79de43d75c741460eacdcd1f13aabb542fa1838f7",
+          "bytes": 77518,
+          "cues": 757,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -431,14 +482,24 @@
         },
         "ass": {
           "path": "subtitles/a3-spring-summer/ep_12.kk.ass",
-          "sha256": "8ba2be57cd53d8eb34bfc4db62f03a75e0ae76c91b1c33cd2848426d960dcab5",
-          "bytes": 85838,
-          "cues": 859,
-          "origin": "source"
+          "sha256": "c32d6ffed69943ed44826713ba049a282108e818697ef874d5768e052c5059cf",
+          "bytes": 85958,
+          "cues": 847,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 48,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/a3-spring-summer.json"
+  "quality_issues_count": 54,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/a3-spring-summer.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

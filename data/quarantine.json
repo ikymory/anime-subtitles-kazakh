@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "policy": "Preserve raw archives. Exclude only reviewed source hashes from playable manifests. Changed anchors require a new review.",
+  "tracks": [
+    {
+      "slug": "jojo-steel-ball-run",
+      "episode": 1,
+      "source_path": "subtitles/jojo-steel-ball-run/ep_01.kk.srt",
+      "source_sha256": "dee4f52b3c9615b2d1a50bf41e6dd90f46d63458603a43a7d5e2e7e8b1f0e9b5",
+      "reason": "All 30 non-credit cues exactly match hand-authored dialogue and invented timings in the original local generator; no original subtitle translation occurred.",
+      "evidence": "Original generator scratch/generate_sbr_subtitles.py:18-49, DIALOGUES AST matches every non-credit cue including start and end times. Review date 2026-10-22."
+    },
+    {
+      "slug": "jojo-steel-ball-run",
+      "episode": 2,
+      "source_path": "subtitles/jojo-steel-ball-run/ep_02.kk.srt",
+      "source_sha256": "fad1c079fff85c62eeb0088c7ac76f95796caf27c47e9b23b7fde3d31c1c3379",
+      "reason": "All 49 non-credit cues exactly match hand-authored dialogue and invented timings in the original local generator; no original subtitle translation occurred.",
+      "evidence": "Original generator scratch/generate_sbr_stage2_subtitles.py:22-72, DIALOGUES_EP2 AST matches every non-credit cue including start and end times. Review date 2026-10-22."
+    }
+  ]
+}

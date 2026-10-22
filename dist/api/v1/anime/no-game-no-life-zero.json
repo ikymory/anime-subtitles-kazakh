@@ -31,9 +31,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -68,9 +70,23 @@
           "cues": 1548,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "english_dialogue_requires_review",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 6,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/no-game-no-life-zero.json"
+  "quality_issues_count": 8,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/no-game-no-life-zero.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

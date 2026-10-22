@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,24 @@
         },
         "ass": {
           "path": "subtitles/inuyasha-guren-no-houraijima/ep_01.kk.ass",
-          "sha256": "2ed8b12786362781e446c49123c29ac7db995cc8af73ef01ac05dbcb75e0021e",
-          "bytes": 211493,
-          "cues": 2055,
-          "origin": "source"
+          "sha256": "3ae13cc87eed16929e2444903ed369a2cfe060767797c8294423ddec4ced9c42",
+          "bytes": 191287,
+          "cues": 2051,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/inuyasha-guren-no-houraijima.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/inuyasha-guren-no-houraijima.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

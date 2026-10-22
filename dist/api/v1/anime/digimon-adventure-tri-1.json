@@ -31,9 +31,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -63,14 +65,25 @@
         },
         "ass": {
           "path": "subtitles/digimon-adventure-tri-1/ep_01.kk.ass",
-          "sha256": "0a0be6ef2e08ae1aa84921302cdd390e9d1dc2b434b8bd9cb42c65f22b0b282f",
-          "bytes": 106821,
+          "sha256": "233bf54aec3f042c5564df8d2f2b406ff630024de7f0270cd969f27c1acdbc63",
+          "bytes": 99109,
           "cues": 931,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/digimon-adventure-tri-1.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/digimon-adventure-tri-1.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

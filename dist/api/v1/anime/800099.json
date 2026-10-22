@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,24 @@
         },
         "ass": {
           "path": "subtitles/haikyuu-sainou-to-sense/ep_01.kk.ass",
-          "sha256": "23b5eb08602c45d8b5d7fd51ca57df18c52a4b2528ffe6da418e008bf12ffc16",
-          "bytes": 138470,
+          "sha256": "87f60faca49ff3277edca0c7d5a3dbdb2f783b0f2b81c0edcfdd6d6b7b02a19e",
+          "bytes": 137020,
           "cues": 1368,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/haikyuu-sainou-to-sense.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/haikyuu-sainou-to-sense.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

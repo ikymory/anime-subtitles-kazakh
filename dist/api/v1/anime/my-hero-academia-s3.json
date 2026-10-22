@@ -30,9 +30,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -67,9 +69,17 @@
           "cues": 405,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 5,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/my-hero-academia-s3.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/my-hero-academia-s3.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

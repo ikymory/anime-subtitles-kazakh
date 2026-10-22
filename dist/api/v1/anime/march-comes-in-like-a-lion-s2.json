@@ -28,6 +28,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -51,6 +52,7 @@
     21,
     22
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 21,
   "available_episodes_count": 21,
   "subtitles": [
@@ -85,7 +87,10 @@
           "cues": 5794,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -113,12 +118,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_02.kk.ass",
-          "sha256": "cff8853f2666607ecea2f9cfbe178059771e78d462f073396a023b439d7fe79e",
-          "bytes": 213241,
+          "sha256": "0d16b72588d7f848ef8473d28360e6ab81cf7c442d0544a5b37bf8e36669334b",
+          "bytes": 215627,
           "cues": 2779,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -146,12 +156,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_03.kk.ass",
-          "sha256": "21c6431f8d9f56b26cd3f9ac019f917211b3393fb25367e3d5fab7c41eb8c71b",
-          "bytes": 445646,
+          "sha256": "881ccd062a191fa8a95359c30d8b56a8aff4c10674d3cf3857201dd150b04125",
+          "bytes": 454439,
           "cues": 6160,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -184,7 +199,10 @@
           "cues": 580,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -212,12 +230,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_05.kk.ass",
-          "sha256": "80154015bbb07d9d84f4596eb2fd6a7247d71b3f787f259995597c5bbed4d8eb",
-          "bytes": 439547,
+          "sha256": "59877c497cf4ffaf8f3efe18b0bb98341d70e08c1671185157ac65078f567cfe",
+          "bytes": 448063,
           "cues": 6218,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -245,12 +268,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_06.kk.ass",
-          "sha256": "0b1c4ae1a3a9b502899e387950fd67a5068aaa759bea4eb6df53e4a17e66ba24",
-          "bytes": 229845,
+          "sha256": "f793705ee2e3a57abb7e1b531d426c24ae91c6debb59e93c19fafedcd643553c",
+          "bytes": 232921,
           "cues": 3178,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -283,7 +311,10 @@
           "cues": 10228,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -311,12 +342,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_08.kk.ass",
-          "sha256": "be182c669252d770833fc94780108eb38421c45a0d5f07952100029340965911",
-          "bytes": 125669,
+          "sha256": "724984053c7ce89b10bd9d849b3a816f8c82c2cc121666416b017b5bc094428e",
+          "bytes": 125494,
           "cues": 1470,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -349,7 +385,10 @@
           "cues": 603,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -382,7 +421,10 @@
           "cues": 2784,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -415,7 +457,11 @@
           "cues": 1908,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization",
+        "repeated_dialogue_requires_review"
+      ]
     },
     {
       "episode": 13,
@@ -443,12 +489,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_13.kk.ass",
-          "sha256": "7b1e9380ab4b4a154415ac6350e23c262fc2d6e09e6aeca29b33789aca87b4e0",
-          "bytes": 69686,
-          "cues": 632,
-          "origin": "source"
+          "sha256": "d1163af79e9fff9a6b686c4d8f5f98482b82f58e118379eb790c4eb1a264a010",
+          "bytes": 67652,
+          "cues": 629,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -476,12 +527,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_14.kk.ass",
-          "sha256": "561c1a56bc2c720d9d8dd6ede0b063c59f3945f0d3a4b609f2d71dcaf52f4d71",
-          "bytes": 144968,
-          "cues": 1729,
-          "origin": "source"
+          "sha256": "4a67f84cf3918d5799ac2b3b3f4cc0231080c44da1ec1c965d5a2602b992c548",
+          "bytes": 144993,
+          "cues": 1726,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -509,12 +565,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_15.kk.ass",
-          "sha256": "501e528a2b915fee34a7534f6f727007b6f127266818de1f3a707af75bcc51c2",
-          "bytes": 77576,
-          "cues": 669,
-          "origin": "source"
+          "sha256": "530dbfc4180ce2ddaffb18a147f892f53d3db5612c8637b9fa21d94b44868f8f",
+          "bytes": 75183,
+          "cues": 663,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -542,12 +603,17 @@
         },
         "ass": {
           "path": "subtitles/march-comes-in-like-a-lion-s2/ep_16.kk.ass",
-          "sha256": "06b69576891240c2f97062416753cc6516431825d03754f218ba0b80bb9c69cf",
-          "bytes": 274584,
-          "cues": 3615,
-          "origin": "source"
+          "sha256": "e3b8384aae0984b18c8fe4e6196a5b65beea128de99a7efc3da10d170aaee204",
+          "bytes": 278281,
+          "cues": 3612,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -580,7 +646,10 @@
           "cues": 1933,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -613,7 +682,10 @@
           "cues": 1730,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -646,7 +718,11 @@
           "cues": 4295,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization",
+        "repeated_dialogue_requires_review"
+      ]
     },
     {
       "episode": 20,
@@ -679,7 +755,10 @@
           "cues": 4874,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -712,7 +791,10 @@
           "cues": 2871,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -745,9 +827,20 @@
           "cues": 1535,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 81,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/march-comes-in-like-a-lion-s2.json"
+  "quality_issues_count": 85,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/march-comes-in-like-a-lion-s2.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization",
+    "repeated_dialogue_requires_review"
+  ]
 }

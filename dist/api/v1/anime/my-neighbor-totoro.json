@@ -30,11 +30,13 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
     264
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 3,
   "available_episodes_count": 3,
   "subtitles": [
@@ -69,7 +71,11 @@
           "cues": 929,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -102,7 +108,11 @@
           "cues": 845,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 264,
@@ -135,9 +145,18 @@
           "cues": 845,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 16,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/my-neighbor-totoro.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/my-neighbor-totoro.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

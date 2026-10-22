@@ -1,0 +1,5 @@
+# Crawler rules are effective only at the origin root /robots.txt.
+# GitHub Pages project paths cannot configure the origin root.
+User-agent: *
+Allow: /anime-subtitles-kazakh/
+Sitemap: https://ikymory.github.io/anime-subtitles-kazakh/sitemap.xml

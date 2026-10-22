@@ -30,9 +30,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -62,14 +64,25 @@
         },
         "ass": {
           "path": "subtitles/bleach-fade-to-black/ep_01.kk.ass",
-          "sha256": "bd2dd201e4f975e0650062e8a390e5f9146b8eea6cc4bbbe51fb64cc872afd15",
-          "bytes": 108231,
+          "sha256": "6eee86703350ee19b5846fd8e29b86ab36cf2c8bbc775f70d1119bfd171a8de5",
+          "bytes": 100842,
           "cues": 1000,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-fade-to-black.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-fade-to-black.json",
+  "quality_flags": [
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

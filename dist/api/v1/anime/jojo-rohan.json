@@ -29,12 +29,14 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
     3,
     4
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 4,
   "available_episodes_count": 4,
   "subtitles": [
@@ -69,7 +71,11 @@
           "cues": 374,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -102,7 +108,11 @@
           "cues": 399,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -135,7 +145,11 @@
           "cues": 372,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -168,9 +182,17 @@
           "cues": 319,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 20,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jojo-rohan.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/jojo-rohan.json",
+  "quality_flags": [
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

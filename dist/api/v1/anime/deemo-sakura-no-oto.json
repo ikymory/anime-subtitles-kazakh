@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,25 @@
         },
         "ass": {
           "path": "subtitles/deemo-sakura-no-oto/ep_01.kk.ass",
-          "sha256": "feeb40ef9ecd661334e352919483b586a9fbb0de188702eeac9f3a38148efb60",
-          "bytes": 65467,
-          "cues": 719,
-          "origin": "source"
+          "sha256": "873009da4ea5073114059180c46a7b9363eb4dc25114265fc2717c10a96e3085",
+          "bytes": 57513,
+          "cues": 608,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deemo-sakura-no-oto.json"
+  "quality_issues_count": 6,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deemo-sakura-no-oto.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

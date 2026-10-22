@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     7,
     14,
@@ -42,6 +43,7 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 14,
   "available_episodes_count": 14,
   "subtitles": [
@@ -76,7 +78,11 @@
           "cues": 365,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -109,7 +115,10 @@
           "cues": 343,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -142,7 +151,10 @@
           "cues": 386,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -175,7 +187,10 @@
           "cues": 375,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -208,7 +223,10 @@
           "cues": 326,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -241,7 +259,10 @@
           "cues": 333,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -274,7 +295,10 @@
           "cues": 368,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -307,7 +331,11 @@
           "cues": 365,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -340,7 +368,10 @@
           "cues": 323,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -373,7 +404,10 @@
           "cues": 394,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -406,7 +440,10 @@
           "cues": 326,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -439,7 +476,10 @@
           "cues": 321,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -472,7 +512,10 @@
           "cues": 339,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 26,
@@ -505,9 +548,16 @@
           "cues": 337,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 42,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-sennen-kessen-hen-ketsubetsu-tan.json"
+  "quality_issues_count": 43,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/bleach-sennen-kessen-hen-ketsubetsu-tan.json",
+  "quality_flags": [
+    "duplicate_dialogue_content",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -30,11 +30,13 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     7,
     8
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 3,
   "available_episodes_count": 3,
   "subtitles": [
@@ -69,7 +71,12 @@
           "cues": 1365,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -102,7 +109,12 @@
           "cues": 1308,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -135,9 +147,19 @@
           "cues": 1365,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "mirror_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 19,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/howl-s-moving.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/howl-s-moving.json",
+  "quality_flags": [
+    "english_dialogue_requires_review",
+    "mirror_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

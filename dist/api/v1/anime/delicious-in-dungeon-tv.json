@@ -29,6 +29,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -57,6 +58,7 @@
     25,
     26
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 26,
   "available_episodes_count": 26,
   "subtitles": [
@@ -91,7 +93,12 @@
           "cues": 514,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "duplicate_episode_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -124,7 +131,11 @@
           "cues": 523,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "english_dialogue_requires_review",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -157,7 +168,10 @@
           "cues": 433,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -190,7 +204,12 @@
           "cues": 470,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -223,7 +242,10 @@
           "cues": 414,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -256,7 +278,12 @@
           "cues": 338,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -289,7 +316,11 @@
           "cues": 476,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -322,7 +353,10 @@
           "cues": 391,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -355,7 +389,11 @@
           "cues": 517,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -388,7 +426,11 @@
           "cues": 470,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -421,7 +463,11 @@
           "cues": 330,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -454,7 +500,10 @@
           "cues": 342,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -487,7 +536,10 @@
           "cues": 446,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -520,7 +572,10 @@
           "cues": 582,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -553,7 +608,12 @@
           "cues": 630,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -581,12 +641,17 @@
         },
         "ass": {
           "path": "subtitles/delicious-in-dungeon-tv/ep_16.kk.ass",
-          "sha256": "aef1fa174670fb53c148dcf7d104e03352b60be726fb41bfd09510e44a2c4e18",
-          "bytes": 60530,
+          "sha256": "89c2be9582c9cfe3309fbd57f001cbfcf30762ff254059138ee6b017fbe7659f",
+          "bytes": 54995,
           "cues": 587,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -619,7 +684,10 @@
           "cues": 564,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -647,12 +715,17 @@
         },
         "ass": {
           "path": "subtitles/delicious-in-dungeon-tv/ep_18.kk.ass",
-          "sha256": "8f764e95c9c680099db9e98203811bf5511ec18b76c984a9687f3dfbe0043236",
-          "bytes": 62176,
+          "sha256": "778dc268dc0244880802d7dd0231a6aa6f097a9f59e61012d57382911536f14e",
+          "bytes": 56650,
           "cues": 586,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -685,7 +758,10 @@
           "cues": 645,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -718,7 +794,12 @@
           "cues": 597,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -746,12 +827,17 @@
         },
         "ass": {
           "path": "subtitles/delicious-in-dungeon-tv/ep_21.kk.ass",
-          "sha256": "a0f69304e27f3bf0147d9531d10cf2d051c4004f0e517097b14b7f4c25eaa104",
-          "bytes": 69074,
+          "sha256": "c217f4d94eb8abecd9b787add99810a0e27912d3d540d1e843a4f1a29f3039ea",
+          "bytes": 62828,
           "cues": 666,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -784,7 +870,10 @@
           "cues": 539,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -817,7 +906,10 @@
           "cues": 698,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -850,7 +942,11 @@
           "cues": 366,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "duplicate_dialogue_content",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -878,12 +974,18 @@
         },
         "ass": {
           "path": "subtitles/delicious-in-dungeon-tv/ep_25.kk.ass",
-          "sha256": "3f1d4fb5757e38b76d126f3b4510456bc64cd8ba2fe942041873caba639204c7",
-          "bytes": 103862,
-          "cues": 1104,
-          "origin": "source"
+          "sha256": "df758f22cd25df8893e151293f7052e80d794f0a69c8b3b0b931371fc1a73468",
+          "bytes": 72098,
+          "cues": 621,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization",
+        "repeated_dialogue_requires_review"
+      ]
     },
     {
       "episode": 26,
@@ -911,14 +1013,31 @@
         },
         "ass": {
           "path": "subtitles/delicious-in-dungeon-tv/ep_26.kk.ass",
-          "sha256": "6b65a52162fb78810b24a734524a047946259fcc416ba500a644395e8d83e616",
-          "bytes": 58372,
+          "sha256": "e7c3f1087aeb7e94c612a5c62bbe7159ea6b9be0254cca4b60913694bf76e7f7",
+          "bytes": 55618,
           "cues": 496,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 93,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/delicious-in-dungeon-tv.json"
+  "quality_issues_count": 107,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/delicious-in-dungeon-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_dialogue_content",
+    "duplicate_episode_content",
+    "duplicate_title_identity",
+    "english_dialogue_requires_review",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization",
+    "repeated_dialogue_requires_review"
+  ]
 }

@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -33,6 +34,7 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 5,
   "available_episodes_count": 5,
   "subtitles": [
@@ -67,7 +69,10 @@
           "cues": 366,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -100,7 +105,10 @@
           "cues": 560,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -133,7 +141,10 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -166,7 +177,10 @@
           "cues": 472,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -199,9 +213,15 @@
           "cues": 462,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 15,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/araburu-kisetsu-no-otome-domo-yo.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/araburu-kisetsu-no-otome-domo-yo.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

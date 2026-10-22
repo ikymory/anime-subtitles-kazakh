@@ -28,6 +28,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -55,6 +56,7 @@
     24,
     25
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 25,
   "available_episodes_count": 25,
   "subtitles": [
@@ -89,7 +91,12 @@
           "cues": 471,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -122,7 +129,10 @@
           "cues": 427,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -155,7 +165,10 @@
           "cues": 462,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -188,7 +201,10 @@
           "cues": 478,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -221,7 +237,10 @@
           "cues": 421,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -254,7 +273,10 @@
           "cues": 454,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -287,7 +309,10 @@
           "cues": 450,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -320,7 +345,10 @@
           "cues": 475,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -353,7 +381,10 @@
           "cues": 512,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -386,7 +417,10 @@
           "cues": 414,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -419,7 +453,10 @@
           "cues": 410,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -452,7 +489,10 @@
           "cues": 499,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -485,7 +525,10 @@
           "cues": 682,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -513,12 +556,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_14.kk.ass",
-          "sha256": "db6ba4e9ca2c50ae732a61480ac2704ad70b7683da2f77d95485f4ea71eaa90e",
-          "bytes": 114246,
-          "cues": 1038,
-          "origin": "source"
+          "sha256": "b76d54981f83fbc58165de07396f570339550fa4a1042a69e2c63fac2d925806",
+          "bytes": 111172,
+          "cues": 1006,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -546,12 +594,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_15.kk.ass",
-          "sha256": "d3818c77dc9f1e0d6793162e39ca854f67a70c47acdefbc3e2697ff02737eca4",
-          "bytes": 73599,
-          "cues": 702,
-          "origin": "source"
+          "sha256": "3fbe01bc4af5b02cf27dc40d08707ddd466b8bbf95d6999e1ef2a3ee36ad3656",
+          "bytes": 68911,
+          "cues": 670,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -579,12 +632,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_16.kk.ass",
-          "sha256": "0de78fe7116237c382baf2e5d027642211e50e8ce08e7ef1f3ef7c06bb926189",
-          "bytes": 77557,
-          "cues": 769,
-          "origin": "source"
+          "sha256": "8e8e0170d7a5e4f15ec6d336773346e2023a3271313299f9fecb01bb145f8de7",
+          "bytes": 72792,
+          "cues": 737,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -612,12 +670,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_17.kk.ass",
-          "sha256": "668d162d7c6e5327cd88003788eee375576fadd904f60a51425d51c4260bae33",
-          "bytes": 66632,
-          "cues": 616,
-          "origin": "source"
+          "sha256": "b9f2ac4e08dbf41d0bd1b5db256f0acc86e8124306b72ed0620b2e78b9d13338",
+          "bytes": 63159,
+          "cues": 600,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -645,12 +708,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_18.kk.ass",
-          "sha256": "50c22ad0ab7a961950218a680ef212383ac3371cee8a741c653a481d0d936f19",
-          "bytes": 103170,
-          "cues": 1196,
-          "origin": "source"
+          "sha256": "c3a916083c98c83e2f60424adfaa6382a04c2b42b2835ae3999907583f0cf652",
+          "bytes": 100941,
+          "cues": 1164,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -678,12 +746,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_19.kk.ass",
-          "sha256": "46a403f7120c86af2fa6ff0ce9122ddedd4a6ee2782fab39dcc9a70a526679da",
-          "bytes": 71546,
-          "cues": 722,
-          "origin": "source"
+          "sha256": "e582ce79a379cb7c6c8e9b6c8eca87f28787fd890d423e52393d91042d94e4ad",
+          "bytes": 66772,
+          "cues": 690,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -711,12 +784,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_20.kk.ass",
-          "sha256": "cd0a67b58685044f03d3ba4040d5b1b7c01fd79d796112a8b98750525acf5aa0",
-          "bytes": 82055,
-          "cues": 809,
-          "origin": "source"
+          "sha256": "c1018cf45d72ad4e3f30f9546d8ad69df5e41edb07d09915a2e05bbe37fdd93f",
+          "bytes": 77496,
+          "cues": 777,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 21,
@@ -744,12 +822,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_21.kk.ass",
-          "sha256": "e73d9cf041dcf76667271f42c9cf2a383012073d46e414092d083e9b66da750d",
-          "bytes": 83310,
-          "cues": 825,
-          "origin": "source"
+          "sha256": "f2b12b2f862c79415f0f32e4d54d1cbfcc4336958fad3ca8d980019d5c8029e1",
+          "bytes": 78529,
+          "cues": 793,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 22,
@@ -777,12 +860,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_22.kk.ass",
-          "sha256": "5a98f8997677a8a0e901447521b3fb2c60107fa27403f1d8743a1a6ac471d7c3",
-          "bytes": 81933,
-          "cues": 830,
-          "origin": "source"
+          "sha256": "cb4b2a75359612f38ae508acccd68ba4a61b680f3ac0a8e5344628ebfd4f5fa3",
+          "bytes": 77257,
+          "cues": 795,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 23,
@@ -810,12 +898,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_23.kk.ass",
-          "sha256": "03f6eecb862bcc5c8131177d82df6436330c52ae4d4dfc18b0e32fd357e6f8d7",
-          "bytes": 71970,
-          "cues": 718,
-          "origin": "source"
+          "sha256": "37eb36ef2ef168acc99f0146777ae0ea50491a2143dcdaa32af2bda82731b65e",
+          "bytes": 67286,
+          "cues": 686,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 24,
@@ -843,12 +936,17 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_24.kk.ass",
-          "sha256": "d8fac662429ef0fa90e10aa2f64bc41752bb3478ca059bde0bc08e2be4e6b563",
-          "bytes": 74237,
-          "cues": 748,
-          "origin": "source"
+          "sha256": "1ed72bac2e77fb548d9bb8ef203101376cd9361434260d3aeb96b35348cd2336",
+          "bytes": 69511,
+          "cues": 716,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 25,
@@ -876,14 +974,27 @@
         },
         "ass": {
           "path": "subtitles/deca-dence-tv/ep_25.kk.ass",
-          "sha256": "863ed2e8751b38ae16511a524751070c1e0122fe481d86e745db7ae0b8e398e6",
-          "bytes": 88812,
-          "cues": 897,
-          "origin": "source"
+          "sha256": "f4238d273f78e9542bac62eb77fe100ce005e7a312c293e1607071413fb46288",
+          "bytes": 85980,
+          "cues": 896,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 90,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deca-dence-tv.json"
+  "quality_issues_count": 103,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/deca-dence-tv.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -29,9 +29,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -61,14 +63,24 @@
         },
         "ass": {
           "path": "subtitles/kara-no-kyoukai-mirai-fukuin/ep_01.kk.ass",
-          "sha256": "629a71824cec466cddfd7eec716501b96449b0158e9ef5c3607fca070f37a081",
-          "bytes": 99977,
-          "cues": 965,
-          "origin": "source"
+          "sha256": "b97f9738947cbc676c82c3058dd78cc0b19f240b4f7959e9c15af51786e73aef",
+          "bytes": 103353,
+          "cues": 956,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-mirai-fukuin.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kara-no-kyoukai-mirai-fukuin.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

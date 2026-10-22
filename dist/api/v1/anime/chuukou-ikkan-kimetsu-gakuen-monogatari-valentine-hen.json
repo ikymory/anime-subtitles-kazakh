@@ -26,12 +26,14 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     4,
     5,
     6,
     7
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 4,
   "available_episodes_count": 4,
   "subtitles": [
@@ -66,7 +68,10 @@
           "cues": 52,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -99,7 +104,10 @@
           "cues": 31,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -132,7 +140,10 @@
           "cues": 59,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -165,9 +176,15 @@
           "cues": 70,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 12,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuukou-ikkan-kimetsu-gakuen-monogatari-valentine-hen.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/chuukou-ikkan-kimetsu-gakuen-monogatari-valentine-hen.json",
+  "quality_flags": [
+    "normalized_subtitle_serialization"
+  ]
 }

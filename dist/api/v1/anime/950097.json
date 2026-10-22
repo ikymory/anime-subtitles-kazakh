@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -34,6 +35,7 @@
     5,
     6
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 6,
   "available_episodes_count": 6,
   "subtitles": [
@@ -68,7 +70,12 @@
           "cues": 252,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -101,7 +108,12 @@
           "cues": 364,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -129,12 +141,17 @@
         },
         "ass": {
           "path": "subtitles/11eyes/ep_03.kk.ass",
-          "sha256": "e70d9a1719713a82e499826574169a7636f1439972582fa66d8a877a449f2cab",
-          "bytes": 32059,
+          "sha256": "801c50bd870e801af77b65845da002435882b179a1b7c720776248d02fbf8b8e",
+          "bytes": 28877,
           "cues": 283,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -167,7 +184,12 @@
           "cues": 260,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -200,7 +222,12 @@
           "cues": 282,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -233,9 +260,20 @@
           "cues": 697,
           "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "invalid_subtitle",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 24,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/11eyes.json"
+  "quality_issues_count": 25,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/11eyes.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "invalid_subtitle",
+    "normalized_subtitle_serialization"
+  ]
 }

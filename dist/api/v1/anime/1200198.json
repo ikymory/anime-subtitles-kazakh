@@ -26,6 +26,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -40,6 +41,7 @@
     11,
     12
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 12,
   "available_episodes_count": 12,
   "subtitles": [
@@ -69,12 +71,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_01.kk.ass",
-          "sha256": "1423f438b48a7ba7b9703fee81bfefaf1f09d6cdfd3386a7fd0dc75514bde15b",
-          "bytes": 19871,
-          "cues": 189,
-          "origin": "source"
+          "sha256": "9c9ba14228bb2b4c9f5bac1eed5cbd4c1a4658f524a43f7002079d413feab57d",
+          "bytes": 15711,
+          "cues": 162,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -102,12 +109,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_02.kk.ass",
-          "sha256": "48e5bbdca11c0d198c461187ffbc6fb7f492475a70086951461ccc6d9d4042ae",
-          "bytes": 20817,
-          "cues": 186,
-          "origin": "source"
+          "sha256": "5eeb6773ea8e0ab1c336f843d2127d20d812280980165c9e2d5aa101dcd2475f",
+          "bytes": 16697,
+          "cues": 159,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -135,12 +147,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_03.kk.ass",
-          "sha256": "2f6a696c2ff985a12cf803f866aae1abeb715b81362b4f31153ef3c0d67003da",
-          "bytes": 21904,
-          "cues": 204,
-          "origin": "source"
+          "sha256": "c02bcefaa4906b55b2357400a248d81d01b52fd5b30a40dc03522ed7800aac29",
+          "bytes": 17804,
+          "cues": 177,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -168,12 +185,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_04.kk.ass",
-          "sha256": "ccf78aa2652fe35875785d3c2046e8b80fecaa8a2cea8b299af21b5affee2222",
-          "bytes": 19299,
-          "cues": 173,
-          "origin": "source"
+          "sha256": "3125de53645825e9227fd563975f59dd97667a19de562a0cc1840ea5dc495f29",
+          "bytes": 15193,
+          "cues": 146,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -201,12 +223,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_05.kk.ass",
-          "sha256": "82a7c3de3e3d7e3a8c0bdeb44bdbe231e119d6cf006a094ff358a8a95ac608fd",
-          "bytes": 22096,
-          "cues": 197,
-          "origin": "source"
+          "sha256": "4d6357efa31e7815cf3f42513235058f8e74b7d0af2a46e94f9554c74bc9e569",
+          "bytes": 17977,
+          "cues": 170,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -234,12 +261,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_06.kk.ass",
-          "sha256": "71b600734ff849b06033cf8664cbc64b031a7e45f92126934705334d78067fdf",
-          "bytes": 18779,
-          "cues": 165,
-          "origin": "source"
+          "sha256": "474ce97c263ecbea1f684cecdaf3cb2fa2aa3840f712c519cffc788fa8df5afb",
+          "bytes": 14671,
+          "cues": 138,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -267,12 +299,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_07.kk.ass",
-          "sha256": "89c6a62d013caedfe53c29289e0bad313d36ccca5a1b3522d5744e0232f4eccb",
-          "bytes": 19423,
-          "cues": 175,
-          "origin": "source"
+          "sha256": "96627ee63399091d85357dade55c9029d2c235fed4f2a8bee2752903aae3103e",
+          "bytes": 15322,
+          "cues": 148,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -300,12 +337,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_08.kk.ass",
-          "sha256": "22849bec347652493487fe21e6861bf8ee11b3b6820ef78b76e9e1b11a4530cd",
-          "bytes": 18274,
-          "cues": 166,
-          "origin": "source"
+          "sha256": "e29ea9711a356764c8e01c15a635175b55536ddfaf780cc6fb83b82122f4934f",
+          "bytes": 14173,
+          "cues": 139,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -333,12 +375,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_09.kk.ass",
-          "sha256": "46cf03ca996061f5404688b1a76cf70eacf6381c48739623736801fe68b19329",
-          "bytes": 22657,
-          "cues": 200,
-          "origin": "source"
+          "sha256": "38cadce6a0a829a4741c6962dc2d4f0891f91799a419e3c95cfa23d11769f03e",
+          "bytes": 18551,
+          "cues": 173,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -366,12 +413,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_10.kk.ass",
-          "sha256": "90185590f21757b262983322c7aa608b89f28556168fab64114511d47561ab0d",
-          "bytes": 18579,
-          "cues": 167,
-          "origin": "source"
+          "sha256": "377ae6faa37e21b2ff68c1f7193f66f090339e48992422a0b1cec480e8950447",
+          "bytes": 14479,
+          "cues": 140,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -399,12 +451,17 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_11.kk.ass",
-          "sha256": "4d7dfe6daf24fece15167ff7e0f47f8aece7c1215ed0331b4ab5bb60ba0a88b6",
-          "bytes": 21116,
-          "cues": 188,
-          "origin": "source"
+          "sha256": "38d5a7472624f02bb69daf755a4e206439eb901fffcc44226444f9494672f686",
+          "bytes": 17015,
+          "cues": 161,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -432,14 +489,24 @@
         },
         "ass": {
           "path": "subtitles/diabolik-lovers-more-blood/ep_12.kk.ass",
-          "sha256": "62c45bc5d3b3015151fad94d0c2919fa4c9c9f9274ea158ea7002a5569e2a3b3",
-          "bytes": 19273,
-          "cues": 169,
-          "origin": "source"
+          "sha256": "9155274b1cc66a1a174c40be059c52ec2fdd20901cd87aa306e74577c9153c97",
+          "bytes": 15152,
+          "cues": 142,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 48,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/diabolik-lovers-more-blood.json"
+  "quality_issues_count": 60,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/diabolik-lovers-more-blood.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

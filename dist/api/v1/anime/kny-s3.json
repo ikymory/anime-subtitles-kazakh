@@ -31,10 +31,12 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     264
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 2,
   "available_episodes_count": 2,
   "subtitles": [
@@ -69,7 +71,10 @@
           "cues": 401,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 264,
@@ -102,9 +107,16 @@
           "cues": 1871,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
   "quality_issues_count": 7,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kny-s3.json"
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/kny-s3.json",
+  "quality_flags": [
+    "episode_numbering_requires_review",
+    "normalized_subtitle_serialization"
+  ]
 }

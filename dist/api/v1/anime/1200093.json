@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,24 @@
         },
         "ass": {
           "path": "subtitles/meitantei-conan-hiiro-no-fuzai-shoumei/ep_01.kk.ass",
-          "sha256": "7e93f74eb3f10b2688a2a211f43a161be445cff5a0bf64aa7f102714a88509ac",
-          "bytes": 178306,
-          "cues": 1415,
-          "origin": "source"
+          "sha256": "48d0bc877e25812433a0b1458511a879c5e5ea59f793649f41daf3b98ec12c3d",
+          "bytes": 176792,
+          "cues": 1414,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-hiiro-no-fuzai-shoumei.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/meitantei-conan-hiiro-no-fuzai-shoumei.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

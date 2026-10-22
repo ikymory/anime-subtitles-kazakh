@@ -26,9 +26,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -58,14 +60,24 @@
         },
         "ass": {
           "path": "subtitles/love-live-nijigasaki-gakuen-school-idol-doukoukai-kanketsu-hen-1/ep_01.kk.ass",
-          "sha256": "f17ccea8e49a1b4c277d4ce96dd31f31be94be94e42293e15e104f98f72937c6",
-          "bytes": 233682,
+          "sha256": "78b31e5833ac3c1d8a82e90ce286fb927bfd1975fb1579c5c44c7adaf6b9af8a",
+          "bytes": 232960,
           "cues": 2357,
-          "origin": "source"
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/love-live-nijigasaki-gakuen-school-idol-doukoukai-kanketsu-hen-1.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/love-live-nijigasaki-gakuen-school-idol-doukoukai-kanketsu-hen-1.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

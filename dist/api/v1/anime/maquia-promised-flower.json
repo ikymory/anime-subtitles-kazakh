@@ -29,9 +29,11 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 1,
   "available_episodes_count": 1,
   "subtitles": [
@@ -61,14 +63,24 @@
         },
         "ass": {
           "path": "subtitles/maquia-promised-flower/ep_01.kk.ass",
-          "sha256": "364d5cc9603a5f6736ea2860f9fe10b53ae5a507bf5b8348742cb88c7689c9ff",
-          "bytes": 887513,
-          "cues": 7902,
-          "origin": "source"
+          "sha256": "dfa6fedad6d2cf82c30d585a4a6c4083f3ceef66b0db7aa13595948c37c1cd72",
+          "bytes": 280035,
+          "cues": 3112,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 4,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/maquia-promised-flower.json"
+  "quality_issues_count": 5,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/maquia-promised-flower.json",
+  "quality_flags": [
+    "derived_format",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }

@@ -28,6 +28,7 @@
   "metadata_status": "unverified",
   "coverage_status": "unverified",
   "translation_status": "not_human_verified",
+  "translation_provenance": "legacy_untraced",
   "translated_episodes": [
     1,
     2,
@@ -50,6 +51,7 @@
     19,
     20
   ],
+  "quarantined_episodes": [],
   "translated_episodes_count": 20,
   "available_episodes_count": 20,
   "subtitles": [
@@ -84,7 +86,10 @@
           "cues": 659,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 2,
@@ -117,7 +122,10 @@
           "cues": 644,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 3,
@@ -150,7 +158,10 @@
           "cues": 811,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 4,
@@ -183,7 +194,10 @@
           "cues": 645,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 5,
@@ -216,7 +230,10 @@
           "cues": 735,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 6,
@@ -249,7 +266,10 @@
           "cues": 772,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 7,
@@ -282,7 +302,10 @@
           "cues": 735,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 8,
@@ -315,7 +338,10 @@
           "cues": 658,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 9,
@@ -348,7 +374,10 @@
           "cues": 704,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 10,
@@ -381,7 +410,10 @@
           "cues": 656,
           "origin": "source"
         }
-      }
+      },
+      "quality_flags": [
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 11,
@@ -409,12 +441,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_11.kk.ass",
-          "sha256": "53330352fa852bf9c9b968d99a2672e6c31c67ae38c702f3fe5dd9c29112ccf7",
-          "bytes": 76593,
-          "cues": 873,
-          "origin": "source"
+          "sha256": "17e6d02e64469e24ad82ed8d1a877e47d36eaab6a296460e7dffe9a7e3d00ab4",
+          "bytes": 47906,
+          "cues": 444,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 12,
@@ -442,12 +479,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_12.kk.ass",
-          "sha256": "f4e5213828267ab2daf9708e202b69afb5a1b6c53ad5e4d3ebaa9afac462181a",
-          "bytes": 65842,
-          "cues": 769,
-          "origin": "source"
+          "sha256": "93cdc53503b67f8660bf5c33a7c7bbbe7ec8d018561eb202920d461da25fd9ae",
+          "bytes": 42085,
+          "cues": 400,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 13,
@@ -475,12 +517,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_13.kk.ass",
-          "sha256": "d0196f667e3e7a0bb99ab08184e43e4a7ec3225e013cee14c219e8336a88a022",
-          "bytes": 72113,
-          "cues": 856,
-          "origin": "source"
+          "sha256": "7ef03e1bd5f82b335031a70dfa499c1cd53ea55151f5b2b835bd158264f901a5",
+          "bytes": 49384,
+          "cues": 490,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 14,
@@ -508,12 +555,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_14.kk.ass",
-          "sha256": "f06f076e71809aa60e49f56eb6a3fef6b36c3959afd27f6025080d914d6be7b3",
-          "bytes": 63417,
-          "cues": 773,
-          "origin": "source"
+          "sha256": "dfdf81edbb96b15efc2121ef06e55c7cbb6df53402fb615d7a5873f64a48fb2a",
+          "bytes": 39814,
+          "cues": 404,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 15,
@@ -541,12 +593,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_15.kk.ass",
-          "sha256": "6c911bd9895fb7cd2d543fec77604cf1c093f98e75120c499b7688a79c831e1d",
-          "bytes": 61927,
-          "cues": 743,
-          "origin": "source"
+          "sha256": "19cebe27270976af3266627ff4afd1950a29056dae657cbc0e38db39bfe59f78",
+          "bytes": 39816,
+          "cues": 385,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 16,
@@ -574,12 +631,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_16.kk.ass",
-          "sha256": "35982fdfde042858c222db0e1908eae7f46c904bab8ad2bce8bb6c9536de89bd",
-          "bytes": 60887,
-          "cues": 754,
-          "origin": "source"
+          "sha256": "f5d047c9b8515da4dced897296f66d2dfbaae79beaef08be2ccea08c93b5a5e9",
+          "bytes": 39054,
+          "cues": 400,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 17,
@@ -607,12 +669,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_17.kk.ass",
-          "sha256": "74b9445f0675669b60a29019e1a64a0ff7b9f79d5aace017377c270e95caf0c4",
-          "bytes": 69922,
-          "cues": 829,
-          "origin": "source"
+          "sha256": "3489055b9307427000e2d16a79def5610fa149b3b260a901fb11c16d78d5850f",
+          "bytes": 45652,
+          "cues": 429,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 18,
@@ -640,12 +707,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_18.kk.ass",
-          "sha256": "18efcb23a7ac0c9f14ed38ca45207cf90c30d82a11ac9186f9dd30d931f37df1",
-          "bytes": 61950,
-          "cues": 751,
-          "origin": "source"
+          "sha256": "4516e002bf0bc0eafb87bad7a3f6eb4a46b4f190effddc17736b534ad20d764c",
+          "bytes": 39633,
+          "cues": 387,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 19,
@@ -673,12 +745,17 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_19.kk.ass",
-          "sha256": "b43108eedf155d9767756a0752c9590636f34a23f4a8071d8dc5eead617d3ef5",
-          "bytes": 67771,
-          "cues": 805,
-          "origin": "source"
+          "sha256": "7104959f26194a405de1b8b190848edac6aa1fe1a22b9e66248c917adfe1e299",
+          "bytes": 43996,
+          "cues": 415,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     },
     {
       "episode": 20,
@@ -706,14 +783,26 @@
         },
         "ass": {
           "path": "subtitles/cyberpunk-edgerunners/ep_20.kk.ass",
-          "sha256": "c11fbb830d5f761480f88826ca8f597be91e09880530f7c1d4220de22f0244e3",
-          "bytes": 74597,
-          "cues": 854,
-          "origin": "source"
+          "sha256": "18de67bc77ab5b6631172e3a4f234d1ede804ee791c756bc4c44c92b7b65da82",
+          "bytes": 47520,
+          "cues": 443,
+          "origin": "derived"
         }
-      }
+      },
+      "quality_flags": [
+        "derived_format",
+        "format_dialogue_drift",
+        "normalized_subtitle_serialization"
+      ]
     }
   ],
-  "quality_issues_count": 70,
-  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cyberpunk-edgerunners.json"
+  "quality_issues_count": 82,
+  "api_url": "https://ikymory.github.io/anime-subtitles-kazakh/api/v1/anime/cyberpunk-edgerunners.json",
+  "quality_flags": [
+    "ambiguous_legacy_id",
+    "derived_format",
+    "duplicate_title_identity",
+    "format_dialogue_drift",
+    "normalized_subtitle_serialization"
+  ]
 }
