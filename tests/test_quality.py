@@ -58,11 +58,14 @@ class QualityTests(unittest.TestCase):
             source = root / "subtitles/demo"
             source.mkdir(parents=True)
             (source / "ep_01.kk.srt").write_text(
-                "1\n00:00:01,000 --> 00:00:02,000\nҚайырлы таң!\n", encoding="utf-8"
+                "1\n0:00:01.00 --> 0:00:02.00\nҚайырлы таң!\n",
+                encoding="utf-8",
+                newline="\n",
             )
             (source / "ep_01.kk.vtt").write_text(
                 "WEBVTT\n\n1\n00:00:01.000 --> 00:00:02.000\nБасқа мәтін!\n",
                 encoding="utf-8",
+                newline="\n",
             )
             metadata = root / "catalog.json"
             metadata.write_text(json.dumps([{"slug": "demo"}]), encoding="utf-8")
